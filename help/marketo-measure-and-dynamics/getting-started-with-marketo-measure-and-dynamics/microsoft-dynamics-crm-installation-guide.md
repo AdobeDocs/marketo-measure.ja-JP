@@ -3,9 +3,9 @@ unique-page-id: 18874763
 description: '"[!DNL Microsoft Dynamics] CRM インストールガイド — Marketoの測定 — 製品ドキュメント»'
 title: '"[!DNL Microsoft Dynamics] CRM インストールガイド»'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1353'
 ht-degree: 1%
 
 ---
@@ -138,11 +138,11 @@ Adobe Admin Consoleにアクセスすると、 [!DNL Marketo Measure] 「概要�
 
 >[!NOTE]
 >
->を [!DNL Marketo Measure] 管理者 ( [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}) の場合は、ユーザーをユーザーとして追加する必要があります _および_ 管理者 [!DNL Marketo Measure] 内の製品プロファイル [!DNL Marketo Measure] 製品カード。
+>を [!DNL Marketo Measure] 管理者 ( [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}) の場合、ユーザーはユーザーとして追加する必要があります _および_ 管理者 [!DNL Marketo Measure] 内の製品プロファイル [!DNL Marketo Measure] 製品カード。
 
 **へのログイン[!DNL Marketo Measure]**
 
-製品プロファイルにユーザーを追加すると、そのユーザーは [!DNL Marketo Measure] インスタンスを選択して **Adobe IDでログイン** オプション： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}。
+製品プロファイルにユーザーを追加すると、そのユーザーは [!DNL Marketo Measure] インスタンスを選択して **Adobe IDでログイン** オプション： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 ![](assets/microsoft-dynamics-crm-installation-guide-15.png)
 
@@ -217,3 +217,7 @@ Adobe Admin Consoleにアクセスすると、 [!DNL Marketo Measure] 「概要�
    >デフォルトでは、 [!DNL Marketo Measure] は、ジョブが CRM にデータを送信するたびに、API クレジットごとに 200 件のレコードをエクスポートします。 ほとんどのお客様にとって、これは、 [!DNL Marketo Measure] CRM の CPU リソース要件 ただし、ワークフローやトリガーなど複雑な CRM 設定を持つお客様の場合は、バッチサイズを小さくすると CRM のパフォーマンスが向上する可能性があります。 この目的に [!DNL Marketo Measure] 顧客が CRM エクスポートのバッチサイズを設定できます。 この設定は、 [!DNL Marketo Measure] Web アプリケーションとお客様は、200（デフォルト）、100、50、25 のバッチサイズから選択できます。
    >
    >この設定を変更する場合、小さいバッチサイズでは、CRM からより多くの API クレジットを消費することに注意してください。 CRM で CPU がタイムアウトしたり、CPU 負荷が高くなったりした場合にのみ、バッチサイズを小さくすることをお勧めします。
+
+   >[!NOTE]
+   >
+   >Marketo Measure から Dynamics へのデータのエクスポートを無効にしても、既存のデータは削除されません。 既存のデータの削除については、Dynamics サポートにお問い合わせください。
