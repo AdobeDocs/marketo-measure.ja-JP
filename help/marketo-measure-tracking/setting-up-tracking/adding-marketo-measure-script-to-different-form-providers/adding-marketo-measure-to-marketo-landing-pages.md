@@ -5,7 +5,7 @@ title: 追加中 [!DNL Marketo Measure] Marketoランディングページ
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '228'
 ht-degree: 5%
 
 ---
@@ -41,4 +41,4 @@ ht-degree: 5%
 
 * 複数のランディングページテンプレートが使用されている可能性があります。フォームを持つすべてのテンプレートに、必ずコードを追加してください。
 
-* ランディングページのテンプレートを編集する際に、ランディングページが使用するページを再承認する必要が生じる場合があります。 この記事では、 [一括承認の方法](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target=&quot;_blank&quot;}。
+* ランディングページのテンプレートを編集する際に、ランディングページが使用するページを再承認する必要が生じる場合があります。 この記事では、 [一括承認の方法](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

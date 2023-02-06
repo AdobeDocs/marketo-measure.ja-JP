@@ -12,44 +12,44 @@ ht-degree: 0%
 
 # Marketo Measure Framework {#marketo-measure-framework}
 
-Marketo Measure フレームワークを構成する 4 つの主要なコンポーネントについて詳しく説明します。 Marketo Measure は、これらのアプリケーションを利用して、データの追跡、整理、および社内データの管理を行い、レポート機能を提供します。 Marketo Measure のフレームワークを構成する 4 つのコンポーネントを次に示します。
+Marketo Measureフレームワークを構成する 4 つの主要なコンポーネントについて詳しく説明します。 Marketo Measureは、これらのアプリケーションを利用して、データの追跡、整理、および社内データの管理、およびレポート機能の提供を行っています。 Marketo Measureのフレームワークを構成する 4 つのコンポーネントは、次のとおりです。
 
-* Marketo Measure の JavaScript
+* Marketo Measure JavaScript の使用
 * CRM 統合
 * サードパーティのアプリケーション/システム
 * Marketo Measure Application
 
-## Marketo JavaScript の測定 {#marketo-measure-javascript}
+## Marketo Measure JavaScript {#marketo-measure-javascript}
 
-Marketo Measure JavaScript は、見込み客やリードが組織に持つすべてのオンラインマーケティングインタラクション（タッチポイントとも呼ばれる）を追跡します。 これは、終了の前に追加されるカスタムスクリプトです `</head>` タグを Web サイトのすべてのページに追加する必要があります。
+Marketo Measure JavaScript は、見込み客やリードが組織に持つすべてのオンラインマーケティングインタラクション（タッチポイントとも呼ばれます）を追跡します。 これは、終了の前に追加されるカスタムスクリプトです `</head>` タグを Web サイトのすべてのページに追加する必要があります。
 
 `<script type="text/javascript" src="//[cdn.bizible.com/scripts/bizible.js](http://cdn.bizible.com/scripts/bizible.js)" async=""></script>`
 
 >[!NOTE]
 >
->Marketo Measure JS を追加する手順については、 [ここをクリック](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Marketo Measure JS の追加方法については、 [ここをクリック](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Marketo Measure の JS は、Web 訪問（匿名の Web 訪問を含む）、一般的なトラフィック/ページナビゲーション、コンテンツのダウンロード、フォーム送信からデータを取り込みます。 このデータは CRM にプッシュされ、各マーケティングインタラクションがタッチポイントとして表示されます。
+Marketo Measureの JS は、Web 訪問（匿名の Web 訪問を含む）、一般的なトラフィック/ページナビゲーション、コンテンツのダウンロード、フォーム送信からデータをキャプチャします。 このデータは CRM にプッシュされ、各マーケティングインタラクションがタッチポイントとして表示されます。
 
 ## CRM 統合 {#crm-integrations}
 
-Marketo Measure は CRM と統合され、Marketo Measure JS でキャプチャされたすべてのデータを保管および整理します。 現在、Marketo Measure には 2 つの CRM との API 統合があります。
+Marketo Measureは CRM と統合され、Marketo Measure JS によってキャプチャされたすべてのデータを保存および整理します。 現在、Marketo Measureには 2 つの CRM との API 統合があります。
 
 ![](assets/1-2.png)
 
-Marketoの測定データを CRM で表示すると、各タッチポイントに関する詳細な情報を確認し、レポートを生成して、チャネルのパフォーマンスを把握できます。
+CRM でMarketo Measureのデータを表示することで、各タッチポイントに関する詳細な情報を確認し、レポートを生成して、チャネルのパフォーマンスを把握できます。
 
 ## サードパーティアプリケーション {#third-party-applications}
 
-ほとんどのマーケターは、マーケティング活動を実行するために、様々なアプリケーションに依存しています。 Marketo Measure は、Salesforce および MS Dynamics に加えて、13 のサードパーティアプリケーション（以下に示す）と統合されています。
+ほとんどのマーケターは、マーケティング活動を実行するために、様々なアプリケーションに依存しています。 Marketo Measureは、Salesforce および MS Dynamics に加えて、13 のサードパーティアプリケーション（以下に示す）と統合されています。
 
 ![](assets/2-1.png)
 
-上記のアプリケーションを使用してマーケティング活動を実行している場合は、これらのアカウントをMarketo Measure アカウントにリンクできます。 これにより、データの追跡とMarketo Measure アカウントへの転送が簡単になります。
+上記のアプリケーションを使用してマーケティング活動を行っている場合は、これらのアカウントをMarketo Measureアカウントにリンクできます。 これにより、データの追跡とMarketo Measureアカウントへの転送が簡単になります。
 
 ## Marketo Measure Application {#marketo-measure-application}
 
-Marketo Measure アプリケーションは、アトリビューションデータの表示とレポート、アカウント設定の指定、およびアカウント情報の更新に使用します。 Marketo Measure アプリの主なメニュー項目は次のとおりです。
+Marketo Measureアプリケーションは、アトリビューションデータの表示とレポート、アカウント設定、およびアカウント情報の更新に使用されます。 Marketo Measureアプリの主なメニュー項目は次のとおりです。
 
 **アカウント構成**
 
@@ -57,7 +57,7 @@ Marketo Measure アプリケーションは、アトリビューションデー�
 
 **設定**
 
-このメニュー項目を使用すると、アトリビューションとチャネルマッピングの設定、CRM およびサードパーティアプリケーションとの統合の管理、Marketoメジャーアカウントユーザーの表示/追加、請求情報の更新をおこなうことができます。
+このメニュー項目を使用すると、アトリビューションとチャネルマッピングの設定、CRM およびサードパーティアプリケーションとの統合の管理、Marketo Measureアカウントユーザーの表示/追加、請求情報の更新をおこなうことができます。
 
 **マーケティング ROI ダッシュボード**
 

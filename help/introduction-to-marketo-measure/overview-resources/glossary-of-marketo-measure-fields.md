@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Marketoの測定フィールドの用語集 — Marketoの測定 — 製品ドキュメント
-title: Marketoの測定フィールドの用語集
+description: Marketo Measureフィールドの用語集 — Marketo Measure — 製品ドキュメント
+title: Marketo Measureフィールドの用語集
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Marketoの測定フィールドの用語集 {#glossary-of-marketo-measure-fields}
+# Marketo Measureフィールドの用語集 {#glossary-of-marketo-measure-fields}
 
-この記事では、Marketoメジャーベースパッケージから Salesforce に追加されるすべてのMarketoメジャーフィールドの用語集を提供します。 また、フィールドが見つかるオブジェクト、および各フィールドに情報が入力される方法に関する情報も確認できます。
+この記事では、Marketo Measureベースパッケージから Salesforce に追加されるすべてのMarketo Measureフィールドの用語集を提供します。 また、フィールドが見つかるオブジェクト、および各フィールドに情報が入力される方法に関する情報も確認できます。
 
-各Marketo測定フィールドが関連するオブジェクトのマップについては、 [ここをクリック](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+各Marketo Measureフィールドが関連するオブジェクトのマップについては、 [ここをクリック](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [金](#f) ・ [G](#g) ・ H ・ I ・ J ・ [K](#k) ・ [L](#l) ・ [M](#m) ・ N ・ [O](#o) ・ [P](#p) ・ Q ・ [R](#r) ・ [S](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y ・ Z
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 `3)` タッチポイントが Salesforce キャンペーンから来た場合は、Salesforce キャンペーンの名前がここに表示されます。
 
-`4)` これには、Marketo Measure アカウント内で作成された、アクティビティから生成されたタッチポイントに定義されたキャンペーン名が入力されます。
+`4)` これには、Marketo Measureアカウント内で作成された、アクティビティから生成されたタッチポイントに定義されたキャンペーン名が入力されます。
 
 上記のいずれにも該当しない場合、このフィールドは空白になります。
 
@@ -126,9 +126,9 @@ ht-degree: 0%
 
 ## B {#b}
 
-**Marketo商談額を測定** | Salesforce 商談
+**Marketo Measure商談額** | Salesforce 商談
 
-カスタムの「金額」フィールドを使用して商談の売上高をレポートする場合、Marketoの測定では、これらのカスタムの「金額」フィールドを読み取ることができません。 Marketoのメジャー商談額は、Marketoのメジャーが商談のカスタム金額フィールドを読み取れるようにするワークフローの作成に使用される非表示のフィールドです。
+カスタムの [ 金額 ] フィールドを使用して商談の売上高をレポートする場合、Marketo Measureはこれらのカスタムの [ 金額 ] フィールドを読み取れません。 Marketo Measure商談額は、Marketo Measureが商談のカスタムの金額フィールドを読み取れるようにするワークフローの作成に使用される、非表示のフィールドです。
 
 **ブラウザー** |購入者タッチポイント、購入者属性タッチポイント
 
@@ -196,9 +196,9 @@ ht-degree: 0%
 
 ## D {#d}
 
-報告日 | Marketo Measure ABTest, Marketo Measure Event
+報告日 | Marketo Measure ABTest, Marketo Measureイベント
 
-Marketo測定イベント — ユーザーが Web サイト上で特定のアクションを実行し、イベントをアクティブ化した日付
+Marketo Measureイベント — ユーザーが Web サイト上で特定のアクションを実行し、イベントをアクティブ化した日付
 
 Marketo Measure ABTest — ユーザーが Web サイトで A/B テストに参加した日付
 
@@ -214,11 +214,11 @@ Marketo Measure ABTest — ユーザーが Web サイトで A/B テストに参�
 
 イベントの説明（「ホームページ」）
 
-**実験名** | Marketo ABTest を測定
+**実験名** | Marketo Measure ABTest
 
 このフィールドには、実験の名前が表示されます（「試用」ボタン）
 
-**実験 ID** |Marketo Measure AB Test
+**実験 ID** |Marketo Measure AB テスト
 
 各実験の一意の識別コード
 
@@ -288,7 +288,7 @@ Marketo Measure ABTest — ユーザーが Web サイトで A/B テストに参�
 
 このフィールドには、Web セッション中に最初に訪問された Web ページの URL 全体（UTM パラメーターを含む）が表示されます。
 
-**リード** |購入者タッチポイント、Marketo担当者を測定
+**リード** |購入者タッチポイント、Marketo Measure担当者
 
 このフィールドには、タッチポイントが属するリードの名前が表示されます。
 
@@ -298,7 +298,7 @@ Marketo Measure ABTest — ユーザーが Web サイトで A/B テストに参�
 
 **マーケティングチャネル** |購入者タッチポイント、購入者属性タッチポイント
 
-このフィールドは、タッチポイントが属するマーケティングアクティビティまたはマーケティングチャネルの一般的なグループ（有料検索、直接、ソーシャルなど）を表示します。 タッチポイントは、Marketo Measure App でのチャネルの設定方法に従ってグループ化されます。 マーケティングチャネルの詳細やチャネルの設定方法については、 [ここをクリック](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+このフィールドは、タッチポイントが属するマーケティングアクティビティまたはマーケティングチャネルの一般的なグループ（有料検索、直接、ソーシャルなど）を表示します。 タッチポイントは、Marketo Measureアプリでのチャネルの設定方法に従ってグループ化されます。 マーケティングチャネルの詳細やチャネルの設定方法については、 [ここをクリック](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **マーケティングチャネル — パス** |購入者タッチポイント、購入者属性タッチポイント
 
@@ -316,7 +316,7 @@ Marketo Measure ABTest — ユーザーが Web サイトで A/B テストに参�
 
 `4)` タッチポイントを生成した関連するアクティビティのアクティビティタイプ値が入力されます。
 
-上記のいずれにも該当しない場合、Marketo Measure は自動的に Medium 値を設定します。
+上記のいずれにも該当しない場合、Marketo Measureは自動的に中値を設定します。
 
 [ページの上部に戻るには、ここをクリックします](#top)
 
@@ -392,7 +392,7 @@ S
 
 **セグメント** |購入者の属性タッチポイント
 
-このフィールドには、タッチポイントが属するセグメントが表示されます。 これは、Marketo Measure App でセグメント化ルールをどのように設定したかによって異なります。
+このフィールドには、タッチポイントが属するセグメントが表示されます。 これは、Marketo Measureアプリでセグメントルールをどのように設定したかによって異なります。
 
 [ページの上部に戻るには、ここをクリックします](#top)
 
@@ -462,7 +462,7 @@ U
 
 各タッチポイントに関連付けられた一意の ID
 
-**ユーザー ID** | Marketo ABTest を測定
+**ユーザー ID** | Marketo Measure ABTest
 
 各用途に最適な固有の ID コード
 
@@ -470,11 +470,11 @@ U
 
 ## V {#v}
 
-**バリエーション** | Marketo ABTest を測定
+**バリエーション** | Marketo Measure ABTest
 
 A/B テストのバリエーションの名前
 
-**バリエーション ID** | Marketo ABTest を測定
+**バリエーション ID** | Marketo Measure ABTest
 
 A/B テストの各バリエーションに対する一意の識別コード。
 

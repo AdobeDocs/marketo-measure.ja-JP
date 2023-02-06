@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # よくある質問 {#faq}
 
-[!DNL Marketo Measure Discover]:よくある質問。
+[!DNL Marketo Measure Discover]: よくある質問.
 
 **レポートのフィルターを保存する方法を教えてください。**
 

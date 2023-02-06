@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Marketoの測定の cookie {#marketo-measure-cookies}
+# Marketo Measureの Cookie {#marketo-measure-cookies}
 
 様々な [!DNL Marketo Measure] 適用時にサイトに読み込まれる cookie [!DNL Marketo Measure] JavaScript をランディングページに追加します。 この情報は、実装時に Web 開発チームに役立つ場合があります。
 

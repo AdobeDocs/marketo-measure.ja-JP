@@ -38,7 +38,7 @@ Marketoへの接続を設定する方法を次に示します。
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. まだMarketo Engage中、 **LaunchPoint** 左の木に。 Marketo Measure に接続するカスタムサービスを見つけ、 **詳細を表示**.
+1. まだMarketo Engage中、 **LaunchPoint** 左の木に。 Marketo Measureに接続するカスタムサービスを見つけ、 **詳細を表示**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

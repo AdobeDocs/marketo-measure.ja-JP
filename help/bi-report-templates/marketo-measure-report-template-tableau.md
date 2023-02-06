@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] レポートテンプレート — Tableau"
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2324'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## はじめに {#getting-started}
 
-次にアクセス： [!DNL Tableau] レポートテンプレート [ここ](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}。
+次にアクセス： [!DNL Tableau] レポートテンプレート [ここ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 を開きます。 [!DNL Adobe Marketo] レポートテンプレート Tableau ワークブックファイルを測定します。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## データ接続 {#data-connection}
 
-Snowflakeインスタンスへのデータ接続を設定する必要があります。 この場合は、サーバー名とユーザー名およびパスワードが必要です。 必要に応じて、この情報の場所とパスワードのリセットに関する詳細がドキュメントに記載されています。 [ここ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}。
+Snowflakeインスタンスへのデータ接続を設定する必要があります。 この場合は、サーバー名とユーザー名およびパスワードが必要です。 必要に応じて、この情報の場所とパスワードのリセットに関する詳細がドキュメントに記載されています。 [ここ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -85,7 +85,7 @@ Snowflakeインスタンスへのデータ接続を設定する必要があり�
 
 ![](assets/marketo-measure-report-template-tableau-6.png)
 
-2 つのテーブルがある場所はいくつかあります [!DNL Snowflake] を [!DNL Tableau] データモデル。 この場合、「タイプ」列が追加され、 [!DNL Snowflake] テーブルを取得し、行が表すエンティティを指定します。 組み合わされたテーブルの詳細については、このドキュメントの関係とデータフローの節を参照してください。
+2 つのテーブルの場所はいくつかあります [!DNL Snowflake] を [!DNL Tableau] データモデル。 この場合、「タイプ」列が追加され、 [!DNL Snowflake] テーブルを取得し、行が表すエンティティを指定します。 組み合わされたテーブルの詳細については、このドキュメントの関係とデータフローの節を参照してください。
 
 ![](assets/marketo-measure-report-template-tableau-7.png)
 
@@ -109,7 +109,7 @@ Snowflakeインスタンスへのデータ接続を設定する必要があり�
 
 フルサイズ版の場合は、以下の画像をクリックしてください。
 
-[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
 
 ### 関係とデータフロー {#relationships-and-data-flow}
 
@@ -152,7 +152,7 @@ Snowflakeインスタンスへのデータ接続を設定する必要があり�
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-直接移動元の列の定義を表示するには [!DNL Snowflake]詳しくは、 [data warehouse ドキュメント](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}。
+直接移動元の列の定義を表示するには [!DNL Snowflake]詳しくは、 [data warehouse ドキュメント](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## テンプレートと Discover の相違 {#discrepancies-between-templates-and-discover}
 

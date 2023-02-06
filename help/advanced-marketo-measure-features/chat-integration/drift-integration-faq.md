@@ -5,14 +5,14 @@ title: Drift 統合に関する FAQ
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
 
 # Drift 統合に関する FAQ {#drift-integration-faq}
 
-の一部として [!DNL Marketo Measure] Drift との統合に関して、最もよくある質問のいくつかを概説しました。 以下に概要がない質問がある場合は、カスタマーサクセスマネージャーにお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+の一部として [!DNL Marketo Measure] Drift との統合に関して、最もよくある質問のいくつかを概説しました。 以下に概要がない質問がある場合は、カスタマーサクセスマネージャーにお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **統合はどのように有効になっていますか？**
 

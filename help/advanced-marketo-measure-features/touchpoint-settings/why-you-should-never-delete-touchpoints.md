@@ -5,7 +5,7 @@ title: タッチポイントを削除しない理由
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 2%
 
 ![](assets/1.png)
 
-タッチポイントが SFDC から削除されている場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} で、データの再インポートをリクエストできます。
+タッチポイントが SFDC から削除されている場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} をクリックして、データの再インポートをリクエストします。

@@ -5,7 +5,7 @@ title: '"[!DNL Marketo Measure] CRM パッケージレス統合»'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '328'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ A [!DNL Marketo Measure] CRM パッケージレスの統合では、引き続き
 
 [!DNL Microsoft Dynamics] 顧客、クリック [ここ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-上記の手順をすべて完了したら、準備が整いました。 途中で問題が発生した場合は、お気軽に連絡を取ってください [!DNL Marketo Measure] 代理人または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+上記の手順をすべて完了したら、準備が整いました。 途中で問題が発生した場合は、お気軽に連絡を取ってください [!DNL Marketo Measure] 代理人または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

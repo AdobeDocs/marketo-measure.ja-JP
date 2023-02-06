@@ -5,7 +5,7 @@ title: キャンペーンとキャンペーンメンバー
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 多数のキャンペーンメンバーレコードを更新する必要がある場合は、 [!UICONTROL タッチポイント日の一括更新] ボタンをクリックして一括編集を行います。
 
-このインターフェイスで扱われない一意の使用例がある場合は、 [データローダー](https://dataloader.io/){target=&quot;_blank&quot;} を使用して、レコードを書き出し、変更を加え、レコードを再度アップロードします。
+このインターフェイスで扱われない一意の使用例がある場合は、 [データローダー](https://dataloader.io/){target="_blank"} レコードをエクスポートするには、変更を加え、レコードを再度アップロードします。
 
 まず、レコードを検索し、購入者タッチポイント日付を設定するレコードをフィルタリングします。
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->このトリガーは、過去に削除されたキャンペーンメンバーを追跡しないので、先に進むだけであることに注意してください。 過去のキャンペーンメンバーのタッチポイントを多数削除する必要がある場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+>このトリガーは、過去に削除されたキャンペーンメンバーを追跡しないので、先に進むだけであることに注意してください。 過去のキャンペーンメンバーのタッチポイントを多数削除する必要がある場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

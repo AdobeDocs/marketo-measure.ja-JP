@@ -66,7 +66,7 @@ ht-degree: 7%
    >
    >各セクションで「1 列」の形式を選択します。
 
-1. 次をドラッグ： **[!UICONTROL Marketoリード関連リストを測定]** VisualForce ページをページレイアウトセクションに挿入します。
+1. 次をドラッグ： **[!UICONTROL Marketo Measureリード関連リスト]** VisualForce ページをページレイアウトセクションに挿入します。
 
    ![](assets/5-1.png)
 

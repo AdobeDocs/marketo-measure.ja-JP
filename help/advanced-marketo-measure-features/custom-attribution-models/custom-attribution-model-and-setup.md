@@ -5,7 +5,7 @@ title: カスタムアトリビューションモデルと設定
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    カスタムアトリビューションモデルの作成を開始するには、マーケティングチームにとって重要なステージを選択する必要があります。 また、 [!DNL Marketo Measure] マイルストーンステージ（FT、LC、OC、クローズ済み）カスタムモデルに最大 6 つのリード/連絡先ステータスまたは商談ステージを追加できます。 例えば、MQL ステージをカスタムモデルに含めるのは一般的です。 マーケティングチームは、MQL ステージへの移行を推進している取り組みやチャネルを知りたがることがよくあります。
 
-   ログイン先 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}。 に移動します。 [!UICONTROL マイアカウント] > [!UICONTROL 設定] /、「 CRM 」セクションで「 」を選択します。 **[!UICONTROL ステージマッピング]**.
+   ログイン先 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. に移動します。 [!UICONTROL マイアカウント] > [!UICONTROL 設定] /、「 CRM 」セクションで「 」を選択します。 **[!UICONTROL ステージマッピング]**.
 
    ここでは、 **[!UICONTROL モデルに含める]** ボックス
 

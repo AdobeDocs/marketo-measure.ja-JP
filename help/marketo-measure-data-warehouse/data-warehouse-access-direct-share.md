@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## Snowflakeアカウント ID を入力 {#enter-snowflake-account-id}
 
-を開きます。 **設定** 「 」セクションに移動して、Marketo Measure アプリケーションの **Data Warehouse** ページ。 内 **直接共有** セクションに、 [Snowflakeアカウント ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} が表示されたボックスで、をクリックします。 **接続**.
+を開きます。 **設定** セクションに移動して、 **Data Warehouse** ページ。 内 **直接共有** セクションに、 [Snowflakeアカウント ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} が表示されたボックスで、をクリックします。 **接続**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

@@ -44,7 +44,7 @@ ht-degree: 10%
    <td><p><strong>商談作成日</strong></p></td> 
    <td><p><strong>商談クローズ日</strong></p></td> 
    <td><p><strong>Touchpoint日</strong></p></td> 
-   <td><p><strong>属性モデル</strong></p></td> 
+   <td><p><strong>アトリビューションモデル</strong></p></td> 
   </tr> 
   <tr> 
    <td><p><strong>アカウント</strong></p></td> 

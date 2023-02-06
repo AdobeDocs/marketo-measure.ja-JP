@@ -5,7 +5,7 @@ title: について [!DNL Marketo Measure] AdWords タグ付け
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 **If [!DNL Marketo Measure] トラッキングテンプレートを検索します。**
 
 * [!DNL Marketo Measure] により、そのパラメーターがトラッキングテンプレートに追加されます。
-* Kenshoo や Marin などのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、 [!DNL Marketo Measure] は何も実行しません。 代わりに、 [追加 [!DNL Marketo Measure] アカウント内のサードパーティツールのパラメーター](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}。
+* Kenshoo や Marin などのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、 [!DNL Marketo Measure] は何も実行しません。 代わりに、 [追加 [!DNL Marketo Measure] アカウント内のサードパーティツールのパラメーター](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 ただし、トラッキングテンプレートが見つからない場合は、 [!DNL Marketo Measure] は次のようになります。
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ## トラッキングテンプレート {#tracking-templates}
 
-の説明に従って、 [!DNL Google AdWords]の場合、トラッキングテンプレートはランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックを把握するために使用されます。 [ここをクリック](https://support.google.com/adwords/answer/7197008?hl=ja){target=&quot;_blank&quot;} を参照してください。Google
+の説明に従って、 [!DNL Google AdWords]の場合、トラッキングテンプレートはランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックを把握するために使用されます。 [ここをクリック](https://support.google.com/adwords/answer/7197008?hl=ja){target="_blank"} Googleからの詳細
 
 [!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベル、広告グループレベルトラッキングテンプレートの使用をお勧めします。広告履歴が中断または削除されるリスクを伴わずに、すべての広告のパラメーターの追加と減算が可能です。
 
@@ -108,6 +108,6 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->変更が完了したら、操作が完了します。 自由に手を差し伸べる [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support)設定時に質問がある場合は、{target=&quot;_blank&quot;}。
+>変更が完了したら、操作が完了します。 自由に手を差し伸べる [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 設定中に質問がある場合。
 
-[ここをクリック](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;} を参照してください。
+[ここをクリック](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、を参照してください。

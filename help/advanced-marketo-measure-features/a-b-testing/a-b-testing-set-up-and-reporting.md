@@ -5,18 +5,18 @@ title: A/B テストの設定とレポート
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '430'
 ht-degree: 3%
 
 ---
 
 # A/B テストの設定とレポート {#a-b-testing-set-up-and-reporting}
 
-この [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target=&quot;_blank&quot;} および VWO サイト実験。 この記事では、 [!DNL Marketo Measure] リードに対する A/B テストセクション [!UICONTROL 連絡先]、大文字と小文字、 [!UICONTROL 商談] ページレイアウト。 また、実行に関する一般的なレポートの慣行と推奨事項についても説明します [!DNL Marketo Measure] A/B レポートタイプ。
+この [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target="_blank"} と VWO サイト実験。 この記事では、 [!DNL Marketo Measure] リードに対する A/B テストセクション [!UICONTROL 連絡先]、大文字と小文字、 [!UICONTROL 商談] ページレイアウト。 また、実行に関する一般的なレポートの慣行と推奨事項についても説明します [!DNL Marketo Measure] A/B レポートタイプ。
 
 ## 設定 {#set-up}
 
-を [!DNL Marketo Measure] リード、連絡先、事例、商談に関する A/B テストのセクション。 [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target=&quot;_blank&quot;} および [VWO](https://vwo.com/){target=&quot;_blank&quot;} サイト実験。
+を [!DNL Marketo Measure] リード、連絡先、事例、商談に関する A/B テストのセクション。 [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} サイト実験。
 
 1. パッケージを使用していることを確認します。 [!DNL Marketo Measure] v3.9 以降。 これをおこなうには、 [!UICONTROL Salesforce] >[!UICONTROL 設定] > [!UICONTROL インストール済みパッケージ].
 1. リードページレイアウトを編集し、 **[!DNL Marketo Measure]A/B テスト** ページに関連するリスト。
@@ -31,7 +31,7 @@ ht-degree: 3%
 
    ![](assets/3.png)
 
-1. お問い合わせ [!DNL Marketo Measure] rep または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} をクリックして、この機能を有効にします。
+1. お問い合わせ [!DNL Marketo Measure] rep または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} をクリックして機能を有効にします。
 
 ## レポート {#reporting}
 

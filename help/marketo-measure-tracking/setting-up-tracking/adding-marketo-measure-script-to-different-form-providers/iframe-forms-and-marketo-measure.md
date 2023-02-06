@@ -5,7 +5,7 @@ title: IFrame Formsおよび [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
@@ -22,4 +22,4 @@ JavaScript を IFrame の head 内に配置し、そこから、そのフレー�
 
 ![](assets/1-1.png)
 
-IFrame フォームへの JavaScript の追加に関して質問がある場合は、カスタマーサクセスマネージャーにお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+IFrame フォームへの JavaScript の追加に関して質問がある場合は、カスタマーサクセスマネージャーにお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

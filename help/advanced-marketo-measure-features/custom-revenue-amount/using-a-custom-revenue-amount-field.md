@@ -5,7 +5,7 @@ title: カスタムの「売上高」フィールドの使用
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '372'
 ht-degree: 2%
 
 ---
@@ -53,4 +53,4 @@ ht-degree: 2%
 
    これは、SFDC 内のデータローダーを通じて商談を実行することで実現できます。 でのデータローダーの使用の詳細を確認してください。 [この記事](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-途中でご質問がある場合は、カスタマーサクセスマネージャーに気軽にお問い合わせください。 [[!DNL Marketo] サポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+途中でご質問がある場合は、カスタマーサクセスマネージャーに気軽にお問い合わせください。 [[!DNL Marketo] サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

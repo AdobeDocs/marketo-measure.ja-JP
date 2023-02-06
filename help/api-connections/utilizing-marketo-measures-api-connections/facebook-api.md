@@ -5,7 +5,7 @@ title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '507'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ AdWords &amp;と類似 [!DNL Bing Ads] 統合、 [!DNL Facebook] 統合には、
 
 設定に関しては、 [!DNL Marketo Measure] アプリを使用します。
 
-1. に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} にログインし、ログインします。
+1. に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、ログインします。
 1. 「マイアカウント」で、「 **[!UICONTROL 設定]**.
 1. 「統合」で、「 **[!UICONTROL 接続]**.
 1. 選択 **[!UICONTROL 新しい広告接続の設定]** ポップアップが表示されます。 選択 **[!UICONTROL Facebook]** facebookの資格情報を使用してログインします。

@@ -5,14 +5,14 @@ title: マーケティングチャネルのコスト
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
 
 # マーケティングチャネルのコスト {#marketing-channel-costs}
 
-を使用することの最も基本的なメリットの 1 つ [!DNL Marketo Measure] は、マーケティング活動を売上高への影響に直接結び付ける機能です。 タッチポイントレベルで投資回収率を確認できます。 このメリットを活用するには、チャネルのコストを [!DNL Marketo Measure] アプリを使用します。 ROI レポートは自動的に作成され、 **マーケティング ROI ダッシュボード** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}。
+を使用することの最も基本的なメリットの 1 つ [!DNL Marketo Measure] は、マーケティング活動を売上高への影響に直接結び付ける機能です。 タッチポイントレベルで投資回収率を確認できます。 このメリットを活用するには、チャネルのコストを [!DNL Marketo Measure] アプリを使用します。 ROI レポートは自動的に作成され、 **マーケティング ROI ダッシュボード** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [手順に直接移動するには、ここをクリックします。](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

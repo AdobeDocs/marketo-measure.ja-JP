@@ -5,7 +5,7 @@ title: 推奨 [!DNL Salesforce] 権限： [!DNL Marketo Measure] 接続ユーザ
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 1%
 
 ---
@@ -44,4 +44,4 @@ If [!DNL Marketo Measure] は、まだデータの読み取りや書き込みで
 
 フィールドレベルのセキュリティとフィールドのアクセシビリティは関連していますが、いくつかの主な違いがあります。 フィールドレベルのセキュリティでは、特定のプロファイルのフィールドの表示を定義します。フィールドアクセシビリティでは、フィールドレベルのセキュリティとページレイアウトの設定に基づいてフィールドを編集可能にするかどうかを決定します。 の使用 [!DNL Marketo Measure] パッケージの権限セットには、必要なフィールドオブジェクトセキュリティ設定が含まれます。 場合によっては、正しいフィールドのアクセシビリティを得るために、接続しているユーザーが [!DNL Marketo Measure] フィールドをページレイアウトで使用できます。 [!DNL Marketo Measure] レイアウト上のフィールドで [!DNL Marketo Measure] マッピング先のデータ [!DNL Salesforce]. これは、お客様の特定の [!DNL Salesforce] 環境。
 
-すべての組織の [!DNL Salesforce] 個々のニーズがありますが、バランスを取るための要件をお客様に提供します [!DNL Marketo Measure] セキュリティプロトコルを使用してアクセスニーズに対応します。 ～に手を差し伸べることを躊躇しない [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+すべての組織の [!DNL Salesforce] 個々のニーズがありますが、バランスを取るための要件をお客様に提供します [!DNL Marketo Measure] セキュリティプロトコルを使用してアクセスニーズに対応します。 ～に手を差し伸べることを躊躇しない [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

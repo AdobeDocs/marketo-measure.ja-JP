@@ -5,7 +5,7 @@ title: Touchpointフィールド
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 抽出
 
-抽出演算子は、次のような別の場所からフィールドの値を取り出します。「キャンペーン」フィールド、「リード」フィールド、またはより高度なユースケースでは、 [ランディングページからカスタムパラメーターを抽出](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;}。 次に、それをタッチポイントフィールドに配置します ( [例にマップ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;} #2)。
+抽出演算子は、次のような別の場所からフィールドの値を取り出します。「キャンペーン」フィールド、「リード」フィールド、またはより高度なユースケースでは、 [ランディングページからカスタムパラメーターを抽出](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2) です。
 
 **例#1**
 
@@ -220,7 +220,7 @@ URL からの値が解析され、タッチポイントに存在するように�
 
 **抽出した式が有効で正しい値を取り込んでいることを検証するには、どうすればよいですか？**
 
-オンラインツール ([https://regex101.com/](https://regex101.com/){target=&quot;_blank&quot;}) を実行して、式をテストできます。 式は、有効な場合は緑、無効な場合は赤で表示されます。 また、右上の説明ボックスが役立ち、何を抽出しているかを示します。
+オンラインツール ([https://regex101.com/](https://regex101.com/){target="_blank"}) を使用して、式を実行およびテストできます。 式は、有効な場合は緑、無効な場合は赤で表示されます。 また、右上の説明ボックスが役立ち、何を抽出しているかを示します。
 
 ![](assets/twelve.png)
 

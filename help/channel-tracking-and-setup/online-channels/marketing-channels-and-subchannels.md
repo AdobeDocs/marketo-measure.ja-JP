@@ -6,7 +6,7 @@ exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 3%
 * ダブルクリック
 * カプテラ
 * ドリップキャンペーン
-* linkedIn Ads
+* LinkedIn 広告
 
 **コンテンツ（ホワイトペーパー、ページの URL、ブログ投稿）**
 

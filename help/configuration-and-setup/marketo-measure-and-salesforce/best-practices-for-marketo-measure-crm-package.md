@@ -4,7 +4,7 @@ title: のベストプラクティス [!DNL Marketo Measure] CRM パッケージ
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -49,12 +49,12 @@ CRM パッケージの設定は初回実装時に適用されますが、CRM パ
 
 >[!NOTE]
 >
->Marketo Measure から Salesforce へのデータのエクスポートを無効にしても、既存のデータは削除されません。 削除するには、 [この Salesforce ヘルプ記事](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target=&quot;_blank&quot;}。
+>Salesforce へのMarketo Measureエクスポートデータを無効にしても、既存のデータは削除されません。 削除するには、 [この Salesforce ヘルプ記事](https://help.salesforce.com/s/articleView?id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [購入者タッチポイントパッケージの更新](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] 権限セット](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [レポートとダッシュボードフォルダーの共有](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
->* [Marketo Measure を Salesforce に接続](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+>* [Marketo Measureを Salesforce に接続](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
 

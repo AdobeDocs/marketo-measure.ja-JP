@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874580
-description: Marketo Measure を Salesforce に接続 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: Marketo Measure を Salesforce に接続
+description: Marketo Measureを Salesforce に接続 — [!DNL Marketo Measure]  — 製品ドキュメント
+title: Marketo Measureを Salesforce に接続
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# Marketo Measure を Salesforce に接続 {#connect-marketo-measure-to-salesforce}
+# Marketo Measureを Salesforce に接続 {#connect-marketo-measure-to-salesforce}
 
 この記事では、 [!DNL Salesforce] アカウント [!DNL Marketo Measure] アカウント
 

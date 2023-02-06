@@ -5,7 +5,7 @@ title: CRM キャンペーンコスト
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1228'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Marketoプログラムをキャンペーンとして CRM に取り込む場合�
 
 **開始日、終了日、コストが入力されていますが、コストがまだに表示されないのはなぜですか？ [!DNL Marketo Measure]?**
 
-「Enable Buyer Touchpoint」の値が「Include All Campaign Members」または「Include &#39;Relponed&#39; Campaign Members」に設定されているか、またはこのキャンペーンを含むカスタムキャンペーン同期ルールを作成していることを確認してください。 これを確認してもキャンペーンが表示されない場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} に設定されているので、お使いのキャンペーンが正しくインポートされていることを確認できます。
+「Enable Buyer Touchpoint」の値が「Include All Campaign Members」または「Include &#39;Relponed&#39; Campaign Members」に設定されているか、またはこのキャンペーンを含むカスタムキャンペーン同期ルールを作成していることを確認してください。 これを確認してもキャンペーンが表示されない場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} したがって、お使いのキャンペーンが正しくインポートされていることを確認できます。
 
 **特定の月で重み付けをより重くできるように、キャンペーンの配分を変更する必要があります。 どうやって？**
 

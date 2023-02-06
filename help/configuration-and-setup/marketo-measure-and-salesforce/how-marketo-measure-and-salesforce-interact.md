@@ -507,7 +507,7 @@ ht-degree: 15%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>合計</p></td> 
+   <td><p>金額</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 

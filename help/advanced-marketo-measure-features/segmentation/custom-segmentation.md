@@ -5,7 +5,7 @@ title: カスタムセグメント化
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 手順 2 — ログインして、セグメント機能を探します。
 
-* に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} にログインし、
+* に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} にログインし、
 * 以下 [!UICONTROL マイアカウント] タブ、選択 [!UICONTROL 設定]
 * 選択 [!UICONTROL セグメント] サイドバーの左側の、 [!UICONTROL レポート] セクション
 

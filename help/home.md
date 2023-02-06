@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874501
-description: AdobeMarketo Measure の製品ドキュメントとセルフヘルプ記事を検索します。
-title: Marketo Measure 製品ドキュメント
+description: AdobeMarketo Measureの製品ドキュメントとセルフヘルプ記事を検索します。
+title: Marketo Measure製品ドキュメント
 exl-id: cc5d46e6-9dc6-493d-a6c4-13c5fe371b9a
 source-git-commit: 20eec290fe756dd3cc5b32f37c06f7692d615978
 workflow-type: tm+mt
@@ -10,21 +10,21 @@ ht-degree: 7%
 
 ---
 
-# Marketo Measure ヘルプドキュメント
+# Marketo Measureヘルプドキュメント
 
 ![バナー](/help/assets/marketo-measure-banner.jpg)
 
-Marketo Measure（旧称 Bizible）は、行動と広告のデータを販売の成果と機械学習に統合し、適切なマーケティングの意思決定をおこなえるようにします。
+Marketo Measure（旧称 Bizible）は、行動および広告のデータをセールスの成果と機械学習と統合し、適切なマーケティングの意思決定をおこなえるようにします。
 
 ## はじめに
 
 * [マーケティングアトリビューション](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
 
-* [Marketo Measure Attribution Models](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+* [Marketo Measure Attribution Model](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
 
 * [Marketo Measure Framework](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
 
-* [Marketoの測定フィールドの用語集](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+* [Marketo Measureフィールドの用語集](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 ## 人気の記事
 

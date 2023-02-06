@@ -33,7 +33,7 @@ ht-degree: 21%
    <td><br></td> 
    <td><p><strong>日付タイプ</strong></p></td> 
    <td><p><strong>日付</strong></p></td> 
-   <td><p><strong>属性モデル</strong></p></td> 
+   <td><p><strong>アトリビューションモデル</strong></p></td> 
    <td><p><strong>指標</strong></p></td> 
    <td><p><strong>ディメンション</strong></p></td> 
    <td><p><strong>チャネル</strong></p></td> 

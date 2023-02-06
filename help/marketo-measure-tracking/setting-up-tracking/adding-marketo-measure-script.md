@@ -5,7 +5,7 @@ title: 追加中 [!DNL Marketo Measure] スクリプト
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->次の条件を満たしていることを確認します。 [内の適切なドメインをすべて要求しました [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target=&quot;_blank&quot;} をデプロイする以外に [!DNL Marketo Measure] JavaScript。
+>次の条件を満たしていることを確認します。 [内の適切なドメインをすべて要求しました [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} を導入する以外に [!DNL Marketo Measure] JavaScript。
 
 を使い始める際 [!DNL Marketo Measure]を追加するには、次の 2 つの方法があります [!DNL Marketo Measure] JavaScript を Web サイトに送信します。
 
@@ -33,7 +33,7 @@ JavaScript を `<head>` を設定すると、 [!DNL Marketo Measure] スクリ�
 
 >[!TIP]
 >
->スクリプトが [GDPR 準拠](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target=&quot;_blank&quot;}。
+>スクリプトが [GDPR 準拠](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
 
 ## Tag Management Systems {#tag-management-systems}
 
@@ -47,17 +47,17 @@ JavaScript を `<head>` を設定すると、 [!DNL Marketo Measure] スクリ�
 
 [!DNL Marketo Measure] では、どのページビューでもタグを起動することをお勧めします。 さらに、 [!DNL Marketo Measure] 実行順序で最も優先度が高く、 [!DNL Marketo Measure] タグを使用して、最高のデータ品質を確保する必要があります。
 
-詳細は次のとおりです。 [ここにある](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target=&quot;_blank&quot;}。
+詳細は次のとおりです。 [ここにある](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"}.
 
 ## その他の考慮事項 {#additional-considerations}
 
-[!DNL Marketo Measure] JavaScript はドメインベースなので、JavaScript がページ上にあり、ルートドメインがMarketo Measure アカウントの作成に使用したドメインと同じである限り、任意のサブドメインを自動的に処理できます。
+[!DNL Marketo Measure] JavaScript はドメインベースなので、JavaScript がページにあり、ルートドメインがMarketo Measureアカウントの作成に使用したドメインと同じである限り、任意のサブドメインを自動的に処理できます。
 
 ただし、別のドメインや国際ドメインを使用している場合は、 [!DNL Marketo Measure] コンサルタントが知っている。 ドメインは、 [!DNL Marketo Measure] 終わって [!DNL Marketo Measure] は、追加のドメインのデータをアカウントに関連付けることができます。 そのため、別のドメインや国際ドメインをお客様に送信してください [!DNL Marketo Measure] コンサルタント。
 
 サードパーティのページを使用する場合は、のユースケースについて [!DNL Marketo Measure] コンサルタント。 一般に、 [!DNL Marketo Measure] JavaScript を使用して、該当する場合はこれらのページを追跡します。 これが不可能な場合は、CRM Campaign タッチポイントを介したトラッキングを、 [!DNL Marketo Measure] コンサルタント。
 
-追跡すべきでないフォームがあるか [!DNL Marketo Measure] これらは必ずしも属性（登録解除フォーム、顧客ログインなど）に意味を持つわけではないので、 その場合は、除外コードを追加します [この記事では、](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target=&quot;_blank&quot;} を各フォームに追加
+追跡すべきでないフォームがあるか [!DNL Marketo Measure] これらは必ずしも属性（登録解除フォーム、顧客ログインなど）に意味を持つわけではないので、 その場合は、除外コードを追加します [この記事では、](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} 各フォーム
 
 セキュリティで保護されていないページがあるか。 その場合は、セキュリティで保護されたページとセキュリティで保護されていないページの間を移動すると、トラッキングセッションが中断されるので、セキュリティで保護したいと考えます。
 
@@ -72,7 +72,7 @@ Web チームと必ず会話し、ユーザーが知るようにしてくださ�
 **マルチフォーム送信**
 
 * 問題：1 つのフォーム送信の一部として、複数のリンクされたフォームがある場合、フォーム全体が送信されていなくても、最初のフォームがタッチポイントを生成する可能性があります。
-* 解決策：フォームの 1 つに対し、次のようなレポートを強制的に送信する必要があります。 [!DNL Marketo Measure] キャッシュされたデータに基づいており、中断の慣行について話し合います。 一般に、 [レポートのユーザーコード](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;} で解決できます。
+* 解決策：フォームの 1 つに対し、次のようなレポートを強制的に送信する必要があります。 [!DNL Marketo Measure] キャッシュされたデータに基づいており、中断の慣行について話し合います。 一般に、 [レポートのユーザーコード](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} これを解決できます。
 
 **アカウントログイン（未作成）**
 
@@ -106,7 +106,7 @@ Web チームと必ず会話し、ユーザーが知るようにしてくださ�
 **Forms `<div>` 形式**
 
 * 問題： [!DNL Marketo Measure] JS は、 `<div>` 形式を設定して、カスタムコードを必要とすることができます。
-* 解決策：これら [レポートユーザーテンプレート](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md)web 開発チームは、{target=&quot;_blank&quot;} を使用して、必要なコードを追加できます。
+* 解決策：これら [レポートユーザーテンプレート](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} web 開発チームが必要なコードを追加する際に使用できます。
 
 **チャット**
 

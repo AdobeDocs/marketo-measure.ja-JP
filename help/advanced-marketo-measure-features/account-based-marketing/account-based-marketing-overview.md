@@ -5,16 +5,16 @@ title: アカウントベースドマーケティングの概要
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
 
 # アカウントベースドマーケティングの概要 {#account-based-marketing-overview}
 
-以下に、ABM のコンポーネントである、 [!DNL Marketo Measure] ABM 機能と、 [!DNL Salesforce] ページレイアウト。 ABM の詳細を確認するには、 [このページ](https://www.marketo.com/account-based-marketing/){target=&quot;_blank&quot;}。
+以下に、ABM のコンポーネントである、 [!DNL Marketo Measure] ABM 機能と、 [!DNL Salesforce] ページレイアウト。 ABM の詳細を確認するには、 [このページ](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-ABM を [!DNL Salesforce] 例として、 [ここをクリック](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target=&quot;_blank&quot;}。
+ABM を [!DNL Salesforce] 例として、 [ここをクリック](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## ABM とは {#what-is-abm}
 

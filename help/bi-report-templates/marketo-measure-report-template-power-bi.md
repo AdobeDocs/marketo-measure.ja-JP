@@ -4,7 +4,7 @@ title: '"[!DNL Marketo Measure] レポートテンプレート —Power BI»'
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2571'
 ht-degree: 1%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 1%
 
 ## はじめに {#getting-started}
 
-データレポートテンプレートにアクセスするPower BI [ここ](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}。
+データレポートテンプレートにアクセスするPower BI [ここ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Adobeを開く [!DNL Marketo Measure] レポートテンプレートPower BIファイル。
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-特定のサーバー、ウェアハウス、スキーマ情報は、 [!DNL Marketo Measure] の UI [!DNL Data Warehouse] 情報ページ。 このページの場所の指定方法について詳しくは、 [ここ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}。
+特定のサーバー、ウェアハウス、スキーマ情報は、 [!DNL Marketo Measure] の UI [!DNL Data Warehouse] 情報ページ。 このページの場所の指定方法について詳しくは、 [ここ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 QueryFilterStartDate パラメーターと QueryFilterEndDate パラメーターは、インポートするデータの量を制限するために使用されます。 これらのパラメーターは、に送信されるクエリで使用されるので、SQL フォーマットである必要があります [!DNL Snowflake]. たとえば、データを過去 2 年間に制限する場合、 QueryFilterStartDate は dateadd (year,-2,current_date()) になります。 これらのパラメーターは、日時のデータ型と比較されるので、QueryFilterEndDate に dateadd (day,1,current_date()) を使用して、すべてのデータを現在の時刻に返すことをお勧めします。
 
 ## データ接続 {#data-connection}
 
-ファイルを開く際に入力するパラメーターは、Data Warehouse からテーブルをインポートするネイティブクエリを構造化するために使用されます。 引き続き、 [!DNL Snowflake] インスタンス。 この場合、同じ Server と Warehouse の名前と、ユーザー名とパスワードが必要です。 ユーザー名の見つけ方と、必要に応じてパスワードをリセットする方法の詳細は、ドキュメントに記載されています [ここ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}。
+ファイルを開く際に入力するパラメーターは、Data Warehouse からテーブルをインポートするネイティブクエリを構造化するために使用されます。 引き続き、 [!DNL Snowflake] インスタンス。 この場合、同じ Server と Warehouse の名前と、ユーザー名とパスワードが必要です。 ユーザー名の見つけ方と、必要に応じてパスワードをリセットする方法の詳細は、ドキュメントに記載されています [ここ](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## データのインポート {#data-import}
 
@@ -105,7 +105,7 @@ Power Query のデータには、いくつかの変換が適用されていま�
 
 ### 大文字と小文字を区別する ID の変換 {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] データには、プライマリキー (ID) 値の大文字と小文字が区別されるテーブル（タッチポイントおよびキャンペーン）が 2 つあります。 Power BIモデリングレイヤーを駆動するデータエンジンでは大文字と小文字が区別されないので、id 値が「重複」します。 これらのキー値の大文字と小文字の区別を保持するために、データエンジンレイヤーで評価した際の ID の一意性を保ちながら、不可視の文字を小文字に付加する変換手順を実装しました。 問題の詳細と使用した方法の詳細な手順は、こちらを参照してください [ここ] (https://blog.crossjoin.co.uk/2019 /10/06/power-bi-and-case-sensitivity/){target=&quot;_blank&quot;}。 これらの大文字と小文字を区別する ID 値は、「結合 ID」というラベルが付けられ、関係レイヤーの結合キーとして使用されます。 結合 ID はレポートレイヤーで非表示にし、元の ID 値はレポートで使用する際に表示したままにしました。非表示の文字が切り取り/貼り付け機能やフィルタリングに影響を与える可能性があるからです。
+[!DNL Marketo Measure] データには、プライマリキー (ID) 値の大文字と小文字が区別されるテーブル（タッチポイントおよびキャンペーン）が 2 つあります。 Power BIモデリングレイヤーを駆動するデータエンジンでは大文字と小文字が区別されないので、id 値が「重複」します。 これらのキー値の大文字と小文字の区別を保持するために、データエンジンレイヤーで評価した際の ID の一意性を保ちながら、不可視の文字を小文字に付加する変換手順を実装しました。 問題の詳細と使用した方法の詳細な手順は、こちらを参照してください [ここ] (https://blog.crossjoin.co.uk/2019){target="_blank"}. これらの大文字と小文字を区別する ID 値は、「結合 ID」というラベルが付けられ、関係レイヤーの結合キーとして使用されます。 結合 ID はレポートレイヤーで非表示にし、元の ID 値はレポートで使用する際に表示したままにしました。非表示の文字が切り取り/貼り付け機能やフィルタリングに影響を与える可能性があるからです。
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -125,7 +125,7 @@ Power Query のデータには、いくつかの変換が適用されていま�
 
 フルサイズ版の場合は、以下の画像をクリックしてください。
 
-[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### 関係とデータフロー {#relationships-and-data-flow}
 
@@ -151,7 +151,7 @@ Power BIは 1 つの列のテーブル間の関係のみを可能にするので
 
 すべての測定が専用の測定テーブルに追加されました。 モデルに接続されていませんが、すべての測定を保存する 1 つの場所として機能し、使いやすくなります。
 
-**属性モデル**
+**アトリビューションモデル**
 
 アトリビューションモデルの名前を保存するための別のテーブルが追加されました。 このテーブルは、属性売上高の計算に関するアトリビューションモデルを切り替えるフィルターの作成に使用します。
 
@@ -178,7 +178,7 @@ Power BIは 1 つの列のテーブル間の関係のみを可能にするので
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-直接移動元の列の定義を表示するには [!DNL Snowflake]詳しくは、 [data warehouse ドキュメント](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}
+直接移動元の列の定義を表示するには [!DNL Snowflake]詳しくは、 [data warehouse ドキュメント](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## テンプレートと Discover の相違 {#discrepancies-between-templates-and-discover}
 

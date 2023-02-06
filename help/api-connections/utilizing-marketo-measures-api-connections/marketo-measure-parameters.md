@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] パラメーター"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '235'
 ht-degree: 5%
 
 ---
@@ -41,10 +41,10 @@ UTM の使用からより深い洞察を得るには、 [!DNL Marketo Measure] �
 
 >[!NOTE]
 >
->一致タイプの詳細は、次のとおりです。 [関連する AdWords の記事を以下に示します](https://support.google.com/adwords/answer/2497836?hl=ja){target=&quot;_blank&quot;}。
+>一致タイプの詳細は、次のとおりです。 [関連する AdWords の記事を以下に示します](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"}.
 
 * `_bn={network}`
-   * 広告ネットワークタイプを表します — [表示または検索](https://support.google.com/adwords/answer/1752334?hl=ja){target=&quot;_blank&quot;}。
+   * 広告ネットワークタイプを表します — [表示または検索](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"}.
    * これは、UTM Source パラメーターに似ています。
 
 * `_bg={adgroupID}`

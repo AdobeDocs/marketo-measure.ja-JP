@@ -5,7 +5,7 @@ title: UTM パラメーターの設定のベストプラクティス
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '460'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 UTM パラメーターは、マーケティングデータをスライスしてデータを多角的に分析する優れた方法です。 [!DNL Marketo Measure] は、すべての UTM パラメーターを使用して取り込み、Salesforce のフィールドに、 [!DNL Marketo Measure] アプリを使用します。 この情報を使用して、リード、商談、クローズ/獲得した契約の発信元を詳細に把握できます。
 
-以下を利用できます。 [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=ja){target=&quot;_blank&quot;}:UTM パラメーターを設定し、マーケティング活動内のリンクに追加します。 使用する [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;} を使用します。
+以下を利用できます。 [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} すべての UTM リンクを簡単に追跡する方法が必要な場合。
 
 ## 各パラメーターの高レベル値 {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 用語/チャネルは重複せず、この場合 utm_term は使用されません。
 
-ご質問がある場合は、カスタマーサクセスマネージャーにお問い合わせいただくか、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+ご質問がある場合は、カスタマーサクセスマネージャーにお問い合わせいただくか、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

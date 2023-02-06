@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874763
-description: '"[!DNL Microsoft Dynamics] CRM インストールガイド — Marketoの測定 — 製品ドキュメント»'
+description: '"[!DNL Microsoft Dynamics] CRM インストールガイド — Marketo Measure — 製品ドキュメント»'
 title: '"[!DNL Microsoft Dynamics] CRM インストールガイド»'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 source-git-commit: 9de82556ca543aa8e6c53242eacae5c87019886c
@@ -220,4 +220,4 @@ Adobe Admin Consoleにアクセスすると、 [!DNL Marketo Measure] 「概要�
 
    >[!NOTE]
    >
-   >Marketo Measure から Dynamics へのデータのエクスポートを無効にしても、既存のデータは削除されません。 既存のデータの削除については、Dynamics サポートにお問い合わせください。
+   >Dynamics へのMarketo Measureのデータの書き出しを無効にしても、既存のデータは削除されません。 既存のデータの削除については、Dynamics サポートにお問い合わせください。

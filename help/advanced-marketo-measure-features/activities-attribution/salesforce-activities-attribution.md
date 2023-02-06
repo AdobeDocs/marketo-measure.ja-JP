@@ -5,14 +5,14 @@ title: Salesforce アクティビティ属性
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # Salesforce アクティビティ属性 {#salesforce-activities-attribution}
 
-この [!DNL Marketo Measure] Salesforce アクティビティ統合により、特定のタスクおよびイベントレコードが属性モデルに取り込まれます。 セールスメールやセールス電話の呼び出しなど、クレジットが支払われていないものを追跡し始めます。 アクティビティルールを設定するには、次の場所に移動する必要があります： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}。 そこから、 **[!UICONTROL 設定]** 」タブで、 **[!UICONTROL アクティビティ]** タブをクリックします。
+この [!DNL Marketo Measure] Salesforce アクティビティ統合により、特定のタスクおよびイベントレコードが属性モデルに取り込まれます。 セールスメールやセールス電話の呼び出しなど、クレジットが支払われていないものを追跡し始めます。 アクティビティルールを設定するには、次の場所に移動する必要があります： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. そこから、 **[!UICONTROL 設定]** 」タブで、 **[!UICONTROL アクティビティ]** タブをクリックします。
 
 セールスチームを非常に幸せにしようとしています！ 簡単なチュートリアルをご覧ください。
 
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 ![](assets/5.png)
 
-これらの新しいタッチポイントを適切なタッチポイントに配置したい場合があります [マーケティングチャネル](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target=&quot;_blank&quot;}。 それには、先ほど作成した新しい Campaign マッピングでチャネルを定義します。 BDR チャネルの新しい行を作成して、キャンペーンがアウトバウンドで始まるようにします。
+これらの新しいタッチポイントを適切なタッチポイントに配置したい場合があります [マーケティングチャネル](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. それには、先ほど作成した新しい Campaign マッピングでチャネルを定義します。 BDR チャネルの新しい行を作成して、キャンペーンがアウトバウンドで始まるようにします。
 
 >[!TIP]
 >
@@ -84,7 +84,7 @@ ht-degree: 1%
 
 ![](assets/6.png)
 
-最後に、新しいチャネルのコストを入力するオプションがあります。 アドビの [マーケティング費用のアップロード](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target=&quot;_blank&quot;} では、チャネルレベル、サブチャネルレベルまたはキャンペーンレベルで支出を入力できます。 新しい [!DNL Marketo Measure] キャンペーンでは、関連コストを月単位で追加し、各キャンペーンの ROI を確認できます。
+最後に、新しいチャネルのコストを入力するオプションがあります。 アドビの [マーケティング費用のアップロード](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} では、チャネルレベル、サブチャネルレベルまたはキャンペーンレベルでの支出を入力できます。 新しい [!DNL Marketo Measure] キャンペーンでは、関連コストを月単位で追加し、各キャンペーンの ROI を確認できます。
 
 ![](assets/7.png)
 

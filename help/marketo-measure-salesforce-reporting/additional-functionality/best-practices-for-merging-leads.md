@@ -5,7 +5,7 @@ title: リードのマージのベストプラクティス
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '203'
 ht-degree: 7%
 
 ---
@@ -22,6 +22,6 @@ ht-degree: 7%
 
 ここから、リードと [!DNL Marketo Measure] データは新しいレコードに渡されます。
 
-ご質問がある場合は、カスタマーサクセスマネージャーに気軽にお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}。
+ご質問がある場合は、カスタマーサクセスマネージャーに気軽にお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)

@@ -1,11 +1,11 @@
 ---
 unique-page-id: 18874562
-description: PostLC タッチポイントとリードエンゲージメント — Marketoの測定 — 製品ドキュメント
+description: PostLC タッチポイントとリードエンゲージメント — Marketo Measure — 製品ドキュメント
 title: PostLC タッチポイントとリードエンゲージメント
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ PostLC タッチポイントは動的です。 リードまたは連絡先とし
 
 **リード**
 
-1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} に移動し、 [!UICONTROL 設定].
+1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} そして、 [!UICONTROL 設定].
 
 1. CRM で、を選択します。 **[!UICONTROL リード]**.
 
@@ -46,7 +46,7 @@ PostLC タッチポイントは動的です。 リードまたは連絡先とし
 
 **取引先責任者**
 
-1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} に移動し、 [!UICONTROL 設定].
+1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} そして、 [!UICONTROL 設定].
 
 1. CRM で、を選択します。 **[!UICONTROL 連絡先]**.
 

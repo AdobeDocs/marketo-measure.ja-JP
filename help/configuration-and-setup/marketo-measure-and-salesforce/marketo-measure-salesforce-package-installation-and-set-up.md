@@ -4,7 +4,7 @@ title: '"[!DNL Marketo Measure] [!DNL Salesforce] パッケージのインスト
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 以下の手順に従って、 [!DNL Marketo Measure Salesforce] ベースパッケージ。
 
-1. 匿名ブラウザーを使用して、 [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;} にログインし、ログインします。
+1. 匿名ブラウザーを使用して、 [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} をクリックし、ログインします。
 
 1. を [!DNL Marketo Measure] サンドボックスまたは実稼動環境にパッケージ化します。
 
@@ -41,17 +41,17 @@ ht-degree: 0%
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-インストールが完了したら、 [[!DNL Salesforce] ページレイアウト](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target=&quot;_blank&quot;} を [!DNL Marketo Measure] フィールドを設定します。
+インストールが完了したら、 [[!DNL Salesforce] ページレイアウト](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} と [!DNL Marketo Measure] フィールドを設定します。
 
 >[!NOTE]
 >
->詳しくは、 [!DNL Marketo Measure] 作成および権限セット [使用方法](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target=&quot;_blank&quot;}。
+>詳しくは、 [!DNL Marketo Measure] 作成および権限セット [使用方法](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
 ## インストール [!DNL Marketo Measure] ダッシュボードパッケージ {#install-marketo-measure-dashboard-package}
 
 この [!UICONTROL ダッシュボード] 拡張機能パッケージには、3 つの事前ビルドダッシュボードが含まれています。 インストールをお勧めします [!UICONTROL 範囲] すべてのユーザーの実稼動環境。
 
-1. パッケージを [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}。
+1. パッケージを [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
 
 1. 選択 **[!UICONTROL すべてのユーザーにインストール]**.
 

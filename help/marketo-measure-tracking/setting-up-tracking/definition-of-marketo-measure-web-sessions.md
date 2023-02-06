@@ -5,7 +5,7 @@ title: の定義 [!DNL Marketo Measure] ウェブセッション
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -65,4 +65,4 @@ _ただし、_（Haley の最初の Web セッションが Web Direct から開�
 
 ## Google Analyticsセッション {#google-analytics-sessions}
 
-方法には似た点があります [!DNL Marketo Measure] Google Analyticsはセッションを定義します。 セッションの定義方法の詳細については、次のGoogle Analyticsを参照してください。 [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target=&quot;_blank&quot;}
+方法には似た点があります [!DNL Marketo Measure] Google Analyticsはセッションを定義します。 セッションの定義方法の詳細については、次のGoogle Analyticsを参照してください。 [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}

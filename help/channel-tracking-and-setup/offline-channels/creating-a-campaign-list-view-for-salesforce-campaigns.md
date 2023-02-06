@@ -5,7 +5,7 @@ title: 用のキャンペーンリストビューの作成 [!DNL Salesforce] キ
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 1. ビューに「同期するキャンペーン」と名前を付けます。 [!DNL Marketo Measure].&quot;
 1. 同期したいキャンペーンのみをこのリストに表示します [!DNL Marketo Measure] そのため、次の 2 つのフィルターが必要です。
 
-   * **タイプ** [次と等しい] 「オフラインチャネルにマッピングしたすべてのキャンペーンタイプ」。 実装計画または [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} -> マイアカウント/設定/オフラインチャネル )。 虫眼鏡アイコンを使用して、目的のタイプ（オフラインマーケティングチャネルにマッピングされるタイプ）を選択できます。
+   * **タイプ** [次と等しい] 「オフラインチャネルにマッピングしたすべてのキャンペーンタイプ」。 実装計画または [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> マイアカウント/設定/オフラインチャネル )。 虫眼鏡アイコンを使用して、目的のタイプ（オフラインマーケティングチャネルにマッピングされるタイプ）を選択できます。
 
       * 各フィルターに対して最大 3 種類を選択します。 フィルターフィールドに入力できる文字数は制限されています。 フィルターごとに 3 種類から始め、必要に応じて「タイプ」フィルターの行を追加します。
    * **作成日** [以上] あなたの [!DNL Marketo Measure] 開始日。 開始日は、 [!DNL Marketo Measure] アプリ。 ダッシュの日付範囲で「作成日以降」を選択すると、開始日が表示されます。
@@ -39,4 +39,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[リスト表示のインライン編集に関する一般的な問題のトラブルシューティング](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target=&quot;_blank&quot;}
+>[リスト表示のインライン編集に関する一般的な問題のトラブルシューティング](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

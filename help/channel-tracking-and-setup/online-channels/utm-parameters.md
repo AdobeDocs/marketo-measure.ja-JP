@@ -5,7 +5,7 @@ title: UTM パラメーター
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 URL のタグ付けは、デジタルマーケティング活動に関するデータを取り込むためのシンプルで効果的な方法です。 データを収集して記録する URL の末尾にパラメーターを追加するプロセスです。 最も一般的に使用されるパラメーターは、Googleでサポートされる Urchin Tracking Modules(UTM) です。 次の 5 つの主な UTM パラメーターを使用できます。メディア、ソース、キャンペーン、コンテンツ、キーワード。 これらについては、次の節で詳しく説明します。
 
-UTM パラメーターは、URL に手動で追加することも、AdWords など、特定のプラットフォームとの自動タギングを通じて追加することもできます。 自動タグ付けは、URL へのパラメーターの追加プロセスを自動化します。 また、 [URL ビルダー](https://ga-dev-tools.appspot.com/campaign-url-builder/){target=&quot;_blank&quot;} を使用して、URL へのタグ付けを手動で高速化できます。 URL ビルダーでは、各パラメーターに使用する値を指定するだけで済み、ビルダーによって URL の形式が設定されます。
+UTM パラメーターは、URL に手動で追加することも、AdWords など、特定のプラットフォームとの自動タギングを通じて追加することもできます。 自動タグ付けは、URL へのパラメーターの追加プロセスを自動化します。 また、 [URL ビルダー](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} :URL のタグ付けを手動で高速化します。 URL ビルダーでは、各パラメーターに使用する値を指定するだけで済み、ビルダーによって URL の形式が設定されます。
 
 ## UTM パラメーターとは {#what-are-utm-parameters}
 
