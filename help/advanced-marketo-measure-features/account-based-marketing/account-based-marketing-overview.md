@@ -3,9 +3,9 @@ unique-page-id: 18874730
 description: アカウントベースドマーケティングの概要 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: アカウントベースドマーケティングの概要
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ ABM を [!DNL Salesforce] 例として、 [ここをクリック](/help/advanced
 * リード企業名からアカウント名へ
 * リード企業からアカウント Web サイトドメインへ
 * 連絡先のメールアドレスを使用したリードのメールアドレス上のドメインとアカウントとの照合
+
+>[!NOTE]
+>
+>各リードは上記の方法の優先順でアカウントと照合されます。 一致すると、AccountId はリードに直ちに設定され、別の方法では一致しません。 リードに既に有効な AccountId が割り当てられている場合、リードはスキップされます。
 
 ## 予測エンゲージメントスコア {#predictive-engagement-score}
 
