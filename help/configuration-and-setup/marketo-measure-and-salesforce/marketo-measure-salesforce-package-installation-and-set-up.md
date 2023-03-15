@@ -1,99 +1,99 @@
 ---
-description: '"[!DNL Marketo Measure] Salesforce パッケージのインストールとセットアップ — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: '"[!DNL Marketo Measure] [!DNL Salesforce] パッケージのインストールとセットアップ»'
+description: "[!DNL Marketo Measure] Salesforce パッケージのインストールと設定 - [!DNL Marketo Measure] - 製品ドキュメント"
+title: "[!DNL Marketo Measure] [!DNL Salesforce] パッケージのインストールと設定"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Salesforce パッケージのインストールとセットアップ {#marketo-measure-salesforce-package-installation-and-set-up}
+# [!DNL Marketo Measure] Salesforce パッケージのインストールと設定 {#marketo-measure-salesforce-package-installation-and-set-up}
 
-インストールする前に [!DNL Marketo Measure] [!DNL Salesforce] ベースパッケージを最初に [!DNL Salesforce] サンドボックスを開いてから、Salesforce 本番インスタンスに移動します。
+[!DNL Marketo Measure] [!DNL Salesforce] 基本パッケージをインストールする前に、Salesforce 実稼動インスタンスに移動する前にまず [!DNL Salesforce] サンドボックスにインストールかどうかを特定する必要があります。
 
 >[!NOTE]
 >
->一度 [!DNL Marketo Measure] アカウントが [!DNL Salesforce] 実稼動インスタンスの場合、後方に移動してサンドボックスに接続することはできません。 また、 [!DNL Marketo Measure] アカウントは 1 つにのみ接続できます [!DNL Salesforce] 実稼動インスタンス。
+>[!DNL Marketo Measure] アカウントが [!DNL Salesforce] 実稼動インスタンスに接続されると、後方に移動してサンドボックスに接続することはできません。また、[!DNL Marketo Measure] アカウントは、1 つの [!DNL Salesforce] 実稼動インスタンスにのみ接続できます。
 
-この [!DNL Marketo Measure] 基本パッケージに含まれる内容：
+[!DNL Marketo Measure] 基本パッケージには、以下が含まれます。
 
-* 7 カスタム [!DNL Marketo Measure] オブジェクト
+* 7 つのカスタム [!DNL Marketo Measure] オブジェクト
 * カスタム [!DNL Marketo Measure] フィールド
-* 25 [!DNL Stock] レポート
+* 25 個の [!DNL Stock] レポート
 
-[!DNL Marketo Measure] は、標準を読み取ることができます [!DNL Salesforce] ただし、オブジェクト、フィールド、レコードは [!DNL Marketo Measure] では、データを更新またはプッシュすることはありません。 が収集するすべてのデータ [!DNL Marketo Measure] JavaScript は [!DNL Marketo Measure] カスタムオブジェクトおよびフィールド。
+[!DNL Marketo Measure] は、標準 [!DNL Salesforce] オブジェクト、フィールドおよびレコードを読み込むことができますが、[!DNL Marketo Measure] は、それらを更新したり、それらにデータをプッシュしたりすることはありません。[!DNL Marketo Measure] JavaScript で収集されたすべてのデータは、[!DNL Marketo Measure] カスタムオブジェクトおよびフィールドに表示されます。
 
-以下の手順に従って、 [!DNL Marketo Measure Salesforce] ベースパッケージ。
+以下の手順に従って、[!DNL Marketo Measure Salesforce] 基本パッケージをインストールします。
 
-1. 匿名ブラウザーを使用して、 [Salesforce Appexchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} をクリックし、ログインします。
+1. 匿名ブラウザーを使用して [Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} に移動し、ログインします。
 
-1. を [!DNL Marketo Measure] サンドボックスまたは実稼動環境にパッケージ化します。
+1. サンドボックスまたは実稼動で [!DNL Marketo Measure] パッケージにインストールします。
 
-1. にログインします。 [!DNL Salesforce] 管理者として。
+1. [!DNL Salesforce] に管理者としてログインします。
 
-1. 選択 **[!UICONTROL インストール] （すべてのユーザー）**.
+1. 「**[!UICONTROL すべてのユーザーにインストール]**」を選択します。
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
 
-1. インストールが完了したら、表示できます。
+1. インストールが完了すると、表示できます。
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-インストールが完了したら、 [[!DNL Salesforce] ページレイアウト](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} と [!DNL Marketo Measure] フィールドを設定します。
+インストールが完了したら、必要に応じて、[[!DNL Salesforce] ページレイアウト](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"}を [!DNL Marketo Measure] フィールドで更新できます。
 
 >[!NOTE]
 >
->詳しくは、 [!DNL Marketo Measure] 作成および権限セット [使用方法](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
+>作成された [!DNL Marketo Measure] 権限セットおよび[使用方法](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}について参照してください。
 
-## インストール [!DNL Marketo Measure] ダッシュボードパッケージ {#install-marketo-measure-dashboard-package}
+## [!DNL Marketo Measure] ダッシュボードパッケージのインストール {#install-marketo-measure-dashboard-package}
 
-この [!UICONTROL ダッシュボード] 拡張機能パッケージには、3 つの事前ビルドダッシュボードが含まれています。 インストールをお勧めします [!UICONTROL 範囲] すべてのユーザーの実稼動環境。
+[!UICONTROL ダッシュボード]拡張パッケージには、3 つの事前定義済みダッシュボードが含まれています。すべてのユーザーに対して、実稼動[!UICONTROL 内]にインストールすることをお勧めします。
 
-1. パッケージを [[!DNL Salesforce] Appexchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
+1. [[!DNL Salesforce] AppExchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"} からパッケージをインストールします。
 
-1. 選択 **[!UICONTROL すべてのユーザーにインストール]**.
+1. 「**[!UICONTROL すべてのユーザーにインストール]**」を選択します。
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
 
-## の作成 [!DNL Marketo Measure] プロファイルとユーザー {#creating-a-marketo-measure-profile-and-user}
+## [!DNL Marketo Measure] プロファイルおよびユーザーの作成 {#creating-a-marketo-measure-profile-and-user}
 
-[!DNL Marketo Measure] 接続された [!DNL Salesforce] ユーザーの [!DNL Marketo Measure] アプリを使用します。
+[!DNL Marketo Measure] は、接続された [!DNL Salesforce] ユーザーを通じて [!DNL Marketo Measure] アプリ内でデータを送受信します。
 
-タッチポイントデータを [!DNL Salesforce] インスタンス、接続したユーザーは、 [!DNL Marketo Measure] カスタムオブジェクト（例：購入者のタッチポイントおよび購入者のアトリビューションのタッチポイント）および標準 [!DNL Salesforce] リードや連絡先などのオブジェクト。
+タッチポイントデータを [!DNL Salesforce] インスタンスにプッシュするには、接続されたユーザーが、[!DNL Marketo Measure] カスタムオブジェクト（例：Buyer Touchpoint および Buyer Attribution Touchpoint）および標準 [!DNL Salesforce] オブジェクト（例：リードおよび連絡先）へのアクセス権を持っている必要があります。
 
-の作成 [!DNL Marketo Measure] プロファイルを使用して、Salesforce にデータをプッシュする際に検証エラーが発生しないようにします。
+Salesforce にデータをプッシュする際に検証エラーが発生しないようにするために、[!DNL Marketo Measure] プロファイルを作成します。
 
-手順 1:特定の [!DNL Marketo Measure] profile
+手順 1：特定の [!DNL Marketo Measure] プロファイルを作成
 
-1. 次の権限を割り当てます。
+1. 以下の権限を割り当てます。
 
-* &quot;[!DNL Marketo Measure] 管理者権限セット»
-   * 管理されたアクセス許可セットを使用すると、SFDC 管理者は、レコードの作成、読み取り、書き込み、削除を SFDC 管理者が実行できます。 [!DNL Marketo Measure] オブジェクト。
-* &quot;変換済みリードの表示と編集権限セット&quot;
-   * これにより、 [!DNL Marketo Measure] 連絡先に変換した後にリードを装飾するため この権限セットが有効になっていない場合、データトラッキングに大きなギャップが生じる可能性があります。
+* 「[!DNL Marketo Measure] 管理者権限セット」
+   * 管理された権限セットは、SFDC 管理者に、[!DNL Marketo Measure] オブジェクトからレコードを作成、読み取り、書き込み、削除する権限を付与します。
+* 「コンバート済みリードの表示および編集権限セット」
+   * これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。この権限セットが有効でない場合、大幅なデータトラッキングギャップが生じる可能性があります。
 
 >[!NOTE]
 >
 >このプロファイルは、システム管理者プロファイルのクローンにすることができます。
 
-手順 2:専用のを作成 [!DNL Marketo Measure] ユーザーを設定して、 [!DNL Marketo Measure] を [!DNL Salesforce] インスタンス
+手順 2：[!DNL Salesforce] インスタンス上の [!DNL Marketo Measure] の影響をトラッキングできるように、専用の [!DNL Marketo Measure] ユーザーを作成
 
-1. 新しい [!DNL Marketo Measure] そのユーザーに対するプロファイル。
+1. 新しい [!DNL Marketo Measure] プロファイルをそのユーザーにを割り当てます。
 
-1. ユーザーレベルの権限として「マーケティングユーザー」を有効にします。
+1. 「マーケティングユーザー」をユーザーレベル権限として有効にします。
 
-* この [!UICONTROL マーケティングユーザー] チェックボックスを使用すると、キャンペーンを作成し、キャンペーンインポートウィザードを使用できます。 このオプションが選択されていない場合、ユーザーはキャンペーンと高度なキャンペーン設定の表示、1 つのリードまたは連絡先に関するキャンペーン履歴の編集、キャンペーンレポートの実行のみが可能です。 [!DNL Marketo Measure] キャンペーンオブジェクトに対して読み書きを実行する機能が必要です。
+* 「[!UICONTROL マーケティングユーザー]」チェックボックスを使用すると、ユーザーは、キャンペーンを作成したり、キャンペーンインポートウィザードを使用したりできます。このオプションが選択されていない場合、そのユーザーができるのは、キャンペーンおよび高度なキャンペーン設定の表示、単一のリードまたは連絡先のキャンペーン履歴の編集およびキャンペーンレポートの実行のみです。[!DNL Marketo Measure] には、キャンペーンオブジェクトに対する読み取りおよび書き込み権限が必要です。
 
-手順 3:すべてのトリガー、ワークフロー、プロセスからこのプロファイルを除外
+手順 3：すべてのトリガー、ワークフローおよび処理からこのプロファイルを除外
 
-手順 4:にログインします。 [!DNL Marketo Measure] アカウントをアカウントして再認証 [!DNL Salesforce] 新しいユーザーとの接続
+手順 4：[!DNL Marketo Measure] アカウントにログインして、[!DNL Salesforce] 接続を新規ユーザーで再認証
 
-1. apps.bizible.com に移動し、新しいユーザー実稼動環境でログインします。 [!DNL Salesforce] 資格情報。
+1. apps.bizible.com に移動して、新規ユーザー実稼動 [!DNL Salesforce] 資格情報でログインします。
 
-1. 選択 **[!UICONTROL 設定]** 内 **[!UICONTROL マイアカウント]** 」ドロップダウンリストから選択できます。
+1. **[!UICONTROL マイアカウント]**&#x200B;ドロップダウンで、**[!UICONTROL 設定]**&#x200B;を選択します。
 
-1. 選択 **[!UICONTROL 接続]** 内 **[!UICONTROL 統合]** グループ化。
+1. **[!UICONTROL 統合]**&#x200B;グループで&#x200B;**[!UICONTROL 接続]**&#x200B;を選択します。
 
-1. 現在接続されているの右にあるキーアイコンをクリックします。 [!DNL Salesforce] 接続して選択 **実稼動環境での再認証**. 新しいユーザー資格情報を使用して再度ログインします（要求された場合）。
+1. 現在接続されている [!DNL Salesforce] 接続の右側にあるキーアイコンをクリックして、**実稼動で再認証**&#x200B;を選択します。新規ユーザー資格情報でもう一度ログインします（メッセージが表示された場合）。
