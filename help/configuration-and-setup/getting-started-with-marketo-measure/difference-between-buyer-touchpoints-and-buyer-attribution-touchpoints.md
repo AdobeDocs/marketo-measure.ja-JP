@@ -1,22 +1,22 @@
 ---
 unique-page-id: 18874646
-description: 購入者タッチポイントと購入者アトリビューションタッチポイントの違い — [!DNL Marketo Measure]  — 製品ドキュメント
-title: 購入者タッチポイントと購入者属性タッチポイントの違い
+description: Buyer Touchpoints と Buyer Attribution Touchpoints の違い - [!DNL Marketo Measure] - 製品ドキュメント
+title: Buyer Touchpoints と Buyer Attribution Touchpoints の違い
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '392'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 購入者タッチポイントと購入者属性タッチポイントの違い {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
+# Buyer Touchpoints と Buyer Attribution Touchpoints の違い {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
-バイヤータッチポイント (BT) とバイヤー属性タッチポイント (BAT) の定義、2 つの違い、およびよくある質問に答える方法について説明します。
+Buyer Touchpoint（BT）と Buyer Attribution Touchpoint（BAT）の定義、両者の違い、よくある質問について説明します。
 
-購入者タッチポイントと購入者アトリビューションタッチポイントを区別する鍵は、タッチポイントとの関係です [!DNL Salesforce] オブジェクト。 BT は、Opportunity オブジェクトではなく、リード、連絡先、事例の各オブジェクトに関連しています。 つまり、購入者タッチポイントに関連する売上高は決してありません。
+Buyer Touchpoints と Buyer Attribution Touchpoints を区別する主なものは、[!DNL Salesforce] オブジェクトとの関係です。BT は、リード、連絡先および事例オブジェクトに関連しますが、商談オブジェクトには関連しません。つまり、Buyer Touchpoints に関連付けられた収益はありません。
 
-Buyer Attribution タッチポイントオブジェクトは連絡先、アカウント、商談の各オブジェクトに関連していますが、リードオブジェクトには関連していません。 つまり、リードに結び付けられた購入者属性タッチポイントは存在しません。 BAT オブジェクトを使用すると、特定のマーケティングインタラクションに結び付けられた売上高を確認できます。
+一方、Buyer Attribution Touchpoint オブジェクトは、連絡先、アカウントおよび商談オブジェクトに関連しますが、リードオブジェクトには関連しません。つまり、リードに関連付けられた Buyer Attribution Touchpoints はありません。BAT オブジェクトは、特定のマーケティングインタラクションに関連付けられた収益を確認する場所です。
 
 BT と BAT の違い：
 
@@ -27,21 +27,21 @@ BT と BAT の違い：
  </colgroup> 
  <tbody> 
   <tr> 
-   <td>購入者タッチポイント (BT)</td> 
-   <td>購入者の属性タッチポイント (BAT)</td> 
+   <td>Buyer Touchpoint（BT）</td> 
+   <td>Buyer Attribution Touchpoint（BAT）</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>リード、連絡先、および事例の各オブジェクトに関連します</li> 
-     <li>オポチュニティオブジェクトに関連していません</li> 
-     <li>売上高は購入者タッチポイントに関連付けられていません</li> 
+     <li>リード、連絡先、事例オブジェクトに関連する</li> 
+     <li>商談オブジェクトに関連しない</li> 
+     <li>収益は Buyer Touchpoint には関連付けられない</li> 
     </ul></td> 
    <td> 
     <ul> 
-     <li>連絡先、アカウント、商談の各オブジェクトに関連します</li> 
-     <li>リードオブジェクトに関連していません</li> 
-     <li>購入者の属性タッチポイントは商談に関連付けられているので、すべての BAT には売上高が関連付けられています</li> 
+     <li>連絡先、アカウント、商談オブジェクトに関連する</li> 
+     <li>リードオブジェクトに関連しない</li> 
+     <li>Buyer Attribution Touchpoint は、商談に関連付けられているので、すべての BAT には、それらに関連付けられた収益がある</li> 
     </ul></td> 
   </tr> 
  </tbody> 
@@ -49,26 +49,26 @@ BT と BAT の違い：
 
 ## よくある質問 {#faq}
 
-**購入者のタッチポイントが購入者の属性のタッチポイントになるのはいつですか？**
+**Buyer Touchpoint は、いつ Buyer Attribution Touchpoint になりますか？**
 
-BT は、この BT が Opportunity を関連付けた連絡先に関連付けられると、BAT になります。 重要な点の 1 つは、1 つの特定のマーケティングインタラクションが BT と BAT になることです。
+BT は、関連した商談を含む連絡先にこの BT が関連付けられると、BAT になります。ひとつ理解しておくべき非常に重要なことは、1 つの特定のマーケティングインタラクションは、BT にも BAT にもなり得るということです。
 
-**購入者タッチポイントに商談作成 (OC) のタッチポイントポジションを設定できますか。**
+**Buyer Touchpoint は、Touchpoint の位置として商談作成（OC）を取ることはできますか？**
 
-購入者タッチポイントには、ファーストタッチ (FT)、リード作成 (LC) またはフォーム送信（中間タッチポイント）のタッチポイントのみが割り当てられます。 BT は商談と関係がないので、BT が商談の作成またはクローズのタッチポイントポジションを持つことはできません。
+Buyer Touchpoint は、Touchpoint の位置として、ファーストタッチ（FT）、リード作成（LC）またはフォーム申請（中間のタッチポイント）のいずれかのみを取ることができます。BT は、商談に関連しないので、BT が Touchpoint の位置として商談作成やクローズを取ることはできません。
 
-**購入者のタッチポイントデータはどのように利用されますか？**
+**Buyer Touchpoint データはどのように活用されますか？**
 
-通常、顧客は購入者タッチポイントデータを活用して、ファネルの上位やファネルエンゲージメントの中間を把握します。 意味 [!DNL Marketo Measure] ユーザーは、誰がフォームを送信し、誰がサイトを閲覧し、どのブログ投稿のパフォーマンスが高いか、どの AdWords 広告がコンバージョンに導いているかなどを把握します。 購入者タッチポイントデータは、リードと連絡先のエンゲージメントを把握するのに最適です。
+通常、お客様は、ファネルの上部およびファネルの中央のエンゲージメントを把握するために、Buyer Touchpoint データを活用します。つまり、[!DNL Marketo Measure] ユーザーは、誰がフォームを送信しているか、誰がサイトを閲覧しているか、どのブログ投稿のパフォーマンスが高いか、どの AdWords 広告がリードのコンバージョンを推進しているかなどを把握します。Buyer Touchpoint データは、リードおよび連絡先のエンゲージメントを把握するのに最適です。
 
-**Salesforce での購入者タッチポイントはどのように表示されますか？**
+**Buyer Touchpoint は、Salesforce ではどのように見えますか？**
 
-BT のスクリーンショットを次に示します。 [!DNL Salesforce]:
+以下に、[!DNL Salesforce] での BT のスクリーンショットを示します。
 
 ![](assets/1.png)
 
-**Salesforce での購入者属性タッチポイントはどのように表示されますか？**
+**Buyer Attribution Touchpoint は、Salesforce ではどのように見えますか？**
 
-次に、の BAT のスクリーンショットを示します。 [!DNL Salesforce]:
+以下に、[!DNL Salesforce] での BAT のスクリーンショットを示します。
 
 ![](assets/2.png)
