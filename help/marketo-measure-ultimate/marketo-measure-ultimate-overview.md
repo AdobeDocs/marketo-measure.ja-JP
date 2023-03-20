@@ -1,12 +1,10 @@
 ---
 description: '''[!DNL Marketo Measure] Ultimate の概要 — [!DNL Marketo Measure]  — 製品ドキュメント`'
 title: '[!DNL Marketo Measure] Ultimate の概要'
-hide: true
-hidefromtoc: true
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 604db0227cc48e09743db317cc72488755586a48
+source-git-commit: 59d42e5065ec0db7143208743fd053f5e6c1af7b
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '695'
 ht-degree: 2%
 
 ---
@@ -28,29 +26,29 @@ ht-degree: 2%
 
 * RTCDP（B2B または B2P エディション）との統合により、RTCDP のお客様向けに統合された B2B アトリビューションソリューションを RTCDP および [!DNL Marketo Measure] 両方とも、一元化されたAdobe Experience Platform(AEP) データから機能します。
 
-**Marketo Measure Tier 1 ～ 3**
+**[!DNL Marketo Measure]階層 1 ～ 3**
 
 ![](assets/marketo-measure-ultimate-overview-1.png)
 
-**Marketo Measure Ultimate**
+**[!DNL Marketo Measure Ultimate]**
 
 ![](assets/marketo-measure-ultimate-overview-2.png)
 
 ## の新機能 [!DNL Marketo Measure Ultimate] {#whats-new-in-marketo-measure-ultimate}
 
-**ヘッダータイトル — AEP を使用した B2B データの読み込み**
+**AEP を通じて B2B データを読み込む**
 
 マーケターは、AEP を通じて B2B データ（アカウント、商談、連絡先、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。 直接の CRM 接続とMarketo Engage接続は、Ultimate では使用できなくなりました。 マーケターは、引き続き、を通じた直接接続と Web アクティビティの追跡を通じて Ad Platform データを取り込みます。 [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
-**ヘッダータイトル — デフォルトの通貨設定**
+**デフォルトの通貨設定**
 
-概要???
+[!DNL Marketo Measure Ultimate] は、ユーザーが変更するまで、デフォルトの通貨を USD に設定します。 新しいデフォルト通貨を設定すると、再処理せずにデータが更新されます。 選択した通貨がターゲットの ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
-**ヘッダータイトル — Marketo Measure Ultimate Sandbox**
+**[!DNL Marketo Measure Ultimate]Sandbox**
 
 [!DNL Marketo Measure Ultimate] インスタンスを作成する前に、AEP サンドボックスにマッピングする必要があります [!DNL Marketo Measure] 宛先データフロー（AEP 内）
 
@@ -64,7 +62,7 @@ ht-degree: 2%
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
-**ヘッダータイトル — ステージマッピング**
+**ステージマッピング**
 
 すべて [!DNL Marketo Measure Ultimate] ルールは、データセットに固有です。 ステージマッピングルールは、すべてのデータセットと選択したすべてのステージに対して作成する必要があります。
 
