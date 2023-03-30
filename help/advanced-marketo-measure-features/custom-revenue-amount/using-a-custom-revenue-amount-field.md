@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874793
 description: カスタムの「売上高」フィールドの使用 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: カスタムの「売上高」フィールドの使用
+title: カスタム収益額フィールドの使用
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 2%
+source-wordcount: '375'
+ht-degree: 5%
 
 ---
 
-# カスタムの「売上高」フィールドの使用 {#using-a-custom-revenue-amount-field}
+# カスタム収益額フィールドの使用 {#using-a-custom-revenue-amount-field}
 
 デフォルトでは、購入者の属性タッチポイントは、次の 2 つのフィールドのいずれかから商談額を引き出します。
 
@@ -53,4 +53,4 @@ ht-degree: 2%
 
    これは、SFDC 内のデータローダーを通じて商談を実行することで実現できます。 でのデータローダーの使用の詳細を確認してください。 [この記事](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-途中でご質問がある場合は、カスタマーサクセスマネージャーに気軽にお問い合わせください。 [[!DNL Marketo] サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+途中でご質問がある場合は、Adobeアカウントチーム（担当のアカウントマネージャー）に気軽にお問い合わせください。または [[!DNL Marketo] サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

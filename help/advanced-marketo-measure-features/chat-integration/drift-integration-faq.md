@@ -1,18 +1,18 @@
 ---
 unique-page-id: 27656441
 description: Drift 統合に関する FAQ - [!DNL Marketo Measure]  — 製品ドキュメント
-title: Drift 統合に関する FAQ
+title: Drift 統合に関するよくある質問
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
+source-wordcount: '376'
+ht-degree: 3%
 
 ---
 
-# Drift 統合に関する FAQ {#drift-integration-faq}
+# Drift 統合に関するよくある質問 {#drift-integration-faq}
 
-の一部として [!DNL Marketo Measure] Drift との統合に関して、最もよくある質問のいくつかを概説しました。 以下に概要がない質問がある場合は、カスタマーサクセスマネージャーにお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+の一部として [!DNL Marketo Measure] Drift との統合に関して、最もよくある質問のいくつかを概説しました。 以下に概要を示さないご質問がある場合は、Adobeアカウントチーム（担当のアカウントマネージャー）にお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **統合はどのように有効になっていますか？**
 

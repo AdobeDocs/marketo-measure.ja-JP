@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874698
 description: の作成 [!DNL Marketo Measure] プロファイル — [!DNL Marketo Measure]  — 製品ドキュメント
-title: の作成 [!DNL Marketo Measure] プロファイル
+title: ' [!DNL Marketo Measure] プロファイルの作成'
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 3%
+source-wordcount: '191'
+ht-degree: 16%
 
 ---
 
-# の作成 [!DNL Marketo Measure] プロファイル {#creating-a-marketo-measure-profile}
+# [!DNL Marketo Measure]プロファイルの作成 {#creating-a-marketo-measure-profile}
 
 を作成する方法を学ぶ [!DNL Marketo Measure] プロファイル。 の作成 [!DNL Marketo Measure] プロファイルを使用すると、データを CRM にプッシュする際に、検証エラーが発生しないようにします。
 
@@ -34,8 +34,8 @@ ht-degree: 3%
    * に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} 新しいユーザ本番 Salesforce 認証情報を使用してログイン
    * 「[!UICONTROL 設定]」を[!UICONTROL マイアカウント]」ドロップダウン
    * 「[!UICONTROL 接続]」を[!UICONTROL 統合]&quot;グループ化&quot;
-   * 現在接続されているの右にあるキーアイコンをクリックします。 [!DNL Salesforce] 接続し、「実稼動環境で再認証」を選択します。 その後、要求された場合は、新しいユーザーの資格情報を使用して再度ログインします
+   * 現在接続されている [!DNL Salesforce] 接続の右側にあるキーアイコンをクリックして、実稼動で再認証を選択します。その後、要求された場合は、新しいユーザーの資格情報を使用して再度ログインします
 
    完了です。
 
-   専用の [!DNL Marketo Measure] プロファイルについては、カスタマーサクセスマネージャーにお問い合わせいただくか、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+   専用の [!DNL Marketo Measure] プロファイルにアクセスする場合は、Adobeアカウントチーム（担当のアカウントマネージャー）にお問い合わせいただくか、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

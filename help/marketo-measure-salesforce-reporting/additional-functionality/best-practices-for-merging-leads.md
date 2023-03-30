@@ -3,10 +3,10 @@ unique-page-id: 18874734
 description: リードのマージのベストプラクティス — [!DNL Marketo Measure]  — 製品ドキュメント
 title: リードのマージのベストプラクティス
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 7%
+source-wordcount: '206'
+ht-degree: 12%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 7%
 
 ここから、リードと [!DNL Marketo Measure] データは新しいレコードに渡されます。
 
-ご質問がある場合は、カスタマーサクセスマネージャーに気軽にお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+ご質問がある場合は、Adobeアカウントチーム（担当のアカウントマネージャー）に気軽にお問い合わせください。または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 ![](assets/1.jpg)
