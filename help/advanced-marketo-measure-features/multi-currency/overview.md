@@ -3,22 +3,24 @@ unique-page-id: 27656735
 description: 概要 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: 概要
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 概要 {#overview}
 
-今日、 [!DNL Marketo Measure] アプリケーションは単一通貨（USD と想定）のみをサポートしていますが、世界中のお客様が自社の企業通貨とユーザー通貨でレポートする必要があることを知っており、認識しています。 この機能は、報告された支出または売上高を見る際に、ユーザーが異なる通貨を切り替える機能を構築します。
+今日、 [!DNL Marketo Measure] アプリケーションは単一通貨（USD と想定）のみをサポートしていますが、世界中のお客様が自社の企業通貨とユーザー通貨でレポートする必要があることを知っており、認識しています。 この機能を使用すると、レポートされた支出や売上高をで表示する際に、CRM で使用されるのと同じ通貨を切り替えることができます。 [!DNL Marketo Measure].
 
 ## 利用可能性 {#availability}
 
 階層 2 以降
 
 ## 要件 {#requirements}
+
+[!DNL Marketo Measure] は、顧客の CRM から通貨設定を自動的に取り込みます。 での手動設定 [!DNL Marketo Measure] CRM に一致させる必要がなくなりました。 通貨設定は、「CRM」の下の「一般」ページにあります。
 
 In [!DNL Salesforce]の場合、顧客は「複数の通貨の有効化」を有効にしておく必要があります。 必要に応じて、顧客は「はい、高度な通貨管理を有効にします」を選択することもできます。
 
