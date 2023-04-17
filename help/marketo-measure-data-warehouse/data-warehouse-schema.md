@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメント
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
+source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
 workflow-type: tm+mt
-source-wordcount: '22622'
+source-wordcount: '22610'
 ht-degree: 99%
 
 ---
@@ -4331,10 +4331,10 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>連絡先が商談のクローズに貢献するかどうかを、年齢およびステージに基づいて推定する [!DNL Marketo Measure] アルゴリズム</p>
+        <p>この機能は廃止されました。 この列は使用しないでください。</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>なし</p>
       </td>
     </tr>
     <tr>
@@ -9557,10 +9557,10 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>リードがコンバートされるかどうかを、年齢およびステージに基づいて推定する [!DNL Marketo Measure] アルゴリズム。</p>
+        <p>この機能は廃止されました。 この列は使用しないでください。</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>なし</p>
       </td>
     </tr>
     <tr>
@@ -10175,10 +10175,10 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>商談がクローズされるかどうかを、年齢およびステージに基づいて推定する [!DNL Marketo Measure] アルゴリズム。</p>
+        <p>この機能は廃止されました。 この列は使用しないでください。</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>なし</p>
       </td>
     </tr>
     <tr>
