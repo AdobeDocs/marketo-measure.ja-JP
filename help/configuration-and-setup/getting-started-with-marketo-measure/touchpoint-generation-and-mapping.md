@@ -3,10 +3,10 @@ unique-page-id: 18874554
 description: タッチポイントの生成とマッピング — [!DNL Marketo Measure]  — 製品ドキュメント
 title: タッチポイントの生成とマッピング
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '374'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 0%
 タッチポイント生成方法
 
 タッチポイント生成プロセスは、「 [!DNL Marketo Measure] これが起こった事を知る事になるのか？」 機能セットと、見込み客が持つインタラクションのタイプに応じて、最大 3 つの方法があります [!DNL Marketo Measure] では、インタラクションを取得し、それを表すタッチポイントを作成できます。
+
+>[!IMPORTANT]
+>
+>[!DNL Marketo Measure] は、セッションごとに 1 つのタッチポイントのみを生成します。 複数のフォームが入力されている場合は、最初のフォームの入力のみが取り込まれます。
 
 | **インタラクションのタイプ** | **例** | **タッチポイント生成方法** |
 |---|---|---|
