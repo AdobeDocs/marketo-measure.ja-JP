@@ -1,7 +1,7 @@
 ---
 description: '"[!DNL Salesforce] パッケージ統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
 title: '"[!DNL Salesforce] パッケージ統合»'
-source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
+source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Marketo Measure Salesforce パッケージの今後の変更がお知らせし�
       * V2_EXT クエリ：
          * bizible2_ext__Ad_Content_FT__c には Outreach が含まれています
 
-![](assets/salesforce-package-consolidation-1.png)
+![](assets/package-consolidation-1.png)
 
 * 統合パッケージ内の対応するクエリ：
    * bizible2__Touchpoint_Position__c には FT AND が含まれています
