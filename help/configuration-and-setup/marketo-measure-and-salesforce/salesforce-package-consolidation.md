@@ -1,12 +1,10 @@
 ---
 description: '"[!DNL Salesforce] パッケージ統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
 title: '"[!DNL Salesforce] パッケージ統合»'
-hide: true
-hidefromtoc: true
-source-git-commit: 502a08b9a670c0b9a997a0fbb238a4db865f79d2
+source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '458'
+ht-degree: 3%
 
 ---
 
