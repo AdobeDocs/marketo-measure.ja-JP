@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
+source-git-commit: 5a27c4fc89925ae143affa2de14eca3b8a51bd11
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '776'
+ht-degree: 99%
 
 ---
 
@@ -224,3 +224,5 @@ ht-degree: 0%
       + [プライバシーリクエスト](miscellaneous/other-related-resources/privacy-requests.md)
       + [Google Analytics のランディングページ URL からの [!DNL Marketo Measure] トラッキングパラメーターの削除](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Full Circle から [!DNL Marketo Measure] への移行](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
++ リリースノート {#release-notes}
+   + [最新のリリースノート](release-notes/current.md)
