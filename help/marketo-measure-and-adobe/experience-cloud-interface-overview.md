@@ -1,21 +1,19 @@
 ---
-description: 統合シェルの概要 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: 統合シェルの概要
+description: Adobe Experience Cloudインターフェイス — [!DNL Marketo Measure]  — 製品ドキュメント
+title: Adobe Experience Cloud Interface
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: f0ad2b309172bf44ccea033e57d9aae3616532fc
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 46%
+source-wordcount: '297'
+ht-degree: 35%
 
 ---
 
-# 統合シェルの概要 {#unified-shell-overview}
+# Adobe Experience Cloud Interface {#unified-shell-overview}
 
-統合シェルは、Adobe Experience Cloud アプリケーションおよびサービスの「シェル」ルックアンドフィールを揃えます。ただの新しいデザインではありません。単一のインスタンスでユーザエクスペリエンスを提供する単一ページアプリケーションです。
+Adobe Experience Cloudインターフェイスは、Adobe Experience Cloudアプリケーションおよびサービスの「シェル」ルックアンドフィールを揃えます。 ただの新しいデザインではありません。単一のインスタンスでユーザエクスペリエンスを提供する単一ページアプリケーションです。
 
 ## ユーザフロー {#user-flow}
-
-**統合シェルフロー**
 
 既にAdobe Experience Cloud製品にログインしている場合は、メニューアイコンをクリックし、「 」を選択します。 **[!DNL Marketo Measure]**.
 
@@ -69,7 +67,7 @@ ht-degree: 46%
 
 ブックマークはリダイレクトされます。 例えば、https://apps.marketo-measure.com/Discover/391に移動した場合は、認証が完了するとhttps://experience.adobe.com/marketo-measure/Discover/391にリダイレクトされます。
 
-**統合シェルを通じて [!DNL Marketo Measure] にログインできません。問題の原因**
+**にログインできません [!DNL Marketo Measure] を使用します。 問題の原因**
 
 Adobe Experience Cloudにログインできるが、次のようなページが表示された場合は、 [!DNL Marketo Measure] サイド：
 

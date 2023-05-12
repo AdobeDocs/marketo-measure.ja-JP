@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 5a27c4fc89925ae143affa2de14eca3b8a51bd11
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 99%
 
 ---
@@ -164,7 +164,7 @@ ht-degree: 99%
    + [[!DNL Marketo Measure] と Adobe Analytics の統合](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] と Adobe Launch の統合](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [ドメインの管理](marketo-measure-and-adobe/domain-management.md)
-   + [統合シェルの概要](marketo-measure-and-adobe/unified-shell-overview.md)
+   + [Adobe Experience Cloud Interface の概要](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] と Dynamics {#marketo-measure-and-dynamics}
    + [!DNL Marketo Measure] と Dynamics の概要 {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamics スキーマ](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)

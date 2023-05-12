@@ -1,17 +1,17 @@
 ---
 description: ドメイン管理 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: ドメイン管理
+title: ドメインの管理
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 0%
+source-wordcount: '576'
+ht-degree: 1%
 
 ---
 
-# ドメイン管理 {#domain-management}
+# ドメインの管理 {#domain-management}
 
-実行中の IMS 対応テナントの場合 [!DNL Marketo Measure] 統合シェルで [!DNL Marketo Measure] は、ユーザーが独自のドメインリストを管理できるインターフェイスを提供します。 [!DNL Marketo Measure] ユーザーは、最初に、 [Adobe Admin Console](https://adminconsole.adobe.com/). ドメインがAdmin Consoleで検証されると、ユーザーは、 [!DNL Marketo Measure] は、web サイトトラフィックの追跡にこれらのドメインを使用します。
+実行中の IMS 対応テナントの場合 [!DNL Marketo Measure] Experience Cloudインターフェイス [!DNL Marketo Measure] は、ユーザーが独自のドメインリストを管理できるインターフェイスを提供します。 [!DNL Marketo Measure] ユーザーは、最初に、 [Adobe Admin Console](https://adminconsole.adobe.com/). ドメインがAdmin Consoleで検証されると、ユーザーは、 [!DNL Marketo Measure] は、web サイトトラフィックの追跡にこれらのドメインを使用します。
 
 ## ドメインのAdmin Console {#adding-domains-in-admin-console}
 
