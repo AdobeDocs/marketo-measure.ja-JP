@@ -1,15 +1,15 @@
 ---
-description: Adobe Experience Cloudインターフェイス — [!DNL Marketo Measure]  — 製品ドキュメント
-title: Adobe Experience Cloud Interface
+description: Adobe Experience Cloudインターフェイスの概要 — [!DNL Marketo Measure]  — 製品ドキュメント
+title: Adobe Experience Cloud Interface の概要
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: a14b977fc4c3d2f3eccd2c03bc8d96c2a71e6bc6
+source-git-commit: dc6c66daebd10b95333d8c27c2326a95555c555b
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 35%
+source-wordcount: '299'
+ht-degree: 34%
 
 ---
 
-# Adobe Experience Cloud Interface {#unified-shell-overview}
+# Adobe Experience Cloud Interface の概要 {#experience-cloud-interface-overview}
 
 Adobe Experience Cloud Interface は、Adobe Experience Cloudのアプリケーションやサービスのルックアンドフィールを揃えます。 ただの新しいデザインではありません。単一のインスタンスでユーザエクスペリエンスを提供する単一ページアプリケーションです。
 
