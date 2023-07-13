@@ -1,10 +1,11 @@
 ---
-description: '"[!DNL Salesforce] パッケージ統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: '"[!DNL Salesforce] パッケージ統合»'
-source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
+description: '''[!DNL Salesforce] パッケージ統合 — [!DNL Marketo Measure]  — 製品ドキュメント`'
+title: '[!DNL Salesforce] パッケージ統合'
+exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+source-git-commit: dd3795288b1d579b078a32c78c9f08fd67a5f0e1
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 3%
+source-wordcount: '502'
+ht-degree: 2%
 
 ---
 
@@ -19,6 +20,11 @@ Marketo Measure Salesforce パッケージの今後の変更がお知らせし�
 ## 新しい統合パッケージ {#new-consolidated-package}
 
 新しく統合された V2 パッケージは、以前のパッケージのすべての機能を組み込み、ユーザーエクスペリエンスを向上させます。 この更新されたパッケージは、マーケティングと販売のパフォーマンストラッキングをより効率的におこなえ、顧客の行動に関するより深いインサイトを得ることができます。
+
+レポート機能を強化するための新しいフィールドが 2 つ追加されました。
+
+* form_name:BT/BAT オブジェクトで使用できるようになりました。このフィールドを使用すると、フォーム名に基づくレポートを作成できます。
+* user_touchpoint_id:このフィールドを使用すると、ユーザーは個別のユーザータッチポイント数でレポートを作成できます。
 
 ## サポートと移行 {#support-and-transition}
 
