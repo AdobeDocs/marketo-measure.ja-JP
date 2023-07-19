@@ -3,14 +3,18 @@ unique-page-id: 18874692
 description: ブーメランステージのシナリオ — [!DNL Marketo Measure]  — 製品ドキュメント
 title: ブーメランステージのシナリオ
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1715'
 ht-degree: 0%
 
 ---
 
 # ブーメランステージのシナリオ {#boomerang-stage-scenarios}
+
+>[!AVAILABILITY]
+>
+>ブーメラン機能は、Tier 3 のお客様に対してのみ有効です。 より高いアカウント層をリクエストするには、Adobeアカウントチーム（担当のアカウントマネージャー）にお問い合わせください。
 
 次に、Boomerang Stage のシナリオの例をいくつか示します [!DNL Marketo Measure] 各状況にタッチポイントを作成します。
 
@@ -58,7 +62,7 @@ SQL ステージはブーメランタッチポイントで追跡され、それ�
 
 **シナリオ 1: [!UICONTROL 商談を持つ 3 名のリード]**
 
-このシナリオでは、顧客が **MQL** および **SAL ステージ** boomerang タッチポイントを使用 SQL ステージは、標準のカスタムステージで追跡されています。
+このシナリオでは、顧客が **MQL** および **SAL ステージ** ブーメランタッチポイントを使用 SQL ステージは、標準のカスタムステージで追跡されています。
 
 ![](assets/4.png)
 

@@ -3,14 +3,18 @@ unique-page-id: 18874558
 description: ブーメランステージとタッチポイント — [!DNL Marketo Measure]  — 製品ドキュメント
 title: ブーメランステージとタッチポイント
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 0%
+source-wordcount: '729'
+ht-degree: 1%
 
 ---
 
 # ブーメランステージとタッチポイント {#boomerang-stages-and-touchpoints}
+
+>[!AVAILABILITY]
+>
+>ブーメラン機能は、Tier 3 のお客様に対してのみ有効です。 より高いアカウント層をリクエストするには、Adobeアカウントチーム（担当のアカウントマネージャー）にお問い合わせください。
 
 [!DNL Marketo Measure] ブーメランステージ機能をリリースしました。 ブーメランステージ機能は、 [!DNL Marketo Measure] 長い販売サイクルを持つお客様 この機能を使用すると、マーケターは、連絡先の MQL が SAL に移動した後、MQL ステージに戻った場合など、Opportunity ジャーニーで発生するすべてのステージトランジションのタッチポイントを作成できます。 連絡先が「MQL ステージを再入力」または「re-MQL」の場合、MQL はブーメランのステージと見なされます。 ブーメランステージ機能は [!DNL Marketo Measure] カスタムステージ。
 
