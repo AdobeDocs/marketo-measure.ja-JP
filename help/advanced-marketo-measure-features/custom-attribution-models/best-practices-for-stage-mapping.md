@@ -2,10 +2,10 @@
 description: ステージマッピングのベストプラクティス — [!DNL Marketo Measure]  — 製品ドキュメント
 title: ステージマッピングのベストプラクティス
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 0%
 * 商談のステージのセクションは、損失、オープン、獲得に分かれています。ステージが適切なステージセクションにあることを検証します。
    * 間違ったステージセクションにステージがあると、高度に誤った結果になる可能性があります [!DNL Marketo Measure] 売上高またはパイプライン売上高データ
 * 重複するステージ名の使用は避けます（システムによって重複するステージ名が検出され、自動的に削除されます）。
+* NULL 値をチェックするルールを設定するには、「値」テキスト・ボックスを空白のままにします。
 
 ## メンテナンスのベストプラクティス {#best-practices-for-maintenance}
 
