@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874678
 description: について [!DNL Marketo Measure] AdWords タグ付け — [!DNL Marketo Measure]  — 製品ドキュメント
-title: について [!DNL Marketo Measure] AdWords タグ付け
+title: ' [!DNL Marketo Measure] AdWords のタグ付けについて'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 2%
+source-wordcount: '608'
+ht-degree: 3%
 
 ---
 
-# について [!DNL Marketo Measure] AdWords タグ付け {#understanding-marketo-measure-adwords-tagging}
+# [!DNL Marketo Measure]AdWords のタグ付けについて {#understanding-marketo-measure-adwords-tagging}
 
 非常に詳細なレベルで広告を追跡するには、広告のリンク先 URL を一意にする必要があります。 これを達成するには、 [!DNL Marketo Measure] 自動タグ付けにより、トラッキングパラメーターが [!DNL AdWords] 広告。 次の例を見てみましょう。
 
@@ -105,6 +105,10 @@ ht-degree: 2%
 **Q:広告データのインポートにはどの程度の時間がかかりますか？**
 
 回答：4 時間
+
+**Q:動的検索広告の場合、提供されたクリエイティブ内のヘッドライン、説明などの組み合わせを追跡できますか？**
+
+回答：動的検索広告の個々のクリエイティブの詳細を取得することはできませんが、自動タギングが有効な場合でも、クリエイティブ ID と属性売上高を取得できます。
 
 >[!NOTE]
 >

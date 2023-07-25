@@ -3,9 +3,9 @@ unique-page-id: 18874608
 description: '"[!DNL Marketo Measure] パラメーター — [!DNL Marketo Measure]  — 製品ドキュメント»'
 title: "[!DNL Marketo Measure] パラメーター"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 5%
 
 ---
@@ -39,7 +39,7 @@ UTM の使用からより深い洞察を得るには、 [!DNL Marketo Measure] �
    * キーワード一致タイプは、広告のトリガー検索を制御するのに役立ちます。 例えば、広告を広範なオーディエンスに対して表示する場合は部分一致を使用し、特定の顧客グループに対しては完全一致を使用します。
    * 次の 3 つの一致タイプがあります。広く、曖昧で正確な
 
->[!NOTE]
+>[!TIP]
 >
 >一致タイプの詳細は、次のとおりです。 [関連する AdWords の記事を以下に示します](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"}.
 
@@ -49,6 +49,10 @@ UTM の使用からより深い洞察を得るには、 [!DNL Marketo Measure] �
 
 * `_bg={adgroupID}`
    * 広告が属する広告グループの ID を表します
+
+>[!NOTE]
+>
+>リダイレクト URL パラメーターはサポートされていません。
 
 ## Bing Ads のパラメーター {#bing-ads-parameters}
 
