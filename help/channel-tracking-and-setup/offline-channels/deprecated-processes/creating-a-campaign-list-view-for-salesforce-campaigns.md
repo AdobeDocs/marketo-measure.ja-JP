@@ -4,9 +4,9 @@ description: 用のキャンペーンリストビューの作成 [!DNL Salesforc
 title: ' [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成'
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 # [!DNL Salesforce]キャンペーンのキャンペーンリストビューの作成 {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 購入者タッチポイントと同期するキャンペーンのリスト表示を作成する方法を説明します。
+
+>[!NOTE]
+>
+>この記事では、古いプロセスについて説明します。 ユーザーには、 [新しく改善されたアプリ内プロセス](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 作成可能なキャンペーンリストビューでは、「移動先」の場所で「タイプ」フィールドと「購入者のタッチポイントを有効にする」フィールドを確認および管理し、各 [!DNL Salesforce] オフラインマーケティングチャネルに通知するキャンペーンが適切に設定されていること。
 

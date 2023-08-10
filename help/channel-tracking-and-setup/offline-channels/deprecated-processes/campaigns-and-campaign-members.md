@@ -4,9 +4,9 @@ description: キャンペーンとキャンペーンメンバー — [!DNL Marke
 title: キャンペーンとキャンペーンメンバー
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1188'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # キャンペーンとキャンペーンメンバー {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] キャンペーンは、マーケティングプログラムまたはアクティビティに関連付けられたリードと連絡先のリストを追跡するためのものです。 これは、一般的にウェビナー、登録、ブース訪問などです。 マーケターは、キャンペーンにタッチポイントジャーニーでクレジットを付与するかどうかを選択できます。
+
+>[!NOTE]
+>
+>この記事では、古いプロセスについて説明します。 ユーザーには、 [新しく改善されたアプリ内プロセス](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## タッチポイントの有効化 {#enabling-touchpoints}
 

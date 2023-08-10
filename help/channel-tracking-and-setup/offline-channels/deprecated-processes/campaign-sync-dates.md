@@ -4,9 +4,9 @@ description: キャンペーン同期日 — [!DNL Marketo Measure]  — 製品�
 title: キャンペーンの同期日
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '502'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # キャンペーンの同期日 {#campaign-sync-dates}
 
 キャンペーン同期日機能の機能と、この機能の使用例を説明します。
+
+>[!NOTE]
+>
+>この記事では、古いプロセスについて説明します。 ユーザーには、 [新しく改善されたアプリ内プロセス](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 **[!DNL Marketo Measure]必要なパッケージ：6.9 以降**
 

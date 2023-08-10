@@ -4,9 +4,9 @@ description: オフラインキャンペーンの同期 — [!DNL Marketo Measur
 title: オフラインキャンペーンの同期
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # オフラインキャンペーンの同期 {#syncing-offline-campaigns}
 
 オフラインキャンペーンを正確に追跡し、それらをデジタルマーケティング活動と比較する方法を理解するのは困難な場合があります。 [!DNL Marketo Measure] では、 [!DNL Salesforce]( 場合によっては [!DNL Salesforce] キャンペーンは、イベントの数週間後まで作成されません。
+
+>[!NOTE]
+>
+>この記事では、古いプロセスについて説明します。 ユーザーには、 [新しく改善されたアプリ内プロセス](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## 同期前 {#before-you-sync}
 
