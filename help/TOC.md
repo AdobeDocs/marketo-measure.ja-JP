@@ -4,7 +4,7 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: faa04b417c5f0512d294bf2483aef3061b10d621
 workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 99%
@@ -81,13 +81,13 @@ ht-degree: 99%
       + [オフラインカスタムチャネル設定](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [カスタムキャンペーン同期](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [複数のキャンペーンレコードタイプの設定](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-         + 非推奨のプロセス {#deprecated-processes}
-            + [[!UICONTROL キャンペーンとキャンペーンメンバー]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
-            + [キャンペーンの同期日](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-            + [ [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-            + [Dynamics キャンペーンとマーケティングリスト](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
-            + [履歴データの同期](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
-            + [オフラインキャンペーンの同期](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+      + 非推奨のプロセス {#deprecated-processes}
+         + [[!UICONTROL キャンペーンとキャンペーンメンバー]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+         + [キャンペーンの同期日](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+         + [ [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Dynamics キャンペーンとマーケティングリスト](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
+         + [履歴データの同期](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+         + [オフラインキャンペーンの同期](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API 接続 {#api-connections}
    + [!DNL Marketo Measure] の API 接続の利用 {#utilizing-marketo-measures-api-connections}
       + [統合された広告プラットフォーム](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
