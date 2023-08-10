@@ -3,7 +3,8 @@ unique-page-id: 18874556
 description: '"[!DNL Marketo Measure] メンテナンス — [!DNL Marketo Measure]  — 製品ドキュメント»'
 title: "[!DNL Marketo Measure] メンテナンス"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 1%
@@ -16,13 +17,13 @@ ht-degree: 1%
 
 **新しいオフラインキャンペーン用の購入者タッチポイントの同期（月 2 回）**
 
-オンボーディング時に学習した内容 [!DNL Marketo Measure] は、CRM のキャンペーンと同期して、オフラインマーケティング活動に関する情報を取得します。 組織が新しいキャンペーンを開始したら、必要に応じて、各キャンペーンの購入者タッチポイントを有効にしてください。 チェックアウト [この記事](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)を参照してください。
+オンボーディング時に学習した内容 [!DNL Marketo Measure] は、CRM のキャンペーンと同期して、オフラインマーケティング活動に関する情報を取得します。 組織が新しいキャンペーンを開始したら、必要に応じて、各キャンペーンの購入者タッチポイントを有効にしてください。 チェックアウト [この記事](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)を参照してください。
 
 **すべてのチャネルのアップロード費用（1 回/月）**
 
 の完全な売上高と ROI レポート機能を活用する[!DNL Marketo Measure]、 [!DNL Marketo Measure] 各マーケティングチャネルおよびサブチャネルに費やしている量。 各チャネル/サブチャネルの所有者を指定し、その担当者が新しいコスト情報を月単位でアップロードする際に、1 人のパーティに支出を報告することをお勧めします。
 
-読んでコスト情報をアップロードする方法に関するメモリを更新 [この記事](/help/marketing-spend/spend-management/marketing-channel-costs.md).
+読んでコスト情報をアップロードする方法に関するメモリを更新します [この記事](/help/marketing-spend/spend-management/marketing-channel-costs.md).
 
 **追跡するドメインのリストを更新します（1 回/月）**
 
@@ -39,7 +40,7 @@ Marketo Measureは、JavaScript がアクティブなすべてのページおよ
 * 現在、設定した「その他」または「NULL」チャネルに分類されているタッチポイントを確認します。 必要に応じて、マッピングロジックを更新し、それらのタッチポイントをより正確なチャネルに再分類します。
 * 現在ダイレクトチャネルに分類されているタッチポイントを確認します。 電子メールマーケティングキャンペーンやその他の取り組みの一部で UTM パラメーターが欠落している場合は、トラフィックが不適切にダイレクトチャネルにグループ化されている可能性が高くなります。 参照元を取り込むには、UTM パラメーターの更新を検討してください。
 
-**タッチポイント抑制設定の評価（1 x /四半期）**
+**タッチポイント抑制設定の評価（1x/四半期）**
 
 多数のタッチポイントが表示されている場合は、( [!DNL Login] または [!DNL Unsubscribe forms]、キャリアページ、内部アプリなど ) の場合は、既存のタッチポイント抑制設定を評価できます。 1 四半期に 1 回、不要なノイズを生成しているタッチポイントのグループを特定し、抑制ロジックを適切に更新します。 [次に、役立つ記事を示します。](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  ハウツーと
 
@@ -49,6 +50,6 @@ Marketo Measureは、JavaScript がアクティブなすべてのページおよ
 
 **機械学習モデルとカスタムモデルの重み付け（1 x/四半期）の比較（該当する場合）**
 
-のライセンスを取得している場合、 [!DNL Marketo Measure] カスタムモデルの場合は、 [!UICONTROL 設定] > [!UICONTROL 属性設定]. MLM は、アカウントからのタッチポイントデータを使用して各ステージの重要度を計算し、カスタムモデルでアトリビューションの重み付けを割り当てる方法を決定するのに役立つ場合があります。 MLM とカスタムモデルを 1 四半期に 1 回比較し、カスタムモデルに対する潜在的な変更の影響を SM と比較することをお勧めします。
+のライセンスを取得している場合、 [!DNL Marketo Measure] カスタムモデルの場合は、の機械学習モデル (MLM) からデータを入手することもできます。 [!UICONTROL 設定] > [!UICONTROL 属性設定]. MLM は、アカウントからのタッチポイントデータを使用して各ステージの重要度を計算し、カスタムモデルでアトリビューションの重み付けを割り当てる方法を決定するのに役立つ場合があります。 MLM とカスタムモデルを 1 四半期に 1 回比較し、カスタムモデルに対する潜在的な変更の影響を SM と比較することをお勧めします。
 
 詳しくは、 [!DNL Marketo Measure] 機械学習モデル、チェックアウト [この記事](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).

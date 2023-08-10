@@ -1,18 +1,19 @@
 ---
 unique-page-id: 37356962
 description: '"[!DNL Marketo Measure] リソースリスト — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: '"[!DNL Marketo Measure] リソースリスト»'
+title: "[!DNL Marketo Measure] リソースリスト"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Fundamentals
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
 # [!DNL Marketo Measure] リソースリスト {#marketo-measure-resource-list}
 
-以下は、 [!DNL Marketo Measure]!
+次のリンクから、 [!DNL Marketo Measure]!
 
 ## 記事 {#articles}
 
@@ -28,7 +29,7 @@ ht-degree: 3%
 * [オフラインチャネルの設定](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [UTM パラメーターとは](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [UTM のベストプラクティス](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [SFDC キャンペーンと購入者タッチポイントの同期](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
+* [SFDC キャンペーンと購入者タッチポイントの同期](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
 * [マーケティング費用のアップロード](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [広告アカウントの再接続](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [追加中 [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -41,19 +42,19 @@ ht-degree: 3%
 
 **トラブルシューティング**
 
-* [許可 [!DNL Marketo Measure] SFDC へのアクセスをサポート](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
+* [許可中 [!DNL Marketo Measure] SFDC へのアクセスをサポート](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
 * 連絡先： [[!DNL Marketo] サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## 動画 {#videos}
 
-次に、すばやく使えるビデオをいくつか示します。
+次に、すばやく使いこなすのに役立つビデオをいくつか示します。
 
 * [[!DNL Marketo Measure] トレーニングの概要](https://embed.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4) （22 分）
 * [[!DNL Marketo Measure] SFDC でのレポート作成](https://universityonline.marketo.com/courses/bizible-and-salesforce/) （30 ～ 45 分）
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) （約 30 分）**
 
-このコースシリーズは、習得に必要な基本概念の一般的な紹介として設計されています [!DNL Marketo Measure]. アトリビューションの概念、説明を紹介します [!DNL Marketo Measure] はツールとして、および [!DNL Marketo Measure] 操作します。
+このコースシリーズは、習得に必要な基本概念の一般的な紹介として設計されています [!DNL Marketo Measure]. アトリビューションの概念、説明を紹介します。 [!DNL Marketo Measure] はツールとして、また、 [!DNL Marketo Measure] 操作します。
 
 対象となるトピック：
 
@@ -74,7 +75,7 @@ ht-degree: 3%
 * リード/連絡先 ([!DNL Marketo Measure] ID 別（個人）レポート
 * リード/連絡先 ([!DNL Marketo Measure] 人物（チャネル別）レポート
 * ID 別の商談レポート
-* チャネル別商談レポート
+* チャネル別の商談レポート
 
 **[チャネル管理](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/)**
 
