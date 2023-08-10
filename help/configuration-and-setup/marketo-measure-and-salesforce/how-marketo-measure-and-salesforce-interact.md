@@ -1,32 +1,33 @@
 ---
 unique-page-id: 18874672
 description: 方法 [!DNL Marketo Measure] および [!DNL Salesforce] Interact - Marketo Measure — 製品ドキュメント
-title: 方法 [!DNL Marketo Measure] および [!DNL Salesforce] やり取り
+title: ' [!DNL Marketo Measure] と [!DNL Salesforce] のやり取りの方法'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 15%
+source-wordcount: '1719'
+ht-degree: 16%
 
 ---
 
-# 方法 [!DNL Marketo Measure] および [!DNL Salesforce] やり取り {#how-marketo-measure-and-salesforce-interact}
+# [!DNL Marketo Measure]と[!DNL Salesforce]のやり取りの方法 {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 ～間の関係を大まかに見てみよう [!DNL Marketo Measure] と Salesforce。
 
 ## Salesforce および [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-一度 [!DNL Marketo Measure] アカウントが作成され、 [!DNL Salesforce] 接続されている [!DNL Marketo Measure] は、 [!DNL Marketo Measure] 管理パッケージがインストールされ、 [!DNL Marketo Measure] Salesforce ユーザーに編集権限があります。
+1 回 [!DNL Marketo Measure] アカウントが作成され、 [!DNL Salesforce] 接続されている [!DNL Marketo Measure] は、 [!DNL Marketo Measure] 管理パッケージがインストールされ、 [!DNL Marketo Measure] Salesforce ユーザーに編集権限があります。
 
 をインストールしなかった場合、 [!DNL Marketo Measure] Salesforce パッケージ [!DNL Marketo Measure] では、Salesforce インスタンスにデータを書き込みません。
 
 ![](assets/1-3.png)
 
-デフォルトでは、 [!DNL Marketo Measure] は、ジョブが CRM にデータを送信するたびに、API クレジットごとに 200 件のレコードをエクスポートします。 ほとんどのお客様にとって、これは、 [!DNL Marketo Measure] CRM の CPU リソース要件 ただし、ワークフローやトリガーなど複雑な CRM 設定を持つお客様の場合は、バッチサイズを小さくすると CRM のパフォーマンスが向上する可能性があります。 この目的に [!DNL Marketo Measure] 顧客が CRM エクスポートのバッチサイズを設定できます。 この設定は、 [!UICONTROL 設定] > [!UICONTROL CRM] > [!UICONTROL 一般] ページの [!DNL Marketo Measure] Web アプリケーションとお客様は、200（デフォルト）、100、50、25 のバッチサイズから選択できます。
+デフォルトでは、 [!DNL Marketo Measure] は、ジョブが CRM にデータを送信するたびに、API クレジットごとに 200 件のレコードをエクスポートします。 ほとんどのお客様にとって、これは、 [!DNL Marketo Measure] CRM の CPU リソース要件。 ただし、ワークフローやトリガーなど複雑な CRM 設定を持つお客様の場合は、バッチサイズを小さくすると CRM のパフォーマンスが向上する可能性があります。 この目的のために [!DNL Marketo Measure] 顧客が CRM エクスポートのバッチサイズを設定できます。 この設定は、 [!UICONTROL 設定] > [!UICONTROL CRM] > [!UICONTROL 一般] ページの [!DNL Marketo Measure] Web アプリケーションとお客様は、200（デフォルト）、100、50、25 のバッチサイズから選択できます。
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
@@ -34,7 +35,7 @@ ht-degree: 15%
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 
-これには、 [!DNL Salesforce] 標準オブジェクト [!DNL Marketo Measure] 接続が確立され、 [!DNL Marketo Measure] パッケージがインストールされています。 すぐに使える [!DNL Marketo Measure] は、どの標準にも書き込まれません [!DNL Salesforce] オブジェクトフィールド。
+このリストには、 [!DNL Salesforce] 標準オブジェクト [!DNL Marketo Measure] 接続が確立され、 [!DNL Marketo Measure] パッケージがインストールされている。 すぐに使える [!DNL Marketo Measure] は、どの標準にも書き込まれません [!DNL Salesforce] オブジェクトフィールド。
 
 **リード**
 
@@ -618,7 +619,7 @@ ht-degree: 15%
  </tbody> 
 </table>
 
-**キャンペーンメンバ**
+**キャンペーンメンバー**
 
 <table> 
  <tbody> 
@@ -720,6 +721,20 @@ ht-degree: 15%
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Salesforce アカウント内での削除イベントをMarketo Measureが確実にキャプチャするには、以下のオブジェクトに対する複製可能な権限が必要です。 レプリケーション可能な権限は、次のオブジェクトを標準として提供します。
+>
+>* アカウント
+>* キャンペーン
+>* キャンペーンメンバー
+>* 取引先責任者
+>* イベント
+>* リード
+>* 商談
+>* タスク
+
 
 ## [!DNL Marketo Measure] のカスタムオブジェクト [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
 
@@ -994,7 +1009,7 @@ SFDC の標準オブジェクトにカスタムフィールドを作成する以
 
 **[!DNL Marketo Measure]人物**
 
-この [!DNL Marketo Measure] 担当者が [!DNL Marketo Measure] リード、連絡先、およびケースの両方のオブジェクトに関連するカスタムオブジェクト。
+The [!DNL Marketo Measure] 担当者が [!DNL Marketo Measure] リード、連絡先、およびケースの両方のオブジェクトに関連するカスタムオブジェクト。
 
 <table> 
  <tbody> 
