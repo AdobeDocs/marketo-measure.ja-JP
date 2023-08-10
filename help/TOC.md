@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '780'
 ht-degree: 99%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 99%
       + [[!DNL Marketo Measure] CRM パッケージレス統合](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
    + [!DNL Marketo Measure] と Salesforce {#marketo-measure-and-salesforce}
       + [[!DNL Marketo Measure] Salesforce パッケージのインストールと設定](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
-      + [[!DNL Salesforce] パッケージ統合](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
+      + [[!DNL Salesforce] パッケージの統合](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
       + [ [!DNL Marketo Measure] の Salesforce への接続](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [ [!DNL Marketo Measure] CRM パッケージのベストプラクティス](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce オブジェクト](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
@@ -66,7 +66,7 @@ ht-degree: 99%
    + サンドボックスのテスト {#sandbox-testing}
       + [Salesforce サンドボックスとの [!DNL Marketo Measure] 統合のテスト](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
       + [Salesforce サンドボックスの実稼動への移行](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
-   + [!DNL Marketo Measure] Insights（Canvas アプリ）{#marketo-measure-insights-canvas-app}
+   + [!DNL Marketo Measure] Insights（Canvas アプリ） {#marketo-measure-insights-canvas-app}
       + [[!DNL Marketo Measure] Insights の説明](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-explained.md)
       + [[!DNL Marketo Measure] Insights 設定](configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md)
 + チャネルトラッキングと設定 {#channel-tracking-and-setup}
@@ -80,12 +80,14 @@ ht-degree: 99%
       + [オフラインチャネルのベストプラクティス](channel-tracking-and-setup/offline-channels/best-practices-for-offline-channels.md)
       + [オフラインカスタムチャネル設定](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [カスタムキャンペーン同期](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
-      + [履歴データの同期](channel-tracking-and-setup/offline-channels/syncing-historical-data.md)
-      + [[!UICONTROL キャンペーンとキャンペーンメンバー]](channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
-      + [キャンペーンの同期日](channel-tracking-and-setup/offline-channels/campaign-sync-dates.md)
       + [複数のキャンペーンレコードタイプの設定](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + [ [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成](channel-tracking-and-setup/offline-channels/creating-a-campaign-list-view-for-salesforce-campaigns.md)
-      + [オフラインキャンペーンの同期](channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
+         + 非推奨のプロセス {#deprecated-processes}
+            + [[!UICONTROL キャンペーンとキャンペーンメンバー]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+            + [キャンペーンの同期日](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+            + [ [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+            + [Dynamics キャンペーンとマーケティングリスト](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
+            + [履歴データの同期](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+            + [オフラインキャンペーンの同期](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 + API 接続 {#api-connections}
    + [!DNL Marketo Measure] の API 接続の利用 {#utilizing-marketo-measures-api-connections}
       + [統合された広告プラットフォーム](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
@@ -164,7 +166,7 @@ ht-degree: 99%
    + [[!DNL Marketo Measure] と Adobe Analytics の統合](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] と Adobe Launch の統合](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
    + [ドメインの管理](marketo-measure-and-adobe/domain-management.md)
-   + [Adobe Experience Cloud Interface の概要](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
+   + [Adobe Experience Cloud インターフェイスの概要](marketo-measure-and-adobe/experience-cloud-interface-overview.md)
 + [!DNL Marketo Measure] と Dynamics {#marketo-measure-and-dynamics}
    + [!DNL Marketo Measure] と Dynamics の概要 {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamics スキーマ](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
@@ -174,7 +176,6 @@ ht-degree: 99%
       + [[!DNL Marketo Measure] と Dynamics の分類](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
    + Dynamics レポート {#dynamics-reporting}
       + [ [!DNL Dynamics] の Stock レポートおよびダッシュボード](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
-      + [Dynamics キャンペーンとマーケティングリスト](marketo-measure-and-dynamics/dynamics-reporting/dynamics-campaigns-and-marketing-lists.md)
 + [!DNL Marketo Measure] と Marketo {#marketo-measure-and-marketo}
    + [!DNL Marketo Measure] と Marketo の統合 {#marketo-measure-integrations-with-marketo}
       + [ [!DNL Marketo] 接続の設定](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
