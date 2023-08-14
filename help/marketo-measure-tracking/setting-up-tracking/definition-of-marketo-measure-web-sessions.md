@@ -1,68 +1,69 @@
 ---
 unique-page-id: 18874564
-description: の定義 [!DNL Marketo Measure] ウェブセッション — [!DNL Marketo Measure]  — 製品ドキュメント
-title: の定義 [!DNL Marketo Measure] ウェブセッション
+description: ' [!DNL Marketo Measure]  web セッションの定義の定義 - [!DNL Marketo Measure] - 製品ドキュメント'
+title: ' [!DNL Marketo Measure]  web セッションの定義'
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# の定義 [!DNL Marketo Measure] ウェブセッション {#definition-of-marketo-measure-web-sessions}
+# [!DNL Marketo Measure] web セッションの定義 {#definition-of-marketo-measure-web-sessions}
 
-方法 [!DNL Marketo Measure] web セッションを定義します。
+[!DNL Marketo Measure] が web セッションを定義する方法を説明します。
 
-A **web セッション** は、ある一定期間における個人の Web サイトとのやり取りを指します。 セッションは、ユーザーが Web サイトにアクセスした時点で開始されます。
+**Web セッション**&#x200B;とは、一定期間における個人の web サイトとのインタラクションを指します。セッションは、ユーザーが web サイトを訪問すると開始されます。
 
-例えば、Haley が adobe.com を訪問したとします。 彼女がサイトを訪れると、セッションが始まります。 Haley がサイトを離れたとき、タブ/Web ブラウザーを閉じるかサイトから移動すると、セッションは終了します。
+例えば、Haley が adobe.com を訪問するとします。サイトを訪問すると、セッションが開始します。Haley がタブ／web ブラウザーを閉じるか、サイトから移動してサイトを離れると、セッションが終了します。
 
-1 人のユーザーが同時に複数のセッションを開くことはできません。 Haley が開いた場合 [!DNL adobe.com] 10 個の異なるタブでは、Sarah の web サイトへの訪問に関連して作成されたセッションは 1 つだけです。
+1 人のユーザーが同時に複数のセッションを開くことはできません。Haley が [!DNL adobe.com] を 10 個の異なるタブで開いても、web サイトへの訪問に関連して作成されるセッションは 1 つだけです。
 
-## 方法 [!DNL Marketo Measure] 新しいセッションを定義しますか？ {#how-does-marketo-measure-define-a-new-session}
+## [!DNL Marketo Measure] が新しいセッションを定義する方法？ {#how-does-marketo-measure-define-a-new-session}
 
-セッションが終了するタイミングと新しいセッションが開始されるタイミングを決定するいくつかの点があります。 2 つの主な方法 [!DNL Marketo Measure] セッションは次のように終了します。
+セッションが終了するタイミングと新しいセッションが開始するタイミングを決定する要素がいくつかあります。[!DNL Marketo Measure] セッションが終了する主な方法は、次の 2 つです。
 
 * **時間ベースの有効期限**
 * **チャネルベースの有効期限**
 
 ## 時間ベースの有効期限 {#time-based-expiration}
 
-**セッションはどのくらい続きますか？**
+**セッションの持続時間**
 
-[!DNL Marketo Measure] セッションは、Web サイトで 30 分間操作が実行されなかった場合に終了します。 例：
+[!DNL Marketo Measure] セッションは、web サイトで 30 分間アクティビティがないと終了します。例：
 
-Haley が adobe.com を訪問すると、セッションが開始されます。 数分間ウェブサイトを探索し、コンピュータから離れて行くが、ウェブサイトは開いたままにする。 無操作状態が 30 分間続くと、セッションは終了します。
+Haley が adobe.com を訪問すると、セッションが開始します。数分間 web サイトを探索した後、コンピューターから離れますが、web サイトは開いたままにします。セッションは、30 分間アクティビティがないと終了します。
 
-現在、 [!DNL Marketo Measure] は、ページナビゲーションとフォーム送信をアクティビティと見なします。 Web ページをスクロールしたり、ページ上の要素の上にマウスポインターを置いたりしても、「アクティビティ」とは見なされません。 Haley が adobe.com を訪問してブログの投稿を読み、1 時間かかっても、ページ上のコンテンツをスクロールしていても、Web セッションは 30 分後に終了します。
+現在、[!DNL Marketo Measure] は、ページナビゲーションとフォーム送信のみをアクティビティと見なします。Web ページをスクロールしたり、ページ上の要素にポインタを合わせたりすることは、アクティビティと見なされません。そのため、Haley がブログ投稿を読むために adobe.com を訪問し、読むのに 1 時間かかる場合、ページ上のコンテンツをスクロールしていても、web セッションは 30 分後に終了します。
 
 ## チャネルベースの有効期限 {#channel-based-expiration}
 
-[!DNL Marketo Measure] は、ユーザーが別のデジタルマーケティングチャネルや外部 Web サイトから Web サイトにアクセスしたときにいつでも新しいセッションを開始します。 これには以下が含まれます。
+[!DNL Marketo Measure] は、ユーザーが別のデジタルマーケティングチャネルまたは外部 web サイトからユーザーの web サイトを訪問するたびに、新しいセッションを開始します。これには以下が含まれます。
 
-* 紹介 Web サイト
-* ソーシャルチャネル ([!DNL Facebook], [!DNL LinkedIn]など )
-* 有料検索チャネルまたはオーガニック検索チャネル ([!DNL Google/Bing])
+* リファラル web サイト
+* ソーシャルチャネル（[!DNL Facebook]、[!DNL LinkedIn] など）
+* 有料またはオーガニック検索チャネル（[!DNL Google/Bing]）
 
-**紹介 Web サイトとソーシャルチャネル**
+**リファレル web サイトとソーシャルチャネル**
 
-訪問者が参照元 Web サイトまたはソーシャルチャネルから Web サイトにアクセスすると、常に新しいセッションが開始されます。
+訪問者がリファレル web サイトまたはソーシャルチャネルからユーザーの web サイトを訪問すると、新しいセッションが開始されます。
 
-Haley がLinkedInにいて、 [!DNL Marketo Measure] 投稿すると、AdobeWeb サイトにリダイレクトされます。 次に、スクロールしながら [!DNL Facebook]ヘーリーは別の [!DNL Marketo Measure] 投稿します。 この投稿をクリックしてAdobeサイトにリダイレクトされると、Sarah が次のリンクに関連する最初の Web セッションを開始します。 [!DNL LinkedIn] 関連する新しいセッションを終了する [!DNL Facebook] が開始されます。
+Haley が LinkedIn を利用しており、[!DNL Marketo Measure] の投稿をクリックして、アドビ web サイトにリダイレクトされるとします。次に、[!DNL Facebook] をスクロールしている際に、Haley は別の [!DNL Marketo Measure] の投稿を見つけます。この投稿をクリックすると、アドビのサイトにリダイレクトされ、[!DNL LinkedIn] に関連する最初の web セッションが終了し、[!DNL Facebook] に関連する新しいセッションが開始されます。
 
-**有料検索チャネルまたはオーガニック検索チャネル**
+**有料またはオーガニック検索チャネル**
 
-ユーザーが有料検索チャネルやオーガニック検索チャネルを通じてサイトにアクセスすると、常に新しいセッションが開始されます。 Haley がオーガニック検索でAdobeの Web サイトにアクセスし、すぐにGoogleの有料広告を通じて Web サイトにアクセスすると、2 つの異なるセッションが作成されます。
+ユーザーが有料またはオーガニック検索チャネルを通じてサイトを訪問すると、新しいセッションが開始されます。Haley がオーガニック検索を通じて アドビ web サイトを訪問してから、すぐに Google の有料広告を通じてユーザーの web サイトを訪問すると、2 つの別個のセッションが作成されます。
 
-**ウェブダイレクトトラフィック**
+**Web ダイレクトトラフィック**
 
-訪問者が Web サイトの URL をアドレスバーに入力して Web サイトにアクセスした場合、新しいセッションが開始されることはありません。
+訪問者が web サイトの URL をアドレスバーに入力して web サイトを訪問した場合、必ずしも新しいセッションが開始されるわけではありません。
 
-Haley の最初の Web セッションが紹介サイト、ソーシャルチャネル、有料/オーガニック検索チャネルからの訪問の結果として開始され、Web 経由でサイトに直接アクセスした場合、新しいセッションは開始されません。
+Haley の最初の web セッションがリファレルサイト、ソーシャルチャネルまたは有料／オーガニック検索チャネルからの訪問の結果として開始され、その後、web ダイレクト経由でサイトを訪問しても、新しいセッションは開始されません。
 
-_ただし、_（Haley の最初の Web セッションが Web Direct から開始された場合）、Haley はを介して Web サイトにアクセスします。 _外部/紹介サイト_&#x200B;に設定すると、最初のセッションが終了し、外部/リファラルサイトに関連する新しいセッションが開きます。
+_ただし_、Haley の最初の web セッションが web ダイレクトから開始され、_外部／リファレルサイト_&#x200B;経由で web サイトを訪問すると、最初のセッションは終了し、外部／リファレルサイトに関連する新しいセッションが開きます。
 
-## Google Analyticsセッション {#google-analytics-sessions}
+## Google Analytics セッション {#google-analytics-sessions}
 
-方法には似た点があります [!DNL Marketo Measure] Google Analyticsはセッションを定義します。 セッションの定義方法の詳細については、次のGoogle Analyticsを参照してください。 [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。Google Analytics によるセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=ja](http://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"} を参照してください。

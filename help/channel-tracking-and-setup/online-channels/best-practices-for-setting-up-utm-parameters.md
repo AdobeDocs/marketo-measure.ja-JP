@@ -1,60 +1,61 @@
 ---
 unique-page-id: 18874732
-description: UTM パラメーターの設定のベストプラクティス — [!DNL Marketo Measure]  — 製品ドキュメント
+description: UTM パラメーターの設定のベストプラクティス - [!DNL Marketo Measure] - 製品ドキュメント
 title: UTM パラメーターの設定のベストプラクティス
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: UTM Parameters
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
 # UTM パラメーターの設定のベストプラクティス {#best-practices-for-setting-up-utm-parameters}
 
-UTM パラメーターは、マーケティングデータをスライスしてデータを多角的に分析する優れた方法です。 [!DNL Marketo Measure] は、すべての UTM パラメーターを使用して取り込み、Salesforce のフィールドに、 [!DNL Marketo Measure] アプリを使用します。 この情報を使用して、リード、商談、クローズ/獲得した契約の発信元を詳細に把握できます。
+UTM パラメーターは、マーケティングデータをスライスしてデータを多角的に分析する優れた方法です。[!DNL Marketo Measure] は、すべての UTM パラメーターを使用して取り込み、Salesforce および [!DNL Marketo Measure] アプリのフィールドに値を入力します。この情報を使用すると、リード、商談、クローズ／獲得した契約の発信元を詳細に把握できます。
 
-以下を利用できます。 [Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} すべての UTM リンクを簡単に追跡する方法が必要な場合。
+すべての UTM リンクをより簡単に追跡する方法が必要な場合は、[Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} を利用してください。
 
 ## 各パラメーターの高レベル値 {#high-level-values-for-each-parameter}
 
-**utm_medium**:このフィールドは、「メディア」フィールドにマッピングされます。 utm_medium を使用して、高レベルのチャネルを示します。
+**utm_medium**：このフィールドは、「メディア」フィールドにマッピングします。高レベルのチャネルを示すには、utm_medium を使用します。
 
-例： [!UICONTROL Social], CPC，メール， Web，オーガニック
+例：[!UICONTROL Social]、CPC、メール、web、オーガニック
 
-このフィールドを使用してサブチャネルを呼び出さないでください。
+サブチャネルを呼び出すために、このフィールドを使用しないでください。
 
-**utm_source**:このフィールドは、「タッチポイントソース」フィールドにマッピングされます。 utm_source を使用して、リードの発信元となるサブチャネルを定義します。
+**utm_source**：このフィールドは、「タッチポイントソース」フィールドにマッピングします。リードの発信元となるサブチャネルを定義するには、utm_source を使用します。
 
-例： Facebook、Twitter、Linkedin、Drip_email、Email_blast、ニュースレター。
+例：Facebook、Twitter、Linkedin、Drip_email、Email_blast、ニュースレター。
 
-簡単にしておけ。 このパラメーターを使用して、再ターゲティング、スポンサー付きなどの広告のタイプを示さないでください。 utm_source = homepage, webdirect, web サイトは追加しないでください。 [!DNL Marketo Measure] がこの情報を自動的に入力します。
+シンプルにしておきましょう。リターゲティング、スポンサー付きなどの広告タイプを示すために、このパラメーターを使用しないでください。utm_source = homepage、webdirect、website は追加しないでください。[!DNL Marketo Measure] により、この情報は自動的に入力されます。
 
-**utm_campaign**:このフィールドは、広告キャンペーン名にマッピングされます。 utm_campaign は、広告プラットフォーム内に存在するキャンペーンのタイトル、または内部的に参照されるキャンペーンのタイトルを示す場合に使用します。
+**utm_campaign**：このフィールドは、広告キャンペーン名にマッピングします。広告プラットフォームに存在するキャンペーンのタイトルや、内部で参照されるキャンペーンのタイトルを示すには、utm_campaign を使用します。
 
-また、これは、位置情報、広告ネットワークタイプ（表示 v 検索）などを示す良いパラメーターです。
+これは、位置情報、広告ネットワークのタイプ（表示と検索）などを示すのに適したパラメーターでもあります。
 
-スペースの代わりにアンダースコアを使用し、句読点の使用は避けることをお勧めします。 これにより、パラメーターを読み取る際に、ブラウザーでエンコードエラーが発生する可能性が低くなります。
+スペースの代わりにアンダースコアを使用し、句読点の使用は避けることをお勧めします。これにより、パラメーターを読み取る際に、ブラウザーでエンコードエラーが発生する可能性が低くなります。
 
-例： AU_Idea_for_an_App_50k
+例：AU_Idea_for_an_App_50k
 
-**utm_content**:これは、広告コンテンツにマッピングされます。 utm_content パラメーターで広告タイトルを使用します。 画像広告の場合は、広告タイトルを使用し、広告のサイズを含めます。
+**utm_content**：これは、広告コンテンツにマッピングします。utm_content パラメーターで広告タイトルを使用します。画像広告の場合は、広告タイトルを使用し、広告の寸法を含めます。
 
-例： [広告タイトル] 200x400px
+例：[広告タイトル] 200x400px
 
-**utm_term**:これは「キーワードテキスト」にマッピングされます。 このパラメーターは、広告の実行に関連するキーワードを示すために使用します。
+**utm_term**：これは、キーワードテキストにマッピングします。広告の配信に関連するキーワードを示すには、このパラメーターを使用します。
 
 広告に関連するキーワードがない場合、このパラメーターは空白のままにします。
 
-例： iPhone App Ideas
+例：iPhone App Ideas
 
-**簡単で簡潔なものにします。 取り組み、キーワードおよびチャネルを重複させないでください。**
+**シンプルかつ簡潔にしておきましょう。取り組み、用語、チャネルを重複させないでください。**
 
-UTM の階層は次のようになると想像します。
+UTM の階層は、次のようになると想定されます。
 
-メディア > [!UICONTROL ソース] > [!UICONTROL Campaign] > [!UICONTROL コンテンツ/用語]
+メディア／[!UICONTROL ソース]／[!UICONTROL キャンペーン]／[!UICONTROL コンテンツ／用語]
 
-例： [!UICONTROL 表示] 広告をFacebookに配置する場合は、以下をお勧めします。
+例： Facebook に[!UICONTROL ディスプレイ]広告を配置する場合は、次をお勧めします。
 
 fakewebsite.com/
 
@@ -66,6 +67,6 @@ fakewebsite.com/
 
 &amp;utm_content=content_of_campaign
 
-用語/チャネルは重複せず、この場合 utm_term は使用されません。
+この場合、用語／チャネルは重複せず、utm_term は使用されません。
 
-ご質問がある場合は、Adobeアカウントチーム（担当のアカウントマネージャー）または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+ご質問がある場合は、アドビのアカウントチーム（担当のアカウントマネージャー）または [Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。

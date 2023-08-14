@@ -1,29 +1,30 @@
 ---
 unique-page-id: 18874590
-description: '"[!DNL Marketo Measure] Cookie - [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] クッキー"
+description: 「[!DNL Marketo Measure] の Cookie - [!DNL Marketo Measure] - 製品ドキュメント」
+title: 「[!DNL Marketo Measure] クッキー」
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
-source-git-commit: 3a13ab3e497652d1975e69280a3d224ac95504aa
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Marketo Measureの Cookie {#marketo-measure-cookies}
+# Marketo Measure の Cookie {#marketo-measure-cookies}
 
-様々な [!DNL Marketo Measure] 適用時にサイトに読み込まれる cookie [!DNL Marketo Measure] JavaScript をランディングページに追加します。 この情報は、実装時に Web 開発チームに役立つ場合があります。
+[!DNL Marketo Measure] の JavaScript をランディングページに適用する際に、サイトに読み込まれる様々な [!DNL Marketo Measure] の Cookie について説明します。この情報は、実装時に web 開発チームに役立つ場合があります。
 
-| **Cookie 名** | **Cookie のタイプ** | **目的** |
+| **cookie 名** | **cookie タイプ** | **目的** |
 |---|---|---|
-| _BUID | .bizible.com ドメインに保存されたサードパーティ | 複数のクライアントのドメインをまたいで同じユーザーを識別するユニバーサルユーザー ID。 |
-| _biz_uid | ファーストパーティ | 現在のドメインのユーザー ID。 |
-| _biz_sid | ファーストパーティ | ユーザーのセッション ID。 |
-| _biz_flagsA | ファーストパーティ | ユーザーがフォームを送信したかどうか、クロスドメイン移行を実行したか、ビュースルーピクセルを送信したか、トラッキングをオプトアウトしたかなど、複数の情報を保存する単一の Cookie。 |
-| _biz_nA | ファーストパーティ | シーケンス番号 [!DNL Marketo Measure] すべてのリクエストに含まれ、内部診断用に |
-| _biz_dfsA | ファーストパーティ | 以前に発生したフォーム送信データを一時的に保存する [!DNL bizible.js] は、設定 JS を受け取り、HTTPS でのトラッキングフォームが有効かどうかを判定します。 |
-| _biz_pendingA | ファーストパーティ | に正常に送信されなかった分析データを一時的に保存する [!DNL Marketo Measure] サーバーを使用しています。 |
+| _BUID | サードパーティ、.bizible.com ドメインに保存 | 複数のクライアントのドメイン間で同じユーザーを識別するユニバーサルユーザー ID です。 |
+| _biz_uid | ファーストパーティ | 現在のドメインのユーザー ID です。 |
+| _biz_sid | ファーストパーティ | ユーザーのセッション ID です。 |
+| _biz_flagsA | ファーストパーティ | ユーザーがフォームを送信したかどうか、クロスドメイン移行を実行したかどうか、ビュースルーピクセルを送信したかどうか、トラッキングをオプトアウトしたかどうかなど、複数の情報を保存する単一の cookie です。 |
+| _biz_nA | ファーストパーティ | 内部診断目的で、[!DNL Marketo Measure] がすべてのリクエストに含めるシーケンス番号です。 |
+| _biz_dfsA | ファーストパーティ | [!DNL bizible.js] が設定 JS を受信して HTTPS でのフォームのトラッキングが有効かどうかを判断する前に発生するフォーム送信データを一時的に保存します。 |
+| _biz_pendingA | ファーストパーティ | まだ [!DNL Marketo Measure] サーバーに正常に送信されていない分析データを一時的に保存します。 |
 
-JavaScript の設定中に Web Application Firewall(WAF) 警告がトリガーされた場合、次の例に示すように、ユーザーは WAF ルールを無効にするか、Cookie を許可リストに登録できます。
+JavaScript の設定中に Web Application Firewall（WAF）の警告がトリガーされた場合、ユーザーは、次の例に示すように、その WAF ルールを無効にするか、Cookie を許可リストに登録することができます。
 
 ![](assets/marketo-measure-cookies-1.png)
