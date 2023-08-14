@@ -3,7 +3,8 @@ unique-page-id: 18874596
 description: オンラインカスタムチャネル設定 - [!DNL Marketo Measure] - 製品ドキュメント
 title: オンラインカスタムチャネル設定
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: ht
 source-wordcount: '1236'
 ht-degree: 100%
