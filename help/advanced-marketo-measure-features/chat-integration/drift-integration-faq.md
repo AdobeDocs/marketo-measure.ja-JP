@@ -3,7 +3,8 @@ unique-page-id: 27656441
 description: Drift 統合に関する FAQ - [!DNL Marketo Measure]  — 製品ドキュメント
 title: Drift 統合に関するよくある質問
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 3%
@@ -20,7 +21,7 @@ Drift Chat 追跡対象 [!DNL Marketo Measure] はデフォルトで有効にな
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" id="bizible-settings" data-chatEnabled="false"></script>`
 
-を使用するユーザーの場合 [!DNL Google Tag Manager] 荷を積む [!DNL Marketo Measure] スクリプトを使用すると、Drift チャットをタッチポイント対象から除外する場合は、次の項目を追加する必要があります `<span>` あなたの [!DNL Marketo Measure] スクリプト：
+を使用しているユーザー向け [!DNL Google Tag Manager] 荷を積む [!DNL Marketo Measure] スクリプトを使用すると、Drift チャットをタッチポイント対象から除外する場合は、次の項目を追加する必要があります `<span>` あなたの [!DNL Marketo Measure] スクリプト：
 
 `<span id="bizible-settings" data-chatEnabled="false"></span>`
 

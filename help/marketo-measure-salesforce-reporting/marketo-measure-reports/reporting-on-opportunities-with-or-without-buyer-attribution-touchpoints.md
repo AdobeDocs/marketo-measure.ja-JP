@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874618
 description: 購入者属性タッチポイントを持つ商談または持たない商談のレポート — [!DNL Marketo Measure]  — 製品ドキュメント
-title: 購入者属性タッチポイントを使用する場合と使用しない場合の商談のレポート
+title: Buyer Attribution Touchpoints を含む／含まない商談のレポート
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints, Attribution, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
-# 購入者属性タッチポイントを使用する場合と使用しない場合の商談のレポート {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
+# Buyer Attribution Touchpoints を含む／含まない商談のレポート {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 新しいレポートタイプを作成して、購入者属性タッチポイントを持つ商談と持たない商談をすべて含めます。
 
@@ -26,11 +27,11 @@ ht-degree: 2%
 
    ![](assets/2-1.jpg)
 
-1. プライマリオブジェクトを&quot;[!UICONTROL 商談].&quot;
+1. プライマリオブジェクトを「 」に設定します。[!UICONTROL 商談].&quot;
 
-   * レポートタイプラベルに次の名前を付けます。「購入者属性の有無に関わらず、商談。」
+   * 「レポートタイプ」ラベルに「購入者属性を持つ商談、または購入者属性を持たない商談」と名前を付けます。
    * レポートタイプ名にも同じ名前を使用します。 説明の入力内で、「購入者属性タッチポイントを持つ商談、または購入者属性タッチポイントを持たない商談」を選択します。
-   * レポートを[!UICONTROL その他]」をクリックし、レポートを「[!UICONTROL デプロイ済み].&quot;
+   * レポートを「[!UICONTROL その他]」をクリックし、レポートを「[!UICONTROL デプロイ済み].&quot;
 
    ![](assets/3-1.jpg)
 
@@ -40,4 +41,4 @@ ht-degree: 2%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 大学：その他の SFDC レポート](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] 大学：追加の SFDC レポート](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)

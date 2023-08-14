@@ -2,7 +2,8 @@
 description: '"[!DNL Marketo Measure] Adobe Analyticsとの統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
 title: "[!DNL Marketo Measure] との統合 [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -15,11 +16,11 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
 
 >[!PREREQUISITES]
 >
->両方のアクティブな購読が必要です [!DNL Marketo Measure] および [!DNL Adobe Analytics].
+>両方のアクティブな配信登録が必要です [!DNL Marketo Measure] および [!DNL Adobe Analytics].
 
 ## 統合の設定 {#configuring-the-integration}
 
-1. まず、顧客コンソールで新しい顧客属性データソースを作成します。Experience Cloudコンソール 詳細な手順 [ここにあります](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+1. まず、顧客コンソールで新しい顧客属性データソースを作成します。Experience Cloudコンソール。 詳細な手順 [ここにあります](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
    プロセスの後の手順の一部で必要になるので、次の情報を控えておきます。
 
@@ -27,9 +28,9 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
 
    * FTP サーバーのホスト名と資格情報（ユーザー名とパスワード）
 
-1. 顧客属性データソースを作成したら、 **[!UICONTROL 統合]** > **[!UICONTROL 接続]** 画面 [!DNL Marketo Measure] 管理メニュー。
+1. 顧客属性データソースを作成したら、 **[!UICONTROL 統合]** > **[!UICONTROL 接続]** 画面 [!DNL Marketo Measure] 管理者メニュー。
 
-1. をクリックします。 **[!UICONTROL 新しい顧客属性接続の設定]** ボタンをクリックし、指示に従って顧客属性統合を設定します。 コアサービスコンソールで顧客属性ソースを作成する際に取得したエイリアス ID と FTP 接続情報の入力、およびと同期する一連のアカウント属性の選択を求めるメッセージが UI に表示されます [!DNL Adobe Analytics] アカウント
+1. をクリックします。 **[!UICONTROL 新しい顧客属性接続の設定]** ボタンをクリックし、指示に従って顧客属性統合を設定します。 コアサービスコンソールで顧客属性ソースを作成する際に取得したエイリアス ID と FTP 接続情報の入力、およびと同期する一連のアカウント属性の選択を求めるメッセージが UI に表示されます [!DNL Adobe Analytics] アカウント。
 
    また、組織 ID を入力する必要もあります。 この ID は、Adobe Experience CloudAdmin Consoleの右下隅に表示されます。 この ID の検索方法について詳しくは、Adobeアカウントチーム（アカウントマネージャー）にお問い合わせください。
 
@@ -37,11 +38,11 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
 
    CRM アカウントオブジェクトの属性の同期を選択した場合は、新しい表示名を選択することを強くお勧めします。 [!DNL Marketo Measure] は、これらの属性の API レベルの名前のみを入力します。これらの名前は、通常、レポートでわかりやすい名前ではありません。
 
-1. 最後の手順では、属性を使用するExperience Cloudアプリケーションの属性購読を設定します。  次のサブスクリプションを設定できます： [!DNL Adobe Analytics] または [!DNL Adobe Target].  その方法の詳細 [ここにあります](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
+1. 最後の手順では、属性を使用するExperience Cloudアプリケーションの属性の購読を設定します。  次のサブスクリプションを設定できます： [!DNL Adobe Analytics] または [!DNL Adobe Target].  その方法の詳細 [ここにあります](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
 
 ## 属性の説明 {#attribute-descriptions}
 
-新しい B2B 顧客属性接続を作成する場合、 [!DNL Marketo Measure] によって、B2B 顧客属性の標準セットが自動的に作成されます。 これらの属性について、次の表で説明します。
+新しい B2B 顧客属性接続を作成する場合、 [!DNL Marketo Measure] は、B2B 顧客属性の標準セットを自動的に作成します。 これらの属性については、次の表で説明します。
 
 以下に示すものの他に、CRM のアカウントオブジェクトに添付する属性もアップロードできます。 複数のアカウントが特定のユーザーに結び付けられている場合、 [!DNL Marketo Measure] は、一致するすべてのアカウント属性値をセミコロンで区切ったリストに入力します。
 
@@ -84,14 +85,14 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
 
 **この統合を使用して共有したい属性のセットを変更する方法を教えてください。**
 
-属性を共有するために [!DNL Marketo Measure] をAdobe IMS組織に追加します（この統合経由）。 [!DNL Adobe Analytics]の場合、コアサービスコンソールで設定した属性購読で表示する必要があります。 したがって、属性がに表示されないように属性を削除する場合は、 [!DNL Adobe Analytics]を使用する場合、属性購読を削除するだけでこれを実現できます。
+属性を共有するために [!DNL Marketo Measure] をAdobe IMS組織に追加します（この統合経由）。 [!DNL Adobe Analytics]の場合、コアサービスコンソールで設定した属性サブスクリプションで表示する必要があります。 したがって、属性がに表示されないように属性を削除する場合は、 [!DNL Adobe Analytics]を使用する場合、属性購読を削除するだけでこれを実現できます。
 
-また、 [!DNL Marketo Measure] 接続設定から除外したい属性を使用して、再作成します。 同様に、統合に属性を追加するには、既存の接続を削除し、目的の属性を設定に追加して新しい接続を作成する必要があります。
+B2B 顧客属性接続は、 [!DNL Marketo Measure] 接続設定から除外したい属性を使用して、再作成します。 同様に、統合に属性を追加するには、既存の接続を削除し、目的の属性を設定に追加して新しい接続を作成する必要があります。
 
 上記の点を考慮して、属性接続を初めて設定する場合は、属性を選択する際にはできる限り包括的に設定することを強くお勧めします。
 
 **この統合の使用例を教えてください。**
 
-1. アカウントベースのトラフィック指標：アカウント名の属性を使用すると、Adobe Analyticsで 1 つ以上のターゲットアカウントのセグメントを作成し、ターゲットアカウントから発生したトラフィックのサブセットに関するサイトトラフィック指標を分析できます。
+1. アカウントベースのトラフィック指標：アカウント名属性を使用して、Adobe Analyticsで 1 つ以上のターゲットアカウントのセグメントを作成し、ターゲットアカウントから発生するトラフィックのサブセットに関するサイトトラフィック指標を分析できます。
 1. コンテンツ分析：売上高指標を使用して、製品やサービスを最終的に購入した顧客や、特定のファネルステージに到達した顧客に最も関与しているサイトコンテンツを分析します。
-1. ライブディールのサポート：CRM の特定のオープンなオポチュニティに関連するユーザーのサイト行動を分析し、実用的なインサイトを活用してセールスチームを強化します。
+1. ライブディールのサポート： CRM の特定のオープンオポチュニティに関連付けられたユーザーのサイト行動を分析することで、セールスチームに実用的なインサイトを提供します。

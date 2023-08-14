@@ -1,26 +1,27 @@
 ---
 unique-page-id: 18874781
 description: アトリビューションを使用した Doubleclick Campaign Manager ビューの設定 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: アトリビューションを使用した Doubleclick Campaign Manager ビューの設定
+title: Doubleclick Campaign Manager ビュースルーアトリビューションの設定
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# アトリビューションを使用した Doubleclick Campaign Manager ビューの設定 {#configuring-doubleclick-campaign-manager-view-through-attribution}
+# Doubleclick Campaign Manager ビュースルーアトリビューションの設定 {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## 属性を通じたビューの測定 {#measuring-view-through-attribution}
 
 >[!NOTE]
 >
->を使用している場合、 [!DNL Marketo Measure] DoubleClick Campaign Manager の統合には、 [API 接続](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
+>を使用している場合、 [!DNL Marketo Measure] と DoubleClick Campaign Manager の統合には、 [API 接続](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
 
 Doubleclick Campaign Manager を使用したトラッキングを通じて、表示からより詳細なインサイトを得るには、トラッキングピクセルを設定する必要があります。
 
-お願いします [ここをクリック](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) 詳しくは、 [!DNL Marketo Measure] ビュースルーアトリビューション機能。
+お願いします [ここをクリック](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) を参照してください。 [!DNL Marketo Measure] ビュースルーアトリビューション機能。
 
 [!DNL Marketo Measure] は、DCM 広告タグを介したサードパーティ呼び出しなので、ピギーバックタグと見なされます。 ピギーバックタグは画像タグでは機能せず、iframe タグまたは javascript タグでのみ機能します。 DCM サポートによると、これは最近は変更されておらず、常にそのようでした。 標準タグは 2017 年 10 月 3 日に廃止されましたが、の機能には影響しません。 [!DNL Marketo Measure] インプレッション数を追跡する場合。
 
@@ -48,18 +49,18 @@ DCM で親と子の階層を利用する場合、インプレッションの追�
 
 ## よくある質問 {#faq}
 
-**Q:イメージタグは安全ですか？**
+**Q：イメージタグは安全ですか。**
 
-回答：はい。 これは JavaScript タグではなく、イメージタグです。
+A：はい。 これは JavaScript タグではなく、イメージタグです。
 
-**Q:接続したユーザーに必要な権限を教えてください。**
+**Q：接続したユーザーに必要な権限は何ですか？**
 
-回答：dfatrick, dfareporting, userinfo.email
+A: dfaticking, dfareporting, userinfo.email
 
-**Q:支出データのインポートにはどのくらいの時間がかかりますか？**
+**Q：支出データのインポートにはどのくらいの時間がかかりますか。**
 
-回答：最大 6 時間
+A：最大 6 時間
 
-**Q:広告データのインポートにはどの程度の時間がかかりますか？**
+**Q：広告データのインポートにはどのくらいの時間がかかりますか？**
 
-回答：最大 6 時間
+A：最大 6 時間

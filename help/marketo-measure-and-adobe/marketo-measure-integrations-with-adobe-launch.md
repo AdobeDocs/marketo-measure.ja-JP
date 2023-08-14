@@ -1,15 +1,16 @@
 ---
 description: '''[!DNL Marketo Measure] AdobeLaunch との統合 — [!DNL Marketo Measure]  — 製品ドキュメント`'
-title: '''[!DNL Marketo Measure] AdobeLaunch との統合'
+title: '[!DNL Marketo Measure] と Adobe Launch の統合'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
-source-git-commit: 19f670505358b04fb26620574b71c2af8d0d9847
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# [!DNL Marketo Measure] AdobeLaunch との統合 {#marketo-measure-integrations-with-adobe-launch}
+# [!DNL Marketo Measure] と Adobe Launch の統合 {#marketo-measure-integrations-with-adobe-launch}
 
 AdobeLaunch 拡張機能は、既存のユーザー向けに設計されています。 [!DNL Marketo Measure] の Web サイトで既にAdobeLaunch を利用しているユーザーのみを対象としています。 拡張機能は、特定のイベントや条件に基づいてページにスクリプトを設定し、動的に読み込むためのタグ管理ソリューションとして機能します。
 
@@ -25,7 +26,6 @@ Launch でインストールおよび設定した場合、AdobeLaunch では、 
 >* [Adobe起動の概要](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
 >* [AdobeLaunch 拡張機能の概要](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
 
-
 1. 手順に従ってプロパティを作成します。 [この記事では、](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
 
 1. 作成したプロパティをクリックします。
@@ -36,11 +36,11 @@ Launch でインストールおよび設定した場合、AdobeLaunch では、 
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-2.png)
 
-1. 次をクリック： **[!UICONTROL カタログ]** タブで、「[!UICONTROL Bizible].&quot;
+1. 次をクリック： **[!UICONTROL カタログ]** 」タブで、「[!UICONTROL Bizible].&quot;
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-3.png)
 
-1. 内 [!UICONTROL Bizible Analytics] タイル、クリック **[!UICONTROL インストール]**.
+1. Adobe Analytics の [!UICONTROL Bizible Analytics] タイル、クリック **[!UICONTROL インストール]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
@@ -64,7 +64,7 @@ Launch でインストールおよび設定した場合、AdobeLaunch では、 
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 
-1. 拡張機能ドロップダウンで、「 **[!UICONTROL コア]**. 次に、「イベントタイプ」ドロップダウンで、「 **[!UICONTROL 読み込まれたライブラリ（ページ上部）]**. イベントに名前を付けない場合、デフォルトの名前が適用されます。 クリック **[!UICONTROL 変更を保持]** 完了したら、
+1. 拡張機能ドロップダウンで、「 」を選択します。 **[!UICONTROL コア]**. 次に、「イベントタイプ」ドロップダウンで、「 **[!UICONTROL 読み込まれたライブラリ（ページ上部）]**. イベントに名前を付けない場合、デフォルトの名前が適用されます。 クリック **[!UICONTROL 変更を保持]** 完了したら、
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-9.png)
 
@@ -72,7 +72,7 @@ Launch でインストールおよび設定した場合、AdobeLaunch では、 
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-10.png)
 
-1. 「拡張機能」ドロップダウンで、「 **[!UICONTROL Bizible Analytics]**. 次に、「アクションタイプ」ドロップダウンで、「 **[!UICONTROL 初期化]**. アクションに名前を付けない場合、デフォルトの名前が適用されます。 クリック **[!UICONTROL 変更を保持]** 完了したら、
+1. 「拡張機能」ドロップダウンで、「 」を選択します。 **[!UICONTROL Bizible Analytics]**. 次に、「アクションタイプ」ドロップダウンで、「 **[!UICONTROL 初期設定]**. アクションに名前を付けない場合、デフォルトの名前が適用されます。 クリック **[!UICONTROL 変更を保持]** 完了したら、
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-11.png)
 

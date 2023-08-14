@@ -1,17 +1,18 @@
 ---
-description: '"[!UICONTROL データのダウンロードを検出] アクセス制御 — Marketo Measure — 製品ドキュメント»'
-title: '"[!UICONTROL データのダウンロードを検出] アクセス制御»'
+description: '"[!UICONTROL データのダウンロードを確認] アクセス制御 — Marketo Measure — 製品ドキュメント»'
+title: '"[!UICONTROL Discover データのダウンロードのアクセス制御"]'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
-source-git-commit: 3d2d250933d16e3e8ab14f4863a76559b4349dbf
+feature: Discover
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
-# [!UICONTROL データのダウンロードを検出] アクセス制御 {#discover-data-download-access-control}
+# [!UICONTROL Discover データのダウンロードのアクセス制御] {#discover-data-download-access-control}
 
-[!UICONTROL データのダウンロードを検出] 有効にする [!DNL Marketo Measure] 管理者：ユーザーの役割に基づいて、Discover ダッシュボードのデータダウンロードポリシーを設定します。 このコントロールは、Discover ダッシュボードでのすべてのデータダウンロードアクションを対象としています。
+[!UICONTROL データのダウンロードを確認] 有効にするコントロール [!DNL Marketo Measure] 管理者：ユーザーの役割に基づいて、Discover ダッシュボードのデータダウンロードポリシーを設定します。 このコントロールは、Discover ダッシュボードでのすべてのデータダウンロードアクションを対象としています。
 
 1. クリック **[!UICONTROL データアクセス]** under [!UICONTROL セキュリティ].
 

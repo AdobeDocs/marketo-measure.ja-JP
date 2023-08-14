@@ -2,7 +2,8 @@
 description: '''[!DNL Marketo Measure] Ultimate の概要 — [!DNL Marketo Measure]  — 製品ドキュメント`'
 title: '[!DNL Marketo Measure] Ultimate の概要'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 4a5e720a91e8b229ad2f2889dbf87f5c43767411
+feature: Integration, Tracking, Attribution
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 2%
@@ -15,7 +16,7 @@ ht-degree: 2%
 
 [!DNL Marketo Measure Ultimate] には、次のその他の機能が含まれています。
 
-* ほとんどのデータソースと同じタイプの複数のデータソースから取り込み、すべてのデータを取り込んで属性にします。
+* ほとんどのデータソースと同じタイプの複数のデータソースから取り込み、すべてのデータを取り込んで属性を設定します。
    * Salesforce や Dynamics だけでなく、ほとんどすべての CRM で使用できます。
    * 複数の CRM インスタンスや MAP インスタンスを 1 つに接続 [!DNL Marketo Measure] インスタンス。
    * サードパーティのウェビナー登録および参加データを取り込む。
@@ -89,7 +90,7 @@ ht-degree: 2%
 
 ルール条件は、データセット固有です。 ステージマッピングルールは、リード損失およびリードコンバートを除くすべてのデータセットとすべてのステージに対して作成する必要があります。
 
-ファネルとブーメラン、カスタムモデルの選択はありません。 ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。 サポートするステージの数には制限があります。カスタム 15 段階とビルトイン 6 段階。
+ファネルとブーメラン、カスタムモデルの選択はありません。 ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。 サポートするステージの数には制限があります。15 個のカスタムと 6 個のビルトインステージです。
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 

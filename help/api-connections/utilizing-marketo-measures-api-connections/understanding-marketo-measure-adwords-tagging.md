@@ -3,7 +3,8 @@ unique-page-id: 18874678
 description: について [!DNL Marketo Measure] AdWords タグ付け — [!DNL Marketo Measure]  — 製品ドキュメント
 title: ' [!DNL Marketo Measure] AdWords のタグ付けについて'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 3%
@@ -24,23 +25,23 @@ ht-degree: 3%
 
 ## 方法 [!DNL Marketo Measure] 自動タグ付け機能 {#how-marketo-measure-auto-tagging-works}
 
-**If [!DNL Marketo Measure] トラッキングテンプレートを検索します。**
+**次の場合 [!DNL Marketo Measure] トラッキングテンプレートを検索します。**
 
 * [!DNL Marketo Measure] により、そのパラメーターがトラッキングテンプレートに追加されます。
 * Kenshoo や Marin などのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、 [!DNL Marketo Measure] は何も実行しません。 代わりに、 [追加 [!DNL Marketo Measure] アカウント内のサードパーティツールのパラメーター](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 ただし、トラッキングテンプレートが見つからない場合は、 [!DNL Marketo Measure] は次のようになります。
 
-* すべての広告の宛先 URL をスキャンして [!DNL Marketo Measure] パラメーター。
-* 見つかったら行って良い。
+* すべての広告の宛先 URL をスキャンし、 [!DNL Marketo Measure] パラメーター。
+* 見つかったら行って良かった。
 * 見つからない場合は、 [!DNL Marketo Measure] は、広告のリンク先 URL の末尾にパラメーターを追加します。 新しい広告の場合、 [!DNL Marketo Measure] は、作成から 2 時間以内に、そのパラメーターを広告のリンク先 URL に追加します。
 * 自動タグ付けを有効にして [!DNL Marketo Measure] を添付して、広告履歴のリセットを防ぐことができます。
 
-[!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベル、広告グループレベルのトラッキングテンプレートを使用することをお勧めします。広告履歴の中断や削除のリスクを伴わずに、すべての広告のパラメーターの追加と減算が可能です。
+[!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベル、広告グループレベルのトラッキングテンプレートを使用することをお勧めします。広告履歴の中断や削除のリスクを伴わずに、すべての広告のパラメーターの追加と減算が可能になるからです。
 
 ## トラッキングテンプレート {#tracking-templates}
 
-の説明に従って、 [!DNL Google AdWords]の場合、トラッキングテンプレートはランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックを把握するために使用されます。 [ここをクリック](https://support.google.com/adwords/answer/7197008?hl=ja){target="_blank"} Googleからの詳細
+の説明に従って、 [!DNL Google AdWords]の場合、トラッキングテンプレートはランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックを把握するために使用されます。 [ここをクリック](https://support.google.com/adwords/answer/7197008?hl=ja){target="_blank"} Googleからの詳細情報。
 
 [!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベル、広告グループレベルトラッキングテンプレートの使用をお勧めします。広告履歴が中断または削除されるリスクを伴わずに、すべての広告のパラメーターの追加と減算が可能です。
 
@@ -50,7 +51,7 @@ ht-degree: 3%
 
 `{lpurl}&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
-* 広告の URL に「?」がない場合 その際に、次の URL を使用します。
+* 広告の URL に「?」がない場合は、 その際に、次の URL を使用します。
 
 `{lpurl}?_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
@@ -78,7 +79,7 @@ ht-degree: 3%
 
    ![](assets/4-1.png)
 
-1. 次を入力します。 [!DNL Marketo Measure] トラッキングテンプレートを選択し、 **[!UICONTROL 適用]**.
+1. 次を入力します。 [!DNL Marketo Measure] トラッキングテンプレートを選択し、「 **[!UICONTROL 適用]**.
 
 ## 広告グループレベルでのトラッキングテンプレートの設定： {#setting-up-a-tracking-template-at-the-ad-group-level}
 
@@ -86,29 +87,29 @@ ht-degree: 3%
 
    ![](assets/5-1.png)
 
-1. 該当するすべての広告グループを選択するか、「すべて選択」をクリックします。 **[!UICONTROL 編集]** 次に、 **[!UICONTROL トラッキングテンプレートの変更]**.
+1. 該当するすべての広告グループを選択するか、「すべて選択」をクリックします。 **[!UICONTROL 編集]** 次に、「 **[!UICONTROL トラッキングテンプレートの変更]**.
 
-1. 次を入力します。 [!DNL Marketo Measure] トラッキングテンプレートを選択し、 **[!UICONTROL 適用]**.
+1. 次を入力します。 [!DNL Marketo Measure] トラッキングテンプレートを選択し、「 **[!UICONTROL 適用]**.
 
    ![](assets/6-1.png)
 
 ## よくある質問 {#faq}
 
-**Q:接続したユーザーに必要な権限を教えてください。**
+**Q：接続したユーザーに必要な権限は何ですか？**
 
-回答：userinfo.email
+A: userinfo.email
 
-**Q:支出データのインポートにはどのくらいの時間がかかりますか？**
+**Q：支出データのインポートにはどのくらいの時間がかかりますか。**
 
-回答：6 時間
+A: 6 時間
 
-**Q:広告データのインポートにはどの程度の時間がかかりますか？**
+**Q：広告データのインポートにはどのくらいの時間がかかりますか？**
 
-回答：4 時間
+A: 4 時間
 
-**Q:動的検索広告の場合、提供されたクリエイティブ内のヘッドライン、説明などの組み合わせを追跡できますか？**
+**Q：動的検索広告の場合、提供されたクリエイティブ内のヘッドライン、説明などの組み合わせを追跡できますか。**
 
-回答：動的検索広告の個々のクリエイティブの詳細を取得することはできませんが、自動タギングが有効な場合でも、クリエイティブ ID と属性売上高を取得できます。
+A：動的検索広告の個々のクリエイティブの詳細は取得できませんが、自動タグ付けが有効な場合でも、クリエイティブ ID と属性売上高を取得できます。
 
 >[!NOTE]
 >

@@ -3,7 +3,8 @@ unique-page-id: 35586069
 description: Marketo Measure Js での GDPR に対する同意の確保 — Marketo Measure — 製品ドキュメント
 title: Marketo Measure Js での GDPR に対する同意の確保
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
-source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 20%
@@ -28,7 +29,7 @@ GDPR の目的は、個人データの使用および保護に関して、EU（�
 
 `<script id="bizible-settings" type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" data-consent-button-id="ConsentButtonId"></script>`
 
-**次を使用する場合、 [!DNL Google Tag Manager] スクリプトをインストール**&#x200B;を削除する場合は、GTM によって data-attribute が削除されることに注意してください。そのため、代わりに次のスクリプトを使用します。
+**次を使用する場合、 [!DNL Google Tag Manager] スクリプトをインストールする**&#x200B;を削除する場合は、GTM によって data-attribute が削除されることに注意してください。そのため、代わりに次のスクリプトを使用します。
 
 `<span id="bizible-settings" data-consent-button-id="ConsentButtonId"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`
@@ -45,13 +46,13 @@ GDPR の目的は、個人データの使用および保護に関して、EU（�
 
 `<script id="bizible-settings" type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="" data-requires-user-consent="true"></script>`
 
-これは [!DNL bizible.js] ：同意に達するまで追跡しません。これは、次の JS API を使用しておこなうことができます。
+これは、 [!DNL bizible.js] ：同意に達するまで追跡しません。これは、次の JS API を使用しておこなうことができます。
 
-*window[&#39;Bizible&#39;] =窓[&#39;Bizible&#39;] || { _queue: []、プッシュ：function (o, p) { this._queue.push({ type:o、データ：p });} };*
+*window[&#39;Bizible&#39;] =窓[&#39;Bizible&#39;] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };*
 
 *Bizible.Push(&#39;Consent&#39;, true);*
 
-**次を使用する場合、 [!DNL Google Tag Manager] スクリプトをインストール**&#x200B;を削除する場合は、GTM によって data-attribute が削除されることに注意してください。そのため、代わりに次のスクリプトを使用します。
+**次を使用する場合、 [!DNL Google Tag Manager] スクリプトをインストールする**&#x200B;を削除する場合は、GTM によって data-attribute が削除されることに注意してください。そのため、代わりに次のスクリプトを使用します。
 
 `<span id="bizible-settings" data-requires-user-consent="true"></span>`
 `<script type="text/javascript" src=https://cdn.bizible.com/scripts/bizible.js async=""></script>`

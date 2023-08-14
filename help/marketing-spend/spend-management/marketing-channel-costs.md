@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874602
 description: マーケティングチャネルのコスト — [!DNL Marketo Measure]  — 製品ドキュメント
-title: マーケティングチャネルのコスト
+title: マーケティングチャネルのコスト設定
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Channels, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# マーケティングチャネルのコスト {#marketing-channel-costs}
+# マーケティングチャネルのコスト設定 {#marketing-channel-costs}
 
 を使用することの最も基本的なメリットの 1 つ [!DNL Marketo Measure] は、マーケティング活動を売上高への影響に直接結び付ける機能です。 タッチポイントレベルで投資回収率を確認できます。 このメリットを活用するには、チャネルのコストを [!DNL Marketo Measure] アプリを使用します。 ROI レポートは自動的に作成され、 **マーケティング ROI ダッシュボード** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [手順に直接移動するには、ここをクリックします。](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-この [!DNL Marketo Measure] マーケティング費用機能を使用すると、顧客はすべてのチャネル、サブチャネルおよびキャンペーンにわたって支出をアップロードできます。 顧客が追加するデータが多いほど、収益属性ダッシュボードで表示できる ROI レポートが多くなります。
+The [!DNL Marketo Measure] マーケティング費用機能を使用すると、顧客はすべてのチャネル、サブチャネルおよびキャンペーンにわたって支出をアップロードできます。 顧客が追加するデータが多いほど、収益属性ダッシュボードで表示できる ROI レポートが多くなります。
 
 直接広告接続からレポートおよびインポートされるコストは、最も詳細なレベルで自動的に取り込まれ、アップロードする必要はありません。 これには、Google AdWords、Bing Ads、Doubleclick、Facebookとの現在の統合が含まれます。
 
@@ -42,7 +43,7 @@ ht-degree: 1%
 
 **日付選択**
 
-デフォルトの日付範囲は、開始日から [!DNL Marketo Measure] 今月まで 原価が正しい状態を保つため、将来の月の原価を入力できませんが、とのパートナーシップの前の月の原価を入力できます。 [!DNL Marketo Measure].
+デフォルトの日付範囲は、開始日から [!DNL Marketo Measure] 今月まで。 原価が正しい状態を保つため、将来の月の原価を入力できませんが、とのパートナーシップの前の月の原価を入力できます。 [!DNL Marketo Measure].
 
 **フィルター**
 
@@ -72,19 +73,19 @@ ht-degree: 1%
 
 マーケティングチャネルとルールが設定または更新されると、関連するコストがアップロードされる場合があります。 これをおこなうには、次の手順に従います。
 
-**手順 1:のマーケティング費用ページに移動します。 [!DNL Marketo Measure] アプリ。**
+**手順 1: [!DNL Marketo Measure] アプリ。**
 
-次に移動： **[!UICONTROL マイアカウント]** メニュー、クリック **[!UICONTROL 設定]** 次に、 **[!UICONTROL マーケティング費用]** 左側のサイドバーの **[!UICONTROL レポート]** 」セクションに入力します。
+次に移動： **[!UICONTROL マイアカウント]** メニュー、クリック **[!UICONTROL 設定]** その後、 **[!UICONTROL マーケティング費用]** 左側のサイドバーの **[!UICONTROL レポート]** 」セクションに入力します。
 
 ![](assets/1.png)
 
-**手順 2:現在のコストの CSV をダウンロード**
+**手順 2：現在のコストの CSV をダウンロードする**
 
 画面の右に移動し、「 」をクリックします。 **[!UICONTROL 現在のコストのダウンロード].** このオプションを使用すると、スプレッドシートを CSV 形式でダウンロードできます。
 
 ![](assets/2.png)
 
-**手順 3:CSV ファイルを開き、変更を加える**
+**手順 3:CSV ファイルを開いて変更する**
 
 ファイルは、Google Sheets、Apple Numbers、Microsoft Excel または選択したソフトウェアを使用して読み込み、開くことができます。 [!DNL Marketo Measure] では、 Google Sheet の使用をお勧めします。
 
@@ -92,7 +93,7 @@ ht-degree: 1%
 
 シートの論理規則を確認します。 各行には、チャネルと、そのサブチャネルの 1 つを (.) で区切って含める必要があります。 末尾にドットを付けます。 この形式の一貫した使用は重要です。
 
-例えば、Facebookをサブチャネル、ソーシャルをチャネルとして示すには、ルールを次のように記述する必要があります。「Social.Facebook」 同様に、オフラインイベントを追跡するには、チャネルの構文を次のようにする必要があります。「Events.Big Conference」 次の画像に例を示します。
+例えば、Facebookをサブチャネル、ソーシャルをチャネルとして示すには、ルールを「Social.Facebook」のように記述する必要があります。 同様に、オフラインイベントを追跡する場合は、チャネル構文を「Events.Big Conference」にする必要があります。 次の画像に例を示します。
 
 ![](assets/3.png)
 
@@ -104,19 +105,19 @@ _そのほかの備考_:
 
 Bing Ads とGoogle AdWords のコストは、 [!DNL Marketo Measure] は、これらのプラットフォームとの API 接続からこのデータを自動的に取り込みます。
 
-**手順 4:ファイルを CSV 形式で保存**
+**手順 4：ファイルを CSV 形式で保存する**
 
 Google Sheet で作業している場合は、まずファイルをダウンロードしてください。 毎月のデータを除外または削除しないでください。CSV ファイルをにアップロードしようとすると、問題が発生します。 [!DNL Marketo Measure] 後で。
 
 **手順 5:CSV ファイルのアップロード**
 
-次に移動： **[!UICONTROL コスト]** セクション [!DNL Marketo Measure] アプリとクリックし、 **[!UICONTROL Upload.CSV]**. システムが更新され、新しい情報が反映されます。
+次に移動： **[!UICONTROL コスト]** のセクション [!DNL Marketo Measure] アプリとクリックし、 **[!UICONTROL Upload.CSV]**. システムが更新され、新しい情報が反映されます。
 
 ## よくある質問 {#faq}
 
-**数値が CSV に表示されるのはなぜですか**
+**数値が CSV に表示されるのはなぜですか？**
 
-「チャネル」や「サブチャネル」など上位レベルに値が入力されない場合、 [!DNL Marketo Measure] は自動的に子レベルを合計します。これは、ファイルがアップロードされると表示されます。 また、子の合計が親に入力された値より小さい場合は、 [!DNL Marketo Measure] 「その他」の行を追加して、合計の違いを表示します。
+「チャネル」や「サブチャネル」など上位レベルに値が入力されない場合は、 [!DNL Marketo Measure] は自動的に子レベルを合計します。これは、ファイルがアップロードされると表示されます。 また、子の合計が親に入力された値より小さい場合は、 [!DNL Marketo Measure] 「その他」の行を追加して、合計の違いを表示します。
 
 **表示されているリストでキャンペーンはどのように決定されますか？**
 

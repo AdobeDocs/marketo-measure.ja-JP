@@ -1,24 +1,25 @@
 ---
 unique-page-id: 18874519
 description: 追加中 [!DNL Marketo Measure] Lightbox Formsへのスクリプト — [!DNL Marketo Measure]  — 製品ドキュメント
-title: 追加中 [!DNL Marketo Measure] スクリプトを Lightbox Formsに
+title: Lightbox フォームへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 追加中 [!DNL Marketo Measure] スクリプトを Lightbox Formsに {#adding-marketo-measure-script-to-lightbox-forms}
+# Lightbox フォームへの[!DNL Marketo Measure]スクリプトの追加 {#adding-marketo-measure-script-to-lightbox-forms}
 
-適切に [!DNL Marketo Measure] Lightbox 内のフォームに JavaScript を追加する。
+を適切に追加する方法を学ぶ [!DNL Marketo Measure] Lightbox 内のフォームに JavaScript を追加する。
 
 Lightbox は、訪問者が特定のアクションを実行する（例えば、ページの特定の部分をクリックする、ページ上で一定期間を過ごすなど）と、コンテンツの前にフォームを開きます。 通常は、 [!DNL Marketo Measure] JavaScript はランディングページの head に配置されていますが、Lightbox 内のフォームの場合は、追加の手順が 1 つ必要です。
 
 Lightbox 内のフォームは基本的に iFrame 内のフォームなので、その iFrame 内にスクリプトを配置する必要があります。
 
-まず、 [!UICONTROL ライトボックス] 生きる。
+まず、 [!UICONTROL ライトボックス] 住む場所を形成する。
 
 ![](assets/1.png)
 

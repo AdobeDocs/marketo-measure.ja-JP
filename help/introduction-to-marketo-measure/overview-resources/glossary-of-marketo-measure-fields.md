@@ -5,7 +5,7 @@ title: Marketo Measure フィールドの用語集
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3211'
 ht-degree: 100%
 

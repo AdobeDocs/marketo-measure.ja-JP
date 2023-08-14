@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874710
 description: タッチポイントの削除およびタッチポイントの抑制 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: タッチポイントの削除とタッチポイントの抑制
+title: Touchpoint の削除と Touchpoint の抑制
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# タッチポイントの削除とタッチポイントの抑制 {#touchpoint-removal-and-touchpoint-suppression}
+# Touchpoint の削除と Touchpoint の抑制 {#touchpoint-removal-and-touchpoint-suppression}
 
 特定の条件を満たすタッチポイントを CRM から削除または抑制する方法を説明します。 これは、 [!DNL Salesforce] データストレージの制限。
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 `1)` 削除/抑制の設定には 2 つのセクションがあります。 これは、購入者タッチポイント（リードと連絡先）または購入者属性タッチポイント（連絡先、商談、アカウント）用に設定することができます。
 
-ルールを追加し、条件を定義する「フィールド」を選択します。
+まず、ルールを追加し、条件を定義する「フィールド」を選択します。
 
 次の値のセットに関連する演算子のリストから選択します。次の列に追加します。
 
@@ -73,4 +74,4 @@ ht-degree: 0%
 | 任意に一致 | 複数の値 — 完全一致 |
 | いずれかに一致（次を含む） | 複数の値 — &#42;値&#42;, &#42;値 &#42;値&#42; |
 
-Dynamics を使用し、ステータスやステートコードに基づいて抑制ルールを設定するお客様の場合、ルールを設定する際には次の書式が必要です。 `[Object].Statecode` 次と等しい/等しくない `[Status Value]`. たとえば、Dynamics 内のステートコードが連絡先で「1」と読み取り、ステータスが「非アクティブ」と読み取られ、これらの連絡先をすべて抑制したい場合、次の形式は抑制ルールに対して正しくありません。Contact.Statecode が 1 に等しい。 代わりに、次の形式を使用します。Statecode と Status はペアとして動作するので、 [!DNL Marketo Measure] は、クエリで Status から値を読み取ります。Contact.Statecode が Inactive と等しい。
+Dynamics を使用し、ステータスやステートコードに基づいて抑制ルールを設定するお客様の場合、ルールを設定する際には次の書式が必要です。 `[Object].Statecode` 次と等しい/等しくない `[Status Value]`. たとえば、Dynamics 内の Statecode が連絡先で&quot;1&quot;と読み取り、ステータスが&quot;非アクティブ&quot;と読み取られ、これらの連絡先をすべて抑制したい場合、抑制規則に対して次の形式が正しくありません： Contact.Statecode が 1 と等しい。 代わりに、次の形式を使用します。Statecode と Status はペアとして動作するので、 [!DNL Marketo Measure] は、問い合わせ中のステータスから値を読み取ります。Contact.Statecode が非アクティブと等しいです。

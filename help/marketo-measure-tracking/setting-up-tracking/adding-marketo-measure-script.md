@@ -5,7 +5,7 @@ title: ' [!DNL Marketo Measure]  スクリプトの追加'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 100%
 

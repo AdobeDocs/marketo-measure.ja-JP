@@ -4,7 +4,7 @@ title: ' [!DNL Marketo Measure] JavaScript の実装のベストプラクティ�
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 

@@ -3,7 +3,8 @@ unique-page-id: 18874592
 description: コールトラッキングの統合 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: コールトラッキングの統合
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 1%
@@ -24,7 +25,7 @@ ht-degree: 1%
 
 下のフローチャートを見て、 [!DNL Marketo Measure] CallTrackingMetrics との統合なしで電話を処理するために使用します。 発生した電話呼び出しはトラッキングされなかったので、Web セッションと見なされ、そのタッチポイントは作成されませんでした。 タッチポイントが最終的に入力されるのは、次の訪問でユーザーがフォームに入力してからです。
 
-統合を使用すると、Web セッションが電話呼び出しに実際に結び付けられていたことを確認できます。 次のフォーム入力は PostLC タッチになり、ジャーニーの一環として追跡されます。
+統合を使用すると、Web セッションが電話呼び出しに実際に結び付けられていたことを確認できます。 次のフォーム入力は PostLC タッチになり、ジャーニーの一環として引き続き追跡されます。
 
 ![](assets/2.png)
 
@@ -34,9 +35,9 @@ CallTrackingMetrics は、この機能を実現するために、少しの開発
 
 訪問者がサイトに来訪して電話をかけると、そのデータをにプッシュするのは CallTrackingMetrics の役割です。 [!DNL Salesforce]  通常、 [!DNL Salesforce Task] は、電話番号、件名、タイプなどのデータを入力するために作成されます。 [!DNL BizibleId]
 
-この [!DNL BizibleId] は、バージョン 6.7 以降の [!DNL Marketo Measure] マーケティング属性パッケージ。
+The [!DNL BizibleId] は、バージョン 6.7 以降の [!DNL Marketo Measure] マーケティング属性パッケージ。
 
-以下は、 [!DNL BizibleId] が設定されている
+以下は、 [!DNL BizibleId] が設定されている。
 
 ![](assets/3.png)
 
@@ -44,9 +45,9 @@ CallTrackingMetrics は、この機能を実現するために、少しの開発
 
 ## タッチポイント {#the-touchpoint}
 
-条件 [!DNL Marketo Measure] タスクをインポート/ダウンロードできるので、web セッションと共にその詳細を処理します。 ほとんどの場合、リファラーまたは広告と結合できます。 次の例では、訪問者が有料Google広告を通じてビジネスを見つけ、電話をかけました。
+条件 [!DNL Marketo Measure] タスクをインポート/ダウンロードできるので、Web セッションと共にその詳細を処理します。 ほとんどの場合、リファラーまたは広告と結合できます。 次の例では、訪問者が有料Google広告を通じてビジネスを見つけ、電話をかけました。
 
-この [!UICONTROL タッチポイント] 上のスクリーンショットから「Call」と入力すると、タスクから取り出されます。この値は、タスクの作成時に CallTrackingMetrics によっても設定されます。
+The [!UICONTROL タッチポイント] 上のスクリーンショットから「Call」と入力すると、タスクから取り出されます。この値は、タスクの作成時に CallTrackingMetrics によっても設定されます。
 
 ![](assets/4.png)
 
@@ -60,7 +61,7 @@ CallTrackingMetrics は、この機能を実現するために、少しの開発
 
 **タッチポイントタイプの Web 訪問が発生するのはなぜですか？**
 
-タッチポイントタイプは、Task.Type フィールドから設定されます。 Task.Type フィールドが空白の場合、 [!DNL Marketo Measure] は、タッチポイントタイプを自動的に「Web 訪問」に設定します。 Task.Type フィールドに値が入力されると [!DNL Marketo Measure] はその値を読み取り、それに応じてタッチポイントタイプを設定します。
+タッチポイントタイプは、Task.Type フィールドから設定されます。 Task.Type フィールドが空白の場合、 [!DNL Marketo Measure] は、タッチポイントタイプを自動的に「Web 訪問」に設定します。 Task.Type フィールドに値が入力されると、 [!DNL Marketo Measure] はその値を読み取り、それに応じてタッチポイントタイプを設定します。
 
 **タッチポイントは電話の呼び出しから他にどのようなフィールドに入力されますか？**
 
@@ -68,7 +69,7 @@ CallTrackingMetrics は、この機能を実現するために、少しの開発
 
 **この電話が Web セッションに結び付けられていないのはなぜですか？**
 
-まず、「タスク」をチェックして、 [!DNL BizibleId] が設定されている 値がない場合、そのタッチポイントは作成されず、作成できません。 これは、CallTrackingMetrics でエスカレーションする必要があります。
+まず、「タスク」をチェックして、 [!DNL BizibleId] が設定されている。 値がない場合、そのタッチポイントは作成されず、作成できません。 これは、CallTrackingMetrics でエスカレーションする必要があります。
 
 値がある場合、すべての Web セッションは 30 分と見なされるだけです。 Google Ad が午後 12:17（Web サイトのセッションの開始）にクリックされたが、電話が午後 1:05 まで発生しなかった場合、Web セッションと電話の呼び出しは結合されません。 むしろ [!DNL Marketo Measure] が別の [!DNL Salesforce Task] 電話の呼び出しを追跡するタッチポイントですが、web セッションデータは持ちません。
 

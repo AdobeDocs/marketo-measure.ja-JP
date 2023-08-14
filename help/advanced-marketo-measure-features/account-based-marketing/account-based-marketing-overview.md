@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874730
 description: アカウントベースドマーケティングの概要 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: アカウントベースドマーケティングの概要
+title: アカウントベースのマーケティングの概要
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
+feature: Account-based Marketing
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# アカウントベースドマーケティングの概要 {#account-based-marketing-overview}
+# アカウントベースのマーケティングの概要 {#account-based-marketing-overview}
 
-以下に、ABM のコンポーネントである、 [!DNL Marketo Measure] ABM 機能と、 [!DNL Salesforce] ページレイアウト。 ABM の詳細を確認するには、 [このページ](https://www.marketo.com/account-based-marketing/){target="_blank"}.
+以下に、ABM のコンポーネントの概要を示します [!DNL Marketo Measure] ABM 機能と、 [!DNL Salesforce] ページレイアウト。 ABM の詳細を確認するには、 [このページ](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
-ABM を [!DNL Salesforce] 例として、 [ここをクリック](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
+次の手順で、ABM を [!DNL Salesforce] 例として、 [ここをクリック](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
 ## ABM とは {#what-is-abm}
 
@@ -27,11 +28,11 @@ ABM を [!DNL Salesforce] 例として、 [ここをクリック](/help/advanced
 
 >[!NOTE]
 >
->上記の「悪い」アカウントは、クローズド・ウォン・オププを蓄積することなく、少なくとも 12 ヶ月間開かれる必要がある。これが、Opp がモデルの目的で古くなったかどうかに関する基本的なガイドラインです。
+>上記の「悪い」アカウントは、クローズド・ウォンの商談を積み上げずに、少なくとも 12 ヶ月間開かれる必要があります。これは、Opp がモデルの目的で古くなったかどうかに関する基本的なガイドラインです。
 
 ## リードとアカウントのマッピング {#lead-to-account-mapping}
 
-リードとアカウントのマッピングは、効果的な ABM アプローチの重要な部分です。 リード — アカウント間マッピングを使用する場合、見込み客またはリードは、ブランドに関与するのと同じ会社アカウントにグループ化されます。 これにより、同じ会社の個人を一貫した方法でターゲット化し、販売できます。 追加の [!DNL Salesforce] この機能の利点を活用するために必要な設定です。 この [!DNL Marketo Measure] リードとアカウントのマッピング 5 つの異なる照合方法：
+リードとアカウントのマッピングは、効果的な ABM アプローチの重要な部分です。 リード — アカウント間マッピングを使用する場合、見込み客またはリードは、ブランドに関与するのと同じ会社アカウントにグループ化されます。 これにより、同じ会社の個人を一貫した方法でターゲット化し、販売できます。 追加の [!DNL Salesforce] この機能の利点を活用するために必要な設定です。 The [!DNL Marketo Measure] リードとアカウントのマッピング 5 つの異なる照合方法：
 
 * ウェブサイトをアカウントウェブサイトにリード
 * リードメールドメインからアカウント Web サイトドメインへ
@@ -45,7 +46,7 @@ ABM を [!DNL Salesforce] 例として、 [ここをクリック](/help/advanced
 
 ## 予測エンゲージメントスコア {#predictive-engagement-score}
 
-この [!DNL Marketo Measure] 予測エンゲージメントスコア (PES) は、特定のアカウントとマーケティング活動とのエンゲージメントの程度を示す動的な値です。 このスコアは、ターゲットにするアカウントをセグメント化する際に役立ちます。 これは、より効果的かつ効率的にターゲットを絞るために、アカウントを識別するための貴重なツールです。
+The [!DNL Marketo Measure] 予測エンゲージメントスコア (PES) は、特定のアカウントとマーケティング活動とのエンゲージメントの程度を示す動的な値です。 このスコアは、ターゲットにするアカウントをセグメント化する際に役立ちます。 これは、より効果的かつ効率的にターゲットを絞るために、アカウントを識別するための貴重なツールです。
 
 PES を計算するアルゴリズムには、多くのコンポーネントが含まれます。 最新性と年齢は、前回のタッチポイントアクティビティまたはページビューと共に、スコアの変更に大きな影響を与えます。 アカウントに新しい連絡先を追加すると、PES にも影響します。 以下に、いくつかの PES 入力のリストを示します。
 
@@ -64,7 +65,7 @@ PES を計算するアルゴリズムには、多くのコンポーネントが�
 >一部のアカウントの予測エンゲージメントスコアに「N/A」または「 — 」（ダッシュ記号）の等級が表示される場合があります。
 
 _「N/A」のグレードは、単にモデルが真のグレードを生成するのに十分なデータがそのアカウントにないことを意味します。より多くのデータを使用すると、最終的にグレードが提供されます。_
-_「 — 」（ダッシュ記号）のグレードは、時間の制約、時々失われたプロセスなどの理由で、このアカウントが ABM プロセスでまだ処理されていないことを意味します。 他の類似のアカウントや期間に基づいて、アカウントにグレードがあると思われる場合は、連絡を取り、 [!DNL Marketo Measure] 知ってる。_
+_「 — 」（ダッシュ記号）のグレードは、時間の制約、時々失われたプロセスなどの理由で、このアカウントが ABM プロセスでまだ処理されていないことを意味します。 他の類似のアカウントや期間に基づいて、アカウントにグレードがあると思われる場合は、連絡を取り、 [!DNL Marketo Measure] 知っている。_
 
 ## での ABM ページレイアウトの設定 [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 

@@ -3,16 +3,17 @@ unique-page-id: 37356395
 description: '"[!DNL Marketo Engage] 人物の統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
 title: '"[!DNL Marketo Engage] 人物統合»'
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # [!DNL Marketo Engage] 人物統合 {#marketo-engage-people-integration}
 
-Marketoのユーザー統合により、 [!DNL Marketo Measure] :Marketoから人物をダウンロードし始め、追跡セッションを個人に結び付け、タッチポイントを自分のエンゲージメントにマッピングし始める場合。 歴史的に [!DNL Marketo Measure] では、タッチポイントを CRM の個人にマッピングすることしかできないので、マーケターは、ステージやトリガーが CRM に同期するのを待たずに、早くマーケティング活動を測定できます。
+Marketoのユーザー統合により、 [!DNL Marketo Measure] :Marketoから人物をダウンロードし始め、追跡セッションを個人に結び付け、タッチポイントを自分のエンゲージメントにマッピングし始める場合。 歴史的に、 [!DNL Marketo Measure] では、タッチポイントを CRM の個人にマッピングすることしかできないので、マーケターは、ステージやトリガーが CRM に同期するのを待たずに、早くマーケティング活動を測定できます。
 
 ## 要件 {#requirements}
 
@@ -35,11 +36,11 @@ Marketoの担当者をダウンロードする機能が導入され、 [!DNL Mar
 
 ![](assets/5b.png)
 
-お客様は、の中のMarketoの担当者と CRM の担当者の完全なセットをレポートするオプションがあります [!DNL Marketo Measure] 検出。 CRM の担当者のみのレポートに関心がある場合は、フィルターするセグメントを作成することをお勧めします。
+お客様は、の中のMarketoの担当者と CRM の担当者の完全なセットをレポートするオプションがあります。 [!DNL Marketo Measure] 検出。 CRM の担当者のみのレポートに関心がある場合は、フィルターするセグメントを作成することをお勧めします。
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-でリード（人）をレポートする際 [!DNL Marketo Measure Discover]をクリックすると、Marketoと CRM のリードの合計が表示されます。 Marketoのリードのみ、または CRM のリードのみを報告するには、ソースのセグメントカテゴリを作成し、「ソースシステム」フィールドを使用してMarketoと CRM のセグメントルールを作成してルールを定義します。 セグメントを作成すると、「ソース」カテゴリが [!DNL Marketo Measure Discover] ダッシュボード。
+でリード（人）のレポートを作成する場合 [!DNL Marketo Measure Discover]をクリックすると、Marketoと CRM のリードの合計が表示されます。 Marketoのリードのみ、または CRM のリードのみを報告するには、ソースのセグメントカテゴリを作成し、「ソースシステム」フィールドを使用してMarketoと CRM のセグメントルールを作成してルールを定義します。 セグメントを作成すると、「ソース」カテゴリが [!DNL Marketo Measure Discover] ダッシュボード。
 
 ![](assets/bizible-discover-1.png)
 
@@ -70,7 +71,7 @@ Marketoの担当者をダウンロードする機能が導入され、 [!DNL Mar
    <td><p>createdAt</p></td> 
   </tr> 
   <tr> 
-   <td><p>電子メール</p></td> 
+   <td><p>EMAIL</p></td> 
    <td><p>メール</p></td> 
   </tr> 
   <tr> 
@@ -78,7 +79,7 @@ Marketoの担当者をダウンロードする機能が導入され、 [!DNL Mar
    <td><p>website</p></td> 
   </tr> 
   <tr> 
-   <td><p>会社</p></td> 
+   <td><p>COMPANY</p></td> 
    <td><p>会社</p></td> 
   </tr> 
   <tr> 

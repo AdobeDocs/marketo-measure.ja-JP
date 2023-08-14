@@ -3,7 +3,8 @@ unique-page-id: 35586140
 description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメント
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '22610'
 ht-degree: 99%
@@ -18,7 +19,6 @@ Data Warehouse を使用すると、好きなだけトラッキングしたり�
 >
 >* _DELETED_DATE の値を含む行は、7 日間保持され、その後、Snowflake から削除されます。
 >* Snowflakeで使用されるタイムゾーンは協定世界時 (UTC) に準拠します。
-
 
 >[!NOTE]
 >
@@ -5465,7 +5465,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>クリエイティブの最初の行からのコピー</p>
       </td>
       <td>
-        <p>Connect &amp; Learn From Revenue-Driven B2B Marketers.Join the Community.</p>
+        <p>収益追求型の B2B マーケターとつながり、学ぶ。Join the Community.</p>
       </td>
     </tr>
     <tr>

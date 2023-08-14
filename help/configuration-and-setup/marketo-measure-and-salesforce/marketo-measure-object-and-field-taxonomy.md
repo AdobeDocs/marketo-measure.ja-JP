@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874584
-description: '"[!DNL Marketo Measure] オブジェクトおよびフィールド分類 — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: '"[!DNL Marketo Measure] オブジェクトおよびフィールドの分類»'
+description: '"[!DNL Marketo Measure] オブジェクトおよびフィールドの分類 — [!DNL Marketo Measure]  — 製品ドキュメント»'
+title: "[!DNL Marketo Measure] オブジェクトとフィールドの分類"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# [!DNL Marketo Measure] オブジェクト分類とフィールド分類 {#marketo-measure-object-and-field-taxonomy}
+# [!DNL Marketo Measure] オブジェクトとフィールドの分類 {#marketo-measure-object-and-field-taxonomy}
 
 以下に、 [!DNL Marketo Measure] カスタムオブジェクトは次に関連付けられます。 [!DNL Salesforce] 標準オブジェクト。
 
@@ -26,11 +27,11 @@ ht-degree: 0%
 
 各矢印は、オブジェクトと他のオブジェクトとの関係を表します。 例えば、 [!DNL Marketo Measure] 担当者が標準のフィールドに入力します [!DNL Salesforce] リードオブジェクト。 それを指す場合は、矢印の受け側の端を通過していることを意味します。
 
-**概要 [!DNL Marketo Measure] 人？**
+**とは [!DNL Marketo Measure] 人間？**
 
-カスタム [!DNL Marketo Measure] のオブジェクト [!DNL Salesforce] 購入者のタッチポイントをリードと連絡先にリンクさせる
+カスタムです [!DNL Marketo Measure] のオブジェクト [!DNL Salesforce] 購入者のタッチポイントをリードと連絡先にリンクさせる機能が含まれています。
 
-**概要 [!DNL Bizible].JS?**
+**とは [!DNL Bizible].JS?**
 
 個人が特定のサイトに存在する Web 情報を追跡するのに利用するのは、アドビのカスタム JavaScript です。
 

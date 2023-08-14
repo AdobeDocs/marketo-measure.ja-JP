@@ -4,7 +4,7 @@ title: 「[!DNL Marketo Measure] レポートテンプレート - Tableau」
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2323'
 ht-degree: 100%
 

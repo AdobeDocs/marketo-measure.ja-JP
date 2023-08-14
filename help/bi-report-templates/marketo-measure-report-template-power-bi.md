@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] レポートテンプレート - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2571'
 ht-degree: 100%
 

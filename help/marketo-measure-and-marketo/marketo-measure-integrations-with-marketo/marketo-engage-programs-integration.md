@@ -1,12 +1,13 @@
 ---
 unique-page-id: 42762729
-description: '"[!DNL Marketo Engage] プログラム統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
+description: '"[!DNL Marketo Engage] プログラムの統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
 title: '"[!DNL Marketo Engage] プログラム統合»'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1259'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -36,7 +37,7 @@ ht-degree: 1%
 
    ![](assets/two.png)
 
-1. ルールの名前は、追跡に役立つ場合は、オプションで設定できます。 最初に、「プログラム」フィールドと「プログラムメンバーシップ」フィールドのリストからルールを定義するフィールドを選択します。 引き続き、確認する演算子と期待値を選択してルールを作成します。
+1. ルールの名前は、追跡に役立つ場合は、オプションで設定できます。 最初に、「プログラム」フィールドと「プログラムメンバーシップ」フィールドのリストからルールを定義するフィールドを選択します。 引き続き、確認する演算子と期待される値を選択して、ルールを作成します。
 
    ![](assets/three.png)
 
@@ -64,7 +65,7 @@ ht-degree: 1%
 
    ![](assets/seven.png)
 
-1. モーダルが表示され、Marketoのプログラム ID にを入力できます。
+1. モーダルが表示され、Marketoのプログラム ID に入力できます。
 
    ![](assets/eight.png)
 
@@ -82,7 +83,7 @@ ht-degree: 1%
 
 Marketoプログラムチャネルのリストから、 [!DNL Marketo Measure] 設定内で作成したカスタムマーケティングチャネル。 これらのプログラムで生成されるタッチポイントは、ここで選択したチャネル名とサブチャネル名を継承します。
 
-1. 最初に、 **[!UICONTROL マイアカウント]** > **[!UICONTROL 設定]** > **[!UICONTROL オフラインチャネル]**.
+1. 最初に、次の場所に移動します。 **[!UICONTROL マイアカウント]** > **[!UICONTROL 設定]** > **[!UICONTROL オフラインチャネル]**.
 
 1. 上部には、CRM キャンペーンタイプにマッピングするオプションがあり、下部には、Marketoプログラムチャネルのオプションが表示されます。
 
@@ -117,7 +118,7 @@ Marketoプログラムのデータインポートを通じて、コストが期�
    <td>（プログラムが API 経由でまだ存在するかどうかを確認）</td> 
   </tr> 
   <tr> 
-   <td><p>名前</p></td> 
+   <td><p>NAME</p></td> 
    <td>名前</td> 
   </tr> 
  </tbody> 
@@ -130,7 +131,7 @@ Marketoプログラムのデータインポートを通じて、コストが期�
 | CREATED_DATE | membershipDate |
 | LEAD_ID | ID （リストのメンバーシップ） |
 | LEAD_EMAIL | E メール（リストのメンバーシップ） |
-| ステータス | progressionStatus |
+| STATUS | progressionStatus |
 | HAS_RESPONDED | reachedStatus |
 | CAMPAIGN_NAME | programName |
 | CAMPAIGN_ID | programId |
@@ -140,15 +141,15 @@ Marketoプログラムのデータインポートを通じて、コストが期�
 
 結果として [!DNL Marketo Measure] Marketo、 [!DNL Marketo Measure] cookie ID もマッピングされ、 [!DNL Marketo Munchkin Id]. これにより、FT タッチと LC タッチの両方をMarketo Activity に関連付けるのではなく、匿名のファーストタッチを Web セッションに関連付けるのに役立ちます。 次のシナリオを想像してください。
 
-次の項目のクリック数のマーク [!DNL Facebook] 広告を追加して wayneenterprises.com に移動し、でクッキーを取得します。 [!DNL Marketo Measure] ID 123 および [!DNL Marketo Munchkin Id] 456. フォームの入力は行われません。
+次の項目のクリック数のマーク [!DNL Facebook] 広告を追加し、wayneenterprises.comにアクセスします。ここでは、を使用して cookie を取得します。 [!DNL Marketo Measure] ID 123 および [!DNL Marketo Munchkin Id] 456. フォームの入力は行われません。
 
 Wayne Enterprises マーケティングチームが、特定のターゲットリードに E メールの一斉送信を送信します。そのうちの 1 つは、 `mark@email.com`.
 
-`mark@email.com` が電子メールを受信し、をクリックスルーして wayneenterprises.com にランディングします。 これは `mark@email.com's` ～への 2 回目の訪問 `wayneenterprise.com` 同じ cookie ID を持つものの、フォームの入力が行われていない場合、 [!DNL Marketo Measure]に値を付けると、その訪問者は匿名の訪問者となります。
+`mark@email.com` が電子メールを受信し、をクリックスルーして、wayneenterprises.comに移動します。 これは `mark@email.com's` ～への二度目の訪問 `wayneenterprise.com` 同じ cookie ID を持つものの、フォームの入力が行われていない場合、 [!DNL Marketo Measure]に値を付けると、その訪問者は匿名の訪問者となります。
 
 Wayne Enterprises マーケティングチームは、「E メールのクリック」アクティビティタイプのタッチポイントを生成するMarketoアクティビティルールを作成します。
 
-今日の実装では、 `mark@email.com` 「E メールをクリック」アクティビティタイプの「Marketoアクティビティ」から。
+今日の実装では、FT と LC のタッチポイントが 1 つで、 `mark@email.com` 「E メールをクリック」アクティビティタイプの「Marketoアクティビティ」から。
 
 この cookie マッピング機能の強化により、FT はに戻り、 [!DNL Facebook] 広告と LC が E メールに与えられます。
 
@@ -176,4 +177,4 @@ Wayne Enterprises マーケティングチームは、「E メールのクリッ
 
 **プログラムとアクティビティのどちらを使用すればよいかを知るにはどうすればよいですか？**
 
-この [!DNL Marketo Engage] プログラム統合は、個人がプログラムのプログラムメンバーかどうかに基づいてタッチポイントを生成する簡単な方法です。 個人が特定のプログラムステータスに変わる時間に基づいてルールを定義する場合、 [!DNL Marketo Engage] アクティビティ統合は、お客様が必要とする設定となります。特に、「進行状況のステータス変更」アクティビティタイプです。
+The [!DNL Marketo Engage] プログラム統合は、個人がプログラムのプログラムメンバーかどうかに基づいてタッチポイントを生成する簡単な方法です。 個人が特定のプログラムステータスに変わる時間に基づいてルールを定義する場合は、 [!DNL Marketo Engage] アクティビティ統合は、お客様が必要とする設定となります。特に、「進行状況のステータス変更」アクティビティタイプです。

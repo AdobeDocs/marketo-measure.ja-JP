@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874706
-description: セキュリティセッションの制限 — する IP アド許可リストレス — Marketo Measure — 製品ドキュメント
-title: セキュリティセッションの制限 — する IP アド許可リストレス
+description: セキュリティセッションの制限 — する IP アド許可リストに加えるレス — Marketo Measure — 製品ドキュメント
+title: セキュリティセッションの制限 — する IP アド許可リストに加えるレス
 exl-id: aaf5190f-893c-4872-8d03-93f516e70a59
-source-git-commit: b9d9e3110e87be0d6311c17b0ef76dfad8735a00
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '87'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
-# セキュリティセッションの制限：する IP アド許可リストレス {#security-session-restrictions-ip-addresses-to-allowlist}
+# セキュリティセッションの制限：許可リストに追加する IP アドレス {#security-session-restrictions-ip-addresses-to-allowlist}
 
 存在する場合 [セッションセキュリティ設定](https://help.salesforce.com/articleView?id=admin_sessions.htm&amp;type=0){target="_blank"} インプレースで、特定の IP アドレスがデータをプッシュ/プルできないようにする [!DNL Salesforce] インスタンス、許可するには次の IP 範囲を許可リストに加えるする必要があります [!DNL Marketo Measure] にデータをプッシュ [!DNL Salesforce]:
 

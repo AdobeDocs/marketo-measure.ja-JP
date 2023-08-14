@@ -3,10 +3,11 @@ unique-page-id: 18874799
 description: ページレイアウト手順 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: ページレイアウトの手順
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -14,15 +15,15 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-簡単に見るには [!DNL Marketo Measure] データを更新する場合、 [!UICONTROL アカウント], [!UICONTROL 連絡先], [!UICONTROL リード], [!UICONTROL 商談]、および [!UICONTROL Campaign] オブジェクト。 手順は、以下の各オブジェクトページレイアウトで分類されます。
+簡単に見るには [!DNL Marketo Measure] データを更新する場合は、 [!UICONTROL アカウント], [!UICONTROL 連絡先], [!UICONTROL リード], [!UICONTROL 商談]、および [!UICONTROL Campaign] オブジェクト。 手順は、以下の各オブジェクトページレイアウトで分類されます。
 
 まず、 [!DNL Salesforce] 設定を行い、 [!UICONTROL カスタマイズ] タブをクリックします。
 
 ## Campaign オブジェクト {#campaign-object}
 
-以下を追加することをお勧めします。 [!DNL Marketo Measure] フィールドを SFDC Campaign に追加し、サンドボックスにのみ使用できます。 このフィールドを使用して、タッチポイントの生成をテストできます。 実稼動環境では、 [!DNL Marketo Measure] タッチポイント日付の一括更新ボタン。 この [!DNL Marketo Measure] フィールドを実稼動環境に追加しました。
+以下を追加することをお勧めします。 [!DNL Marketo Measure] フィールドを SFDC Campaign に追加し、サンドボックスにのみ使用できます。 このフィールドを使用して、タッチポイントの生成をテストできます。 実稼動環境では、 [!DNL Marketo Measure] タッチポイント日付の一括更新ボタン。 を追加することはお勧めしません。 [!DNL Marketo Measure] フィールドを実稼動環境に移行する必要があります。
 
 1. 「ビルド」オプションで、「 **[!UICONTROL キャンペーン]**.
 
@@ -38,9 +39,9 @@ ht-degree: 7%
 
    ![](assets/3-2.png)
 
-1. 次に、ページ上部で、「[!UICONTROL ボタン]」オプションを使用します。
+1. 次に、ページ上部で、[!UICONTROL ボタン]」オプションを使用します。
 
-1. 次をドラッグ： **[!UICONTROL タッチポイント日の一括更新]** ボタンをクリックして、カスタムボタンセクションに追加します。
+1. 次の項目をドラッグ： **[!UICONTROL タッチポイント日の一括更新]** ボタンをクリックして、カスタムボタンセクションに追加します。
 
    ![](assets/4-1.jpg)
 
@@ -66,7 +67,7 @@ ht-degree: 7%
    >
    >各セクションで「1 列」の形式を選択します。
 
-1. 次をドラッグ： **[!UICONTROL Marketo Measureリード関連リスト]** VisualForce ページをページレイアウトセクションに挿入します。
+1. 次の項目をドラッグ： **[!UICONTROL Marketo Measureリード関連リスト]** VisualForce ページをページレイアウトセクションに挿入します。
 
    ![](assets/5-1.png)
 
@@ -78,17 +79,17 @@ ht-degree: 7%
    >
    >各セクションで「1 列」の形式を選択します。
 
-1. 次をドラッグ： [!DNL Marketo Measure Insights] キャンバスアプリを新しく作成されたセクションに移動します。 「**保存**」をクリックします。Salesforce が即座に認識しないので、キャンバスアプリにドロップする前に最初にページレイアウトを保存する必要が生じる場合があります。 したがって、新しいセクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。 これは、すべてのオブジェクトに適用されます。
+1. 次の項目をドラッグ： [!DNL Marketo Measure Insights] キャンバスアプリを新しく作成されたセクションに移動します。 「**保存**」をクリックします。Salesforce が即座に認識しないので、キャンバスアプリにドロップする前に最初にページレイアウトを保存する必要が生じる場合があります。 したがって、新しいセクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。 これは、すべてのオブジェクトに適用されます。
 
    >[!NOTE]
    >
-   >の [!DNL Marketo Measure Insights] キャンバスアプリが正しく機能しない問題を修正しました。 [権限は適切に設定する必要があります](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >の [!DNL Marketo Measure Insights] キャンバスアプリが正しく機能しない問題を修正しました。 [権限を適切に設定する必要があります](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
    >
    >(FT) または (LC) で終わるフィールドは、以前のからの従来のフィールドなので、ほとんどのお客様は使用しません。 [!DNL Marketo Measure] タッチポイントはオブジェクトとして存在していました。
 
-を [!DNL Marketo Measure] ABM 機能 [他のページレイアウトの手順については、ここをクリックしてください](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+を [!DNL Marketo Measure] ABM 機能 [他のページレイアウトの手順については、ここをクリックしてください。](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## 取引先責任者 {#contacts}
 
@@ -104,12 +105,12 @@ ht-degree: 7%
 
    * 購入者タッチポイント
    * マーケティングチャネル
-   * Touchpointソース
-   * 広告キャンペーン名
+   * Touchpoint ソース
+   * 広告キャンペーンの名前
    * Touchpointの位置
-   * Touchpoint日
+   * Touchpoint 日
 
-1. 並べ替え基準：タッチポイント日（昇順）。
+1. 並べ替え基準：タッチポイントの日付（昇順）。
 
    ![](assets/6.jpg)
 
@@ -117,19 +118,19 @@ ht-degree: 7%
 
    ![](assets/7.png)
 
-1. に戻ります。 [!UICONTROL 関連リスト] オプションを選択し、 **[!UICONTROL 購入者の属性タッチポイント]** 関連するリスト。
+1. に戻ります。 [!UICONTROL 関連リスト] 」オプションを選択し、 **[!UICONTROL 購入者の属性タッチポイント]** 関連するリスト。
 
 1. レンチアイコンをクリックし、次の列をこの順序で追加します。
 
-   * 属性タッチポイント
+   * アトリビューションタッチポイント
    * マーケティングチャネル
    * 商談
-   * 広告キャンペーン名
+   * 広告キャンペーンの名前
    * Touchpointのタイプ
    * Touchpointの位置
    * 属性% W 字形 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
    * 売上高 W 字型 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * Touchpoint日
+   * Touchpoint 日
 
 1. タッチポイントで並べ替え [!UICONTROL 日付] > [!UICONTROL 昇順].
 
@@ -145,17 +146,17 @@ ht-degree: 7%
 
 1. 編集するページレイアウトを選択します。
 
-1. を **[!UICONTROL 購入者の属性タッチポイント]** 関連するリストを表示し、レンチをクリックして、商談の次の列を追加します。
+1. 次を追加： **[!UICONTROL 購入者の属性タッチポイント]** 関連するリストを表示し、レンチをクリックして、商談の次の列を追加します。
 
-   * 属性タッチポイント
+   * アトリビューションタッチポイント
    * マーケティングチャネル
    * 取引先責任者
-   * 広告キャンペーン名
+   * 広告キャンペーンの名前
    * Touchpointのタイプ
    * Touchpointの位置
    * 属性% W 字形 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
    * 売上高 W 字型 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * Touchpoint日
+   * Touchpoint 日
 
 1. 並べ替え基準 [!UICONTROL タッチポイント日] > [!UICONTROL 昇順].
 
@@ -171,17 +172,17 @@ ht-degree: 7%
 
 1. 編集するページレイアウトを選択します。
 
-1. を **[!UICONTROL 購入者の属性タッチポイント]** 関連リストを表示し、レンチをクリックして、次の列を追加します。
+1. 次を追加： **[!UICONTROL 購入者の属性タッチポイント]** 関連リストを表示し、レンチをクリックして、次の列を追加します。
 
-   * 属性タッチポイント
+   * アトリビューションタッチポイント
    * マーケティングチャネル
    * 商談
-   * 広告キャンペーン名
+   * 広告キャンペーンの名前
    * Touchpointのタイプ
    * Touchpointの位置
    * 属性% W 字形 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
    * 売上高 W 字型 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * Touchpoint日
+   * Touchpoint 日
 
 1. タッチポイント日/昇順で並べ替えます。
 
@@ -189,4 +190,4 @@ ht-degree: 7%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-を [!DNL Marketo Measure] ABM 機能  [他のページレイアウトの手順については、ここをクリックしてください](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+を [!DNL Marketo Measure] ABM 機能  [他のページレイアウトの手順については、ここをクリックしてください。](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

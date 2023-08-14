@@ -1,12 +1,13 @@
 ---
 unique-page-id: 27656737
-description: レポートマーケティング費用 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: マーケティング費用のレポート — [!DNL Marketo Measure]  — 製品ドキュメント
 title: マーケティング費用のレポート
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Reporting, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 ## マーケティング費用表 {#marketing-spend-table}
 
-マーケティング支出テーブルに、各チャネル、サブチャネル、キャンペーン行の通貨を表示する新しい列が追加されます。 この新しい列は、多通貨が有効になっていない場合でも、すべての顧客に対して表示されます。
+マーケティング費用テーブルに、各チャネル、サブチャネル、キャンペーン行の通貨を表示する新しい列が追加されます。 この新しい列は、多通貨が有効になっていない場合でも、すべての顧客に対して表示されます。
 
 表に様々な通貨が混在して表示されます。 単一の通貨でチャネル、サブチャネルまたはキャンペーンの合計を取得する必要がある場合は、マーケティング費用ダッシュボードを参照してください。
 

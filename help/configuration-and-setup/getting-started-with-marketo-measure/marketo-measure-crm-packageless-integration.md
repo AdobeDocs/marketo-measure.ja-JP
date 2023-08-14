@@ -1,18 +1,19 @@
 ---
 unique-page-id: 37356027
 description: '"[!DNL Marketo Measure] CRM パッケージレスの統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: '"[!DNL Marketo Measure] CRM パッケージレス統合»'
+title: "[!DNL Marketo Measure] CRM パッケージレス統合"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 # [!DNL Marketo Measure] CRM パッケージレス統合 {#marketo-measure-crm-packageless-integration}
 
-アクセスが制限されているか、CRM の所有権、価値の創出に時間がかかるか、法的な影響があるかにかかわらず、すべてのマーケティングチームが CRM からマーケティングレポートを実行したい（またはアクセスできる）わけではありません。 ～の道を下る [!DNL Marketo Measure] クイックスタートを使用すると、を効果的に実装および実行できます [!DNL Marketo Measure] CRM への依存をできるだけ少なく抑えて
+アクセスが制限されているか、CRM の所有権、価値の創出に時間がかかるか、法的な影響があるかにかかわらず、すべてのマーケティングチームが CRM からマーケティングレポートを実行したい（またはアクセスできる）とは限りません。 ～の道を下る [!DNL Marketo Measure] クイックスタートを使用すると、を効果的に実装および実行できます。 [!DNL Marketo Measure] CRM への依存をできるだけ少なく抑えて
 
 ## 標準 [!DNL Marketo Measure] インストール {#standard-marketo-measure-installation}
 
@@ -24,7 +25,7 @@ ht-degree: 2%
 
 A [!DNL Marketo Measure] CRM パッケージレスの統合では、引き続き、リードや連絡先などの標準の CRM オブジェクトにアクセスする必要があります。 接続されたユーザーには適切なデータアクセス権限が付与されるので、専用のユーザーを接続ユーザーとして使用することを強くお勧めします。
 
-すべてのデータが CRM から正しく取り込まれるようにするには、次のセキュリティとアクセシビリティの設定が必要です。専用ユーザーのプロファイルのすべてのデータを表示します。 この権限セットは [!DNL Marketo Measure] 標準オブジェクトからデータをダウンロードするために必要なアクセス。 この権限セットはプロファイルレベルです。
+すべてのデータが CRM から正しく取り込まれるようにするには、次のセキュリティとアクセシビリティの設定が必要です。専用ユーザーのプロファイルのすべてのデータを表示します。 この権限セットは、 [!DNL Marketo Measure] 標準オブジェクトからデータをダウンロードするために必要なアクセス。 この権限セットはプロファイルレベルです。
 
 ## ID プロバイダーとデータ接続のセットアップ {#setup-your-identity-provider-and-data-connections}
 

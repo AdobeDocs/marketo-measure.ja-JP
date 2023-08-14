@@ -1,28 +1,28 @@
 ---
 description: のベストプラクティス [!DNL Marketo Measure] CRM パッケージ — [!DNL Marketo Measure]  — 製品ドキュメント
-title: のベストプラクティス [!DNL Marketo Measure] CRM パッケージ
+title: ' [!DNL Marketo Measure] CRM パッケージのベストプラクティス'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
-source-git-commit: 00268f49ff6e5dfc105fa7ea21837375eae49647
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# のベストプラクティス [!DNL Marketo Measure] CRM パッケージ {#best-practices-for-marketo-measure-crm-package}
+# [!DNL Marketo Measure]CRM パッケージのベストプラクティス {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 ## 概要 {#overview}
 
-[!DNL Marketo Measure] 両方とも統合 [!DNL Salesforce] および [!DNL Microsoft Dynamics]このドキュメントでは、 [!DNL Marketo Measure] 用に設計された CRM パッケージのベストプラクティス [!DNL Salesforce].
+[!DNL Marketo Measure] 両方とも統合される [!DNL Salesforce] および [!DNL Microsoft Dynamics]このドキュメントでは、 [!DNL Marketo Measure] 向けに設計された CRM パッケージのベストプラクティス [!DNL Salesforce].
 
 実装時に、次の 2 つのパッケージが [!DNL Salesforce] インスタンス。
 
-ベースパッケージ：これは、カスタムオブジェクトとフィールドを含む基本パッケージです。 実稼動環境内で、すべてのユーザーにインストールすることをお勧めします。
-ダッシュボード拡張機能パッケージ：これは、3 つの事前ビルドダッシュボードを含む、アドビのダッシュボード拡張機能パッケージです。 実稼動環境内で、すべてのユーザーにインストールすることをお勧めします。 これはオプションですが、のお客様にはをインストールすることをお勧めします。
+ベースパッケージ：これは、カスタムオブジェクトとフィールドを含むベースパッケージです。 すべてのユーザーに対して、実稼動内にインストールすることをお勧めします。ダッシュボード拡張機能パッケージ：これは、3 つの事前ビルドダッシュボードを含む、アドビのダッシュボード拡張機能パッケージです。 すべてのユーザーに対して、実稼動内にインストールすることをお勧めします。これはオプションですが、のお客様にはをインストールすることをお勧めします。
 
 これらのパッケージにより、 [!DNL Marketo Measure] ユーザーは、 [!DNL Salesforce] インスタンス。 これらのパッケージが正しく設定されていることを確認することは、ページのレイアウト、権限セット、レポート、ダッシュボードが [!DNL Marketo Measure] ユーザーが期待どおりに操作を実行したとします。
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 CRM パッケージの設定は初回実装時に適用されますが、CRM パッケージの設定は年に 1 回確認することをお勧めします。 このレビューでは、すべてのページレイアウトが正しく設定され、適切なチームメンバーが [!DNL Marketo Measure] レポートとダッシュボード。
 
-レビューにトリガーする他の理由
+レビューにトリガーする他の理由…
 
 * 新しいチームメンバーの追加
 * 更新内容 [!DNL Salesforce] ページレイアウト
@@ -57,4 +57,3 @@ CRM パッケージの設定は初回実装時に適用されますが、CRM パ
 >* [[!DNL Marketo Measure] 権限セット](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 >* [レポートとダッシュボードフォルダーの共有](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0)
 >* [Marketo Measureを Salesforce に接続](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
-

@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874628
 description: マーケティングチャネル別の商談 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: マーケティングチャネル別の商談
+title: マーケティングチャネルによる商談
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Channels, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# マーケティングチャネル別の商談 {#opportunities-by-marketing-channel}
+# マーケティングチャネルによる商談 {#opportunities-by-marketing-channel}
 
-このレポートは、マーケティングチャネルによって生じた商談数を表示します。すべてのオポチュニティが含まれます。 ただし、このレポートをフィルタリングして、特定のタイプの商談を分析することはできます。
+このレポートは、マーケティングチャネルによって生じた商談の数を示します。このレポートには、すべての商談が含まれます。 ただし、このレポートをフィルタリングして、特定のタイプの商談を分析することはできます。
 
 1. 次をクリック： **[!UICONTROL レポート]** 「 」タブをクリックし、「 」を選択します。 **[!UICONTROL 新しいレポート]**.
 
@@ -34,4 +35,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 大学：SFDC レポートの在庫管理](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] 大学：在庫 SFDC レポート](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)

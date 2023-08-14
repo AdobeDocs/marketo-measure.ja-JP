@@ -3,7 +3,8 @@ unique-page-id: 18874767
 description: ブーメランステージの設定 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: ブーメランステージの設定
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 4%
@@ -20,7 +21,7 @@ ht-degree: 4%
 
 ## ブーメランステージ設定 {#boomerang-stage-setup}
 
-1. に移動します。 [!UICONTROL ステージマッピング]. 「[!UICONTROL ブーメラン]」と入力し、追跡するステージの横にあるボックスを選択します。
+1. に移動します。 [!UICONTROL ステージマッピング]. 「 」というタイトルの列の下[!UICONTROL ブーメラン]」と入力し、追跡するステージの横にあるボックスを選択します。
 
    ![](assets/1-2.png)
 

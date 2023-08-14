@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874539
 description: カスタムの作成 [!DNL Marketo Measure] レポートタイプ — [!DNL Marketo Measure]  — 製品ドキュメント
-title: カスタムの作成 [!DNL Marketo Measure] レポートタイプ
+title: カスタム [!DNL Marketo Measure] レポートタイプの作成
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# カスタムの作成 [!DNL Marketo Measure] レポートタイプ {#creating-custom-marketo-measure-report-types}
+# カスタム[!DNL Marketo Measure]レポートタイプの作成 {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」を参照してください。ただし、「[!DNL Bizible]」と入力します。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」を参照してください。ただし、「[!DNL Bizible]」と入力します。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-カスタムの作成方法を学ぶ [!DNL Marketo Measure] [!DNL Salesforce] レポートタイプ。 作成することをお勧めするレポートタイプは、次の 3 種類です。購入者タッチポイント（カスタム）を持つリード [!DNL Marketo Measure] 購入者タッチポイント（カスタム）を持つ顧客、購入者属性タッチポイント（カスタム）を持つ商談。
+カスタムの作成方法を学ぶ [!DNL Marketo Measure] [!DNL Salesforce] レポートタイプ。 作成を推奨するレポートタイプは、「購入者タッチポイント（カスタム）のリード」と「購入者タッチポイント（カスタム）」の 3 つです。 [!DNL Marketo Measure] 購入者タッチポイント（カスタム）を持つ顧客、購入者属性タッチポイント（カスタム）を持つ商談。
 
 ## 購入者タッチポイントを持つリード（カスタム） {#leads-with-buyer-touchpoints-custom}
 
@@ -26,17 +27,17 @@ ht-degree: 0%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL レポートタイプフォーカス] > [!UICONTROL [!UICONTROL プライマリオブジェクト]]:リード
-   * 識別情報 > [!UICONTROL レポートタイプラベル]:購入者タッチポイントを持つリード（カスタム）
-   * [!UICONTROL カテゴリに保存]:その他のレポート
-   * [!UICONTROL 導入] > [!UICONTROL デプロイメントステータス]:デプロイ済み
+   * [!UICONTROL レポートタイプフォーカス] > [!UICONTROL [!UICONTROL プライマリオブジェクト]]：リード
+   * 識別情報 > [!UICONTROL レポートタイプラベル]：購入者タッチポイントを持つリード（カスタム）
+   * [!UICONTROL カテゴリに保存]：その他のレポート
+   * [!UICONTROL 導入] > [!UICONTROL デプロイメントステータス]：デプロイ済み
 
    ![](assets/2.png)
 
 1. オブジェクトの関係を定義します。
 
    * リードオブジェクト (A) を [!DNL Marketo Measure] 人物オブジェクト (B) に続いて購入者タッチポイントオブジェクト (C) に続いて
-   * 「[!UICONTROL 各 A/B レコードには少なくとも 1 つの B/C が必要です]&quot;件のレコードが選択されています
+   * 次を確認します。[!UICONTROL 各 A/B レコードには少なくとも 1 つの B/C が必要です]&quot;件のレコードが選択されています
    * [!UICONTROL 保存]
 
    ![](assets/3.png)
@@ -51,15 +52,15 @@ ht-degree: 0%
 
    * [!UICONTROL レポートタイプフォーカス] > [!UICONTROL プライマリオブジェクト]: [!DNL Marketo Measure] 人物
    * [!UICONTROL 識別] > [!UICONTROL レポートタイプラベル]: [!DNL Marketo Measure] 購入者タッチポイントを持つ担当者（カスタム）
-   * [!UICONTROL カテゴリに保存]:その他のレポート
-   * [!UICONTROL 導入] > [!UICONTROL デプロイメントステータス]:デプロイ済み
+   * [!UICONTROL カテゴリに保存]：その他のレポート
+   * [!UICONTROL 導入] > [!UICONTROL デプロイメントステータス]：デプロイ済み
 
    ![](assets/5.png)
 
 1. オブジェクトの関係を定義します。
 
    * 関連付け [!DNL Marketo Measure] 人物オブジェクト (A) から購入者タッチポイントオブジェクト (B) へ
-   * 「[!UICONTROL 各 A レコードには少なくとも 1 つの B が必要です]&quot;件のレコードが選択されています
+   * 次を確認します。[!UICONTROL 各 A レコードには少なくとも 1 つの B が必要です]&quot;件のレコードが選択されています
    * [!UICONTROL 保存]
 
    ![](assets/6.png)
@@ -72,17 +73,17 @@ ht-degree: 0%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL レポートタイプフォーカス] > [!UICONTROL プライマリオブジェクト]:商談
-   * [!UICONTROL 識別] > [!UICONTROL レポートタイプラベル]:購入者属性タッチポイント（カスタム）を持つ商談
-   * [!UICONTROL カテゴリに保存]:その他のレポート
-   * [!UICONTROL 導入] > [!UICONTROL デプロイメントステータス]:デプロイ済み
+   * [!UICONTROL レポートタイプフォーカス] > [!UICONTROL プライマリオブジェクト]：商談
+   * [!UICONTROL 識別] > [!UICONTROL レポートタイプラベル]：購入者属性タッチポイント（カスタム）を持つ商談
+   * [!UICONTROL カテゴリに保存]：その他のレポート
+   * [!UICONTROL 導入] > [!UICONTROL デプロイメントステータス]：デプロイ済み
 
    ![](assets/8.png)
 
 1. オブジェクトの関係を定義します。
 
    * 商談オブジェクト (A) を購入者属性タッチポイントオブジェクト (B) に関連付けます。
-   * 「[!UICONTROL 各 A レコードには少なくとも 1 つの B が必要です]&quot;件のレコードが選択されています
+   * 次を確認します。[!UICONTROL 各 A レコードには少なくとも 1 つの B が必要です]&quot;件のレコードが選択されています
    * [!UICONTROL 保存]
 
    ![](assets/9.png)

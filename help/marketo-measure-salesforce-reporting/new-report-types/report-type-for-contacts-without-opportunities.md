@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874616
 description: 商談のない連絡先のレポートタイプ — [!DNL Marketo Measure]  — 製品ドキュメント
-title: 商談のない連絡先のレポートタイプ
+title: 商談を含まない連絡先のレポートタイプ
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# 商談のない連絡先のレポートタイプ {#report-type-for-contacts-without-opportunities}
+# 商談を含まない連絡先のレポートタイプ {#report-type-for-contacts-without-opportunities}
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」を参照してください。ただし、「[!DNL Bizible]」と入力します。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」を参照してください。ただし、「[!DNL Bizible]」と入力します。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 商談に関連付けられていない取引先責任者と購入者タッチポイントに関するレポートを作成するには、カスタムレポートタイプを作成する必要があります。
 
@@ -26,7 +27,7 @@ ht-degree: 0%
 
    ![](assets/2.jpg)
 
-1. を [!UICONTROL プライマリオブジェクト] &quot;[!UICONTROL 連絡先].&quot; 「レポートタイプ」ラベルに「Contacts with Buyer Touchpoints」という名前を付けます。 レポートタイプ名にも同じ名前を使用します。 説明の入力内に、「連絡先と購入者のタッチポイント」と入力します。 レポートを[!UICONTROL その他]」をクリックし、レポートを「[!UICONTROL デプロイ済み].&quot;
+1. を設定します。 [!UICONTROL プライマリオブジェクト] として&quot;[!UICONTROL 連絡先].&quot; 「レポートタイプ」ラベルに「Contacts with Buyer Touchpoints」という名前を付けます。 レポートタイプ名にも同じ名前を使用します。 説明の入力内に、「連絡先と購入者のタッチポイント」と入力します。 レポートを「[!UICONTROL その他]」をクリックし、レポートを「[!UICONTROL デプロイ済み].&quot;
 
    ![](assets/3.jpg)
 

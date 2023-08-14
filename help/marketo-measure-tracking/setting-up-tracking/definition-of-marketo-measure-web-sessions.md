@@ -5,7 +5,7 @@ title: ' [!DNL Marketo Measure]  web セッションの定義'
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 100%
 

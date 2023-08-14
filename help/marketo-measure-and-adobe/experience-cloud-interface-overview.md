@@ -1,15 +1,16 @@
 ---
 description: Adobe Experience Cloudインターフェイスの概要 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: Adobe Experience Cloud Interface の概要
+title: Adobe Experience Cloud インターフェイスの概要
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: dc6c66daebd10b95333d8c27c2326a95555c555b
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 34%
+ht-degree: 38%
 
 ---
 
-# Adobe Experience Cloud Interface の概要 {#experience-cloud-interface-overview}
+# Adobe Experience Cloud インターフェイスの概要 {#experience-cloud-interface-overview}
 
 Adobe Experience Cloud Interface は、Adobe Experience Cloudのアプリケーションやサービスのルックアンドフィールを揃えます。 ただの新しいデザインではありません。単一のインスタンスでユーザエクスペリエンスを提供する単一ページアプリケーションです。
 
@@ -73,4 +74,4 @@ Adobe Experience Cloudにログインできるが、次のようなページが�
 
 ![](assets/unified-shell-overview-11.png)
 
-上記のエラーが発生した場合は、 [サポートに連絡](https://nation.marketo.com/t5/support/ct-p/Support) 助けを求めて
+上記のエラーが発生した場合は、 [サポートへの問い合わせ](https://nation.marketo.com/t5/support/ct-p/Support) 助けを求めて

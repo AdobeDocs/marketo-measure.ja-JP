@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874632
 description: マーケティングチャネル別のクローズ済み損失商談 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: マーケティングチャネル別のクローズ済み損失商談
+title: マーケティングチャネルによるクローズ済み失注商談
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Channels, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# マーケティングチャネル別のクローズ済み損失商談 {#closed-lost-opportunities-by-marketing-channel}
+# マーケティングチャネルによるクローズ済み失注商談 {#closed-lost-opportunities-by-marketing-channel}
 
 このレポートは商談ステージに依存する場合がありますが、このレポートは、クローズされていない商談に貢献したマーケティングチャネルを示します。
 
@@ -18,11 +19,11 @@ ht-degree: 0%
 
    ![](assets/1-3.jpg)
 
-1. 「Bizible 属性」でのクイック検索タイプで、 **[!UICONTROL 商談を含む Bizible 属性タッチポイント]** レポートのタイプを選択し、 **[!UICONTROL 作成]**.
+1. 「Bizible 属性」でのクイック検索タイプで、 **[!UICONTROL 商談を含む Bizible 属性タッチポイント]** レポートのタイプを選択し、「 **[!UICONTROL 作成]**.
 
    ![](assets/2-3.jpg)
 
-1. レポートの上部から、「[!UICONTROL すべての Bizible 属性タッチポイント]」をクリックし、レポート対象の期間に応じて日付フィールドを調整します。 この例では、「All Time」を表示しています。 また、レポートの形式を表から概要に変更します。
+1. レポートの上部から、「[!UICONTROL すべての Bizible 属性タッチポイント]」をクリックし、レポート対象の期間に応じて日付フィールドを調整します。 この例では、「All Time」を表示しています。 また、レポートの形式を表形式から概要に変更します。
 
    ![](assets/3-3.jpg)
 
@@ -46,4 +47,4 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 大学：その他の SFDC レポート](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] 大学：追加の SFDC レポート](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)

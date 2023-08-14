@@ -3,10 +3,11 @@ unique-page-id: 18874722
 description: テストのベストプラクティス — [!DNL Marketo Measure]  — 製品ドキュメント
 title: テストのベストプラクティス
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '183'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
@@ -28,8 +29,8 @@ ht-degree: 0%
 
 1. フォームを送信するページの URL と使用する電子メールアドレスを記録します。
 
-1. フォーム送信用に CRM で作成されたレコード（リードまたは連絡先）を探し、タッチポイントが適切に作成されたことを確認します。
+1. そのフォーム送信に対して CRM（リードまたは連絡先）で作成されたレコードを見つけて、タッチポイントが適切に作成されたことを確認します。
 
 >[!NOTE]
 >
->以下の [!DNL Marketo Measure] リードと次のアイテムの間の在庫レポート [!DNL Marketo Measure] タッチポイントを使用するか、ページレイアウトを次で更新するように選択した場合はリード/連絡先ページレイアウトを確認します。 [!DNL Marketo Measure] 詳細。 データの処理には時間がかかる場合があります。
+>次の項目を使用できます。 [!DNL Marketo Measure] リードと次のアイテムの間の在庫レポート [!DNL Marketo Measure] タッチポイントを使用するか、ページレイアウトを次で更新するように選択した場合はリード/連絡先ページレイアウトを確認します。 [!DNL Marketo Measure] 詳細。 データの処理には時間がかかる場合があります。

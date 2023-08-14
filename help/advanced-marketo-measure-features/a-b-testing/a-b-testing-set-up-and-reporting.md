@@ -3,27 +3,28 @@ unique-page-id: 18874773
 description: A/B テストの設定とレポート — [!DNL Marketo Measure]  — 製品ドキュメント
 title: A/B テストの設定とレポート
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: A/B Testing
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
 # A/B テストの設定とレポート {#a-b-testing-set-up-and-reporting}
 
-この [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target="_blank"} と VWO サイト実験。 この記事では、 [!DNL Marketo Measure] リードに対する A/B テストセクション [!UICONTROL 連絡先]、大文字と小文字、 [!UICONTROL 商談] ページレイアウト。 また、実行に関する一般的なレポートの慣行と推奨事項についても説明します [!DNL Marketo Measure] A/B レポートタイプ。
+The [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target="_blank"} と VWO サイト実験。 この記事では、 [!DNL Marketo Measure] リードに対する A/B テストセクション [!UICONTROL 連絡先]、大文字と小文字、および [!UICONTROL 商談] ページレイアウト。 また、実行に関する一般的なレポートの慣行と推奨事項についても説明します [!DNL Marketo Measure] A/B レポートタイプ。
 
 ## 設定 {#set-up}
 
-を [!DNL Marketo Measure] リード、連絡先、事例、商談に関する A/B テストのセクション。 [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} サイト実験。
+次を追加： [!DNL Marketo Measure] リード、連絡先、事例、商談に関する A/B テストのセクション。 [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} サイト実験。
 
-1. パッケージを使用していることを確認します。 [!DNL Marketo Measure] v3.9 以降。 これをおこなうには、 [!UICONTROL Salesforce] >[!UICONTROL 設定] > [!UICONTROL インストール済みパッケージ].
-1. リードページレイアウトを編集し、 **[!DNL Marketo Measure]A/B テスト** ページに関連するリスト。
+1. パッケージを使用していることを確認します。 [!DNL Marketo Measure] v3.9 以降。 これをおこなうには、次に進みます。 [!UICONTROL Salesforce] >[!UICONTROL 設定] > [!UICONTROL インストール済みパッケージ].
+1. リードページレイアウトを編集し、 **[!DNL Marketo Measure]A/B テスト** 関連するリストをページに追加します。
 
    ![](assets/1.png)
 
-1. 次をクリック： [!UICONTROL レンチ] 」ボタンをクリックします。 選択したフィールドのリストから在庫「ID」フィールドを削除します。 追加 **[!UICONTROL 実験]**, **[!UICONTROL バリエーション]**、および **[!UICONTROL DateReported]** フィールド。 &quot;[!UICONTROL 並べ替え基準]」から **[!UICONTROL 報告日]**&#x200B;を選択し、 **[!UICONTROL 降順]** 」と入力します。
+1. 次をクリック： [!UICONTROL レンチ] 」ボタンをクリックします。 選択したフィールドのリストから在庫「ID」フィールドを削除します。 追加 **[!UICONTROL 実験]**, **[!UICONTROL バリエーション]**、および **[!UICONTROL DateReported]** フィールド。 &quot;の変更[!UICONTROL 並べ替え基準]」から **[!UICONTROL 報告日]**&#x200B;をクリックし、次を選択します。 **[!UICONTROL 降順]** 」と入力します。
 
    ![](assets/2.png)
 
@@ -57,7 +58,7 @@ Optimizely/VWO は、マーケティングチャネルではなく、コンテ�
 * バリエーション ID
 * 報告日
 
-## [!DNL Salesforce] サンプルレポート {#salesforce-example-reports}
+## [!DNL Salesforce] レポートの例 {#salesforce-example-reports}
 
 **[!DNL Marketo Measure]リード付き A/B テスト**
 

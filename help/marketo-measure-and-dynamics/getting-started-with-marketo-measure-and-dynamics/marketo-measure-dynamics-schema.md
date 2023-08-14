@@ -1,12 +1,13 @@
 ---
 unique-page-id: 18874523
 description: '"[!DNL Marketo Measure] Dynamics スキーマ — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: '"[!DNL Marketo Measure] Dynamics スキーマ»'
+title: "[!DNL Marketo Measure] Dynamics スキーマ"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -14,7 +15,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 以下に、を使い始めるために必要な Dynamics スキーマを示します。 [!DNL Marketo Measure]. 必要な読み取り/書き込みアクセス権と共に、すべてのエンティティとフィールドが表示されます。
 
@@ -22,7 +23,7 @@ ht-degree: 20%
 
 購入者タッチポイントは、 [!DNL Marketo Measure] 連絡先とリードのマーケティングインタラクションをカプセル化するカスタムエンティティです。
 
-## 購入者タッチポイント関係 {#buyer-touchpoint-relationships}
+## 購入者タッチポイントの関係 {#buyer-touchpoint-relationships}
 
 この図は、Dynamics Stock エンティティと購入者タッチポイントの関係の概要を示しています。
 

@@ -2,7 +2,8 @@
 description: ドメイン管理 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: ドメインの管理
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 1%
@@ -13,7 +14,7 @@ ht-degree: 1%
 
 実行中の IMS 対応テナントの場合 [!DNL Marketo Measure] Experience Cloudインターフェイス [!DNL Marketo Measure] は、ユーザーが独自のドメインリストを管理できるインターフェイスを提供します。 [!DNL Marketo Measure] ユーザーは、最初に、 [Adobe Admin Console](https://adminconsole.adobe.com/). ドメインがAdmin Consoleで検証されると、ユーザーは、 [!DNL Marketo Measure] は、web サイトトラフィックの追跡にこれらのドメインを使用します。
 
-## ドメインのAdmin Console {#adding-domains-in-admin-console}
+## ドメインの追加Admin Console {#adding-domains-in-admin-console}
 
 Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有するドメインを追加および検証できます。 ドメインの検証では、各ドメインの DNS レコードを追加し、その後、Admin Consoleがそのレコードを検証できるようにします。
 
@@ -23,11 +24,11 @@ Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有�
 
 ## でのドメインの管理 [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
-ドメインがAdmin Consoleに追加されたら、 [!DNL Marketo Measure] は、このレコードを定期的にデータベースに同期します。 この同期は毎晩おこなわれ、また、ユーザーが **[!UICONTROL ドメイン]** ページの [!DNL Marketo Measure] UI デフォルトでは、 [!DNL Marketo Measure] インポートは無効になり、テナントは各ドメインを手動で有効にする必要があります。
+ドメインがAdmin Consoleに追加されたら、 [!DNL Marketo Measure] は、このレコードを定期的にデータベースに同期します。 この同期は毎晩おこなわれます。また、ユーザーが **[!UICONTROL ドメイン]** ページの [!DNL Marketo Measure] UI デフォルトでは、 [!DNL Marketo Measure] インポートは無効になり、テナントは各ドメインを手動で有効にする必要があります。
 
 ![](assets/domain-management-2.png)
 
-の **[!UICONTROL 統合]** > **[!UICONTROL ドメイン]** ページに追加された場合、ユーザーには、Admin Consoleに登録したすべてのドメインとステータスが表示されます。 各ドメインは、有効または無効にすることができます。 ドメインが有効な場合、 [!DNL Marketo Measure] トラッキングにより、そのドメインで見られるトラフィックがすべて収集されます。 ドメインが無効になっている場合、 [!DNL Marketo Measure] は、そのドメインから来たトラフィックを無視し、タッチポイントやその他のデータを作成しません。 [!DNL Marketo Measure] また、ドメインの無効化を確認し、次のような影響について警告します。
+次の日： **[!UICONTROL 統合]** > **[!UICONTROL ドメイン]** ページに追加された場合、ユーザーには、Admin Consoleに登録したすべてのドメインとステータスが表示されます。 各ドメインは、有効または無効にすることができます。 ドメインが有効な場合、 [!DNL Marketo Measure] トラッキングにより、そのドメインで見られるトラフィックがすべて収集されます。 ドメインが無効になっている場合、 [!DNL Marketo Measure] は、そのドメインから来たトラフィックを無視し、タッチポイントやその他のデータを作成しません。 [!DNL Marketo Measure] また、ドメインの無効化を確認し、次のような影響について警告します。
 
 ![](assets/domain-management-3.png)
 
@@ -37,22 +38,22 @@ Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有�
 
 Admin Consoleのステータスは、次のように分類されます。
 
-* **検証済み**:このドメインはAdmin Consoleで検証されます
-* **未検証**:このドメインはAdmin Consoleで完全に検証されておらず、でのトラッキングの対象になっていません [!DNL Marketo Measure]
-* **無効**:このドメインは、期限切れになったか、Admin Consoleから削除された可能性があります。 でのデータのトラッキング [!DNL Marketo Measure] 削除のフラグが設定されています
-* **レガシー**:このドメインはで作成されました [!DNL Marketo Measure] Admin Consoleに存在しない
+* **検証済み**：このドメインは、Admin Consoleで検証されます
+* **未検証**：このドメインはAdmin Consoleで完全に検証されておらず、でのトラッキングの対象になっていません [!DNL Marketo Measure]
+* **無効**：このドメインは、期限切れになっているか、Admin Consoleから削除されている可能性があります。 でのデータのトラッキング [!DNL Marketo Measure] 削除のフラグが設定されています
+* **レガシー**：このドメインはで作成されました。 [!DNL Marketo Measure] とはAdmin Consoleに存在しない
 
 トラッキングのステータスには、次のものがあります。
 
 * **アクティブ**: [!DNL Marketo Measure] は現在、このドメインからデータを受信しています
-* **無効**:このドメインは追跡に使用できますが、現在は無効になっています
-* **使用不可**:このドメインは、検証されていないので、トラッキングに使用できません
+* **無効**：このドメインは追跡に使用できますが、現在は無効です。
+* **UNAVAILABLE**：このドメインは、検証されていないので、トラッキングに使用できません
 
 個々のステータス項目の上にマウスポインターを置くと、そのステータスをさらに説明するツールチップがトリガーされます。
 
 ## よくある質問 {#faq}
 
-**ドメイン内のドメインが削除されると、どうなりますか？Admin Console**
+**ドメイン内のドメインが削除されるとどうなりますか？Admin Console内のドメインが削除されるとどうなりますか？**
 
 ドメインがAdmin Consoleで削除された場合、 [!DNL Marketo Measure] がドメインを削除済みとマークします。 [!DNL Marketo Measure] は、このドメインでのトラッキングトラフィックを直ちに停止しますが、以前に収集されたデータは削除されません。
 
@@ -62,4 +63,4 @@ Admin Consoleのステータスは、次のように分類されます。
 
 **このリストからドメインを削除する方法を教えてください。**
 
-ドメインの「有効」スイッチがオフになっている場合、 [!DNL Marketo Measure] は無視し、次の場所から効果的に削除されます： [!DNL Marketo Measure]. ドメインを次の場所から永久に削除するには [!DNL Marketo Measure]を無効にするには、で無効にする必要があります。 [!DNL Marketo Measure]をクリックし、Admin Consoleから削除します。
+ドメインの「有効」スイッチがオフになっている場合、 [!DNL Marketo Measure] は無視し、次の場所から効果的に削除されます： [!DNL Marketo Measure]. ドメインを次の場所から永久に削除するには： [!DNL Marketo Measure]を無効にするには、で無効にする必要があります。 [!DNL Marketo Measure]をクリックし、次にAdmin Consoleから削除します。

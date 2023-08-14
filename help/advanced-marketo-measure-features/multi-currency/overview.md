@@ -3,10 +3,11 @@ unique-page-id: 27656735
 description: 概要 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: 概要
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
+feature: Multi-Currency
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## 利用可能性 {#availability}
 
-階層 2 以降
+階層 2 以降。
 
 ## 要件 {#requirements}
 

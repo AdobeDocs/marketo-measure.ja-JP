@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874594
 description: 統合広告プラットフォーム — [!DNL Marketo Measure]  — 製品ドキュメント
-title: 統合広告プラットフォーム
+title: 統合された広告プラットフォーム
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# 統合広告プラットフォーム {#integrated-ad-platforms}
+# 統合された広告プラットフォーム {#integrated-ad-platforms}
 
-[!DNL Marketo Measure] には、Google AdWords、Microsoft BingAds、 [!DNL Facebook] 広告と DoubleClick Campaign Manager を参照してください。 これらの API 接続を通じて、 [!DNL Marketo Measure] は、外部の購入者アプリと共に、簡単にデータを取り込んで CRM にプッシュできます。 コストやデータを手動でアップロードする必要はありません。 代わりに、アカウントは、 [!DNL Marketo Measure] アプリを使用します。 [!DNL Marketo Measure] が自動的にマーケティングコストをプラットフォームからダウンロードし、 [!DNL Marketo Measure] アプリを使用します。 AdWords、BingAds、または [!DNL Facebook] 広告、 [!DNL Marketo Measure] は、広告の URL に自動的にパラメーターを追加します。
+[!DNL Marketo Measure] には、Google AdWords、Microsoft BingAds、 [!DNL Facebook] 広告と DoubleClick Campaign Manager を参照してください。 これらの API 接続を通じて、 [!DNL Marketo Measure] は、外部の購入者アプリと共に、簡単にデータを取り込んで CRM にプッシュできます。 コストやデータを手動でアップロードする必要はありません。 代わりに、アカウントは、 [!DNL Marketo Measure] アプリを使用します。 [!DNL Marketo Measure] その後、プラットフォームからマーケティングコストが自動的にダウンロードされ、 [!DNL Marketo Measure] アプリを使用します。 AdWords、BingAds、または [!DNL Facebook] 広告、 [!DNL Marketo Measure] は、広告の URL に自動的にパラメーターを追加します。
 
 ## 広告プラットフォームの接続方法 {#how-to-connect-ad-platforms}
 
-各プラットフォームの詳細を確認する前に、これらのアカウントを [!DNL Marketo Measure]. 最初に、 [!DNL Marketo Measure] アプリケーションに移動し、 **[!UICONTROL 設定]** オプションを **[!UICONTROL マイアカウント]** 」タブをクリックします。 次に、 **[!UICONTROL 接続]** の下に **[!UICONTROL 統合]** 」セクションを開きます。
+各プラットフォームの詳細を確認する前に、これらのアカウントを [!DNL Marketo Measure]. 最初に、 [!DNL Marketo Measure] アプリケーションに移動し、 **[!UICONTROL 設定]** オプションを **[!UICONTROL マイアカウント]** 」タブをクリックします。 次に、「 **[!UICONTROL 接続]** の下に **[!UICONTROL 統合]** 」セクションを開きます。
 
 以下の画像に示すように、新しい広告の接続を設定するボタンが表示されます。
 
@@ -36,22 +37,22 @@ ht-degree: 0%
 
 [!DNL Marketo Measure] でのトラッキングテンプレートの検索 [!DNL AdWords] アカウント：
 
-* *オプション A*:トラッキングテンプレートが見つかりました。 [!DNL Marketo Measure] パラメーターをテンプレートに追加します。
-* *オプション B*:サードパーティのリダイレクトが見つかりました。 トラッキングテンプレートにサードパーティのリダイレクトが見つかった場合、 [!DNL Marketo Measure] どのアクションも実行できません。 手動で [!DNL Marketo Measure] タグをサードパーティシステムに追加する必要があります。 サードパーティのリダイレクトの例としては、Kenshoo や Marin などの入札管理ツールがあります。 方法の詳細 [入札管理ツールの影響 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* *オプション A*：トラッキングテンプレートが見つかりました。 [!DNL Marketo Measure] パラメーターをテンプレートに追加します。
+* *オプション B*：サードパーティのリダイレクトが見つかりました。 トラッキングテンプレートにサードパーティのリダイレクトが見つかった場合、 [!DNL Marketo Measure] どのアクションも実行できません。 手動で [!DNL Marketo Measure] タグをサードパーティシステムに追加する必要があります。 サードパーティのリダイレクトの例としては、Kenshoo や Marin などの入札管理ツールがあります。 方法の詳細 [入札管理ツールの影響 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
-* *オプション C*:トラッキングテンプレートが見つかりません。 [!DNL Marketo Measure] は、 [!DNL Marketo Measure] パラメーター。 スキャンに基づいて、次の場合に選択します。
-   * 次のパラメーターが見つかりました。設定が完了しました。
+* *オプション C*：トラッキングテンプレートが見つかりません。 [!DNL Marketo Measure] は、すべての広告の宛先 URL をスキャンして [!DNL Marketo Measure] パラメーター。 スキャンに基づいて、次の場合に選択します。
+   * パラメーターが見つかりました：設定が完了しました。
    * パラメーターが見つかりません： [!DNL Marketo Measure] は、広告のリンク先 URL の末尾にパラメーターを追加します。 [!DNL Marketo Measure] は、作成後 2 時間以内に新しい広告を追加します。 パラメーターはテンプレートに追加されないことに注意してください。
 
 詳しくは、 [[!DNL AdWords] 自動タグ付け機能](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## 有効にする方法 [!DNL Marketo Measure] Adwords の自動タギング {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-有効にする前に [!DNL Marketo Measure] 自動タグ付け **Adwords アカウント内のアカウント、キャンペーン、広告グループのレベルでトラッキングテンプレートが有効になっていることを確認してください。 これは、 [!DNL Marketo Measure] 自動タグ付けが有効になっています。** トラッキングテンプレートを有効にすると、広告パフォーマンス履歴データが失われるのを防ぐことができます。 キーワード、サイトリンク、広告レベルでトラッキングテンプレートを有効にすると、広告がレビューと承認のプロセスを経て、広告のパフォーマンス履歴が再開する可能性があることに注意してください。 有効なトラッキングテンプレートがない場合、 [!DNL Marketo Measure] が [!DNL Marketo Measure] トラッキングパラメーターを広告の「最終 URL」に直接追加すると、広告履歴データが失われる可能性があります。
+有効にする前に [!DNL Marketo Measure] 自動タグ付け **Adwords アカウント内のアカウント、キャンペーン、広告グループのレベルでトラッキングテンプレートが有効になっていることを確認してください。 これは、 [!DNL Marketo Measure] 自動タグ付けが有効になっています。** トラッキングテンプレートを有効にすると、広告パフォーマンス履歴データが失われるのを防ぐことができます。 キーワード、サイトリンク、広告レベルでトラッキングテンプレートを有効にすると、広告がレビューと承認のプロセスを経て、広告のパフォーマンス履歴が再開する可能性があることに注意してください。 有効なトラッキングテンプレートがない場合は、 [!DNL Marketo Measure] が [!DNL Marketo Measure] トラッキングパラメーターを広告の「最終 URL」に直接追加すると、広告履歴データが失われる可能性があります。
 
 トラッキングテンプレートを作成したら、以下の手順に従ってを有効にしてください。 [!DNL Marketo Measure] 自動タグ付け。 注意： [!DNL Marketo Measure] また、アカウント内の一時停止した広告に対しても自動タグ付けがおこなわれます。
 
-1. ログイン先 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+1. ログイン先： [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. に移動します。 [!UICONTROL マイアカウント] > [!UICONTROL 設定] > [!UICONTROL 統合] > [!UICONTROL 接続].
 
@@ -61,7 +62,7 @@ ht-degree: 0%
 
    ![](assets/5.png)
 
-1. 右上隅で、 **[!UICONTROL 自動タギング]** 切り替え **[!UICONTROL はい]**. ページの下部で、 **[!UICONTROL 詳細情報]** テキストボックスを展開し、 **[!UICONTROL 保存]**. 自動タグ付けの設定が完了しました。
+1. 右上隅で、 **[!UICONTROL 自動タギング]** に切り替える **[!UICONTROL はい]**. ページの下部で、 **[!UICONTROL 詳細情報]** テキストボックスを展開し、 **[!UICONTROL 保存]**. 自動タグ付けの設定が完了しました。
 
    ![](assets/6.png)
 
@@ -70,11 +71,11 @@ ht-degree: 0%
 トラッキングテンプレートは、 [!UICONTROL アカウント], [!UICONTROL Campaign] または AdWords の広告グループレベル。 キーワード、サイトリンク、広告レベルにトラッキングテンプレートを追加する場合、広告はレビューと承認のプロセスを経る必要があり、広告のパフォーマンス履歴を再開するリスクがあります。 詳細情報： [トラッキングテンプレートの作成](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. にログインします。 [!DNL Google AdWords] アカウント。
-1. 次に移動： [!UICONTROL キャンペーン] 左側のナビゲーションバーから表示
+1. 次の場所に移動します。 [!UICONTROL キャンペーン] 左側のナビゲーションバーから表示
 1. 」に移動します。[!UICONTROL 設定]」 （左側のナビゲーションバーにも表示）
 1. 「[!UICONTROL アカウント設定]``上部に表示
-1. 「[!UICONTROL トラッキング]&quot;セクション
-1. トラッキングテンプレートに次のいずれかの文字列を貼り付けて、テンプレートの値を設定します。
+1. 「 」を展開します。[!UICONTROL トラッキング]「 」セクション
+1. トラッキングテンプレートに次のいずれかの文字列のテキストを貼り付けて、テンプレートの値を設定します。
 
    * すべての URL に疑問符がある場合は、次の URL テキストを使用します。
 
@@ -130,7 +131,7 @@ Bing Ads の自動タグ付けでも、次のカスタムパラメーターが�
 
 `{lpurl}?_bt={adid}&utm_term={keyword}&utm_source=Bing_Yahoo&utm_medium=CPC`
 
-注意すべき点は [!DNL Bing Ads] では、最終的な URL でカスタムタグを使用して、必要に応じてさらに多くのパラメーターを追加し、より精度を高めることができます。
+注意する必要がある [!DNL Bing Ads] では、最終的な URL でカスタムタグを使用して、必要に応じてさらに多くのパラメーターを追加し、より精度を高めることができます。
 
 必要に応じてトラッキングテンプレートを使用できますが、 [!DNL Bing Ads] および [!DNL Marketo Measure] を統合します。 これは、 [!DNL Bing] 履歴を変更せずに広告を編集できるようにします。 [!DNL Marketo Measure] は宛先 URL を更新できます。
 
@@ -140,19 +141,19 @@ Bing Ads の自動タグ付けでも、次のカスタムパラメーターが�
 
 ## Facebook 広告 {#facebook-ads}
 
-この [!DNL Marketo Measure] ～との統合 [!DNL Facebook] では、広告情報を自動的にダウンロードし、URL にパラメーターをタグ付けできます。 [!DNL Marketo Measure] は、自動タグ付けを通じてキャンペーンおよび広告セット情報を取り込みます。 広告セットが「広告グループ名」フィールドに入力されます。 での URL タグの設定について詳しくは、 [!DNL Facebook] プラットフォームで、 [!DNL Facebook] [ビジネス](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} ページ。
+The [!DNL Marketo Measure] ～との統合 [!DNL Facebook] では、広告情報を自動的にダウンロードし、URL にパラメーターをタグ付けできます。 [!DNL Marketo Measure] は、自動タグ付けを通じてキャンペーンおよび広告セット情報を取り込みます。 広告セットが「広告グループ名」フィールドに入力されます。 での URL タグの設定について詳しくは、 [!DNL Facebook] プラットフォームで、 [!DNL Facebook] [ビジネス](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} ページに貼り付けます。
 
 で自動タグ付けを有効にする前に [!DNL Facebook Ads]の場合は、以前のパフォーマンス履歴を CSV 形式で書き出すことが重要です。 この時点で、 [!DNL Marketo Measure] タグ [!DNL Facebook Ads] _bf パラメータを持つ [!DNL Facebook] は、広告を新規として読み取り、パフォーマンス履歴を消去します。 したがって、以前のパフォーマンスの記録がお客様およびお客様の組織にとって価値のあるものである場合は、その記録を書き出すことが重要です。
 
-なお、 [!DNL Facebook] いつでも～に対して説明する [!DNL Marketo Measure] アプリとデータは失われません。パフォーマンス履歴が消去されるのは、自動タギングが有効な場合のみです。
+なお、 [!DNL Facebook] いつでも～に対する説明をする [!DNL Marketo Measure] アプリとデータは失われません。パフォーマンス履歴が消去されるのは、自動タギングが有効な場合のみです。
 
-[この記事をご覧ください](https://www.facebook.com/business/help/393890194130036){target="_blank"} facebookからのエクスポートの詳細 [!DNL Facebook] 広告レポート。
+[この記事をご覧ください](https://www.facebook.com/business/help/393890194130036){target="_blank"} facebookからの書き出しの詳細 [!DNL Facebook] 広告レポート。
 
-## linkedInスポンサー付きコンテンツ {#linkedin-sponsored-content}
+## LinkedInスポンサー付きコンテンツ {#linkedin-sponsored-content}
 
-LinkedIn統合により、 [!DNL Marketo Measure] 宛先 URL をタグ付けするには、次の手順に従います。 [!DNL LinkedIn] スポンサー付きコンテンツ ( 最終的には [!DNL Marketo Measure] を使用して、タッチポイントジャーニー全体をフォローし、アクティビティを特定の [!DNL LinkedIn] Campaign と Creative。 これにより、顧客の ROI に関するインサイトが得られます [!DNL LinkedIn] アクティビティ。 [!DNL Marketo Measure] ユニークなクリエイティブを検索します [!DNL LinkedIn] 共有して `?_bl={creativeId}` パラメーターを最後に追加する必要があります。
+linkedInの統合により、 [!DNL Marketo Measure] 宛先 URL をタグ付けするには、次の手順に従います。 [!DNL LinkedIn] スポンサー付きコンテンツ ( 最終的には [!DNL Marketo Measure] を使用して、タッチポイントジャーニー全体をフォローし、アクティビティを特定の [!DNL LinkedIn] Campaign と Creative。 これにより、顧客の ROI に関するインサイトが得られます [!DNL LinkedIn] アクティビティ。 [!DNL Marketo Measure] ユニークなクリエイティブを検索します [!DNL LinkedIn] 共有して `?_bl={creativeId}` パラメーターを最後に追加する必要があります。
 
-理由： [!DNL LinkedIn] 共有は複数のキャンペーンおよびクリエイティブで使用できます。独自性を維持するために、既存のクリエイティブのコピー/複製/複製をおこなわないようにしてください。 共有が見つかり、1 つのクリエイティブでのみ使用されると検出された場合、 [!DNL Marketo Measure] は、クリエイティブまたは共有を再作成しなくても、そのまま共有にタグ付けでき、すべての広告履歴（インプレッション数、クリック数、共有数）が残ります。
+理由： [!DNL LinkedIn] 共有は複数のキャンペーンおよびクリエイティブで使用できます。独自性を維持するために、既存のクリエイティブのコピー/複製/複製をおこなわないようお客様にお願いします。 共有が見つかり、1 つのクリエイティブでのみ使用されると検出された場合、 [!DNL Marketo Measure] は、クリエイティブまたは共有を再作成しなくても、そのまま共有にタグ付けでき、すべての広告履歴（インプレッション数、クリック数、共有数）が残ります。
 
 共有が複数のクリエイティブで共有されるとすぐに、 [!DNL Marketo Measure] 一意のセットを作成するには、を一時停止、コピー、再タグ付けするプロセスを実行する必要があります。 [!DNL Marketo Measure] は、ライブクリエイティブを一時停止およびアーカイブします。つまり、インプレッション数、クリック数およびソーシャル共有を含むクリエイティブもアーカイブされます。
 

@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874658
 description: 一般的な使用例 — [!DNL Marketo Measure]  — 製品ドキュメント
-title: 一般的な使用例
+title: 一般的なユースケース
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
 
 ---
 
-# 一般的な使用例 {#common-use-cases}
+# 一般的なユースケース {#common-use-cases}
 
-以下に、 [!DNL Marketo Measure Discover] マーケティングパフォーマンスに関する貴重なインサイトを得る。
+以下に、一般的な使用方法を示します [!DNL Marketo Measure Discover] マーケティングパフォーマンスに関する貴重なインサイトを得るため。
 
 ## チャネル別の売上高 {#revenue-by-channel}
 
@@ -54,7 +55,7 @@ ht-degree: 1%
 
 特定の期間内のクローズした契約に対するマーケティングの影響をチャネル別に分類して表示する場合は、概要または CMO ダッシュボードに移動し、指標フィルターを商談に、日付タイプをクローズ日に調整します。
 
-契約の合計数や経時的なトレンドを確認するには、成長ダッシュボードを使用し、単に「日付タイプ」を「クローズ日」に調整します。 また、日付タイプは、アクティビティの日付に基づいてタッチポイント日に変更したり、作成日に変更したりすると、クローズ日と同じ結果が表示されます。
+契約の合計数や経時的なトレンドを確認するには、成長ダッシュボードを使用し、単に「Date Type」を「Close Date」に調整します。 また、日付タイプは、アクティビティの日付に基づいてタッチポイント日に変更したり、作成日に変更したりすると、クローズ日と同じ結果が表示されます。
 
 ## 生成されたパイプラインの売上高 {#pipeline-revenue-generated}
 
@@ -76,8 +77,8 @@ ht-degree: 1%
 
 また、マーケティング費用ダッシュボードにも移動できます。このダッシュボードのメインタイルには、過去 12 ヶ月の支出チャネルがマーケティングチャネル別にグループ化されて表示されます。
 
-グループ化を次のように変更するには、Dimensionフィルターを変更します。サブチャネル、キャンペーン、広告主、広告グループ、キーワード、プレースメントまたはサイト。
+Dimensionフィルターを変更して、グループをサブチャネル、キャンペーン、広告主、広告グループ、キーワード、プレースメント、サイトのいずれかに変更します。
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 大学：の概要 [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}
+>[[!DNL Marketo Measure] 大学：概要 [!DNL Marketo Measure Discover]](https://universityonline.marketo.com/courses/bizible-discover/#/page/5c645586a7863a73ad3b23e6){target="_blank"}

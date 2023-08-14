@@ -1,9 +1,10 @@
 ---
 solution: Marketo Measure
+feature-set: Marketo Measure
 type: Documentation
 git-repo: https://github.com/AdobeDocs/marketo-measure.ja-JP
 index: true
-source-git-commit: 2d146e6bfcca72f48495e808275f1fb21759d1a0
+source-git-commit: ce2ce5c5652d4067f50e88b062d7d951b645d93b
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 34%
@@ -17,7 +18,7 @@ metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.
 
 | メタデータ | 説明 |
 |--- |--- |
-| solution-title | 記事のヘッダーでリンクとして使用されます |
+| solution-title | 記事のヘッダーでリンクとして使用されます。 |
 | solution-hub-url | helpx ハブページを開きます |
 | solution-image | ソリューションタイトルの横にソリューションアイコンが表示されます。 未実装 |
 | getting-started-url | helpx の概要ページへのリンク |

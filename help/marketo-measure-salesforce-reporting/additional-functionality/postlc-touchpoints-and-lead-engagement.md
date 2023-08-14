@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874562
 description: PostLC タッチポイントとリードエンゲージメント — Marketo Measure — 製品ドキュメント
-title: PostLC タッチポイントとリードエンゲージメント
+title: PostLC Touchpoints とリードエンゲージメント
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# PostLC タッチポイントとリードエンゲージメント {#postlc-touchpoints-and-lead-engagement}
+# PostLC Touchpoints とリードエンゲージメント {#postlc-touchpoints-and-lead-engagement}
 
-[!DNL Marketo Measure] リード後の作成 (PostLC) タッチポイントは、マルチタッチアトリビューションモデル（W-Shape 以降）を使用するお客様が使用できます。 リードまたは連絡先が Web サイトに戻り、フォームの入力を続けると、これらのフォーム送信は PostLC タッチポイントとして登録されます。 これらのタッチポイントを使用すると、最初のコンバージョンの長後に、どのコンテンツがリードをサイトに引き続き関与させているかを確認できます。 PostLC タッチポイントは、商談内のすべての中間タッチポイントとアトリビューションクレジットを共有します。10%のアトリビューションクレジットは、中間のタッチポイントに割り当てられ、すべてのタッチに均等に配分されます。
+[!DNL Marketo Measure] リード後の作成 (PostLC) タッチポイントは、マルチタッチアトリビューションモデル（W-Shape 以降）を使用するお客様が使用できます。 リードまたは連絡先が Web サイトに戻り、フォームの入力を続けると、これらのフォーム送信は PostLC タッチポイントとして登録されます。 これらのタッチポイントを使用すると、最初のコンバージョンの長後に、どのコンテンツがリードをサイトに引き続き関与させているかを確認できます。 PostLC タッチポイントは、商談内のすべての中間タッチポイントと属性クレジットを共有します。10%の属性クレジットは、中間タッチポイントに割り当てられ、すべてのタッチに均等に配分されます。
 
 ![](assets/1.png)
 
-表示される PostLC タッチポイントの数を調整できます。 [!DNL SFDC]. 通常、最大 5 つの PostLC タッチポイントをプッシュすることをお勧めします。各タッチポイントは、 [!DNL SFDC].
+表示される PostLC タッチポイントの数を調整できます。 [!DNL SFDC]. 通常は、最大 5 つの PostLC タッチポイントをプッシュすることをお勧めします。各タッチポイントは、 [!DNL SFDC].
 
 >[!NOTE]
 >
@@ -36,7 +37,7 @@ PostLC タッチポイントは動的です。 リードまたは連絡先とし
 
 **リード**
 
-1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} そして、 [!UICONTROL 設定].
+1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、 [!UICONTROL 設定].
 
 1. CRM で、を選択します。 **[!UICONTROL リード]**.
 
@@ -46,7 +47,7 @@ PostLC タッチポイントは動的です。 リードまたは連絡先とし
 
 **取引先責任者**
 
-1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} そして、 [!UICONTROL 設定].
+1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、 [!UICONTROL 設定].
 
 1. CRM で、を選択します。 **[!UICONTROL 連絡先]**.
 

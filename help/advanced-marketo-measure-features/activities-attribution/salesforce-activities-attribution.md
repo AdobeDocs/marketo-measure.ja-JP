@@ -3,7 +3,8 @@ unique-page-id: 18874708
 description: Salesforce アクティビティ属性 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: Salesforce アクティビティ属性
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 
 # Salesforce アクティビティ属性 {#salesforce-activities-attribution}
 
-この [!DNL Marketo Measure] Salesforce アクティビティ統合により、特定のタスクおよびイベントレコードが属性モデルに取り込まれます。 セールスメールやセールス電話の呼び出しなど、クレジットが支払われていないものを追跡し始めます。 アクティビティルールを設定するには、次の場所に移動する必要があります： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. そこから、 **[!UICONTROL 設定]** 」タブで、 **[!UICONTROL アクティビティ]** タブをクリックします。
+The [!DNL Marketo Measure] Salesforce アクティビティ統合により、特定のタスクおよびイベントレコードが属性モデルに取り込まれます。 セールスメールやセールス電話の呼び出しなど、クレジットが支払われていないものを追跡し始めます。 アクティビティルールを設定するには、次の場所に移動する必要があります： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. そこから、 **[!UICONTROL 設定]** 」タブをクリックし、 **[!UICONTROL アクティビティ]** タブをクリックします。
 
 セールスチームを非常に幸せにしようとしています！ 簡単なチュートリアルをご覧ください。
 
@@ -33,11 +34,11 @@ ht-degree: 1%
 
 >[!TIP]
 >
->例えば、各セールス担当に対して一意のキャンペーンを設定する場合は、動的な置き換えパラメータを利用して [!DNL Marketo Measure] キャンペーン名。 同じ例で、 `"Outbound Sales - {AssignedTo}"` そして私たちはそれを次のようなものに変えます `"Outbound Sales - Jill"` または `"Outbound Sales - Jack."` どれだけ時間を節約したか分からない！
+>例えば、各セールス担当に対して一意のキャンペーンを設定する場合は、動的な置き換えパラメーターを利用して [!DNL Marketo Measure] キャンペーン名。 同じ例で、 `"Outbound Sales - {AssignedTo}"` そして私たちはそれを何かのようなものに変えます `"Outbound Sales - Jill"` または `"Outbound Sales - Jack."` どれだけ時間を節約したか分からない！
 
 ![](assets/2.png)
 
-一度 [!DNL Marketo Measure] キャンペーン名が設定されている場合は、アクティビティルールを設定します。
+一度、 [!DNL Marketo Measure] キャンペーン名が設定されている場合は、アクティビティルールを設定します。
 
 ルールは、どのレコードが属性を持つ資格があるかを示すフィルターとして機能します。 同様のロジックを使用して CRM でレポートを作成し、そのレポートを生成すると仮定します。 および/または文の組み合わせを使用し、任意の一致、次を含む、次の語句で始まる、次の語句で終わる、次と等しいなどの様々な演算子を使用できる柔軟性があります。 ボックスルール内またはボックス外のレイヤー「or」ステートメント内に「and」ステートメントを定義します。
 
@@ -61,7 +62,7 @@ ht-degree: 1%
 
 ![](assets/5.png)
 
-これらの新しいタッチポイントを適切なタッチポイントに配置したい場合があります [マーケティングチャネル](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. それには、先ほど作成した新しい Campaign マッピングでチャネルを定義します。 BDR チャネルの新しい行を作成して、キャンペーンがアウトバウンドで始まるようにします。
+これらの新しいタッチポイントを適切なタッチポイントに配置したい場合があります。 [マーケティングチャネル](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. それには、先ほど作成した新しい Campaign マッピングでチャネルを定義します。 BDR チャネルの新しい行を作成して、キャンペーンがアウトバウンドで始まるようにします。
 
 >[!TIP]
 >
@@ -71,7 +72,7 @@ ht-degree: 1%
 >
 >次を含む ( &#42;Outbound&#42; )
 >
->( で終わる &#42;送信 )
+>次の値で終わる ( &#42;送信 )
 >
 >ワイルドカードは基本的に「等しい」を意味しないので、必要に応じて必ず使用してください。
 

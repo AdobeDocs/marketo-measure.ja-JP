@@ -3,7 +3,8 @@ unique-page-id: 18874612
 description: Dynamics の在庫レポートとダッシュボード — [!DNL Marketo Measure]  — 製品ドキュメント
 title: Dynamics での在庫レポートとダッシュボード
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 3%
@@ -14,9 +15,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->&quot;[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更が CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-この [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニーズを満たすために設計された、多数のストック・ダッシュボードとレポートが付属 [!DNL Marketo Measure] Dynamics のデータ。 以下に、完全なリストと一般的な使用例を示します。
+The [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニーズを満たすために設計された、多数の在庫ダッシュボードとレポートが付属しています [!DNL Marketo Measure] Dynamics のデータ。 以下に、完全なリストと一般的な使用例を示します。
 
 ## ダッシュボード（合計 9） {#dashboards-total}
 
@@ -160,12 +161,12 @@ ht-degree: 3%
    <td>すべて</td> 
   </tr> 
   <tr> 
-   <td>別のリード [!DNL Marketo Measure] マーケティングチャネル (FT)</td> 
+   <td>リード — 別 [!DNL Marketo Measure] マーケティングチャネル (FT)</td> 
    <td>各マーケティングチャネルからファーストタッチしたリードの数を測定します。</td> 
    <td>すべて</td> 
   </tr> 
   <tr> 
-   <td>別のリード [!DNL Marketo Measure] マーケティングチャネル (LC)</td> 
+   <td>リード — 別 [!DNL Marketo Measure] マーケティングチャネル (LC)</td> 
    <td>各マーケティングチャネルから、リード作成タッチで生成されたリードの数を測定します。</td> 
    <td>すべて</td> 
   </tr> 

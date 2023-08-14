@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874648
 description: Google Analyticsコンバージョンと購入者タッチポイントの違い — [!DNL Marketo Measure]  — 製品ドキュメント
-title: Google Analyticsコンバージョンと購入者タッチポイントの違い
+title: Google Analytics コンバージョンと Buyer Touchpoint の違い
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Google Analyticsコンバージョンと購入者タッチポイントの違い {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
+# Google Analytics コンバージョンと Buyer Touchpoint の違い {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
-詳細 [!DNL Google Analytics (GA)] 目標は、および購入者タッチポイントとの差別化方法です。
+詳細を見る [!DNL Google Analytics (GA)] 目標は、および購入者タッチポイントとの差別化方法です。
 
 **Google Analyticsのコンバージョンとは**
 
@@ -33,9 +34,9 @@ ht-degree: 0%
    <td><strong>例</strong></td> 
   </tr> 
   <tr> 
-   <td><p>移動先</p></td> 
+   <td><p>宛先</p></td> 
    <td>特定の場所が読み込まれます</td> 
-   <td><em>ご登録いただきありがとうございます。</em> web ページまたはアプリ画面</td> 
+   <td><em>ご登録いただき、ありがとうございます。</em> web ページまたはアプリ画面</td> 
   </tr> 
   <tr> 
    <td>期間</td> 
@@ -63,12 +64,12 @@ ht-degree: 0%
 
 **購入者のタッチポイントの違いは何ですか。**
 
-[!DNL Marketo Measure] JavaScript は、特定のサイトのすべての形式でセッションデータとフォーム送信を追跡します。 の目標をコーディングする必要はありません。 [!DNL Marketo Measure] 視点 このプロセスは自動的に実行されます。 フォーム送信の場合、 [!DNL Marketo Measure] は、匿名ユーザーが特定のフォームの情報フィールドに入力し、さらにフォーム送信ボタンをクリックするたびに、フォーム入力をレポートします。 [!DNL Marketo Measure] は、フォームの送信を記録するためのありがとうページを必要としません。
+[!DNL Marketo Measure] JavaScript は、特定のサイトのすべての形式でセッションデータとフォーム送信を追跡します。 の目標をコーディングする必要はありません。 [!DNL Marketo Measure] 視点。 このプロセスは自動的に実行されます。 フォーム送信の場合、 [!DNL Marketo Measure] は、匿名ユーザーが特定のフォームの情報フィールドに入力し、さらにフォーム送信ボタンをクリックするたびに、フォーム入力をレポートします。 [!DNL Marketo Measure] は、フォームの送信を記録するためのありがとうページを必要としません。
 
 [!DNL Marketo Measure] は、次の場合にフォームタッチポイントを作成します。
 
 * これらのコンバージョンに関連付けられたリード/連絡先が CRM に表示されます。
-* この [!DNL Marketo Measure] JS がフォームを含む Web ページに存在する。
+* The [!DNL Marketo Measure] JS がフォームを含む Web ページに存在する。
 * 30 分以内にフォームが送信されます。
 
 [!DNL Marketo Measure] は、次の場合に宛先Google Analytics の変換を無視します。

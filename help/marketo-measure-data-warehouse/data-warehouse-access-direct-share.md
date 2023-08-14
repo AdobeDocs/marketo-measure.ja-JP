@@ -1,23 +1,24 @@
 ---
 description: Data Warehouseアクセス — 直接共有 — 製品ドキュメント
-title: Data Warehouseアクセス — 直接共有
+title: データウェアハウスへのアクセス - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
-source-git-commit: 36ee02b2dfc2651987f72fc7f02fe629717f02a0
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Data Warehouseアクセス — 直接共有 {#data-warehouse-access-direct-share}
+# データウェアハウスへのアクセス - Direct Share {#data-warehouse-access-direct-share}
 
 ## 要件 {#requirements}
 
-次のために [!DNL Marketo Measure] data warehouse への直接共有を設定するには、次の要件を満たす必要があります。
+次の条件を満たすため [!DNL Marketo Measure] data warehouse への直接共有を設定するには、次の要件を満たす必要があります。
 
-* 独自のSnowflakeインスタンス
+* 独自のSnowflakeインスタンスがある。
 * Snowflakeインスタンスは、Azure East US 2Snowflake地域にあります。
-* 次を指定します。 [!DNL Marketo Measure] をSnowflakeアカウント id に設定します。
+* 次の項目を指定します。 [!DNL Marketo Measure] をSnowflakeアカウント id に設定します。
 
 ## 制限事項 {#limitations}
 
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 ## Snowflakeアカウント ID を入力 {#enter-snowflake-account-id}
 
-を開きます。 **設定** セクションに移動して、 **Data Warehouse** ページ。 内 **直接共有** セクションに、 [Snowflakeアカウント ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} が表示されたボックスで、をクリックします。 **接続**.
+を開きます。 **設定** セクションに移動して、 **Data Warehouse** ページに貼り付けます。 Adobe Analytics の **直接共有** セクションに、 [Snowflakeアカウント ID](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} が表示されたボックスで、をクリックします。 **接続**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

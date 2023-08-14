@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874676
 description: '"[!DNL Marketo Measure] インサイトの説明 — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: '"[!DNL Marketo Measure] インサイトの説明»'
+title: "[!DNL Marketo Measure] Insights の説明"
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] インサイトの説明 {#marketo-measure-insights-explained}
+# [!DNL Marketo Measure] Insights の説明 {#marketo-measure-insights-explained}
 
 詳しくは、 [!DNL Marketo Measure] のインサイトビュー [!DNL Salesforce]様々なアイコンの内容や機能の使用方法などを示します。 この機能は、リード、連絡先またはアカウントの最初の 20 セッションを確認する場合に最も役立ちます。
 
@@ -38,6 +39,6 @@ ht-degree: 0%
 
 各セッションの右側には、 [!DNL Marketo Measure] フィールドを設定します。 この例では、広告グループ、広告コンテンツ、キャンペーン、キーワード、メディアを表示できます。 下にスクロールして、 [!DNL Marketo Measure] 提供するデータ。
 
-最後に、ユーザーが無数のセッションをおこなったら、 [!UICONTROL インサイト] サイト上で特定のエンゲージメント部分を探す。 次の条件でフィルターできます。 [!UICONTROL タッチポイントの位置] 例：
+最後に、ユーザーが無数のセッションをおこなったら、 [!UICONTROL インサイト] を使用して、サイト上でのエンゲージメントの特定の部分を探します。 次の条件でフィルターできます。 [!UICONTROL タッチポイントの位置] 例：
 
 また、ページビュー数、AB テストまたはFormsで検索できます。

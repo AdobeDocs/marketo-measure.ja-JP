@@ -2,7 +2,8 @@
 description: Data Warehouseアクセス —Readerアカウント — 製品ドキュメント
 title: Data Warehouseアクセス —Readerアカウント
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -29,9 +30,9 @@ SnowflakeData Warehouse にアクセスするには、Snowflakeアカウント�
 
    >[!NOTE]
    >
-   >これは、個々のユーザーだけでなく、組織で使用できる読み取り専用アカウントです。 組織内で、にアクセスできるユーザー [!DNL Marketo Measure] このアカウントを使用して、SnowflakeData Warehouseリーダーアカウントにログインできます。
+   >これは、個々のユーザーだけでなく、組織で使用できる読み取り専用アカウントです。 組織内で、へのアクセス権を持つユーザー [!DNL Marketo Measure] このアカウントを使用して、SnowflakeData Warehouseリーダーアカウントにログインできます。
 
-1. SnowflakeURL に記載されているリンクをクリックすると、Snowflakeログインページが開き、ユーザー名とパスワードを入力できます。 _パスワードをお持ちでない場合は、以下の手順を参照してリセットしてください_.
+1. SnowflakeURL に記載されているリンクをクリックすると、Snowflakeログインページが開き、ユーザー名とパスワードを入力できます。 _パスワードをお持ちでない場合は、以下の手順を参照してリセットしてください。_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -43,7 +44,7 @@ SnowflakeData Warehouse にアクセスするには、Snowflakeアカウント�
 
    ![](assets/data-warehouse-access-reader-account-6.png)
 
-## パスワードをリセット {#reset-your-password}
+## パスワードのリセット {#reset-your-password}
 
 [!DNL Marketo Measure] は、お使いのログインパスワードへのSnowflakeアクセス権を持っていません。 パスワードをリセットする必要がある場合は、 [!UICONTROL パスワードをリセット] ボタンをクリックし、Data Warehouse情報ページの指示に従います。 一時パスワードが UI に直ちに表示されます。 次の Data Warehouse ログイン時に、独自のパスワードを作成するよう求められます。
 
@@ -51,7 +52,6 @@ SnowflakeData Warehouse にアクセスするには、Snowflakeアカウント�
 >
 >* パスワードをリセットすると、すべての [!DNL Marketo Measure] 現在ログインしているユーザーだけでなく、組織内のユーザー。
 >* UI には一時パスワードのみが表示されます。 E メールは送信されません。
-
 
 ![](assets/data-warehouse-access-reader-account-7.png)
 
@@ -63,10 +63,10 @@ SnowflakeData Warehouse をサードパーティのツールに接続するに�
 
 >[!NOTE]
 >
->各ツールには、異なる接続要件があります。接続しようとしている特定のツールについては、ドキュメントを参照することをお勧めします。
+>各ツールにはそれぞれ異なる接続要件があります。接続しようとしている特定のツールに関するドキュメントを参照することをお勧めします。
 
 * **URI** （常に必須）
-   * ドメインアカウントのSnowflake名です。  これは、ログインログインリンクの一部のSnowflake内に含まれます。
+   * これはドメインアカウントのSnowflake名です。  これは、ログインログインリンクの一部のSnowflake内に含まれます。
 * **ユーザー名** （常に必須）
    * ユーザー名は、 [!DNL Marketo Measure].
 * **パスワード** （常に必須）
@@ -75,4 +75,5 @@ SnowflakeData Warehouse をサードパーティのツールに接続するに�
    * データベースは、データをSnowflakeに格納する場所です。 これはストレージリソースです。 データベース名は、 [!DNL Marketo Measure].
 * **ウェアハウス名** （必ずしも必須ではありません）
    * ウェアハウスは、クエリを実行するSnowflakeです。 計算リソースです。  ウェアハウス名は、 [!DNL Marketo Measure].
-   ![](assets/data-warehouse-access-reader-account-9.png)
+
+  ![](assets/data-warehouse-access-reader-account-9.png)
