@@ -3,7 +3,8 @@ unique-page-id: 18874586
 description: Marketo Measure フィールドの用語集 - Marketo Measure - 製品ドキュメント
 title: Marketo Measure フィールドの用語集
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Fundamentals
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: ht
 source-wordcount: '3211'
 ht-degree: 100%
