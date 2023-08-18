@@ -4,7 +4,7 @@ title: 収益の概要ダッシュボード
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: a90a3c7a8ed7ec83bc50060da8b7ca1e69bd37bd
+source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 9%
@@ -46,30 +46,25 @@ ht-degree: 9%
   <tr>
     <td>合計契約タイル</td>
     <td>CRM で「クローズドウォン」とマークされた契約の合計数。</td>
-    <td> </td>
   </tr>
   <tr>
     <td>属性収益タイル</td>
     <td>記録されたタッチポイントを含む「クローズ済みの獲得」商談による帰属可能な合計売上高。</td>
-    <td> </td>
   </tr>
   <tr>
     <td>帰属可能な契約タイル</td>
     <td>帰属可能な商談に基づく「クローズ済みの獲得」取引の合計数。</td>
-    <td> </td>
   </tr>
   <tr>
     <td>売上高および属性売上高グラフ</td>
     <td>この時系列の棒グラフは、合計売上高と属性売上高を並べて、属性の範囲を包括的に表示します。
     <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
-    <td> </td>
   </tr>
   <tr>
     <td>属性の有効範囲のグラフ</td>
     <td>この円グラフは、属性売上高と属性なし売上高を明確に比較したものです。 円グラフは合計売上高を表します。
     <br/>
     <img src="assets/revenue-overview-dashboard-2.png"></td>
-    <td> </td>
   </tr>
 </tbody>
 </table>
