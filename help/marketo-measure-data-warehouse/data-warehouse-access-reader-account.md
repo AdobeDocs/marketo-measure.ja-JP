@@ -1,16 +1,16 @@
 ---
 description: Data Warehouseアクセス —Readerアカウント — 製品ドキュメント
-title: Data Warehouseアクセス —Readerアカウント
+title: データウェアハウスへのアクセス - Reader アカウント
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
 source-wordcount: '496'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Data Warehouseアクセス —Readerアカウント {#data-warehouse-access-reader-account}
+# データウェアハウスへのアクセス - Reader アカウント {#data-warehouse-access-reader-account}
 
 ## Snowflakeアクセスリンク {#snowflake-access-link}
 

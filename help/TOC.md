@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 99%
+source-wordcount: '796'
+ht-degree: 97%
 
 ---
 
@@ -150,9 +150,15 @@ ht-degree: 99%
       + [よくある質問（多通貨）](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + [!DNL Marketo Measure] Discover UI {#marketo-measure-discover-ui}
    + ダッシュボード {#dashboards}
-      + [コホートジャーニーダッシュボードドキュメント](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [パスポートダッシュボードドキュメント](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [スナップショットダッシュボードドキュメント](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [Discover ダッシュボードの基本](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [収益の概要ダッシュボード](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [属性収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Passport ダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + レガシーダッシュボード {#legacy-dashboards}
+      + [コホートジャーニーダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [パスポートダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [スナップショットダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + [!DNL Marketo Measure] のレポートプラットフォームの使用 {#using-marketo-measures-reporting-platform}
       + [一般的なユースケース](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [定義と百科事典](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
