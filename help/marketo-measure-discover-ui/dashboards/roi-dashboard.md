@@ -1,10 +1,8 @@
 ---
 description: ROI ダッシュボード — [!DNL Marketo Measure]  — 製品
 title: ROI ダッシュボード
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 20%
@@ -26,8 +24,8 @@ ROI ダッシュボードは、チャネル、サブチャネル、キャンペ�
  <tr> 
    <th>コンポーネント</th> 
    <th>説明</th>
+   <th>日付タイプ</th>
    <th>ドリルスルーフィールド</th>
-   <th>データタイプ</th>
    <th>フィルター</th>
   </tr>
   <tr>
