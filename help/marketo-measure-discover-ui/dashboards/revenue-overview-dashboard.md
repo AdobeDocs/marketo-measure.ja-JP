@@ -4,7 +4,7 @@ title: 収益の概要ダッシュボード
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 9%
@@ -20,8 +20,8 @@ ht-degree: 9%
 * 売上高の何%がマーケティング活動に起因しているか。
 * マーケティング活動の影響を受けている「クローズド・ウォン」の契約の割合はどれくらいですか。
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>コンポーネント</th> 
    <th>説明</th>
@@ -58,13 +58,13 @@ ht-degree: 9%
   <tr>
     <td>売上高および属性売上高グラフ</td>
     <td>この時系列の棒グラフは、合計売上高と属性売上高を並べて、属性の範囲を包括的に表示します。
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>属性の有効範囲のグラフ</td>
     <td>この円グラフは、属性売上高と属性なし売上高を明確に比較したものです。 円グラフは合計売上高を表します。
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
