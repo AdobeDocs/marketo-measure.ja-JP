@@ -2,10 +2,10 @@
 description: Passport ダッシュボード — [!DNL Marketo Measure]  — 製品
 title: Passport ダッシュボード
 feature: Reporting
-source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
+source-git-commit: 73f7d14f94b236b5e078a4c8ff7a1e81d13779ee
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 8%
+source-wordcount: '290'
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,15 @@ Passport ダッシュボードを使用すると、マーケターは、指定�
 <li>開始日と終了日は両方とも含まれます。</li>
 <br/><img src="assets/passport-dashboard-1.png" width="600"></td>
     <td rowspan="2">遷移日</td>
-    <td></td>
+    <td><li>商談 ID</li>
+<li>商談名</li>
+<li>作成日</li>
+<li>クローズ日</li>
+<li>クローズ済み (Y/N)</li>
+<li>獲得済み (Y/N)</li>
+<li>現在のステージ</li>
+<li>遷移イン日</li>
+<li>遷移アウト日</li></td>
     <td rowspan="2"><li>日付</li>
 <li>チャネル</li>
 <li>サブチャネル</li>
