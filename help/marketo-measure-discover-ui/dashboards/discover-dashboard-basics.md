@@ -4,9 +4,9 @@ title: Discover ダッシュボードの基本
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -30,23 +30,23 @@ ht-degree: 1%
    <th>説明</th>
   </tr> 
   <tr> 
-   <td>フィルタ切り替えボタン</td>
+   <td><b>フィルタ切り替えボタン</b></td>
    <td>フィルターパネルを開くか閉じるかを切り替えます。
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>リセットボタン</td>
-   <td>フィルターをデフォルト設定に戻します。
+   <td><b>検索バー</b></td>
+   <td>フィルターペインの上部にある検索を使用して、特定のフィルターを検索します。 各フィルターには、独自の検索バーもあります。
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>適用ボタン</td>
-   <td>「 」をクリックして、ダッシュボードでフィルターの変更を確認し、実装します。
+   <td><b>フィルターをクリアボタン</b></td>
+   <td>フィルターをクリアするには、各フィルターの右上隅にある消しゴムアイコンをクリックします。
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>セグメントボタン</td>
-   <td>セグメントフィルターを使用するダッシュボードで、フィルターパネルの下部にある「セグメント」ボタンをクリックして、「セグメント」に切り替えます。
+   <td><b>適用ボタン</b></td>
+   <td>「 」をクリックして、ダッシュボードでフィルターの変更を確認し、実装します。
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
