@@ -4,9 +4,9 @@ title: Discover ダッシュボードの基本
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Discover ダッシュボードの基本 {#discover-dashboard-basics}
 
 この記事では、再設計されたインターフェイスの基本的な機能を説明し、データに容易にアクセスし、解釈できるようにします。 フィルタ・ペインの動的な詳細を調べ、ドリル機能、クロス・フィルタ、ツールチップなど、強化されたレポート機能の複雑さを明らかにします。
+
+>[!NOTE]
+>
+>このダッシュボードは現在ベータ版です。 この移行フェーズでは、現在のダッシュボードと新しいダッシュボードの両方にアクセスできるようになります。 完全に切り替え、最適な機能を確保すると、現在のダッシュボードは非推奨となります。
 
 ## フィルターウィンドウ {#filter-pane}
 
@@ -23,26 +27,36 @@ ht-degree: 1%
  <tbody> 
   <tr> 
    <th>名前</th> 
-   <th>アイコン</th>
    <th>説明</th>
   </tr> 
   <tr> 
-   <td>ハンバーガーボタン</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>フィルターパネルを開くか閉じるかを切り替えます。</td>
+   <td>フィルタ切り替えボタン</td>
+   <td>フィルターパネルを開くか閉じるかを切り替えます。
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>リセット</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>フィルターをデフォルト設定に戻します。</td>
+   <td>リセットボタン</td>
+   <td>フィルターをデフォルト設定に戻します。
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>ビジュアルに対するフィルター</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>ビジュアルの右上隅にマウスポインターを置き、ボタンをクリックすると、アクティブなフィルターが表示されます。</td>
+   <td>適用ボタン</td>
+   <td>「 」をクリックして、ダッシュボードでフィルターの変更を確認し、実装します。
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>セグメントボタン</td>
+   <td>セグメントフィルターを使用するダッシュボードで、フィルターパネルの下部にある「セグメント」ボタンをクリックして、「セグメント」に切り替えます。
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## ビジュアルに対するフィルター {#filters-on-visual}
+
+ビジュアルの右上隅にマウスポインターを置くと、適用されたフィルターの読み取り専用リストが表示されます。
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## レポートの機能 {#report-capabilities}
 
@@ -70,21 +84,24 @@ ht-degree: 1%
 
 ### ドリルスルー {#drill-through}
 
-* ビジュアルの背後にあるデータを参照するには、ビジュアル要素を右クリックし、「ドリルスルー」オプションを選択します。
+ビジュアルの背後にあるデータを参照するには、ビジュアル要素を右クリックし、「ドリルスルー」オプションを選択します。
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* 基になるデータをエクスポートするには、ドリルスルーページの右上隅にマウスポインターを置き、「その他のオプション」ボタンをクリックして、「データをエクスポート」を選択します。
+### データのエクスポート {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+ビジュアルから基になるデータを書き出すには、右上隅にマウスポインターを置きます。 「その他のオプション」ボタンをクリックし、「データをエクスポート」を選択し、希望の形式を選択して、「エクスポート」をクリックします。
+![](assets/discover-dashboard-basics-10.gif)
 
-* 特定のビジュアルまたはタイルにズームインするには、右上隅の上にマウスポインターを置いて、「フォーカス」ボタンを選択します。
+### フォーカスモード {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+特定のビジュアルまたはタイルにズームインするには、右上隅の上にマウスポインターを置いて、「フォーカス」ボタンを選択します。
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### クロスフィルター {#cross-filtering}
 
-デフォルトでは、あるビジュアライゼーションで値または軸のラベルを選択すると、レポートページ上の他のビジュアルをクロスフィルターし、関連するフィルターされたデータのみが表示されるようになります。
+あるビジュアライゼーションで値または軸のラベルを選択すると、レポートページ上の他のビジュアルをクロスフィルターし、関連するフィルターされたデータのみが表示されるようにします。
 
 ![](assets/discover-dashboard-basics-12.gif)
 
