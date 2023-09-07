@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '800'
 ht-degree: 97%
 
 ---
@@ -151,6 +151,7 @@ ht-degree: 97%
 + [!DNL Marketo Measure] Discover UI {#marketo-measure-discover-ui}
    + ダッシュボード {#dashboards}
       + [Discover ダッシュボードの基本](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [新しい Discover ダッシュボードガイド](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [収益の概要ダッシュボード](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [属性収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
