@@ -4,9 +4,9 @@ title: 属性収益ダッシュボード
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ### KPI タイル {#kpi-tiles}
 
-* **属性売上高**：選択したアトリビューションモデルに基づき、フィルタリングされた日付期間内にクローズしたタッチポイントを持つ商談からの合計売上高貢献度。
+* **属性売上高**：選択したアトリビューションモデルに基づき、タッチポイントを持つ商談から得られた合計売上高貢献度。
 * **属性付き契約**：タッチポイントを持つ「クローズした獲得」商談の数。
 
 ### チャネル別の属性別売上高の推移グラフ {#attributed-revenue-by-channel-over-time-chart}
