@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
 source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -153,9 +153,9 @@ ht-degree: 97%
       + [Discover ダッシュボードの基本](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [新しい Discover ダッシュボードガイド](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [収益の概要ダッシュボード](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [属性収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [起因する収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Passport ダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [パスポートダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
    + レガシーダッシュボード {#legacy-dashboards}
       + [コホートジャーニーダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [パスポートダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
