@@ -1,12 +1,12 @@
 ---
 description: 最新のリリースノート - [!DNL Marketo Measure] - 製品ドキュメント
 title: 最新のリリースノート
-exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 22f8cedf401a28444026d7b63384ce3cbabe0305
+source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 44%
 * [新しい Discover ダッシュボードガイド](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
 * [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 * [収益の概要ダッシュボード](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
-* [属性収益ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
+* [起因する収益ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
 * [ROI ダッシュボード](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
-* [Passport ダッシュボード](/help/marketo-measure-discover-ui/dashboards/passport-dashboard.md){target="_blank"}
+* [パスポートダッシュボード](/help/marketo-measure-discover-ui/dashboards/passport-dashboard.md){target="_blank"}
 
 >[!NOTE]
 >
