@@ -1,55 +1,55 @@
 ---
 unique-page-id: 18874554
-description: タッチポイントの生成とマッピング — [!DNL Marketo Measure]  — 製品ドキュメント
+description: タッチポイントの生成とマッピング - [!DNL Marketo Measure] - 製品ドキュメント
 title: タッチポイントの生成とマッピング
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
 source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 # タッチポイントの生成とマッピング {#touchpoint-generation-and-mapping}
 
-[!DNL Marketo Measure] 属性のストーリーは、次の 2 つのプロセスによって決まります。
+[!DNL Marketo Measure] アトリビューションストーリーは、次の 2 つのプロセスに依存します。
 
-* タッチポイント生成：マーケティングおよび販売活動との個人のインタラクションを表すタッチポイントを作成します。
-* タッチポイントマッピング（適切なチャネルとサブチャネルにタッチポイントをクレジットする）
+* タッチポイントの生成：マーケティング活動とセールスアクティビティに対する個人のインタラクションを表すタッチポイントを作成します。
+* タッチポイントのマッピング：タッチポイントを適切なチャネルおよびサブチャネルに割り当てます。
 
-を最大限に活用するために [!DNL Marketo Measure]を使用する場合、 [!DNL Marketo Measure] 担当者は、組織のニーズに合わせて両方のプロセスをカスタマイズします。
+[!DNL Marketo Measure] を最大限に活用するには、[!DNL Marketo Measure] の担当者と協力して、組織のニーズに合わせて両方のプロセスをカスタマイズする必要があります。
 
-タッチポイント生成方法
+タッチポイントの生成方法
 
-タッチポイント生成プロセスは、「 [!DNL Marketo Measure] これが起こった事を知る事になるのか？」 機能セットと、見込み客が持つインタラクションのタイプに応じて、最大 3 つの方法があります [!DNL Marketo Measure] では、インタラクションを取得し、それを表すタッチポイントを作成できます。
+タッチポイントの生成プロセスでは、「[!DNL Marketo Measure] では、これが発生したことをどのようにして認識するのか？」という質問に回答します。機能セットと見込み顧客が行うことができるインタラクションのタイプに応じて、[!DNL Marketo Measure] ではインタラクションを検出し、これを表すタッチポイントを作成できる方法が最大 3 つあります。
 
 >[!IMPORTANT]
 >
->[!DNL Marketo Measure] は、セッションごとに 1 つのタッチポイントのみを生成します。 複数のフォームが入力されている場合は、最初のフォームの入力のみが取り込まれます。
+>[!DNL Marketo Measure] では、セッションごとに 1 つのタッチポイントのみを生成します。複数のフォームに入力している場合は、最初のフォーム入力のみが取り込まれます。
 
-| **インタラクションのタイプ** | **例** | **タッチポイント生成方法** |
+| **インタラクションのタイプ** | **例** | **タッチポイントの生成方法** |
 |---|---|---|
-| オンライン、サイト上 | フォームの入力 | [!DNL Marketo Measure] JavaScript |
-| オフライン（サイト上にないオンライン） | トレードショー：コンテンツシンジケーションパートナーは、コンテンツに関与したリードのリストを提供します。 | CRM キャンペーンメンバーシップがに同期されました [!DNL Marketo Measure]キャンペーンで直接キャンペーン同期タイプを設定するか、 [!DNL Marketo Measure] |
-| セールスアクティビティ | SDR による発信呼び出し | CRM アクティビティ（タスクまたはイベント）レコードがに同期されました [!DNL Marketo Measure]( [!UICONTROL アクティビティ] ページ内 [!DNL Marketo Measure] |
+| オンライン、サイト上 | フォーム入力 | [!DNL Marketo Measure] JavaScript |
+| オフライン、オンライン（貴社サイト上以外） | 展示会：コンテンツシンジケーションパートナーは、コンテンツに関与したリードのリストを提供します | キャンペーンにキャンペーン同期タイプを直接設定するか、[!DNL Marketo Measure] のキャンペーンページでルールを設定することにより、CRM キャンペーンメンバーシップが [!DNL Marketo Measure] に同期されます |
+| セールスアクティビティ | SDR によるアウトバウンド呼び出し | CRM アクティビティ（タスクまたはイベント）レコードは、[!DNL Marketo Measure] の[!UICONTROL アクティビティ]ページのロジックを通じて [!DNL Marketo Measure] に同期されます |
 
-タッチポイントマッピングメソッド
+タッチポイントのマッピング方法
 
-タッチポイントマッピングプロセスは、「このタッチポイントが作成されたら、どのようにしてがおこなわれるか」という問いに対する回答を提供します。 [!DNL Marketo Measure] そのチャネルが属するチャネルとサブチャネルを把握しようとしている場合は、 タッチポイント生成の各方法には、タッチポイントマッピングの独自の方法があります。
+タッチポイントのマッピングプロセスでは、「このタッチポイントを作成すると、[!DNL Marketo Measure] では、属するチャネルとサブチャネルをどのようにして認識するのか？」という質問に回答します。タッチポイントの生成の各方法には、独自のタッチポイントのマッピング方法があります。
 
 | **インタラクションのタイプ** | **生成方法** | **マッピング方法** |
 |---|---|---|
-| オンライン、サイト上 | [!DNL Marketo Measure] JavaScript | を通じて [!DNL Online Channels] ページ内 [!DNL Marketo Measure]（UTM 値、ランディングページ、参照ページ情報を参照） |
-| オフライン（サイト上ではなくオンライン） | CRM キャンペーンメンバーシップの同期 | を通じて [!UICONTROL オフラインチャネル] ページ内 [!DNL Marketo Measure]（キャンペーンタイプを参照） |
-| セールスアクティビティ | CRM アクティビティの同期 | を通じて [!UICONTROL オンラインチャネル] ページ内 [!DNL Marketo Measure]( [!UICONTROL アクティビティ] ページ |
+| オンライン、サイト上 | [!DNL Marketo Measure] JavaScript | [!DNL Marketo Measure] の [!DNL Online Channels] ページを通じて、UTM 値、ランディングページ、参照ページ情報を参照します |
+| オフライン、オンライン、貴社サイト以外 | CRM キャンペーンメンバーシップの同期 | [!DNL Marketo Measure] の[!UICONTROL オフラインチャネル]ページを通じて、キャンペーンタイプを参照します |
+| セールスアクティビティ | CRM アクティビティの同期 | [!DNL Marketo Measure] の[!UICONTROL オンラインチャネル]ページを通じて、[!UICONTROL アクティビティ]ページで割り当てられたキャンペーン名を参照します |
 
 >[!MORELIKETHIS]
 >
->* [オンラインタッチポイントのマッピング先 [!DNL Marketo Measure] チャネル/サブチャネル](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [SFDC 内から CRM キャンペーンを同期中](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
->* [内から CRM キャンペーンを同期中 [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [CRM キャンペーンのマッピング先 [!DNL Marketo Measure] チャネル/サブチャネル](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+>* [ [!DNL Marketo Measure]  チャネル／サブチャネルへのオンラインタッチポイントのマッピング](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+>* [SFDC 内からの CRM キャンペーンの同期](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
+>* [ [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 内からの CRM キャンペーンの同期
+>* [ [!DNL Marketo Measure]  チャネル／サブチャネルへの CRM キャンペーンのマッピング](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [セールスアクティビティからのタッチポイントの作成](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
->* [アクティビティ FAQ およびアクティビティのマッピングタッチポイントをチャネル/サブチャネルにマッピングします。](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>* [アクティビティにに関する FAQ と、チャネル／サブチャネルへのアクティビティのタッチポイントのマッピング](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
 
