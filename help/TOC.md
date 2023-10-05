@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
-workflow-type: ht
-source-wordcount: '800'
-ht-degree: 100%
+source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 99%
 
 ---
 
@@ -156,19 +156,20 @@ ht-degree: 100%
       + [起因する収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [パスポートダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [ダッシュボードデータ表示ポリシー](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
    + レガシーダッシュボード {#legacy-dashboards}
       + [コホートジャーニーダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [パスポートダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
       + [スナップショットダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-   + [!DNL Marketo Measure] のレポートプラットフォームの使用 {#using-marketo-measures-reporting-platform}
-      + [一般的なユースケース](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
-      + [定義と百科事典](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-      + [ドリルスルー](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/drill-throughs.md)
-      + [フィルター](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/filters.md)
-      + [よくある質問](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/faq.md)
-      + [エンゲージメントパス](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/engagement-path.md)
-      + [マーケティング業務タイル](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-      + [概要ボードのタイル](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/overview-board-tiles.md)
+      + [!DNL Marketo Measure] のレポートプラットフォームの使用 {#using-marketo-measures-reporting-platform}
+         + [一般的なユースケース](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
+         + [定義と百科事典](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
+         + [ドリルスルー](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
+         + [フィルター](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
+         + [よくある質問](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
+         + [エンゲージメントパス](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
+         + [マーケティング業務タイル](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
+         + [概要ボードのタイル](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] と Adobe {#marketo-measure-and-adobe}
    + [[!DNL Marketo Measure] と Adobe Analytics の統合](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [[!DNL Marketo Measure] と Adobe Launch の統合](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)
