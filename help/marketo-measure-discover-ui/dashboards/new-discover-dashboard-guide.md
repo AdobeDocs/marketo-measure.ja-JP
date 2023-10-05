@@ -2,10 +2,11 @@
 description: 新しい Discover ダッシュボードガイド — [!DNL Marketo Measure]  — 製品
 title: 新しい Discover ダッシュボードガイド
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 9%
+source-wordcount: '1076'
+ht-degree: 10%
 
 ---
 
@@ -502,3 +503,9 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
 ## フィードバック {#feedback}
 
 今後もお客様のご体験を充実させていきますので、最新のアップデートに対するご意見をお寄せいただき、誠にありがとうございます。 お客様の考えは、将来の改善に直接影響を与え、アドビのプラットフォームが常にお客様のニーズに合致するようにします。 Marketo Measureのフィードバックフォームには目を光らせてください。
+
+>[!MORELIKETHIS]
+>
+>* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [ダッシュボードデータ表示ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

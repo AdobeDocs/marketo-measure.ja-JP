@@ -1,15 +1,16 @@
 ---
 description: Passport ダッシュボード — [!DNL Marketo Measure]  — 製品
-title: Passport ダッシュボード
+title: パスポートダッシュボード
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 1%
+source-wordcount: '327'
+ht-degree: 3%
 
 ---
 
-# Passport ダッシュボード {#passport-dashboard}
+# パスポートダッシュボード {#passport-dashboard}
 
 Passport ダッシュボードを使用すると、マーケターは、指定した期間内に様々なステージに移行するリード、連絡先、商談の動的なビューを提供できます。 特定の日付に対してフィルターを適用すると、その日のレコードのスナップショットを取得することもできます。
 
@@ -57,4 +58,6 @@ Passport ダッシュボードを使用すると、マーケターは、指定�
 
 >[!MORELIKETHIS]
 >
->[Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [ダッシュボードデータ表示ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

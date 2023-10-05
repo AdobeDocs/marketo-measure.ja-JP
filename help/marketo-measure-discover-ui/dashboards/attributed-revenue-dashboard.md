@@ -1,15 +1,16 @@
 ---
 description: 属性収益ダッシュボード — [!DNL Marketo Measure]  — 製品
-title: 属性収益ダッシュボード
+title: 起因する収益ダッシュボード
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
 
-# 属性収益ダッシュボード {#attributed-revenue-dashboard}
+# 起因する収益ダッシュボード {#attributed-revenue-dashboard}
 
 属性別売上高ダッシュボードは、マーケティング活動に直接リンクされた売上高に焦点を当てた視点を提供します。 マーケティング戦略が封緘にどのように役立ったかを調べます。
 
@@ -78,4 +79,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->[Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [ダッシュボードデータ表示ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+
