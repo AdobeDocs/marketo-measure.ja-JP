@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874799
-description: ページレイアウト手順 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: ページレイアウトの手順 - [!DNL Marketo Measure] - 製品ドキュメント
 title: ページレイアウトの手順
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -15,33 +15,33 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>アドビのドキュメントに「[!DNL Marketo Measure]」を指定する手順が記載されていても、CRM には「Bizible」と記載されている場合があります。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-簡単に見るには [!DNL Marketo Measure] データを更新する場合は、 [!UICONTROL アカウント], [!UICONTROL 連絡先], [!UICONTROL リード], [!UICONTROL 商談]、および [!UICONTROL Campaign] オブジェクト。 手順は、以下の各オブジェクトページレイアウトで分類されます。
+簡単に [!DNL Marketo Measure] データを確認するには、[!UICONTROL アカウント]、[!UICONTROL 取引先責任者]、[!UICONTROL リード]、[!UICONTROL 商談]、[!UICONTROL キャンペーン]の各オブジェクトのページレイアウトを更新することをお勧めします。手順は、以下のオブジェクトページレイアウトごとに分かれています。
 
-まず、 [!DNL Salesforce] 設定を行い、 [!UICONTROL カスタマイズ] タブをクリックします。
+まず、[!DNL Salesforce] 設定に移動して、「[!UICONTROL カスタマイズ]」タブを見つけます。
 
-## Campaign オブジェクト {#campaign-object}
+## キャンペーンオブジェクト {#campaign-object}
 
-以下を追加することをお勧めします。 [!DNL Marketo Measure] フィールドを SFDC Campaign に追加し、サンドボックスにのみ使用できます。 このフィールドを使用して、タッチポイントの生成をテストできます。 実稼動環境では、 [!DNL Marketo Measure] タッチポイント日付の一括更新ボタン。 を追加することはお勧めしません。 [!DNL Marketo Measure] フィールドを実稼動環境に移行する必要があります。
+サンドボックスのみの SFDC キャンペーンに [!DNL Marketo Measure] フィールドを追加することをお勧めします。このフィールドを使用して、タッチポイントの生成をテストできます。実稼動環境では、[!DNL Marketo Measure] の「Touchpoint 日の一括更新」ボタンのみを追加することをお勧めします。キャンペーン同期ルールを作成できるので、[!DNL Marketo Measure] フィールドを実稼動環境に追加することはお勧めしません。
 
-1. 「ビルド」オプションで、「 **[!UICONTROL キャンペーン]**.
+1. 「ビルド」オプションで「**[!UICONTROL キャンペーン]**」を選択します。
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
    ![](assets/1-1.jpg)
 
-1. クリック **[!UICONTROL 編集]** をクリックします。
+1. 更新するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。
 
    ![](assets/2-1.jpg)
 
-1. 内 [!UICONTROL フィールド] オプションを選択し、 **[!UICONTROL 購入者タッチポイントの有効化]** 「 」フィールドをクリックし、ページ上の任意の場所にドラッグします。 次に、 **[!UICONTROL タッチポイントの開始日]** および **[!UICONTROL タッチポイント終了日]** フィールド。
+1. 「[!UICONTROL フィールド]」オプション内で、「**[!UICONTROL Buyer Touchpoints を有効化]**」フィールドを選択して、ページ上の任意の場所にドラッグします。次に、「**[!UICONTROL タッチポイント開始日]**」フィールドと「**[!UICONTROL タッチポイント終了日]**」フィールドを追加します。
 
    ![](assets/3-2.png)
 
-1. 次に、ページ上部で、[!UICONTROL ボタン]」オプションを使用します。
+1. 次に、ページ上部で、クイック検索メニューの「[!UICONTROL ボタン]」オプションをクリックします。
 
-1. 次の項目をドラッグ： **[!UICONTROL タッチポイント日の一括更新]** ボタンをクリックして、カスタムボタンセクションに追加します。
+1. 「**[!UICONTROL Touchpoint 日の一括更新]**」ボタンをカスタムボタンセクションにドラッグします。
 
    ![](assets/4-1.jpg)
 
@@ -49,145 +49,145 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >複数のキャンペーンレコードタイプを使用する場合、 **[!UICONTROL 購入者タッチポイントの有効化]** フィールドを更新する必要があります。 参照してください [この記事](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) 」を参照してください。
+   >複数のキャンペーンレコードタイプを使用する場合、「**[!UICONTROL Buyer Touchpoints を有効化]**」フィールドを更新する必要があります。手順については、[こちらの記事](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)を参照してください。
 
 ## リード {#leads}
 
-1. 「ビルド」オプションで、「 **[!UICONTROL リード]**.
+1. 「ビルド」オプションで「**[!UICONTROL リード]**」を選択します。
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
-1. クリック **[!UICONTROL 編集]** をクリックします。 複数のページレイアウトに「 Buyer Touchpoints 」セクションを含めることができます。
+1. 変更するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。複数のページレイアウトに「Buyer Touchpoints」セクションを含めることができます。
 
-1. クイック検索メニュー内の左側にある [VisualForce] ページオプションをクリックします。
+1. クイック検索メニュー内の左側にある VisualForce ページオプションをクリックします。
 
-1. 新しいセクションを作成し、「Buyer Touchpoints」という名前を付けます。
+1. 新規セクションを作成し、「Buyer Touchpoints」という名前を付けます。
 
    >[!NOTE]
    >
-   >各セクションで「1 列」の形式を選択します。
+   >これらのセクションごとに「1 列」形式を選択します。
 
-1. 次の項目をドラッグ： **[!UICONTROL Marketo Measureリード関連リスト]** VisualForce ページをページレイアウトセクションに挿入します。
+1. **[!UICONTROL Marketo Measure リード関連リスト]** VisualForce ページをページレイアウトセクションにドラッグします。
 
    ![](assets/5-1.png)
 
-1. 内のレンチをクリックします。 [!DNL VisualForce] 「高さ」を「100」に変更し、スクロールバーを有効にします。
+1. [!DNL VisualForce] ページ内のレンチをクリックして、高さを 100 に変更し、スクロールバーを有効にします。
 
-1. メニューに戻り、 [!UICONTROL キャンバスアプリ] を参照し、タッチポイントの下に「Marketo Measure Insights」という新しいセクションを作成します。 [!DNL VisualForce] セクションを作成しました。
-
-   >[!NOTE]
-   >
-   >各セクションで「1 列」の形式を選択します。
-
-1. 次の項目をドラッグ： [!DNL Marketo Measure Insights] キャンバスアプリを新しく作成されたセクションに移動します。 「**保存**」をクリックします。Salesforce が即座に認識しないので、キャンバスアプリにドロップする前に最初にページレイアウトを保存する必要が生じる場合があります。 したがって、新しいセクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。 これは、すべてのオブジェクトに適用されます。
+1. メニューに戻り、「[!UICONTROL キャンバスアプリ]」セクションを選択し、作成した「Touchpoints [!DNL VisualForce]」セクションの下に「Marketo Measure インサイト」という新規セクションを作成します。
 
    >[!NOTE]
    >
-   >の [!DNL Marketo Measure Insights] キャンバスアプリが正しく機能しない問題を修正しました。 [権限を適切に設定する必要があります](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
+   >これらのセクションごとに「1 列」形式を選択します。
+
+1. 新規作成したセクションに [!DNL Marketo Measure Insights] キャンバスアプリをドラッグします。「**保存**」をクリックします。Salesforce が即座に認識しないので、キャンバスアプリにドロップする前にまずページレイアウトを保存する必要が生じる場合があります。したがって、新しいセクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。これは、すべてのオブジェクトに当てはまります。
+
+   >[!NOTE]
+   >
+   >[!DNL Marketo Measure Insights] キャンバスアプリが正しく機能するには、[権限を適切に設定する必要があります](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md)。
 
    >[!TIP]
    >
-   >(FT) または (LC) で終わるフィールドは、以前のからの従来のフィールドなので、ほとんどのお客様は使用しません。 [!DNL Marketo Measure] タッチポイントはオブジェクトとして存在していました。
+   >ほとんどのユーザーは（FT）または（LC）で終わるフィールドを使用しませんが、その理由は、それらが、[!DNL Marketo Measure] タッチポイントがオブジェクトとして存在するようになる前からのレガシーフィールだからです。
 
-を [!DNL Marketo Measure] ABM 機能 [他のページレイアウトの手順については、ここをクリックしてください。](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+[!DNL Marketo Measure] ABM 機能を利用している場合、[ページレイアウトの追加手順については、こちらをクリックしてください](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)。
 
 ## 取引先責任者 {#contacts}
 
-1. 「ビルド」オプションで、「 **[!UICONTROL 連絡先]**.
+1. 「ビルド」オプションで「**[!UICONTROL 取引先責任者]**」を選択します。
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
 1. 編集するページレイアウトを選択します。
 
-   クイック検索メニュー内の「関連リスト」オプションに移動し、 **[!UICONTROL 購入者タッチポイント]** 関連するリスト。
+   クイック検索メニュー内の「関連リスト」オプションに移動し、**[!UICONTROL Buyer Touchpoints]** に関連するリストを追加します。
 
 1. レンチアイコンをクリックし、次の列をこの順序で追加します。
 
-   * 購入者タッチポイント
+   * Buyer Touchpoint
    * マーケティングチャネル
    * Touchpoint ソース
-   * 広告キャンペーンの名前
-   * Touchpointの位置
-   * Touchpoint 日
+   * 広告キャンペーン名
+   * Touchpoint の位置
+   * Touchpoint の日付
 
-1. 並べ替え基準：タッチポイントの日付（昇順）。
+1. 並べ替え基準：Touchpoint 日（昇順）。
 
    ![](assets/6.jpg)
 
-1. 「ボタン」オプションを展開し、選択を解除します。 **[!UICONTROL 新規]**.
+1. 「ボタン」オプションを展開し、「**[!UICONTROL 新規]**」の選択を解除します。
 
    ![](assets/7.png)
 
-1. に戻ります。 [!UICONTROL 関連リスト] 」オプションを選択し、 **[!UICONTROL 購入者の属性タッチポイント]** 関連するリスト。
+1. メニューの「[!UICONTROL 関連リスト]」オプションに戻り、**[!UICONTROL Buyer Attribution Touchpoint]** 関連リストを追加します。
 
 1. レンチアイコンをクリックし、次の列をこの順序で追加します。
 
    * アトリビューションタッチポイント
    * マーケティングチャネル
    * 商談
-   * 広告キャンペーンの名前
-   * Touchpointのタイプ
-   * Touchpointの位置
-   * 属性% W 字形 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * 売上高 W 字型 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * Touchpoint 日
+   * 広告キャンペーン名
+   * Touchpoint のタイプ
+   * Touchpoint の位置
+   * アトリビューション％ W-字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
+   * 収益 W 字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
+   * Touchpoint の日付
 
-1. タッチポイントで並べ替え [!UICONTROL 日付] > [!UICONTROL 昇順].
+1. [!UICONTROL Touchpoint 日]／[!UICONTROL 昇順]で並べ替えます。
 
-1. 「ボタン」セクションを展開し、選択を解除します。 **[!UICONTROL 新規]**.
+1. 「ボタン」セクションを展開し、「**[!UICONTROL 新規]**」の選択を解除します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## 商談 {#opportunities}
 
-1. 「ビルド」オプションで、「 **[!UICONTROL 商談]**.
+1. 「ビルド」オプションで「**[!UICONTROL 商談]**」を選択します。
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
 1. 編集するページレイアウトを選択します。
 
-1. 次を追加： **[!UICONTROL 購入者の属性タッチポイント]** 関連するリストを表示し、レンチをクリックして、商談の次の列を追加します。
+1. **[!UICONTROL Buyer Attribution Touchpoint]** 関連リストを追加し、レンチをクリックして、商談に次の列を追加します。
 
    * アトリビューションタッチポイント
    * マーケティングチャネル
    * 取引先責任者
-   * 広告キャンペーンの名前
-   * Touchpointのタイプ
-   * Touchpointの位置
-   * 属性% W 字形 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * 売上高 W 字型 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * Touchpoint 日
+   * 広告キャンペーン名
+   * Touchpoint のタイプ
+   * Touchpoint の位置
+   * アトリビューション％ W-字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
+   * 収益 W 字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
+   * Touchpoint の日付
 
-1. 並べ替え基準 [!UICONTROL タッチポイント日] > [!UICONTROL 昇順].
+1. [!UICONTROL Touchpoint 日]／[!UICONTROL 昇順]で並び替えます。
 
-1. 選択を解除 **[!UICONTROL 新規]** 内 [!UICONTROL ボタン] 」セクションに入力します。
+1. 「[!UICONTROL ボタン]」セクション内の「**[!UICONTROL 新規]**」の選択を解除します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## アカウント {#accounts}
 
-1. 「ビルド」オプションで、「 **[!UICONTROL アカウント]**.
+1. 「ビルド」オプションで「**[!UICONTROL アカウント]**」を選択します。
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
 1. 編集するページレイアウトを選択します。
 
-1. 次を追加： **[!UICONTROL 購入者の属性タッチポイント]** 関連リストを表示し、レンチをクリックして、次の列を追加します。
+1. **[!UICONTROL Buyer Attribution Touchpoint]** 関連リストを追加し、レンチをクリックして、次の列を追加します。
 
    * アトリビューションタッチポイント
    * マーケティングチャネル
    * 商談
-   * 広告キャンペーンの名前
-   * Touchpointのタイプ
-   * Touchpointの位置
-   * 属性% W 字形 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * 売上高 W 字型 (_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_)
-   * Touchpoint 日
+   * 広告キャンペーン名
+   * Touchpoint のタイプ
+   * Touchpoint の位置
+   * アトリビューション％ W-字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
+   * 売上高 W 字型（_またはフルパスやカスタムなどの最も堅牢なアトリビューションモデル_）
+   * Touchpoint の日付
 
-1. タッチポイント日/昇順で並べ替えます。
+1. 並べ替え基準：タッチポイントの日付／昇順。
 
-1. 選択を解除 **[!UICONTROL 新規]** 内 [!UICONTROL ボタン] 」セクションに入力します。
+1. 「[!UICONTROL ボタン]」セクション内の「**[!UICONTROL 新規]**」の選択を解除します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-を [!DNL Marketo Measure] ABM 機能  [他のページレイアウトの手順については、ここをクリックしてください。](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+[!DNL Marketo Measure] ABM 機能を活用している場合、[他のページレイアウトの手順について詳しくは、こちらをクリックしてください](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)。
