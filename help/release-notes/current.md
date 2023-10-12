@@ -4,9 +4,9 @@ title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 47%
 
 <p>
 
-**Discover ダッシュボードの再設計**
+**Discover ダッシュボードの刷新**
 
-すべてのMarketo Measureユーザーは、より優れた操作性と付加価値を組み合わせた、再設計されたアプリ内ダッシュボードを体験できます。 また、B2B の市場投入と購入の間の一般的な遅れを考慮に入れた「実現した ROI」などの新しい指標を導入しています。
+すべての Marketo Measure ユーザは、より優れた操作性と付加価値を組み合わせ、刷新されたアプリ内ダッシュボードを体験できます。また、B2G GTM 戦略においてマーケティング投資と購入の間に発生する一般的な遅れを考慮に入れた「実質 ROI」などの新しい指標を導入しています。
 
-新しい事前設計済みダッシュボードのセットは、10 月の第 1 週から 10 月末までに段階的に導入される予定です。 これらの新しいダッシュボードは、製品内情報やドキュメントへのリンクと共に、インスタンスに自動的に表示されます。
+新しい事前定義済みダッシュボードのセットは、10月の第 1 週から年末までに段階的に導入される予定です。これらの新しいダッシュボードは、製品内情報やドキュメントへのリンクと共に、インスタンスに自動的に表示されます。
 
 * [新しい Discover ダッシュボードガイド](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
 * [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
@@ -33,29 +33,29 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->現在のダッシュボードは 2024 年 1 月中旬に廃止されますが、それまでの両方のバージョンを利用して、スムーズな移行を実現できます。
+>現在のダッシュボードは 2024年1月中旬に廃止されますが、それまでは両方のバージョンを利用して、スムーズな移行を実現できます。
 
 ### 廃止予定機能 {#deprecations}
 
 <p>
 
-* **&quot;custom_properties&quot;フィールド**
+* **「custom_properties」フィールド**
 
-Data Warehouse では、「custom_properties」フィールドは、固定スキーマでカバーされない追加のデータポイントのストレージとして機能していました。 JSON 形式で格納される場合、このフィールドの使用は制限され、SQL クエリとの統合は複雑になり、パフォーマンスに影響を与える可能性があります。 これらの要因から、このフィールドは廃止することにしました。 この変更は、主に Azure テーブルストレージ内のデータ処理レイヤーと、Data Warehouse にエクスポートされたデータに影響を与えます。
+データウェアハウスでは、「custom_properties」フィールドは、固定スキーマでカバーされない追加のデータポイントのストレージとして機能していました。JSON 形式で格納される場合、このフィールドの使用は制限され、SQL クエリとの統合は複雑になり、パフォーマンスに影響を与える可能性があります。これらの要因から、このフィールドは廃止することにしました。この変更は、主に Azure テーブルストレージ内のデータ処理レイヤーおよびデータウェアハウスに書き出されたデータに影響を与えます。
 
 * **Dynamics パッケージ関連**
 
-   * Dynamics との連携を維持するには、最新のパッケージバージョン v6.12 をインストールしてください。古いバージョン `(<v6.12)` はサポートされなくなります。 この更新により、履歴レコードの作成が最適化され、ストレージの使用量が削減されます。
+   * Dynamics との接続を維持するには、最新のパッケージバージョン v6.12 をインストールしてください。古いバージョン `(<v6.12)` はサポートされなくなります。この更新により、履歴レコードの作成が最適化され、ストレージの使用量が削減されます。
 
-   * RefreshToken を持つ古い OAuth メソッドは非推奨（廃止予定）となります。 詳しくは、 [このガイド](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} 資格情報を更新してMicrosoftのベストプラクティスに従うための ClientSecret の使用。
+   * RefreshToken を使用した古い OAuth メソッドは非推奨（廃止予定）となります。ClientSecret の使用に関する Microsoft のベストプラクティスに従った資格情報の更新について詳しくは、[このガイド](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"}を参照してください。
 
-### 次回の予定？ {#q4-whats-coming}
+### 今後の予定 {#q4-whats-coming}
 
 <p>
 
 **アプリ内カスタムレポート**
 
-Marketo Measureを初めてご利用のお客様は、アプリ内で独自のレポートを作成し、保存できます。 これは、2024 年初頭の事前ビルドダッシュボードのリリースに従います。
+Marketo Measure を初めてご利用のお客様は、アプリ内で独自のレポートを作成し、保存できます。続いて 2024年初頭に事前定義済みダッシュボードのリリースが予定されています。
 
 <br>
 
