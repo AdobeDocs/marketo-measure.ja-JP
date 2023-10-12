@@ -1,41 +1,41 @@
 ---
 unique-page-id: 18874672
-description: 方法 [!DNL Marketo Measure] および [!DNL Salesforce] Interact - Marketo Measure — 製品ドキュメント
-title: ' [!DNL Marketo Measure] と [!DNL Salesforce] のやり取りの方法'
+description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 - Marketo Measure - 製品ドキュメント'
+title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1719'
-ht-degree: 16%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure]と[!DNL Salesforce]のやり取りの方法 {#how-marketo-measure-and-salesforce-interact}
+# [!DNL Marketo Measure] と [!DNL Salesforce] の相互作用 {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>アドビのドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には「Bizible」と表示されます。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-～間の関係を大まかに見てみよう [!DNL Marketo Measure] と Salesforce。
+[!DNL Marketo Measure] と Salesforce の関係を大まかに見てみましょう。
 
-## Salesforce および [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce と [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-1 回 [!DNL Marketo Measure] アカウントが作成され、 [!DNL Salesforce] 接続されている [!DNL Marketo Measure] は、 [!DNL Marketo Measure] 管理パッケージがインストールされ、 [!DNL Marketo Measure] Salesforce ユーザーに編集権限があります。
+[!DNL Marketo Measure] アカウントが作成され、[!DNL Salesforce] が接続されると、[!DNL Marketo Measure] 管理パッケージがインストールされ、[!DNL Marketo Measure] Salesforce ユーザが編集権限を持っている限り、[!DNL Marketo Measure] はマーケティングデータを CRM インスタンスにプッシュし始めます。
 
-をインストールしなかった場合、 [!DNL Marketo Measure] Salesforce パッケージ [!DNL Marketo Measure] では、Salesforce インスタンスにデータを書き込みません。
+[!DNL Marketo Measure] Salesforce パッケージをインストールしていない場合、[!DNL Marketo Measure] は Salesforce インスタンスにデータを書き込みません。
 
 ![](assets/1-3.png)
 
-デフォルトでは、 [!DNL Marketo Measure] は、ジョブが CRM にデータを送信するたびに、API クレジットごとに 200 件のレコードをエクスポートします。 ほとんどのお客様にとって、これは、 [!DNL Marketo Measure] CRM の CPU リソース要件。 ただし、ワークフローやトリガーなど複雑な CRM 設定を持つお客様の場合は、バッチサイズを小さくすると CRM のパフォーマンスが向上する可能性があります。 この目的のために [!DNL Marketo Measure] 顧客が CRM エクスポートのバッチサイズを設定できます。 この設定は、 [!UICONTROL 設定] > [!UICONTROL CRM] > [!UICONTROL 一般] ページの [!DNL Marketo Measure] Web アプリケーションとお客様は、200（デフォルト）、100、50、25 のバッチサイズから選択できます。
+デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。これは、[!DNL Marketo Measure] web アプリケーションの[!UICONTROL 設定]／[!UICONTROL CRM]／[!UICONTROL 一般]ページで設定でき、顧客は 200（デフォルト）、100、50、25 のバッチサイズから選択できます。
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-この設定を変更する場合、小さいバッチサイズでは、CRM からより多くの API クレジットを消費することに注意してください。 CRM で CPU がタイムアウトしたり、CPU 負荷が高くなったりした場合にのみ、バッチサイズを小さくすることをお勧めします。
+この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 
-このリストには、 [!DNL Salesforce] 標準オブジェクト [!DNL Marketo Measure] 接続が確立され、 [!DNL Marketo Measure] パッケージがインストールされている。 すぐに使える [!DNL Marketo Measure] は、どの標準にも書き込まれません [!DNL Salesforce] オブジェクトフィールド。
+これには、[!DNL Marketo Measure] がやり取りする [!DNL Salesforce] 標準オブジェクトと、接続が確立され [!DNL Marketo Measure] パッケージがインストールされた後にこれらのオブジェクトに追加するカスタムフィールドが一覧表示されます。そのままでは、[!DNL Marketo Measure] は標準の [!DNL Salesforce] オブジェクトフィールドに書き込みません。
 
 **リード**
 
@@ -43,7 +43,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -194,7 +194,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -303,7 +303,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -406,7 +406,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -449,7 +449,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -534,7 +534,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -625,7 +625,7 @@ ht-degree: 16%
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -672,7 +672,7 @@ ht-degree: 16%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LeadId</p></td> 
+   <td><p>leadId</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -724,7 +724,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->Salesforce アカウント内での削除イベントをMarketo Measureが確実にキャプチャするには、以下のオブジェクトに対する複製可能な権限が必要です。 レプリケーション可能な権限は、次のオブジェクトを標準として提供します。
+>Salesforce アカウント内での削除イベントを Marketo Measure が確実にキャプチャするには、以下のオブジェクトに対する複製可能な権限が必要です。複製可能な権限は、次のオブジェクトに標準で付属しています。
 >
 >* アカウント
 >* キャンペーン
@@ -736,19 +736,19 @@ ht-degree: 16%
 >* タスク
 
 
-## [!DNL Marketo Measure] のカスタムオブジェクト [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## [!DNL Salesforce] の [!DNL Marketo Measure] カスタムオブジェクト {#marketo-measure-custom-objects-in-salesforce}
 
-SFDC の標準オブジェクトにカスタムフィールドを作成する以外に、 [!DNL Marketo Measure] パッケージがインストールされ、カスタムオブジェクトが 2 つ作成されます。 以下に、これらのカスタムオブジェクトのリストと、 [!DNL Marketo Measure] がに書き込まれます。
+SFDC の標準オブジェクトでのカスタムフィールドの作成とは別に、[!DNL Marketo Measure] パッケージがインストールされ、カスタムオブジェクトがいくつか作成されます。以下に、これらのカスタムオブジェクトのリストと、[!DNL Marketo Measure] が書き込むフィールドを示す表を示します。
 
-**購入者タッチポイント**
+**Buyer Touchpoint**
 
-購入者タッチポイントは、 [!DNL Marketo Measure] 連絡先、リード、事例のマーケティングインタラクションをカプセル化するカスタムオブジェクト。
+Buyer Touchpoint は、取引先責任者、リード、事例のマーケティングインタラクションをカプセル化する [!DNL Marketo Measure] カスタムオブジェクトです。
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -999,7 +999,7 @@ SFDC の標準オブジェクトにカスタムフィールドを作成する以
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__連絡先__c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -1007,15 +1007,15 @@ SFDC の標準オブジェクトにカスタムフィールドを作成する以
  </tbody> 
 </table>
 
-**[!DNL Marketo Measure]人物**
+**[!DNL Marketo Measure]担当者**
 
-The [!DNL Marketo Measure] 担当者が [!DNL Marketo Measure] リード、連絡先、およびケースの両方のオブジェクトに関連するカスタムオブジェクト。
+[!DNL Marketo Measure] 担当者は、リードオブジェクト、取引先責任者オブジェクトおよび事例オブジェクトに関連する [!DNL Marketo Measure] カスタムオブジェクトです。
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1038,7 +1038,7 @@ The [!DNL Marketo Measure] 担当者が [!DNL Marketo Measure] リード、連�
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__連絡先__c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x </p></td> 
@@ -1046,17 +1046,17 @@ The [!DNL Marketo Measure] 担当者が [!DNL Marketo Measure] リード、連�
  </tbody> 
 </table>
 
-## 購入者の属性タッチポイント {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-購入者属性タッチポイントは、 [!DNL Marketo Measure] オポチュニティに対するマーケティングの影響をカプセル化するカスタムオブジェクト。
+Buyer Attribution Touchpoint は、商談に対するマーケティングの影響をカプセル化する [!DNL Marketo Measure] カスタムオブジェクトです。
 
-**購入者の属性タッチポイント**
+**Buyer Attribution Touchpoint**
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>フィールド</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1073,7 +1073,7 @@ The [!DNL Marketo Measure] 担当者が [!DNL Marketo Measure] リード、連�
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__連絡先__c</p></td> 
+   <td><p>bizible2__Contact__c</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
