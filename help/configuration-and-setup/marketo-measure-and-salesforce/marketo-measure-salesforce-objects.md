@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874582
-description: '"[!DNL Marketo Measure] Salesforce オブジェクト — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] Salesforce オブジェクト"
+description: 「[!DNL Marketo Measure] Salesforce オブジェクト -  [!DNL Marketo Measure]  - 製品ドキュメント」
+title: 「[!DNL Marketo Measure] Salesforce オブジェクト」
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
@@ -15,66 +15,66 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>アドビのドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には「Bizible」と表示されます。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-条件 [!DNL Marketo Measure] が次の場所にインストールされている： [!DNL Salesforce] (SFDC)、複数のカスタム [!DNL Marketo Measure] オブジェクトが追加されます。 この記事では、これらのカスタムのいくつかの説明を提供します [!DNL Marketo Measure] オブジェクト。 一部のオブジェクト [!DNL Marketo Measure] に追加 [!DNL Salesforce] は次のとおりです。
+[!DNL Marketo Measure] が [!DNL Salesforce]（SFDC）にインストールされると、複数のカスタム [!DNL Marketo Measure] オブジェクトが追加されます。この記事では、これらのカスタム [!DNL Marketo Measure] オブジェクトのいくつかについて説明します。[!DNL Marketo Measure] が [!DNL Salesforce] に追加するオブジェクトには次のようなものがあります。
 
-* [購入者タッチポイント](#touchpoint)
-* [購入者の属性タッチポイント](#attribution)
-* [[!DNL Marketo Measure] 人物](#person)
+* [Buyer Touchpoint](#touchpoint)
+* [Buyer Attribution Touchpoint](#attribution)
+* [[!DNL Marketo Measure] 担当者](#person)
 * [[!DNL Marketo Measure] A/B テスト](#ab)
 * [[!DNL Marketo Measure] イベント](#events)
 
-追跡したいものによってキャプチャされたタッチポイントは、 [!DNL Bizible Salesforce] パッケージ。
+追跡する対象によってキャプチャされたタッチポイントは、[!DNL Bizible Salesforce] パッケージのインストールによって作成されたカスタムオブジェクトに書き込まれます。
 
-[!DNL Marketo Measure] 特定の規格に関連するオブジェクト [!DNL Salesforce] オブジェクト。 これにより、 [!DNL Marketo Measure] および [!DNL Salesforce] オブジェクトをまとめます。 次の表に、次の内容を示します。 [!DNL Salesforce] オブジェクトを [!DNL Marketo Measure] オブジェクトはに関連します。
+[!DNL Marketo Measure] オブジェクトは、特定の標準 [!DNL Salesforce] オブジェクトに関連します。これにより、[!DNL Marketo Measure] オブジェクトと [!DNL Salesforce] オブジェクトをまとめてレポートできます。次の表に、[!DNL Marketo Measure] オブジェクトがどの [!DNL Salesforce] オブジェクトに関連しているかを示します。
 
 ![](assets/1-1.png)
 
-## 購入者タッチポイント {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
-The [!UICONTROL 購入者タッチポイント] (BT) オブジェクトは、個人のマーケティングストーリーを伝えます。 リードと連絡先によって生成されたマーケティングタッチポイントに関連するすべてのデータを格納します。 BT は、タッチポイントがどのマーケティングチャネルから来たか、または特定のリード/連絡先を Web サイトに導いた Ad Campaign の情報を示します。
+[!UICONTROL Buyer Touchpoint]（BT）オブジェクトは、個人のマーケティングストーリーを示します。リードと取引先責任者によって生成されたマーケティングタッチポイントに関連するすべてのデータを格納します。BT には、タッチポイントがどのマーケティングチャネルから来たのか、またはどの広告キャンペーンが特定のリード／取引先責任者を web サイトに導いたのかなどの情報が表示されます。
 
-BT オブジェクトは、リードページと連絡先ページに、 **関連リスト** （下の画像を参照）。
+BT オブジェクトは、リードページと取引先責任者ページに、**関連リスト**&#x200B;として表示されます（下の画像を参照）。
 
 ![](assets/2-1.png)
 
-「BT 関連リスト」には、リードまたは連絡先に属するすべてのタッチポイントが表示されます。 リスト内にはカスタム [!DNL Marketo Measure] 各タッチポイントに関する詳細を提供するフィールド。 「 Buyer Touchpoint ID 」をクリックすると、 Buyer Touchpoint Detail ページに移動します。このページには、その Web セッション中にリード/連絡先が訪問した最初の Web ページ (**ランディングページ**) をクリックします。
+BT 関連リストには、リードまたは取引先責任者に属するすべてのタッチポイントが表示されます。リスト内には、各タッチポイントに関する詳細を提供するカスタム [!DNL Marketo Measure] フィールドがあります。Buyer Touchpoint ID 番号をクリックすると、Buyer Touchpoint の詳細ページに移動します。このページには、web セッション中にリード／取引先責任者が訪問した最初の web ページ（**ランディングページ**）など、タッチポイントに関するさらに詳細な情報が表示されます。
 
-## 購入者の属性タッチポイント {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-The [!UICONTROL 購入者の属性タッチポイント] オブジェクトは、オポチュニティに関連する連絡先のマーケティングインタラクションのストーリーを示します。 このリストには、 *帰属* マーケティングタッチポイントに関連するデータ。 このオブジェクトを使用すると、各マーケティングタッチポイントに関連する売上高クレジットの数を確認できます。 使用しているアトリビューションモデルのタイプによって、タッチポイントに起因する売上高の割合が決まります。
+[!UICONTROL Buyer Attribution Touchpoint] オブジェクトは、商談に関連する取引先責任者のマーケティングインタラクションのストーリーを示します。マーケティングタッチポイントに関連する&#x200B;*アトリビューション*&#x200B;データが表示されます。このオブジェクトを使用すると、各マーケティングタッチポイントに起因する収益クレジットの数を確認できます。使用しているアトリビューションモデルのタイプによって、タッチポイントに起因する収益の割合が決まります。
 
-購入者属性タッチポイント (BAT) は、購入者タッチポイント (BT) データを持つ連絡先に関連する商談が作成された場合にのみ作成されます。 BAT は商談なしでは作成されません。 オポチュニティが作成されると、BAT オブジェクトは、 [!DNL Salesforce] *金額* フィールドに値を入力し、タッチポイントにどの程度の売上高を関連付けるかを把握します。
+Buyer Attribution Touchpoints（BAT）は、Buyer Touchpoint（BT）のデータを持つ取引先責任者に関連する商談が作成された場合にのみ作成されます。BAT は商談がなければ作成されません。商談が作成されると、BAT オブジェクトは商談の「[!DNL Salesforce] *金額*」フィールドを使用して、タッチポイントに起因する収益を把握します。
 
-A **workflow** を使用する場合は、 [カスタム金額フィールド](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md) をクリックして、Opportunity オブジェクトの売上高を表示します。 [!DNL Marketo Measure] は、カスタムの「金額」フィールドに表示される情報を読み取れないので、タッチポイントに売上高属性データを設定できません。 このワークフローでは、 **[!DNL Marketo Measure]商談額** フィールド ( [!DNL Marketo Measure] カスタムフィールドを使用して、カスタムの「金額」フィールドの売上高の値を「商談の金額」フィールドにマッピングします。
+[カスタム金額フィールド](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)を使用して商談オブジェクトの収益を表示する場合は、**ワークフロー**&#x200B;を作成する必要があります。[!DNL Marketo Measure] は「カスタム金額」フィールドに表示される情報を読み取ることができないので、タッチポイントに収益属性データを入力できません。このワークフローでは、[!DNL Marketo Measure] カスタムフィールドの 1 つである「**[!DNL Marketo Measure]商談金額**」フィールドを使用して、収益値を「カスタム金額」フィールドから「商談金額」フィールドにマッピングします。
 
 ![](assets/3-1.png)
 
-BAT オブジェクトは、 [!UICONTROL 商談], [!UICONTROL 連絡先]、および [!UICONTROL アカウント] 関連リストとしてのオブジェクト。 このリストには、商談に属する属性データを持つすべてのタッチポイントが表示されます。 「 Buyer Attribution Touchpoint ID 」をクリックすると、「 Buyer Attribution Touchpoint Detail 」ページに移動します。 ここでは、より具体的なアトリビューションデータと、タッチポイントの元に関する情報（購入者タッチポイントオブジェクトから提供されるものと同様）を確認できます。
+BAT オブジェクトは、[!UICONTROL 商談]、[!UICONTROL 取引先責任者]および[!UICONTROL アカウント]オブジェクトに関連リストとして表示されます。このリストには、商談に属する属性データを持つすべてのタッチポイントが表示されます。Buyer Attribution Touchpoint ID をクリックすると、Buyer Attribution Touchpoint の詳細ページに移動します。ここでは、より具体的なアトリビューションデータと、タッチポイント元に関する情報（Buyer Touchpoint オブジェクトから提供されるものと同様）を確認できます。
 
-## [!DNL Marketo Measure] 人物 {#marketo-measure-person}
+## [!DNL Marketo Measure] 担当者 {#marketo-measure-person}
 
-The [!DNL Marketo Measure] 「Person Object」は、リードオブジェクトと連絡先オブジェクトを関連付けます。 Salesforce は、同じレポート内でリードと連絡先オブジェクトを使用してレポートを作成するオプションを提供していません。 リードと連絡先オブジェクトに関連付けると、 [!DNL Marketo Measure] 「担当者」を使用すると、同じレポート内の両方のオブジェクトに関するレポートを作成できます。 これは、リードが連絡先に変換された場合に特に便利です。 日付： [!DNL Marketo Measure] 担当者レコードには、対応するリード/連絡先レコード、その人物に関連するタッチポイントの関連リスト、および人物 ID（常にリード/連絡先の電子メールアドレス）のルックアップが表示されます。 以降 [!DNL Marketo Measure] リードと連絡先オブジェクトに関連する担当者。このオブジェクトには、次のものは存在しません： [!DNL Marketo Measure] 購入者属性タッチポイントに結び付けられた人物レコード。 以下に、 [!DNL Marketo Measure] Salesforce 内の担当者レコード：
+[!DNL Marketo Measure] 担当者オブジェクトは、リードオブジェクトと取引先責任者オブジェクトを関連付けます。Salesforce の初期状態では、同じレポート内でリードオブジェクトと、取引先責任者オブジェクトを使用してレポートを作成するオプションを提供していません。[!DNL Marketo Measure] 担当者をリードオブジェクトと取引先責任者オブジェクトに関連付けると、同じレポート内で両方のオブジェクトに関するレポートを作成できます。これは、リードが取引先責任者に転換した際に特に役立ちます。[!DNL Marketo Measure] 担当者レコードには、対応するリード／取引先責任者レコード、その担当者に関連するタッチポイントの関連リスト、および担当者 ID（常にリード／取引先責任者のメールアドレス）のルックアップが表示されます。[!DNL Marketo Measure] 担当者はリードと取引先責任者オブジェクトに関連しているので、Buyer Attribution Touchpoint に関連付けられた [!DNL Marketo Measure] 担当者レコードは存在しません。以下に、Salesforce 内の [!DNL Marketo Measure] 担当者レコードの例を示します。
 
 ![](assets/4.png)
 
 ## [!DNL Marketo Measure] A/B テスト {#marketo-measure-a-b-test}
 
-A/B テストを [!DNL Optimizely] または VWO(Visual Web Optimizer) を使用して、これらのアカウントを [!DNL Marketo Measure] Salesforce 内で A/B テストデータを表示するアカウント。 The [!DNL Marketo Measure] A/B テストオブジェクトを使用すると、基本的に Optimizely/VWO から A/B テストデータを取得し、そのデータをリードと連絡先に結び付けることができます。
+A/B テストを [!DNL Optimizely] または VWO（Visual Web Optimizer）を使用して実行している場合は、それらのアカウントを [!DNL Marketo Measure] アカウントに接続して、Salesforce 内で A/B テストデータを表示できます。[!DNL Marketo Measure] A/B テストオブジェクトを使用すると、基本的に Optimizely／VWO から A/B テストデータを取得し、そのデータをリードと取引先責任者に結び付けることができます。
 
 ![](assets/5.png)
 
-The [!DNL Marketo Measure] A/B テストオブジェクトは、 [!UICONTROL リード], [!UICONTROL 連絡先] および [!UICONTROL 商談] ページ。 リストは、Optimizely または VWO を通じて実行しているすべての実験とバリエーションを表示し、特定のリードと連絡先に関連する実験とバリエーションを確認できます。
+[!DNL Marketo Measure] A/B テストオブジェクトは、[!UICONTROL リード]、[!UICONTROL 取引先責任者]および[!UICONTROL 商談]ページに関連リストとして表示されます。このリストでは、Optimizely または VWO を通じて実行しているすべての実験とバリエーションを表示し、特定のリードと取引先責任者に関連する実験やバリエーションを確認できます。
 
 ## [!DNL Marketo Measure] イベント {#marketo-measure-events}
 
-The [!DNL Marketo Measure] イベントオブジェクトを使用すると、Web サイトで発生した特定のイベントを追跡できます。 Web サイトで発生する特定のイベントを追跡するには、ページに加えて、カスタムコードを追加する必要があります。 [!DNL Marketo Measure] JavaScript。 取り込んだ情報は、 [!DNL Marketo Measure] オブジェクト関連リスト ( [!UICONTROL リード], [!UICONTROL 連絡先] および [!UICONTROL 商談] ページ。 The [!DNL Marketo Measure] Events オブジェクト *次の値と等しくない* アトリビューションデータに関連付けます。 このオブジェクトの目的は、訪問者が Web サイト上で特定のアクションを実行しているかどうかを確認することです。
+[!DNL Marketo Measure] イベントオブジェクトを使用すると、web サイトで発生した特定のイベントを追跡できます。Web サイトで発生する特定のイベントを追跡するには、[!DNL Marketo Measure] JavaScript に加えて、ページにカスタムコードを追加する必要があります。取り込んだ情報は、[!DNL Marketo Measure] オブジェクト関連リスト（[!UICONTROL リード]、[!UICONTROL 取引先責任者]および[!UICONTROL 商談]ページ）内に表示されます。[!DNL Marketo Measure] イベントオブジェクトは属性データに&#x200B;*関連付けられません*。このオブジェクトの目的は、訪問者が web サイト上で特定のアクションを実行しているかどうかを確認することです。
 
 ## [!DNL Marketo Measure] フィールド {#marketo-measure-fields}
 
-によって取り込まれたデータ [!DNL Marketo Measure] JavaScript がカスタムにプッシュされます [!DNL Marketo Measure] アドビの [!DNL Marketo Measure] オブジェクト。 特定のフィールドは、特定のオブジェクトにのみ存在します。 の用語集 [!DNL Marketo Measure] フィールドを入力してください [ここをクリック](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md). のビジュアライゼーションの場合 [!DNL Marketo Measure] 各オブジェクト [!DNL Marketo Measure] 関連するフィールドを選択してください。 [ここをクリック](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+[!DNL Marketo Measure] JavaScript によって取り込まれたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。特定のフィールドは、特定のオブジェクトにのみ存在します。すべての [!DNL Marketo Measure] フィールドの用語集については、[こちらをクリック](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)してください。各 [!DNL Marketo Measure] フィールドがどの [!DNL Marketo Measure] オブジェクトに関連しているかを視覚的に確認するには、[こちらをクリック](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)してください。
 
 ## [!DNL Marketo Measure] レポートとダッシュボード {#marketo-measure-reports-and-dashboards}
 
-The [!DNL Marketo Measure] に追加されたレポートとダッシュボード [!DNL Salesforce] には、標準のレポート機能とデータ視覚化機能が用意されています。 これらは基本です [!DNL Marketo Measure] タッチポイントデータをすばやく整理、分析、理解できるレポートです。
+[!DNL Salesforce] に追加された [!DNL Marketo Measure] レポートとダッシュボードには、標準のレポート機能とデータ視覚化機能が用意されています。この基本的な [!DNL Marketo Measure] レポートにより、タッチポイントデータをすばやく整理、分析、理解できます。
