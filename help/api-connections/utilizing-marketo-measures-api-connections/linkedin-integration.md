@@ -4,10 +4,10 @@ description: LinkedInの統合 — [!DNL Marketo Measure]  — 製品ドキュ�
 title: LinkedIn統合
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '2603'
-ht-degree: 2%
+source-wordcount: '2653'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ The [!DNL Marketo Measure] linkedInとの統合には、次の 2 つの部分が
 
 ## 利用可能性 {#availability}
 
-すべてのお客様が利用できます。
+すべてのユーザーが利用できます。
 
 ## 要件 {#requirements}
 
@@ -127,6 +127,12 @@ The [!DNL Marketo Measure] linkedInとの統合には、次の 2 つの部分が
 
 ## 仕組み：リードジェネレーションForms {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's]独自の自動タグ付け要件**
+
+[!DNL Marketo Measure] は、ランディングページに自動タギングすることによって、 キャンペーンの効果を追跡できます。[!DNL LinkedIn]
+
+[!DNL Marketo Measure] 一意のLinkedIn Share を持つクリエイティブを検索し、 `?_bl={creativeId}` パラメーターを最後に追加する必要があります。
+
 **プロセス**
 
 ～ [!DNL LinkedIn's] 広告フォーム API と広告フォーム応答 API を使用すると、広告アカウントのフォーム送信データを収集し、電子メールアドレスを CRM またはMarketoのリードに関連付けることができます。
@@ -162,95 +168,99 @@ Campaign やクリエイティブのステータスに関係なく、すべて�
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>タッチポイントフィールド</th> 
+   <th style="width:30%">タッチポイントフィールド</th> 
    <th>サンプル値</th> 
   </tr> 
   <tr> 
-   <td><p>広告 ID </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>広告 ID</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>広告コンテンツ </p></td> 
-   <td><p>copy-1-image-2-man 95%のマーケターは、需要創出戦略を成功に導くと考えていま#B2B。 詳細情報： [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
+   <td>広告コンテンツ</td>
+   <td>copy-1-image-2-man 95%のマーケターは、需要創出戦略を成功に導くと考えていま#B2B。 詳細情報： [!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>広告グループ ID </p></td> 
-   <td><p>(空白) </p></td> 
+   <td>広告グループ ID</td>
+   <td>(空白)</td>
   </tr> 
   <tr> 
-   <td><p>広告グループ名 </p></td> 
-   <td><p>(空白) </p></td> 
+   <td>広告グループ名</td>
+   <td>(空白)</td>
   </tr> 
   <tr> 
-   <td><p>広告キャンペーン ID </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>広告キャンペーン ID</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>広告キャンペーンの名前 </p></td> 
-   <td><p>SU - COM Accounts - Demand Skills </p></td> 
+   <td>広告キャンペーン名</td>
+   <td>SU - COM Accounts - Demand Skills</td>
   </tr> 
   <tr> 
-   <td><p>広告のリンク先 URL </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>広告のリンク先 URL <b>*</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>フォーム/URL </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>フォーム/URL</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>フォーム URL — 生 </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>フォーム URL — 生</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>キーワード ID </p></td> 
-   <td><p>(空白) </p></td> 
+   <td>キーワード ID</td> 
+   <td>(空白)</td> 
   </tr> 
   <tr> 
-   <td><p>キーワード一致タイプ </p></td> 
-   <td><p>(空白) </p></td> 
+   <td>キーワード一致タイプ</td> 
+   <td>(空白)</td> 
   </tr> 
   <tr> 
-   <td><p>ランディングページ </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>ランディングページ</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>ランディングページ — Raw </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>ランディングページ — Raw</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>マーケティングチャネル </p></td> 
-   <td><p>ペイドソーシャル </p></td> 
+   <td>マーケティングチャネル</td> 
+   <td>有料ソーシャル</td> 
   </tr> 
   <tr> 
-   <td><p>マーケティングチャネル — パス </p></td> 
-   <td><p>ペイドソーシャル。LinkedIn </p></td> 
+   <td>マーケティングチャネル — パス</td> 
+   <td>ペイドソーシャル。LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>中 </p></td> 
-   <td><p>"cpc"または"リード生成フォーム"</p></td> 
+   <td>中</td> 
+   <td>"cpc"または"リード生成フォーム"</td> 
   </tr> 
   <tr> 
-   <td><p>参照元ページ </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>参照元ページ</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>リファラーページ — Raw </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>リファラーページ — Raw</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>検索フレーズ </p></td> 
-   <td><p>(空白) </p></td> 
+   <td>検索フレーズ</td> 
+   <td>(空白)</td> 
   </tr> 
   <tr> 
-   <td><p>Touchpointのタイプ </p></td> 
-   <td><p>ウェブフォーム </p></td> 
+   <td>Touchpoint のタイプ</td> 
+   <td>ウェブフォーム</td>
   </tr> 
   <tr> 
-   <td><p>Touchpoint ソース </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>Touchpoint ソース</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _「広告のリンク先 URL」フィールドは、スポンサー付きコンテンツ用にのみ設定されます。 リードジェネレーションFormsの場合は入力されません。_
+
+<br>
 
 ## コスト {#costs}
 
