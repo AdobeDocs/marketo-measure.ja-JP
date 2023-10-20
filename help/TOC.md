@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
+source-git-commit: 2d2fe74998abd853f6592c5e65edfe2ce39d7ce6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 100%
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -128,6 +128,7 @@ ht-degree: 100%
    + カスタム収益額 {#custom-revenue-amount}
       + [カスタム収益額の利用のベストプラクティス](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
       + [カスタム収益額フィールドの使用](advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+      + [テストドキュメント](advanced-marketo-measure-features/custom-revenue-amount/doc.md)
       + [データローダーを使用した [!DNL Marketo Measure] カスタム金額フィールドの更新](advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
    + ビュースルーアトリビューション {#view-through-attribution}
       + [[!DNL Marketo Measure] ビュースルーアトリビューションに関するよくある質問](advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)
