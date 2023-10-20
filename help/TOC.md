@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: d65b850e3210ff35b0dedb8e20f4ec91fdfed965
+source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
 workflow-type: ht
-source-wordcount: '804'
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,6 @@ ht-degree: 100%
       + [[!DNL Marketo Measure] クッキー](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
       + [ [!DNL Marketo Measure] Web セッションの定義](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [テストのベストプラクティス](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
-      + [Cookie の同期の遅延](marketo-measure-tracking/setting-up-tracking/delayed-cookie-sync.md)
 + セットアップと設定 {#configuration-and-setup}
    + [!DNL Marketo Measure] の概要 {#getting-started-with-marketo-measure}
       + [タッチポイントの生成とマッピング](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
