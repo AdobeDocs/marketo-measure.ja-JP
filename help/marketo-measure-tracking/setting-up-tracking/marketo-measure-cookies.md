@@ -5,9 +5,9 @@ title: 「[!DNL Marketo Measure] クッキー」
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 42%
     <th>cookie タイプ</th>
     <th>目的</th>
     <th>有効期限</th>
-    <th>セキュアフラグが設定されているか。<br></th>
+    <th>セキュリティで保護されたフラグが設定されていますか？<br></th>
     <th>HTTP のみのフラグが設定されていますか？</th>
-    <th>Cookie Setter</th>
+    <th>cookie セッター</th>
   </tr>
 </thead>
 <tbody>
   <tr>
     <td>_biz_uid</td>
     <td>ファーストパーティ</td>
-    <td>現在のドメインでユーザーを一意に識別します。</td>
+    <td>現在のドメインでユーザを一意に識別します。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -40,7 +40,7 @@ ht-degree: 42%
   <tr>
     <td>_biz_nA</td>
     <td>ファーストパーティ</td>
-    <td>内部診断のためのすべてのリクエストにMarketo Measureが含めるシーケンス番号。</td>
+    <td>内部診断目的で、Marketo Measure がすべてのリクエストに含めるシーケンス番号です。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -49,7 +49,7 @@ ht-degree: 42%
   <tr>
     <td>_biz_flagsA</td>
     <td>ファーストパーティ</td>
-    <td>フォーム送信、クロスドメイン移行、ビュースルーピクセル、オプトアウトステータスの追跡など、様々なユーザー情報を保存する cookie。</td>
+    <td>フォーム送信、クロスドメイン移行、ビュースルーピクセル、トラッキングのオプトアウトステータスなど、様々なユーザ情報を保存する cookie です。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -58,7 +58,7 @@ ht-degree: 42%
   <tr>
     <td>_biz_pendingA</td>
     <td>ファーストパーティ</td>
-    <td>分析データは、Marketo Measureサーバーに正常に送信されるまで一時的に保存されます。</td>
+    <td>Marketo Measure サーバーに正常に送信されるまで、分析データを一時的に保存します。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -67,7 +67,7 @@ ht-degree: 42%
   <tr>
     <td>_biz_ABTestA</td>
     <td>ファーストパーティ</td>
-    <td>Optimizely および Visual Web Optimizer ABTests のデータが既にレポートされている場合に、bizible.js が収集データを再送信できないようにするチェックサムのリスト。</td>
+    <td>既に報告されている Optimizely および Visual Web Optimizer AB テストデータからのチェックサムのリストです。これにより、bizible.js では収集したデータを再送信できなくなります。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -76,7 +76,7 @@ ht-degree: 42%
   <tr>
     <td>_biz_EventA</td>
     <td>ファーストパーティ</td>
-    <td>bizible.js が収集したデータを再送信するのを防ぐために Bizible イベントが報告したチェックサムのリスト。</td>
+    <td>bizible.js で収集したデータを再送信するのを防ぐために、Bizible イベントによって報告されるチェックサムのリストです。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -85,7 +85,7 @@ ht-degree: 42%
   <tr>
     <td>_biz_su</td>
     <td>ファーストパーティ</td>
-    <td>複数のドメインにわたってユーザーを識別するユニバーサルユーザー ID。ITP の制限を回避し、統合をおこなったテナントにのみ適用できます。</td>
+    <td>複数のドメイン間でユーザを識別するユニバーサルユーザ ID です。ITP 制限をバイパスする統合を備えたテナントにのみ適用されます。</td>
     <td>1 年</td>
     <td>はい</td>
     <td>いいえ</td>
@@ -93,8 +93,8 @@ ht-degree: 42%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>サードパーティ、domain=.<a href="http://bizible.com/">bizible.com</a></td>
-    <td>複数のドメインをまたいでユーザーを識別するためのユニバーサルユーザー ID。</td>
+    <td>サードパーティ、ドメイン =.<a href="http://bizible.com/">bizible.com</a></td>
+    <td>複数のドメイン間でユーザを識別するユニバーサルユーザ ID です。</td>
     <td>1 年</td>
     <td>はい</td>
     <td>いいえ</td>
@@ -102,8 +102,8 @@ ht-degree: 42%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>サードパーティ、domain=.<a href="http://bizibly.com/">bizibly.com</a></td>
-    <td>テナントのドメインのMarketo Measure Cookie ID とその Doubleclick インプレッション Cookie ID とのマッピング。</td>
+    <td>サードパーティ、ドメイン =.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>テナントのドメインの Marketo Measure cookie ID とその Doubleclick インプレッション cookie ID 間のマッピングです。</td>
     <td>1 年</td>
     <td>はい</td>
     <td>いいえ</td>
