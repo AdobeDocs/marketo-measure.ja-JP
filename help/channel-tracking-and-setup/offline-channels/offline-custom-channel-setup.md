@@ -4,7 +4,7 @@ description: オフラインカスタムチャネルの設定 — [!DNL Marketo 
 title: オフラインカスタムチャネル設定
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -59,7 +59,7 @@ SFDC キャンペーンのタイプが [ オフラインチャネル ] タブの
 
 時間をかけて～に入る [!DNL Salesforce] 既存のレコードタイプの数と特性（含めるレコードタイプ）、および上記の情報に基づいて追加のキャンペーンを作成する必要があるかどうかを判断する場合。 必要な情報をすべて入力したら、アップロードの準備が整いました。
 
-詳細情報： [オフラインでの同期 [!DNL Salesforce] 次を使用するキャンペーン [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
+詳細情報： [オフラインでの同期 [!DNL Salesforce] 次を使用するキャンペーン [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## オンラインマーケティング活動のための SFDC キャンペーンの処理 {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

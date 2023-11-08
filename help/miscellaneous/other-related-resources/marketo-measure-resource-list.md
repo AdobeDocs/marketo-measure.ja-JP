@@ -4,10 +4,10 @@ description: '"[!DNL Marketo Measure] リソースリスト — [!DNL Marketo Me
 title: "[!DNL Marketo Measure] リソースリスト"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 7%
 * [オフラインチャネルの設定](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 * [UTM パラメーターとは](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [UTM のベストプラクティス](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
-* [SFDC キャンペーンと購入者タッチポイントの同期](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
+* [SFDC キャンペーンと購入者タッチポイントの同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [マーケティング費用のアップロード](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [広告アカウントの再接続](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [追加中 [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
@@ -59,7 +59,7 @@ ht-degree: 7%
 対象となるトピック：
 
 * アトリビューションとは
-* 説明 [!DNL Marketo Measure]
+* [!DNL Marketo Measure] とは
 * [!DNL Marketo Measure] データ
 * タッチポイント
 * アトリビューションモデル

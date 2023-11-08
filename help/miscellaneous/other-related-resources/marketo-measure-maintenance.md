@@ -4,7 +4,7 @@ description: '"[!DNL Marketo Measure] メンテナンス — [!DNL Marketo Measu
 title: "[!DNL Marketo Measure] メンテナンス"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 **新しいオフラインキャンペーン用の購入者タッチポイントの同期（月 2 回）**
 
-オンボーディング時に学習した内容 [!DNL Marketo Measure] は、CRM のキャンペーンと同期して、オフラインマーケティング活動に関する情報を取得します。 組織が新しいキャンペーンを開始したら、必要に応じて、各キャンペーンの購入者タッチポイントを有効にしてください。 チェックアウト [この記事](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)を参照してください。
+オンボーディング時に学習した内容 [!DNL Marketo Measure] は、CRM のキャンペーンと同期して、オフラインマーケティング活動に関する情報を取得します。 組織が新しいキャンペーンを開始したら、必要に応じて、各キャンペーンの購入者タッチポイントを有効にしてください。 チェックアウト [この記事](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)を参照してください。
 
 **すべてのチャネルのアップロード費用（1 回/月）**
 
@@ -40,7 +40,7 @@ Marketo Measureは、JavaScript がアクティブなすべてのページおよ
 * 現在、設定した「その他」または「NULL」チャネルに分類されているタッチポイントを確認します。 必要に応じて、マッピングロジックを更新し、それらのタッチポイントをより正確なチャネルに再分類します。
 * 現在ダイレクトチャネルに分類されているタッチポイントを確認します。 電子メールマーケティングキャンペーンやその他の取り組みの一部で UTM パラメーターが欠落している場合は、トラフィックが不適切にダイレクトチャネルにグループ化されている可能性が高くなります。 参照元を取り込むには、UTM パラメーターの更新を検討してください。
 
-**タッチポイント抑制設定の評価（1x/四半期）**
+**タッチポイント抑制設定の評価（1 x /四半期）**
 
 多数のタッチポイントが表示されている場合は、( [!DNL Login] または [!DNL Unsubscribe forms]、キャリアページ、内部アプリなど ) の場合は、既存のタッチポイント抑制設定を評価できます。 1 四半期に 1 回、不要なノイズを生成しているタッチポイントのグループを特定し、抑制ロジックを適切に更新します。 [次に、役立つ記事を示します。](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)  ハウツーと
 

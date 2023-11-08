@@ -3,10 +3,10 @@ description: オフラインチャネルのベストプラクティス — [!DNL
 title: オフラインチャネルのベストプラクティス
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 正確にするには [!DNL Marketo Measure] レポートを使用する場合は、マーケティングチャネルが正しくセットアップされている必要があります。 &#39;[!UICONTROL マーケティングチャネル]「 」フィールドには、タッチポイントが属することのできる最上位レベルのマーケティング戦術のグループが表示されます（イベント、ウェビナー、コンテンツ同時配信など）。
 
-マーケティングチャネルの設定には、オンラインとオフラインの 2 つの側面があります。 このドキュメントでは、 [!DNL Marketo Measure] オフラインチャネルの設定と管理、およびオフラインチャネルとの同期方法に関するベストプラクティスの推奨事項 [!DNL Marketo Measure] CRM キャンペーンを使用。
+マーケティングチャネルの設定には、オンラインとオフラインの 2 つの側面があります。このドキュメントでは、 [!DNL Marketo Measure] オフラインチャネルの設定と管理、およびオフラインチャネルとの同期方法に関するベストプラクティスの推奨事項 [!DNL Marketo Measure] CRM キャンペーンを使用。
 
 オフラインチャネルには、次の 2 つの主要な側面があります。
 
@@ -32,7 +32,7 @@ ht-degree: 2%
 初めてオフラインチャネルをマッピングする場合でも、正確性を確認するためにオフラインチャネルをレビューする場合でも、次のベストプラクティスに留意してください。
 
 * オフラインチャネル用の計画的なフレームワークの作成
-   * マーケティングキャンペーンの組織と、キャンペーンが [!DNL Marketo Measure] フレームワーク。 オフラインチャネルに表現するチャネルとサブチャネル、およびこれらのチャネルを相互に区別する CRM キャンペーンタイプを決定します
+   * マーケティングキャンペーンの組織と、それが [!DNL Marketo Measure] フレームワークにどのように適合するかを、じっくり考えてみてください。オフラインチャネルに表現するチャネルとサブチャネル、およびこれらのチャネルを相互に区別する CRM キャンペーンタイプを決定します
 * 最初に、現在の CRM キャンペーンの「タイプ」値を利用するように作業します
    * オフラインチャネルは CRM キャンペーン「タイプ」で定義されますが、理想的なオフラインチャネルおよびサブチャネルの値に対応するために、カスタム CRM キャンペーン「タイプ」の値を作成する必要がある場合があります。 理想的なカスタム CRM キャンペーンの「タイプ」の値には、次の命名規則が含まれている必要があります。
       * CHANNEL - SUBCHANNEL
@@ -72,9 +72,9 @@ ht-degree: 2%
 >
 >* [オフラインチャネルの設定](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [カスタムキャンペーンの同期 — アプリの同期](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [オフラインキャンペーンの同期 — CRM 同期](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
->* [オフラインキャンペーンおよびキャンペーンメンバー — CRM 同期](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
->* [キャンペーン同期日 — CRM 同期](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+>* [オフラインキャンペーンの同期 — CRM 同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [オフラインキャンペーンおよびキャンペーンメンバー — CRM 同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [キャンペーン同期日 — CRM 同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 >* [複数のキャンペーンレコードタイプの設定](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [キャンペーンリストビューの作成](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [履歴データの同期](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+>* [キャンペーンリストビューの作成](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [履歴データの同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

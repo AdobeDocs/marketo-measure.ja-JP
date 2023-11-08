@@ -4,10 +4,10 @@ description: Salesforce Sandbox とのMarketo Measure統合のテスト — [!DN
 title: Salesforce Sandbox とのMarketo Measure統合のテスト
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>アドビのドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には「Bizible」と表示されます。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 いずれかの [!DNL Marketo Measure] 主な機能は、Web サイト上でのアクションを通じてデジタルマーケティングの取り組みを追跡し、そのデータを実稼動環境にプッシュする機能です [!DNL Salesforce org] リードと連絡先から。 ただし、通常、サンドボックス統合内に Web サイトから作成されたインバウンドリードはないので、データに対する焦点は純粋にオフラインの観点からなります。
 
-次に、テストの両方の段階で参照される 2 つのソースを示します。 [手順 1 ～ 4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) および [手順 5～6](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md). 一部の領域で詳細を提供するので、これらのドキュメントを確認することをお勧めします。
+次に、テストの両方の段階で参照される 2 つのソースを示します。 [手順 1 ～ 4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) および [手順 5～6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). 一部の領域で詳細を提供するので、これらのドキュメントを確認することをお勧めします。
 
 1. リードをキャンペーンにアップロードするには、CSV でリードを作成する必要があります。 これをおこなう方法は、実稼動版の Salesforce のレポートから一部のリードを書き出すことです。 それ以外の場合は、Excel ファイルにリードを手動で作成し、読み込むための CSV として保存できます。 必要なレコードは約 20 個です。 ファイルには次の列が必要です。
 

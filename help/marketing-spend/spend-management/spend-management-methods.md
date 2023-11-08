@@ -3,7 +3,7 @@ description: 支出管理方法 — [!DNL Marketo Measure]  — 製品ドキュ�
 title: 支出管理方法
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 2%
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 有効化すると、この機能は、以下の条件を満たす任意の CRM キャンペーン/プログラムから支出を自動的に抽出します。
 
-i. [!DNL Marketo Measure] 最初に、Campaign/Program がタッチポイントを作成しているかどうかを調べます。 [キャンペーン同期ルール](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 作成された、または一致する [プログラム同期ルール](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) 作成された、または [購入者タッチポイント値の有効化](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) は、「すべてのキャンペーンメンバーを含む」または「返信済みのキャンペーンメンバーを含む」です。
+i. [!DNL Marketo Measure] 最初に、Campaign/Program がタッチポイントを作成しているかどうかを調べます。 [キャンペーン同期ルール](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 作成された、または一致する [プログラム同期ルール](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) 作成された、または [購入者タッチポイント値の有効化](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) は、「すべてのキャンペーンメンバーを含む」または「返信済みのキャンペーンメンバーを含む」です。
 
 ii.開始日をキャンペーン/プログラムに入力する必要があります
 
