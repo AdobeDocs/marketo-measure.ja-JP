@@ -3,10 +3,10 @@ description: "[!DNL Marketo Measure] Salesforce パッケージのインスト�
 title: "[!DNL Marketo Measure] [!DNL Salesforce] パッケージのインストールと設定"
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '543'
-ht-degree: 100%
+source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 99%
 
 ---
 
@@ -48,16 +48,6 @@ ht-degree: 100%
 >
 >作成された [!DNL Marketo Measure] 権限セットおよび[使用方法](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}について参照してください。
 
-## [!DNL Marketo Measure] ダッシュボードパッケージのインストール {#install-marketo-measure-dashboard-package}
-
-[!UICONTROL ダッシュボード]拡張パッケージには、3 つの事前定義済みダッシュボードが含まれています。すべてのユーザーに対して、実稼動[!UICONTROL 内]にインストールすることをお勧めします。
-
-1. [[!DNL Salesforce] AppExchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"} からパッケージをインストールします。
-
-1. 「**[!UICONTROL すべてのユーザーにインストール]**」を選択します。
-
-   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
-
 ## [!DNL Marketo Measure] プロファイルおよびユーザーの作成 {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] は、接続された [!DNL Salesforce] ユーザーを通じて [!DNL Marketo Measure] アプリ内でデータを送受信します。
@@ -98,3 +88,7 @@ Salesforce にデータをプッシュする際に検証エラーが発生しな
 1. **[!UICONTROL 統合]**&#x200B;グループで&#x200B;**[!UICONTROL 接続]**&#x200B;を選択します。
 
 1. 現在接続されている [!DNL Salesforce] 接続の右側にあるキーアイコンをクリックして、**実稼動で再認証**&#x200B;を選択します。新規ユーザー資格情報でもう一度ログインします（メッセージが表示された場合）。
+
+>[!MORELIKETHIS]
+>
+>[Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
