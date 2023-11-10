@@ -4,9 +4,9 @@ title: "[!DNL Marketo Measure] [!DNL Salesforce] パッケージのインスト�
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
 source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '510'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,4 +91,4 @@ Salesforce にデータをプッシュする際に検証エラーが発生しな
 
 >[!MORELIKETHIS]
 >
->[Adobe Admin Console Setup](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+>[Adobe Admin Console の設定](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
