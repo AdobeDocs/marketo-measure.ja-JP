@@ -45,7 +45,7 @@ ht-degree: 99%
    + [!DNL Marketo Measure] の概要 {#getting-started-with-marketo-measure}
       + [タッチポイントの生成とマッピング](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [アトリビューションマッピング手法](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
-      + [Adobe Admin Console Setup](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
+      + [Adobe Admin Console の設定](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Buyer Touchpoints と Buyer Attribution Touchpoints の違い](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [BT と [!DNL BATs] にわたる Touchpoint の位置と生成の説明](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [[!DNL Marketo Measure] CRM パッケージレス統合](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
