@@ -1,60 +1,60 @@
 ---
-description: Adobe Admin Consoleのセットアップ — Marketo Measure — 製品ドキュメント
-title: Adobe Admin Console Setup
+description: Adobe Admin Console の設定 - Marketo Measure - 製品ドキュメント
+title: Adobe Admin Console の設定
 feature: Installation
 source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '405'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Adobe Admin Console Setup {#adobe-admin-console-setup}
+# Adobe Admin Console の設定 {#adobe-admin-console-setup}
 
-を使用する最初の手順 [!DNL Marketo Measure] は、プロビジョニングされたAdobe Admin Consoleを作成してログインするためのものです。 ログイン手順が記載された電子メールがまだ届いていない場合は、 [!DNL Marketo Measure] アカウント担当者。
+[!DNL Marketo Measure] を使用する最初の手順は、プロビジョニングされた Adobe Admin Console を作成してログインすることです。ログイン手順が記載されたメールがまだ届いていない場合は、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
 
-## Adobe Admin Consoleと ID プロバイダーの設定 {#set-up-your-adobe-admin-console-and-identity-provider}
+## Adobe Admin Console と ID プロバイダーの設定 {#set-up-your-adobe-admin-console-and-identity-provider}
 
-製品としてのAdobeスイート [!DNL Marketo Measure] は、Adobe Admin Console for Identity Managementのすべての機能を活用します。 追加のリソースを使用できます [ここにある](https://helpx.adobe.com/jp/enterprise/using/admin-console.html).
+[!DNL Marketo Measure] は、Adobe Suite 内の製品として、Adobe Admin Console for Identity Management の全機能を活用します。その他のリソースは、[こちらを参照](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)してください。
 
-利用可能なすべてのリソース、ベストプラクティスおよびオプションを確認することをお勧めします。 [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+[Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html) で利用できるすべてのリソース、ベストプラクティスおよびオプションを確認することをお勧めします。
 
-Adobe Admin Console内でのIdentity Managementの設定に関するガイダンスと確認については、 [!DNL Marketo Measure] アカウント担当者。
+Adobe Admin Console 内での Identity Management の設定に関するガイダンスと確認については、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
 
-を使用してユーザーの認証と承認を容易におこなえるように [!DNL Marketo Measure] インスタンスの場合、Adobe Admin Console内で次の手順を実行する必要があります。
+[!DNL Marketo Measure] インスタンスでのユーザ認証と承認を容易に行えるようにするには、Adobe Admin Console 内で次の手順を実行する必要があります。
 
-**の設定 [!DNL Marketo Measure] 製品カード**
+**[!DNL Marketo Measure] 製品カードの設定**
 
-Adobe Admin Consoleにアクセスすると、 [!DNL Marketo Measure] 「概要」セクションに存在する製品インスタンス。
+Adobe Admin Console にアクセスすると、「概要」セクションに [!DNL Marketo Measure] 製品インスタンスが表示されます。
 
 ![](assets/adobe-admin-console-setup-1.png)
 
-クリック [!DNL Marketo Measure] 製品カードには、 [!DNL Marketo Measure] インスタンス。 デフォルトでは、 [!DNL Marketo Measure] インスタンスには、「 」というプレフィックスが付いた独自のプロファイルがあります[!DNL Marketo Measure]&#39;. このインスタンス内のこのまたは他のプロファイルに追加された管理者またはユーザーは、にログインできます [!DNL Marketo Measure].
+[!DNL Marketo Measure] 製品カードをクリックすると、すべての [!DNL Marketo Measure] インスタンスが表示されます。デフォルトでは、各 [!DNL Marketo Measure] インスタンスには「[!DNL Marketo Measure]」というプレフィックスが付いた独自のプロファイルがあります。このインスタンス内のこのプロファイルや他のプロファイルに追加された管理者またはユーザは、[!DNL Marketo Measure] にログインできるようになります。
 
 ![](assets/adobe-admin-console-setup-2.png)
 
-内で新しいプロファイルを作成する際に必要なアクションはありません。 [!DNL Marketo Measure] 製品インスタンス。
+[!DNL Marketo Measure] 製品インスタンス内で新しいプロファイルを作成する際に必要なアクションはありません。
 
-次の手順で、アクセス可能なユーザーの追加を開始します： [!DNL Marketo Measure]を参照してください。詳しくは、 [追加中 [!DNL Marketo Measure] 管理者と [!DNL Marketo Measure] ユーザー](#adding-marketo-measure-admins-and-marketo-measure-users) 」の節を参照してください。
+[!DNL Marketo Measure] にアクセスできるユーザの追加を開始するには、以下の[ [!DNL Marketo Measure]  管理者と  [!DNL Marketo Measure]  ユーザの追加](#adding-marketo-measure-admins-and-marketo-measure-users)の節を参照してください。
 
-## 追加中 [!DNL Marketo Measure] 管理者と [!DNL Marketo Measure] ユーザー {#adding-marketo-measure-admins-and-marketo-measure-users}
+## [!DNL Marketo Measure] 管理者と [!DNL Marketo Measure] ユーザの追加 {#adding-marketo-measure-admins-and-marketo-measure-users}
 
-次の手順では、 [!DNL Marketo Measure] アプリケーションに反映されます。 これは、 [!DNL Marketo Measure] 製品カード。
+次の手順では、ユーザを追加して [!DNL Marketo Measure] アプリケーションへのアクセスを付与します。これは、[!DNL Marketo Measure] 製品カードの管理者およびユーザディレクトリで実行できます。
 
-| ユーザータイプ | 説明 |
+| ユーザタイプ | 説明 |
 |---|---|
-| 管理者 | 管理者と権限を持つユーザーが、 [!DNL Marketo Measure] 更新と管理を完全に行えるアプリケーション [!DNL Marketo Measure] — 特定の構成オプション |
-| ユーザ | これらは、 [!DNL Marketo Measure] 内の読み取り専用権限を持つアプリケーション [!DNL Marketo Measure] アプリ |
+| 管理者 | これらは、[!DNL Marketo Measure] 固有の設定オプションを更新および管理する完全な機能を持つ、[!DNL Marketo Measure] アプリケーションの管理者およびパワーユーザです。 |
+| ユーザ | これらは、[!DNL Marketo Measure] アプリケーション内で読み取り専用権限を持つ [!DNL Marketo Measure] アプリケーションの標準ユーザです。 |
 
-ユーザーを各グループに追加すると、そのユーザーの [リストされた ID タイプ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html).
+ユーザを各グループに追加すると、そのユーザの[リストされた ID タイプ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/set-up-identity.ug.html)が表示されます。
 
 >[!NOTE]
 >
->次の条件を満たすために [!DNL Marketo Measure] 管理者 ( [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}) の場合、ユーザーはユーザーとして追加する必要があります _および_ 管理者 [!DNL Marketo Measure] 内の製品プロファイル [!DNL Marketo Measure] 製品カード。
+>[!DNL Marketo Measure] 管理者（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）になるには、[!DNL Marketo Measure] 製品カード内の任意の [!DNL Marketo Measure] 製品プロファイルにユーザを、ユーザ&#x200B;_および_&#x200B;管理者として追加する必要があります。
 
-**へのログイン[!DNL Marketo Measure]**
+**[!DNL Marketo Measure]** へのログイン
 
-製品プロファイルにユーザーを追加すると、そのユーザーは [!DNL Marketo Measure] インスタンスを選択して、 **Adobe IDでログイン** オプション： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+製品プロファイルにユーザを追加すると、そのユーザは [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} で、「**Adobe ID でログイン**」オプションを選択して、[!DNL Marketo Measure] インスタンスにアクセスできるようになります。
 
 ![](assets/adobe-admin-console-setup-3.png)
 
