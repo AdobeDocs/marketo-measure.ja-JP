@@ -4,9 +4,9 @@ description: '"[!DNL Microsoft Dynamics] CRM インストールガイド — Mar
 title: '"[!DNL Microsoft Dynamics] CRM インストールガイド»'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '972'
 ht-degree: 18%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 18%
 
 ![](assets/3.png)
 
-## [!DNL Marketo Measure] ユーザーの権限 {#marketo-measure-user-permissions}
+## の作成 [!DNL Marketo Measure] ユーザー {#creating-a-marketo-measure-user}
 
-専用の [!DNL Marketo Measure] Dynamics 内のユーザーが、CRM の他のユーザーとの問題を回避するために、データのエクスポートおよびインポートに使用します。 ユーザー名とパスワード、およびエンドポイント URL をメモしておきます。これは、 [!DNL Marketo Measure] アカウント。
+CRM の他のユーザーとの問題を回避するために、Dynamics 内で専用のMarketo Measureユーザーを「アプリケーションユーザー」として作成して、データのエクスポートとインポートをおこなうことをお勧めします。 ユーザー名とパスワード、およびエンドポイント URL をメモします。これらは、 [!DNL Marketo Measure] アカウント。
 
 ## セキュリティロール {#security-roles}
 

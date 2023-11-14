@@ -4,10 +4,10 @@ description: Salesforce サンドボックスから実稼動への移行 — [!D
 title: Salesforce サンドボックスの実稼動への移行
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 8%
+source-wordcount: '331'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 8%
 * 2 つの [!DNL Marketo Measure] パッケージを「[!UICONTROL すべてのユーザー]&quot;設定
 
    * [ベースパッケージ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
-   * [ダッシュボード拡張機能パッケージ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * 詳しくは、 [!DNL Marketo Measure] ～との関係 [!DNL Salesforce]を参照してください。 [この記事](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * 少しの [!DNL Salesforce] 設定が必要です。 具体的なアクション項目については、以下で概要を説明します。 [以下の手順 4](#salesforce-configuration)
