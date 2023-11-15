@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
 source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 99%
       + [オフラインカスタムチャネル設定](channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
       + [カスタムキャンペーン同期](channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
       + [複数のキャンペーンレコードタイプの設定](channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
-      + 既存のプロセス {#legacy-processes}
+      + 従来のプロセス {#legacy-processes}
          + [[!UICONTROL キャンペーンとキャンペーンメンバー]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
          + [キャンペーンの同期日](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
          + [ [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
