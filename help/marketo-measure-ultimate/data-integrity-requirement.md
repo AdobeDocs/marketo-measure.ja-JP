@@ -4,7 +4,7 @@ title: '''[!DNL Marketo Measure] 究極のデータ整合性要件`'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 3725ef14f90269ebdada1d81692f3b7283e6ec6e
+source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 22%
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 ## エンティティオブジェクト {#entity-object}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>XDM クラス</th>
     <th>XDM フィールドグループ</th>
@@ -1051,7 +1051,7 @@ ht-degree: 22%
 
 ## サポートされる ExperienceEvent タイプ {#experienceevent-type-supported}
 
-<table>
+<table style="table-layout:auto">
   <tr>
     <th>イベントタイプ</th>
     <th>XDM イベントタイプ</th>
