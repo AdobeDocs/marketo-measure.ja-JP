@@ -1,19 +1,20 @@
 ---
-description: '''[!DNL Marketo Measure] 究極のデータ整合性要件 — [!DNL Marketo Measure]  — 製品ドキュメント`'
-title: '''[!DNL Marketo Measure] 究極のデータ整合性要件`'
+description: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件 - [!DNL Marketo Measure] - 製品ドキュメント」
+title: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件」
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
-workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 22%
+exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
+source-git-commit: 4d4dd1817547dc9fff0dd1f1b5e8bb88f5809120
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] 究極のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
+# [!DNL Marketo Measure] Ultimate のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] は、受信 AEP データセットを検証し、データが属性の目的で十分で一貫性があることを確認します。 データの整合性要件を満たさないと、 [!DNL Marketo Measure] システム。 このドキュメントでは、データの整合性要件の詳細を説明し、データ検査のクエリ例を示し、null 値を持つ必須フィールドに対する解決策を推奨します。
+[!DNL Marketo Measure] は、受信 AEP データセットを検証し、データが属性の目的で十分で一貫性があることを確認します。データの整合性要件を満たさないと、データセットは [!DNL Marketo Measure] システムによって却下されます。このドキュメントでは、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドに対する解決策をお勧めします。
 
 ## エンティティオブジェクト {#entity-object}
 
@@ -29,7 +30,7 @@ ht-degree: 22%
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>アカウント</strong> (Marketoの Salesforce、会社、特定アカウントのアカウント )</td>
+      <td colspan="7"><strong>アカウント</strong>（Salesforce 用のアカウント、Marketo 用の会社／指定アカウント）</td>
     </tr>
     <tr>
       <td rowspan="6">XDM ビジネスアカウント</td>
@@ -38,7 +39,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 123@999-abc-888.Marketo</td>
+      <td>例 - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -46,7 +47,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例： - 123</td>
+      <td>例 - 123</td>
     </tr>
     <tr>
       <td></td>
@@ -54,7 +55,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -62,7 +63,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -90,7 +91,7 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>Campaign</strong> (Salesforce 用キャンペーン、Marketo用プログラム )</td>
+      <td colspan="7"><strong>キャンペーン</strong>（Salesforce 用のキャンペーン、Marketo 用のプログラム）</td>
     </tr>
     <tr>
       <td rowspan="8">XDM ビジネスキャンペーン</td>
@@ -99,7 +100,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 55555@999-abc-888.Marketo</td>
+      <td>例 - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -107,7 +108,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例： - 55555</td>
+      <td>例 - 55555</td>
     </tr>
     <tr>
       <td></td>
@@ -115,7 +116,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -123,7 +124,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -172,7 +173,7 @@ ht-degree: 22%
       <td>date-time</td>
       <td>StartDate</td>
       <td>いいえ</td>
-      <td>キャンペーンコスト</td>
+      <td>キャンペーンコストの場合</td>
     </tr>
     <tr>
       <td></td>
@@ -180,7 +181,7 @@ ht-degree: 22%
       <td>date-time</td>
       <td>EndDate</td>
       <td>いいえ</td>
-      <td>キャンペーンコスト</td>
+      <td>キャンペーンコストの場合</td>
     </tr>
     <tr>
       <td></td>
@@ -188,7 +189,7 @@ ht-degree: 22%
       <td>number</td>
       <td>コスト</td>
       <td>いいえ</td>
-      <td>キャンペーンコスト</td>
+      <td>キャンペーンコストの場合</td>
     </tr>
     <tr>
       <td></td>
@@ -199,10 +200,10 @@ ht-degree: 22%
       </td>
       <td>CurrencyIsoCode</td>
       <td>いいえ</td>
-      <td>キャンペーンコスト</td>
+      <td>キャンペーンコストの場合</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>キャンペーンメンバー</strong> (Salesforce のキャンペーンメンバー、Marketoのプログラムメンバーシップ )</td>
+      <td colspan="7"><strong>キャンペーンメンバー</strong>（Salesforce 用のキャンペーンメンバー、Marketo 用のプログラムメンバーシップ）</td>
     </tr>
     <tr>
       <td rowspan="14">XDM ビジネスキャンペーンメンバー</td>
@@ -211,7 +212,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 987654321@999-abc-888.Marketo</td>
+      <td>例 - 987654321@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -219,7 +220,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例： - 987654321</td>
+      <td>例 - 987654321</td>
     </tr>
     <tr>
       <td></td>
@@ -227,7 +228,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -235,7 +236,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -259,17 +260,17 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 333@999-abc-888.Marketo</td>
+      <td>例 - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td>personKey.sourceID</td>
       <td>文字列</td>
-      <td>リード ID または連絡先 ID</td>
+      <td>リード ID または取引先責任者 ID</td>
       <td>はい</td>
       <td>
-        <p>例： - 333（データソーステーブルに応じて、リード ID または連絡先 ID）。</p>
-        <p>リードまたは連絡先への外部キー</p>
+        <p>例 - 333（データソーステーブルに応じて、リード ID または取引先責任者 ID）。</p>
+        <p>リードまたは取引先責任者への外部キー</p>
       </td>
     </tr>
     <tr>
@@ -278,7 +279,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -286,7 +287,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -294,7 +295,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 55555@999-abc-888.Marketo</td>
+      <td>例 - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -303,8 +304,8 @@ ht-degree: 22%
       <td>キャンペーン ID</td>
       <td>はい</td>
       <td>
-        <p>例： - 55555。</p>
-        <p>キャンペーンの外部キー</p>
+        <p>例 - 55555。</p>
+        <p>キャンペーンへの外部キー</p>
       </td>
     </tr>
     <tr>
@@ -313,7 +314,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -321,16 +322,16 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td rowspan="4">XDM ビジネスキャンペーンメンバーの詳細</td>
       <td>b2b.personType</td>
       <td>文字列</td>
-      <td>"リード"または"連絡先"</td>
+      <td>「リード」または「取引先責任者」</td>
       <td>はい</td>
-      <td>データソーステーブルに応じて、「リード」または「連絡先」に設定する必要があります。 ほとんどの使用例では、この値を「連絡先」に設定することをお勧めします</td>
+      <td>データソーステーブルに応じて、「リード」または「取引先責任者」に設定する必要があります。ほとんどのユースケースでは、この値を「取引先責任者」に設定することをお勧めします</td>
     </tr>
     <tr>
       <td></td>
@@ -342,31 +343,31 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>hasRelponed</td>
+      <td>hasResponded</td>
       <td>boolean</td>
-      <td>HasRelponed</td>
+      <td>HasResponded</td>
       <td>はい</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td>firstRelponedDate</td>
+      <td>firstRespondedDate</td>
       <td>date-time</td>
       <td>FirstRespondedDate</td>
       <td>いいえ</td>
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>人物</strong> (Salesforce の連絡先またはリード、Marketoの担当者 )</td>
+      <td colspan="7"><strong>担当者</strong>（Salesforce 用の取引先責任者またはリード、Marketo 用の担当者）</td>
     </tr>
     <tr>
       <td>XDM 個人プロファイル</td>
-      <td rowspan="11">XDM ビジネス人物の詳細</td>
+      <td rowspan="11">XDM ビジネス担当者の詳細</td>
       <td>b2b.personKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 333@999-abc-888.Marketo</td>
+      <td>例 - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -374,7 +375,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例： - 333（データソーステーブルに応じて、リード ID または連絡先 ID になります）</td>
+      <td>例 - 333（データソーステーブルに応じて、リード ID または取引先責任者 ID）</td>
     </tr>
     <tr>
       <td></td>
@@ -382,7 +383,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -390,7 +391,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -408,7 +409,7 @@ ht-degree: 22%
       <td>b2b.personStatus</td>
       <td>文字列</td>
       <td>ステータス</td>
-      <td>リードの担当者タイプのみはい</td>
+      <td>はい（リードの personType のみ）</td>
       <td>b2b.personType が「リード」の場合にのみ必要です</td>
     </tr>
     <tr>
@@ -432,16 +433,16 @@ ht-degree: 22%
       <td>b2b.isConverted</td>
       <td>boolean</td>
       <td>IsConverted</td>
-      <td>リードの担当者タイプのみはい</td>
+      <td>はい（リードの personType のみ）</td>
       <td>b2b.personType が「リード」の場合にのみ必要です</td>
     </tr>
     <tr>
       <td></td>
       <td>b2b.personType</td>
       <td>文字列</td>
-      <td>"リード"または"連絡先"</td>
+      <td>「リード」または「取引先責任者」</td>
       <td>はい</td>
-      <td>データソーステーブルに応じて、「リード」または「連絡先」に設定する必要があります。 ほとんどの使用例では、この値を「連絡先」に設定することをお勧めします</td>
+      <td>データソーステーブルに応じて、「リード」または「取引先責任者」に設定する必要があります。ほとんどのユースケースでは、この値を「取引先責任者」に設定することをお勧めします</td>
     </tr>
     <tr>
       <td></td>
@@ -453,15 +454,15 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="4">XDM ビジネス人物コンポーネント</td>
+      <td rowspan="4">XDM ビジネス担当者コンポーネント</td>
       <td>personComponents.sourceAccountKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
       <td>いいえ</td>
       <td>
-        <p>例： - 123@999-abc-888.Marketo。</p>
-        <p>sourceAccountKey フィールドのセットは、真の連絡先レコード（アカウントにリンクされた担当者レコードとして定義）に対してのみ「必須」です。 見つからない場合は、データセットは拒否されませんが、アトリビューションの結果は表示されません。</p>
-        <p>personComponents は配列ですが、Marketo Measureは最初の要素 personComponents[0] のみを取ります</p>
+        <p>例 - 123@999-abc-888.Marketo。</p>
+        <p>sourceAccountKey フィールドのセットは、真の取引先責任者レコード（アカウントにリンクされた担当者レコードとして定義）に対してのみ「必須」です。見つからない場合は、データセットは却下されませんが、属性の結果は表示されません。</p>
+        <p>personComponents は配列ですが、Marketo Measure は最初の要素 personComponents[0] のみを受け取ります</p>
       </td>
     </tr>
     <tr>
@@ -471,8 +472,8 @@ ht-degree: 22%
       <td>アカウント ID</td>
       <td>いいえ</td>
       <td>
-        <p>例： - 123。</p>
-        <p>外部キーからアカウントへ</p>
+        <p>例 - 123。</p>
+        <p>アカウントへの外部キー</p>
       </td>
     </tr>
     <tr>
@@ -481,7 +482,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>いいえ</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -489,19 +490,19 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>いいえ</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
-      <td colspan="7"><strong>商談</strong> (Salesforce の商談、Marketoの商談 )</td>
+      <td colspan="7"><strong>商談</strong>（Salesforce 用の商談、Marketo 用の商談）</td>
     </tr>
     <tr>
-      <td rowspan="13">XDM ビジネスオポチュニティ</td>
+      <td rowspan="13">XDM ビジネス商談</td>
       <td></td>
       <td>opportunityKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 77777@999-abc-888.Marketo</td>
+      <td>例 - 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -509,7 +510,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例： - 77777</td>
+      <td>例 - 77777</td>
     </tr>
     <tr>
       <td></td>
@@ -517,7 +518,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -525,7 +526,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -549,7 +550,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 123@999-abc-888.Marketo</td>
+      <td>例 - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -558,8 +559,8 @@ ht-degree: 22%
       <td>アカウント ID</td>
       <td>はい</td>
       <td>
-        <p>例： - 123。</p>
-        <p>外部キーからアカウントへ</p>
+        <p>例 - 123。</p>
+        <p>アカウントへの外部キー</p>
       </td>
     </tr>
     <tr>
@@ -568,7 +569,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -576,7 +577,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -604,7 +605,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">XDM ビジネスオポチュニティの詳細</td>
+      <td rowspan="5">XDM ビジネス商談の詳細</td>
       <td>isWon</td>
       <td>boolean</td>
       <td>IsWon</td>
@@ -647,16 +648,16 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>商談連絡先の役割（商談連絡先の役割を属性の購買グループとして使用する計画の場合にのみ必要）</strong></td>
+      <td colspan="7"><strong>商談取引先責任者のロール（商談取引先責任者のロールを属性の購買グループとして使用するプランの場合にのみ必要）</strong></td>
     </tr>
     <tr>
-      <td rowspan="16">XDM ビジネスオポチュニティ人物関係</td>
+      <td rowspan="16">XDM ビジネス商談担当者の関係</td>
       <td></td>
       <td>personKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 333@999-abc-888.Marketo</td>
+      <td>例 - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -665,8 +666,8 @@ ht-degree: 22%
       <td>取引先責任者 ID</td>
       <td>はい</td>
       <td>
-        <p>例： - 333。</p>
-        <p>連絡先への外部キー</p>
+        <p>例 - 333。</p>
+        <p>取引先責任者への外部キー</p>
       </td>
     </tr>
     <tr>
@@ -675,7 +676,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -683,7 +684,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -699,7 +700,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 77777@999-abc-888.Marketo</td>
+      <td>例 - 77777@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -708,8 +709,8 @@ ht-degree: 22%
       <td>商談 ID</td>
       <td>はい</td>
       <td>
-        <p>例： - 77777。</p>
-        <p>商談に対する外部キー</p>
+        <p>例 - 77777。</p>
+        <p>商談への外部キー</p>
       </td>
     </tr>
     <tr>
@@ -718,7 +719,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -726,7 +727,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -734,7 +735,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 222222@999-abc-888.Marketo</td>
+      <td>例 - 222222@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -742,7 +743,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例： - 222222</td>
+      <td>例 - 222222</td>
     </tr>
     <tr>
       <td></td>
@@ -750,7 +751,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -758,7 +759,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -785,7 +786,7 @@ ht-degree: 22%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>コンバージョン率 ( 複数の通貨を使用する場合にのみ必要。Marketo Measureに対して有効化できるコンバージョン率データセットは 1 つだけです )</strong></td>
+      <td colspan="7"><strong>コンバージョン率（複数の通貨を使用する場合にのみ必要。Marketo Measure に対してアクティブ化できるコンバージョン率データセットは 1 つのみ）</strong></td>
     </tr>
     <tr>
       <td rowspan="7">コンバージョン</td>
@@ -794,7 +795,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 8888@0x012345.Salesforce</td>
+      <td>例 - 8888@0x012345.Salesforce</td>
     </tr>
     <tr>
       <td></td>
@@ -802,7 +803,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例： - 8888</td>
+      <td>例 - 8888</td>
     </tr>
     <tr>
       <td></td>
@@ -810,7 +811,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 0x012345</td>
+      <td>例 - 0x012345</td>
     </tr>
     <tr>
       <td></td>
@@ -818,7 +819,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： Salesforce</td>
+      <td>例 - Salesforce</td>
     </tr>
     <tr>
       <td></td>
@@ -846,7 +847,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td rowspan="5">通貨換算レートの詳細</td>
+      <td rowspan="5">通貨コンバージョン率の詳細</td>
       <td>conversionRate</td>
       <td>number</td>
       <td>ConversionRate</td>
@@ -875,7 +876,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td>ISOCode</td>
       <td>はい</td>
-      <td>例： EUR</td>
+      <td>例 EUR</td>
     </tr>
     <tr>
       <td></td>
@@ -883,7 +884,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>Marketo Measureで設定されたデフォルトの通貨コード（USD など）</td>
+      <td>Marketo Measure で設定されたデフォルトの通貨コード（例 USD）</td>
     </tr>
   </tbody>
 </table>
@@ -923,7 +924,7 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>timestamp</td>
+      <td>タイムスタンプ</td>
       <td>date-time</td>
       <td>アクティビティ日</td>
       <td>はい</td>
@@ -931,23 +932,23 @@ ht-degree: 22%
     </tr>
     <tr>
       <td></td>
-      <td>人物識別子</td>
+      <td>担当者識別子</td>
       <td>personKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 333@999-abc-888.Marketo</td>
+      <td>例 - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
       <td></td>
       <td>personKey.sourceID</td>
       <td>文字列</td>
-      <td>リード ID または連絡先 ID</td>
+      <td>リード ID または取引先責任者 ID</td>
       <td>はい</td>
       <td>
-        <p>例： - 333（データソーステーブルに応じて、リード ID または連絡先 ID）。</p>
-        <p>リードまたは連絡先への外部キー</p>
+        <p>例 - 333（データソーステーブルに応じて、リード ID または取引先責任者 ID）。</p>
+        <p>リードまたは取引先責任者への外部キー</p>
       </td>
     </tr>
     <tr>
@@ -957,7 +958,7 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - 999-abc-888</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -966,16 +967,16 @@ ht-degree: 22%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： - Marketo</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>キャンペーンに追加</td>
+      <td>キャンペーンへの追加</td>
       <td>leadOperation.addToCampaign.campaignKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
-      <td>leadOperation.addToCampaign タイプのみはい</td>
-      <td>例： - 55555@999-abc-888.Marketo</td>
+      <td>はい（leadOperation.addToCampaign タイプのみ）</td>
+      <td>例 - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -983,10 +984,10 @@ ht-degree: 22%
       <td>leadOperation.addToCampaign.campaignKey.sourceId</td>
       <td>文字列</td>
       <td>キャンペーン ID</td>
-      <td>leadOperation.addToCampaign タイプのみはい</td>
+      <td>はい（leadOperation.addToCampaign タイプのみ）</td>
       <td>
-        <p>例： - 55555。</p>
-        <p>キャンペーンの外部キー</p>
+        <p>例 - 55555。</p>
+        <p>キャンペーンへの外部キー</p>
       </td>
     </tr>
     <tr>
@@ -995,8 +996,8 @@ ht-degree: 22%
       <td>leadOperation.addToCampaign.campaignKey.sourceInstanceId</td>
       <td>文字列</td>
       <td></td>
-      <td>leadOperation.addToCampaign タイプのみはい</td>
-      <td>例： - 999-abc-888</td>
+      <td>はい（leadOperation.addToCampaign タイプのみ）</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1004,17 +1005,17 @@ ht-degree: 22%
       <td>leadOperation.addToCampaign.campaignKey.sourceType</td>
       <td>文字列</td>
       <td></td>
-      <td>leadOperation.addToCampaign タイプのみはい</td>
-      <td>例： - Marketo</td>
+      <td>はい（leadOperation.addToCampaign タイプのみ）</td>
+      <td>例 - Marketo</td>
     </tr>
     <tr>
       <td></td>
-      <td>キャンペーン進行のステータス変更済み</td>
+      <td>キャンペーン進行状況のステータスを変更済み</td>
       <td>leadOperation.campaignProgression.campaignKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
-      <td>leadOperation.campaignProgression タイプのみはい</td>
-      <td>例： - 55555@999-abc-888.Marketo</td>
+      <td>はい（leadOperation.campaignProgression タイプのみ）</td>
+      <td>例 - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -1022,10 +1023,10 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceId</td>
       <td>文字列</td>
       <td>キャンペーン ID</td>
-      <td>leadOperation.campaignProgression タイプのみはい</td>
+      <td>はい（leadOperation.campaignProgression タイプのみ）</td>
       <td>
-        <p>例： - 55555。</p>
-        <p>キャンペーンの外部キー</p>
+        <p>例 - 55555。</p>
+        <p>キャンペーンへの外部キー</p>
       </td>
     </tr>
     <tr>
@@ -1034,8 +1035,8 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceInstanceId</td>
       <td>文字列</td>
       <td></td>
-      <td>leadOperation.campaignProgression タイプのみはい</td>
-      <td>例： - 999-abc-888</td>
+      <td>はい（leadOperation.campaignProgression タイプのみ）</td>
+      <td>例 - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1043,8 +1044,8 @@ ht-degree: 22%
       <td>leadOperation.campaignProgression.campaignKey.sourceType</td>
       <td>文字列</td>
       <td></td>
-      <td>leadOperation.campaignProgression タイプのみはい</td>
-      <td>例： - Marketo</td>
+      <td>はい（leadOperation.campaignProgression タイプのみ）</td>
+      <td>例 - Marketo</td>
     </tr>
   </tbody>
 </table>
@@ -1061,64 +1062,64 @@ ht-degree: 22%
     <tr>
       <td>新規リード</td>
       <td>leadOperation.newLead</td>
-      <td>新しいマーケティングリードの作成と詳細の記録に使用します</td>
+      <td>新しいマーケティングリードの作成と詳細の記録に使用</td>
     </tr>
     <tr>
-      <td>リードのコンバート</td>
+      <td>リードのコンバージョン</td>
       <td>leadOperation.convertLead</td>
-      <td>マーケティングリードが、セールスユーザーに割り当てられたセールス資格を持つ連絡先に変換される場合に使用します</td>
+      <td>マーケティングリードが営業ユーザに割り当てられた営業資格を持つ取引先責任者に変換される場合に使用</td>
     </tr>
     <tr>
       <td>注目のアクション</td>
       <td>leadOperation.interestingMoment</td>
-      <td>見込み客による高価値のアクティビティの追跡に使用</td>
+      <td>見込み客による高価値のアクティビティのトラッキングに使用</td>
     </tr>
     <tr>
       <td>フォームの入力</td>
       <td>web.formFilledOut</td>
-      <td>人物が Web ページ上のフォームに入力する際に、詳細をキャプチャするために使用します</td>
+      <td>担当者が web ページ上のフォームに入力する際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>メールの配信停止</td>
       <td>directMarketing.emailUnsubscribed</td>
-      <td>人物が電子メールから購読解除する際に、詳細をキャプチャするために使用します</td>
+      <td>担当者がメールから購読解除する際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>メールを開く</td>
       <td>directMarketing.emailOpened</td>
-      <td>人物がマーケティング電子メールを開く際に、詳細をキャプチャするために使用します</td>
+      <td>担当者がマーケティングメールを開く際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>メールをクリック</td>
       <td>directMarketing.emailClicked</td>
-      <td>人物がマーケティング電子メール内のリンクをクリックする際に、詳細をキャプチャするために使用します</td>
+      <td>担当者がマーケティングメール内のリンクをクリックする際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>進行状況のステータスの変更</td>
       <td>leadOperation.statusInCampaignProgressionChanged</td>
-      <td>キャンペーンでのリードのステータスが変更された際に、詳細をキャプチャするために使用します</td>
+      <td>キャンペーンでのリードのステータスを変更する際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
-      <td>エンゲージメントプログラムに追加（育成に追加）</td>
+      <td>エンゲージメントプログラムへの追加（育成への追加）</td>
       <td>leadOperation.addToCampaign</td>
-      <td>特定のキャンペーンに人を追加する場合に使用します。</td>
+      <td>特定のキャンペーンに担当者を追加するために使用</td>
     </tr>
   </tbody>
 </table>
 
-上記の表でサポートされていないイベントタイプに対して、「注目のアクション」イベントタイプを使用します。 サブタイプ「注目のアクション」を示すカスタムフィールドを追加します。
+上記の表でサポートされていないイベントタイプに対して、「関心を引くモーメント」イベントタイプを使用します。サブタイプ「関心を引くモーメント」を示すカスタムフィールドを追加します。
 
 ## データ検査のクエリ例 {#query-examples-for-data-inspection}
 
-次に、AEP データレイクで取り込んだデータセットを検査するクエリの例を示します。 データセットに対して使用するには、以下のクエリ例にあるテーブル名を、実際のデータセットテーブル名に置き換えます。
+次に、AEP データレイクで取り込んだデータセットを検査するクエリ例を示します。データセットに対して使用するには、以下のクエリ例にあるテーブル名を、実際のデータセットテーブル名に置き換えます。
 
 すべてのカウントは 0 になると予想されます。
 
-personType フィールドには、「リード」または「連絡先」の値のみが存在し、null 値は存在しないと想定します。
+personType フィールドには、「リード」または「取引先責任者」の値のみが存在し、null 値は存在しないと想定します。
 
-すべての「連絡先」担当者レコードに対して、アカウント外部キーが存在すると想定します。
+すべての「取引先責任者」担当者レコードに対して、アカウント外部キーが存在すると想定します。
 
-「リード」担当者レコードの場合、アカウント外部キーは存在せず、必須ではありません。 「リード」担当者レコードを「連絡先」担当者レコード（推奨）として取り込む場合、その担当者レコードのアカウント外部キーは不要です。
+「リード」担当者レコードの場合、アカウント外部キーは存在せず、必須ではありません。「リード」担当者レコードを「取引先責任者」担当者レコード（推奨）として取り込む場合、その担当者レコードのアカウント外部キーは不要です。
 
 ### XDM ビジネスアカウント {#xdm-business-account}
 
@@ -1248,7 +1249,7 @@ union all
 select 'last updated date', count(*) from salesforce_contact where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-### XDM ビジネスオポチュニティ {#xdm-business-opportunity}
+### XDM ビジネス商談 {#xdm-business-opportunity}
 
 ```
 select 'opportunity source id', count(*) from salesforce_opportunity where opportunityKey.sourceId is null
@@ -1364,11 +1365,10 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 
 ## NULL 値を持つ必須フィールドに対する推奨ソリューション {#recommended-solution-for-required-fields-with-a-null-value}
 
-フィールドマッピングで計算フィールドを使用して、フィールドをデフォルトで NULL 以外の値に設定することをお勧めします。 次に 2 つの例を示します。
+フィールドマッピングで計算フィールドを使用して、フィールドをデフォルトで NULL 以外の値に設定することをお勧めします。次に 2 つの例を示します。
 
-* 一部のオポチュニティレコードの opportunityName が null の場合は、次の計算フィールドをフィールドマッピングで作成して使用します
+* 一部の商談レコードの opportunityName が null の場合は、次の計算フィールドをフィールドマッピングで作成して使用
    * `iif(name != null && name != "", name, "Unknown")`
 
-* 一部の experienceevent レコードの leadOperation.campaignProgression.campaignID が null の場合は、フィールドマッピングで次の計算フィールドを作成して使用します
+* 一部の experienceevent レコードの leadOperation.campaignProgression.campaignID が null の場合は、次の計算フィールドをフィールドマッピングで作成して使用
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
-
