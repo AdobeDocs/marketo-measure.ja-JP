@@ -6,8 +6,8 @@ user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
 source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -223,7 +223,7 @@ ht-degree: 99%
       + [セキュリティセッションの制限：許可リストに追加する IP アドレス](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [[!DNL Marketo Measure] Ultimate の概要](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
-   + [データの整合性の要件](marketo-measure-ultimate/data-integrity-requirement.md)
+   + [データ整合性要件](marketo-measure-ultimate/data-integrity-requirement.md)
 + その他 {#miscellaneous}
    + その他の関連リソース {#other-related-resources}
       + [[!DNL Marketo Measure] メンテナンス](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
