@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
 source-git-commit: 89b50552455dbd4c9b60d101eaf6e1b0ff22c0c4
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '811'
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 0%
       + [起因する収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [パスポートダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [ウェブトラフィックダッシュボード](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+      + [Web トラフィックダッシュボード](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [ダッシュボードデータ表示ポリシー](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
    + レガシーダッシュボード {#legacy-dashboards}
       + [コホートジャーニーダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
