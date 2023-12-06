@@ -4,10 +4,10 @@ description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメ�
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '22610'
-ht-degree: 100%
+source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
+workflow-type: tm+mt
+source-wordcount: '20697'
+ht-degree: 99%
 
 ---
 
@@ -14246,102 +14246,52 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>列</p>
-      </th>
-      <th>
-        <p>データタイプ</p>
-      </th>
-      <th>
-        <p>説明</p>
-      </th>
-      <th>
-        <p>サンプルデータ</p>
-      </th>
+      <th>列</th>
+      <th>データタイプ</th>
+      <th>説明</th>
+      <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>完全な URL。</p>
-      </td>
-      <td>
-        <p>https://www.adobe.com/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>完全な URL。</td>
+      <td>https://www.adobe.com/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>SCHEME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ネットワークを介した web ページのセキュアな通信。</p>
-      </td>
-      <td>
-        <p>https</p>
-      </td>
+      <td>SCHEME</td>
+      <td>varchar</td>
+      <td>ネットワークを介した web ページのセキュアな通信。</td>
+      <td>https</td>
     </tr>
     <tr>
-      <td>
-        <p>HOST</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>URL のドメイン（任意のサブドメインを含む）。</p>
-      </td>
-      <td>
-        <p>www.adobe.com</p>
-      </td>
+      <td>HOST</td>
+      <td>varchar</td>
+      <td>URL のドメイン（任意のサブドメインを含む）。</td>
+      <td>www.adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>PORT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>インターネットホストからのポート（URL ではオプション）。</p>
-      </td>
-      <td>
-        <p>584</p>
-      </td>
+      <td>PAGE_TITLE</td>
+      <td>varchar</td>
+      <td>ページのタイトル。</td>
+      <td>The CMO's Guide to B2B Marketing Attribution Download</td>
     </tr>
     <tr>
-      <td>
-        <p>PATH</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ホスト上の特定の場所を指す URL の部分。</p>
-      </td>
-      <td>
-        <p>/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>PATH</td>
+      <td>varchar</td>
+      <td>ホスト上の特定の場所を指す URL の部分。</td>
+      <td>/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Biz_Facts ビューの外部キー。</p>
-      </td>
-      <td>
-        <p>5686109553536636820</p>
-      </td>
+      <td>PORT</td>
+      <td>varchar</td>
+      <td>インターネットホストからのポート（URL ではオプション）。</td>
+      <td>584</td>
+    </tr>
+    <tr>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Biz_Facts ビューの外部キー。</td>
+      <td>5686109553536636820</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
