@@ -5,9 +5,9 @@ title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20697'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -10820,7 +10820,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
         <p>ページのタイトル。</p>
       </td>
       <td>
-        <p>The CMO's Guide to B2B Marketing Attribution Download</p>
+        <p>CMO の B2B マーケティングアトリビューションガイドのダウンロード</p>
       </td>
     </tr>
     <tr>
@@ -14273,7 +14273,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>PAGE_TITLE</td>
       <td>varchar</td>
       <td>ページのタイトル。</td>
-      <td>The CMO's Guide to B2B Marketing Attribution Download</td>
+      <td>CMO の B2B マーケティングアトリビューションガイドのダウンロード</td>
     </tr>
     <tr>
       <td>PATH</td>
