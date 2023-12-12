@@ -4,10 +4,10 @@ description: Salesforce サンドボックスから実稼動への移行 — [!D
 title: Salesforce サンドボックスの実稼動への移行
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 6%
+source-wordcount: '322'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 テストを選択した場合 [!DNL Marketo Measure] 内 [!DNL Salesforce] サンドボックス環境。準備が整ったら、次の手順に従って実稼動環境に移行してください。 以下の説明は、 [!DNL Marketo Measure] サンドボックス組織にパッケージ化し、必要なテストを実行し、プッシュする準備が整いました。 [!DNL Marketo Measure] を実稼動環境に追加します。
 
-## 手順 1：インストール [!DNL Marketo Measure] 実稼動環境へのパッケージ化 [!DNL Salesforce] インスタンス {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## 手順 1: [!DNL Marketo Measure] 実稼動環境へのパッケージ化 [!DNL Salesforce] インスタンス
 
-* 2 つの [!DNL Marketo Measure] パッケージを「[!UICONTROL すべてのユーザー]&quot;設定
+* をインストールします。 [!DNL Marketo Measure] を「[!UICONTROL すべてのユーザー]&quot;設定
 
    * [ベースパッケージ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
