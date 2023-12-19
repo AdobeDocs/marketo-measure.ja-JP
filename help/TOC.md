@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -152,13 +152,16 @@ ht-degree: 100%
    + ダッシュボード {#dashboards}
       + [Discover ダッシュボードの基本](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [新しい Discover ダッシュボードガイド](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [収益の概要ダッシュボード](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [起因する収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [エンゲージメントダッシュボード](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [パスポートダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Web トラフィックダッシュボード](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [ダッシュボードデータ表示ポリシー](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [起因する収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [エンゲージメントダッシュボード](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [リードベロシティダッシュボード](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [商談の速度ダッシュボード](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [パスポートダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [収益の概要ダッシュボード](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Web トラフィックダッシュボード](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + レガシーダッシュボード {#legacy-dashboards}
       + [コホートジャーニーダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [パスポートダッシュボードドキュメント](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
