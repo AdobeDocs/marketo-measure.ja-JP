@@ -4,10 +4,10 @@ title: '''[!DNL Marketo Measure] 究極の実装ガイド`'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 5%
+source-wordcount: '978'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 導入文
 
-Ultimate と標準の階層を比較した場合の主な違い {#main-differences-when-using-ultimate-over-standard-tiers}
+## Ultimate と標準の階層を比較した場合の主な違い {#main-differences-when-using-ultimate-over-standard-tiers}
 
 AEP を通じて B2B データをインポート：マーケターは、AEP を通じて B2B データ（アカウント、商談、連絡先、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。 ほとんどすべてのデータソースだけでなく、同じタイプの複数のデータソースからも取り込み、すべてのデータをアトリビューションのために取り込みます。
 
@@ -36,42 +36,42 @@ Ultimate ユーザーは AEP でプロビジョニングされます。 既に A
 
 ## スキーマとデータセット {#schemas-and-datasets}
 
->[!TIP]
+>[!NOTE]
 >
 >チェックアウト [スキーマの構築ブロック](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) スキーマ、クラス、フィールドグループの概要。
 
-XDM スキーマ=クラス+スキーマフィールドグループ*
+**XDM スキーマ=クラス+スキーマフィールドグループ&#42;**
 
 * 必須フィールドは変更できません。 必要に応じて、カスタムフィールドを作成して追加できます。
 * 階層に基づくフィールド名の例： accountOrganization.annualRevenue.amount
 
 &#42; _スキーマは、クラスと、0 個以上のスキーマフィールドグループで構成されます。 つまり、フィールドグループを使用せずにデータセットスキーマを作成できます。_
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-ExL：データセットの概要： AEP に正常に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
+[データセットの概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html):AEP に正常に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
 
 ## スキーマの作成 {#creating-a-schema}
 
-10 個の標準 B2B スキーマを作成する場合は、自動生成ユーティリティを使用することをお勧めします。
+10 個の標準 B2B スキーマを作成するには、自動生成ユーティリティを使用することをお勧めします。
 
-ユーティリティのダウンロードと設定の手順は、ExL:B2B 名前空間とスキーマの「B2B 名前空間とスキーマ自動生成ユーティリティの設定」の節に記載されています。
+* ユーティリティのダウンロードとセットアップの手順 [ここにあります](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
 
-CDP 権限を持つお客様の場合：ソースページに移動してスキーマを作成します。
+を持つユーザーの場合、 _**CDP 権限**_：ソースページに移動してスキーマを作成します。
 
-ソースから、データを追加/テンプレートを使用を選択します。
+* ソースから、データを追加/テンプレートを使用を選択します。
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-10 個の標準 B2B スキーマを作成するには、アカウントとすべての B2B テンプレートを選択します。
+* 10 個の標準 B2B スキーマを作成するには、アカウントとすべての B2B テンプレートを選択します。
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## データフロー {#dataflows}
 
-ExL：データフローの概要
+[データフローの概要](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
 
-データフローを作成する手順は次のとおりです。
+**データフローを作成する手順は次のとおりです。**
 
 1. ソースを選択します。
 1. 既存のアカウントを選択するか、アカウントを作成します。
@@ -91,23 +91,30 @@ ExL：データフローの概要
    >* データフローは編集できますが、マッピングが変更されてもデータはバックフィルされません。
    >* 必須フィールドが NULL の場合、フロー全体が拒否されます。
 
-ExL:Marketo Measure Ultimate Data Integrity の要件
+   >[!NOTE]
+   >
+   >[Marketo Measure Ultimate Data Integrity Requirement](help/marketo-measure-ultimate/data-integrity-requirement.md)
 
 1. データの読み込みケイデンスを設定します。
 1. 「確認して完了」をクリックします。
 1. データフローステータスの測定 UI 設定の「アカウントステータス」ページを確認します。
 
-監視： Sources → Dataflows ページでデータフローのステータスを確認するデータセットのアクティビティの詳細を表示するには、データセットをクリックします。データフローを表示するには、データフローを選択し、データフローを選択し、「Error diagnostics preview」をクリックします。
+**監視：**
+
+データフローのステータスを確認するソース/データフローページ
+
+* データセットのアクティビティの詳細を表示するには、データセットをクリックします。
+* データフローエラーを表示するには、データフローを選択し、データフローの実行を選択して、「エラー診断のプレビュー」をクリックします。
 
 ## データ検査 {#data-inspection}
 
-ExL: Marketo Measure Ultimate Data Integrity Requirement このドキュメントには、各 XDM の必須フィールドと検査クエリが含まれています。 ExL で公開されます。
+ExL: Marketo Measure Ultimate Data Integrity Requirement このドキュメントには、各 XDM の必須フィールドと検査クエリが含まれています。 ExL で公開されます。  — 上に既にタグ付けされています — 再度POSTします???
 
 オプション 1:UI から直接クエリを実行するには、データ管理の「クエリ」タブにアクセスします。
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-オプション 2:PSQL のダウンロードと使用（高速で信頼性が高い）ExL:PSQL をクエリサービスに接続
+オプション 2: [PSQL をダウンロードして使用](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) （より高速で信頼性が高い）
 
 ## Marketo Measureのデータセットをアクティブ化 {#activate-dataset-for-marketo-measure}
 
@@ -118,35 +125,46 @@ ExL: Marketo Measure Ultimate Data Integrity Requirement このドキュメン�
 >選択した後は変更できません。
 
 1. AEP で、「宛先/Marketo Measureページ」に移動して、データセットを書き出します。
-
 1. 宛先を設定します。
-
 1. データセットをアクティブ化します。
-
 1. データフローステータスの測定 UI 設定の「アカウントステータス」ページを確認します。
 
-注意事項：特定のソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ取り込むことができます。 各データセットは、1 つのデータフローにのみ含めることができます。違反は、実行時にデータフローを停止します。
-AEP で宛先全体を削除して、測定のデータを削除します。 無効にすると、新しいデータエクスポートが停止し、古いデータが保持されます。
-測定の設定はほとんど同じように見えますが、ステージマッピングなどの一部のパーツは異なります。
-新しいデータフローがフロー実行を生成するまでに数時間かかり、その後、定期的な 1 時間間隔で発生します。
+>[!NOTE]
+>
+>* 特定のソースの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ取り込むことができます。 各データセットは、1 つのデータフローにのみ含めることができます。違反すると、実行時にデータフローが停止します。
+>* AEP で宛先全体を削除して、測定のデータを削除します。 無効にすると、新しいデータエクスポートが停止し、古いデータが保持されます。
+>* 測定の設定はほとんど同じように見えますが、ステージマッピングなどの一部のパーツは異なります。
+>* 新しいデータフローがフロー実行を生成するまでに数時間かかり、その後、定期的な 1 時間間隔で発生します。
 
-測定では、デフォルトの通貨を「通貨」セクションで設定する必要があります。顧客が複数通貨を使用する場合、コンバージョンを読み取って使用するには、AEP で通貨換算レートスキーマを設定する必要があります。
+測定では、デフォルトの通貨を「通貨」セクションで設定する必要があります
 
-ステージマッピング顧客データからステージを自動的に読み込むので、すべてのステージを手動でマッピングする必要があります。
+* 複数通貨を使用する場合、コンバージョンを読み取って使用するには、通貨換算レートスキーマを AEP に入力する必要があります。
 
-ユーザーは、様々なソースからステージをマッピングできます。
+**ステージマッピング：**
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+ユーザーデータからステージが自動的にインポートされるわけではないので、すべてのステージを手動でマッピングする必要があります。
+
+* ユーザーは、様々なソースからステージをマッピングできます。
+
+![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 ステージがマッピングされていない場合、データが処理される場所がないので、システムは機能しません。
-キャンペーンメンバーのルールデータセットを選択し、それぞれにルールを設定する必要があります。
 
-エクスペリエンスイベントルールデータセットを選択し、アクティビティのタイプを選択する必要があります。
-カスタムアクティビティは、まだサポートされていません。
-お客様に、利用可能なオプションに適合しないアクティビティがある場合は、それらを「注目のアクション」として分類し、カスタムフィールドを使用して区別することをお勧めします。
+**キャンペーンメンバールール：**
 
-オフラインチャネルデータセット固有のチャネルマッピングルールは実行しないので、グローバルになります。
-最終的に CRM キャンペーンタイプとチャネルの両方を照合する必要がありますが、現時点では、回避策として両方のフィールドにチャネル名をマッピングできます。
-チャネルルール：バックフィルしたデータには、ステージ遷移データは含まれません。
+データセットを選択し、それぞれにルールを設定する必要がある。
+
+**エクスペリエンスイベントルール：**
+
+データセットを選択し、アクティビティのタイプを選択する必要があります。
+
+* カスタムアクティビティは、まだサポートされていません。
+* お客様に、利用可能なオプションに適合しないアクティビティがある場合は、それらを「注目のアクション」として分類し、カスタムフィールドを使用して区別することをお勧めします。
+
+**オフラインチャネル：**
+
+* データセット固有のチャネルマッピングルールは実行しないので、これはグローバルです。
+* 最終的に CRM キャンペーンタイプとチャネルの両方を照合する必要がありますが、現時点では、回避策として両方のフィールドにチャネル名をマッピングできます。
+* **チャネルルール：バックフィルしたデータには、ステージ遷移データは含まれません。**
 
 タッチポイントとセグメントの設定は変わりません。
