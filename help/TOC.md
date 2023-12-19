@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
 source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
