@@ -4,7 +4,7 @@ title: 統合権限の概要
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
+source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -33,24 +33,24 @@ ht-degree: 4%
     <td>B2B システムデータ    
 </td>
     <td>Marketo Measureが追跡している：
-    <br>
+    <p>
     <li>アカウント</li>
-<li>キャンペーン</li>
-<li>CampaignMember</li>
-<li>取引先責任者</li>
-<li>CurrencyConversionRange</li>
-<li>CurrencyStatus</li>
-<li>イベント</li>
-<li>FieldHistory （リード、連絡先、商談）</li>
-<li>リード</li>
-<li>商談</li>
-<li>OpportunityContactRole</li>
-<li>OpportunityHistory</li>
-<li>タスク</li>
-<br>
+    <li>キャンペーン</li>
+    <li>CampaignMember</li>
+    <li>取引先責任者</li>
+    <li>CurrencyConversionRange</li>
+    <li>CurrencyStatus</li>
+    <li>イベント</li>
+    <li>FieldHistory （リード、連絡先、商談）</li>
+    <li>リード</li>
+    <li>商談</li>
+    <li>OpportunityContactRole</li>
+    <li>OpportunityHistory</li>
+    <li>タスク</li>
+<p>
 作成されたタッチポイントおよびその他のデータは、アカウント、キャンペーン、キャンペーン、キャンペーンメンバー、事例、連絡先、リード、商談のカスタム bizible フィールドに書き込まれます。</td>
     <td><b>Salesforce 接続ユーザ権限（必須）</b>
-    <br>
+    <p>
     <b>専用ユーザーのMarketo Measure管理者権限セット：</b> SFDC 管理者が marketo 測定オブジェクトに対して CRUD 操作を実行できるようにします。
     <br>
     <b>変換済みリードの権限セットを表示および編集：</b> これにより、Marketo Measureは、連絡先に変換された後にリードを装飾できます。
