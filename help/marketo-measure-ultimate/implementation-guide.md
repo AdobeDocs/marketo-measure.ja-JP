@@ -1,19 +1,17 @@
 ---
 description: '''[!DNL Marketo Measure] 究極の実装ガイド — [!DNL Marketo Measure]  — 製品ドキュメント`'
 title: '''[!DNL Marketo Measure] 究極の実装ガイド`'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 6%
 
 ---
 
 # [!DNL Marketo Measure] 究極の実装ガイド {#marketo-measure-ultimate-implementation-guide}
 
-導入文
+この記事は、Marketo Measure Ultimate の実装ガイドとして機能し、統合と使用を成功に導くための明確な手順とインサイトを提供します。
 
 ## Ultimate と標準の階層を比較した場合の主な違い {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ Ultimate ユーザーは AEP でプロビジョニングされます。 既に A
    >* 1 つのスキーマタイプを別の同一のスキーマタイプにマッピングすると、自動的に実行されます。
    >* また、システム内の別のフローからマッピングをインポートすることもできます。
    >* 1 つの「ソース」フィールドを複数の宛先フィールドにマッピングすることはできますが、逆はできません。
-   >* 計算フィールドを作成できます（ExL: Data Prep マッピング関数）。
+   >* 計算フィールド ([データ準備マッピング関数](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}) をクリックします。
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Ultimate ユーザーは AEP でプロビジョニングされます。 既に A
 * データフローエラーを表示するには、データフローを選択し、データフローの実行を選択して、「エラー診断のプレビュー」をクリックします。
 
 ## データ検査 {#data-inspection}
-
-ExL: Marketo Measure Ultimate Data Integrity Requirement このドキュメントには、各 XDM の必須フィールドと検査クエリが含まれています。 ExL で公開されます。  — 上に既にタグ付けされています — 再度POSTします???
 
 オプション 1:UI から直接クエリを実行するには、データ管理の「クエリ」タブにアクセスします。
 
