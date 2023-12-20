@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 1fc0b98c0aa1273e5aa70ba7b89672d689e734e1
+source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 99%
+source-wordcount: '826'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
       + [ [!DNL Marketo Measure] JavaScript の実装のベストプラクティス](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [ [!DNL Marketo Measure] スクリプトの追加](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Google タグマネージャーを介した [!DNL Marketo Measure] スクリプトの追加](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
+      + [JavaScript で収集されるデータ](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + 異なるフォームプロバイダーへの [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-different-form-providers}
          + [Pardot への  [!DNL Marketo Measure] JavaScript の追加](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Lightbox フォームへの [!DNL Marketo Measure] スクリプトの追加](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
