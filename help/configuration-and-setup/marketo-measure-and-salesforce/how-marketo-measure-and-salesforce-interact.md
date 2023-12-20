@@ -4,10 +4,10 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: afb7805e375f26cc1b2473802582b1999e92cd8b
-workflow-type: ht
-source-wordcount: '1719'
-ht-degree: 100%
+source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
+workflow-type: tm+mt
+source-wordcount: '1271'
+ht-degree: 99%
 
 ---
 
@@ -42,148 +42,148 @@ ht-degree: 100%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>メール</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>メール</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ステータス</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ステータス</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Web サイト</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>Web サイト</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>会社</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>会社</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -193,106 +193,106 @@ ht-degree: 100%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>アカウント</p></td> 
-   <td><p>標準</p></td> 
+   <td>アカウント</td> 
+   <td>標準</td> 
    <td><span>x</span></td> 
    <td><br></td> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>メール</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>メール</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>作成日</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>作成日</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,100 +302,100 @@ ht-degree: 100%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>SuppliedEmail</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>SuppliedEmail</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_FT__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source_FT__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source_LC__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Source_LC__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,40 +405,40 @@ ht-degree: 100%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Web サイト</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>Web サイト</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Engagement_Score__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Engagement_Score__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,76 +448,144 @@ ht-degree: 100%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>アカウント</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>名前</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td><br></td> 
-  </tr> 
+  </tr>
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>アカウント</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td><br></td> 
+  </tr>
+  <tr> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsWon</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsWon</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsClosed</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsClosed</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CloseDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CloseDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>StageName</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>StageName</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>金額</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>金額</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Opportunity_Amount__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Bizible_Opportunity_Amount__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**オポチュニティ連絡先の役割**
+
+<table> 
+ <tbody> 
+  <tr> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
+  </tr> 
+  <tr> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>CreatedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>OpportunityId</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>CONTACTID</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+
+<tr> 
+   <td>IsPrimary</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td>ロール</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -533,87 +601,87 @@ ht-degree: 100%
  </colgroup> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>メール</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>メール</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ステータス</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ステータス</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedContactId</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedContactId</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>ConvertedOpportunityId</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ConvertedOpportunityId</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Web サイト</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>Web サイト</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>会社</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>会社</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>タイプ</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>タイプ</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td><br></td> 
   </tr> 
  </tbody> 
@@ -624,100 +692,100 @@ ht-degree: 100%
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>ID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>ID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CreatedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CreatedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>LastModifiedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>LastModifiedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsDeleted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsDeleted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>FirstRespondedDate</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>FirstRespondedDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>HasRelponed</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>HasRelponed</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CONTACTID</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CONTACTID</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>leadId</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>leadId</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>IsConverted</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>IsConverted</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>CampaignId</p></td> 
-   <td><p>標準</p></td> 
-   <td><p>x</p></td> 
+   <td>CampaignId</td> 
+   <td>標準</td> 
+   <td>x</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Touchpoint_Date__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Bizible_Touchpoint_Date__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Date__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Status_Date__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Contact__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Status_Contact__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Leade__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Status_Leade__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Status_Opportunity__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Touchpoint_Status_Opportunity__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -747,262 +815,262 @@ Buyer Touchpoint は、取引先責任者、リード、事例のマーケティ
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Bizible_Person__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Bizible_Person__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__SF_Campaign__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__SF_Campaign__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_Path__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Type__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Type__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Content__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Content__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL_Raw__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL_Raw__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_City__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_City__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Region__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Region__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_MatchType__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_MatchType__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Position__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Position__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Text__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Text__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_Raw__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page_Raw__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Search_Phrase__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Search_Phrase__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_First_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_First_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Lead_Creation_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_U_Shaped__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Destination_URL__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1014,34 +1082,34 @@ Buyer Touchpoint は、取引先責任者、リード、事例のマーケティ
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Lead__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Lead__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Case__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Case__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x </p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1055,352 +1123,352 @@ Buyer Attribution Touchpoint は、商談に対するマーケティングの影
 <table> 
  <tbody> 
   <tr> 
-   <th><p>フィールド</p></th> 
-   <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
-   <th><p>書き込み</p></th> 
+   <th>フィールド</th> 
+   <th>標準／カスタム</th> 
+   <th>読み取り</th> 
+   <th>書き込み</th> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Account__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Account__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__SF_Campaign__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__SF_Campaign__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Contact__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Contact__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Opportunity__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Opportunity__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__UniqueId__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Marketing_Channel_Path__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Marketing_Channel_Path__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Type__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Type__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Content__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Content__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Group_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Group_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Campaign_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Campaign_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Placement_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Placement_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Site_Name__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Site_Name__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Form_URL_Raw__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Form_URL_Raw__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Platform__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Platform__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Browser__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Browser__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_City__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_City__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Country__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Country__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Geo_Region__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Geo_Region__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Id__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Id__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_MatchType__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_MatchType__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Position__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Position__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Keyword_Text__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Keyword_Text__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Landing_Page_Raw__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Landing_Page_Raw__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Medium__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Medium__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Referrer_Page_Raw__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Referrer_Page_Raw__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Search_Phrase__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Search_Phrase__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Date__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Date__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Touchpoint_Source__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Touchpoint_Source__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Segment__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Segment__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_First_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_First_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_Lead_Conversion_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_Lead_Conversion_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_U_Shaped__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_U_Shaped__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_W_Shaped__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_W_Shaped__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_Custom_Model__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_Custom_Model__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Attribution_Custom_Model_2__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Attribution_Custom_Model_2__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_First_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_First_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Lead_Creation_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Lead_Creation_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_U_Shaped__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_U_Shaped__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_W_Shaped__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_W_Shaped__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Custom_Model__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Custom_Model__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Count_Custom_Model_2__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Count_Custom_Model_2__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Ad_Destination_URL__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Ad_Destination_URL__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_First_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_First_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_Lead_Creation_Touch__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_Lead_Creation_Touch__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_U_Shaped__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_U_Shaped__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_W_Shaped__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_W_Shaped__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_Custom_Model__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_Custom_Model__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
   <tr> 
-   <td><p>bizible2__Revenue_Custom_Model_2__c</p></td> 
-   <td><p>カスタム</p></td> 
-   <td><p>x</p></td> 
-   <td><p>x</p></td> 
+   <td>bizible2__Revenue_Custom_Model_2__c</td> 
+   <td>カスタム</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
