@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 98%
 
 ---
@@ -92,6 +92,7 @@ ht-degree: 98%
 + API 接続 {#api-connections}
    + [!DNL Marketo Measure] の API 接続の利用 {#utilizing-marketo-measures-api-connections}
       + [統合された広告プラットフォーム](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+      + [統合権限の概要](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [API 接続のベストプラクティス](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [入札管理ツールの [!DNL Marketo Measure] への影響](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [[!DNL Marketo Measure] パラメーター](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)

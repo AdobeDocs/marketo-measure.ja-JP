@@ -2,7 +2,7 @@
 description: JavaScript で収集されるデータ — [!DNL Marketo Measure]  — 製品ドキュメント
 title: JavaScript で収集されるデータ
 feature: Tracking
-source-git-commit: 2be08b96fb9f6d027e80751db64f16a7f2893764
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 8%
@@ -49,25 +49,25 @@ Marketo Measureは、すべてのタイプのリクエストに対して、次�
     <td>クエリパラメーター</td>
     <td>_biz_u</td>
     <td>文字列</td>
-    <td>Bizible cookie ID</td>
+    <td>Bizible cookie ID。</td>
   </tr>
   <tr>
     <td>クエリパラメーター</td>
     <td>_biz_l</td>
     <td>文字列</td>
-    <td>現在のページの URL</td>
+    <td>現在のページの URL。</td>
   </tr>
   <tr>
     <td>クエリパラメーター</td>
     <td>_biz_t</td>
     <td>long</td>
-    <td>アクティビティのタイムスタンプ</td>
+    <td>アクティビティのタイムスタンプ。</td>
   </tr>
   <tr>
     <td>クエリパラメーター</td>
     <td>_biz_i</td>
     <td>文字列</td>
-    <td>現在のページのタイトル</td>
+    <td>現在のページのタイトル。</td>
   </tr>
 </tbody>
 </table>
