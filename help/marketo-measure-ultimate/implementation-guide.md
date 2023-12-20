@@ -4,7 +4,7 @@ title: '''[!DNL Marketo Measure] 究極の実装ガイド`'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
+source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 6%
@@ -32,13 +32,13 @@ Ultimate ユーザーは AEP でプロビジョニングされます。 既に A
 
 * プロビジョニングされた AEP バージョンには、すべてのソースコネクタ、スキーマデータモデリング、データセット、アドホッククエリサービス、Marketo Measure専用の宛先が含まれます。
 
-詳細情報： [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+詳細情報： [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## スキーマとデータセット {#schemas-and-datasets}
 
 >[!NOTE]
 >
->チェックアウト [スキーマの構築ブロック](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) スキーマ、クラス、フィールドグループの概要。
+>チェックアウト [スキーマの構築ブロック](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} スキーマ、クラス、フィールドグループの概要。
 
 **XDM スキーマ=クラス+スキーマフィールドグループ&#42;**
 
@@ -49,13 +49,13 @@ Ultimate ユーザーは AEP でプロビジョニングされます。 既に A
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[データセットの概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html):AEP に正常に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
+[データセットの概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}:AEP に正常に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
 
 ## スキーマの作成 {#creating-a-schema}
 
 10 個の標準 B2B スキーマを作成するには、自動生成ユーティリティを使用することをお勧めします。
 
-* ユーティリティのダウンロードとセットアップの手順 [ここにあります](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+* ユーティリティのダウンロードとセットアップの手順 [ここにあります](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 を持つユーザーの場合、 _**CDP 権限**_：ソースページに移動してスキーマを作成します。
 
@@ -69,7 +69,7 @@ Ultimate ユーザーは AEP でプロビジョニングされます。 既に A
 
 ## データフロー {#dataflows}
 
-[データフローの概要](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[データフローの概要](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **データフローを作成する手順は次のとおりです。**
 
@@ -93,7 +93,7 @@ Ultimate ユーザーは AEP でプロビジョニングされます。 既に A
 
    >[!NOTE]
    >
-   >[Marketo Measure Ultimate Data Integrity Requirement](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Marketo Measure Ultimate Data Integrity Requirement](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. データの読み込みケイデンスを設定します。
 1. 「確認して完了」をクリックします。
@@ -114,7 +114,7 @@ ExL: Marketo Measure Ultimate Data Integrity Requirement このドキュメン�
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-オプション 2: [PSQL をダウンロードして使用](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) （より高速で信頼性が高い）
+オプション 2: [PSQL をダウンロードして使用](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} （より高速で信頼性が高くなります）。
 
 ## Marketo Measureのデータセットをアクティブ化 {#activate-dataset-for-marketo-measure}
 
