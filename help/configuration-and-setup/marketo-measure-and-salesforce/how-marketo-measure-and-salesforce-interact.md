@@ -5,9 +5,9 @@ title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1271'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -528,7 +528,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-**オポチュニティ連絡先の役割**
+**商談取引先責任者のロール**
 
 <table> 
  <tbody> 
