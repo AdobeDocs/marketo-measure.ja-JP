@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
 source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,8 +157,8 @@ ht-degree: 98%
       + [ダッシュボードデータ表示ポリシー](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
       + [起因する収益ダッシュボード](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [エンゲージメントダッシュボード](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [リードベロシティダッシュボード](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
-      + [商談の速度ダッシュボード](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [リード速度ダッシュボード](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [商談速度ダッシュボード](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [パスポートダッシュボード](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [収益の概要ダッシュボード](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [ROI ダッシュボード](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
