@@ -4,10 +4,10 @@ title: 統合権限の概要
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: d7ded9075f7f5831314d59294327f1e4928baf8a
+source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 4%
+source-wordcount: '840'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 4%
 <thead>
   <tr>
     <th style="width:10%">統合</th>
-    <th style="width:20%">データタイプ
+    <th style="width:25%">データタイプ
     <li>Web インタラクションデータ</li>
     <li>B2B システムデータ</li>
     <li>広告プラットフォームデータ</li></th>
-    <th style="width:30%">追跡する内容</th>
+    <th style="width:25%">追跡する内容</th>
     <th style="width:40%">権限の要件</th>
   </tr>
 </thead>
@@ -60,6 +60,7 @@ ht-degree: 4%
     <b>Marketo Measure Standard ユーザー：</b> ユーザーがMarketo Measureオブジェクトからレコードを読み取れるようにします。
     <p>
     <b>Salesforce 標準フィールド権限</b>
+    <br>
     <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce 標準オブジェクトとアクセス</a>
     <p>
     <b>Salesforce カスタムフィールドの権限</b>
@@ -94,11 +95,11 @@ ht-degree: 4%
 <p>
 作成されたタッチポイントおよびその他のデータは、アカウント、キャンペーン、キャンペーン、Campaign 応答、連絡先、リード、リスト、商談、PhoneCall のカスタム bizible フィールドに書き込まれます</td>
     <td><b>Marketo Measureユーザーの権限</b>
-<p>
+<br>
 CRM の他のユーザーとの問題を回避するために、Dynamics 内に専用のMarketo Measureユーザーを作成して、データのエクスポートとインポートをおこなうことをお勧めします。 Marketo Measureアカウントの作成時に使用されるユーザー名とパスワード、およびエンドポイント URL を控えておきます。
 <p>
 <b>セキュリティロール</b>
-<p>
+<br>
 組織で Dynamics セキュリティロールを使用している場合は、接続しているユーザー、または専用のMarketo Measureユーザーが必要なエンティティに対して十分な読み取り/書き込み権限を持っていることを確認してください。
 <br>
 セキュリティロールは、[ 設定 ] &gt; [ セキュリティ ] &gt; [ セキュリティロール ] の順に選択します。
@@ -132,21 +133,36 @@ Marketo Measureは、アカウント、キャンペーン、広告グループ�
 <li>ユーザーがFacebook E メールにログインできるようにするには、電子メール権限が必要です。</li>
 <p>
 <b>スコープ</b>
-<p>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/ads_management/">ads_management</a>
 <br>
 <li>プログラムによるキャンペーンの作成、広告の管理、指標の取得が可能です。</li>
 <li>革新的なソリューションと差別化された広告主向けの価値を提供する広告管理ツールを構築します。</li>
-<p>
+<br>
+<br>
 <a href="https://developers.facebook.com/docs/permissions/reference/email">電子メール</a>
 <br>
 <li>ユーザーとコミュニケーションを取り、Facebookプロファイルに関連付けられた電子メールアドレスを使用して、ユーザーがアプリにログインできるようにします。</li></td>
   </tr>
   <tr>
     <td>LinkedIn</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>広告プラットフォームデータ
+    <p>
+    B2B システムデータ（リード生成フォームデータ。CRM アクティビティに分類されたフォームと送信を含む）。</td>
+    <td>Marketo Measureは、LinkedIn Ads キャンペーン、クリエイティブ、コストのデータに加え、リードジェネレーションFormsと応答を追跡しています。 インポートされたデータに基づいて、LinkedInタッチポイントを生成し、顧客のリードにリードフォームの回答を関連付けることができます。</td>
+    <td><li>Marketo Measureがコストデータをダウンロードするには、キャンペーンマネージャーまたはアカウントマネージャーの役割が必要です。 （スコープ行 1）</li>
+    <br>
+    <li>Marketo Measureがリード生成フォームデータにアクセスするには、スーパー管理者（ページ管理ロール、スコープ行 2）またはリード生成Formsマネージャ（有料メディア管理ロール、スコープ行 3）が必要です</li>
+    <br>
+    <li>Marketo Measureが自動タグ付けを操作するには、スーパー管理（ページ管理の役割、スコープの行 2）またはスポンサー付きコンテンツポスター（有料メディア管理の役割、スコープの行 3）が必要です</li>
+    <p>
+    <b>スコープ</b>
+    <br>
+    <a href="https://www.linkedin.com/campaignmanager/accounts">ポータルでのユーザーの役割の設定 (LinkedInアカウントへのログインが必要 )</a> - <a href="https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager">ユーザーの役割の概要</a>：ユーザーの役割、ユーザーの表示、権限の管理、アカウントマネージャーやキャンペーンマネージャーなどの役割の割り当てをおこないます
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">ページ管理者ロールの設定 — <a href="https://www.linkedin.com/help/linkedin/answer/a541981/linkedin-page-admin-roles-overview">ページ管理者の役割の定義</a>：目的の管理ページ上のページ管理者の役割
+    <p>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a570172/add-or-remove-admins-on-your-showcase-page?lang=en">有料メディア管理者の役割を設定します（有料メディア管理者を探します） - <a href="https://www.linkedin.com/help/linkedin/answer/a554540">有料メディア管理者の定義</a>：有料メディア管理者の役割</td>
   </tr>
   <tr>
     <td>DoubleClick</td>
