@@ -2,7 +2,7 @@
 description: エンゲージメントダッシュボード — [!DNL Marketo Measure]  — 製品
 title: エンゲージメントダッシュボード
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -32,7 +32,7 @@ ht-degree: 1%
 * タッチされた人：任意のタッチポイントを持つ人の合計数です。
 * 個人別タッチポイント：タッチされた個人別のタッチポイントの平均数。
 
-## タッチポイントと人物が時間の経過と共に接触 {#touchpoints-and-people-touched-over-time}
+### タッチポイントと人物が時間の経過と共に接触 {#touchpoints-and-people-touched-over-time}
 
 時系列の棒グラフには、各月、四半期および年のタッチポイント数、タッチされた人数および個人あたりのタッチポイント数が表示されます。
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 ![](assets/engagement-dashboard-1.png)
 
-## チャネルがタッチしたタッチポイント/人 {#touchpoints-people-touched-by-channel}
+### チャネルがタッチしたタッチポイント/人 {#touchpoints-people-touched-by-channel}
 
 チャネル/サブチャネル/キャンペーンでセグメント化されたタッチポイントまたはタッチされた人を示す棒グラフです。
 
