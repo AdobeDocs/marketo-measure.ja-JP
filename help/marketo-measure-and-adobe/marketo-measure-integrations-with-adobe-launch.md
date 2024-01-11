@@ -1,12 +1,12 @@
 ---
 description: '''[!DNL Marketo Measure] AdobeLaunch との統合 — [!DNL Marketo Measure]  — 製品ドキュメント`'
-title: '[!DNL Marketo Measure] と Adobe Launch の統合'
+title: '''[!DNL Marketo Measure] AdobeLaunch との統合`'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 4%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
@@ -44,13 +44,13 @@ Launch でインストールおよび設定した場合、AdobeLaunch では、 
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
-1. 「Bizible AccountId」フィールドに、Web サイトの URL を入力します。
+1. 「Bizible AccountId」フィールドに、Web サイトの URL を入力します ( 例： `adobe.com`) をクリックします。
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-5.png)
 
    >[!NOTE]
    >
-   >このフィールドは、Business_Prod.Business テーブルの「アカウント ID」ではありません。 指定された URL のすべての Web アクティビティは、 [!DNL Marketo Measure] テナント。
+   >このフィールドは、Business_Prod.Business テーブルの「アカウント ID」ではありません。 指定された URL からのすべての Web アクティビティ ( 例： `adobe.com`) が [!DNL Marketo Measure] テナント。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
