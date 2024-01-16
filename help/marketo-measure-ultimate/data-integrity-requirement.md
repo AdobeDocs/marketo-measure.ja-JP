@@ -3,9 +3,9 @@ description: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件 - [!
 title: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件」
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 034c4639e6054118052524c457995f4caf7a4bf2
+source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1493'
 ht-degree: 100%
 
 ---
@@ -407,7 +407,7 @@ ht-degree: 100%
       <td>b2b.personStatus</td>
       <td>文字列</td>
       <td>ステータス</td>
-      <td>はい（リードの personType のみ）</td>
+      <td><font color="red">はい（リードの personType のみ）</font></td>
       <td>b2b.personType が「リード」の場合にのみ必要です</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 100%
       <td>b2b.isConverted</td>
       <td>boolean</td>
       <td>IsConverted</td>
-      <td>はい（リードの personType のみ）</td>
+      <td><font color="red">はい（リードの personType のみ）</font></td>
       <td>b2b.personType が「リード」の場合にのみ必要です</td>
     </tr>
     <tr>
