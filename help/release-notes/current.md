@@ -3,10 +3,10 @@ description: 最新のリリースノート - [!DNL Marketo Measure] - 製品ド
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: ht
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->現在のダッシュボードは 2024 年 1 月中旬に廃止されますが、それまでは両方のバージョンを利用して、スムーズな移行を実現できます。
+>現在のダッシュボードは 2024 年 3 月に廃止されますが、それまでの両方のバージョンを利用して、スムーズな移行を実現できます。
 
 **IP アドレスデータの削除**
 
@@ -96,7 +96,7 @@ URL テーブルのページタイトルは、他の web テーブルのペー�
 
 >[!NOTE]
 >
->現在のダッシュボードは 2024年1月中旬に廃止されますが、それまでは両方のバージョンを利用して、スムーズな移行を実現できます。
+>現在のダッシュボードは 2024 年 3 月に廃止されますが、それまでの両方のバージョンを利用して、スムーズな移行を実現できます。
 
 ### 廃止予定機能 {#deprecations}
 
