@@ -4,9 +4,9 @@ description: カスタムセグメント — [!DNL Marketo Measure]  — 製品�
 title: カスタムセグメント化
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 手順 2 — ログインして、セグメント機能を探します。
 
-* に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、ログインします。
+* に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} をクリックし、ログインします。
 * の下 [!UICONTROL マイアカウント] タブ、選択 [!UICONTROL 設定]
 * 選択 [!UICONTROL セグメント] サイドバーの左側の、 [!UICONTROL レポート] セクション
 
@@ -67,11 +67,16 @@ ht-degree: 0%
    * 追跡するすべてのセグメントをカテゴリ内に追加しました
    * 「保存して処理」ボタンのトリガー [!DNL Marketo Measure] すべてのタッチポイントを同期し、追加した新しい情報を適用する。 この処理には 7 日かかり、この期間はルールを変更できません
 
-**_そのほかの備考:_**
+**_追加情報：_**
 
 リード/連絡先と商談の両方にルールが設定されていない場合、データの一部のみが表示されます。 詳細を説明するには、商談ルールを設定しない場合、リード/連絡先データのみが表示され、関連する商談は表示されません。 リード/連絡先のルールを設定しない場合も同様です。関連するリード/連絡先のない商談のみが表示されます。
 
 完了したら、「 [!UICONTROL 保存] 最初に、すべてを確認し、次に「 [!UICONTROL 保存して処理]. 保存して処理する際、7 日間は設定を編集できないことに注意してください。 [!DNL Marketo Measure] は、この間にデータを再フォーマットしています。
+
+Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先に設定している場合は、リード専用の次の 2 つのフィールド ([詳細はこちら](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}) をクリックします。
+
+* b2b.personStatus
+* b2b.isConverted
 
 **生成したレポートを保存する方法を教えてください。**
 

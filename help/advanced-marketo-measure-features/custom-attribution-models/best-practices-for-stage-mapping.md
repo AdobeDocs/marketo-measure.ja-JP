@@ -3,9 +3,9 @@ description: ステージマッピングのベストプラクティス — [!DNL
 title: ステージマッピングのベストプラクティス
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '480'
 ht-degree: 4%
 
 ---
@@ -31,6 +31,9 @@ ht-degree: 4%
    * ベストプラクティスの推奨事項は、ブール型フィールドです。
 * 「リード」または「連絡先」のステージ・セクションは、「損失」、「オープン」、「コンバート済」に分割されています。ステージが適切なステージ・セクションにあることを確認してください。
    * 間違ったステージセクションにステージがあると、高度に誤った結果になる可能性があります [!DNL Marketo Measure] データ
+   * Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先に設定している場合は、リード専用の次の 2 つのフィールド ([詳細はこちら](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}) をクリックします。
+      * b2b.personStatus
+      * b2b.isConverted
 * 商談ステージのセクションは、損失、オープン、獲得に分割されています。ステージが適切なステージのセクションにあることを確認してください。
    * 間違ったステージセクションにステージがあると、高度に誤った結果になる可能性があります [!DNL Marketo Measure] 売上高またはパイプライン売上高データ
 * 重複するステージ名の使用は避けます（システムによって重複するステージ名が検出され、自動的に削除されます）。

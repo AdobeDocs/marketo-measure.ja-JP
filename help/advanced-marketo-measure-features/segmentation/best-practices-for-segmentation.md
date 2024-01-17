@@ -3,10 +3,10 @@ description: セグメント化のベストプラクティス - [!DNL Marketo Me
 title: セグメンテーションのベストプラクティス
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,9 @@ Discover にプッシュすると、セグメントはすべてのボードに�
 * セグメント名を組織の命名法に合わせます。つまり、カテゴリ = フィルター名、セグメント = フィルター値です
 * ルールでは数式フィールドを使用しないでください
 * 可能な限り、リード／取引先責任者と商談の両方でセグメント化を作成し、ファネル全体で使用できるようにします
+   * Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先に設定している場合は、リード専用の次の 2 つのフィールド ([詳細はこちら](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}) をクリックします。
+      * b2b.personStatus
+      * b2b.isConverted
    * すべてのセグメントカテゴリがファネル全体で整列するわけではありません
       * 例えば、「商談タイプ」のセグメントカテゴリはリードと関係ありませんが、「地域」に関連するセグメントはファネル全体で定義できるカテゴリの可能性があります
 * CRM 内にあるか BI ツール内にあるかに関わらず、現在データのスライス方法を考慮し、[!DNL Marketo Measure] のセグメントとして作成して、Discover で同じレポートを作成できるようにすることを検討してください
