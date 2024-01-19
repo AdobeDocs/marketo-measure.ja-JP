@@ -4,10 +4,10 @@ description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメ�
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
-workflow-type: ht
-source-wordcount: '20697'
-ht-degree: 100%
+source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
+workflow-type: tm+mt
+source-wordcount: '20757'
+ht-degree: 99%
 
 ---
 
@@ -147,8 +147,23 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>Snowflake でレコードが削除済みとマークされた日付。</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> 業界</td>
+      <td>varchar</td>
+      <td>プライマリ事業。</td>
+      <td>小売、通信</td>
+    </tr>
+    <tr>
+      <td><b>∗</b> 国</td>
+      <td>varchar</td>
+      <td>アカウントの住所の国の部分。</td>
+      <td>米国、カナダ</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Marketo Measure Ultimate でのみ利用可能</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -169,74 +184,34 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>0013800001MMPPiAAP_person@adobe.com|2022-01-05 17:22:13.000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ソースシステムアカウント ID。</p>
-      </td>
-      <td>
-        <p>0013100001phrBAAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>ソースシステムアカウント ID。</td>
+      <td>0013100001phrBAAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>EMAIL</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>連絡先の関係またはリードとアカウントのマッピングにより、アカウントにマッピングされているメールアドレス。</p>
-      </td>
-      <td>
-        <p>person@adobe.com</p>
-      </td>
+      <td>EMAIL</td>
+      <td>varchar</td>
+      <td>連絡先の関係またはリードとアカウントのマッピングにより、アカウントにマッピングされているメールアドレス。</td>
+      <td>person@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>アカウントの最終変更日（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>2018-08-31 23:53:39.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>アカウントの最終変更日（ソースシステムから）。</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>アカウントの作成日（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>2018-08-18 22:01:32.000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>アカウントの作成日（ソースシステムから）。</td>
+      <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>レコードが削除されたと見なすかどうか。</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>レコードが削除されたと見なすかどうか。</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -272,58 +247,29 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <th><strong>サンプルデータ</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>アクティビティ ID（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>アクティビティ ID（ソースシステムから）。</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>LEAD_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>LEAD_ID</td>
+      <td>varchar</td>
       <td>アクティビティに関連付けられたリードの ID。</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>アクティビティに関連付けられた連絡先の ID。
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>アクティビティに関連付けられた連絡先の ID。</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>アクティビティタイプの ID（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>アクティビティタイプの ID（ソースシステムから）。</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
@@ -372,7 +318,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td>IS_DELETD</td>
+      <td>IS_DELETED</td>
       <td>boolean</td>
       <td>ソースシステムでレコードが削除されたと見なすかどうか。</td>
       <td>false</td>
@@ -4388,18 +4334,10 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Biz_Facts ビューの外部キー。</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Biz_Facts ビューの外部キー。</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4419,8 +4357,17 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>Snowflake でレコードが削除済みとマークされた日付。</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>連絡先の役職。</td>
+      <td>副社長 CEO</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Marketo Measure Ultimate でのみ利用可能</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10271,8 +10218,17 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>Snowflake でレコードが削除済みとマークされた日付。</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> OPPORTUNITY_TYPE</td>
+      <td>varchar</td>
+      <td>商談のタイプ（新規事業、更新など）</td>
+      <td>更新、見込み客</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Marketo Measure Ultimate でのみ利用可能</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
