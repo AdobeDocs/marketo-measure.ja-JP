@@ -3,9 +3,9 @@ description: 「[!DNL Marketo Measure] Ultimate 実装ガイド - [!DNL Marketo 
 title: 「[!DNL Marketo Measure] Ultimate 実装ガイド」
 feature: Integration, Tracking, Attribution
 source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ Measure では、デフォルトの通貨を「通貨」セクションで設定
 
 ステージをマッピングしていない場合、データを処理する場所がないので、システムは機能しません。
 
-Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先に設定している場合は、リード専用の次の 2 つのフィールド ([詳細はこちら](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}) をクリックします。
+Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを取引先責任者として設定している場合は、リードに固有の以下の 2 つのフィールドを使用しないでください（[詳しくは、こちらを参照してください](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}）。
 
 * b2b.personStatus
 * b2b.isConverted
