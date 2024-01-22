@@ -5,9 +5,9 @@ title: 「[!DNL Marketo Measure] クッキー」
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->プライバシーに関する問題により、サードパーティ Cookie は廃止されます。 Google Chrome が 2024 年第 3 四半期に発表したサードパーティ cookie の廃止は、この形式のトラッキングの終了を示します。 その結果、Adobeでは、サードパーティ Cookie に依存するMarketo Measure関数、特にGoogle/DoubleClick インプレッション Cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションは廃止されます。 Marketo Measureのその他の機能に影響はありません。 また、ファーストパーティ Cookie の使用にも影響はありません。 Googleのスケジュールに照らして、上記 2 つの関数の廃止予定日は6/1/2024です。 この日より前に収集された関連データは、Adobeのお客様が引き続き利用できます。
+>プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。その結果、アドビでは、サードパーティ Cookie に依存する Marketo Measure 機能、特に、Google／DoubleClick インプレッション cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションを廃止する予定です。Marketo Measure のその他の機能に影響はありません。また、ファーストパーティ cookie の使用にも影響はありません。Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。この日付より前に収集された関連データは、アドビのお客様が引き続き使用できます。
 
 <table>
 <thead>
