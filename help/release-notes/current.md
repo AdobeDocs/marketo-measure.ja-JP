@@ -3,10 +3,10 @@ description: 最新のリリースノート - [!DNL Marketo Measure] - 製品ド
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -102,7 +102,7 @@ URL テーブルのページタイトルは、他の web テーブルのペー�
 
 <p>
 
-* **Salesforce フィールドの廃止予定**
+#### Salesforce フィールドの廃止 {#salesforce-field-deprecations}
 
 アドビでは、統合を簡素化し、Salesforce 標準オブジェクトに書き出す必要性をなくすために、リード／取引先責任者オブジェクトへの書き出しジョブを段階的に廃止する予定です。お客様は Touchpoint オブジェクトから同じデータを取得できるので、以下にリストされている非正規化フィールドも廃止予定となります。_**廃止予定のタイムラインは 2024 年 6 月です。**_
 
