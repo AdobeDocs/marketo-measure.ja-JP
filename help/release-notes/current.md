@@ -3,10 +3,10 @@ description: 最新のリリースノート - [!DNL Marketo Measure] - 製品ド
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
-workflow-type: ht
-source-wordcount: '926'
-ht-degree: 100%
+source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -106,7 +106,7 @@ URL テーブルのページタイトルは、他の web テーブルのペー�
 
 アドビでは、統合を簡素化し、Salesforce 標準オブジェクトに書き出す必要性をなくすために、リード／取引先責任者オブジェクトへの書き出しジョブを段階的に廃止する予定です。お客様は Touchpoint オブジェクトから同じデータを取得できるので、以下にリストされている非正規化フィールドも廃止予定となります。_**廃止予定のタイムラインは 2024 年 6 月です。**_
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2__Ad_Campaign_Name_FT__c</td>
@@ -140,6 +140,40 @@ URL テーブルのページタイトルは、他の web テーブルのペー�
   </tr>
 </tbody>
 </table>
+
+タッチポイントオブジェクトとアトリビューションタッチポイントオブジェクトに関する同じ情報が含まれるフィールドは、次のとおりです。
+
+* bizible2__Ad_Campaign_Name__c
+* bizible2__Landing_Page__c
+* bizible2__Marketing_Channel__c
+* bizible2__Touchpoint_Date__c
+* bizible2__Touchpoint_Source__c
+
+**必要なアクション**
+
+* タッチポイントの有無に関わらず、リードおよび連絡先に対して新しいレポートタイプを作成します。
+
+![](assets/release-notes-2023-1.png)
+
+* 削除されたフィールドを利用する既存のレポートの機能をキャプチャするレポートを作成します。 この処理の一環として、次に示すように、レポートのフィールドを変更します。
+
+   * リード/連絡先 FT/LC フィールドを削除：
+
+![](assets/release-notes-2023-2.png)
+
+* タッチポイントフィールドを追加：
+
+![](assets/release-notes-2023-3.png)
+
+* タッチポイント位置フィルターおよび FT/LC フィールドを使用するフィルター（日付フィールドを含む）は、次のように更新する必要があります。
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* リード/連絡先オブジェクトから削除したフィールドを使用して、それらのフィールドを参照しなくした既存のレポートを削除します。
+
+<p>
 
 * **Dynamics パッケージ関連**
 
