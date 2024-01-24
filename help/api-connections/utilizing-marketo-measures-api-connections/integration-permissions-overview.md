@@ -4,9 +4,9 @@ title: 統合権限の概要
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 3d4ee7c71ed241c8e3885b4db57168f753dcdf65
+source-git-commit: 95bdfe7c95111b6c6430e2de2b5eef050183fb0b
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '1286'
 ht-degree: 3%
 
 ---
@@ -166,38 +166,74 @@ Marketo Measureは、アカウント、キャンペーン、広告グループ�
   </tr>
   <tr>
     <td>DoubleClick</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>広告プラットフォームデータ</td>
+    <td>Marketo Measureは、アカウント、広告主、キャンペーン、（カスタム）ランディングページ、広告、クリエイティブ、プレースメントおよびサイトを追跡しています。</td>
+    <td><li>ユーザーの主なGoogleアカウントの電子メールアドレスが必要です</li>
+<li>Campaign Manager 360 アカウントにアクセスするには、Campaign Manager の権限が必要です</li>
+<ul>
+<li>DoubleClick の広告主レポートの表示と管理</li>
+<li>DoubleClick キャンペーンマネージャーのディスプレイ広告キャンペーンの表示と管理</li>
+<p>
+    <b>スコープ</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>：プライマリGoogleアカウントの電子メールアドレスを確認する
+    <p>
+     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a>:DoubleClick for Advertisers レポートの表示と管理
+    <p>
+     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a>:DoubleClick Campaign Manager (DCM) ディスプレイ広告キャンペーンを表示および管理します</td>
   </tr>
   <tr>
     <td>AdWords</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>広告プラットフォームデータ</td>
+    <td>AdWords との統合の目的は次のとおりです。
+<p>
+<li>顧客広告データのインポート</li>
+<li>顧客広告コストデータのインポート</li>
+<li>URL パラメーターを追加/URL トラッキングテンプレートを更新して、クライアントの広告を更新する</li>
+<p>
+Marketo Measureは、キャンペーン、広告グループ、クリエイティブ、サイトリンク、キーワードを追跡しています。</td>
+    <td><li>ユーザーの主なGoogleアカウントの電子メールアドレスが必要です</li>
+<p>
+    <b>スコープ</b>
+    <br>
+    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a>：プライマリGoogleアカウントの電子メールアドレスを確認する</td>
   </tr>
   <tr>
     <td>Bing</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>広告プラットフォームデータ</td>
+    <td>Marketo Measureは、アカウント、キャンペーン、広告グループ、クリエイティブ、キーワードを追跡しています。</td>
+    <td><li>ユーザーは、Microsoftアカウントを使用して「オフラインアクセス」を許可する必要があります ( ログインしていない場合でも、Marketo Measureに対してエンドユーザーの UserInfo へのアクセス権を付与します )。 詳しくは、 <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">Microsoftページ</a> その方法に関して</li>
+<p>
+    <b>スコープ</b>
+    <br>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a>：権限に対するアクセス権を付与したデータへのアクセス権を維持します。</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B システムデータ</td>
+    <td>Marketo統合により、Marketo MeasureはMarketoアクティビティ、ユーザー、プログラム、プログラムのメンバーシップを収集できます。 また、Marketo Measureは、Marketo Web アクティビティをMarketo Measureリードタッチポイントにリンクする目的で、Marketo Cookie(Munchkin ID) を追跡します。 <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#cookie-mapping">ここで説明するように</a>:
+    <p>
+    <i>Marketo MeasureとMarketoの統合により、Marketo Measure Cookie ID もMarketo Munchkin ID とマッピングおよび同期されるようになりました。 これにより、FT タッチと LC タッチの両方をMarketo Activity に関連付けるのではなく、匿名のファーストタッチを Web セッションに関連付けるのに役立ちます。</i>
+    </td>
+    <td>お客様は、専用のMarketo EngageAPI ユーザーを作成し、Marketo Measureに資格情報を提供する必要があります。 追加の権限設定は必要ありません。 <a href="/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md#configuring-the-integration">詳細情報</a></td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>B2B システムデータ</td>
+    <td>B2B 顧客属性の統合により、Marketo MeasureとAdobe Analyticsの相互ユーザーは、Marketo Measureのアトリビューションエンジンから得られる有用なメタデータと、CRM(Microsoft Dynamics と Salesforce) との同期機能を通じて、Adobe Analyticsのユーザープロファイルを強化できます。 <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">詳細情報</a></td>
+    <td>お客様は、Analytics インスタンスにデータをアップロードする場所に、エイリアス ID と FTP サーバーの資格情報をMarketo Measureに提供する必要があります。
+    <p>
+    プロセスの後の手順の一部で必要になるので、次の情報を控えておきます。
+    <p>
+    <li>エイリアス ID。任意の値を指定できます。 「marketomeasure_id」をお勧めします。</li>
+    <li>FTP サーバーのホスト名と資格情報（ユーザー名とパスワード）</li>
+    <p>
+    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">詳細情報</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
     <td></td>
-    <td></td>
+    <td><a href="/help/marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md">bizible.js が収集するデータ</a>.</td>
     <td></td>
   </tr>
 </tbody>
