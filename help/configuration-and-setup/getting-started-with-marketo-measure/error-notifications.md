@@ -4,7 +4,7 @@ title: エラー通知
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 1%
@@ -18,10 +18,10 @@ ht-degree: 1%
 <table>
   <tbody>
     <tr>
-      <th>エラーコード</th>
-      <th>通知の例</th>
-      <th>説明</th>
-      <th>トラブルシューティング手順</th>
+      <th style="width:31%">エラーコード</th>
+      <th style="width:23%">通知の例</th>
+      <th style="width:23%">説明</th>
+      <th style="width:23%">トラブルシューティング手順</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
