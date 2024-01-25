@@ -1,8 +1,10 @@
 ---
 description: エラー通知 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: エラー通知
+hide: true
+hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 05ec40d3fa1fe1076eeaa755a9244b614ac5fda6
+source-git-commit: 656c84090c93adb55a661869061e9e0771ede03d
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 1%
