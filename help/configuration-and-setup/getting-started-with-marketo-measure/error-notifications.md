@@ -2,9 +2,9 @@
 description: エラー通知 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: エラー通知
 feature: Fundamentals
-source-git-commit: 969cb2b4fb85aeb5c3a3aa21ead3eb5f4ff15ad9
+source-git-commit: 05ec40d3fa1fe1076eeaa755a9244b614ac5fda6
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '612'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 1%
             </li>
           </ul>
           <p>
-            スクリーンショット
+           <img src="assets/error-notifications-1.png">
           </p>
       </td>
     </tr>
