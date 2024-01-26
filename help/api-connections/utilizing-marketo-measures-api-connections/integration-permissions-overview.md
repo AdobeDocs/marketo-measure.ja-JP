@@ -2,9 +2,9 @@
 description: 統合権限の概要 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: 統合権限の概要
 feature: APIs, Integration
-source-git-commit: e427f5e9f234917c033188116602d4798701118c
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1288'
 ht-degree: 3%
 
 ---
@@ -236,3 +236,7 @@ Marketo Measureは、キャンペーン、広告グループ、クリエイテ�
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[エラー通知](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

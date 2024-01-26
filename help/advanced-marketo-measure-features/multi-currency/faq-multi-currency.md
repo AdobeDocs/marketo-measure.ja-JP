@@ -4,9 +4,9 @@ description: FAQ （複数通貨） - [!DNL Marketo Measure]  — 製品ドキ�
 title: よくある質問（多通貨）
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,7 @@ ht-degree: 0%
 **顧客がワークフローを使用して変換後のフィールドに値を入力した場合、このフィールドをどのように使用すればよいですか？**
 
 オファーは顧客のコンバージョンを処理するようになるので、ワークフローとカスタムフィールドを削除し、生の金額値をインポートできるようにすることをお勧めします。
+
+>[!MORELIKETHIS]
+>
+>[エラー通知](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

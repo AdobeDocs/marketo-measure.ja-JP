@@ -4,10 +4,10 @@ description: '"[!DNL Microsoft Dynamics] CRM インストールガイド — Mar
 title: '"[!DNL Microsoft Dynamics] CRM インストールガイド»'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 18%
+source-wordcount: '983'
+ht-degree: 15%
 
 ---
 
@@ -168,10 +168,14 @@ Dynamics 標準エンティティについては、 [!DNL Marketo Measure] Dynam
 
    >[!NOTE]
    >
-   >デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。これは、[!DNL Marketo Measure] web アプリケーションの設定／CRM／一般ページで設定でき、顧客は 200（デフォルト）、100、50、25 のバッチサイズから選択できます。
+   >デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。この設定は、 [!DNL Marketo Measure] Web アプリケーションとお客様は、200（デフォルト）、100、50、25 のバッチサイズから選択できます。
    >
    >この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
    >[!NOTE]
    >
    >Dynamics へのMarketo Measureのデータの書き出しを無効にしても、既存のデータは削除されません。 既存のデータの削除については、Dynamics サポートにお問い合わせください。
+
+   >[!MORELIKETHIS]
+   >
+   >[エラー通知](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
