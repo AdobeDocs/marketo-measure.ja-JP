@@ -5,9 +5,9 @@ title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -148,15 +148,15 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>∗</b> 業界</td>
+      <td><b>∗</b> INDUSTRY</td>
       <td>varchar</td>
-      <td>プライマリ事業。</td>
-      <td>小売、通信</td>
+      <td>アカウントの主なビジネス。</td>
+      <td>小売、電気通信</td>
     </tr>
     <tr>
       <td><b>∗</b> 国</td>
       <td>varchar</td>
-      <td>アカウントの住所の国の部分。</td>
+      <td>アカウントの住所の国部分。</td>
       <td>米国、カナダ</td>
     </tr>
   </tbody>
@@ -4358,10 +4358,10 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>∗</b> JOB_TITLE</td>
+      <td><b>∗</b> JOB_TITLE</td>
       <td>varchar</td>
-      <td>連絡先の役職。</td>
-      <td>副社長 CEO</td>
+      <td>取引先責任者の役職。</td>
+      <td>CEO、副社長</td>
     </tr>
   </tbody>
 </table>
@@ -10219,9 +10219,9 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>∗</b> OPPORTUNITY_TYPE</td>
+      <td><b>∗</b> OPPORTUNITY_TYPE</td>
       <td>varchar</td>
-      <td>商談のタイプ（新規事業、更新など）</td>
+      <td>商談のタイプ（新規ビジネス、更新など）</td>
       <td>更新、見込み客</td>
     </tr>
   </tbody>
