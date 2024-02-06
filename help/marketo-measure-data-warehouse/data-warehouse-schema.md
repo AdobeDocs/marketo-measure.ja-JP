@@ -4,10 +4,10 @@ description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメ�
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: ht
-source-wordcount: '20757'
-ht-degree: 100%
+source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+workflow-type: tm+mt
+source-wordcount: '20781'
+ht-degree: 99%
 
 ---
 
@@ -6740,6 +6740,10 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
 ### BIZ_FACTS {#biz-facts}
 
 インプレッション、ページビュー、訪問数、フォーム送信、User Touchpoints、Touchpoint（BT）、Attribution Touchpoints（BAT）およびコストデータを結合します。[!DNL Marketo Measure] レポートをサポートするために内部で使用されます。
+
+>[!IMPORTANT]
+>
+>Marketo Measureは、2024 年半ばにこの表を廃止する予定です。 自分の側で作成したい場合は、を実行してください。 [この SQL クエリ](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
