@@ -4,9 +4,9 @@ description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメ�
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
 workflow-type: tm+mt
-source-wordcount: '20781'
+source-wordcount: '20777'
 ht-degree: 99%
 
 ---
@@ -8120,9 +8120,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>インターネットサービスプロバイダーの名前（高度な Geo IP トラッキングを行うお客様によって使用されます）。</p>
-      </td>
+      <td>フィールドは古いので、null にする必要があります。</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
@@ -12037,9 +12035,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>ユーザーのインターネットサービスプロバイダー</p>
-      </td>
+      <td>フィールドは古いので、null にする必要があります。</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
