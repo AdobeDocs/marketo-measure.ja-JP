@@ -4,7 +4,7 @@ description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメ�
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: b7675bb771c41f6d0e0b2718e64a152c78e405af
+source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
 workflow-type: tm+mt
 source-wordcount: '20775'
 ht-degree: 99%
@@ -357,349 +357,164 @@ _フルサイズバージョンを表示するには、画像をクリックし�
 <table>
   <tbody>
     <tr>
-      <th>
-        <p><strong>列</strong></p>
-      </th>
-      <th>
-        <p><strong>データタイプ</strong></p>
-      </th>
-      <th>
-        <p><strong>説明</strong></p>
-      </th>
-      <th>
-        <p><strong>サンプルデータ</strong></p>
-      </th>
+      <th><strong>列</strong></th>
+      <th><strong>データタイプ</strong></th>
+      <th><strong>説明</strong></th>
+      <th><strong>サンプルデータ</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告の一意の ID。</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004.6053457066804</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>広告の一意の ID。</td>
+      <td>fb.106851586409075.6052044288804.6052044290004.6053457066804</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告 ID（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>6053457066804</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
+      <td>広告 ID（ソースシステムから）。</td>
+      <td>6053457066804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告のインポート元の広告アカウントの ID。</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告のインポート元の広告アカウントの ID。</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告のインポート元の広告アカウントの名前。</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] アカウント</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>広告のインポート元の広告アカウントの名前。</td>
+      <td>[!DNL Marketo Measure] アカウント</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告の広告主の ID（Doubleclick 専用）。</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告の広告主の ID（Doubleclick 専用）。</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告の広告主の名前（Doubleclick 専用）。</p>
-      </td>
-      <td>
-        <p>Marketing Analytics</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>広告の広告主の名前（Doubleclick 専用）。</td>
+      <td>Marketing Analytics</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告の広告グループの ID。</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告の広告グループの ID。</td>
+      <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告の広告グループの名前。</p>
-      </td>
-      <td>
-        <p>Ad Set for Ad B</p>
-      </td>
+      <td>AD_GROUP_NAME</td>
+      <td>varchar</td>
+      <td>広告の広告グループの名前。</td>
+      <td>Ad Set for Ad B</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告のキャンペーンの ID。</p>
-      </td>
-      <td>
-        <p>fb.106851586409075.6052044288804</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告のキャンペーンの ID。</td>
+      <td>fb.106851586409075.6052044288804</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告のキャンペーンの名前。</p>
-      </td>
-      <td>
-        <p>Lead generation Campaign</p>
-      </td>
+      <td>AD_CAMPAIGN_NAME</td>
+      <td>varchar</td>
+      <td>広告のキャンペーンの名前。</td>
+      <td>Lead generation Campaign</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>ソースシステムで広告が依然としてアクティブかどうか。</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>boolean</td>
+      <td>ソースシステムで広告が依然としてアクティブかどうか。</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>ソースシステムで広告が削除されているかどうか。</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>ソースシステムで広告が削除されているかどうか。</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>レコードが最後に変更された日付。</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>レコードが最後に変更された日付。</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORTED</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>レコードがソースシステムから最初にインポートされた日付。</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59.000</p>
-      </td>
+      <td>FIRST_IMPORTED</td>
+      <td>timestamp_ntz</td>
+      <td>レコードがソースシステムから最初にインポートされた日付。</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告の名前（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>Ad 2</p>
-      </td>
+      <td>NAME</td>
+      <td>varchar</td>
+      <td>広告の名前（ソースシステムから）。</td>
+      <td>Ad 2</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>boolean</td>
+      <td>[!DNL Marketo Measure] のタグ付けのために広告を更新する必要があるかどうか。
+      <p>（内部処理で使用される、診断フィールド。）
       </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] のタグ付けのために広告を更新する必要があるかどうか。</p>
-        <p>（内部処理で使用される、診断フィールド。）</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>GROUPING_KEY</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>GROUPING_KEY</td>
+      <td>varchar</td>
       <td>内部処理に使用される、診断フィールド。</td>
-      <td>
-        <p>fb.106851586409075.6052044288804.6052044290004</p>
-      </td>
+      <td>fb.106851586409075.6052044288804.6052044290004</td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Ad」。</p>
-      </td>
-      <td>
-        <p>広告</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Ad」。</td>
+      <td>広告</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告の広告プロバイダーの名前。</p>
-      </td>
-      <td>
-        <p>Facebook</p>
-      </td>
+      <td>PROVIDER_TYPE</td>
+      <td>varchar</td>
+      <td>広告の広告プロバイダーの名前。</td>
+      <td>Facebook</td>
     </tr>
     <tr>
-      <td>
-        <p>URL_CURRENT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ランディングページの URL。</p>
-        <p>（内部処理用の診断フィールド。）</p>
+      <td>URL_CURRENT</td>
+      <td>varchar</td>
+      <td>ランディングページの URL。
+        <p>（内部処理用の診断フィールド。）
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_OLD</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>URL_CURRENT の以前の値。</p>
-        <p>（内部処理用の診断フィールド。）</p>
+      <td>URL_OLD</td>
+      <td>varchar</td>
+      <td>URL_CURRENT の以前の値。
+      <p>（内部処理用の診断フィールド。）
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_REQUESTED</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>URL に [!DNL Marketo Measure] パラメーターで修飾されるもの。</p>
-        <p>（内部処理用の診断フィールド。）</p>
+      <td>URL_REQUESTED</td>
+      <td>varchar</td>
+      <td>URL に [!DNL Marketo Measure] パラメーターで修飾されるもの。
+      <p>（内部処理用の診断フィールド。）
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>URL_ALTENATIVES</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>ソースシステムからインポート。</p>
-        <p>（内部処理用の診断フィールド。）</p>
+      <td>URL_ALTENATIVES</td>
+      <td>varchar</td>
+      <td>ソースシステムからインポート。
+      <p>（内部処理用の診断フィールド。）
       </td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Biz_Facts ビューの外部キー。</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Biz_Facts ビューの外部キー。</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -735,277 +550,126 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告主の一意の ID。</p>
-      </td>
-      <td>
-        <p>dc.6114.9143143</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>広告主の一意の ID。</td>
+      <td>dc.6114.9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>DISPLAY_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>DISPLAY_ID</td>
+      <td>varchar</td>
       <td>広告主 ID（ソースシステムから）。</td>
       <td>9143143</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告のインポート元の広告アカウントの ID。</p>
-      </td>
-      <td>
-        <p>fb.106851586409075</p>
-      </td>
+      <td>AD_ACCOUNT_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告のインポート元の広告アカウントの ID。</td>
+      <td>fb.106851586409075</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_ACCOUNT_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告のインポート元の広告アカウントの名前。</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] アカウント</p>
-      </td>
+      <td>AD_ACCOUNT_NAME</td>
+      <td>varchar</td>
+      <td>広告のインポート元の広告アカウントの名前。</td>
+      <td>[!DNL Marketo Measure] アカウント</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告主の ID（Doubleclick 専用）。</p>
-      </td>
-      <td>
-        <p>300181641</p>
-      </td>
+      <td>ADVERTISER_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告主の ID（Doubleclick 専用）。</td>
+      <td>300181641</td>
     </tr>
     <tr>
-      <td>
-        <p>ADVERTISER_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告主の名前（Doubleclick 専用）。</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marketing Analytics</p>
-      </td>
+      <td>ADVERTISER_NAME</td>
+      <td>varchar</td>
+      <td>広告主の名前（Doubleclick 専用）。</td>
+      <td>[!DNL Marketo Measure] Marketing Analytics</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告階層には広告主より上位の広告グループはないので、null になることが期待されます。</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告階層には広告主より上位の広告グループはないので、null になることが期待されます。</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_GROUP_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告階層には広告主より上位の広告グループはないので、null になることが期待されます。</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_GROUP_NAME</td>
+      <td>varchar</td>
+      <td>広告階層には広告主より上位の広告グループはないので、null になることが期待されます。</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_UNIQUE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告階層には広告主より上位の広告キャンペーンはないので、null になることが期待されます。</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_CAMPAIGN_UNIQUE_ID</td>
+      <td>varchar</td>
+      <td>広告階層には広告主より上位の広告キャンペーンはないので、null になることが期待されます。</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>AD_CAMPAIGN_NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告階層には広告主より上位のキャンペーンはないので、null になることが期待されます。</p>
-      </td>
-      <td>
-        <p>null</p>
-      </td>
+      <td>AD_CAMPAIGN_NAME</td>
+      <td>varchar</td>
+      <td>広告階層には広告主より上位のキャンペーンはないので、null になることが期待されます。</td>
+      <td>null</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_ACTIVE</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>ソースシステムで広告主が依然としてアクティブかどうか。</p>
-      </td>
-      <td>
-        <p>true</p>
-      </td>
+      <td>IS_ACTIVE</td>
+      <td>boolean</td>
+      <td>ソースシステムで広告主が依然としてアクティブかどうか。</td>
+      <td>true</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>ソースシステムで広告主が削除されているかどうか。</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>ソースシステムで広告主が削除されているかどうか。</td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>レコードが最後に変更された日付。</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>レコードが最後に変更された日付。</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>FIRST_IMPORTED</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>レコードがソースシステムから最初にインポートされた日付。</p>
-      </td>
-      <td>
-        <p>2018-08-02 06:35:59.000</p>
-      </td>
+      <td>FIRST_IMPORTED</td>
+      <td>timestamp_ntz</td>
+      <td>レコードがソースシステムから最初にインポートされた日付。</td>
+      <td>2018-08-02 06:35:59.000</td>
     </tr>
     <tr>
-      <td>
-        <p>NAME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告主の名前（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] Marketing Analytics</p>
-      </td>
+      <td>NAME</td>
+      <td>varchar</td>
+      <td>広告主の名前（ソースシステムから）。</td>
+      <td>[!DNL Marketo Measure] Marketing Analytics</td>
     </tr>
     <tr>
-      <td>
-        <p>NEEDS_UPDATE</p>
+      <td>NEEDS_UPDATE</td>
+      <td>boolean</td>
+      <td>[!DNL Marketo Measure] のタグ付けのために広告主を更新する必要があるかどうか。
+      <p>（内部処理で使用される、診断フィールド。）
       </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>[!DNL Marketo Measure] のタグ付けのために広告主を更新する必要があるかどうか。</p>
-        <p>（内部処理で使用される、診断フィールド。）</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>GROUPING_KEY</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>GROUPING_KEY</td>
+      <td>varchar</td>
       <td>内部処理に使用される、診断フィールド。</td>
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>ENTITY_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Advertiser」。</p>
-      </td>
-      <td>
-        <p>広告主</p>
-      </td>
+      <td>ENTITY_TYPE</td>
+      <td>varchar</td>
+      <td>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Advertiser」。</td>
+      <td>広告主</td>
     </tr>
     <tr>
-      <td>
-        <p>PROVIDER_TYPE</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>広告主の広告プロバイダー。</p>
-      </td>
-      <td>
-        <p>Doubleclick</p>
-      </td>
+      <td>PROVIDER_TYPE</td>
+      <td>varchar</td>
+      <td>広告主の広告プロバイダー。</td>
+      <td>Doubleclick</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Biz_Facts ビューの外部キー。</p>
-      </td>
-      <td>
-        <p>6008900572523230000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Biz_Facts ビューの外部キー。</td>
+      <td>6008900572523230000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
