@@ -4,7 +4,7 @@ description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメ�
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 79ac3c82c1b67cebc26fedb5e698e531537cce7f
+source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
 workflow-type: tm+mt
 source-wordcount: '21115'
 ht-degree: 98%
@@ -3043,7 +3043,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   </tbody>
 </table>
 
-## BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
 データ統合から生成されたAttribution AI。 これらのフィールドは、Marketo Measure Ultimate のお客様向けにのみ入力されます。
 
