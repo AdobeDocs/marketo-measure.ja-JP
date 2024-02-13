@@ -4,10 +4,10 @@ description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメ�
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 6cc1c20c2fa0e801b2c245a5a0473f0546b15da4
+source-git-commit: 79ac3c82c1b67cebc26fedb5e698e531537cce7f
 workflow-type: tm+mt
-source-wordcount: '20775'
-ht-degree: 99%
+source-wordcount: '21115'
+ht-degree: 98%
 
 ---
 
@@ -705,12 +705,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>広告アカウントの一意の ID。</p>
       </td>
@@ -722,9 +718,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>広告アカウント ID（ソースシステムから）。</td>
       <td>
         <p>6601259029</p>
@@ -734,9 +728,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>これは広告階層の広告アカウントのレコードなので、null になることが期待されます。</td>
       <td>null</td>
     </tr>
@@ -744,9 +736,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>これは広告階層の広告アカウントのレコードなので、null になることが期待されます。</td>
       <td>null</td>
     </tr>
@@ -754,9 +744,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層には広告アカウントより上位の広告主はないので、null になることが期待されます。</p>
       </td>
@@ -766,9 +754,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層には広告アカウントより上位の広告主はないので、null になることが期待されます。</p>
       </td>
@@ -778,9 +764,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層には広告アカウントより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -790,9 +774,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層には広告アカウントより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -802,9 +784,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層には広告アカウントより上位の広告キャンペーンはないので、null になることが期待されます。</p>
       </td>
@@ -814,9 +794,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層には広告アカウントより上位の広告キャンペーンはないので、null になることが期待されます。</p>
       </td>
@@ -851,12 +829,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -868,9 +842,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -882,9 +854,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>広告アカウントの名前（ソースシステムから）。</td>
       <td>
         <p>[!DNL Marketo Measure] 広告アカウント</p>
@@ -909,9 +879,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理に使用される、診断フィールド。</td>
       <td></td>
     </tr>
@@ -919,9 +887,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Account」。</p>
       </td>
@@ -933,9 +899,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告アカウントの広告プロバイダーの名前。</p>
       </td>
@@ -947,9 +911,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACCOUNT_CURRENCY_UNIT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告アカウントに使用される通貨コード（ソースシステムから）。</p>
       </td>
@@ -961,9 +923,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>COMPANY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理に使用されます。</td>
       <td>1933789</td>
     </tr>
@@ -971,9 +931,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>utm_source の URL から解析されます。</td>
       <td>
         <p>ソーシャル</p>
@@ -983,9 +941,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>utm_medium の URL から解析されます。</td>
       <td>
         <p>lisu07261601</p>
@@ -1051,9 +1007,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -1063,9 +1017,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -1073,9 +1025,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -1083,9 +1033,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページにタグ付けするために、AdWords または Bing の広告アカウントレベルに追加されたトラッキングテンプレート。</p>
       </td>
@@ -1141,12 +1089,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンの一意の ID。</p>
       </td>
@@ -1158,9 +1102,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>キャンペーン ID（ソースシステムから）。</td>
       <td>
         <p>285114995</p>
@@ -1170,9 +1112,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンのインポート元の広告アカウントの ID。</p>
       </td>
@@ -1184,9 +1124,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンのインポート元の広告アカウントの名前。</p>
       </td>
@@ -1198,9 +1136,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンの広告主の ID（Doubleclick 専用）。</p>
       </td>
@@ -1212,9 +1148,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンの広告主の名前（Doubleclick 専用）。</p>
       </td>
@@ -1226,9 +1160,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層にはキャンペーンより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -1240,9 +1172,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層にはキャンペーンより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -1252,9 +1182,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンの一意の ID（代わりに ID フィールドを使用してください）。</p>
       </td>
@@ -1264,9 +1192,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンの名前（代わりに NAME フィールドを使用してください）。</p>
       </td>
@@ -1301,12 +1227,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -1318,9 +1240,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -1332,9 +1252,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンの名前。</p>
       </td>
@@ -1361,9 +1279,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理に使用される、診断フィールド。</td>
       <td></td>
     </tr>
@@ -1371,9 +1287,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Campaign」。</p>
       </td>
@@ -1385,9 +1299,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンの広告プロバイダーの名前。</p>
       </td>
@@ -1413,9 +1325,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -1423,9 +1333,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -1433,9 +1341,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -1443,9 +1349,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページにタグ付けするために、AdWords または Bing のキャンペーンレベルに追加されたトラッキングテンプレート。</p>
       </td>
@@ -1509,12 +1413,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   </tr>
   <tbody>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>広告フォームの一意の ID。</p>
       </td>
@@ -1526,9 +1426,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告フォームのインポート元の広告アカウントの ID。</p>
       </td>
@@ -1540,9 +1438,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告フォームのインポート元の広告アカウントの名前。</p>
       </td>
@@ -1565,12 +1461,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -1582,9 +1474,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -1596,9 +1486,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告フォームの名前。</p>
       </td>
@@ -1610,9 +1498,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「AdForm」。</p>
       </td>
@@ -1624,9 +1510,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告フォームの広告プロバイダーの名前。</p>
       </td>
@@ -1638,9 +1522,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>DESCRIPTION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告フォームの説明。</p>
       </td>
@@ -1652,9 +1534,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>広告フォームのヘッドライン。</td>
       <td>
         <p>It's Time to Automate the Refinancing Application Process</p>
@@ -1664,9 +1544,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LANDING_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>広告フォームのランディング URL。</td>
       <td>
         <p>https://adobe.com/blog/refinancing-application-process/</p>
@@ -1676,9 +1554,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>QUESTIONS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>広告フォームの質問のリスト。</td>
       <td>
         <p>First name:Last name:Email address:Country/Region:Job title:Company name</p>
@@ -1688,9 +1564,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告フォームのステータス。</p>
       </td>
@@ -1738,12 +1612,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>広告グループの一意の ID。</p>
       </td>
@@ -1755,9 +1625,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>広告グループ ID（ソースシステムから）。</td>
       <td>
         <p>23105326115</p>
@@ -1767,9 +1635,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告グループのインポート元の広告アカウントの ID。</p>
       </td>
@@ -1781,9 +1647,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告グループのインポート元の広告アカウントの名前。</p>
       </td>
@@ -1795,9 +1659,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 広告階層には広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -1809,9 +1671,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Doubleclick 広告階層には広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -1823,9 +1683,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>これは階層の広告グループのレコードなので、null になることが期待されます。</p>
       </td>
@@ -1837,9 +1695,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>これは階層の広告グループのレコードなので、null になることが期待されます。</p>
       </td>
@@ -1851,9 +1707,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告グループに対するキャンペーンの ID。</p>
       </td>
@@ -1865,9 +1719,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告グループに対するキャンペーンの名前。</p>
       </td>
@@ -1904,12 +1756,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -1921,9 +1769,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -1935,9 +1781,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告グループの名前。</p>
       </td>
@@ -1964,9 +1808,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理に使用される、診断フィールド。</td>
       <td></td>
     </tr>
@@ -1974,9 +1816,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「AdGroup」。</p>
       </td>
@@ -1988,9 +1828,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告グループに対する広告プロバイダーの名前。</p>
       </td>
@@ -2002,9 +1840,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_NETWORK_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告グループが出稿されているメディア。</p>
       </td>
@@ -2016,9 +1852,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -2026,9 +1860,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -2036,9 +1868,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -2046,9 +1876,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページにタグ付けするために、AdWords または Bing の広告アカウントレベルに追加されたトラッキングテンプレート。</p>
       </td>
@@ -2104,12 +1932,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>広告プロバイダーの一意の ID。</p>
       </td>
@@ -2121,9 +1945,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告プロバイダーの名前。</p>
       </td>
@@ -2178,12 +2000,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Buyer Attribution Touchpoint（BAT）の一意の ID。</p>
       </td>
@@ -2193,12 +2011,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -2210,9 +2024,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BAT に起因する商談の ID。</p>
       </td>
@@ -2221,12 +2033,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>BAT に関連付けられた連絡先の ID。</p>
       </td>
@@ -2244,9 +2052,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BAT に起因するアカウントの ID。</p>
       </td>
@@ -2258,9 +2064,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BAT を生成した User Touchpoint の ID。</p>
       </td>
@@ -2272,9 +2076,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>タッチポイントの日付。</p>
       </td>
@@ -2292,9 +2094,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>アクティビティのタイプ（Web Visit、Web Form、Web Chat、Phone Call、[CRM] Campaign または [CRM] Activity）。CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
       </td>
@@ -2306,9 +2106,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。CRM では、「マーケティングチャネルパス」と呼ばれます。</p>
       </td>
@@ -2320,9 +2118,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 1 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -2334,9 +2130,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 2 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -2348,9 +2142,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 3 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -2362,9 +2154,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 4 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td>
         <p>新しいビジネス</p>
@@ -2374,9 +2164,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 5 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2384,9 +2172,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 6 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2394,9 +2180,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 7 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2404,9 +2188,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 8 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2414,9 +2196,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 9 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2424,9 +2204,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 10 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2434,9 +2212,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 11 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2444,9 +2220,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 12 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2454,9 +2228,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 13 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2464,9 +2236,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 14 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2474,9 +2244,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CATEGORY15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 15 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -2484,9 +2252,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザー。</p>
       </td>
@@ -2498,9 +2264,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザーのバージョン。</p>
       </td>
@@ -2512,9 +2276,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォーム。</p>
       </td>
@@ -2526,9 +2288,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォームのバージョン。</p>
       </td>
@@ -2540,9 +2300,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションの最初のランディングページ。CRM では、「ランディングページ」と呼ばれます。</p>
       </td>
@@ -2554,9 +2312,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションの最初のランディングページ。未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。CRM では、「ランディングページ未加工」と呼ばれます。</p>
       </td>
@@ -2568,9 +2324,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。CRM では、「参照元ページ」と呼ばれます。</p>
       </td>
@@ -2582,9 +2336,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。CRM では、「参照元ページ未加工」と呼ばれます。</p>
       </td>
@@ -2596,9 +2348,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションに記録された最初のフォーム。後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。CRM では、「フォーム URL」と呼ばれます。</p>
       </td>
@@ -2610,9 +2360,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションに記録された最初のフォーム。後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。CRM では、「フォーム URL - 未加工」と呼ばれます。</p>
       </td>
@@ -2624,9 +2372,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>フォーム申請が発生した日付。</p>
       </td>
@@ -2638,9 +2384,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された市区町村。</p>
       </td>
@@ -2652,9 +2396,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された地域。</p>
       </td>
@@ -2666,9 +2408,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された国。</p>
       </td>
@@ -2680,9 +2420,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったメディアを定義するのに使用されます。これは、utm_medium の URL から解析することもできます。または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
       </td>
@@ -2694,9 +2432,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったソースを定義するのに使用されます。これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。CRM では、「タッチポイントソース」と呼ばれます。</p>
       </td>
@@ -2708,9 +2444,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ユーザーが検索するためにブラウザーに入力して、最終的に web サイトに到達した値。キーワード購入に応じて、有料検索プラットフォームから購入したキーワードと一致する場合と一致しない場合があります。</p>
       </td>
@@ -2722,9 +2456,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] を解決できた広告プラットフォーム（通常、いずれかの統合パートナー）。</p>
       </td>
@@ -2736,9 +2468,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの ID。</p>
       </td>
@@ -2750,9 +2480,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの名前。</p>
       </td>
@@ -2764,9 +2492,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -2778,9 +2504,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -2792,9 +2516,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -2806,9 +2528,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -2820,9 +2540,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -2834,9 +2552,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -2848,9 +2564,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの ID。</p>
       </td>
@@ -2862,9 +2576,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの名前。</p>
       </td>
@@ -2876,9 +2588,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告グループの ID。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -2890,9 +2600,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告グループの名前。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -2904,9 +2612,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の ID。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -2918,9 +2624,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の名前。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -2932,9 +2636,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのクリエイティブの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -2946,9 +2648,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのクリエイティブの名前。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -2960,9 +2660,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -2974,9 +2672,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -2988,9 +2684,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -3002,9 +2696,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -3016,9 +2708,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -3030,9 +2720,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの名前。これは、Google AdWords および Bing Ads（検索）に適用されます</p>
       </td>
@@ -3044,9 +2732,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>検索語句と購入されたキーワードの間で見つかった一致のタイプ。</p>
       </td>
@@ -3357,6 +3043,163 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   </tbody>
 </table>
 
+## BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
+
+データ統合から生成されたAttribution AI。 これらのフィールドは、Marketo Measure Ultimate のお客様向けにのみ入力されます。
+
+<table>
+<thead>
+  <tr>
+    <th>列</th>
+    <th>データタイプ</th>
+    <th>説明</th>
+    <th>サンプルデータ</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CONVERSION_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>コンバージョン日</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_NAME</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントの名前（UI 設定で顧客が指定）</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ID</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントの ID （ソースデータセット内のイベントデータレコードと共に送信される、元の一意の ID 値）</td>
+    <td>0013100001b44aGAAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_ID</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントの元の MM イベント ID 
+    <br>ユーザーのタッチポイントまたはステージトランジションにマッピングされます</td>
+    <td>00U0Z00000pCZmyUAG</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントの元の MM アカウント ID</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントの元の MM 商談 ID</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_LEAD_ID</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントの元の MM リード ID <br>ほとんどの時間はヌルになりそうだ</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントの元の MM 連絡先 ID
+    <br>ほとんどの時間はヌルになりそうだ</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>CONVERSION_EVENT_TYPE</td>
+    <td>varchar</td>
+    <td>コンバージョンイベントのタイプ（b2b =リードコンバージョン、b2c =オポチュニティコンバージョン）</td>
+    <td>b2b</td>
+  </tr>
+  <tr>
+    <td>SCORE_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>タッチポイントが最後にスコアリングされた日付</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>INFLUCED_PERCENT</td>
+    <td>number(38,35)</td>
+    <td>各タッチポイントが関与するコンバージョンの割合</td>
+    <td>0.10</td>
+  </tr>
+  <tr>
+    <td>INCREMENTAL_PERCENT</td>
+    <td>number(38,35)</td>
+    <td>タッチポイントに直接引き起こされるわずかな影響の量</td>
+    <td>0.25</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>タッチポイントまたはステージの移行日</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_EVENT_ID</td>
+    <td>varchar</td>
+    <td>タッチポイントを生成したイベントの id</td>
+    <td>00U3100000VLUnEEAX</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_OPPORTUNITY_ID</td>
+    <td>varchar</td>
+    <td>タッチポイントに関連付けられたオポチュニティの ID</td>
+    <td>0060Z00000lFHtOQAW</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_ACCOUNT_ID</td>
+    <td>varchar</td>
+    <td>タッチポイントに関連付けられているアカウントの id</td>
+    <td>0013100001kpAZxAAM</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_LEAD_ID</td>
+    <td>varchar</td>
+    <td>タッチポイントに関連付けられたリードの id</td>
+    <td>00Q0Z000013dw4GUAQ</td>
+  </tr>
+  <tr>
+    <td>TOUCHPOINT_CONTACT_ID</td>
+    <td>varchar</td>
+    <td>タッチポイントに関連付けられた連絡先の id</td>
+    <td>00331000032hMxRAAU</td>
+  </tr>
+  <tr>
+    <td>COUNT_TO_CONVERSION</td>
+    <td>number(38,0)</td>
+    <td>コンバージョンイベントにつながるチェーン内のタッチポイントのランクまたは序数</td>
+    <td>10000</td>
+  </tr>
+  <tr>
+    <td>AAI_SOURCE_ID</td>
+    <td>varchar</td>
+    <td>attribution ai ソーステーブルの外部キー</td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>_CREATED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>レコードがSnowflakeで作成された日付</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>_MODIFIED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>レコードが最後に変更された日付 (Snowflake)</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+  <tr>
+    <td>_DELETED_DATE</td>
+    <td>Timestamp_ntz</td>
+    <td>レコードがSnowflakeで削除された日付</td>
+    <td>2020-01-01 01:01:00.000</td>
+  </tr>
+</tbody>
+</table>
+
 ### BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
 ソースシステムからインポートされたキャンペーンメンバー。キャンペーン同期が無効の場合、このテーブルは空になります。
@@ -3370,26 +3213,14 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>キャンペーンメンバー ID（ソースシステムから）。</p>
-      </td>
-      <td>
-        <p>00v0Z00001VVzdLQAT</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
+      <td>キャンペーンメンバー ID（ソースシステムから）。</td>
+      <td>00v0Z00001VVzdLQAT</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>キャンペーンメンバーの最終変更日（ソースシステムから）。</p>
       </td>
@@ -3398,12 +3229,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>キャンペーンメンバーの作成日（ソースシステムから）。</p>
       </td>
@@ -3415,9 +3242,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BIZIBLE_TOUCH_POINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>キャンペーン日を上書きして、代わりにこの値を Touchpoint 日に使用するためにお客様が設定する日時。</p>
       </td>
@@ -3429,9 +3254,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーが関連付けられたリードの ID。</p>
       </td>
@@ -3443,23 +3266,15 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーが関連付けられたリードのメール。</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーが関連付けられた連絡先の ID。</p>
       </td>
@@ -3471,23 +3286,17 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーが関連付けられた連絡先のメール。</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーのステータス（通常、Sent、Responded または他のカスタム値に設定される）。このステータスは、タッチポイントを作成するキャンペーンメンバーを特定するために、Campaign_Sync_Type に関連付けられています。</p>
       </td>
@@ -3513,9 +3322,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FIRST_RESPONDED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>キャンペーンメンバーが最初に応答した日付。</p>
       </td>
@@ -3527,9 +3334,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーが参加する、関連するキャンペーンの名前。</p>
       </td>
@@ -3541,9 +3346,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーが参加する、関連するキャンペーンの ID。</p>
       </td>
@@ -3555,9 +3358,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キャンペーンメンバーが参加する、関連するキャンペーンで選択されたタイプ。このタイプは、マーケティングチャネルをマッピングするために使用されます。</p>
       </td>
@@ -3569,9 +3370,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_SYNC_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントを作成するキャンペーンメンバーを特定します。有効な値は、Include_All、Include_Responded、Exclude_All です。</p>
       </td>
@@ -3583,9 +3382,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Buyer Touchpoint がリード用に生成されたかどうかを示す監査フィールド。タッチポイントが作成されなかった場合は、その理由が示されます。</p>
       </td>
@@ -3597,9 +3394,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CONTACT_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Buyer Touchpoint が連絡先用に生成されたかどうかを示す監査フィールド。タッチポイントが作成されなかった場合は、その理由が示されます。</p>
       </td>
@@ -3611,9 +3406,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>OPP_SYNC_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>Buyer Attribution Touchpoint が商談用に生成されたかどうかを示す監査フィールド。タッチポイントが作成されなかった場合は、その理由が示されます。</p>
       </td>
@@ -3675,12 +3468,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>チャネルの一意の ID。</p>
       </td>
@@ -3692,9 +3481,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>チャネルの名前。</p>
       </td>
@@ -3750,12 +3537,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>連絡先 ID（ソースシステムから）。</p>
       </td>
@@ -3764,12 +3547,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>連絡先レコードが最後に変更された日付（ソースシステムから）。</p>
       </td>
@@ -3778,12 +3557,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>連絡先レコードが作成された日付（ソースシステムから）。</p>
       </td>
@@ -3795,23 +3570,17 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>連絡先のメールアドレス（ソースシステムから）。</p>
       </td>
-      <td>
-        <p>persona@adobe.com</p>
-      </td>
+      <td>persona@adobe.com</td>
     </tr>
     <tr>
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>連絡先に関連するアカウントの ID。</p>
       </td>
@@ -3823,9 +3592,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードが作成されたソース。</p>
       </td>
@@ -3837,9 +3604,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>連絡先の現在のステージ（[!DNL Marketo Measure] アプリケーションで作成できるカスタムステージとして認識されます）。</p>
       </td>
@@ -3851,9 +3616,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>連絡先の以前のすべてのステージ（[!DNL Marketo Measure] アプリケーションで作成できるカスタムステージとして認識されます）。</p>
       </td>
@@ -3879,9 +3642,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>オフラインイベントを web セッションにマッピングするために統合パートナーから入力するのに使用される [!DNL Marketo Measure] Cookie ID。要件：コールトラッキングの有効化：True</p>
       </td>
@@ -4160,9 +3921,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得された広告アカウントの ID。</p>
       </td>
@@ -4174,9 +3933,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得された広告アカウントの名前。</p>
       </td>
@@ -4202,9 +3959,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたキャンペーンの ID。</p>
       </td>
@@ -4216,9 +3971,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたキャンペーンの名前。</p>
       </td>
@@ -4244,9 +3997,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得された広告グループの ID。</p>
       </td>
@@ -4258,9 +4009,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得された広告グループの名前。</p>
       </td>
@@ -4286,9 +4035,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得された広告の ID。</p>
       </td>
@@ -4300,9 +4047,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得された広告の名前。</p>
       </td>
@@ -4328,9 +4073,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたクリエイティブの ID。</p>
       </td>
@@ -4342,9 +4085,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたクリエイティブの名前。</p>
       </td>
@@ -4370,9 +4111,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたキーワードの ID。</p>
       </td>
@@ -4384,9 +4123,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたキーワードの名前。</p>
       </td>
@@ -4412,9 +4149,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたプレースメントの ID。</p>
       </td>
@@ -4426,9 +4161,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたプレースメントの名前。</p>
       </td>
@@ -4454,9 +4187,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたサイトの ID。</p>
       </td>
@@ -4468,9 +4199,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告接続から取得されたサイトの名前。</p>
       </td>
@@ -4624,12 +4353,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの一意の ID。</p>
       </td>
@@ -4641,9 +4366,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>クリエイティブ ID（ソースシステムから）。</td>
       <td>
         <p>10426699711</p>
@@ -4653,9 +4376,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブのインポート元の広告アカウントの ID。</p>
       </td>
@@ -4665,9 +4386,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブのインポート元の広告アカウントの名前。</p>
       </td>
@@ -4679,9 +4398,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの広告主の ID（Doubleclick 専用）。</p>
       </td>
@@ -4693,9 +4410,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの広告主の名前（Doubleclick 専用）。</p>
       </td>
@@ -4707,9 +4422,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの広告グループの ID。</p>
       </td>
@@ -4719,9 +4432,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの広告グループの名前。</p>
       </td>
@@ -4731,9 +4442,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブのキャンペーンの ID。</p>
       </td>
@@ -4745,9 +4454,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブのキャンペーンの名前。</p>
       </td>
@@ -4784,12 +4491,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -4801,9 +4504,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -4815,9 +4516,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの名前（ソースシステムから）。</p>
       </td>
@@ -4844,9 +4543,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理用の診断フィールド。</td>
       <td></td>
     </tr>
@@ -4854,9 +4551,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Creative」。</p>
       </td>
@@ -4868,9 +4563,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの広告プロバイダーの名前。</p>
       </td>
@@ -4882,9 +4575,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>すべてのタグを含む URL の現在のバージョン。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -4897,9 +4588,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>URL_DISPLAY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブに表示された短縮 URL およびフレンドリ URL。</p>
       </td>
@@ -4911,9 +4600,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL_CURRENT の以前の値。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -4924,9 +4611,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL に [!DNL Marketo Measure] パラメーターで修飾されるもの。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -4937,9 +4622,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>URL_SHORTENED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>クリエイティブに表示された短縮 URL およびフレンドリ URL（LinkedIn 広告にのみに使用）。</td>
       <td></td>
     </tr>
@@ -4947,9 +4630,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>AD_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブのタイプ（Text または Display）</p>
       </td>
@@ -4975,9 +4656,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>HEADLINE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの 1 番上の行（ヘッドライン）</p>
       </td>
@@ -4989,9 +4668,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>DESCRIPTION_LINE_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの最初の行からのコピー</p>
       </td>
@@ -5003,9 +4680,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>DESCRIPTION_LINE_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>クリエイティブの 2 番目の行からのコピー</p>
       </td>
@@ -5017,9 +4692,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理用の診断フィールド。</td>
       <td></td>
     </tr>
@@ -5027,9 +4700,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理用の診断フィールド。</td>
       <td></td>
     </tr>
@@ -5037,9 +4708,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理用の診断フィールド。</td>
       <td></td>
     </tr>
@@ -5047,9 +4716,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>内部処理用の診断フィールド。</p>
       </td>
@@ -5061,9 +4728,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>SHARE_URN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>共有 ID（LinkedIn 広告にのみに使用）。</p>
       </td>
@@ -5115,12 +4780,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>イベント ID（ソースシステムから）。</p>
       </td>
@@ -5129,12 +4790,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>イベントが作成された日付（ソースシステムから）。</p>
       </td>
@@ -5143,12 +4800,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>イベントが最後に変更された日付（ソースシステムから）。</p>
       </td>
@@ -5160,9 +4813,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>イベントに関連付けられたリードの ID。</p>
       </td>
@@ -5174,9 +4825,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>イベントに関連付けられたリードのメール。</p>
       </td>
@@ -5185,12 +4834,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>イベントに関連付けられた連絡先の ID。</p>
       </td>
@@ -5202,9 +4847,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>イベントに関連付けられた連絡先のメール。</p>
       </td>
@@ -5216,9 +4859,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>オフラインイベントを web セッションにマッピングするために統合パートナーから入力するのに使用される [!DNL Marketo Measure] Cookie ID。要件：コールトラッキングの有効化：True</p>
       </td>
@@ -5230,9 +4871,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>アクティビティタイプ名（ソースシステムから）。</p>
       </td>
@@ -5244,9 +4883,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>EVENT_START_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>イベントの開始日（Touchpoint 日を特定するために使用されるオプションのひとつ）。</p>
       </td>
@@ -5258,9 +4895,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>EVENT_END_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>イベントの終了日（Touchpoint 日を特定するために使用されるオプションのひとつ）。</p>
       </td>
@@ -5320,12 +4955,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>タスク ID（ソースシステムから）。</p>
       </td>
@@ -5334,12 +4965,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>タスクが作成された日付（ソースシステムから）。</p>
       </td>
@@ -5348,12 +4975,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>タスクが最後に変更された日付（ソースシステムから）。</p>
       </td>
@@ -5365,9 +4988,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タスクに関連付けられたリードの ID。</p>
       </td>
@@ -5379,9 +5000,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タスクに関連付けられたリードのメール。</p>
       </td>
@@ -5390,12 +5009,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>タスクに関連付けられた連絡先の ID。</p>
       </td>
@@ -5407,9 +5022,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タスクに関連付けられた連絡先のメール。</p>
       </td>
@@ -5421,9 +5034,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>オフラインイベントを web セッションにマッピングするために統合パートナーから入力するのに使用される [!DNL Marketo Measure] Cookie ID。要件：コールトラッキングの有効化：True</p>
       </td>
@@ -5435,9 +5046,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACTIVITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>アクティビティタイプ名（ソースシステムから）。</p>
       </td>
@@ -5449,9 +5058,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ACTIVITY_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>タスクが発生した日付（Touchpoint 日を特定するために使用されるオプションのひとつ）。</p>
       </td>
@@ -5511,9 +5118,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
+       <td>ID</td>
       <td>number(38,0)</td>
       <td>通貨レコードの一意の ID。</td>
       <td>139474809945095870</td>
@@ -5617,9 +5222,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する訪問者 ID の最初の cookie ID。</p>
       </td>
@@ -5629,9 +5232,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>イベントがログに記録された時点での記録済み cookie ID。</p>
       </td>
@@ -5641,9 +5242,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>チャットがログに記録された日付。</p>
       </td>
@@ -5657,9 +5256,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>実験がログに記録された時点での記録済み IP アドレス。</p>
       </td>
@@ -5669,9 +5266,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>EXPERIMENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB テストプラットフォームから取得された実験の ID。</p>
       </td>
@@ -5681,9 +5276,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>EXPERIMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB テストプラットフォームから取得された実験の名前。</p>
       </td>
@@ -5693,9 +5286,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>VARIATION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB テストプラットフォームから取得された実験のバリエーション ID。</p>
       </td>
@@ -5705,9 +5296,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>VARIATION_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB テストプラットフォームから取得された実験のバリエーション名。</p>
       </td>
@@ -5717,9 +5306,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>
         <p>ABTEST_USER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>AB テストプラットフォームから取得された実験を提供したユーザーの ID。</p>
       </td>
@@ -5774,9 +5361,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する訪問者 ID の最初の cookie ID。</p>
       </td>
@@ -5786,9 +5371,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>イベントがカスタム JavaScript からトリガーされた時点での記録済み cookie ID。</p>
       </td>
@@ -5798,9 +5381,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>イベントがカスタム JavaScript からトリガーされた日付。</p>
       </td>
@@ -5816,9 +5397,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>イベントがカスタム JavaScript からトリガーされた時点での記録済み IP アドレス。</p>
       </td>
@@ -5828,9 +5407,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>カスタム JavaScript からトリガーされたイベントに付与された名前。</p>
       </td>
@@ -5840,9 +5417,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>VALUE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>カスタム JavaScript からトリガーされたイベントに付与された値。</p>
       </td>
@@ -5894,12 +5469,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>レコードの一意の ID。</p>
       </td>
@@ -5909,9 +5480,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -5919,9 +5488,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページのインポート元の広告アカウントの ID。</td>
       <td></td>
     </tr>
@@ -5929,9 +5496,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページのインポート元の広告アカウントの名前。</td>
       <td></td>
     </tr>
@@ -5939,9 +5504,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの広告主の ID（Doubleclick 専用）。</p>
       </td>
@@ -5951,9 +5514,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの広告主の名前（Doubleclick 専用）。</p>
       </td>
@@ -5965,9 +5526,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページの広告グループの ID。</td>
       <td></td>
     </tr>
@@ -5975,9 +5534,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの広告グループの名前。</p>
       </td>
@@ -5987,9 +5544,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページのキャンペーンの ID。</p>
       </td>
@@ -5999,9 +5554,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページのキャンペーンの名前。</p>
       </td>
@@ -6028,12 +5581,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>行の最終変更日</p>
       </td>
@@ -6043,9 +5592,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -6053,9 +5600,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6073,9 +5618,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6083,9 +5626,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6093,9 +5634,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6103,9 +5642,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6113,9 +5650,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CREATIVE_DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6123,9 +5658,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6133,9 +5666,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -6184,9 +5715,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッションからの特定の訪問者 ID に関連付けられた既知のメールアドレス</p>
       </td>
@@ -6198,9 +5727,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する訪問者 ID の最初の cookie。</p>
       </td>
@@ -6209,12 +5736,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>行の最終変更日</p>
       </td>
@@ -6223,12 +5746,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>行の作成日</p>
       </td>
@@ -6283,7 +5802,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
 
 >[!IMPORTANT]
 >
->Marketo Measureは、2024 年半ばにこの表を廃止する予定です。 自分の側で作成したい場合は、を実行してください。 [この SQL クエリ](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure は、2024 年半ばにこのテーブルを廃止する予定です。自分の側で作成したい場合は、を実行してください。 [この SQL クエリ](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -6620,12 +6139,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>2018-08-28 19:39:15.000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>行が最後に変更された日付。</p>
       </td>
@@ -6799,9 +6314,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>商談 ID（ソースシステムから）。</p>
       </td>
@@ -6813,9 +6326,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>OPP_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>商談が作成された日付（ソースシステムから）。</p>
       </td>
@@ -6827,9 +6338,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>OPP_CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>商談のクローズ日（ソースシステムから）。</p>
       </td>
@@ -6841,21 +6350,15 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CONTACT_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>連絡先レコードが作成された日付（ソースシステムから）。</p>
       </td>
       <td>2017-04-28 00:21:52.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>連絡先 ID（ソースシステムから）。</p>
       </td>
@@ -6873,9 +6376,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>LEAD_CREATED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>リードレコードが作成された日付（ソースシステムから）。</p>
       </td>
@@ -6887,9 +6388,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リード ID（ソースシステムから）。</p>
       </td>
@@ -7087,12 +6586,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>フォーム送信の一意の ID。</p>
       </td>
@@ -7104,9 +6599,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォーム送信がログに記録された時点での記録済み cookie ID。</p>
       </td>
@@ -7118,9 +6611,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する訪問者 ID の最初の cookie ID。レコードが is_duplicated = true とマークされている場合、このフィールドは null になります。</p>
       </td>
@@ -7132,9 +6623,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォーム送信がログに記録された時点で記録されたセッション ID。レコードが is_duplicated = true とマークされている場合、このフィールドは null になります。</p>
       </td>
@@ -7146,9 +6635,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>フォームが送信された日付。</p>
       </td>
@@ -7157,12 +6644,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -7174,9 +6657,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォームが送信された URL（クエリパラメーターなし）。</p>
       </td>
@@ -7188,9 +6669,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォームが送信された URL（任意のクエリパラメーターを含む）。</p>
       </td>
@@ -7202,9 +6681,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォームが送信された時点での記録済み IP アドレス。</p>
       </td>
@@ -7216,9 +6693,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>イベントのタイプを示します。</td>
       <td>
         <p>FormSubmit</p>
@@ -7228,9 +6703,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォーム送信の時点で記録されたデバイスおよびブラウザー。</p>
       </td>
@@ -7242,9 +6715,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>セッションでページビューが発生した順序を示します。</td>
       <td>
         <p>4</p>
@@ -7254,9 +6725,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部監査および処理に使用されます。</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7290,9 +6759,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript から取得した、フォームで提供されたメールアドレス。</p>
       </td>
@@ -7304,9 +6771,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>FORM_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>送信されたフォームのタイプを示します。</td>
       <td>
         <p>Chat</p>
@@ -7316,9 +6781,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>FORM_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォームが認識されたメソッドを示します（onSubmit や AjaxIntercept など）</p>
       </td>
@@ -7330,9 +6793,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>FORM_IDENTIFIER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>フォームの ID 値。</td>
       <td>
         <p>-956012665</p>
@@ -7392,12 +6853,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>インプレッションの一意の ID。</p>
       </td>
@@ -7409,9 +6866,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッションの時点での記録済み cookie ID。</p>
       </td>
@@ -7421,9 +6876,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する訪問者 ID の最初の cookie ID。</p>
       </td>
@@ -7433,9 +6886,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッションがログに記録された時点で記録されたセッション ID。</p>
       </td>
@@ -7445,21 +6896,15 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>インプレッションが提供された日付。</p>
       </td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -7469,9 +6914,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッションが提供された URL（クエリパラメーターなし）。</p>
       </td>
@@ -7481,9 +6924,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッションが提供された URL（任意のクエリパラメーターを含む）。</p>
       </td>
@@ -7493,9 +6934,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッションの時点での記録済み IP アドレス。</p>
       </td>
@@ -7505,9 +6944,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>イベントのタイプを示します。</td>
       <td>サインアップで商談ステージをインポートしています</td>
     </tr>
@@ -7515,9 +6952,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォーム送信の時点で記録されたデバイスおよびブラウザー。</p>
       </td>
@@ -7529,9 +6964,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CLIENT_SEQUENCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>セッションでページビューが発生した順序を示します。</td>
       <td>
         <p>4</p>
@@ -7541,9 +6974,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部監査および処理に使用されます。</td>
       <td>
         <p>20042b6b7af44512b43f6244d86faf4c</p>
@@ -7577,9 +7008,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。CRM では、「参照元ページ」と呼ばれます。</p>
       </td>
@@ -7589,9 +7018,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>REFERRER_PAGE-RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。CRM では、「参照元ページ未加工」と呼ばれます。</p>
       </td>
@@ -7601,9 +7028,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP アドレスから解決された市区町村。</p>
       </td>
@@ -7615,9 +7040,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP アドレスから解決された地域。</p>
       </td>
@@ -7629,9 +7052,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP アドレスから解決された国。</p>
       </td>
@@ -7643,9 +7064,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>フィールドは古いので、null にする必要があります。</td>
       <td>NULL</td>
     </tr>
@@ -7653,9 +7072,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] を解決できた広告プラットフォーム（通常、いずれかの統合パートナー）。</p>
       </td>
@@ -7665,9 +7082,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの ID。</p>
       </td>
@@ -7677,9 +7092,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの名前。</p>
       </td>
@@ -7689,9 +7102,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -7703,9 +7114,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -7717,9 +7126,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -7731,9 +7138,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -7745,9 +7150,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -7759,9 +7162,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -7773,9 +7174,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの ID。</p>
       </td>
@@ -7785,9 +7184,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの名前。</p>
       </td>
@@ -7797,9 +7194,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層には広告グループがないので、null になることが期待されます。</p>
       </td>
@@ -7811,9 +7206,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層には広告グループがないので、null になることが期待されます。</p>
       </td>
@@ -7825,9 +7218,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の ID。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -7839,9 +7230,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の名前。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -7853,9 +7242,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはクリエイティブがないので、null になることが期待されます。</p>
       </td>
@@ -7867,9 +7254,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはクリエイティブがないので、null になることが期待されます。</p>
       </td>
@@ -7879,9 +7264,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはクリエイティブがないので、null になることが期待されます。</p>
       </td>
@@ -7891,9 +7274,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはクリエイティブがないので、null になることが期待されます。</p>
       </td>
@@ -7903,9 +7284,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはクリエイティブがないので、null になることが期待されます。</p>
       </td>
@@ -7915,9 +7294,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはクリエイティブがないので、null になることが期待されます。</p>
       </td>
@@ -7927,9 +7304,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはキーワードがないので、null になることが期待されます。</p>
       </td>
@@ -7939,9 +7314,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはキーワードがないので、null になることが期待されます。</p>
       </td>
@@ -7951,9 +7324,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはキーワードがないので、null になることが期待されます。</p>
       </td>
@@ -7963,9 +7334,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザー。</p>
       </td>
@@ -7977,9 +7346,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザーのバージョン。</p>
       </td>
@@ -7991,9 +7358,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォーム。</p>
       </td>
@@ -8005,9 +7370,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォームのバージョン。</p>
       </td>
@@ -8131,12 +7494,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>キーワードの一意の ID。</p>
       </td>
@@ -8148,9 +7507,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>キーワード ID（ソースシステムから）。</td>
       <td>
         <p>39464932147</p>
@@ -8160,9 +7517,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードのインポート元の広告アカウントの ID。</p>
       </td>
@@ -8172,9 +7527,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードのインポート元の広告アカウントの名前。</p>
       </td>
@@ -8184,9 +7537,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはキーワードがないので、null になることが期待されます。</p>
       </td>
@@ -8198,9 +7549,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>インプレッション用の Doubleclick 階層にはキーワードがないので、null になることが期待されます。</p>
       </td>
@@ -8212,9 +7561,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードの広告グループの ID。</p>
       </td>
@@ -8226,9 +7573,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードの広告グループの名前。</p>
       </td>
@@ -8240,9 +7585,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードのキャンペーンの ID。</p>
       </td>
@@ -8254,9 +7597,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードのキャンペーンの名前。</p>
       </td>
@@ -8293,12 +7634,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -8308,9 +7645,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -8322,9 +7657,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードの名前（ソースシステムから）。</p>
       </td>
@@ -8351,9 +7684,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理に使用される、診断フィールド。</td>
       <td>
         <p>ba.3284209.132630532.3646889365</p>
@@ -8363,9 +7694,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Keyword」。</p>
       </td>
@@ -8377,9 +7706,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>キーワードの広告プロバイダーの名前。</p>
       </td>
@@ -8391,9 +7718,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの URL。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -8404,9 +7729,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL_CURRENT の以前の値。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -8438,9 +7761,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>WORD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ユーザーが入力した検索語句。</td>
       <td>
         <p>revenue attribution b2b</p>
@@ -8450,9 +7771,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>検索語句とキーワードの間で見つかった一致のタイプ。</p>
       </td>
@@ -8464,9 +7783,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TRACKING_URL_TEMPLATE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</td>
     </tr>
@@ -8474,9 +7791,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TRACKING_URL_TEMPLATE_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -8484,9 +7799,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TRACKING_URL_TEMPLATE_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部診断に使用されます。</td>
       <td></td>
     </tr>
@@ -8494,9 +7807,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TRACKING_URL_TEMPLATE_APPLIED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] がキーワードに追加した URL トラッキングテンプレート。</td>
       <td>
         <p>http://cdn.adobe.com/redir?lp={lpurl}&amp;_bt={creative}&amp;_bk={keyword}&amp;_bm={matchType}</p>
@@ -8548,12 +7859,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの一意の ID。</p>
       </td>
@@ -8563,9 +7870,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8573,9 +7878,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページのインポート元の広告アカウントの ID。</td>
       <td></td>
     </tr>
@@ -8583,9 +7886,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページのインポート元の広告アカウントの名前。</td>
       <td></td>
     </tr>
@@ -8593,9 +7894,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの広告主の ID（Doubleclick 専用）。</p>
       </td>
@@ -8605,9 +7904,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの広告主の名前（Doubleclick 専用）。</p>
       </td>
@@ -8617,9 +7914,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページの広告グループの ID。</td>
       <td></td>
     </tr>
@@ -8627,9 +7922,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページの広告グループの名前。</td>
       <td></td>
     </tr>
@@ -8637,9 +7930,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページのキャンペーンの ID。</td>
       <td></td>
     </tr>
@@ -8647,9 +7938,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ランディングページのキャンペーンの名前。</td>
       <td></td>
     </tr>
@@ -8674,12 +7963,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td></td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>The 最終変更日 of the 行。</p>
       </td>
@@ -8689,9 +7974,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td></td>
       <td></td>
     </tr>
@@ -8699,9 +7982,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8719,9 +8000,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8729,9 +8008,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8739,9 +8016,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8749,9 +8024,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8759,9 +8032,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8769,9 +8040,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td></td>
     </tr>
@@ -8809,12 +8078,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>リード ID（ソースシステムから）。</p>
       </td>
@@ -8823,12 +8088,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>リードレコードが最後に変更された日付（ソースシステムから）。</p>
       </td>
@@ -8837,12 +8098,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>リードレコードが作成された日付（ソースシステムから）。</p>
       </td>
@@ -8852,9 +8109,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードのメールアドレス（ソースシステムから）。</p>
       </td>
@@ -8864,9 +8119,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>WEB_SITE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リード用に入力された web サイト（ソースシステムから）。Lead2Account マッピングに使用されます。</p>
       </td>
@@ -8878,9 +8131,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>COMPANY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リード用に入力された会社名（ソースシステムから）。Lead2Account マッピングに使用されます。</p>
       </td>
@@ -8892,9 +8143,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>LEAD_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードが作成されたソース。</p>
       </td>
@@ -8920,9 +8169,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CONVERTED_OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードがコンバートされた後の関連する商談の ID。</p>
       </td>
@@ -8934,9 +8181,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CONVERTED_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>リードが連絡先にコンバートされた日付。</p>
       </td>
@@ -8948,9 +8193,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CONVERTED_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードがコンバートされた後の関連する連絡先の ID。</p>
       </td>
@@ -8962,9 +8205,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ACCOUNTID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>マッピングされたアカウントの ID。要件：ABM を有効にする</p>
       </td>
@@ -8976,9 +8217,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードの現在のステージ（[!DNL Marketo Measure] アプリケーションで作成できるカスタムステージとして認識されます）。</p>
       </td>
@@ -8990,9 +8229,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードの以前のすべてのステージ（[!DNL Marketo Measure] アプリケーションで作成できるカスタムステージとして認識されます）。</p>
       </td>
@@ -9018,9 +8255,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>LEAD_SCORE_MODEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>（廃止）</p>
       </td>
@@ -9032,9 +8267,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>LEAD_SCORE_RESULTS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>（廃止）</p>
       </td>
@@ -9046,9 +8279,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BIZIBLE_COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>オフラインイベントを web セッションにマッピングするために統合パートナーから入力するのに使用される [!DNL Marketo Measure] Cookie ID。要件：コールトラッキングの有効化：True</p>
       </td>
@@ -9140,12 +8371,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>遷移の一意の ID。</p>
       </td>
@@ -9157,9 +8384,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連するリード／連絡先に対して提供されたメールアドレス。</p>
       </td>
@@ -9171,9 +8396,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移に関連付けられたリードの ID。</p>
       </td>
@@ -9182,12 +8405,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>遷移に関連付けられた連絡先の ID。</p>
       </td>
@@ -9199,9 +8418,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移に関連付けられた Buyer Touchpoint の ID。</p>
       </td>
@@ -9213,9 +8430,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがステージに遷移された日付。</p>
       </td>
@@ -9227,9 +8442,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移のステージの ID 値。</p>
       </td>
@@ -9241,9 +8454,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移のステージの名前。</p>
       </td>
@@ -9323,9 +8534,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>ステージランクに応じた、前のステージの遷移日。</p>
       </td>
@@ -9337,9 +8546,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>ステージランクに応じた、次のステージの遷移日。</p>
       </td>
@@ -9348,12 +8555,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードの最終変更日。</p>
       </td>
@@ -9409,12 +8612,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>商談 ID（ソースシステムから）。</p>
       </td>
@@ -9423,24 +8622,16 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>商談の最終変更日（ソースシステムから）。</p>
       </td>
       <td>2017-11-28 21:26:44.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>商談の作成日（ソースシステムから）。</p>
       </td>
@@ -9450,9 +8641,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連するアカウントの ID。</p>
       </td>
@@ -9464,9 +8653,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>商談名（ソースシステムから）。</p>
       </td>
@@ -9506,9 +8693,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CLOSE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>期待される、または実際の商談のクローズ日（ソースシステムから）。</p>
       </td>
@@ -9520,9 +8705,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BIZIBLE_CUSTOM_MODEL_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>（廃止）</p>
       </td>
@@ -9548,9 +8731,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CONVERTED_FROM_LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>この商談にコンバート済みの関連するリードの ID。</p>
         <p>すべてのお客様について、Snowflake ではこのフィールドは設定されず、null を返すことに注意してください。</p>
@@ -9563,9 +8744,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>CONVERTED_FROM_LEAD_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>この商談にコンバート済みの関連するリードのメール。</p>
         <p>すべてのお客様について、Snowflake ではこのフィールドは設定されず、null を返すことに注意してください。</p>
@@ -9578,9 +8757,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PRIMARY_CONTACT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プライマリ連絡先ロールが使用されている場合に、プライマリ連絡先ロールとしてリストされている関連する連絡先の ID。</p>
       </td>
@@ -9592,9 +8769,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PRIMARY_CONTACT_EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プライマリ連絡先ロールが使用されている場合に、プライマリ連絡先ロールとしてリストされている関連する連絡先のメール。</p>
       </td>
@@ -9620,9 +8795,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BIZIBLE_STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリケーションで定義された、商談の現在のステージ。</p>
       </td>
@@ -9634,9 +8807,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>BIZIBLE_STAGE_PREVIOUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリケーションで定義された、商談が以前に経過したすべてのステージの文字列。</p>
       </td>
@@ -9731,12 +8902,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>遷移の一意の ID。</p>
       </td>
@@ -9748,9 +8915,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>商談に関連付けられたアカウントの ID。</p>
       </td>
@@ -9762,9 +8927,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>OPPORTUNITY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移に関連付けられた商談の ID。</p>
       </td>
@@ -9773,12 +8936,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>遷移に関連付けられた連絡先の ID。</p>
       </td>
@@ -9790,9 +8949,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する連絡先に対して提供されたメールアドレス。</p>
       </td>
@@ -9804,9 +8961,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移に関連付けられた Buyer Attribution Touchpoint の ID。</p>
       </td>
@@ -9818,9 +8973,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>TRANSITION_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがステージに遷移された日付。</p>
       </td>
@@ -9832,9 +8985,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>STAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移のステージの名前。</p>
       </td>
@@ -9846,9 +8997,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>STAGE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>遷移のステージの ID 値。</p>
       </td>
@@ -9926,9 +9075,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>PREVIOUS_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>ステージランクに応じた、前のステージの遷移日。</p>
       </td>
@@ -9940,9 +9087,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>NEXT_STAGE_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>ステージランクに応じた、次のステージの遷移日。</p>
       </td>
@@ -9951,12 +9096,8 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードの最終変更日。</p>
       </td>
@@ -10012,12 +9153,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>ページビューの一意の ID。</p>
       </td>
@@ -10029,9 +9166,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ページビューがログに記録された時点での記録済み cookie ID。</p>
       </td>
@@ -10043,9 +9178,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する訪問者 ID の最初の cookie。</p>
       </td>
@@ -10057,9 +9190,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ページビューと相関関係があるセッション ID。</p>
       </td>
@@ -10071,9 +9202,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>ページビューが発生した日付。</p>
       </td>
@@ -10082,12 +9211,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -10099,9 +9224,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CURRENT_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ページビューの URL（クエリパラメーターなし）。</p>
       </td>
@@ -10113,9 +9236,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CURRENT_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ページビューの URL（任意のクエリパラメーターを含む）。</p>
       </td>
@@ -10127,9 +9248,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォームが送信された時点での記録済み IP アドレス。</p>
       </td>
@@ -10141,9 +9260,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>イベントのタイプを示します。</td>
       <td>
         <p>PageView</p>
@@ -10153,9 +9270,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>USER_AGENT_STRING</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>フォーム送信の時点で記録されたデバイスおよびブラウザー。</p>
       </td>
@@ -10181,9 +9296,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CLIENT_RANDOM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部監査および処理に使用されます。</td>
       <td>
         <p>103532</p>
@@ -10213,9 +9326,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ページビューが発生した URL（クエリパラメーターなし）。</p>
       </td>
@@ -10227,9 +9338,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ページビューが発生した URL（任意のクエリパラメーターを含む）。</p>
       </td>
@@ -10241,9 +9350,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>PAGE_TITLE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ページのタイトル。</p>
       </td>
@@ -10255,9 +9362,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript から取得した、フォームで提供されたメールアドレス。</p>
       </td>
@@ -10329,12 +9434,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>プレースメントの一意の ID。</p>
       </td>
@@ -10346,9 +9447,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>プレースメント ID（ソースシステムから）。</td>
       <td>10426699711</td>
     </tr>
@@ -10356,9 +9455,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントのインポート元の広告アカウントの ID。</p>
       </td>
@@ -10368,9 +9465,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントのインポート元の広告アカウントの名前。</p>
       </td>
@@ -10380,9 +9475,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントの広告主の ID（Doubleclick 専用）。</p>
       </td>
@@ -10392,9 +9485,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントの広告主の名前（Doubleclick 専用）。</p>
       </td>
@@ -10404,9 +9495,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層にはプレースメントより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -10416,9 +9505,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層にはプレースメントより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -10428,9 +9515,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントのキャンペーンの ID。</p>
       </td>
@@ -10440,9 +9525,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントのキャンペーンの名前。</p>
       </td>
@@ -10473,12 +9556,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -10488,9 +9567,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -10500,9 +9577,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントの名前（ソースシステムから）。</p>
       </td>
@@ -10525,9 +9600,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理用の診断フィールド。</td>
       <td></td>
     </tr>
@@ -10535,9 +9608,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Placement」。</p>
       </td>
@@ -10547,9 +9618,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>プレースメントの広告プロバイダーの名前。</p>
       </td>
@@ -10601,12 +9670,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>セグメントの一意の ID。</p>
       </td>
@@ -10618,9 +9683,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セグメントの名前。</p>
       </td>
@@ -10679,9 +9742,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CATEGORY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セグメント名がマッピングされるカテゴリを示します。</p>
       </td>
@@ -10690,12 +9751,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -10707,9 +9764,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>SEGMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>カテゴリにマッピングされたセグメントの名前。</p>
       </td>
@@ -10763,12 +9818,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>セッションの一意の ID。</p>
       </td>
@@ -10780,9 +9831,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>関連する訪問者 ID の最初の cookie。</p>
       </td>
@@ -10792,9 +9841,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッションの記録済み cookie ID。</p>
       </td>
@@ -10804,9 +9851,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>EVENT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>セッションの日付。</p>
       </td>
@@ -10818,9 +9863,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>MODIFIED DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -10838,9 +9881,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリケーションで設定されたチャネル定義で定義された、セッションに起因したチャネル。</p>
       </td>
@@ -10852,9 +9893,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>PAGE_TITLE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>web ページの名前。</p>
       </td>
@@ -10866,9 +9905,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッションの最初のページビューの URL（クエリパラメーターなし）。</p>
       </td>
@@ -10880,9 +9917,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッションの最初のページビューの URL（任意のクエリパラメーターを含む）。</p>
       </td>
@@ -10894,9 +9929,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッションが発生した URL（クエリパラメーターなし）。</p>
       </td>
@@ -10908,9 +9941,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッションが発生した URL（任意のクエリパラメーターを含む）。</p>
       </td>
@@ -10922,9 +9953,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>REFERRER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>参照元ページの名前。</p>
       </td>
@@ -10936,9 +9965,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ユーザーが検索するためにブラウザーに入力して、最終的に web サイトに到達した値。</p>
       </td>
@@ -10950,9 +9977,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッションとなったソースを定義するのに使用されます。これは、utm_source の URL から解析されたり、[!DNL Marketo Measure] が広告を解決できる場合は広告プロバイダーに設定されたりします。</p>
       </td>
@@ -11020,9 +10045,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>DEVICE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッション中のユーザーのブラウザーおよびオペレーティングシステム。</p>
       </td>
@@ -11034,9 +10057,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] を解決した広告プラットフォーム（通常、いずれかの統合パートナー）。</p>
       </td>
@@ -11048,9 +10069,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの ID。</p>
       </td>
@@ -11062,9 +10081,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの名前。</p>
       </td>
@@ -11076,9 +10093,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告主の ID（特に、Doubleclick 接続から）。</p>
       </td>
@@ -11090,9 +10105,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告主の名前（特に、Doubleclick 接続から）。</p>
       </td>
@@ -11104,9 +10117,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したサイトの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -11118,9 +10129,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したサイトの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -11132,9 +10141,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したプレースメントの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -11146,9 +10153,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したプレースメントの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -11160,9 +10165,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したキャンペーンの ID。</p>
       </td>
@@ -11174,9 +10177,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したキャンペーンの名前。</p>
       </td>
@@ -11188,9 +10189,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告グループの ID。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -11202,9 +10201,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告グループの名前。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -11216,9 +10213,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>解決された広告の ID。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -11228,9 +10223,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>解決された広告の名前。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -11240,9 +10233,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したクリエイティブの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11254,9 +10245,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したクリエイティブの名前。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11268,9 +10257,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11282,9 +10269,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11296,9 +10281,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11310,9 +10293,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11324,9 +10305,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したキーワードの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11338,9 +10317,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決したキーワードの名前。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -11352,9 +10329,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>検索語句と購入されたキーワードの間で見つかった一致のタイプ。</p>
       </td>
@@ -11366,9 +10341,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CAMPAIGN</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_campaign の URL から解析されます。</p>
       </td>
@@ -11380,9 +10353,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_source の URL から解析されます。</p>
       </td>
@@ -11394,9 +10365,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_medium の URL から解析されます。</p>
       </td>
@@ -11408,9 +10377,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>TERM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_term の URL から解析されます。</p>
       </td>
@@ -11422,9 +10389,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CONTENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>utm_content の URL から解析されます。</p>
       </td>
@@ -11436,9 +10401,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP アドレスから解決された市区町村。</p>
       </td>
@@ -11448,9 +10411,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP アドレスから解決された地域。</p>
       </td>
@@ -11460,9 +10421,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>IP アドレスから解決された国。</p>
       </td>
@@ -11472,9 +10431,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ISP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>フィールドは古いので、null にする必要があります。</td>
       <td>
         <p>NULL</p>
@@ -11484,9 +10441,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>IP_ADDRESS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>セッション時点での記録済み IP アドレス。</p>
       </td>
@@ -11622,12 +10577,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>サイトの一意の ID。</p>
       </td>
@@ -11637,9 +10588,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>サイト ID（ソースシステムから）。</td>
       <td>39464932147</td>
     </tr>
@@ -11647,9 +10596,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトのインポート元の広告アカウントの ID。</p>
       </td>
@@ -11659,9 +10606,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトのインポート元の広告アカウントの名前。</p>
       </td>
@@ -11671,9 +10616,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトの広告主の ID（Doubleclick 専用）。</p>
       </td>
@@ -11685,9 +10628,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトの広告主の名前（Doubleclick 専用）。</p>
       </td>
@@ -11699,9 +10640,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層にはサイトより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -11711,9 +10650,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告階層にはサイトより上位の広告グループはないので、null になることが期待されます。</p>
       </td>
@@ -11723,9 +10660,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトのキャンペーンの ID。</p>
       </td>
@@ -11737,9 +10672,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトのキャンペーンの名前。</p>
       </td>
@@ -11770,12 +10703,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>false</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -11785,9 +10714,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードがソースシステムから最初にインポートされた日付。</p>
       </td>
@@ -11797,9 +10724,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトの名前（ソースシステムから）。</p>
       </td>
@@ -11822,9 +10747,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>内部処理に使用される、診断フィールド。</td>
       <td></td>
     </tr>
@@ -11832,9 +10755,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「Site」。</p>
       </td>
@@ -11844,9 +10765,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトの広告プロバイダーの名前。</p>
       </td>
@@ -11900,12 +10819,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの一意の ID</p>
       </td>
@@ -11917,9 +10832,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>DISPLAY_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>1654234342</p>
@@ -11929,9 +10842,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの接続された広告アカウントの ID</p>
       </td>
@@ -11943,9 +10854,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの接続された広告アカウントの名前</p>
       </td>
@@ -11957,9 +10866,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの広告主の ID（Doubleclick 専用）。</p>
       </td>
@@ -11971,9 +10878,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの広告主の名前（Doubleclick 専用）。</p>
       </td>
@@ -11985,9 +10890,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの広告グループの ID</p>
       </td>
@@ -11997,9 +10900,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの広告グループの名前</p>
       </td>
@@ -12009,9 +10910,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクのキャンペーンの ID</p>
       </td>
@@ -12023,9 +10922,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>AD_CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクのキャンペーンの名前</p>
       </td>
@@ -12062,12 +10959,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>行の最終変更日</p>
       </td>
@@ -12079,9 +10972,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>FIRST_IMPORTED</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>サイトリンクが最初にダウンロードされた日付 [!DNL Marketo Measure]</p>
       </td>
@@ -12093,9 +10984,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの名前</p>
       </td>
@@ -12119,9 +11008,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>GROUPING_KEY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td></td>
       <td>
         <p>aw.6601259029.285077795</p>
@@ -12131,9 +11018,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>ENTITY_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>このテーブルのメインオブジェクトまたはエンティティ。この場合は、「SiteLink」</p>
       </td>
@@ -12145,9 +11030,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>PROVIDER_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>サイトリンクの広告プロバイダーの名前</p>
       </td>
@@ -12159,9 +11042,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>URL_CURRENT</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ランディングページの URL。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -12175,9 +11056,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>URL_OLD</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL_CURRENT の以前の値。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -12188,9 +11067,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>URL_REQUESTED</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>URL に [!DNL Marketo Measure] パラメーターで修飾されるもの。</p>
         <p>（内部処理用の診断フィールド。）</p>
@@ -12231,12 +11108,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>ステージの一意の ID。</p>
       </td>
@@ -12245,12 +11118,8 @@ Web 訪問から収集されたページビューです。複数のページビ�
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -12262,9 +11131,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>STAGE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ステージの名前。</p>
       </td>
@@ -12328,9 +11195,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
       <td>
         <p>STAGE_STATUS</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリケーションのステージマッピングで定義された、ステージのステータス。</p>
       </td>
@@ -12426,12 +11291,8 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>Buyer Touchpoint（BT）の一意の ID。</p>
       </td>
@@ -12440,12 +11301,8 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -12457,21 +11314,15 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>BT に関連付けられたメールアドレス。</td>
       <td>
         <p>person@adobe.com</p>
       </td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
       <td>
         <p>BT に関連付けられた連絡先の ID。</p>
       </td>
@@ -12481,9 +11332,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ACCOUNT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BT に関連付けられたアカウントの ID。</p>
       </td>
@@ -12495,9 +11344,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>LEAD_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BT に関連付けられたリードの ID。</p>
       </td>
@@ -12509,9 +11356,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>UNIQUE_ID_PERSON</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>リードまたは連絡先に関連する親の顧客レコード。</p>
       </td>
@@ -12523,9 +11368,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>USER_TOUCHPOINT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>BT を生成した User Touchpoint の ID。</p>
       </td>
@@ -12543,9 +11386,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>タッチポイントの日付。</p>
       </td>
@@ -12557,9 +11398,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>アクティビティのタイプ（Web Visit、Web Form、Web Chat、Phone Call、[CRM] Campaign または [CRM] Activity）。CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
       </td>
@@ -12571,9 +11410,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。CRM では、「マーケティングチャネルパス」と呼ばれます。</p>
       </td>
@@ -12583,9 +11420,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 1 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12595,9 +11430,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 2 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12609,9 +11442,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY3</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 3 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12623,9 +11454,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY4</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 4 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12637,9 +11466,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY5</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 5 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12649,9 +11476,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY6</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 6 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12661,9 +11486,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY7</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 7 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -12671,9 +11494,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY8</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 8 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -12681,9 +11502,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY9</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 9 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -12691,9 +11510,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY10</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 10 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -12701,9 +11518,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY11</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 11 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -12711,9 +11526,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY12</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 12 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -12721,9 +11534,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY13</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 13 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</td>
       <td></td>
     </tr>
@@ -12731,9 +11542,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY14</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 14 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12743,9 +11552,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CATEGORY15</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のセグメント定義で定義された、タッチポイントが分類される第 15 カテゴリのセグメント値。CRM では、「セグメント」と呼ばれます。</p>
       </td>
@@ -12755,9 +11562,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザー。</p>
       </td>
@@ -12767,9 +11572,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザーのバージョン。</p>
       </td>
@@ -12781,9 +11584,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォーム。</p>
       </td>
@@ -12795,9 +11596,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォームのバージョン。</p>
       </td>
@@ -12807,9 +11606,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションの最初のランディングページ。CRM では、「ランディングページ」と呼ばれます。</p>
       </td>
@@ -12821,9 +11618,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションの最初のランディングページ。未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。CRM では、「ランディングページ未加工」と呼ばれます。</p>
       </td>
@@ -12835,9 +11630,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。CRM では、「参照元ページ」と呼ばれます。</p>
       </td>
@@ -12847,9 +11640,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。CRM では、「参照元ページ未加工」と呼ばれます。</p>
       </td>
@@ -12861,9 +11652,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションに記録された最初のフォーム。後続のフォーム送信は、Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。CRM では、「フォーム URL」と呼ばれます。</p>
       </td>
@@ -12881,9 +11670,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>フォーム申請が発生した日付。</p>
       </td>
@@ -12895,9 +11682,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された市区町村。</p>
       </td>
@@ -12909,9 +11694,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された地域。</p>
       </td>
@@ -12923,9 +11706,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された国。</p>
       </td>
@@ -12937,9 +11718,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったメディアを定義するのに使用されます。これは、utm_medium の URL から解析することもできます。または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
       </td>
@@ -12951,9 +11730,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったソースを定義するのに使用されます。これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。CRM では、「タッチポイントソース」と呼ばれます。</p>
       </td>
@@ -12965,9 +11742,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ユーザーが検索するためにブラウザーに入力して、最終的に web サイトに到達した値。キーワード購入に応じて、有料検索プラットフォームから購入したキーワードと一致する場合と一致しない場合があります。</p>
       </td>
@@ -12979,9 +11754,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] を解決できた広告プラットフォーム（通常、いずれかの統合パートナー）。</p>
       </td>
@@ -12993,9 +11766,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの ID。</p>
       </td>
@@ -13007,9 +11778,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの名前。</p>
       </td>
@@ -13021,9 +11790,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -13035,9 +11802,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -13049,9 +11814,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -13063,9 +11826,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -13077,9 +11838,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -13091,9 +11850,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -13105,9 +11862,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの ID。</p>
       </td>
@@ -13119,9 +11874,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの名前。</p>
       </td>
@@ -13133,9 +11886,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告グループの ID。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -13145,9 +11896,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告グループの名前。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -13157,9 +11906,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の ID。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -13169,9 +11916,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の名前。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -13181,9 +11926,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのクリエイティブの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -13195,9 +11938,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのクリエイティブの名前。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -13209,9 +11950,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -13223,9 +11962,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -13237,9 +11974,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -13251,9 +11986,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -13265,9 +11998,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -13279,9 +12010,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの名前。これは、Google AdWords および Bing Ads（検索）に適用されます</p>
       </td>
@@ -13293,9 +12022,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>検索語句と購入されたキーワードの間で見つかった一致のタイプ。</p>
       </td>
@@ -13699,12 +12426,8 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>
         <p>User Touchpoint の一意の ID。</p>
       </td>
@@ -13713,12 +12436,8 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
       </td>
@@ -13730,9 +12449,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>EMAIL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>User Touchpoint に関連付けられたメールアドレス。</p>
       </td>
@@ -13744,9 +12461,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>User Touchpoint を作成したセッションの ID。</p>
       </td>
@@ -13758,9 +12473,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CAMPAIGN_MEMBER_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>User Touchpoint を作成したキャンペーンメンバーの ID。</p>
       </td>
@@ -13778,9 +12491,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CRM_EVENT_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>User Touchpoint を作成したイベントの ID。</p>
       </td>
@@ -13792,9 +12503,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CRM_TASK_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>User Touchpoint を作成したタスクの TID。</p>
       </td>
@@ -13806,9 +12515,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>IMPRESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>User Touchpoint を作成したインプレッションの ID。</p>
       </td>
@@ -13830,9 +12537,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>TOUCHPOINT_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>User Touchpoint が発生した日付。</p>
       </td>
@@ -13844,9 +12549,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>MARKETING_TOUCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>アクティビティのタイプ（Web Visit、Web Form、Web Chat、Phone Call、[CRM] Campaign または [CRM] Activity）。CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
       </td>
@@ -13858,9 +12561,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CHANNEL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。CRM では、「マーケティングチャネルパス」と呼ばれます。</p>
       </td>
@@ -13872,9 +12573,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>BROWSER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザー。</p>
       </td>
@@ -13886,9 +12585,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>BROWSER_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたブラウザーのバージョン。</p>
       </td>
@@ -13900,9 +12597,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLATFORM_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォーム。</p>
       </td>
@@ -13914,9 +12609,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLATFORM_VERSION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出されたプラットフォームのバージョン。</p>
       </td>
@@ -13928,9 +12621,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>LANDING_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションの最初のランディングページ。CRM では、「ランディングページ」と呼ばれます。</p>
       </td>
@@ -13942,9 +12633,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>LANDING_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションの最初のランディングページ。未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。CRM では、「ランディングページ未加工」と呼ばれます。</p>
       </td>
@@ -13956,9 +12645,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>REFERRER_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。CRM では、「参照元ページ」と呼ばれます。</p>
       </td>
@@ -13970,9 +12657,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>REFERRER_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。CRM では、「参照元ページ未加工」と呼ばれます。</p>
       </td>
@@ -13984,9 +12669,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>FORM_PAGE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションに記録された最初のフォーム。後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。CRM では、「フォーム URL」と呼ばれます。</p>
       </td>
@@ -13998,9 +12681,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>FORM_PAGE_RAW</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったセッションに記録された最初のフォーム。後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。CRM では、「フォーム URL - 未加工」と呼ばれます。</p>
       </td>
@@ -14012,9 +12693,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>FORM_DATE</p>
       </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
+      <td>timestamp_ntz</td>
       <td>
         <p>フォーム申請が発生した日付。</p>
       </td>
@@ -14026,9 +12705,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CITY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された市区町村。</p>
       </td>
@@ -14040,9 +12717,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>REGION</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された地域。</p>
       </td>
@@ -14054,9 +12729,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>COUNTRY</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された国。</p>
       </td>
@@ -14068,9 +12741,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>MEDIUM</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったメディアを定義するのに使用されます。これは、utm_medium の URL から解析することもできます。または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
       </td>
@@ -14082,9 +12753,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>WEB_SOURCE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>タッチポイントとなったソースを定義するのに使用されます。これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。CRM では、「タッチポイントソース」と呼ばれます。</p>
       </td>
@@ -14096,9 +12765,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SEARCH_PHRASE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>ユーザーが検索するためにブラウザーに入力して、最終的に web サイトに到達した値。キーワード購入に応じて、有料検索プラットフォームから購入したキーワードと一致する場合と一致しない場合があります。</p>
       </td>
@@ -14110,9 +12777,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_PROVIDER</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>[!DNL Marketo Measure] を解決できた広告プラットフォーム（通常、いずれかの統合パートナー）。</p>
       </td>
@@ -14124,9 +12789,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ACCOUNT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの ID。</p>
       </td>
@@ -14138,9 +12801,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ACCOUNT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントの名前。</p>
       </td>
@@ -14152,9 +12813,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ADVERTISER_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -14166,9 +12825,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>ADVERTISER_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告主の名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -14180,9 +12837,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SITE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -14194,9 +12849,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SITE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのサイトの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -14208,9 +12861,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLACEMENT_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの ID。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -14222,9 +12873,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>PLACEMENT_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのプレースメントの名前。これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
@@ -14236,9 +12885,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CAMPAIGN_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの ID。</p>
       </td>
@@ -14250,9 +12897,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CAMPAIGN_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのキャンペーンの名前。</p>
       </td>
@@ -14264,9 +12909,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_GROUP_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告グループの ID。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -14278,9 +12921,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_GROUP_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告グループの名前。これは、Google AdWords にのみ適用されます。</p>
       </td>
@@ -14292,9 +12933,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の ID。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -14304,9 +12943,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>AD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからの広告の名前。これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
@@ -14316,9 +12953,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのクリエイティブの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -14330,9 +12965,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントからのクリエイティブの名前。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -14344,9 +12977,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DESCRIPTION_1</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -14358,9 +12989,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DESCRIPTION_2</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -14372,9 +13001,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DESTINATION_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -14386,9 +13013,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>CREATIVE_DISPLAY_URL</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -14400,9 +13025,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>KEYWORD_UNIQUE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの ID。これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
@@ -14414,9 +13037,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>KEYWORD_NAME</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの名前。これは、Google AdWords および Bing Ads（検索）に適用されます</p>
       </td>
@@ -14428,9 +13049,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>KEYWORD_MATCH_TYPE</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>
         <p>検索語句と購入されたキーワードの間で見つかった一致のタイプ。</p>
       </td>
@@ -14592,12 +13211,8 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <th>サンプルデータ</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+       <td>ID</td>
+      <td>varchar</td>
       <td>マッピングレコードの一意の ID。</td>
       <td>
         <p>0d643578c0c74753eff91abe668ed328|2020-06-17:19:03:36|0002|0|568668</p>
@@ -14607,9 +13222,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>COOKIE_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] の記録済み cookie ID。</td>
       <td>0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14617,9 +13230,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>VISITOR_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>関連する訪問者 ID の最初の cookie ID。</td>
       <td>v_0d643578c0c74753eff91abe668ed328</td>
     </tr>
@@ -14627,9 +13238,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>SESSION_ID</p>
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>[!DNL Marketo Measure] セッション ID。</td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
@@ -14644,9 +13253,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
+      <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
         <p>レコードが最後に変更された日付。</p>
@@ -14657,9 +13264,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     </tr>
     <tr>
       <td>CURRENT_PAGE</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ページビューの URL（クエリパラメーターなし）。</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html</p>
@@ -14667,9 +13272,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     </tr>
     <tr>
       <td>CURRENT_PAGE_RAW</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ページビューの URL（任意のクエリパラメーターを含む）。</td>
       <td>
         <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
@@ -14677,9 +13280,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     </tr>
     <tr>
       <td>IP_ADDRESS</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>記録済み IP アドレス。</td>
       <td>
         <p>159.203.142.127</p>
@@ -14687,9 +13288,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     </tr>
     <tr>
       <td>TYPE</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>イベントのタイプを示します。</td>
       <td>
         <p>HostMapping</p>
@@ -14697,9 +13296,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     </tr>
     <tr>
       <td>USER_AGENT_STRING</td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>varchar</td>
       <td>ページビューの時点で記録されたデバイスおよびブラウザー。</td>
       <td>
         <p>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36</p>
