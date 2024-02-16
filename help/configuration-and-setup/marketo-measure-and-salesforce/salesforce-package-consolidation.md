@@ -1,12 +1,12 @@
 ---
 description: '''[!DNL Salesforce] パッケージ統合 — [!DNL Marketo Measure]  — 製品ドキュメント`'
-title: '[!DNL Salesforce] パッケージの統合'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+title: '[!DNL Salesforce] パッケージ統合'
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 12%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Marketo Measure Salesforce パッケージの今後の変更がお知らせし�
 レポート機能を強化するために、次の 2 つの新しいフィールドを追加しました。
 
 * form_name：BT/BAT オブジェクトで使用できるようになったこのフィールドにより、ユーザーはフォーム名に基づいてレポートを作成できます。
-* user_touchpoint_id：このフィールドを使用すると、ユーザーは固有のユーザータッチポイント数を含むレポートを作成できます。
+* user_touchpoint_id：このフィールドを使用すると、ユーザーは一意のユーザータッチポイント数 (`bizible2__User_Touchpoint_V2__c` （Salesforce 内）。
 
 ## サポートと移行 {#support-and-transition}
 
