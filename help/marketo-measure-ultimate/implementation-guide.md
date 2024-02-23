@@ -2,10 +2,10 @@
 description: 「[!DNL Marketo Measure] Ultimate 実装ガイド - [!DNL Marketo Measure] - 製品ドキュメント」
 title: 「[!DNL Marketo Measure] Ultimate 実装ガイド」
 feature: Integration, Tracking, Attribution
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
-workflow-type: ht
-source-wordcount: '997'
-ht-degree: 100%
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+workflow-type: tm+mt
+source-wordcount: '1014'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,10 @@ _**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移�
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## データフロー {#dataflows}
+
+>[!IMPORTANT]
+>
+>新しいデータセットを追加する場合は、既存のフローを使用するのではなく、新しいフローを作成することをお勧めします。
 
 [データフローの概要](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=ja){target="_blank"}
 

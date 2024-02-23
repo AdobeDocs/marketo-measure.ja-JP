@@ -3,10 +3,10 @@ description: 新しい Discover ダッシュボードガイド — [!DNL Marketo
 title: 新しい Discover ダッシュボードガイド
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 10%
+ht-degree: 3%
 
 ---
 
@@ -39,14 +39,12 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
           <li>
             <strong>パイプライン売上高：</strong>非推奨（以下を参照）</li>
           <li>
-            <strong>平均契約サイズ： </strong>非推奨（以下を参照）</li>
-        </ul>
+            <strong>平均契約サイズ： </strong>非推奨（以下を参照）</li></ul>
       </td>
     </tr>
     <tr>
       <td>成長</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>売上高と売上高の推移</strong>：属性売上高、売上高の概要、ROI ダッシュボード</li>
           <li>
@@ -168,13 +166,13 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
             <strong>訪問あたりのコスト</strong>
           </li>
           <li>
-            <strong>ユニーク訪問あたりの収益</strong>
+            <strong>個別訪問あたりの売上高</strong>
           </li>
           <li>
-            <strong>訪問あたりの収益</strong>
+            <strong>訪問あたりの売上高</strong>
           </li>
           <li>
-            <strong>ランディングページ別のリード</strong>
+            <strong>リード — ランディングページ別</strong>
           </li>
         </ul>
       </td>
@@ -351,7 +349,7 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
     <tr>
       <td>
         <p>
-          <strong>パイプライン収益</strong>
+          <strong>パイプライン売上高</strong>
         </p>
       </td>
       <td rowspan="3">
@@ -362,7 +360,7 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
     <tr>
       <td>
         <p>
-          <strong>パイプライン収益の履歴</strong>
+          <strong>パイプラインの売上高の推移</strong>
         </p>
       </td>
     </tr>
@@ -384,7 +382,7 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
     <tr>
       <td>
         <p>
-          <strong>保留中の商談</strong>
+          <strong>進行中の商談</strong>
           <strong>
             <br/>
           </strong>
@@ -401,7 +399,7 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
     <tr>
       <td>
         <p>
-          <strong>契約の履歴</strong>
+          <strong>長期間の契約</strong>
         </p>
       </td>
       <td rowspan="4">これらの指標は、KPI タイルで既に提供されています。 冗長性を回避し、明確性を維持するために、時系列表示をダッシュボードから除外しました。
@@ -409,17 +407,17 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
     </tr>
     <tr>
       <td>
-        <strong>取引先責任者の履歴</strong>
+        <strong>長期間の連絡先</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>商談の履歴</strong>
+        <strong>長期にわたる商談</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>リードの履歴</strong>
+        <strong>リードの推移</strong>
       </td>
     </tr>
     <tr>
@@ -454,21 +452,21 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
     <tr>
       <td>
         <p>
-          <strong>訪問あたりの収益</strong>
+          <strong>訪問あたりの売上高</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>ランディングページ別のリード</strong>
+          <strong>リード — ランディングページ別</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>収益別のランディングページ</strong>
+          <strong>売上高別のランディングページ</strong>
         </p>
       </td>
     </tr>
@@ -493,7 +491,7 @@ Discover ダッシュボードの再設計をご紹介し、うれしく思い�
 **更新をフィルター**：エクスペリエンスを合理化するために、以下のようにフィルターの選択を調整しました。
 
 * **日付タイプ、指標、Dimension、グループ化**：これらの設定は、各ダッシュボードに対して事前に定義され、インサイト配信を最適化するようになりました。 詳細は、ツールチップおよび付属のドキュメントからアクセスできます。
-* **キャンペーンソース**
+* **キャンペーンのソース**
 * **アカウント ID と名前**：レビュー中。
 
 ## 新しい追加と改善 {#new-additions-and-improvements}

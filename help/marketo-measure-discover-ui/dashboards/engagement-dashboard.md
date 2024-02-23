@@ -2,9 +2,9 @@
 description: エンゲージメントダッシュボード — [!DNL Marketo Measure]  — 製品
 title: エンゲージメントダッシュボード
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -59,3 +59,11 @@ ht-degree: 1%
 * タッチポイント数は、特定のチャネル/サブチャネル/キャンペーン内でのタッチ済み顧客と比較してどのように異なりますか？
 
 ![](assets/engagement-dashboard-2.png)
+
+## フィルターウィンドウ {#filter-pane}
+
+このダッシュボードには、次の設定とフィルターが備わっています。
+
+* 日付（タッチポイントの日付に基づく）
+* チャネル、サブチャネル
+* キャンペーン
