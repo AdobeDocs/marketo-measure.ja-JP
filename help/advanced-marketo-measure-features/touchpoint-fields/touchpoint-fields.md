@@ -4,9 +4,9 @@ description: タッチポイントフィールド — [!DNL Marketo Measure]  �
 title: Touchpoint フィールド
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 抽出
 
-抽出演算子は、キャンペーンフィールド、リードフィールド、より高度な使用例など、別の場所からフィールドの値を引き出します。 [ランディングページからカスタムパラメーターを抽出する](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2) です。
+The [!UICONTROL 抽出] 演算子は、キャンペーンフィールド、リードフィールド、より高度なユースケースなど、別の場所からフィールドの値を引き出します。 [ランディングページからカスタムパラメーターを抽出する](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2) です。
 
 **例#1**
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 **マッピング先**
 
-「マップ先」演算子は、別の値に変換またはグループ化する必要がある値のテーブルを作成します。 通常、これはキー値の形式を取ります。コードはわかりやすい名前を表し、そのわかりやすい名前にマッピングする必要があります。
+The [!UICONTROL マップ：] 演算子は、別の値に変換またはグループ化する必要がある値のテーブルを作成します。 通常、これはキー値の形式を取ります。コードはわかりやすい名前を表し、そのわかりやすい名前にマッピングする必要があります。
 
 **例#1**
 
@@ -145,18 +145,18 @@ ht-degree: 0%
    * **(** 抽出の開始を示します
 
       * 4 のみを抽出するので、最初の桁のみが始め丸括弧を持つことに注意してください
-
    * **)** 抽出の終了を示します。
 
       * 4 のみを抽出するので、最初の桁のみが閉じ丸括弧を持つことに注意してください
-
    * **\d** 「数字」を抽出していることを示します。
    * **{2}** は、抽出する文字数です
+
+
 
 * 「[!UICONTROL 保存]」をクリックします。新しいフィールドを次のルールで使用するには、その前に保存する必要があります。
 * 次に、最初の桁のすべての可能な値を、わかりやすい名前にマッピングします。
 * 計算フィールドを作成し、&quot;Region_Name&quot;というラベルを付けます。
-* 抽出したフィールドの検索から始めて、ルールを定義します。 この場合、Touchpoint.Region です。
+* 抽出したフィールドの検索から始めて、ルールを定義します。 この場合、 [!DNL Touchpoint.Region]
 * 演算子「 」を使用します。[!UICONTROL マップ：]」という名前を付けます。
 * 各マッピングをリストするテーブルが表示されます。 最終的には、次のようになります。
 * マッピングと上記の URL に基づいて、このランディングページのタッチポイントの「Region_Value」は「EMEA」になります。
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 **連結**
 
-連結演算子は、複数のフィールドの値を 1 つのフィールドに結合します。 これは、様々なフィールドにわたってデータを取り込み、
+The [!UICONTROL 連結] 演算子は、複数のフィールドの値を単一のフィールドに結合します。 これは、様々なフィールドにわたってデータを取り込み、
 
 **例#1**
 
@@ -221,7 +221,7 @@ URL からの値が解析され、タッチポイントに存在するように�
 
 **抽出した式が有効で正しい値を取り込んでいることを検証するには、どうすればよいですか？**
 
-オンラインツール ([https://regex101.com/](https://regex101.com/){target="_blank"}) を使用して、式を実行およびテストできます。 式は、有効な場合は緑、無効な場合は赤で表示されます。 また、右上の説明ボックスが役立ち、何を抽出しているかを示します。
+オンラインツール ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) を使用して、式を実行およびテストできます。 式は、有効な場合は緑、無効な場合は赤で表示されます。 また、 [!UICONTROL 説明] 右上のボックスが役に立ち、何を抽出しているかを示します。
 
 ![](assets/twelve.png)
 

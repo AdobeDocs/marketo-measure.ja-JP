@@ -4,9 +4,9 @@ description: タッチポイントの削除およびタッチポイントの抑�
 title: Touchpoint の削除と Touchpoint の抑制
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
->フィールド内の空白または NULL 値を考慮するには、単に「値」ボックスを空のままにします。 これには、フォーム URL のないタッチポイントに対する評価などのシナリオが考慮されます。
+>フィールド内の空白または NULL 値を考慮するには、 [!UICONTROL 値] ボックスが空です。 これには、フォーム URL のないタッチポイントに対する評価などのシナリオが考慮されます。
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 ![](assets/2.png)
 
-`3)` ルールが複雑になり、グループを再作成し、各文に小さな変更を加える必要がある場合は、「Clone」オプションを使用して作業をシンプルにします。
+`3)` ルールが複雑になり、グループを再作成して各文に小さな変更を加える必要がある場合は、 [!UICONTROL 複製] よりシンプルにするオプションを使用できます。
 
 ![](assets/3.png)
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 ![](assets/5.png)
 
-ルールを保存して処理すると、作業が完了します。 多くの変更を加える場合は、途中で必ず「変更を保存」してください。 [!DNL Marketo Measure] タッチポイントの削除は、 **保存して処理** 」ボタンをクリックします。
+終了するには、 [!UICONTROL 保存して処理] ルールを設定します。 多くの変更を加える場合は、途中で必ず「変更を保存」してください。 [!DNL Marketo Measure] タッチポイントの削除は、 **保存して処理** 」ボタンをクリックします。
 
 | **演算子** | **使用例** |
 |---|---|

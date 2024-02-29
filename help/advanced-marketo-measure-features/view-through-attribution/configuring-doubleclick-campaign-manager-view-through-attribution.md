@@ -4,9 +4,9 @@ description: アトリビューションを使用した Doubleclick Campaign Man
 title: Doubleclick Campaign Manager ビュースルーアトリビューションの設定
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->を使用している場合、 [!DNL Marketo Measure] と DoubleClick Campaign Manager の統合には、 [API 接続](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
+>を使用している場合、 [!DNL Marketo Measure] および [!DNL DoubleClick Campaign Manager] 統合、 [API 接続](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
 
-Doubleclick Campaign Manager を使用したトラッキングを通じて、表示からより詳細なインサイトを得るには、トラッキングピクセルを設定する必要があります。
+を使用して、追跡を通じて、ビューからより詳細なインサイトを得るには [!DNL Doubleclick Campaign Manager]に値を指定する場合は、トラッキングピクセルを設定する必要があります。
 
 お願いします [ここをクリック](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) を参照してください。 [!DNL Marketo Measure] ビュースルーアトリビューション機能。
 
@@ -29,7 +29,7 @@ DCM で親と子の階層を利用する場合、インプレッションの追�
 
 ## イメージタグの追加方法 {#how-to-add-the-image-tag}
 
-広告主設定の下で Doubleclick にタグを追加し、インプレッションイベントタグを作成します。
+タグを [!DNL Doubleclick] 広告主設定の下に表示され、インプレッションイベントタグを作成します。
 
 1. 次のコードを 1 x 1 画像ピクセルとして追加します。
 
@@ -37,7 +37,7 @@ DCM で親と子の階層を利用する場合、インプレッションの追�
 
 1. 区切り文字が追加されたら、次のようにマッピングされていることを確認します。 タグが適用されたら、これは自動的におこなわれる必要があります。
 
-   v = %eadv! 広告主 ID を展開\
+   v = %eadv! [!DNL Expand] 広告主 ID\
    a = %eaid! 広告 ID を展開\
    c = %ecid! クリエイティブ ID を展開\
    s = %esid! サイト ID を展開\
@@ -61,6 +61,6 @@ A: dfaticking, dfareporting, userinfo.email
 
 A：最大 6 時間
 
-**Q：広告データのインポートにはどのくらいの時間がかかりますか？**
+**Q：広告データのインポートにはどのくらい時間がかかりますか？**
 
 A：最大 6 時間

@@ -3,9 +3,9 @@ description: タッチポイント設定のベストプラクティス — [!DNL
 title: Touchpoint 設定のベストプラクティス
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '658'
 ht-degree: 6%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 6%
 
 ## 概要 {#overview}
 
-タッチポイント設定セクション ( [!DNL Marketo Measure] アプリを使用すると、タッチポイントを抑制または削除するルールを設定できます。 [!DNL Marketo Measure] データと関連システム。 これらのルールを使用すると、購入者のタッチポイントデータに表示する必要がないデータや、トラッキングやデータ収集を妨げることなく、アトリビューションクレジットを受け取りたくないデータのセットを分離できます。
+The [!UICONTROL タッチポイント設定] セクション内の [!DNL Marketo Measure] アプリを使用すると、タッチポイントを抑制または削除するルールを設定できます。 [!DNL Marketo Measure] データと関連システム。 これらのルールを使用すると、購入者のタッチポイントデータに表示する必要がないデータや、トラッキングやデータ収集を妨げることなく、アトリビューションクレジットを受け取りたくないデータのセットを分離できます。
 
 **タッチポイントの削除** 手段 [!DNL Marketo Measure] は、ルール条件に適合するタッチポイントを CRM からパージ（つまり、削除）します。 データは、 [!DNL Marketo Measure] ROI ダッシュボード (Discover) ですが、CRM には表示されません。 CRM 内のデータストレージ制限へのストレスを緩和するために一般的に使用されます
 
 **タッチポイント抑制** は、タッチポイントの削除に似ていますが、ROI ダッシュボード内ではデータをレポートできません。 抑制されているタッチポイントは、CRM や Discover からはアクセスできません。 抑制により、CRM データと Discover データが一致するようになります。 アトリビューションクレジットを受け取るタッチポイントデータを微調整し、さらに指定するために一般的に使用されます。
 
-を [!DNL Marketo Measure] アプリの場合、タッチポイント設定セクションは、4 つの主要セクションに分類されます。 各セクションでは、異なるデータセットを抑制または削除します。 以下のキーを使用して、ルールで目的のタッチポイントを抑制または削除していることを確認します。
+を [!DNL Marketo Measure] アプリ、 [!UICONTROL タッチポイント設定] の節は、4 つの主要な節に分類されます。 各セクションでは、異なるデータセットを抑制または削除します。 以下のキーを使用して、ルールで目的のタッチポイントを抑制または削除していることを確認します。
 
 * Buyer Touchpointを CRM から削除
    * このセクションは、を削除するルールを作成する場合に使用します **購入者タッチポイントデータ** （オポチュニティではなく、個人に関連付けられたタッチポイント） **CRM**
@@ -43,14 +43,14 @@ ht-degree: 6%
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
-タッチポイント設定を適切に定義していないと、データが大幅に変更される可能性があるので、タッチポイント設定を確認することが重要です。 ベストプラクティスとして、タッチポイント設定は少なくとも年に 2 回確認することをお勧めします。 これは、 [!DNL Marketo Measure] アプリを使用します。 このレビューでは、タッチポイント設定が最新であり、それに応じて変更を加えることができると確信できます。
+レビュー中 [!UICONTROL タッチポイント設定] が重要なのは、適切に定義されていない場合に、データを大幅に変更できるからです。 ベストプラクティスとして、タッチポイント設定は少なくとも年に 2 回確認することをお勧めします。 これは、 [!DNL Marketo Measure] アプリを使用します。 このレビューでは、タッチポイント設定が最新であり、それに応じて変更を加えることができると確信できます。
 
-タッチポイント設定を確認する理由には次が含まれます…
+レビューの理由 [!UICONTROL タッチポイント] 次の設定が含まれます…
 
 * マーケティングチームの入れ替わり
 * Web サイト構造の大幅なアップデート
 * 役に立たなくなったタッチポイントデータの特定
-   * アトリビューションクレジットを受け取るべきではないと思われるタッチポイントデータに遭遇した場合、タッチポイント抑制ルールは、できるだけクリーンで正確なデータを保証する機能です。
+   * 属性クレジットを受け取るべきでないと思われるタッチポイントデータに遭遇したときは常に、 [!DNL touchpoint suppression] ルールは、データをできるだけクリーンで正確にする機能です。
 * 抑制または削除ルールの定義に使用されるフィールドの変更
 
 >[!MORELIKETHIS]
@@ -58,3 +58,4 @@ ht-degree: 6%
 >* [タッチポイントの削除と抑制の概要](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
 >* [タッチポイントを削除しない理由](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
 >* [購入者タッチポイント (BT) と購入者属性タッチポイント (BAT) の比較](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+

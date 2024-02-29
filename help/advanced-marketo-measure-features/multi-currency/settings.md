@@ -4,7 +4,7 @@ description: 設定 — [!DNL Marketo Measure]  — 製品ドキュメント
 title: 設定
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 設定 {#settings}
 
-この機能には、CRM の「一般設定」タブにある、「複数通貨」と「高度な通貨」の 2 つの異なる機能ビットが関連付けられています。
+この機能に関連付けられた 2 つの異なる機能ビットが CRM の [!UICONTROL 一般設定] タブ： 「多通貨」および「高度な通貨」。
 
 **複数の通貨**：顧客が複数の通貨を使用する場合に有効になります。
 

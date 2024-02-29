@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874652
 description: '"[!DNL Marketo Measure] ビュースルーアトリビューションに関する FAQ - [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] ビュースルーアトリビューションに関するよくある質問"
+title: '"[!DNL Marketo Measure] ビュースルーアトリビューションに関する FAQ»'
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 15%
+source-wordcount: '395'
+ht-degree: 6%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 15%
 
 ## アトリビューション全体に対するビューとは {#what-is-view-through-attribution}
 
-The [!DNL Marketo Measure] ビュースルーアトリビューション機能には、アトリビューションモデルに広告インプレッションを含める機能が含まれています。
+The [!DNL Marketo Measure] [!UICONTROL ビュースルーアトリビューション] 機能には、アトリビューションモデルに広告インプレッションを含める機能が含まれます。
 
-## アトリビューションを通じたビューが重要な理由 {#why-is-view-through-attribution-important}
+## はなぜですか？ [!UICONTROL ビュースルーアトリビューション] 重要？ {#why-is-view-through-attribution-important}
 
 従来、リターゲティングやインプレッション広告は、アトリビューション分析でマーケティング担当者が考慮するのが困難でした。 見込み客は、後からリターゲティング広告にさらされる場合がありますが、実際にこれらの広告の 1 つをクリックして、同じセッション内でフォームに入力することはほとんどありません。 アトリビューションを通じたビューソリューションでは、誰かがインプレッション広告に触れたかどうかをトレースできるようになりました。 このタッチポイントは、個々のレコードに追加され、見込み客がクライアントになるまで持ち越されます。 この情報を使用して、マーケターは、リターゲティング広告のパフォーマンスに関するより優れたインサイトを得ることができます。
 
@@ -27,7 +27,7 @@ The [!DNL Marketo Measure] ビュースルーアトリビューション機能�
 
 ## どの広告プラットフォームがサポートされていますか？ {#which-ad-platforms-are-supported}
 
-現在、Doubleclick Campaign Manager をサポートしています。
+現在、 [!DNL Doubleclick] キャンペーンマネージャー。
 
 ## アトリビューションはどのように計算されますか？ {#how-is-the-attribution-calculated}
 
@@ -110,7 +110,7 @@ The [!DNL Marketo Measure] ビュースルーアトリビューション機能�
  </tbody> 
 </table>
 
-## Salesforce での表示内容 {#what-will-this-look-like-in-salesforce}
+## これはでどのように表示されますか？ [!DNL Salesforce?] {#what-will-this-look-like-in-salesforce}
 
 [!DNL Marketo Measure] は、ディスプレイ広告に公開された任意のリードに単一のインプレッションタッチポイントを作成します。 最初に Web サイト (FT) にアクセスしてフォーム (LC) に入力した後でも、ユーザーをマッピングできます。 タッチポイントには、広告キャンペーン名/ID、広告 ID、広告コンテンツ、サイト名/ID、プレースメント名/ID、マーケティングチャネル、地域、リファラーページなどの広告情報が含まれます。
 

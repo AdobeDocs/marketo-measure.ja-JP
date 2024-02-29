@@ -3,10 +3,10 @@ description: セグメント化のベストプラクティス - [!DNL Marketo Me
 title: セグメンテーションのベストプラクティス
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 [!DNL Salesforce] にプッシュされると、セグメント値は「セグメント」フィールドに書き込まれ、購入者のタッチポイントレポートタイプ内に含まれます。これにより、両方のプラットフォームにわたって均等なレポートが可能になります。セグメントは、任意のタッチポイントの「タッチポイントの詳細」でも見つけることができます。
 
-Discover にプッシュすると、セグメントはすべてのボードにあるフィルタードロップダウンメニュー内に使用可能なフィルターとして表示されます。
+にプッシュされた場合 [!UICONTROL Discover]の場合、セグメントは、すべてのボードにあるフィルタードロップダウンメニュー内で使用可能なフィルターとして表示されます。
 
 ## ベストプラクティス {#best-practice}
 
@@ -30,7 +30,7 @@ Discover にプッシュすると、セグメントはすべてのボードに�
 * セグメント名を組織の命名法に合わせます。つまり、カテゴリ = フィルター名、セグメント = フィルター値です
 * ルールでは数式フィールドを使用しないでください
 * 可能な限り、リード／取引先責任者と商談の両方でセグメント化を作成し、ファネル全体で使用できるようにします
-   * Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先に設定している場合は、リード専用の次の 2 つのフィールド ([詳細はこちら](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}) をクリックします。
+   * Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先に設定している場合は、リード ([詳細はこちら](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}) をクリックします。
       * b2b.personStatus
       * b2b.isConverted
    * すべてのセグメントカテゴリがファネル全体で整列するわけではありません

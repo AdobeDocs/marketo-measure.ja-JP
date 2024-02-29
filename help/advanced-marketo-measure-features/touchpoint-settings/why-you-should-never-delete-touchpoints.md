@@ -4,10 +4,10 @@ description: タッチポイントを削除しない理由 — [!DNL Marketo Mea
 title: タッチポイントを削除してはいけない理由
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 7%
+source-wordcount: '225'
+ht-degree: 5%
 
 ---
 
@@ -21,4 +21,4 @@ The [!DNL Marketo Measure] タッチポイントが SFDC から手動で削除�
 
 ![](assets/1.png)
 
-タッチポイントが SFDC から削除されている場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} をクリックして、データの再インポートをリクエストします。
+タッチポイントが SFDC から削除されている場合は、 [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} をクリックして、データの再インポートをリクエストします。
