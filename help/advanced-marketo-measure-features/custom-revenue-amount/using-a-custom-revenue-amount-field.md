@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874793
-description: カスタムの「売上高」フィールドの使用 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: カスタムの「売上高」フィールドの使用 — [!DNL Marketo Measure]
 title: カスタム収益額フィールドの使用
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '676'
 ht-degree: 3%
 
 ---
@@ -100,10 +100,10 @@ ht-degree: 3%
 
    ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-1. ワークフローのロールアップページに戻ります。必ず「有効化」を選択してください。操作は完了です。 有効にするには、 **[!UICONTROL 編集]** 新しいワークフローの横にあるをクリックし、 **[!UICONTROL 有効化]**.
+1. ワークフローのロールアップページに戻ります。必ず「有効化」をおこなってください。操作は完了です。 有効にするには、 **[!UICONTROL 編集]** 新しいワークフローの横にあるをクリックし、 **[!UICONTROL 有効化]**.
 
    これらの手順を完了したら、ワークフローに新しい値 ( [!UICONTROL カスタム商談] フィールドに入力します。
 
-   これは、SFDC 内のデータローダーを通じて商談を実行することで実現できます。 でのデータローダーの使用の詳細を確認してください。 [この記事](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
+   これは、SFDC 内のデータローダーを通じて商談を実行することで実現できます。 でのデータローダーの使用に関する詳細を見る [この記事](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-途中でご質問がある場合は、Adobeアカウントチーム（担当のアカウントマネージャー）に気軽にお問い合わせください。または [[!DNL Marketo] サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+途中でご質問がある場合は、気軽にAdobeアカウントチーム（担当のアカウントマネージャー）にお問い合わせください。または [[!DNL Marketo] サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

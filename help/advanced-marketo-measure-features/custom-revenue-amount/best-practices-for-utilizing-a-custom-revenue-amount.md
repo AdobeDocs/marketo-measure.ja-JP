@@ -1,12 +1,12 @@
 ---
-description: カスタムの売上高額を利用する際のベストプラクティス — [!DNL Marketo Measure]  — 製品ドキュメント
+description: カスタムの売上高額を利用する際のベストプラクティス — [!DNL Marketo Measure]
 title: カスタム収益額の利用のベストプラクティス
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 10%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 10%
 
 >[!MORELIKETHIS]
 >
->* [カスタム収益額フィールドの使用](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [データローダーを使用したカスタム金額フィールドの更新](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [カスタムの「売上高」フィールドの使用](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [データ・ローダを使用したカスタム金額フィールドの更新](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [複数通貨の概要](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [複数通貨設定](/help/advanced-marketo-measure-features/multi-currency/settings.md)

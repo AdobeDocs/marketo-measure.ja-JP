@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874556
-description: '"[!DNL Marketo Measure] メンテナンス — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] メンテナンス"
+description: "[!DNL Marketo Measure] メンテナンス — [!DNL Marketo Measure]"
+title: '"[!DNL Marketo Measure] メンテナンス»'
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 1%
+source-wordcount: '640'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Marketo Measureは、JavaScript がアクティブなすべてのページおよ
 
 **正確性を確認するためにカスタムチャネルマッピングを確認する（1 回/月）**
 
-オンボーディング中に、オンラインマーケティングとオフラインマーケティングの取り組みのカスタムチャネルマッピングを設定します。 マーケティング戦略とMarketo Measureの使用が進化するにつれ、すべてのタッチポイントが適切に分類されるように、そのマッピングロジックに目を向けたいと考えます。
+オンボーディング中に、オンラインマーケティングとオフラインマーケティングの取り組みのカスタムチャネルマッピングを設定します。 マーケティング戦略とMarketo Measureの使用が進化するにつれ、すべてのタッチポイントが適切に分類されるように、そのマッピングロジックに目を向けたいと考えるでしょう。
 
 忘れないで下さい [!DNL Marketo Measure] マッピングロジックを編集する際にデータが再処理されるので、これらのルールを 7 日に 1 回以上変更することはできません。
 

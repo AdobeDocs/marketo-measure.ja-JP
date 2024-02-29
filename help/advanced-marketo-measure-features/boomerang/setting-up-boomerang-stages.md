@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874767
-description: ブーメランステージの設定 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: ブーメランステージの設定 — [!DNL Marketo Measure]
 title: ブーメランステージの設定
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 4%
+source-wordcount: '319'
+ht-degree: 3%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 4%
 >
 >ブーメラン機能は、Tier 3 のお客様に対してのみ有効です。 より高いアカウント層をリクエストするには、Adobeアカウントチーム（担当のアカウントマネージャー）にお問い合わせください。
 
-有効にするには [!UICONTROL ブーメラン] アカウントのステージの場合は、アカウント管理者である必要があります。 または、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. この機能を有効にしたら、次の手順に従って設定してください。
+有効にするには [!UICONTROL ブーメラン] アカウントのステージの場合は、アカウント管理者である必要があります。 または、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. この機能を有効にしたら、次の手順に従って設定します。
 
 ## ブーメランステージ設定 {#boomerang-stage-setup}
 
-1. に移動します。 [!UICONTROL ステージマッピング]. 「 」というタイトルの列の下[!UICONTROL ブーメラン]」と入力し、追跡するステージの横にあるボックスを選択します。
+1. に移動します。 [!UICONTROL ステージマッピング]. 「[!UICONTROL ブーメラン]」と入力し、追跡するステージの横にあるボックスを選択します。
 
    ![](assets/1-2.png)
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >これらの変更に従ってデータが再処理されるまで 24 ～ 48 時間かかります。
+   >これらの変更に従って、データが再処理されるまで 24 ～ 48 時間かかります。
 
 ## カスタムモデル属性を使用したブーメランステージの設定 {#boomerang-stage-setup-with-custom-model-attribution}
 
@@ -53,10 +53,10 @@ ht-degree: 4%
 
    ![](assets/6-1.png)
 
-1. カスタムモデルに含めるブーメランステージに割り当てるアトリビューションの割合を設定します。 すべてのステージのアトリビューションの合計が 100%まで増えるようにしてください。 クリック **[!UICONTROL 保存して処理]**.
+1. カスタムモデルに含めるブーメランステージに割り当てるアトリビューションの割合を設定します。 すべてのステージのアトリビューション合計が最大 100%増えるようにします。 クリック **[!UICONTROL 保存して処理]**.
 
    ![](assets/7-1.png)
 
    >[!NOTE]
    >
-   >これらの変更に従ってデータが再処理されるまで 24 ～ 48 時間かかります。
+   >これらの変更に従って、データが再処理されるまで 24 ～ 48 時間かかります。

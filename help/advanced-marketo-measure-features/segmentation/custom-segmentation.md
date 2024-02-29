@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874604
-description: カスタムセグメント — [!DNL Marketo Measure]  — 製品ドキュメント
+description: カスタムセグメント — [!DNL Marketo Measure]
 title: カスタムセグメント化
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '741'
 ht-degree: 4%
 
 ---

@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874771
-description: データローダを使用した更新 [!DNL Marketo Measure] カスタム金額フィールド — [!DNL Marketo Measure]  — 製品ドキュメント
+description: データローダを使用した更新 [!DNL Marketo Measure] カスタム金額フィールド — [!DNL Marketo Measure]
 title: データローダーを使用したMarketo Measureのカスタム金額フィールドの更新
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 10%
+source-wordcount: '198'
+ht-degree: 2%
 
 ---
 
-# データローダーを使用した[!DNL Marketo Measure]カスタム金額フィールドの更新 {#using-data-loader-to-update-marketo-measure-custom-amount-field}
+# データローダを使用した更新 [!DNL Marketo Measure] カスタム金額フィールド {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure] では、カスタム売上高フィールドを使用する場合（標準の「Amount」フィールドを使用）、商談の値を更新する便利なオプションとして、Data Loader を使用することをお勧めします。 [!DNL Marketo Measure]. データローダーは、 [!DNL Marketo Measure] スクリプトを更新すると、ユーザは、 [!DNL Marketo Measure] スクリプトを実行します。
 
-## データローダーを使用した[!DNL Marketo Measure]カスタム金額フィールドの更新{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
+## データローダを使用した更新 [!DNL Marketo Measure] カスタム金額フィールド{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
 
 1. 以下を含む Excel シートを作成します。
 

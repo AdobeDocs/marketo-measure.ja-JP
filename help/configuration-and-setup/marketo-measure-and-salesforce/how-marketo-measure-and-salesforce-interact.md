@@ -4,10 +4,10 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3be29892b58852cf080828e9eeff969ac08cc62b
-workflow-type: ht
-source-wordcount: '1271'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '1266'
+ht-degree: 89%
 
 ---
 
@@ -15,15 +15,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->アドビのドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には「Bizible」と表示されます。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 [!DNL Marketo Measure] と Salesforce の関係を大まかに見てみましょう。
 
 ## Salesforce と [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
 
-[!DNL Marketo Measure] アカウントが作成され、[!DNL Salesforce] が接続されると、[!DNL Marketo Measure] 管理パッケージがインストールされ、[!DNL Marketo Measure] Salesforce ユーザが編集権限を持っている限り、[!DNL Marketo Measure] はマーケティングデータを CRM インスタンスにプッシュし始めます。
+1 回 [!DNL Marketo Measure] アカウントが作成され、 [!DNL Salesforce] 接続されている [!DNL Marketo Measure] が CRM インスタンスへのマーケティングデータのプッシュを開始し、 [!DNL Marketo Measure] 管理パッケージがインストールされ、 [!DNL Marketo Measure] Salesforce ユーザーに編集権限があります。
 
-[!DNL Marketo Measure] Salesforce パッケージをインストールしていない場合、[!DNL Marketo Measure] は Salesforce インスタンスにデータを書き込みません。
+をインストールしなかった場合、 [!DNL Marketo Measure] Salesforce パッケージ [!DNL Marketo Measure] では、Salesforce インスタンスにデータを書き込みません。
 
 ![](assets/1-3.png)
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
+この設定を変更する場合、小さいバッチサイズでは、CRM からの API クレジットがより多く消費されることに注意してください。 CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 
-これには、[!DNL Marketo Measure] がやり取りする [!DNL Salesforce] 標準オブジェクトと、接続が確立され [!DNL Marketo Measure] パッケージがインストールされた後にこれらのオブジェクトに追加するカスタムフィールドが一覧表示されます。そのままでは、[!DNL Marketo Measure] は標準の [!DNL Salesforce] オブジェクトフィールドに書き込みません。
+このリストには、 [!DNL Salesforce] 標準オブジェクト [!DNL Marketo Measure] 接続が確立され、 [!DNL Marketo Measure] パッケージがインストールされている。 そのままでは、[!DNL Marketo Measure] は標準の [!DNL Salesforce] オブジェクトフィールドに書き込みません。
 
 **リード**
 
@@ -806,7 +806,7 @@ ht-degree: 100%
 
 ## [!DNL Salesforce] の [!DNL Marketo Measure] カスタムオブジェクト {#marketo-measure-custom-objects-in-salesforce}
 
-SFDC の標準オブジェクトでのカスタムフィールドの作成とは別に、[!DNL Marketo Measure] パッケージがインストールされ、カスタムオブジェクトがいくつか作成されます。以下に、これらのカスタムオブジェクトのリストと、[!DNL Marketo Measure] が書き込むフィールドを示す表を示します。
+SFDC の標準オブジェクトにカスタムフィールドを作成する以外に、 [!DNL Marketo Measure] パッケージがインストールされ、2 つのカスタムオブジェクトが作成されます。 以下に、これらのカスタムオブジェクトのリストと、[!DNL Marketo Measure] が書き込むフィールドを示す表を示します。
 
 **Buyer Touchpoint**
 

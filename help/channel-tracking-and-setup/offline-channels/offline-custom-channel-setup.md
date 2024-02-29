@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874598
-description: オフラインカスタムチャネルの設定 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: オフラインカスタムチャネルの設定 — [!DNL Marketo Measure]
 title: オフラインカスタムチャネル設定
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ SFDC キャンペーンのタイプが [ オフラインチャネル ] タブの
 
 >[!TIP]
 >
->決定したい _when_ a [!DNL Salesforce] キャンペーンのタイプが [!DNL Marketo Measure] チャネルマッピング？ 単ににに移動します。 **[!UICONTROL 設定]** > **[!UICONTROL キャンペーン]** > **[!UICONTROL フィールド]** > **[!UICONTROL タイプ]**. 選択リストに含まれる値と非アクティブな値を確認できます。 非アクティブなものは、「 」に選択可能なタイプとして表示されません。[!UICONTROL オフラインチャネル]」セクションに追加しました。 この処理には、数分から 48 時間までの時間がかかる場合があります。
+>決定したい _when_ a [!DNL Salesforce] キャンペーンのタイプが [!DNL Marketo Measure] チャネルマッピング？ 単ににに移動します。 **[!UICONTROL 設定]** > **[!UICONTROL キャンペーン]** > **[!UICONTROL フィールド]** > **[!UICONTROL タイプ]**. 選択リストに含まれる値と非アクティブな値を確認できます。 非アクティブなものは、「 」に選択可能なタイプとして表示されません。[!UICONTROL オフラインチャネル]」セクションに追加しました。 このプロセスには、数分から 48 時間までの時間がかかる場合があります。
 
 クリック **[!UICONTROL 保存]** あなたが終わり [!DNL Marketo Measure] 変更内容をアップロードし、データを再処理します。
 
@@ -87,4 +87,4 @@ SFDC キャンペーンのタイプが [ オフラインチャネル ] タブの
 >
 >* [[!DNL Marketo Measure] 大学：オフラインキャンペーンの同期](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
 >
->* [Marketo Engage プログラム統合](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Marketo Engageプログラムの統合](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)

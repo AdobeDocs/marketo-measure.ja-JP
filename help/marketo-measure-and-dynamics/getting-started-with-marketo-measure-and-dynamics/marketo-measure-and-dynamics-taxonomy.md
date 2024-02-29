@@ -1,12 +1,12 @@
 ---
-description: '"[!DNL Marketo Measure] および Dynamics 分類 — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] と Dynamics の分類"
+description: "[!DNL Marketo Measure] および Dynamics 分類 — [!DNL Marketo Measure]"
+title: '"[!DNL Marketo Measure] と Dynamics 分類»'
 exl-id: 5d211710-3937-4d86-a570-8115e62b934f
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 22%
+source-wordcount: '25'
+ht-degree: 12%
 
 ---
 

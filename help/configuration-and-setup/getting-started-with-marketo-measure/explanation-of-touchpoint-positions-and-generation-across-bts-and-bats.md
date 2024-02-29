@@ -1,16 +1,16 @@
 ---
-description: BT と BAT に関するタッチポイントの位置と世代の説明 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: BT と BAT に関するタッチポイントの位置と世代の説明 — [!DNL Marketo Measure]
 title: BT と [!DNL BATs] にわたる Touchpoint の位置と生成の説明
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 4%
+source-wordcount: '770'
+ht-degree: 3%
 
 ---
 
-# BT と[!DNL BATs] にわたる Touchpoint の位置と生成の説明  {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# BT およびに関するタッチポイント位置と世代の説明 [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **バイヤージャーニーでのタッチポイントポジションの生成とフロー**
 

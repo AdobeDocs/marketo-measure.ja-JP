@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874616
-description: 商談のない連絡先のレポートタイプ — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 商談のない連絡先のレポートタイプ — [!DNL Marketo Measure]
 title: 商談を含まない連絡先のレポートタイプ
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」を参照してください。ただし、「[!DNL Bizible]」と入力します。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」と表示されるが、まだ「[!DNL Bizible]」と入力します。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 商談に関連付けられていない取引先責任者と購入者タッチポイントに関するレポートを作成するには、カスタムレポートタイプを作成する必要があります。
 

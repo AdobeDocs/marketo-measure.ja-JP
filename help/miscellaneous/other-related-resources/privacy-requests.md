@@ -1,12 +1,12 @@
 ---
-description: プライバシーリクエスト — [!DNL Marketo Measure]  — 製品ドキュメント
+description: プライバシーリクエスト — [!DNL Marketo Measure]
 title: プライバシーリクエスト
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 38%
+source-wordcount: '249'
+ht-degree: 20%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 38%
 
 から消費者データにアクセスして削除する個々のリクエストを送信できます。 [!DNL Marketo Measure] 次の 2 つの方法で説明します。
 
-* を通じて [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja){target="_blank"}.
+* を通じて [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
 * を通じて **[!DNL Privacy Service]API**. ドキュメントを参照してください [ここ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) では、データアクセスとデータ削除の 2 種類のリクエストがサポートされます。{target="_blank"}
+The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} は、データアクセスとデータ削除の 2 種類のリクエストをサポートします。
 
 ここでは、アクセスリクエストと削除リクエストの作成方法について説明します。
 
@@ -58,7 +58,7 @@ ht-degree: 38%
 
 &quot;regulation&quot;:
 
-* **gdpr、**、**ccpa**、**pdpa**、**lgpd_bra****nzpa_nzl** のいずれか（リクエストに適用されるプライバシー規則）
+* **gdpr**, **ccpa**, **pdpa**, **lgpd_bra**&#x200B;または **nzpa_nzl** （リクエストに適用されるプライバシー規則）
 
 ## 例 1：GDPR 削除リクエスト {#gdpr-delete-request}
 

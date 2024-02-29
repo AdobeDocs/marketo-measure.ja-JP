@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874612
-description: Dynamics の在庫レポートとダッシュボード — [!DNL Marketo Measure]  — 製品ドキュメント
+description: Dynamics の在庫レポートとダッシュボード — [!DNL Marketo Measure]
 title: Dynamics での在庫レポートとダッシュボード
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 The [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニーズを満たすために設計された、多数の在庫ダッシュボードとレポートが付属しています [!DNL Marketo Measure] Dynamics のデータ。 以下に、完全なリストと一般的な使用例を示します。
 
@@ -30,7 +30,7 @@ The [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニ
  <tbody> 
   <tr> 
    <td><p><strong>ダッシュボード名</strong></p></td> 
-   <td><strong>使用例</strong></td> 
+   <td><strong>ユースケース</strong></td> 
    <td><strong>請求グループ</strong></td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ The [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニ
  <tbody> 
   <tr> 
    <td><strong>レポート名</strong></td> 
-   <td><strong>使用例</strong></td> 
+   <td><strong>ユースケース</strong></td> 
    <td><strong>請求グループ</strong></td> 
   </tr> 
   <tr> 

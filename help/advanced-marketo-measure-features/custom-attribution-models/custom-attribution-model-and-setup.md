@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874779
-description: カスタムアトリビューションモデルと設定 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: カスタムアトリビューションモデルと設定 — [!DNL Marketo Measure]
 title: カスタムアトリビューションモデルと設定
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 以下に、 [!DNL Marketo Measure] カスタムアトリビューションモデルとその設定方法を参照してください。
 
-## カスタムアトリビューションモデル {#custom-attribution-model}
+## カスタム属性モデル {#custom-attribution-model}
 
 The [!DNL Marketo Measure] カスタムアトリビューションモデルを使用すると、モデルに含めるタッチポイントまたはカスタムステージを選択できます。 ユーザーは、これらのタッチポイントおよびステージに関連する売上高クレジットの割合を制御できます。または、 [!DNL Marketo Measure] 機械学習モデル。
 
@@ -25,9 +25,9 @@ The [!DNL Marketo Measure] カスタムアトリビューションモデルを�
 
    カスタムアトリビューションモデルの作成を開始するには、マーケティングチームにとって重要なステージを選択する必要があります。 また、 [!DNL Marketo Measure] マイルストーンステージ（FT、LC、OC、クローズ済み）カスタムモデルに最大 6 つのリード/連絡先ステータスまたは商談ステージを追加できます。 例えば、MQL ステージをカスタムモデルに含めるのは一般的です。 マーケティングチームは、MQL ステージへの移行を推進している取り組みやチャネルを知りたがることがよくあります。
 
-   ログイン先 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. に移動します。 [!UICONTROL マイアカウント] > [!UICONTROL 設定] /、「 CRM 」セクションで「 」を選択します。 **[!UICONTROL ステージマッピング]**.
+   ログイン先 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}. に移動します。 [!UICONTROL マイアカウント] > [!UICONTROL 設定] /、「 CRM 」セクションで「 」を選択します。 **[!UICONTROL ステージマッピング]**.
 
-   ここで、リード/連絡先、商談の各ステージを選択するには、 **[!UICONTROL モデルに含める]** ボックス。
+   次に、 **[!UICONTROL モデルに含める]** ボックス。
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ The [!DNL Marketo Measure] カスタムアトリビューションモデルを�
 
    モデルに含める他のステージがあるが、それらがに含まれていない場合。 [!UICONTROL リード/連絡先ステータス] または [!UICONTROL 商談のステージ] リストから、CRM のフィールドに基づいて独自のカスタムステージを定義できます。
 
-   次の例では、日付フィールドを使用してカスタム「MQL」ステージを定義します。 ルールでは、「MQL 日付」フィールドが空でない場合は MQL と見なし、カスタムモデルに含める必要があると述べています。 また、販売サイクルの進行に従うように、カスタムステージを作成した後で並べ替えることも重要です。
+   次の例では、日付フィールドを使用してカスタム「MQL」ステージを定義します。 ルールでは、「MQL 日付」フィールドが空でない場合は MQL と見なし、カスタムモデルに含める必要があると述べています。 また、販売サイクルの進行に従うように、カスタムステージを作成した後に並べ替えることも重要です。
 
    ![](assets/2-1.png)
 
@@ -51,7 +51,7 @@ The [!DNL Marketo Measure] カスタムアトリビューションモデルを�
    >
    >カスタムフィールドの履歴追跡を有効にすることを忘れないでください。
 
-カスタムフィールドがカスタムモデルで使用されている場合、フィールド履歴の追跡を CRM で有効にする必要があります。 フィールド履歴の追跡を有効にする方法については、 [ここをクリックしてください](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
+カスタムフィールドがカスタムモデルで使用される場合、フィールド履歴の追跡を CRM で有効にする必要があります。 フィールド履歴の追跡を有効にする手順については、 [カスタムモデルの設定：フィールド履歴の追跡を有効にする](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md).
 
 1. カスタムモデルの属性の割合を決定します。
 
@@ -59,7 +59,7 @@ The [!DNL Marketo Measure] カスタムアトリビューションモデルを�
 
    右端の「**[!UICONTROL カスタム]**「」と入力すると、カスタムアトリビューションモデルの各ステージに対して、パーセンテージの重み付けを設定できます。 「カスタム」列の各ステージの値を入力するだけです。 次に、 **[!UICONTROL 保存して再処理]** 完了したら、
 
-   「カスタム」列の左側には、 **[!DNL Marketo Measure]機械学習モデル**. 機械学習モデルは、各カスタムステージで発生した処理に基づいて、契約に勝つための相対的な重要度に基づいてアトリビューションの重み付けを計算します。 機械学習モデルの詳細については、 [ここをクリックしてください](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
+   の左側 _カスタム_ 列は **[!DNL Marketo Measure]機械学習モデル**. 機械学習モデルは、各カスタムステージで発生した処理に基づいて、契約に勝つための相対的な重要度に基づいてアトリビューションの重み付けを計算します。 機械学習モデルについて詳しくは、 [機械学習モデルに関する FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 
    ![](assets/3.png)
 

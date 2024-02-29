@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762628
-description: Passport ダッシュボードのドキュメント — [!DNL Marketo Measure]  — 製品ドキュメント
+description: Passport ダッシュボードのドキュメント — [!DNL Marketo Measure]
 title: パスポートダッシュボードドキュメント
 exl-id: 43cb01a8-d02e-4086-af57-d7ec9275f87a
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 2%
 
 ---

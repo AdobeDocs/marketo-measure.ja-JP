@@ -1,10 +1,10 @@
 ---
 unique-page-id: 18874648
-description: Google Analyticsコンバージョンと購入者タッチポイントの違い — [!DNL Marketo Measure]  — 製品ドキュメント
+description: Google Analyticsコンバージョンと購入者タッチポイントの違い — [!DNL Marketo Measure]
 title: Google Analytics コンバージョンと Buyer Touchpoint の違い
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 4%

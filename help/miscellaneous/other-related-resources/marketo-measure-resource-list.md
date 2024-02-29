@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356962
-description: '"[!DNL Marketo Measure] リソースリスト — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] リソースリスト"
+description: "[!DNL Marketo Measure] リソースリスト — [!DNL Marketo Measure]"
+title: '"[!DNL Marketo Measure] リソースリスト»'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 10%
+source-wordcount: '307'
+ht-degree: 4%
 
 ---
 

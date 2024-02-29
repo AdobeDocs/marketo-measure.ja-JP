@@ -4,9 +4,9 @@ description: PostLC タッチポイントとリードエンゲージメント �
 title: PostLC Touchpoints とリードエンゲージメント
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -33,11 +33,11 @@ PostLC タッチポイントは動的です。 リードまたは連絡先とし
 
 ## PostLC タッチポイント設定の変更方法 {#how-to-change-postlc-touchpoint-settings}
 
-リードまたは連絡先の PostLC タッチポイント設定を調整するには、以下の手順に従ってください。
+リードまたは連絡先の PostLC タッチポイント設定を調整するには、以下の手順に従います。
 
 **リード**
 
-1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、 [!UICONTROL 設定].
+1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} をクリックし、 [!UICONTROL 設定].
 
 1. CRM で、を選択します。 **[!UICONTROL リード]**.
 
@@ -45,9 +45,9 @@ PostLC タッチポイントは動的です。 リードまたは連絡先とし
 
    ![](assets/3.png)
 
-**取引先責任者**
+**連絡先**
 
-1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、 [!UICONTROL 設定].
+1. にログインします。 [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} をクリックし、 [!UICONTROL 設定].
 
 1. CRM で、を選択します。 **[!UICONTROL 連絡先]**.
 

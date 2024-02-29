@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874519
-description: 追加中 [!DNL Marketo Measure] Lightbox Formsへのスクリプト — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 追加中 [!DNL Marketo Measure] Lightbox Formsへのスクリプト — [!DNL Marketo Measure]
 title: Lightbox フォームへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 5%
+source-wordcount: '195'
+ht-degree: 2%
 
 ---
 
-# Lightbox フォームへの[!DNL Marketo Measure]スクリプトの追加 {#adding-marketo-measure-script-to-lightbox-forms}
+# 追加中 [!DNL Marketo Measure] スクリプトを Lightbox Formsに {#adding-marketo-measure-script-to-lightbox-forms}
 
 を適切に追加する方法を学ぶ [!DNL Marketo Measure] Lightbox 内のフォームに JavaScript を追加する。
 

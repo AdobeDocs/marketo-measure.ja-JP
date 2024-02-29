@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874614
-description: 購入者タッチポイント付きリードレポート — [!DNL Marketo Measure]  — 製品ドキュメント
-title: Buyer Touchpoints のリードレポート
+description: 購入者タッチポイント付きリードレポート — [!DNL Marketo Measure]
+title: 購入者タッチポイント付きリードレポート
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
 feature: Touchpoints, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 5%
+source-wordcount: '196'
+ht-degree: 8%
 
 ---
 
-# Buyer Touchpoints のリードレポート {#leads-with-buyer-touchpoints-report}
+# 購入者タッチポイント付きリードレポート {#leads-with-buyer-touchpoints-report}
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」を参照してください。ただし、「[!DNL Bizible]」と入力します。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」と表示されるが、まだ「[!DNL Bizible]」と入力します。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 すぐに使用できる、多くのレポート機能をすぐに使用できます。 [!DNL Marketo Measure]を作成することをお勧めしますが、追加のレポートタイプをいくつか作成することをお勧めします。 以下の購入者タッチポイントレポートタイプを使用して、包括的なリードを作成する方法について説明します。
 

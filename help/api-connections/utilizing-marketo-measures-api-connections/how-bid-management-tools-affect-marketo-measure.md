@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874720
-description: 入札管理ツールが及ぼす影響 [!DNL Marketo Measure] - [!DNL Marketo Measure]  — 製品ドキュメント
+description: 入札管理ツールが及ぼす影響 [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: 入札管理ツールの [!DNL Marketo Measure] への影響
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 6%
+source-wordcount: '265'
+ht-degree: 4%
 
 ---
 
-# 入札管理ツールの[!DNL Marketo Measure] への影響  {#how-bid-management-tools-affect-marketo-measure}
+# 入札管理ツールが及ぼす影響 [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
 入札管理プラットフォームが [!DNL Marketo Measure] AdWords と BingAds を追跡する機能と、すべてを正しく追跡するために、パラメーターを使用してトラッキングテンプレートを設定する方法。
 

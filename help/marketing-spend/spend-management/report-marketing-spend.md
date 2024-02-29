@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656737
-description: マーケティング費用のレポート — [!DNL Marketo Measure]  — 製品ドキュメント
+description: マーケティング費用のレポート — [!DNL Marketo Measure]
 title: マーケティング費用のレポート
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---

@@ -3,7 +3,7 @@ description: 属性収益ダッシュボード — [!DNL Marketo Measure]  — �
 title: 起因する収益ダッシュボード
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 月別/四半期別/年別の合計売上高をチャネル別にセグメント化した、積み重ね棒グラフです。
 
-* ドリルダウン機能とアップ機能を利用して、月、四半期、年でデータを分類します。
+* ドリルダウンおよび上への機能を使用して、月、四半期、年でデータを分類します。
 * バーセグメントまたはバーの間のスペースにマウスポインターを置くと、詳細な情報が表示されます。
 
 **グラフの回答に関する質問：**

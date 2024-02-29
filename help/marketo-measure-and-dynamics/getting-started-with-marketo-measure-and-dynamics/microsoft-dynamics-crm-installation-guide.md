@@ -4,10 +4,10 @@ description: '"[!DNL Microsoft Dynamics] CRM インストールガイド — Mar
 title: '"[!DNL Microsoft Dynamics] CRM インストールガイド»'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 15%
+source-wordcount: '975'
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->アドビのドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には「Bizible」と表示されます。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 ## サポートされているバージョン {#supported-versions}
 
@@ -94,11 +94,11 @@ Dynamics 標準エンティティについては、 [!DNL Marketo Measure] Dynam
 
 **売上高**
 
-[!DNL Marketo Measure] は、デフォルトで、標準の「実際の売上高」フィールドを指します。 これを使用しない場合は、カスタムワークフローが必要になるので、ソリューションエンジニアまたはサクセスマネージャーに売上高を報告する方法を説明してください。
+[!DNL Marketo Measure] は、デフォルトで、標準の「実際の売上高」フィールドを指します。 これを使用しない場合は、カスタムワークフローが必要となるために、ソリューションエンジニアまたはサクセスマネージャーに売上高を報告する方法を説明します。
 
 **クローズ日**
 
-[!DNL Marketo Measure] は、標準の [ 実際の終了日 ] フィールドを指します。 これを使用していない場合や、「 Estimated Close Date 」フィールドも使用している場合は、お使いのソリューションエンジニアまたはサクセスマネージャーにプロセスを説明してください。 カスタムワークフローは、両方のフィールドを考慮する必要がある場合があります。
+[!DNL Marketo Measure] は、標準の [ 実際の終了日 ] フィールドを指します。 これを使用していない場合や、「 Estimated Close Date 」フィールドも使用している場合は、ソリューションエンジニアまたはサクセスマネージャーにプロセスを説明してください。 カスタムワークフローは、両方のフィールドを考慮する必要がある場合があります。
 
 ## 接続とデータプロバイダーの設定 {#configuring-your-connections-and-data-providers}
 
@@ -128,7 +128,7 @@ Dynamics 標準エンティティについては、 [!DNL Marketo Measure] Dynam
 
    >[!NOTE]
    >
-   >OAuth の詳細については、を参照してください。 [この記事](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). プロセスに関するご質問は、 [!DNL Marketo Measure] アカウント担当者。
+   >OAuth の詳細については、を参照してください。 [この記事](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). プロセスについてご質問がある場合は、 [!DNL Marketo Measure] アカウント担当者。
 
 1. この例では、「資格情報」を選択します。 資格情報を入力し、「 **[!UICONTROL 次へ]**.
 
@@ -162,7 +162,7 @@ Dynamics 標準エンティティについては、 [!DNL Marketo Measure] Dynam
 
    >[!NOTE]
    >
-   >複数のルートドメインを追加するには、 [!DNL Marketo Measure] アカウント担当者。
+   >複数のルートドメインを追加する場合は、 [!DNL Marketo Measure] アカウント担当者。
 
 1. The [[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) その後、サイト全体とランディングページに配置する必要があります。 ランディングページのヘッド内でスクリプトをハードコーディングするか、Tag Managementシステムを使用して次のようなスクリプトを追加することをお勧めします。 [Google Tag Manager](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md).
 
@@ -170,11 +170,11 @@ Dynamics 標準エンティティについては、 [!DNL Marketo Measure] Dynam
    >
    >デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。この設定は、 [!DNL Marketo Measure] Web アプリケーションとお客様は、200（デフォルト）、100、50、25 のバッチサイズから選択できます。
    >
-   >この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
+   >この設定を変更する場合、小さいバッチサイズを使用すると、CRM の API クレジットがより多く消費されることに注意してください。 CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
    >[!NOTE]
    >
-   >Dynamics へのMarketo Measureのデータの書き出しを無効にしても、既存のデータは削除されません。 既存のデータの削除については、Dynamics サポートにお問い合わせください。
+   >Dynamics へのMarketo Measureのデータの書き出しを無効にしても、既存のデータは削除されません。 既存のデータの削除に関するヘルプが必要な場合は、Dynamics サポートにお問い合わせください。
 
    >[!MORELIKETHIS]
    >

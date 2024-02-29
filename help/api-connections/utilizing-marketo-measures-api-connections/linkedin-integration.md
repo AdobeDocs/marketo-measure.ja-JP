@@ -1,13 +1,13 @@
 ---
 unique-page-id: 35586080
-description: LinkedInの統合 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: LinkedInの統合 — [!DNL Marketo Measure]
 title: LinkedIn統合
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
 source-wordcount: '2653'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
@@ -80,7 +80,7 @@ The [!DNL Marketo Measure] linkedInとの統合には、次の 2 つの部分が
 
 **[!DNL LinkedIn's]独自の自動タグ付け要件**
 
-[!DNL Marketo Measure] は、ランディングページに自動タギングすることによって、 キャンペーンの効果を追跡できます。[!DNL LinkedIn]
+[!DNL Marketo Measure] は、 [!DNL LinkedIn] ランディングページに自動タグ付けすることによるキャンペーンのパフォーマンス。
 
 [!DNL Marketo Measure] 一意のLinkedIn Share を持つクリエイティブを検索し、 `?_bl={creativeId}` パラメーターを最後に追加する必要があります。
 
@@ -96,7 +96,7 @@ The [!DNL Marketo Measure] linkedInとの統合には、次の 2 つの部分が
 
 この追加の手順が必要な理由は、LinkedInでは宛先 URL を短縮 URL（bit.ly、goog.le など）にすることが許可されているためです。つまり、 [!DNL Marketo Measure] で、長い解決された URL が表示されない。 [!DNL Marketo Measure] 解決された URL にトラッキングパラメーターを追加する必要があります。 この問題を回避するために [!DNL Marketo Measure] 広告を再作成する前に短縮 URL を検索し、URL を展開して、解決された URL とそのすべてのパラメーターを使用して新しい広告を作成し、 [!DNL Marketo Measure] をクリックしてタグを追加します。 新しい広告を作成すると、広告履歴（インプレッション数、クリック数、共有数）が削除されるので、短縮 URL にタグ付けする権限が必要です。
 
-短縮 URL を多用する場合は、これによってクリエイティブに大きな影響が及ぶ可能性があります。短縮 URL を使用しなくなったので、 [!DNL Marketo Measure] は、新しい広告を作成して広告履歴を消去することなく、ランディングページにタグ付けできます。
+短縮 URL を多用する場合は、これがクリエイティブに大きな影響を与える可能性があります。 短縮 URL を使用しなくなったので、 [!DNL Marketo Measure] は、新しい広告を作成して広告履歴を消去することなく、ランディングページにタグ付けできます。
 
 **プロセス**
 
@@ -129,7 +129,7 @@ The [!DNL Marketo Measure] linkedInとの統合には、次の 2 つの部分が
 
 **[!DNL LinkedIn's]独自の自動タグ付け要件**
 
-[!DNL Marketo Measure] は、ランディングページに自動タギングすることによって、 キャンペーンの効果を追跡できます。[!DNL LinkedIn]
+[!DNL Marketo Measure] は、 [!DNL LinkedIn] ランディングページに自動タグ付けすることによるキャンペーンのパフォーマンス。
 
 [!DNL Marketo Measure] 一意のLinkedIn Share を持つクリエイティブを検索し、 `?_bl={creativeId}` パラメーターを最後に追加する必要があります。
 
@@ -147,7 +147,7 @@ Campaign やクリエイティブのステータスに関係なく、すべて�
 
 **CRM またはMarketoでのリードジェネレーションFormsの追跡**
 
-の前に [!DNL Marketo Measure] linkedInリード生成Forms統合が存在したので、お客様は、フォーム送信をMarketoプログラムや CRM Campaign にプッシュしてフォームをトラッキングし、それらのアクティビティに関する属性を受け取るのが一般的な方法でした。 「リード生成Forms」設定が有効になったら、これらのフォーム送信が二重にカウントされないようにする必要があります。 次の点を確認してください。
+の前に [!DNL Marketo Measure] linkedInリード生成Forms統合が存在したので、お客様は、フォーム送信をMarketoプログラムや CRM Campaign にプッシュしてフォームをトラッキングし、それらのアクティビティに関する属性を受け取るのが一般的な方法でした。 「リード生成Forms」設定が有効になったら、これらのフォーム送信が二重にカウントされないようにする必要があります。 次の点を確認します。
 
 * CRM オブジェクトの「購入者タッチポイントを有効にする」フィールドが「なし」または「すべてのキャンペーンメンバーを除外」に設定されている
 * 関連するMarketoプログラムまたはMarketoアクティビティルールを更新する
@@ -159,7 +159,7 @@ Campaign やクリエイティブのステータスに関係なく、すべて�
 
 ## Touchpoint の詳細 {#touchpoint-details}
 
-1 回 [!DNL Marketo Measure] では、LinkedInクリエイティブでランディングページが正常にタグ付けされ、タッチポイントで解決された広告データを表示できます。 次に、表示されるはずのデータ値のマッピングを示します。
+後 [!DNL Marketo Measure] では、LinkedInクリエイティブでランディングページが正常にタグ付けされ、解決された広告データをタッチポイントで表示できます。 次に、表示されるはずのデータ値のマッピングを示します。
 
 <table> 
  <colgroup> 
@@ -318,17 +318,17 @@ LinkedInは、作成または変更されたすべての広告が、通常のセ
 
 **広告に 2 つの URL があります。 誰がタグ付けされる？**
 
-両方. The [!DNL Marketo Measure] 統合により、広告内のクリックスルー画像から宛先 URL にタグ付けできますが、広告の説明に含まれる短縮 URL も自動的に更新されます。
+両方。 The [!DNL Marketo Measure] 統合により、広告内のクリックスルー画像から宛先 URL にタグ付けできますが、広告の説明に含まれる短縮 URL も自動的に更新されます。
 
 ![](assets/five.png)
 
-**接続しました [!DNL LinkedIn ads] アカウント。 がないのはなぜですか。 [!DNL Marketo Measure] リンクにタグ付けしますか？**
+**接続しました [!DNL LinkedIn ads] アカウント。 がないのはなぜですか？ [!DNL Marketo Measure] リンクにタグ付けしますか？**
 
 接続された [!DNL LinkedIn] ユーザーは適切な編集アクセス権を持つ必要があります。つまり、ユーザーはアカウントマネージャー、キャンペーンマネージャー、クリエイティブマネージャーのいずれかである必要があります。
 
 **クリエイティブがコピーされるかどうかを確認するには、どうすればよいですか？ クリエイティブが同じシェアを使用しているかどうかを確認できますか？**
 
-共有 ID が [!DNL LinkedIn] ですから、クリエイティブと共有のマッピングを確認する明確で明確な方法はありません。 クリエイティブがコピーであると思われる場合は、 [!DNL LinkedIn] キャンペーンマネージャー — 広告が新しいタブで開き、URL に共有 ID が表示されます。
+共有 ID が [!DNL LinkedIn] ですから、クリエイティブと共有のマッピングを確認する明確で明確な方法はありません。 クリエイティブがコピーであると思われる場合は、 [!DNL LinkedIn] キャンペーンマネージャー — 広告が新しいタブで開き、URL 内の共有 ID を確認できます。
 
 ![](assets/six.png)
 

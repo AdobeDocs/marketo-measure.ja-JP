@@ -3,9 +3,9 @@ description: 収益の概要ダッシュボード — [!DNL Marketo Measure]  �
 title: 収益の概要ダッシュボード
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 この時系列の棒グラフは、合計売上高と属性売上高に対する対照を示し、全体的な売上高に対するマーケティング効果を明確に視覚化しています。
 
-* ドリルダウン機能とアップ機能を利用して、四半期と年でデータを分類します。
+* ドリルダウン機能と上昇機能を使用して、四半期と年でデータを分類します。
 * 棒グラフのセクションの上にマウスポインターを置くと、その詳細情報が表示されます。
 
 **グラフの回答に関する質問：**

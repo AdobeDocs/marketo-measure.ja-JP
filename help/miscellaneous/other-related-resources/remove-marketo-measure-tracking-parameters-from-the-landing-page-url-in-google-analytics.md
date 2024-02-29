@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874736
-description: 削除 [!DNL Marketo Measure] ランディングページ URL からのトラッキングパラメーター (Google Analyticsー ) - [!DNL Marketo Measure]  — 製品ドキュメント
+description: 削除 [!DNL Marketo Measure] ランディングページ URL からのトラッキングパラメーター (Google Analyticsー ) - [!DNL Marketo Measure]
 title: Google Analytics のランディングページ URL からの [!DNL Marketo Measure] トラッキングパラメーターの削除
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 18%
+source-wordcount: '115'
+ht-degree: 9%
 
 ---
 
-# Google Analytics のランディングページ URL からの[!DNL Marketo Measure]トラッキングパラメーターの削除 {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
+# 削除 [!DNL Marketo Measure] ランディングページ URL からのトラッキングパラメーター (Google Analytics) {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 
 でランディングページを表示する際に [!DNL Google Analytics]に値を指定しない場合、URL からトラッキングパラメーターを削除する必要があります。 そうしないと、個々の行に分割されます。
 

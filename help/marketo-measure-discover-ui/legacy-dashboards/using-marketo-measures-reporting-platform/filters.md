@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874656
-description: フィルター — [!DNL Marketo Measure]  — 製品ドキュメント
+description: フィルター — [!DNL Marketo Measure]
 title: フィルター
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ _概要、成長、マーケティング費用、広告 ROI、アカウントベ
 
 使用する日付のタイプを選択し、日付フィルターに関連付けます。 デフォルトの日付タイプは、ボードによって異なります。 タッチポイント日はマーケティング活動が行われた日付を指し、作成日はリード、連絡先、または商談が CRM で作成された日付を指し、クローズ日は商談がクローズされた日付を指します。
 
-**ディメンション**
+**Dimension**
 
 _使用場所：有料メディア_
 
@@ -96,7 +96,7 @@ Dimensionは Group By 関数に似ていますが、有料メディアボード�
 * 配置：データを配置別にリストします。 Doubleclick の配置に適用されるので、Doubleclick を使用しない場合は結果が表示されません
 * サイト：サイト別のデータを表示します。 Doubleclick サイトに適用されるので、Doubleclick を使用しない場合は結果が表示されません
 
-**グループ化**
+**グループ化の基準**
 
 _使用場所：概要、成長、マーケティング費用、アカウントベースドマーケティング、Web トラフィック、CMO_
 

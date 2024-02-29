@@ -1,11 +1,11 @@
 ---
-description: API 接続のベストプラクティス — [!DNL Marketo Measure]  — 製品ドキュメント
+description: API 接続のベストプラクティス — [!DNL Marketo Measure]
 title: API 接続のベストプラクティス
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '736'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ The [!DNL Marketo Measure] API 接続は、アカウントの非常に貴重な�
 * 可能な限り全ての広告アカウントを連携させて、支出のレポートを自動化します
 * 可能な場合は、常にトラッキングテンプレートを実装します。 このテンプレートは、広告アカウントが切断された場合でも、確実に [!DNL Marketo Measure] は、引き続き詳細な広告の詳細を取り込むことができます
 
-それぞれを最適化するには [!DNL Marketo Measure] API には、次のベストプラクティスを遵守してください。
+それぞれを最適化するには [!DNL Marketo Measure] API は、次のベストプラクティスに従っています。
 
 **[!DNL Facebook]**：自動タグ付けを使用した接続
 
@@ -84,12 +84,12 @@ API 接続アカウントが切断された場合、 [!DNL Marketo Measure] で�
 * その人はもう会社にいません
 * API の更新
 
-チームで上記のシナリオが発生した場合は、 [!DNL Marketo Measure] 再認証が必要ないことを確認するアプリケーションです。
+チームで上記のシナリオのいずれかが発生している場合は、 [!DNL Marketo Measure] 再認証が必要ないことを確認するアプリケーションです。
 
 >[!MORELIKETHIS]
 >
 >* [統合広告プラットフォーム (API)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [入札管理ツールの [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md) への影響
+>* [入札管理ツールが及ぼす影響 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
 >* [[!DNL Marketo Measure] API パラメーターの説明](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Facebook API の概要](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] 統合の概要](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874795
-description: ' [!DNL Marketo Measure]  スクリプトの追加 - [!DNL Marketo Measure] - 製品ドキュメント'
+description: 追加中 [!DNL Marketo Measure] スクリプト — [!DNL Marketo Measure]
 title: ' [!DNL Marketo Measure]  スクリプトの追加'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '1307'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 82%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 ## ハードコード {#hard-coding}
 
-ベストプラクティスとして、[!DNL Marketo Measure] JavaScript を web プロパティにハードコードすることを強くお勧めします。スクリプトをハードコードするには、サイトのすべてのページの終了 `</head>` の前にスクリプトを配置する必要があります。
+ベストプラクティスとして、[!DNL Marketo Measure] JavaScript を web プロパティにハードコードすることを強くお勧めします。スクリプトをハードコードするには、スクリプトを終了の前に配置する必要があります `</head>` を選択できます。
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-JavaScript をページの `<head>` にハードコードすると、[!DNL Marketo Measure] スクリプトが最初に読み込まれ、参照情報の見落としを防ぎます。[!DNL Marketo Measure] JavaScript は非同期で読み込まれます。ハードコードする場合は、JavaScript をマーケティングオートメーションに手動で追加する必要があります。
+JavaScript を `<head>` を設定すると、 [!DNL Marketo Measure] スクリプトが最初に読み込まれ、参照情報が見つかりません。 [!DNL Marketo Measure] JavaScript は非同期で読み込まれます。ハードコードする場合は、JavaScript をマーケティングオートメーションに手動で追加する必要があります。
 
 >[!TIP]
 >
@@ -38,13 +38,13 @@ JavaScript をページの `<head>` にハードコードすると、[!DNL Marke
 
 ## タグ管理システム {#tag-management-systems}
 
-ハードコードによる [!DNL Marketo Measure] JavaScript の追加が不可能な場合、別のオプションとして、[!DNL Google Tag Manager]（GTM）や Tealium などのタグ管理システムを使用して [!DNL Marketo Measure] スクリプトを追加します。
+追加する場合 [!DNL Marketo Measure] ハードコーディングを使用した JavaScript は使用できません。もう 1 つのオプションとして、 [!DNL Marketo Measure] 次のようなTag Management System を使用したスクリプト [!DNL Google Tag Manager] (GTM) または Tealium。
 
-タグ管理システムを使用して [!DNL Marketo Measure] JS をデプロイすると、スクリプトの読み込み時間の遅延により 5～10％のデータ損失が発生する可能性があります。基本的に、タグ管理ツールが十分に早く読み込まれない場合、[!DNL Marketo Measure] JS も十分に早く読み込むことができず、最初のリファラー情報が失われる可能性があります。
+タグ管理システムを使用して、 [!DNL Marketo Measure] JS は、スクリプトの読み込み時間の遅延により、5～10%のデータ損失を引き起こす可能性があります。 基本的に、タグ管理ツールが十分に早く読み込まれない場合、[!DNL Marketo Measure] JS も十分に早く読み込むことができず、最初のリファラー情報が失われる可能性があります。
 
 一般的な方法として、タイミング／リソースがハードコードに移行するのが適切になるまで、タグ管理ツールを通じて [!DNL Marketo Measure] JS をデプロイします。
 
-タグ管理ソリューションを通じて [!DNL Marketo Measure] スクリプトを追加するには、新しいタグを作成し、そのタグ内に JavaScript を追加する必要があります。このタグを、追跡する web サイト上のすべてのページに適用します。
+追加するには [!DNL Marketo Measure] スクリプトをタグ管理ソリューションで使用する場合は、新しいタグを作成し、その中に JavaScript を追加する必要があります。 このタグを、追跡する web サイト上のすべてのページに適用します。
 
 [!DNL Marketo Measure] では、すべてのページビューでタグが起動されるようにすることをお勧めします。さらに、最高のデータ品質を確保するために、実行順序で [!DNL Marketo Measure] に最高の優先度を与え、[!DNL Marketo Measure] タグの前に同期スクリプトがないことを確認することが最善です。
 
@@ -54,13 +54,13 @@ JavaScript をページの `<head>` にハードコードすると、[!DNL Marke
 
 [!DNL Marketo Measure] JavaScript はドメインベースであるので、JavaScript がページ上にあり、ルートドメインが Marketo Measure アカウントの作成に使用されたドメインと同じである限り、任意のサブドメインを自動的に処理できます。
 
-ただし、個別のドメインまたは国際ドメインを使用している場合は、[!DNL Marketo Measure] コンサルタントに必ずお知らせください。[!DNL Marketo Measure] が追加のドメインのデータをアカウントに関連付けることができるように、[!DNL Marketo Measure] 側でドメインをアカウントに手動で追加する必要があります。そのため、個別のドメインまたは国際ドメインを [!DNL Marketo Measure] コンサルタントに送信してください。
+ただし、個別のドメインまたは国際ドメインを使用している場合は、[!DNL Marketo Measure] コンサルタントに必ずお知らせください。[!DNL Marketo Measure] が追加のドメインのデータをアカウントに関連付けることができるように、[!DNL Marketo Measure] 側でドメインをアカウントに手動で追加する必要があります。そのため、別のドメインや国際ドメインを [!DNL Marketo Measure] コンサルタント。
 
-サードパーティのページを使用する場合は、[!DNL Marketo Measure] コンサルタントとユースケースについて話し合ってください。一般に、必要に応じてそれらのページを追跡するために、[!DNL Marketo Measure] JavaScript のカスタムバージョンを追加できるかどうかを考慮する必要があります。これが不可能な場合は、[!DNL Marketo Measure] コンサルタントと CRM キャンペーンのタッチポイントを通じたトラッキングを検討します。
+サードパーティのページを使用する場合は、[!DNL Marketo Measure] コンサルタントとユースケースについて話し合ってください。一般に、 [!DNL Marketo Measure] JavaScript を使用して、該当する場合はこれらのページを追跡します。 これが不可能な場合は、CRM Campaign タッチポイントを介したトラッキングを、 [!DNL Marketo Measure] コンサルタント。
 
-必ずしもアトリビューションを意味しないことから、[!DNL Marketo Measure] で追跡すべきではないフォーム（購読解除フォーム、顧客ログインなど）はありますか？その場合は、[この記事の](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}除外コードを各フォームに追加します。
+必ずしもアトリビューションを意味しないことから、[!DNL Marketo Measure] で追跡すべきではないフォーム（購読解除フォーム、顧客ログインなど）はありますか？その場合は、除外コードを追加します。 [この記事では、](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} 各フォーム
 
-セキュリティで保護されていないページはありますか？その場合は、セキュリティで保護されたページとセキュリティで保護されていないページの間を移動するとトラッキングセッションが中断されるので、セキュリティで保護する必要があります。
+セキュリティで保護されていないページはありますか？その場合は、セキュリティで保護されたページとセキュリティで保護されていないページの間を移動すると、トラッキングセッションが中断されるので、セキュリティで保護したいと考えます。
 
 必ず web チームと話し合って、[!DNL Marketo Measure] JavaScript を常に適切な web プロパティに配置する必要があることを理解する必要があります。新しいページ／フォーム／サイトを導入する場合は、[!DNL Marketo Measure] JavaScript のデプロイがプロトコルの一部であることを確認します。
 
@@ -73,7 +73,7 @@ JavaScript の設定中に [!DNL Web Application Firewall (WAF)]（WAF）の警�
 **複数フォームの送信**
 
 * 問題：単一のフォーム送信の一部として複数のリンクされたフォームがある場合、完全なフォームが送信されなくても、最初のフォームがタッチポイントを生成する可能性があります。
-* 解決策：フォームの 1 つで、キャッシュされたデータに基づいてユーザーを [!DNL Marketo Measure] に報告し、放棄方法について話し合うように適用する必要があります。一般に、[レポートユーザーコード](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"}でこれを解決できます。
+* 解決策：いずれかのフォームを強制的にユーザーに報告する必要があります。 [!DNL Marketo Measure] キャッシュされたデータに基づいており、中断の慣行について話し合います。 一般に、[レポートユーザーコード](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"}でこれを解決できます。
 
 **アカウントログイン（未作成）**
 

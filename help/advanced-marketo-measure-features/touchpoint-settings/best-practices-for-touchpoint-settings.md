@@ -1,11 +1,11 @@
 ---
-description: タッチポイント設定のベストプラクティス — [!DNL Marketo Measure]  — 製品ドキュメント
+description: タッチポイント設定のベストプラクティス — [!DNL Marketo Measure]
 title: Touchpoint 設定のベストプラクティス
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '656'
 ht-degree: 6%
 
 ---

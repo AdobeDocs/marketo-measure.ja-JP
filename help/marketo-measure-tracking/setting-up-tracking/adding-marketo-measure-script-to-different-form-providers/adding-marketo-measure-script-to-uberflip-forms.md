@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874749
-description: 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms - [!DNL Marketo Measure]  — 製品ドキュメント
-title: フォームへの [!DNL Marketo Measure] スクリプトの追加 [!DNL Uberflip]
+description: 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms - [!DNL Marketo Measure]
+title: 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
-#  フォームへの[!DNL Marketo Measure]スクリプトの追加[!DNL Uberflip] {#adding-marketo-measure-script-to-uberflip-forms}
+# 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
 
 現在 [!DNL Uberflip] コンテンツを管理するには、次の必要な手順を実行して、 [!DNL Marketo Measure] は、これらのフォーム送信を追跡しています。 サクセスマネージャー ( ) [!DNL Uberflip] これに関しては、もう一度お手伝いをいただけるはずです。
 
@@ -23,7 +23,7 @@ ht-degree: 3%
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   このプリアンブルは、 [!DNL Hubs.onLoad] そして [!DNL Hubs.onPageChange] 以下に示すAJAX JavaScript イベントフックを使用します。 ( 注意：これらのイベントフックには他のコードも含まれている場合があります。 必ずプリアンブルも含めてください )。
+   このプリアンブルを [!DNL Hubs.onLoad] そして [!DNL Hubs.onPageChange] 以下に示すAJAX JavaScript イベントフックを使用します。 ( 注意：これらのイベントフックには他のコードも含まれている場合があります。 必ずプリアンブルも含めてください )。
 
    `Hubs.onLoad = function () {`
 

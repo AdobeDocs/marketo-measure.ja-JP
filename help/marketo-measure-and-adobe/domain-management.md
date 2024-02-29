@@ -1,11 +1,11 @@
 ---
-description: ドメイン管理 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: ドメイン管理 — [!DNL Marketo Measure]
 title: ドメインの管理
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## ドメインの追加Admin Console {#adding-domains-in-admin-console}
 
-Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有するドメインを追加および検証できます。 ドメインの検証では、各ドメインの DNS レコードを追加し、その後、Admin Consoleがそのレコードを検証できるようにします。
+Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有するドメインを追加および検証できます。 ドメインの検証では、各ドメインの DNS レコードを追加し、Admin Consoleがそのレコードを検証できるようにします。
 
 ![](assets/domain-management-1.png)
 
@@ -24,15 +24,15 @@ Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有�
 
 ## でのドメインの管理 [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
-ドメインがAdmin Consoleに追加されたら、 [!DNL Marketo Measure] は、このレコードを定期的にデータベースに同期します。 この同期は毎晩おこなわれます。また、ユーザーが **[!UICONTROL ドメイン]** ページの [!DNL Marketo Measure] UI デフォルトでは、 [!DNL Marketo Measure] インポートは無効になり、テナントは各ドメインを手動で有効にする必要があります。
+ドメインに追加された後、Admin Console [!DNL Marketo Measure] このレコードを定期的にデータベースに同期します。 この同期は毎晩おこなわれます。また、ユーザーが **[!UICONTROL ドメイン]** ページの [!DNL Marketo Measure] UI デフォルトでは、 [!DNL Marketo Measure] インポートは無効になっており、テナントは各ドメインを手動で有効にする必要があります。
 
 ![](assets/domain-management-2.png)
 
-次の日： **[!UICONTROL 統合]** > **[!UICONTROL ドメイン]** ページに追加された場合、ユーザーには、Admin Consoleに登録したすべてのドメインとステータスが表示されます。 各ドメインは、有効または無効にすることができます。 ドメインが有効な場合、 [!DNL Marketo Measure] トラッキングにより、そのドメインで見られるトラフィックがすべて収集されます。 ドメインが無効になっている場合、 [!DNL Marketo Measure] は、そのドメインから来たトラフィックを無視し、タッチポイントやその他のデータを作成しません。 [!DNL Marketo Measure] また、ドメインの無効化を確認し、次のような影響について警告します。
+次の日： **[!UICONTROL 統合]** > **[!UICONTROL ドメイン]** ページに表示される場合は、Admin Consoleに登録したすべてのドメインとそのステータスが表示されます。 各ドメインは、有効または無効にすることができます。 ドメインが有効な場合、 [!DNL Marketo Measure] トラッキングは、そのドメインで見られるトラフィックをすべて収集します。 ドメインが無効になっている場合、 [!DNL Marketo Measure] は、そのドメインから来たトラフィックをすべて無視し、タッチポイントやその他のデータは作成しません。 [!DNL Marketo Measure] は、ドメインの無効化を確認し、影響を警告します。
 
 ![](assets/domain-management-3.png)
 
-ドメインの切り替えの影響は直ちに発生し、変更は遡及されません。 将来、 [!DNL Marketo Measure] は、設定された期間が経過すると、無効なドメインからデータをパージします。
+ドメインの切り替えの影響は直ちに発生し、変更は遡及されません。 将来、 [!DNL Marketo Measure] は、設定された期間が過ぎると、無効なドメインからデータをパージします。
 
 ## ステータス {#statuses}
 
@@ -45,22 +45,22 @@ Admin Consoleのステータスは、次のように分類されます。
 
 トラッキングのステータスには、次のものがあります。
 
-* **アクティブ**: [!DNL Marketo Measure] は現在、このドメインからデータを受信しています
-* **無効**：このドメインは追跡に使用できますが、現在は無効です。
+* **アクティブ**: [!DNL Marketo Measure] は、このドメインからデータを受信しています
+* **無効**：このドメインはトラッキングに使用できますが、無効になっています。
 * **UNAVAILABLE**：このドメインは、検証されていないので、トラッキングに使用できません
 
-個々のステータス項目の上にマウスポインターを置くと、そのステータスをさらに説明するツールチップがトリガーされます。
+個々のステータス項目の上にマウスポインターを置くと、そのトリガーをさらに説明するツールチップが表示されます。
 
 ## よくある質問 {#faq}
 
 **ドメイン内のドメインが削除されるとどうなりますか？Admin Console内のドメインが削除されるとどうなりますか？**
 
-ドメインがAdmin Consoleで削除された場合、 [!DNL Marketo Measure] がドメインを削除済みとマークします。 [!DNL Marketo Measure] は、このドメインでのトラッキングトラフィックを直ちに停止しますが、以前に収集されたデータは削除されません。
+ドメインがAdmin Consoleで削除された場合、 [!DNL Marketo Measure] ドメインを削除済みとしてマークします。 [!DNL Marketo Measure] は、このドメインでのトラッキングトラフィックを直ちに停止しますが、以前に収集されたデータは削除されません。
 
 **ドメインを有効にできないのはなぜですか？**
 
-このページでドメインの選択が許可されない理由はいくつかあります。 ドメインがAdmin Consoleで検証されていない場合、次の場所で使用できません： [!DNL Marketo Measure]. 同様に、ドメインが現在のドメインとは異なるAdobe組織に所有されている場合 [!DNL Marketo Measure] テナント。選択できない可能性があります。
+このページでドメインの選択が許可されない理由はいくつかあります。 ドメインがAdmin Consoleで検証されていない場合、次の場所では使用できません： [!DNL Marketo Measure]. 同様に、ドメインが現在のドメインとは異なるAdobe組織に所有されている場合 [!DNL Marketo Measure] テナント。選択できない可能性があります。
 
 **このリストからドメインを削除する方法を教えてください。**
 
-ドメインの「有効」スイッチがオフになっている場合、 [!DNL Marketo Measure] は無視し、次の場所から効果的に削除されます： [!DNL Marketo Measure]. ドメインを次の場所から永久に削除するには： [!DNL Marketo Measure]を無効にするには、で無効にする必要があります。 [!DNL Marketo Measure]をクリックし、次にAdmin Consoleから削除します。
+ドメインの「有効」スイッチがオフになっている場合、 [!DNL Marketo Measure] は無視し、効果的に削除されます。 [!DNL Marketo Measure]. ドメインを次の場所から永久に削除するには： [!DNL Marketo Measure]を無効にするには、で無効にする必要があります。 [!DNL Marketo Measure]をクリックし、Admin Consoleから削除します。

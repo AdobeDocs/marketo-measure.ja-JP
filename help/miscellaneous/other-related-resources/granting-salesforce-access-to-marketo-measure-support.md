@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874791
-description: 許可中 [!DNL Salesforce] アクセス先 [!DNL Marketo Measure] サポート — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 許可中 [!DNL Salesforce] アクセス先 [!DNL Marketo Measure] サポート — [!DNL Marketo Measure]
 title: 許可中 [!DNL Salesforce] Marketo Measure Support へのアクセス
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---

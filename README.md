@@ -1,8 +1,8 @@
 ---
-source-git-commit: a5648e73c470f61720741a5dd828e00fa532c4d5
-workflow-type: ht
-source-wordcount: '424'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '401'
+ht-degree: 82%
 
 ---
 # 記事の投稿
@@ -28,10 +28,10 @@ ht-degree: 100%
 
 ### コミュニティメンバーからの大きな変更または新しい記事
 
-アドビコミュニティの一員として、新しい記事を作成したり大きな変更を送信したりする場合は、Git リポジトリの「Issues」タブを使用して問題を送信し、ドキュメントチームとの会話を開始してください。計画に同意したら、パブリックリポジトリおよびプライベートリポジトリでの作業を組み合わせて新しいコンテンツを取り込むために従業員と協力する必要があります。
+Adobeコミュニティのメンバーが新しい記事を作成したり、大きな変更を投稿したりする場合は、Git リポジトリの「Issues」タブを使用して問題を送信し、ドキュメントチームとの会話を開始します。 計画に同意したら、公開および非公開リポジトリでの作業を組み合わせて新しいコンテンツを取り込むために、従業員と協力する必要があります。
 
 <!--
-If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
+If you submit a pull request with significant changes to documentation and code examples, you will see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
 ### アドビ従業員からの大きな変更

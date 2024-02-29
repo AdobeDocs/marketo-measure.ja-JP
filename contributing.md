@@ -1,8 +1,8 @@
 ---
-source-git-commit: ea1e867b7169bac473d8e9754cbb97a0fdcb57fd
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 98%
 
 ---
 # 投稿
@@ -14,7 +14,8 @@ ht-degree: 100%
 ## 行動規範
 
 このプロジェクトは、アドビの[行動規範](code-of-conduct.md)に従います。参加すると、
-あなたはこの規範を守ると期待されています。容認できない行動は [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com) に報告してください。
+あなたはこの規範を守ると期待されています。容認できない行動を報告する対象：
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## ご質問がある場合
 
@@ -31,7 +32,7 @@ ht-degree: 100%
 
 
 <!--
-Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+Lastly, follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
 submitting a pull request!
 -->
 

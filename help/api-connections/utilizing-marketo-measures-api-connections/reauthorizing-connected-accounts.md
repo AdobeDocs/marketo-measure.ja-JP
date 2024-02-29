@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874690
-description: 接続されたアカウントの再認証 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 接続されたアカウントの再認証 — [!DNL Marketo Measure]
 title: 接続されたアカウントの再認証
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '185'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ CRM プラットフォームが切断された場合、 [!DNL Marketo Measure] �
 
 ## 切断されたアカウントの再認証 {#re-authorizing-disconnected-accounts}
 
-1. に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、ログインします。
+1. に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} をクリックし、ログインします。
 1. 選択 **[!UICONTROL 設定]** の下に [!UICONTROL マイアカウント] 」タブをクリックします。
 1. 左側の「統合」セクションを見つけ、 **[!UICONTROL 接続]**.
 1. 再接続する必要があるアカウントの横にある赤い鍵記号を選択します。

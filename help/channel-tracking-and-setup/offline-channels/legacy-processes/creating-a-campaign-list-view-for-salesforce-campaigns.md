@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874718
-description: 用のキャンペーンリストビューの作成 [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]  — 製品ドキュメント
+description: 用のキャンペーンリストビューの作成 [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
 title: ' [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成'
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
-# [!DNL Salesforce]キャンペーンのキャンペーンリストビューの作成 {#creating-a-campaign-list-view-for-salesforce-campaigns}
+# 用のキャンペーンリストビューの作成 [!DNL Salesforce] キャンペーン {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 購入者タッチポイントと同期するキャンペーンのリスト表示を作成する方法を説明します。
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 1. ビューに「同期するキャンペーン」と名前を付けます。 [!DNL Marketo Measure].&quot;
 1. 同期したいキャンペーンのみをこのリストに表示します [!DNL Marketo Measure] そのため、次の 2 つのフィルターが必要です。
 
-   * **タイプ** [次と等しい] 「オフラインチャネルにマッピングしたすべてのキャンペーンタイプ」。 実装計画または [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> マイアカウント/設定/オフラインチャネル )。 虫眼鏡アイコンを使用して、目的のタイプ（オフラインマーケティングチャネルにマッピングされるタイプ）を選択できます。
+   * **タイプ** [次と等しい] 「オフラインチャネルにマッピングしたすべてのキャンペーンタイプ」。 実装計画または [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} -> マイアカウント/設定/オフラインチャネル )。 虫眼鏡アイコンを使用して、目的のタイプ（オフラインマーケティングチャネルにマッピングされるタイプ）を選択できます。
 
       * 各フィルターに対して、最大 3 種類を選択します。 フィルターフィールドに入力できる文字数は制限されています。 フィルターごとに 3 種類から始め、必要に応じて「タイプ」フィルターの行を追加します。
 

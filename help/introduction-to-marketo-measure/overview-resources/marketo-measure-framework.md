@@ -4,10 +4,10 @@ description: Marketo Measure フレームワーク - Marketo Measure - 製品ド
 title: Marketo Measure フレームワーク
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Marketo Measure JavaScript は、見込み客／リードがお客様の組織�
 
 >[!NOTE]
 >
->Marketo Measure JS の追加方法について詳しくは、[こちらを参照](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)してください。
+>Marketo Measure JS の追加方法については、 [ここをクリック](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
 Marketo Measure の JS は、web 訪問（匿名の web 訪問を含む）、一般的なトラフィック／ページナビゲーション、コンテンツのダウンロード、フォームの送信からのデータを取得します。このデータは、お使いの CRM にプッシュされ、各マーケティングインタラクションがタッチポイントとして表示されます。
 

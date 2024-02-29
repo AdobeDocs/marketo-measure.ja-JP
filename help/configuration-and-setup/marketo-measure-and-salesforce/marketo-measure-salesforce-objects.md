@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874582
-description: 「[!DNL Marketo Measure] Salesforce オブジェクト -  [!DNL Marketo Measure]  - 製品ドキュメント」
+description: "[!DNL Marketo Measure] Salesforce オブジェクト — [!DNL Marketo Measure]"
 title: 「[!DNL Marketo Measure] Salesforce オブジェクト」
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 89%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->アドビのドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には「Bizible」と表示されます。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 [!DNL Marketo Measure] が [!DNL Salesforce]（SFDC）にインストールされると、複数のカスタム [!DNL Marketo Measure] オブジェクトが追加されます。この記事では、これらのカスタム [!DNL Marketo Measure] オブジェクトのいくつかについて説明します。[!DNL Marketo Measure] が [!DNL Salesforce] に追加するオブジェクトには次のようなものがあります。
 
@@ -55,7 +55,7 @@ BAT オブジェクトは、[!UICONTROL 商談]、[!UICONTROL 取引先責任者
 
 ## [!DNL Marketo Measure] 担当者 {#marketo-measure-person}
 
-[!DNL Marketo Measure] 担当者オブジェクトは、リードオブジェクトと取引先責任者オブジェクトを関連付けます。Salesforce の初期状態では、同じレポート内でリードオブジェクトと、取引先責任者オブジェクトを使用してレポートを作成するオプションを提供していません。[!DNL Marketo Measure] 担当者をリードオブジェクトと取引先責任者オブジェクトに関連付けると、同じレポート内で両方のオブジェクトに関するレポートを作成できます。これは、リードが取引先責任者に転換した際に特に役立ちます。[!DNL Marketo Measure] 担当者レコードには、対応するリード／取引先責任者レコード、その担当者に関連するタッチポイントの関連リスト、および担当者 ID（常にリード／取引先責任者のメールアドレス）のルックアップが表示されます。[!DNL Marketo Measure] 担当者はリードと取引先責任者オブジェクトに関連しているので、Buyer Attribution Touchpoint に関連付けられた [!DNL Marketo Measure] 担当者レコードは存在しません。以下に、Salesforce 内の [!DNL Marketo Measure] 担当者レコードの例を示します。
+[!DNL Marketo Measure] 担当者オブジェクトは、リードオブジェクトと取引先責任者オブジェクトを関連付けます。Salesforce の初期状態では、同じレポート内でリードオブジェクトと、取引先責任者オブジェクトを使用してレポートを作成するオプションを提供していません。[!DNL Marketo Measure] 担当者をリードオブジェクトと取引先責任者オブジェクトに関連付けると、同じレポート内で両方のオブジェクトに関するレポートを作成できます。これは、リードが取引先責任者に転換した際に特に役立ちます。日付： [!DNL Marketo Measure] 担当者レコードには、対応するリード/連絡先レコード、その人物に関連するタッチポイントの関連リスト、および人物 ID（常にリード/連絡先の電子メールアドレス）のルックアップが表示されます。 [!DNL Marketo Measure] 担当者はリードと取引先責任者オブジェクトに関連しているので、Buyer Attribution Touchpoint に関連付けられた [!DNL Marketo Measure] 担当者レコードは存在しません。以下に、Salesforce 内の [!DNL Marketo Measure] 担当者レコードの例を示します。
 
 ![](assets/4.png)
 
@@ -73,7 +73,7 @@ A/B テストを [!DNL Optimizely] または VWO（Visual Web Optimizer）を使
 
 ## [!DNL Marketo Measure] フィールド {#marketo-measure-fields}
 
-[!DNL Marketo Measure] JavaScript によって取り込まれたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。特定のフィールドは、特定のオブジェクトにのみ存在します。すべての [!DNL Marketo Measure] フィールドの用語集については、[こちらをクリック](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)してください。各 [!DNL Marketo Measure] フィールドがどの [!DNL Marketo Measure] オブジェクトに関連しているかを視覚的に確認するには、[こちらをクリック](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)してください。
+によって取り込まれたデータ [!DNL Marketo Measure] JavaScript がカスタムにプッシュされます [!DNL Marketo Measure] 内のフィールド [!DNL Marketo Measure] オブジェクト。 特定のフィールドは、特定のオブジェクトにのみ存在します。 以下を実行すると、 [用語集 [[!DNL Marketo Measure] フィールド ]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md) および [関連する [!DNL Marketo Measure] オブジェクト](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 ## [!DNL Marketo Measure] レポートとダッシュボード {#marketo-measure-reports-and-dashboards}
 

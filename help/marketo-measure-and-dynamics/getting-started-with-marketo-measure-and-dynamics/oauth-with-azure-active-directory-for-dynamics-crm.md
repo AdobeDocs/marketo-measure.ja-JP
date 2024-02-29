@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37357059
-description: 次を使用する OAuth [!DNL Azure Active Directory] Dynamics CRM の場合 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 次を使用する OAuth [!DNL Azure Active Directory] Dynamics CRM の場合 — [!DNL Marketo Measure]
 title: 次を使用する OAuth [!DNL Azure Active Directory] （Dynamics CRM 用）
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->この両方のシナリオで、AAD は、Dynamics インスタンスを簡単にで接続できるように、ここで設定されています。 [!DNL Marketo Measure] をデータプロバイダーとして設定します。
+>これらの両方のシナリオで、AAD は、Dynamics インスタンスを簡単にで接続できるように、ここで設定されています。 [!DNL Marketo Measure] をデータプロバイダーとして設定します。
 
 ## 新しいアプリケーションの設定 {#set-up-new-application}
 
@@ -118,7 +118,7 @@ b. Client Secret は、Azure Portal で「証明書と秘密鍵」の下に作�
 
 c. Application ID URI は、ターゲット Web API（保護されたリソース）の URL です。 アプリ ID URL を見つけるには、Azure ポータルで、 [!DNL Azure Active Directory]、「アプリケーションの登録」をクリックし、アプリケーションの設定ページを開いて、「プロパティ」をクリックします。 また、 `https://graph.microsoft.com`. これは通常、Dynamics インスタンスの URL です。
 
-1. 次をクリックした後： **[!UICONTROL 送信]**&#x200B;を使用してログインすると、 [!DNL Azure Active Directory]. 認証に成功すると、Dynamics アカウントは、内でデータプロバイダーとして接続されます [!DNL Marketo Measure].
+1. 次をクリックした後： **[!UICONTROL 送信]**&#x200B;を使用してログインしない場合は、 [!DNL Azure Active Directory]. 認証に成功すると、Dynamics アカウントは、内でデータプロバイダーとして接続されます [!DNL Marketo Measure].
 
 ## Dynamics アカウントの再認証 {#re-authenticating-your-dynamics-account}
 
@@ -130,4 +130,4 @@ c. Application ID URI は、ターゲット Web API（保護されたリソー�
 
    ![](assets/re-authenticating-3.png)
 
-1. 次をクリックした後： **[!UICONTROL 送信]**&#x200B;を使用してログインすると、 [!DNL Azure Active Directory]. 認証に成功すると、Dynamics アカウントは内で再認証されます [!DNL Marketo Measure].
+1. 次をクリックした後： **[!UICONTROL 送信]**&#x200B;を使用してログインしない場合は、 [!DNL Azure Active Directory]. 認証に成功すると、Dynamics アカウントは内で再認証されます [!DNL Marketo Measure].

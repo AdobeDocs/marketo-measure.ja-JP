@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762762
-description: Marketo接続のセットアップ — [!DNL Marketo Measure]  — 製品ドキュメント
+description: Marketo接続のセットアップ — [!DNL Marketo Measure]
 title: Marketo接続のセットアップ
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Marketoへの接続を設定する方法を次に示します。
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. 新しいタブで、Marketo Engageアカウントにログインします。 に移動します。 **管理者** > **Web サービス**. 下にスクロールして REST API を表示します。 エンドポイントと ID サービスの URL をハイライトして保存します。 あと少しで必要になる。
+1. 新しいタブで、Marketo Engageアカウントにログインします。 に移動します。 **管理者** > **Web サービス**. 下にスクロールして REST API を表示します。 エンドポイントと ID サービスの URL をハイライトして保存します。 少しで必要になるでしょう。
 
    ![](assets/set-up-marketo-connection-5.png)
 

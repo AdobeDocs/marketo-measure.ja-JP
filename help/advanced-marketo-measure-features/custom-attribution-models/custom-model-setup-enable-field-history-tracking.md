@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874777
-description: カスタムモデルの設定 — フィールド履歴の追跡を有効にする — [!DNL Marketo Measure]  — 製品ドキュメント
+description: カスタムモデルの設定 — フィールド履歴の追跡を有効にする — [!DNL Marketo Measure]
 title: カスタムモデルの設定 — フィールド履歴の追跡を有効にする
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 次の場合のみ [!UICONTROL リードステータス] または、商談ステージがカスタムモデルで使用されている場合、フィールド履歴の追跡を有効にする必要はありません。これは、ステージ遷移として自動的に追跡されるからです。
 
-フィールド履歴の追跡を有効にするには、以下の手順に従ってください。
+フィールド履歴の追跡を有効にするには、以下の手順に従います。
 
 ## フィールド履歴の追跡を有効にする {#enable-field-history-tracking}
 

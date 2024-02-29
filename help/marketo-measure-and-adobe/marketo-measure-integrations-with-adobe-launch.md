@@ -1,18 +1,18 @@
 ---
-description: '''[!DNL Marketo Measure] AdobeLaunch との統合 — [!DNL Marketo Measure]  — 製品ドキュメント`'
+description: '[!DNL Marketo Measure] AdobeLaunch との統合 — [!DNL Marketo Measure]'
 title: '''[!DNL Marketo Measure] AdobeLaunch との統合`'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 1b583dac72aadff5d7c2352a064e2ff842b91891
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '295'
 ht-degree: 3%
 
 ---
 
 # [!DNL Marketo Measure] と Adobe Launch の統合 {#marketo-measure-integrations-with-adobe-launch}
 
-AdobeLaunch 拡張機能は、既存のユーザー向けに設計されています。 [!DNL Marketo Measure] の Web サイトで既にAdobeLaunch を利用しているユーザーのみを対象としています。 拡張機能は、特定のイベントや条件に基づいてページにスクリプトを設定し、動的に読み込むためのタグ管理ソリューションとして機能します。
+AdobeLaunch 拡張機能は、既存のユーザー向けに設計されています。 [!DNL Marketo Measure] の Web サイトで既にAdobeLaunch を使用しているユーザーのみを対象としています。 拡張機能は、特定のイベントや条件に基づいてページにスクリプトを設定し、動的に読み込むためのタグ管理ソリューションとして機能します。
 
 Launch でインストールおよび設定した場合、AdobeLaunch では、 [!DNL Marketo Measure] 拡張機能は、Launch スクリプトが存在するページに bizible.jsAdobeを読み込みます。 これにより、マーケターは Web ページを明示的に変更して bizible.js スクリプトタグを追加するのに対し、AdobeLaunch 設定を通じて bizible.js を追加できます。
 
@@ -22,11 +22,11 @@ Launch でインストールおよび設定した場合、AdobeLaunch では、 
 >
 >Launch とその拡張機能について詳しくは、次のリンクをAdobeしてください。
 >
->* [[!DNL Marketo Measure] 拡張](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=en#catalog){target="_blank"}
->* [Adobe起動の概要](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
->* [AdobeLaunch 拡張機能の概要](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
+>* [[!DNL Marketo Measure] 拡張](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [Adobe起動の概要](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
+>* [AdobeLaunch 拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. 手順に従ってプロパティを作成します。 [この記事では、](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
+1. 手順に従ってプロパティを作成します。 [この記事では、](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. 作成したプロパティをクリックします。
 

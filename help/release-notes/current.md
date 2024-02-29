@@ -1,18 +1,18 @@
 ---
-description: 最新のリリースノート - [!DNL Marketo Measure] - 製品ドキュメント
+description: 最新のリリースノート — [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 94%
 
 ---
 
 # リリースノート：2023年 {#release-notes-2023}
 
-2023年リリースのすべての新機能と更新された機能を以下に示します。
+2023 リリースのすべての新機能と更新された機能は次のとおりです。
 
 ## 第 4 四半期リリース {#q4-release}
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
 [データウェアハウス](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}の URL テーブルには、web データテーブルに加えて、ページタイトルフィールドが含まれるようになります。
 
-URL テーブルのページタイトルは、他の web テーブルのページタイトルと必ずしも一致しない場合があることに注意してください。URL テーブルには、最新のページタイトルが含まれます。Web アクティビティの実行後に URL のタイトルを変更した場合、URL テーブルの内容と一致しなくなります。
+URL テーブルのページタイトルが、他の Web テーブルのページタイトルと一致しない場合があることに注意してください。 URL テーブルには、最新のページタイトルが含まれます。Web アクティビティの実行後に URL のタイトルを変更した場合、URL テーブルの内容と一致しなくなります。
 
 **Discover ダッシュボードの刷新**
 
@@ -157,7 +157,7 @@ URL テーブルのページタイトルは、他の web テーブルのペー�
 
 * 削除されたフィールドを利用する既存のレポートの機能をキャプチャするレポートを作成します。この処理の一環として、次に示すように、レポートのフィールドを変更します。
 
-   * リード／取引先責任者 FT／LC フィールドを削除：
+* リード／取引先責任者 FT／LC フィールドを削除：
 
 ![](assets/release-notes-2023-2.png)
 
@@ -179,7 +179,7 @@ URL テーブルのページタイトルは、他の web テーブルのペー�
 
 * Dynamics との接続を維持するには、最新のパッケージバージョン v6.12 をインストールしてください。古いバージョン `(<v6.12)` はサポートされなくなります。この更新により、履歴レコードの作成が最適化され、ストレージの使用量が削減されます。
 
-* RefreshToken を使用した古い OAuth メソッドは非推奨（廃止予定）となります。ClientSecret の使用に関する Microsoft のベストプラクティスに従った資格情報の更新について詳しくは、[このガイド](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"}を参照してください。
+* RefreshToken を使用した古い OAuth メソッドは非推奨（廃止予定）となります。参照： [このガイド](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} 資格情報を更新してMicrosoftのベストプラクティスに従うための ClientSecret の使用。
 
 #### 「custom_properties」フィールド
 

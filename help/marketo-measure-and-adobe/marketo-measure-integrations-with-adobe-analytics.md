@@ -1,12 +1,12 @@
 ---
-description: '"[!DNL Marketo Measure] Adobe Analyticsとの統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
+description: "[!DNL Marketo Measure] Adobe Analyticsとの統合 — [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] との統合 [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 0%
+source-wordcount: '941'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,9 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
 
 ## 統合の設定 {#configuring-the-integration}
 
-1. まず、顧客コンソールで新しい顧客属性データソースを作成します。Experience Cloudコンソール。 詳細な手順 [ここにあります](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+1. 顧客コンソールで新しい顧客属性データソースをExperience Cloudします。 詳細な手順 [ここにあります](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ja).
 
-   プロセスの後の手順の一部で必要になるので、次の情報を控えておきます。
+   後の手順で必要になる次の情報を控えておきます。
 
    * エイリアス ID。任意の値を指定できます。 「marketomeasure_id」をお勧めします。
 
@@ -30,21 +30,21 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
 
 1. 顧客属性データソースを作成したら、 **[!UICONTROL 統合]** > **[!UICONTROL 接続]** 画面 [!DNL Marketo Measure] 管理者メニュー。
 
-1. をクリックします。 **[!UICONTROL 新しい顧客属性接続の設定]** ボタンをクリックし、指示に従って顧客属性統合を設定します。 コアサービスコンソールで顧客属性ソースを作成する際に取得したエイリアス ID と FTP 接続情報の入力、およびと同期する一連のアカウント属性の選択を求めるメッセージが UI に表示されます [!DNL Adobe Analytics] アカウント。
+1. 次をクリック： **[!UICONTROL 新しい顧客属性接続の設定]** ボタンをクリックし、指示に従って顧客属性統合を設定します。 コアサービスコンソールで顧客属性ソースを作成する際に取得したエイリアス ID と FTP 接続情報の入力、およびにと同期する一連のアカウント属性の選択が求められます [!DNL Adobe Analytics] アカウント。
 
-   また、組織 ID を入力する必要もあります。 この ID は、Adobe Experience CloudAdmin Consoleの右下隅に表示されます。 この ID の検索方法について詳しくは、Adobeアカウントチーム（アカウントマネージャー）にお問い合わせください。
+   また、組織 ID を入力する必要があります。Adobe IMSの組織 ID を入力する必要があります。 この ID は、Adobe Experience CloudAdmin Consoleの右下隅に表示されます。 この ID の検索方法について詳しくは、Adobeアカウントチーム（アカウントマネージャー）にお問い合わせください。
 
-1. 接続の作成が完了したら、 [!DNL Marketo Measure] アカウントを使用する場合は、次の操作を行うためにExperience Cloudコンソールに戻る必要があります。 [スキーマの検証](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/validate-schema.html). FTP ファイルのアップロードについて心配する必要はありません。 [!DNL Marketo Measure] では、そのパーツを自動化しています。 必要な操作は、手順 1 で作成した顧客属性ソースの「表示/編集」スキーマ画面に移動し、各属性のデータタイプをAdobeに示すだけです [!DNL Marketo Measure] があなたに代わってアップロードされました。 必要に応じて、アップロードした属性の表示にわかりやすい名前を新しく作成することもできます。
+1. 接続の作成が完了したら、 [!DNL Marketo Measure] アカウントを使用するには、Experience Cloudコンソールに戻り、 [スキーマの検証](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en). FTP ファイルのアップロードについて心配する必要はありません。 [!DNL Marketo Measure] では、そのパーツを自動化しています。 必要な操作は、手順 1 で作成した顧客属性ソースの「表示/編集」スキーマ画面に移動し、各属性のデータタイプをAdobeに示すだけです [!DNL Marketo Measure] があなたに代わってアップロードされました。 必要に応じて、アップロードした属性の表示にわかりやすい名前を新しく作成することもできます。
 
    CRM アカウントオブジェクトの属性の同期を選択した場合は、新しい表示名を選択することを強くお勧めします。 [!DNL Marketo Measure] は、これらの属性の API レベルの名前のみを入力します。これらの名前は、通常、レポートでわかりやすい名前ではありません。
 
-1. 最後の手順では、属性を使用するExperience Cloudアプリケーションの属性の購読を設定します。  次のサブスクリプションを設定できます： [!DNL Adobe Analytics] または [!DNL Adobe Target].  その方法の詳細 [ここにあります](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html).
+1. 最後の手順では、属性を使用するExperience Cloudアプリケーションの属性の購読を設定します。 次のサブスクリプションを設定できます： [!DNL Adobe Analytics] または [!DNL Adobe Target].  その方法の詳細 [ここにあります](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html).
 
 ## 属性の説明 {#attribute-descriptions}
 
 新しい B2B 顧客属性接続を作成する場合、 [!DNL Marketo Measure] は、B2B 顧客属性の標準セットを自動的に作成します。 これらの属性については、次の表で説明します。
 
-以下に示すものの他に、CRM のアカウントオブジェクトに添付する属性もアップロードできます。 複数のアカウントが特定のユーザーに結び付けられている場合、 [!DNL Marketo Measure] は、一致するすべてのアカウント属性値をセミコロンで区切ったリストに入力します。
+以下に示すものの他に、CRM のアカウントオブジェクトに添付する属性もアップロードできます。 複数のアカウントが特定のユーザーに結び付けられている場合、 [!DNL Marketo Measure] 一致するすべてのアカウント属性値をセミコロンで区切ったリストで入力します。
 
 <table> 
  <colgroup> 
@@ -58,7 +58,7 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
   </tr> 
   <tr> 
    <td>Account.Name</td> 
-   <td>特定の Web 訪問者に関連付けられたアカウント名。 複数のアカウントが特定のユーザーに結び付けられている場合、 [!DNL Marketo Measure] は、一致するすべてのアカウント名をセミコロンで区切ったリストに入力します。<br/>
+   <td>特定の Web 訪問者に関連付けられたアカウント名。 複数のアカウントが特定のユーザーに結び付けられている場合、 [!DNL Marketo Measure] は、一致するすべてのアカウント名をセミコロンで区切ったリストで入力します。<br/>
    <strong>注意：</strong> account.name は、アカウントオブジェクトの name 属性の Salesforce-API レベルの名前です。 統合設定のスキーマ検証手順（手順 4）で、この属性に対して適切な表示名（例：「会社」）を選択できます。</td>
   </tr>
   <tr> 
@@ -79,13 +79,13 @@ B2B 顧客属性の統合により、 [!DNL Marketo Measure] そしてAdobe Anal
 
 **属性制限に関する注意**
 
-この統合で表示される属性は、 [!DNL Adobe Analytics] および [!DNL Adobe Target]. 属性購読で表示される属性のみ ( [統合の設定](#configuring-the-integration)) は、購読されているアプリケーションの制限としてカウントされます。
+この統合で表示される属性は、引き続き [!DNL Adobe Analytics] および [!DNL Adobe Target]. 属性購読で表示される属性のみ ( [統合の設定](#configuring-the-integration)) は、購読されているアプリケーションの制限としてカウントされます。
 
 ## よくある質問 {#faqs}
 
 **この統合を使用して共有したい属性のセットを変更する方法を教えてください。**
 
-属性を共有するために [!DNL Marketo Measure] をAdobe IMS組織に追加します（この統合経由）。 [!DNL Adobe Analytics]の場合、コアサービスコンソールで設定した属性サブスクリプションで表示する必要があります。 したがって、属性がに表示されないように属性を削除する場合は、 [!DNL Adobe Analytics]を使用する場合、属性購読を削除するだけでこれを実現できます。
+が共有する属性の場合 [!DNL Marketo Measure] をAdobe IMS組織に追加します（この統合経由）。 [!DNL Adobe Analytics]の場合、コアサービスコンソールで設定した属性購読で表示される必要があります。 したがって、属性がに表示されないように属性を削除する場合は、 [!DNL Adobe Analytics]を使用する場合、属性購読を削除するだけでこれを実現できます。
 
 B2B 顧客属性接続は、 [!DNL Marketo Measure] 接続設定から除外したい属性を使用して、再作成します。 同様に、統合に属性を追加するには、既存の接続を削除し、目的の属性を設定に追加して新しい接続を作成する必要があります。
 

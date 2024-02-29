@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: アトリビューションを使用した Doubleclick Campaign Manager ビューの設定 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: アトリビューションを使用した Doubleclick Campaign Manager ビューの設定 — [!DNL Marketo Measure]
 title: Doubleclick Campaign Manager ビュースルーアトリビューションの設定
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 4%
 
 を使用して、追跡を通じて、ビューからより詳細なインサイトを得るには [!DNL Doubleclick Campaign Manager]に値を指定する場合は、トラッキングピクセルを設定する必要があります。
 
-お願いします [ここをクリック](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) を参照してください。 [!DNL Marketo Measure] ビュースルーアトリビューション機能。
+詳しくは、 [!DNL Marketo Measure] ビュースルーアトリビューション機能： [Marketo Measureビュースルーアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] は、DCM 広告タグを介したサードパーティ呼び出しなので、ピギーバックタグと見なされます。 ピギーバックタグは画像タグでは機能せず、iframe タグまたは javascript タグでのみ機能します。 DCM サポートによると、これは最近は変更されておらず、常にそのようでした。 標準タグは 2017 年 10 月 3 日に廃止されましたが、の機能には影響しません。 [!DNL Marketo Measure] インプレッション数を追跡する場合。
 
-DCM で親と子の階層を利用する場合、インプレッションの追跡のためにすべてのレベルにタグを適用する必要があります。
+DCM で親と子の階層を使用する場合、インプレッション追跡のためにすべてのレベルにタグを適用する必要があります。
 
 ## イメージタグの追加方法 {#how-to-add-the-image-tag}
 
-タグを [!DNL Doubleclick] 広告主設定の下に表示され、インプレッションイベントタグを作成します。
+広告主設定の下で Doubleclick にタグを追加し、インプレッションイベントタグを作成します。
 
 1. 次のコードを 1 x 1 画像ピクセルとして追加します。
 

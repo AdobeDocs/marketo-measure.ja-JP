@@ -1,12 +1,12 @@
 ---
-description: 「[!DNL Marketo Measure] Ultimate の概要 - [!DNL Marketo Measure] - 製品ドキュメント」
+description: '[!DNL Marketo Measure] Ultimate の概要 — [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate の概要'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 >
 >[!DNL Marketo Measure Ultimate] 実稼動インスタンスは AEP 実稼動サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、現時点ではアプリケーションで変更できません。変更するには、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+サンドボックスへのマッピングの選択を保存すると、現時点ではアプリケーションで変更できません。変更するには、次の場所にアクセスします。 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。各データセットは、1 つのデータフローにのみ含めることができます。違反すると、実行時にデータフローが停止します。
 

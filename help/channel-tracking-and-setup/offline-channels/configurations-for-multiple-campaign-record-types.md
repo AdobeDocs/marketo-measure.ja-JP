@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874686
-description: 複数のキャンペーンレコードタイプの設定 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 複数のキャンペーンレコードタイプの設定 — [!DNL Marketo Measure]
 title: 複数のキャンペーンレコードタイプの設定
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 8%
+source-wordcount: '133'
+ht-degree: 9%
 
 ---
 

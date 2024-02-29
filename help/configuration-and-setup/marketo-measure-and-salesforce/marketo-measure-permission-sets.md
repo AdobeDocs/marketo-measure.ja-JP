@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874789
-description: '"[!DNL Marketo Measure] 権限セット — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] 権限セット"
+description: "[!DNL Marketo Measure] 権限セット — [!DNL Marketo Measure]"
+title: '"[!DNL Marketo Measure] 権限セット»'
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
@@ -35,14 +35,14 @@ Salesforce で権限セットにアクセスして割り当てるには、次の
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] 管理者</strong></span></td> 
-   <td><span>SFDC 管理者がレコードの作成、読み取り、書き込み、削除を行えるようにします。 [!DNL Marketo Measure] オブジェクト。 次の条件に基づくライセンス： [!DNL Marketo Measure] SFDC へのデータのプッシュでは、この権限セットが有効になっている必要があります。 さらに、このライセンスでは、以前にリードが変換された場合に、変換済みのリードを編集する機能を持つことをお勧めします。 [!DNL Marketo Measure] レコードにデータを適用する。 これにより、Salesforce との間のレポートの正確性が確保されます。 [!DNL Marketo Measure]. 詳細は<a href="http://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_leads_view_converted.htm">こちら</a>をご覧ください。</span></td> 
+   <td><span>SFDC 管理者がレコードの作成、読み取り、書き込み、削除を行えるようにします。 [!DNL Marketo Measure] オブジェクト。 次の条件に基づくライセンス： [!DNL Marketo Measure] SFDC へのデータのプッシュでは、この権限セットが有効になっている必要があります。 また、このライセンスでは、リードが変換される前に変換されたシナリオで、変換済みのリードを編集する機能を持つことをお勧めします。 [!DNL Marketo Measure] レコードにデータを適用する。 これにより、Salesforce との間のレポートの精度が確保されます。 [!DNL Marketo Measure]. 詳細は<a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">こちら</a>をご覧ください。</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] マーケティングユーザ</strong></span></td> 
    <td><span>マーケティングユーザーがレコードの読み取りと書き込みを行えるようにします。 [!DNL Marketo Measure] オブジェクト。 マーケティングチームのすべてのメンバーが、 [!DNL Marketo Measure] マーケティングユーザーの権限セットが有効になっています。 <br></span></td> 
   </tr> 
   <tr> 
-   <td><span><strong>[!DNL Marketo Measure] 標準ユーザ</strong></span></td> 
+   <td><span><strong>[!DNL Marketo Measure] 標準ユーザー</strong></span></td> 
    <td><span>ユーザーが次のレコードを読み取れるようにします。 [!DNL Marketo Measure] オブジェクト。</span></td> 
   </tr> 
  </tbody> 
@@ -52,4 +52,4 @@ Salesforce で権限セットにアクセスして割り当てるには、次の
 
 >[!NOTE]
 >
->また、接続したユーザーには、「マーケティングユーザー」が必要です [!DNL Salesforce] ユーザーレベルで有効になっているプロファイルを使用して、Campaign オブジェクトにアクセスできるようになります。 これを確認するには、次の場所をクリックします。 **[!UICONTROL 設定]** > **[!UICONTROL ユーザーを管理]** > **[!UICONTROL プロファイル]** > **[!UICONTROL マーケティングユーザー]** > **割り当てられたユーザー**.
+>また、接続したユーザーには、「マーケティングユーザー」が必要です [!DNL Salesforce] ユーザーレベルで有効になっているプロファイルを使用して、Campaign オブジェクトにアクセスできます。 これを確認するには、次の場所をクリックします。 **[!UICONTROL 設定]** > **[!UICONTROL ユーザーを管理]** > **[!UICONTROL プロファイル]** > **[!UICONTROL マーケティングユーザー]** > **割り当てられたユーザー**.

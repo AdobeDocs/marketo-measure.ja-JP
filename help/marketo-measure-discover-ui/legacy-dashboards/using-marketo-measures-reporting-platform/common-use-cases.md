@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874658
-description: 一般的な使用例 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 一般的な使用例 — [!DNL Marketo Measure]
 title: 一般的なユースケース
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ## 作成済みの取引先責任者 {#contacts-created}
 
-作成された連絡先の合計数をディメンション別にグループ化するには、Discover の概要または CMO ダッシュボードに移動し、タイルの上にあるフィルターを開き、指標フィルターを「連絡先」に調整して、日付タイプを作成日に移動します。 完了です。
+作成された連絡先の合計数をディメンション別にグループ化するには、Discover の概要または CMO ダッシュボードに移動し、タイルの上にあるフィルターを開き、指標フィルターを「連絡先」に調整して、日付タイプを作成日に移動します。 完了!
 
 合計コンタクト先数を取得する場合、または経時的な合計コンタクト先数を確認する場合は、成長ダッシュボードに移動し、「日付タイプ」を「作成日」に調整して、目的の期間を選択します。 取引先責任者と取引先責任者の推移は、このダッシュボード内の取引先責任者に焦点を当てたタイルです。
 

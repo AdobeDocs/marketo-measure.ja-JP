@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356395
-description: '"[!DNL Marketo Engage] 人物の統合 — [!DNL Marketo Measure]  — 製品ドキュメント»'
+description: "[!DNL Marketo Engage] 人物の統合 — [!DNL Marketo Measure]"
 title: '"[!DNL Marketo Engage] 人物統合»'
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '867'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ Marketoのユーザー統合により、 [!DNL Marketo Measure] :Marketoから�
 * 実稼動Marketoインスタンス
 * 実稼動 [!DNL Salesforce] または [!DNL Microsoft Dynamics] インスタンス
 * 任意の有料 [!DNL Marketo Measure] 購読
-* SOLR が有効になっています ( 次の場所にアクセスしてください： [Marketoサポート](https://nation.marketo.com/t5/Support/ct-p/Support) を有効にする )
+* SOLR が有効（に連絡してください） [Marketoサポート](https://nation.marketo.com/t5/Support/ct-p/Support) を有効にする )
 
 ## 仕組み {#how-it-works}
 
@@ -40,7 +40,7 @@ Marketoの担当者をダウンロードする機能が導入され、 [!DNL Mar
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-でリード（人）のレポートを作成する場合 [!DNL Marketo Measure Discover]をクリックすると、Marketoと CRM のリードの合計が表示されます。 Marketoのリードのみ、または CRM のリードのみを報告するには、ソースのセグメントカテゴリを作成し、「ソースシステム」フィールドを使用してMarketoと CRM のセグメントルールを作成してルールを定義します。 セグメントを作成すると、「ソース」カテゴリが [!DNL Marketo Measure Discover] ダッシュボード。
+でリード（人）のレポートを作成する場合 [!DNL Marketo Measure Discover]をクリックすると、Marketoと CRM のリードの合計が表示されます。 Marketoのリードのみ、または CRM のリードのみを報告するには、ソースのセグメントカテゴリを作成し、「ソースシステム」フィールドを使用してMarketoと CRM のセグメントルールを作成してルールを定義します。 セグメントを作成すると、 [!DNL Marketo Measure Discover] ダッシュボード。
 
 ![](assets/bizible-discover-1.png)
 

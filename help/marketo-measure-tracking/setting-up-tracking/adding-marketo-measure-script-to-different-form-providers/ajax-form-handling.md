@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874745
-description: AJAX Form Handling - [!DNL Marketo Measure]  — 製品ドキュメント
+description: AJAX Form Handling - [!DNL Marketo Measure]
 title: AJAX フォームハンドリング
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 ## シナリオ 1 - AJAX送信を含むHTMLフォーム {#scenario-html-form-with-an-ajax-submit}
 
-AJAX（またはその他のメカニズム）を含むフォームを使用して、変換日をクライアントからアドビのサーバーに送信する場合は、 [!DNL Marketo Measure] は、監視する標準パスを通じての顧客コンバージョンを認識していない可能性があります。 このシナリオでは、シンプルな API（以下で提供）を活用できます。
+AJAX（またはその他のメカニズム）を含むフォームを使用して、変換日をクライアントからアドビのサーバーに送信する場合は、 [!DNL Marketo Measure] は、監視する標準パスを通じての顧客コンバージョンを認識していない可能性があります。 このシナリオでは、シンプルな API（以下で提供）を使用できます。
 
 独自のフォーム送信を処理する場合は、 [!DNL Marketo Measure] を JavaScript から取得します。 [!DNL Marketo Measure] は、フォームからすべての関連情報を収集し、アドビのサーバーに非同期で投稿します。
 

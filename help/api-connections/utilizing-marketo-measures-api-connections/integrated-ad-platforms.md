@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874594
-description: 統合広告プラットフォーム — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 統合広告プラットフォーム — [!DNL Marketo Measure]
 title: 統合された広告プラットフォーム
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 2%
+source-wordcount: '1661'
+ht-degree: 0%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 2%
 
 ## 有効にする方法 [!DNL Marketo Measure] Adwords の自動タギング {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-有効にする前に [!DNL Marketo Measure] 自動タグ付け **Adwords アカウント内のアカウント、キャンペーン、広告グループのレベルでトラッキングテンプレートが有効になっていることを確認してください。 これは、 [!DNL Marketo Measure] 自動タグ付けが有効になっています。** トラッキングテンプレートを有効にすると、広告パフォーマンス履歴データが失われるのを防ぐことができます。 キーワード、サイトリンク、広告レベルでトラッキングテンプレートを有効にすると、広告がレビューと承認のプロセスを経て、広告のパフォーマンス履歴が再開する可能性があることに注意してください。 有効なトラッキングテンプレートがない場合は、 [!DNL Marketo Measure] が [!DNL Marketo Measure] トラッキングパラメーターを広告の「最終 URL」に直接追加すると、広告履歴データが失われる可能性があります。
+有効にする前に [!DNL Marketo Measure] 自動タグ付け **Adwords アカウント内のアカウント、キャンペーン、広告グループのレベルでトラッキングテンプレートが有効になっていることを確認します。 これは、 [!DNL Marketo Measure] 自動タグ付けが有効になっています。** トラッキングテンプレートを有効にすると、広告パフォーマンス履歴データが失われるのを防ぐことができます。 キーワード、サイトリンク、広告レベルでトラッキングテンプレートを有効にすると、広告がレビューと承認のプロセスを経て、広告のパフォーマンス履歴が再開する可能性があることに注意してください。 有効なトラッキングテンプレートがない場合は、 [!DNL Marketo Measure] が [!DNL Marketo Measure] トラッキングパラメーターを広告の「最終 URL」に直接追加すると、広告履歴データが失われる可能性があります。
 
-トラッキングテンプレートを作成したら、以下の手順に従ってを有効にしてください。 [!DNL Marketo Measure] 自動タグ付け。 注意： [!DNL Marketo Measure] また、アカウント内の一時停止した広告に対しても自動タグ付けがおこなわれます。
+トラッキングテンプレートを作成したら、以下の手順に従ってを有効にします。 [!DNL Marketo Measure] 自動タグ付け。 注意： [!DNL Marketo Measure] また、アカウント内の一時停止した広告に対しても自動タグ付けがおこなわれます。
 
-1. ログイン先： [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+1. ログイン先： [!DNL Marketo Measure] アカウント [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}.
 
 1. に移動します。 [!UICONTROL マイアカウント] > [!UICONTROL 設定] > [!UICONTROL 統合] > [!UICONTROL 接続].
 
@@ -147,7 +147,7 @@ The [!DNL Marketo Measure] ～との統合 [!DNL Facebook] では、広告情報
 
 なお、 [!DNL Facebook] いつでも～に対する説明をする [!DNL Marketo Measure] アプリとデータは失われません。パフォーマンス履歴が消去されるのは、自動タギングが有効な場合のみです。
 
-[この記事をご覧ください](https://www.facebook.com/business/help/393890194130036){target="_blank"} facebookからの書き出しの詳細 [!DNL Facebook] 広告レポート。
+詳しくは、 [この記事](https://www.facebook.com/business/help/393890194130036){target="_blank"} facebookからの書き出しの詳細 [!DNL Facebook] 広告レポート。
 
 ## LinkedInスポンサー付きコンテンツ {#linkedin-sponsored-content}
 

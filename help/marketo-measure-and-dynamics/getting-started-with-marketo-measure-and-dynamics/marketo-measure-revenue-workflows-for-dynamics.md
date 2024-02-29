@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356132
-description: '"[!DNL Marketo Measure] Dynamics の収益ワークフロー — [!DNL Marketo Measure]  — 製品ドキュメント»'
+description: "[!DNL Marketo Measure] Dynamics の収益ワークフロー — [!DNL Marketo Measure]"
 title: '"[!DNL Marketo Measure] Dynamics の収益ワークフロー»'
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Dynamics には、デフォルトで、「推定クローズ日」と「実際�
 1. カスタム終了日 API 名を次に指定するお客様： [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] を更新するには、 [!DNL Marketo Measure] を示すアプリ設定 [!DNL Marketo Measure] ダッシュボードのカスタム終了日フィールド。
 
-   上記の手順が完了したら、ワークフローを実行して、カスタム [!DNL Marketo Measure] 「商談額」フィールドと [!DNL Marketo Measure] 正しいデータを反映する履歴商談のカスタムクローズ日フィールド。 これにより、変更された「On」/「By」フィールドが変更される可能性があるので、チームに問題が発生したかどうかを確認してもらうことができます。
+   上記の手順が完了したら、ワークフローを実行して、カスタム [!DNL Marketo Measure] 「商談額」フィールドと [!DNL Marketo Measure] 正しいデータを反映する履歴商談のカスタムクローズ日フィールド。 これにより、変更された「On」/「By」フィールドが変更される可能性があるので、問題が発生したかどうかをチームに確認します。
 
 クローズした商談を更新するには…
 
-1. 次の期間以降にクローズした商談を分離 [!DNL Marketo Measure] 開始日は、ワークフローがアクティブになるまでです。 これは、ワークフローを通じて更新する必要がある履歴オポチュニティのグループです。
+1. 次の期間以降にクローズした商談を分離 [!DNL Marketo Measure] 開始日は、ワークフローがアクティブになるまでです。 これは、ワークフローを通じて更新する必要がある履歴商談のグループです。
 1. すべてのレコードを Excel にエクスポートします。
 1. Excel ファイルを開き、コンテンツを有効にします。
 1. 実際のクローズ日データのコピー先 [!DNL Marketo Measure] カスタムクローズ日。

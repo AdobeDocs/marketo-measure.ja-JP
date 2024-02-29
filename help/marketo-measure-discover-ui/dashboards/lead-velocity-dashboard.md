@@ -2,7 +2,7 @@
 description: リードベロシティダッシュボード — [!DNL Marketo Measure]  — 製品
 title: リード速度ダッシュボード
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Velocity ダッシュボードは、見込み客がセールスファネルを�
 
 時系列の折れ線グラフには、指定した期間における各販売ステージでのリード/連絡先の平均滞在時間が日単位で表示されます。
 
-* ドリルダウン機能とアップ機能を利用して、月、四半期、年でデータを分類します。
+* ドリルダウンおよび上への機能を使用して、月、四半期、年でデータを分類します。
 * 行の上にマウスポインターを置くと、詳細情報が表示されます。
 
 グラフの回答に関する質問：

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874564
-description: ' [!DNL Marketo Measure]  web セッションの定義の定義 - [!DNL Marketo Measure] - 製品ドキュメント'
+description: の定義 [!DNL Marketo Measure] ウェブセッション — [!DNL Marketo Measure]
 title: ' [!DNL Marketo Measure]  web セッションの定義'
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 100%
+source-wordcount: '570'
+ht-degree: 97%
 
 ---
 
@@ -66,4 +66,4 @@ _ただし_、Haley の最初の web セッションが web ダイレクトか�
 
 ## Google Analytics セッション {#google-analytics-sessions}
 
-[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。Google Analytics によるセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=ja](http://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"} を参照してください。
+[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。セッションの定義方法の詳細については、次のGoogle Analyticsを参照してください。 [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"}

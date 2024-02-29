@@ -3,7 +3,7 @@ description: ウェブトラフィックダッシュボード — [!DNL Marketo 
 title: Web トラフィックダッシュボード
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
@@ -102,7 +102,7 @@ Web トラフィックダッシュボードは、サイトの訪問者のイン�
 
 チャネル/サブチャネル/キャンペーン別にセグメント化された訪問回数または個別訪問者数を示す棒グラフ。
 
-* ドリルダウンおよびアップ機能を利用して、サブチャネルおよびキャンペーンでデータを分類します。
+* ドリルダウンおよび上への機能を使用して、サブチャネルとキャンペーンでデータを分類します。
 * 各バーにマウスポインターを置くと、訪問回数または個別訪問者数が表示されます。
 
 グラフの回答に関する質問：

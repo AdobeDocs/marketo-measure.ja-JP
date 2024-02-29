@@ -1,17 +1,17 @@
 ---
-description: エラー通知 - [!DNL Marketo Measure] - 製品ドキュメント
+description: エラー通知 — [!DNL Marketo Measure]
 title: エラー通知
 feature: Fundamentals
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
 # エラー通知 {#error-notifications}
 
-アプリ内通知またはメールで受信する可能性のあるエラーのリストを以下に示します。以下のいずれかを受信した場合は、それぞれのトラブルシューティング手順に従ってください。このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
+アプリ内通知またはメールで受信する可能性のあるエラーのリストを以下に示します。これらのいずれかを受け取った場合は、それぞれのトラブルシューティング手順に従ってください。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
 
 <table>
   <tbody>
@@ -54,7 +54,7 @@ ht-degree: 100%
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Adobe Analytics の書き出し中に発生したエラー：INVALID_ADOBE_ANALYTICS_CONFIGURATION：エラー：アップロードできません。アップロードする前に、データソーススキーマを確認してください。データソース ID：1234</td>
+      <td>Adobe Analytics の書き出し中に発生したエラー：INVALID_ADOBE_ANALYTICS_CONFIGURATION：エラー：アップロードできません。アップロードする前に、データソーススキーマを確認します。 データソース ID：1234</td>
       <td>Adobe Analytics 統合が正しく設定されていません。</td>
       <td>次のヘルプ記事を参照して、正しい設定を確認します。
         <ul>
@@ -139,7 +139,7 @@ ht-degree: 100%
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>CRM 読み込み中にエラーが発生しました：UNSUPPORTED_CRM_PACKAGE_VERSION：CRM パッケージを更新してください</td>
+      <td>CRM インポート中にエラーが発生しました： UNSUPPORTED_CRM_PACKAGE_VERSION : CRM パッケージを更新してください</td>
       <td>検出された現在のパッケージはサポートされなくなりました。</td>
       <td>パッケージを最新バージョンにアップグレードします。
         <ul>

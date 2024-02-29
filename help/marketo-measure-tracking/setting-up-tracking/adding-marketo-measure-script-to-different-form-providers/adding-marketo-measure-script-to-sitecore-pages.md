@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874747
-description: 追加中 [!DNL Marketo Measure] Sitecore ページへのスクリプトの追加 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 追加中 [!DNL Marketo Measure] Sitecore ページへのスクリプトの追加 — [!DNL Marketo Measure]
 title: Sitecore ページへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 3%
 
 ---
 
-# Sitecore ページへの[!DNL Marketo Measure]スクリプトの追加 {#adding-marketo-measure-script-to-sitecore-pages}
+# 追加中 [!DNL Marketo Measure] スクリプトを Sitecore ページに追加 {#adding-marketo-measure-script-to-sitecore-pages}
 
 コンテンツ管理システムでは、 [!DNL Marketo Measure] フォームの送信を認識するために使用されます。 以下の手順で、 [!DNL Marketo Measure] JavaScript を [!DNL Sitecore] ページ。
 

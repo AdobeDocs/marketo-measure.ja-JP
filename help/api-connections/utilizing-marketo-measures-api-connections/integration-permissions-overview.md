@@ -1,10 +1,10 @@
 ---
-description: 統合権限の概要 — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 統合権限の概要 — [!DNL Marketo Measure]
 title: 統合権限の概要
 feature: APIs, Integration
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1286'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ CRM の他のユーザーとの問題を回避するために、Dynamics 内に�
 <p>
 <b>セキュリティロール</b>
 <br>
-組織で Dynamics セキュリティロールを使用している場合は、接続しているユーザー、または専用のMarketo Measureユーザーが必要なエンティティに対して十分な読み取り/書き込み権限を持っていることを確認してください。
+組織で Dynamics セキュリティロールを使用している場合は、接続しているユーザーまたは専用のMarketo Measureユーザーが必要なエンティティに対して十分な読み取り/書き込み権限を持っていることを確認してください。
 <br>
 セキュリティロールは、[ 設定 ] &gt; [ セキュリティ ] &gt; [ セキュリティロール ] の順に選択します。
 <br>

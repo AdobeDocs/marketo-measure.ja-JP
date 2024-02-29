@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874688
-description: CRM キャンペーンコスト — [!DNL Marketo Measure]  — 製品ドキュメント
+description: CRM キャンペーンコスト — [!DNL Marketo Measure]
 title: CRM キャンペーンコスト
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 1%
+source-wordcount: '1253'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ Marketoプログラムをキャンペーンとして CRM に取り込む場合�
 
 **開始日、終了日、コストが入力されていますが、コストがまだに表示されないのはなぜですか？ [!DNL Marketo Measure]?**
 
-「Enable Buyer Touchpoint」の値が「Include All Campaign Members」または「Include &#39;Relponed&#39; Campaign Members」に設定されているか、またはこのキャンペーンを含むカスタムキャンペーン同期ルールを作成していることを確認してください。 これを確認してもキャンペーンが表示されない場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} したがって、お使いのキャンペーンが正しくインポートされていることを確認できます。
+「Enable Buyer Touchpoint」の値が「Include All Campaign Members」または「Include &#39;Relponed&#39; Campaign Members」に設定されているか、またはこのキャンペーンを含むカスタムキャンペーン同期ルールを作成していることを確認してください。 これを確認してもキャンペーンが表示されない場合は、次の場所にお問い合わせください： [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} したがって、お使いのキャンペーンが正しくインポートされていることを確認できます。
 
 **特定の月で重み付けをより重くできるように、キャンペーンの配分を変更する必要があります。 どうやって？**
 
@@ -89,9 +89,9 @@ Marketoプログラムをキャンペーンとして CRM に取り込む場合�
 
 アドビは CRM を信頼しているので、すべての変更は CRM でおこなう必要があります。 キャンペーンをインポートした後、 [!DNL Marketo Measure]に設定されている場合、Campaign の値は [!DNL Marketo Measure] または CSV ファイル内に保存されます。
 
-**どのシナリオで、キャンペーンがマーケティング費用テーブルに表示され、今後は表示されなくなりますか？**
+**どのシナリオで、キャンペーンがマーケティング費用テーブルに表示され、表示されなくなりますか？**
 
-引き続き、3 つの主要フィールドには、「開始日」、「終了日」、「コスト」の値が設定されている必要があります。 デフォルトの動作では、0 ドルを超える値のキャンペーンのみがインポートされます。 明示的な$0 が存在し、空白のままのキャンペーンはインポートしないが、Salesforce API は値に関係なく、両方を$0 としてインポートするのが理想的です。 また、「Enable Buyer Touchpoint」の値が「Include All」または「Include &#39;Responded&#39;」から「Exclude All」に変わった場合は、キャンペーンとコストがマーケティング費用テーブルから削除されます。
+引き続き、3 つの主要フィールドには、「開始日」、「終了日」、「コスト」の値が設定されている必要があります。 デフォルトの動作では、0 ドルを超える値のキャンペーンのみがインポートされます。 明示的な$0 が存在し、空白のままのキャンペーンはインポートしないが、Salesforce API は値に関係なく、両方を$0 としてインポートするのが理想です。 また、「Enable Buyer Touchpoint」の値が「Include All」または「Include &#39;Responded&#39;」から「Exclude All」に変わった場合は、キャンペーンとコストがマーケティング費用テーブルから削除されます。
 
 **行が既に CRM からダウンロードされ、同じキャンペーン ID を持つ CSV で別の行を入力した場合、どのようなコストが優先されますか？**
 
@@ -99,4 +99,4 @@ Marketoプログラムをキャンペーンとして CRM に取り込む場合�
 
 **CRM で設定したデジタルキャンペーンのコストを引き出す方法を教えてください。**
 
-これは、 [!DNL Marketo Measure] javascript は、既にサイトの web アクティビティを追跡しています。web フォームや他のサイトアクティビティからキャンペーンメンバーを追跡するキャンペーンは同期しないことをお勧めします。これは、タッチが二重にカウントされるからです。 そのため、まだ統合されていない場合 (Twitter、Adroll) は、マーケティング費用の CSV アップロードオプションを使用して、これらのオンライン/デジタルコストを追跡し続けることができます。
+これは、 [!DNL Marketo Measure] javascript は、既にサイトの web アクティビティを追跡しています。web フォームや他のサイトアクティビティからキャンペーンメンバーを追跡するキャンペーンは同期しないことをお勧めします。これは、タッチが二重にカウントされるからです。 そのため、まだ統合されていない場合 (Twitter、Adroll など ) は、マーケティング費用の CSV アップロードオプションを使用して、これらのオンライン/デジタルコストを追跡し続ける必要が生じる場合があります。

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874578
-description: キャンペーンとキャンペーンメンバー — [!DNL Marketo Measure]  — 製品ドキュメント
+description: キャンペーンとキャンペーンメンバー — [!DNL Marketo Measure]
 title: キャンペーンとキャンペーンメンバー
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 1%
+source-wordcount: '1164'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ The [!DNL Marketo Measure] [!DNL Salesforce] パッケージには、Campaign �
 * 「応答済み」キャンペーンメンバーのみを含める — キャンペーンメンバーステータスが「応答済み」のリードまたは連絡先のみが、そのキャンペーンに関連するタッチポイントを受け取ります。
 * すべてのキャンペーンメンバーを除外 — リードまたは連絡先に、そのキャンペーンに関連付けられたタッチポイントが送信されません。
 
-次の条件を満たすには、キャンペーンメンバーのレコードに E メールアドレスが関連付けられている必要があります。 [!DNL Marketo Measure] タッチポイントを作成します。 E メールアドレスがない場合、 [!DNL Marketo Measure] は、キャンペーンメンバーにタッチポイントを割り当てません。
+なお、次の条件を満たすには、キャンペーンメンバーのレコードに E メールアドレスが関連付けられている必要があります。 [!DNL Marketo Measure] タッチポイントを作成します。 E メールアドレスがない場合、 [!DNL Marketo Measure] は、キャンペーンメンバーにタッチポイントを割り当てません。
 
 ## キャンペーンの同期日 {#campaign-sync-dates}
 
@@ -47,7 +47,7 @@ The [!DNL Marketo Measure] [!DNL Salesforce] パッケージには、Campaign �
 
 ## タッチポイント終了日の使用例 {#use-case-for-touchpoint-end-date}
 
-を使用する前に [!DNL Marketo Measure]では、リードのデジタルインタラクション（IE フォーム送信）を追跡するマーケティングオートメーションプラットフォームを使用し、これらのリードを [!DNL Saleforce] キャンペーンでは、「タッチポイントの終了日」フィールドを利用できます。 タッチポイント終了日を開始日として設定しているのは、 [!DNL Marketo Measure] 「購入者のタッチポイント」を有効にすると、これらの各リードのデジタルインタラクションがタッチポイントとして作成されます。 タッチポイントの終了日を開始日に設定する理由は、 [!DNL Marketo Measure] は、今後、javascript を使用してこれらのデジタルインタラクションを追跡するからです。
+を使用する前に [!DNL Marketo Measure]では、リードのデジタルインタラクション（IE フォーム送信）を追跡するマーケティングオートメーションプラットフォームを使用し、これらのリードを [!DNL Saleforce] キャンペーンでは、「タッチポイントの終了日」フィールドを使用できます。 タッチポイント終了日を開始日として設定しているのは、 [!DNL Marketo Measure] 「購入者のタッチポイント」を有効にすると、これらの各リードのデジタルインタラクションがタッチポイントとして作成されます。 タッチポイントの終了日を開始日に設定する理由は次のとおりです。 [!DNL Marketo Measure] は、今後、javascript を使用してこれらのデジタルインタラクションを追跡するからです。
 
 ![](assets/3.png)
 

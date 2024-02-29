@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874608
-description: '"[!DNL Marketo Measure] パラメーター — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] パラメーター"
+description: "[!DNL Marketo Measure] パラメーター — [!DNL Marketo Measure]"
+title: '"[!DNL Marketo Measure] パラメーター»'
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 5%
+source-wordcount: '230'
+ht-degree: 0%
 
 ---
 
@@ -42,10 +42,10 @@ UTM の使用からより深い洞察を得るには、 [!DNL Marketo Measure] �
 
 >[!TIP]
 >
->一致タイプの詳細は、次のとおりです。 [関連する AdWords の記事を以下に示します。](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"}.
+>一致タイプの詳細は、次のとおりです。 [関連する AdWords の記事を以下に示します。](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
 * `_bn={network}`
-   * 広告ネットワークタイプを表します — [表示または検索](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"}.
+   * 広告ネットワークタイプを表します — [表示または検索](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
    * これは、UTM Source パラメーターに似ています。
 
 * `_bg={adgroupID}`

@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874696
-description: 推奨 [!DNL Salesforce] 権限： [!DNL Marketo Measure] 接続ユーザ — [!DNL Marketo Measure]  — 製品ドキュメント
+description: 推奨 [!DNL Salesforce] 権限： [!DNL Marketo Measure] 接続ユーザ — [!DNL Marketo Measure]
 title: ' [!DNL Marketo Measure] 接続ユーザーに推奨される [!DNL Salesforce] 権限'
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 28%
+source-wordcount: '430'
+ht-degree: 14%
 
 ---
 
-# [!DNL Marketo Measure]接続ユーザーに推奨される[!DNL Salesforce]権限 {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
+# 推奨 [!DNL Salesforce] 権限： [!DNL Marketo Measure] 接続ユーザ {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
 [!DNL Marketo Measure] は、接続された [!DNL Salesforce] ユーザーを通じて [!DNL Marketo Measure] アプリ内でデータを送受信します。
 
-タッチポイントデータを [!DNL Salesforce] インスタンス、接続したユーザーは、 [!DNL Marketo Measure] カスタムオブジェクト（例：購入者タッチポイントおよび購入者属性タッチポイント）および標準 [!DNL Salesforce] リードや連絡先などのオブジェクト ( [[!DNL Marketo Measure] Salesforce 内](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).
+タッチポイントデータを [!DNL Salesforce] インスタンス、接続したユーザーは、 [!DNL Marketo Measure] カスタムオブジェクト（購入者のタッチポイントおよび購入者のアトリビューションのタッチポイント）および標準 [!DNL Salesforce] リードや連絡先などのオブジェクト。 詳しくは、 [[!DNL Marketo Measure] Salesforce 内](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).
 
 [!DNL Salesforce] 管理者ユーザーライセンスは、通常はデフォルトで必要なデータ権限を持っているので、接続ユーザーとして使用できます。 ただし、チームは、統合ユーザーまたは専用の [!DNL Salesforce] の影響を追跡するためのユーザーライセンス [!DNL Marketo Measure] をインスタンスに追加します。
 
@@ -27,11 +27,11 @@ ht-degree: 28%
 
 * 変換済みリードの権限セットの表示と編集
 
-これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。この権限セットが有効でない場合、大幅なデータトラッキングギャップが生じる可能性があります。詳しくは、 [[!DNL Salesforce Trailblazer] コミュニティ](https://help.salesforce.com/articleView?id=leads_view_edit_converted.htm&amp;type=5).
+これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。この権限セットが有効になっていない場合、データトラッキングに大きなギャップが生じる可能性があります。 詳しくは、 [[!DNL Salesforce Trailblazer] コミュニティ](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5).
 
 * [!DNL Salesforce] マーケティングユーザーチェックボックス
 
-「[!UICONTROL マーケティングユーザー]」チェックボックスを使用すると、ユーザーは、キャンペーンを作成したり、キャンペーンインポートウィザードを使用したりできます。このオプションが選択されていない場合、そのユーザーができるのは、キャンペーンおよび高度なキャンペーン設定の表示、単一のリードまたは連絡先のキャンペーン履歴の編集およびキャンペーンレポートの実行のみです。[!DNL Marketo Measure] には、キャンペーンオブジェクトに対する読み取りおよび書き込み権限が必要です。
+「[!UICONTROL マーケティングユーザー]」チェックボックスを使用すると、ユーザーは、キャンペーンを作成したり、キャンペーンインポートウィザードを使用したりできます。このオプションを選択しない場合、ユーザーはキャンペーンと高度なキャンペーン設定の表示、1 つのリードまたは連絡先に関するキャンペーン履歴の編集、キャンペーンレポートの実行のみを行うことができます。 [!DNL Marketo Measure] は、campaign オブジェクトに対して読み書きを行う機能が必要です。
 
 **その他のトラブルシューティング**
 

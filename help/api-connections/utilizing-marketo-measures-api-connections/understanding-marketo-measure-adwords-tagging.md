@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874678
-description: について [!DNL Marketo Measure] AdWords タグ付け — [!DNL Marketo Measure]  — 製品ドキュメント
+description: について [!DNL Marketo Measure] AdWords タグ付け — [!DNL Marketo Measure]
 title: ' [!DNL Marketo Measure] AdWords のタグ付けについて'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 3%
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
-# [!DNL Marketo Measure]AdWords のタグ付けについて {#understanding-marketo-measure-adwords-tagging}
+# について [!DNL Marketo Measure] AdWords タグ付け {#understanding-marketo-measure-adwords-tagging}
 
 非常に詳細なレベルで広告を追跡するには、広告のリンク先 URL を一意にする必要があります。 これを達成するには、 [!DNL Marketo Measure] 自動タグ付けにより、トラッキングパラメーターが [!DNL AdWords] 広告。 次の例を見てみましょう。
 
@@ -41,11 +41,11 @@ ht-degree: 3%
 
 ## トラッキングテンプレート {#tracking-templates}
 
-の説明に従って、 [!DNL Google AdWords]の場合、トラッキングテンプレートはランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックを把握するために使用されます。 [ここをクリック](https://support.google.com/adwords/answer/7197008?hl=ja){target="_blank"} Googleからの詳細情報。
+の説明に従って、 [!DNL Google AdWords]の場合、トラッキングテンプレートはランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックを把握するために使用されます。 [ここをクリック](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} Googleからの詳細情報。
 
 [!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベル、広告グループレベルトラッキングテンプレートの使用をお勧めします。広告履歴が中断または削除されるリスクを伴わずに、すべての広告のパラメーターの追加と減算が可能です。
 
-トラッキングテンプレートは 2 つあります [!DNL Marketo Measure] では、を使用することをお勧めします。 適切なバージョンを判断するには、次の点に注意してください。
+トラッキングテンプレートは 2 つあります [!DNL Marketo Measure] では、を使用することをお勧めします。 適切なバージョンを判断するには、次の手順に従います。
 
 * すべての広告の URL に「?」が含まれている場合 その際に、次の URL を使用します。
 
@@ -103,7 +103,7 @@ A: userinfo.email
 
 A: 6 時間
 
-**Q：広告データのインポートにはどのくらいの時間がかかりますか？**
+**Q：広告データのインポートにはどのくらい時間がかかりますか？**
 
 A: 4 時間
 

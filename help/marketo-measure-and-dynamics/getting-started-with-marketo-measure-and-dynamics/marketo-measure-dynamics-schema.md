@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874523
-description: '"[!DNL Marketo Measure] Dynamics スキーマ — [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Marketo Measure] Dynamics スキーマ"
+description: "[!DNL Marketo Measure] Dynamics スキーマ — [!DNL Marketo Measure]"
+title: '"[!DNL Marketo Measure] Dynamics スキーマ»'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 21%
+source-wordcount: '1076'
+ht-degree: 67%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」 （アドビのドキュメント内）。ただし、CRM には「Bizible」が表示されます。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 以下に、を使い始めるために必要な Dynamics スキーマを示します。 [!DNL Marketo Measure]. 必要な読み取り/書き込みアクセス権と共に、すべてのエンティティとフィールドが表示されます。
 
@@ -27,13 +27,13 @@ ht-degree: 21%
 
 この図は、Dynamics Stock エンティティと購入者タッチポイントの関係の概要を示しています。
 
-## 購入者タッチポイント {#buyer-touchpoint}
+## Buyer Touchpoint {#buyer-touchpoint}
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -304,7 +304,7 @@ ht-degree: 21%
  </tbody> 
 </table>
 
-## 購入者の属性タッチポイント {#buyer-attribution-touchpoint}
+## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
 購入者属性タッチポイントは、 [!DNL Marketo Measure] Opportunity に対するマーケティングの影響をカプセル化するカスタムエンティティ。
 
@@ -318,7 +318,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -721,7 +721,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -806,7 +806,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -873,7 +873,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -920,7 +920,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1005,7 +1005,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1054,7 +1054,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1097,7 +1097,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1182,7 +1182,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1255,7 +1255,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1352,7 +1352,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1401,7 +1401,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
@@ -1444,7 +1444,7 @@ ht-degree: 21%
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
-   <th><p>標準/カスタム</p></th> 
+   <th><p>標準／カスタム</p></th> 
    <th><p>読み取り</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 

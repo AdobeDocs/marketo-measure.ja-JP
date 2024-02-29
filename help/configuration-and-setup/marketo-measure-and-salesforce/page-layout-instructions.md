@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874799
-description: ページレイアウトの手順 - [!DNL Marketo Measure] - 製品ドキュメント
+description: ページレイアウト手順 — [!DNL Marketo Measure]
 title: ページレイアウトの手順
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+workflow-type: tm+mt
+source-wordcount: '832'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->アドビのドキュメントに「[!DNL Marketo Measure]」を指定する手順が記載されていても、CRM には「Bizible」と記載されている場合があります。アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 簡単に [!DNL Marketo Measure] データを確認するには、[!UICONTROL アカウント]、[!UICONTROL 取引先責任者]、[!UICONTROL リード]、[!UICONTROL 商談]、[!UICONTROL キャンペーン]の各オブジェクトのページレイアウトを更新することをお勧めします。手順は、以下のオブジェクトページレイアウトごとに分かれています。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## キャンペーンオブジェクト {#campaign-object}
 
-サンドボックスのみの SFDC キャンペーンに [!DNL Marketo Measure] フィールドを追加することをお勧めします。このフィールドを使用して、タッチポイントの生成をテストできます。実稼動環境では、[!DNL Marketo Measure] の「Touchpoint 日の一括更新」ボタンのみを追加することをお勧めします。キャンペーン同期ルールを作成できるので、[!DNL Marketo Measure] フィールドを実稼動環境に追加することはお勧めしません。
+次の項目を追加することをお勧めします。 [!DNL Marketo Measure] フィールドを SFDC Campaign に追加し、サンドボックスにのみ使用できます。 このフィールドを使用して、タッチポイントの生成をテストできます。実稼動環境では、 [!DNL Marketo Measure] タッチポイント日付の一括更新ボタン。 この [!DNL Marketo Measure] フィールドを実稼動環境に追加しました。これは、キャンペーン同期ルールを作成できるためです。
 
 1. 「ビルド」オプションで「**[!UICONTROL キャンペーン]**」を選択します。
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
    ![](assets/1-1.jpg)
 
-1. 更新するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。
+1. クリック **[!UICONTROL 編集]** をクリックします。
 
    ![](assets/2-1.jpg)
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >複数のキャンペーンレコードタイプを使用する場合、「**[!UICONTROL Buyer Touchpoints を有効化]**」フィールドを更新する必要があります。手順については、[こちらの記事](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)を参照してください。
+   >複数の Campaign レコードタイプを使用する場合は、 **[!UICONTROL 購入者タッチポイントの有効化]** フィールドに入力します。 参照： [この記事](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) 」を参照してください。
 
 ## リード {#leads}
 
@@ -57,11 +57,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
-1. 変更するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。複数のページレイアウトに「Buyer Touchpoints」セクションを含めることができます。
+1. クリック **[!UICONTROL 編集]** をクリックします。 複数のページレイアウトに「Buyer Touchpoints」セクションを含めることができます。
 
-1. クイック検索メニュー内の左側にある VisualForce ページオプションをクリックします。
+1. クイック検索メニュー内の左側にある [VisualForce] ページオプションをクリックします。
 
-1. 新規セクションを作成し、「Buyer Touchpoints」という名前を付けます。
+1. セクションを作成し、「Buyer Touchpoints」という名前を付けます。
 
    >[!NOTE]
    >
@@ -71,25 +71,25 @@ ht-degree: 100%
 
    ![](assets/5-1.png)
 
-1. [!DNL VisualForce] ページ内のレンチをクリックして、高さを 100 に変更し、スクロールバーを有効にします。
+1. レンチを [!DNL VisualForce] 「高さ」を「100」に変更し、スクロールバーを有効にします。
 
-1. メニューに戻り、「[!UICONTROL キャンバスアプリ]」セクションを選択し、作成した「Touchpoints [!DNL VisualForce]」セクションの下に「Marketo Measure インサイト」という新規セクションを作成します。
+1. メニューに戻り、 [!UICONTROL キャンバスアプリ] を参照し、タッチポイントの下に「Marketo Measure Insights」というセクションを作成します。 [!DNL VisualForce] セクションを作成しました。
 
    >[!NOTE]
    >
    >これらのセクションごとに「1 列」形式を選択します。
 
-1. 新規作成したセクションに [!DNL Marketo Measure Insights] キャンバスアプリをドラッグします。「**保存**」をクリックします。Salesforce が即座に認識しないので、キャンバスアプリにドロップする前にまずページレイアウトを保存する必要が生じる場合があります。したがって、新しいセクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。これは、すべてのオブジェクトに当てはまります。
+1. 新規作成したセクションに [!DNL Marketo Measure Insights] キャンバスアプリをドラッグします。「**保存**」をクリックします。Salesforce が即座に認識しないので、キャンバスアプリにドロップする前にまずページレイアウトを保存する必要が生じる場合があります。そのため、セクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。 これは、すべてのオブジェクトに当てはまります。
 
    >[!NOTE]
    >
-   >[!DNL Marketo Measure Insights] キャンバスアプリが正しく機能するには、[権限を適切に設定する必要があります](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md)。
+   >の [!DNL Marketo Measure Insights] キャンバスアプリが正しく機能しない問題を修正しました。 [権限は適切に設定する必要があります](/help/configuration-and-setup/marketo-measure-insights-canvas-app/marketo-measure-insights-configuration.md).
 
    >[!TIP]
    >
    >ほとんどのユーザーは（FT）または（LC）で終わるフィールドを使用しませんが、その理由は、それらが、[!DNL Marketo Measure] タッチポイントがオブジェクトとして存在するようになる前からのレガシーフィールだからです。
 
-[!DNL Marketo Measure] ABM 機能を利用している場合、[ページレイアウトの追加手順については、こちらをクリックしてください](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)。
+を使用している場合、 [!DNL Marketo Measure] ABM 機能 [追加のページレイアウト手順については、ここをクリックしてください。](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## 取引先責任者 {#contacts}
 
@@ -181,7 +181,7 @@ ht-degree: 100%
    * Touchpoint のタイプ
    * Touchpoint の位置
    * アトリビューション％ W-字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
-   * 売上高 W 字型（_またはフルパスやカスタムなどの最も堅牢なアトリビューションモデル_）
+   * 収益 W 字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
    * Touchpoint の日付
 
 1. 並べ替え基準：タッチポイントの日付／昇順。
@@ -190,4 +190,4 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-[!DNL Marketo Measure] ABM 機能を活用している場合、[他のページレイアウトの手順について詳しくは、こちらをクリックしてください](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)。
+を使用している場合、 [!DNL Marketo Measure] ABM 機能、 [追加のページレイアウト手順](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

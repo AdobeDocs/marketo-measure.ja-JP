@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37355835
-description: タッチポイントフィールド — [!DNL Marketo Measure]  — 製品ドキュメント
+description: タッチポイントフィールド — [!DNL Marketo Measure]
 title: Touchpoint フィールド
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -213,7 +213,7 @@ URL からの値が解析され、タッチポイントに存在するように�
 
 **単一のランディングページから複数のパラメーターを抽出する際に使用する式は何ですか？**
 
-「例を抽出」#4と同様に、複数のフィールドを作成して、各パラメーターを抽出する必要があります。 そのため、5 つの異なる値がある場合、それぞれを抽出する 5 つのタッチポイントフィールドを作成します。
+「抽出の例」#4と同様に、複数のフィールドを作成して、各パラメーターを抽出する必要があります。 そのため、5 つの異なる値がある場合、それぞれを抽出する 5 つのタッチポイントフィールドを作成します。
 
 **新しいフィールドがに表示されないのはなぜですか？ [!DNL Marketo Measure] スキーマ？**
 

@@ -1,11 +1,11 @@
 ---
-description: 「[!DNL Marketo Measure] Ultimate 実装ガイド - [!DNL Marketo Measure] - 製品ドキュメント」
+description: '[!DNL Marketo Measure] 究極の実装ガイド — [!DNL Marketo Measure]'
 title: 「[!DNL Marketo Measure] Ultimate 実装ガイド」
 feature: Integration, Tracking, Attribution
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 98%
+source-wordcount: '1013'
+ht-degree: 96%
 
 ---
 
@@ -90,7 +90,7 @@ _**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移�
 
    >[!CAUTION]
    >
-   >* データフローは編集できますが、マッピングを変更するとデータはバックフィルされません。
+   >* データフローは編集できますが、マッピングが変更された場合はデータはバックフィルされません。
    >* 必須フィールドが NULL の場合、フロー全体が却下されます。
 
    >[!NOTE]

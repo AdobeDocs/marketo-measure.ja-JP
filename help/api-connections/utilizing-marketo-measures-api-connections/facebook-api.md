@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874680
-description: '"[!DNL Facebook] API - [!DNL Marketo Measure]  — 製品ドキュメント»'
-title: "[!DNL Facebook] API"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
+title: '"[!DNL Facebook] API»'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 5%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ AdWords &amp;と類似 [!DNL Bing Ads] 統合、 [!DNL Facebook] 統合には、
 
 設定に関しては、 [!DNL Marketo Measure] アプリを使用します。
 
-1. に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} をクリックし、ログインします。
+1. に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} をクリックし、ログインします。
 1. 「マイアカウント」で、「 **[!UICONTROL 設定]**.
 1. 「統合」で、「 **[!UICONTROL 接続]**.
 1. 選択 **[!UICONTROL 新しい広告接続の設定]** ポップアップが表示されます。 選択 **[!UICONTROL Facebook]** facebookの資格情報を使用してログインします。
@@ -71,7 +71,7 @@ AdWords &amp;と類似 [!DNL Bing Ads] 統合、 [!DNL Facebook] 統合には、
    <td><p>[[!DNL Facebook] キャンペーン ID]</p></td> 
   </tr> 
   <tr> 
-   <td><p>広告キャンペーンの名前 </p></td> 
+   <td><p>広告キャンペーン名 </p></td> 
    <td><p>[[!DNL Facebook] キャンペーン名 ]、または [utm_campaign]（指定されている場合）</p></td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ AdWords &amp;と類似 [!DNL Bing Ads] 統合、 [!DNL Facebook] 統合には、
   </tr> 
   <tr> 
    <td><p>Ad_Name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] 広告名]</p></td> 
+   <td><p>[[!DNL Facebook] 広告名 ]</p></td> 
   </tr> 
   <tr> 
    <td><p>Keyword_Unique_Id (Data Warehouse)</p></td> 
@@ -120,11 +120,11 @@ AdWords &amp;と類似 [!DNL Bing Ads] 統合、 [!DNL Facebook] 統合には、
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] アカウント #]</p></td> 
+   <td><p>[[!DNL Facebook] アカウント番号 ]</p></td> 
   </tr> 
   <tr> 
    <td><p>Account_Name (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] アカウント名]</p></td> 
+   <td><p>[[!DNL Facebook] アカウント名 ]</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -155,6 +155,6 @@ A:ads_management、email
 
 A: 1 時間
 
-**Q：広告データのインポートにはどのくらいの時間がかかりますか？**
+**Q：広告データのインポートにはどのくらい時間がかかりますか？**
 
 A: 4 時間

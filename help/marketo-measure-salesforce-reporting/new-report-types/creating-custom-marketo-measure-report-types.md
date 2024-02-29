@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874539
-description: カスタムの作成 [!DNL Marketo Measure] レポートタイプ — [!DNL Marketo Measure]  — 製品ドキュメント
+description: カスタムの作成 [!DNL Marketo Measure] レポートタイプ — [!DNL Marketo Measure]
 title: カスタム [!DNL Marketo Measure] レポートタイプの作成
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '372'
+ht-degree: 5%
 
 ---
 
-# カスタム[!DNL Marketo Measure]レポートタイプの作成 {#creating-custom-marketo-measure-report-types}
+# カスタムの作成 [!DNL Marketo Measure] レポートタイプ {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」を参照してください。ただし、「[!DNL Bizible]」と入力します。 アドビは現在、その更新をおこなっており、ブランディングの変更がまもなく CRM に反映される予定です。
+>この場合、[!DNL Marketo Measure]」と表示されるが、まだ「[!DNL Bizible]」と入力します。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
 カスタムの作成方法を学ぶ [!DNL Marketo Measure] [!DNL Salesforce] レポートタイプ。 作成を推奨するレポートタイプは、「購入者タッチポイント（カスタム）のリード」と「購入者タッチポイント（カスタム）」の 3 つです。 [!DNL Marketo Measure] 購入者タッチポイント（カスタム）を持つ顧客、購入者属性タッチポイント（カスタム）を持つ商談。
 
