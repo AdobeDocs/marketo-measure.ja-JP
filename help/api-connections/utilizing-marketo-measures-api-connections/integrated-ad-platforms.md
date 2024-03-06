@@ -4,7 +4,7 @@ description: 統合広告プラットフォーム — [!DNL Marketo Measure]
 title: 統合された広告プラットフォーム
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 0%
@@ -89,7 +89,7 @@ ht-degree: 0%
 
    >[!TIP]
    >
-   >トラッキングテンプレートが無効であるというエラーが表示される場合は、ブラウザーのキャッシュをクリアして、もう一度やり直してください。これにより、問題が解決することがよくあります。
+   >トラッキングテンプレートが無効であるというエラーが表示された場合は、ブラウザーのキャッシュをクリアして、もう一度やり直してください。これにより、問題が解決することがよくあります。
 
 ## の UTM タグを自動的に生成する方法 [!DNL Google AdWords] {#how-to-automatically-generate-utm-tags-for-google-adwords}
 
@@ -97,7 +97,7 @@ UTM タグは、最初は作成が難しいように見えますが、UTM パラ
 
 **[!DNL Google URL]ビルダー**
 
-Google URL Builder は、UTM タグを使用して正しく書式設定された URL を作成するための標準ツールです。 URL と各パラメーターの目的の値を入力し、「[!UICONTROL URL を生成]&quot;. タグ付けする URL が一握りしかない場合に使用するのに最適なツールです。 ツールにアクセス [ここ](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}.
+Google URL Builder は、UTM タグを使用して正しく書式設定された URL を作成するための標準ツールです。 各パラメーターの URL と目的の値を入力し、「[!UICONTROL URL を生成]&quot;. タグ付けする URL が一握りしかない場合に使用するのに最適なツールです。 ツールにアクセス [ここ](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}.
 
 **EpikOne で生成されたGoogleスプレッドシート**
 

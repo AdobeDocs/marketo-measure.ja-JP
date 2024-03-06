@@ -4,9 +4,9 @@ description: オフラインキャンペーンの同期 — [!DNL Marketo Measur
 title: オフラインキャンペーンの同期
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---

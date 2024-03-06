@@ -3,10 +3,10 @@ description: セグメント化のベストプラクティス — [!DNL Marketo 
 title: セグメンテーションのベストプラクティス
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '450'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 ## ベストプラクティス {#best-practice}
 
-初めてセグメント化を定義する場合でも、以前に確立されたセグメント化を単にレビューする場合でも、次のベストプラクティスに留意してください。
+初めてセグメントを定義する場合でも、以前に確立されたセグメント化を確認する場合でも、次のベストプラクティスに留意してください。
 
 * 簡素化します。
 * セグメント名を組織の命名法に合わせます。つまり、カテゴリ = フィルター名、セグメント = フィルター値です

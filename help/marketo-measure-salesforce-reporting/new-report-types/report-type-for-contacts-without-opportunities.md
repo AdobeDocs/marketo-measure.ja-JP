@@ -4,9 +4,9 @@ description: 商談のない連絡先のレポートタイプ — [!DNL Marketo 
 title: 商談を含まない連絡先のレポートタイプ
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '165'
 ht-degree: 17%
 
 ---
@@ -35,4 +35,4 @@ ht-degree: 17%
 
    ![](assets/4.jpg)
 
-1. クリック **[!UICONTROL 保存]** これで完了です。
+1. クリック **[!UICONTROL 保存]** お前は終わった！

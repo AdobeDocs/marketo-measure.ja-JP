@@ -3,22 +3,22 @@ description: Adobe Admin Console の設定 - Marketo Measure - 製品ドキュ�
 title: Adobe Admin Console の設定
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 39%
+source-wordcount: '372'
+ht-degree: 34%
 
 ---
 
 # Adobe Admin Console の設定 {#adobe-admin-console-setup}
 
-を使用する最初の手順 [!DNL Marketo Measure] は、プロビジョニングされたAdobe Admin Consoleを作成してログインするためのものです。 ログイン手順が記載された電子メールをまだ受け取っていない場合は、 [!DNL Marketo Measure] アカウント担当者。
+を使用する最初の手順 [!DNL Marketo Measure] は、プロビジョニングされたAdobe Admin Consoleを作成してログインするためのものです。 ログイン手順が記載された電子メールを受け取っていない場合は、 [!DNL Marketo Measure] アカウント担当者。
 
 ## Adobe Admin Console と ID プロバイダーの設定 {#set-up-your-adobe-admin-console-and-identity-provider}
 
 製品としてのAdobeスイート [!DNL Marketo Measure] は、 Adobe Admin Console for Identity Managementのすべての機能を使用します。 その他のリソースは、[こちらを参照](https://helpx.adobe.com/jp/enterprise/using/admin-console.html)してください。
 
-[Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html) で利用できるすべてのリソース、ベストプラクティスおよびオプションを確認することをお勧めします。
+使用可能なリソース、ベストプラクティスおよびオプションを確認することをお勧めします。 [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 Adobe Admin Console内でのIdentity Managementの設定に関するガイダンスと確認については、 [!DNL Marketo Measure] アカウント担当者。
 
@@ -55,6 +55,6 @@ Adobe Admin Consoleにアクセスすると、 [!DNL Marketo Measure] 「概要�
 
 **[!DNL Marketo Measure]** へのログイン
 
-製品プロファイルにユーザーを追加すると、そのユーザーは [!DNL Marketo Measure] インスタンスを選択 **Adobe IDを使用したログイン** オプション： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}.
+製品プロファイルにユーザーを追加すると、そのユーザーは [!DNL Marketo Measure] インスタンスを選択 **Adobe IDでログイン** オプション： [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}.
 
 ![](assets/adobe-admin-console-setup-3.png)

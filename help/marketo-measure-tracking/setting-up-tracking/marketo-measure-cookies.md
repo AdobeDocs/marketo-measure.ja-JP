@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Cookie - [!DNL Marketo Measure]"
 title: 「[!DNL Marketo Measure] クッキー」
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '393'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。その結果、アドビでは、サードパーティ Cookie に依存する Marketo Measure 機能、特に、Google／DoubleClick インプレッション cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションを廃止する予定です。Marketo Measure のその他の機能に影響はありません。また、ファーストパーティ cookie の使用にも影響はありません。Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。この日付より前に収集された関連データは、アドビのお客様が引き続き使用できます。
+>プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。その結果、Adobeでは、サードパーティ Cookie に依存するMarketo Measure関数、特にGoogle/DoubleClick インプレッション Cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションは廃止されます。 Marketo Measure のその他の機能に影響はありません。また、ファーストパーティ cookie の使用にも影響はありません。Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。この日より前に収集された関連データは、Adobeのお客様が引き続き利用できます。
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ ht-degree: 99%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>サードパーティ、ドメイン =.<a href="http://bizible.com/">bizible.com</a></td>
+    <td>サードパーティ、ドメイン =.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>複数のドメイン間でユーザを識別するユニバーサルユーザ ID です。</td>
     <td>1 年</td>
     <td>はい</td>
@@ -116,6 +116,6 @@ ht-degree: 99%
 </tbody>
 </table>
 
-JavaScript の設定中に Web Application Firewall（WAF）の警告がトリガーされた場合、ユーザーは、次の例に示すように、その WAF ルールを無効にするか、Cookie を許可リストに登録することができます。
+JavaScript の設定中に Web Application Firewall(WAF) 警告がトリガーされた場合、次の例に示すように、ユーザーは、その WAF ルールを無効にするか、Cookie をすることができま許可リストに加えるす。
 
 ![](assets/marketo-measure-cookies-1.png)

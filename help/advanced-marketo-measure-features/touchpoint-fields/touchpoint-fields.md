@@ -4,9 +4,9 @@ description: タッチポイントフィールド — [!DNL Marketo Measure]
 title: Touchpoint フィールド
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 機能の有効化 {#enabling-the-feature}
 
-次から： [!DNL Marketo Measure] 設定メニューで、タッチポイントフィールドページに移動します。 ここから、「 **はい** under **計算フィールドを有効にする**. 有効にすると、タッチポイントフィールドを自由に作成できます。
+次から： [!DNL Marketo Measure] 設定メニューで、タッチポイントフィールドページに移動します。 ここから、「 **はい** under **計算フィールドを有効にする**. この機能を有効にした後、タッチポイントフィールドを作成できます。
 
 ![](assets/one.png)
 
@@ -70,7 +70,7 @@ The [!UICONTROL 抽出] 演算子は、キャンペーンフィールド、リ�
    * **)** 抽出の終了を示します。
    * **\w** 0-9 を含む「単語」を抽出していることを示します
    * **+** は、文字に制限なくパラメーターの完全な値を抽出します
-   * 現在、バックスラッシュではなくフォワードスラッシュを使用していることに注意してください
+   * バックスラッシュではなくフォワードスラッシュを使用していることに注意してください
 
 ![](assets/three.png)
 
@@ -221,7 +221,7 @@ URL からの値が解析され、タッチポイントに存在するように�
 
 **抽出した式が有効で正しい値を取り込んでいることを検証するには、どうすればよいですか？**
 
-オンラインツール ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) を使用して、式を実行およびテストできます。 式は、有効な場合は緑、無効な場合は赤で表示されます。 また、 [!UICONTROL 説明] 右上のボックスが役に立ち、何を抽出しているかを示します。
+オンラインツール ([[!DNL https]://regex101.com/](https://regex101.com/){target="_blank"}) を使用して、式を実行およびテストできます。 式が有効な場合は緑、無効な場合は赤で表示されます。 また、 [!UICONTROL 説明] 右上のボックスが役に立ち、何を抽出しているかを示します。
 
 ![](assets/twelve.png)
 

@@ -4,9 +4,9 @@ description: Dynamics の在庫レポートとダッシュボード — [!DNL Ma
 title: Dynamics での在庫レポートとダッシュボード
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '911'
 ht-degree: 5%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 5%
 >
 >この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-The [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニーズを満たすために設計された、多数の在庫ダッシュボードとレポートが付属しています [!DNL Marketo Measure] Dynamics のデータ。 以下に、完全なリストと一般的な使用例を示します。
+The [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニーズを満たすように設計された、複数のストックダッシュボードとレポートが付属しています [!DNL Marketo Measure] Dynamics のデータ。 以下に、完全なリストと一般的な使用例を示します。
 
-## ダッシュボード（合計 9） {#dashboards-total}
+## ダッシュボード（合計 9 個） {#dashboards-total}
 
 <table> 
  <colgroup> 
@@ -157,7 +157,7 @@ The [!DNL Marketo Measure] Managed Solution には、表示時の基本的なニ
   </tr> 
   <tr> 
    <td>リード — AdWords 名別 (LC)</td> 
-   <td>各 AdWords キャンペーンから、リード作成タッチで生成されたリードの数を測定します。</td> 
+   <td>各 AdWords キャンペーンのリード作成タッチで生成されたリード数を測定します。</td> 
    <td>すべて</td> 
   </tr> 
   <tr> 

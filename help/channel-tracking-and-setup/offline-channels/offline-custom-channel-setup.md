@@ -4,9 +4,9 @@ description: オフラインカスタムチャネルの設定 — [!DNL Marketo 
 title: オフラインカスタムチャネル設定
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -77,9 +77,9 @@ SFDC キャンペーンのタイプが [ オフラインチャネル ] タブの
 
 >[!TIP]
 >
->決定したい _when_ a [!DNL Salesforce] キャンペーンのタイプが [!DNL Marketo Measure] チャネルマッピング？ 単ににに移動します。 **[!UICONTROL 設定]** > **[!UICONTROL キャンペーン]** > **[!UICONTROL フィールド]** > **[!UICONTROL タイプ]**. 選択リストに含まれる値と非アクティブな値を確認できます。 非アクティブなものは、「 」に選択可能なタイプとして表示されません。[!UICONTROL オフラインチャネル]」セクションに追加しました。 このプロセスには、数分から 48 時間までの時間がかかる場合があります。
+>決定したい _when_ a [!DNL Salesforce] キャンペーンのタイプが [!DNL Marketo Measure] チャネルマッピング？ に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL キャンペーン]** > **[!UICONTROL フィールド]** > **[!UICONTROL タイプ]**. 選択リストに含まれる値と非アクティブな値を確認できます。 非アクティブなものは、「 」に選択可能なタイプとして表示されません。[!UICONTROL オフラインチャネル]」セクションに追加しました。 このプロセスには、数分から 48 時間までの時間がかかる場合があります。
 
-クリック **[!UICONTROL 保存]** あなたが終わり [!DNL Marketo Measure] 変更内容をアップロードし、データを再処理します。
+クリック **[!UICONTROL 保存]** 完了して [!DNL Marketo Measure] 変更内容をアップロードし、データを再処理します。
 
 >[!MORELIKETHIS]
 >

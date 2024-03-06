@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Salesforce オブジェクト — [!DNL Mar
 title: 「[!DNL Marketo Measure] Salesforce オブジェクト」
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 89%
+source-wordcount: '938'
+ht-degree: 86%
 
 ---
 
@@ -65,7 +65,7 @@ A/B テストを [!DNL Optimizely] または VWO（Visual Web Optimizer）を使
 
 ![](assets/5.png)
 
-[!DNL Marketo Measure] A/B テストオブジェクトは、[!UICONTROL リード]、[!UICONTROL 取引先責任者]および[!UICONTROL 商談]ページに関連リストとして表示されます。このリストでは、Optimizely または VWO を通じて実行しているすべての実験とバリエーションを表示し、特定のリードと取引先責任者に関連する実験やバリエーションを確認できます。
+[!DNL Marketo Measure] A/B テストオブジェクトは、[!UICONTROL リード]、[!UICONTROL 取引先責任者]および[!UICONTROL 商談]ページに関連リストとして表示されます。リストは、Optimizely または VWO を通じて実行しているすべての実験とバリエーションを表示し、特定のリードと連絡先に関連する実験とバリエーションを確認できます。
 
 ## [!DNL Marketo Measure] イベント {#marketo-measure-events}
 

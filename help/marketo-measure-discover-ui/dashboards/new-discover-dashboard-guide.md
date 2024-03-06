@@ -3,10 +3,10 @@ description: 新しい Discover ダッシュボードガイド — [!DNL Marketo
 title: 新しい Discover ダッシュボードガイド
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 4%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 

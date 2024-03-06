@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] プログラムの統合 — [!DNL Marketo M
 title: '"[!DNL Marketo Engage] プログラム統合»'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1261'
 ht-degree: 1%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 1%
 
    ![](assets/nine.png)
 
-   「メンバー数」をクリックすると、プログラム内で適格なMarketo People ID のリストが表示されます。
+   「メンバー数」をクリックすると、プログラム内で有効なMarketo People ID のリストが表示されます。
 
    ![](assets/ten.png)
 

@@ -3,9 +3,9 @@ description: オフラインチャネルのベストプラクティス — [!DNL
 title: オフラインチャネルのベストプラクティス
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1056'
 ht-degree: 4%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 4%
 
 初めて設定すると、それに応じてオフラインチャネルの設定で、引き続きオフラインタッチポイントが作成されます。 ベストプラクティスとして、オフラインの設定は、少なくとも年に 2 回確認することをお勧めします。 これにより、明確で正確な購入者のタッチポイントデータが保証されます。
 
-また、キャンペーンの管理やプロセスに変更を加えた場合は、 [!DNL Marketo Measure] オフラインチャネルのマッピングや同期プロセス。
+また、キャンペーンの管理やプロセスに変更を加える場合は、 [!DNL Marketo Measure] オフラインチャネルのマッピングや同期プロセス。
 
 のオフラインチャネル設定を更新する際に、チームにトリガーを与える可能性のある変更。 [!DNL Marketo Measure] 次が含まれます。
 

@@ -4,7 +4,7 @@ description: カスタムアトリビューションモデルと設定 — [!DNL
 title: カスタムアトリビューションモデルと設定
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 1%
@@ -57,7 +57,7 @@ The [!DNL Marketo Measure] カスタムアトリビューションモデルを�
 
    次に移動： **[!UICONTROL 属性設定]** in [!DNL Marketo Measure] アプリ。カスタムステージは、アトリビューションテーブル内のここに表示されます。 アトリビューションテーブルには、 [!DNL Marketo Measure] アトリビューションモデルと、各モデルのアトリビューションの重み付けです。 最初の 5 つのモデルのアトリビューションの割合は固定され、変更できません。
 
-   右端の「**[!UICONTROL カスタム]**「」と入力すると、カスタムアトリビューションモデルの各ステージに対して、パーセンテージの重み付けを設定できます。 「カスタム」列の各ステージの値を入力するだけです。 次に、 **[!UICONTROL 保存して再処理]** 完了したら、
+   右端の「**[!UICONTROL カスタム]**「」と入力すると、カスタムアトリビューションモデルの各ステージに対して、パーセンテージの重み付けを設定できます。 「カスタム」列で各ステージの値を入力し、 **[!UICONTROL 保存して再処理]** 完了したら、
 
    の左側 _カスタム_ 列は **[!DNL Marketo Measure]機械学習モデル**. 機械学習モデルは、各カスタムステージで発生した処理に基づいて、契約に勝つための相対的な重要度に基づいてアトリビューションの重み付けを計算します。 機械学習モデルについて詳しくは、 [機械学習モデルに関する FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md).
 

@@ -4,9 +4,9 @@ description: アトリビューションマッピング手法 — [!DNL Marketo 
 title: アトリビューションマッピング手法
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ## 商談プライマリ連絡先のロールマッピング {#opportunity-primary-contact-role-mapping}
 
-オポチュニティに関する連絡先の役割を単に見るだけでなく、 [!DNL Marketo Measure] は、商談に関する連絡先プライマリのみを見るために、さらに焦点を絞ることができます。 この設定を念頭に置いて [!DNL Marketo Measure] は、オポチュニティ上の主要連絡先に関連付けられたマーケティングタッチポイントのみを取得し、その情報をその特定のオポチュニティの属性ストーリーにプッシュします。 下の画像を参照してください。
+オポチュニティに関する連絡先の役割を単に見るだけでなく、 [!DNL Marketo Measure] は、商談に関する連絡先プライマリのみを見るために、さらに焦点を絞ることができます。 この設定を念頭に置いて [!DNL Marketo Measure] は、オポチュニティ上の主要連絡先に関連付けられたマーケティングタッチポイントを取得し、その情報をその特定のオポチュニティの属性ストーリーにプッシュします。 下の画像を参照してください。
 
 ![](assets/3.png)
 

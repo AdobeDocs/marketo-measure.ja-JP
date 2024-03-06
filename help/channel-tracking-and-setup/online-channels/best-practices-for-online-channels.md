@@ -3,10 +3,10 @@ description: オンラインチャネルのベストプラクティス — [!DNL
 title: オンラインチャネルのベストプラクティス
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 67%
+source-wordcount: '611'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 ## ベストプラクティス {#best-practice}
 
-ルールを初めて設定する場合でも、ルールが正確かどうかを確認するために単にレビューする場合でも、次のベストプラクティスに留意してください。
+ルールを初めて設定する場合でも、正確性を確認するためにルールを確認する場合でも、次のベストプラクティスに留意してください。
 
 マーケティングキャンペーンの組織と、それが [!DNL Marketo Measure] フレームワークにどのように適合するかを、じっくり考えてみてください。オンラインチャネルに表現するチャネルとサブチャネルを決定し、どのキャンペーン、UTM パラメーター、または参照 Web サイトがこれらのチャネルを相互に区別しているかを決定します。
 

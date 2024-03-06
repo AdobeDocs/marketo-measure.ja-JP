@@ -2,10 +2,11 @@
 description: Discover ダッシュボードの基本 — [!DNL Marketo Measure]  — 製品
 title: Discover ダッシュボードの基本
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 

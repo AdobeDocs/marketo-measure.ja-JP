@@ -4,9 +4,9 @@ description: 追加中 [!DNL Marketo Measure] から [!DNL Marketo] ランディ
 title: Marketo ランディングページ [!DNL Marketo Measure] の追加
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '213'
 ht-degree: 7%
 
 ---
@@ -36,10 +36,10 @@ ht-degree: 7%
 
 ## そのほかの備考 {#additional-notes}
 
-* 例えば、既に他のトラッキングコードスニペットが存在している場合もあります。 [!DNL Google Analytics] コード。 これに関して問題はありません。必ずセミコロンで区切ってください。 `;` 1 つのスペース。 次に例を示します。
+* 例えば、既に他のトラッキングコードスニペットが存在している場合もあります。 [!DNL Google Analytics] コード。 これに問題はありません。必ずセミコロンで区切ってください。 `;` 1 つのスペース。 次に例を示します。
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
 
 * 複数のランディングページテンプレートが使用されている可能性があります。フォームを持つすべてのテンプレートに、必ずコードを追加してください。
 
-* ランディングページのテンプレートを編集する際に、ランディングページが使用するページを再承認する必要が生じる場合があります。 この記事では、 [一括承認の方法](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* ランディングページのテンプレートを編集する際に、ランディングページが使用されるページを再承認する必要が生じる場合があります。 この記事では、 [一括承認の方法](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

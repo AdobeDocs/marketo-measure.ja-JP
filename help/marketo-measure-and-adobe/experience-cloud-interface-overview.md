@@ -3,10 +3,10 @@ description: Adobe Experience Cloudインターフェイスの概要 — [!DNL M
 title: Adobe Experience Cloud インターフェイスの概要
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 29%
+source-wordcount: '280'
+ht-degree: 23%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Cloud Interface は、Adobe Experience Cloudのアプリケー�
 
 >[!NOTE]
 >
->ドロップダウンメニューは、登録している Adobe Experience Cloud 製品に応じて異なる表示になる場合があります。
+>ドロップダウンメニューは、購読しているAdobe Experience Cloud製品に応じて異なる表示になる場合があります。
 
 次の場合、 _not_ 既にAdobe Experience Cloud製品にログインしている場合は、に直接ログインしてください。 [!DNL Marketo Measure] こちら： [https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja).
 

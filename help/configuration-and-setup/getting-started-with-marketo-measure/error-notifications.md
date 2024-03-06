@@ -2,16 +2,16 @@
 description: エラー通知 — [!DNL Marketo Measure]
 title: エラー通知
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '609'
+ht-degree: 83%
 
 ---
 
 # エラー通知 {#error-notifications}
 
-アプリ内通知またはメールで受信する可能性のあるエラーのリストを以下に示します。これらのいずれかを受け取った場合は、それぞれのトラブルシューティング手順に従ってください。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
+以下に、アプリ内通知または電子メールで受け取る可能性のあるエラーのリストを示します。 これらのいずれかを受け取った場合は、それぞれのトラブルシューティング手順に従ってください。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
 
 <table>
   <tbody>
@@ -25,7 +25,7 @@ ht-degree: 95%
       <td>API_DISABLED</td>
       <td>CRM の読み込み中に発生したエラー：API_DISABLED：このユーザの API 呼び出しが無効になっています</td>
       <td>Marketo Measure ユーザの API 権限が無効になっています。</td>
-      <td>Salesforce ドキュメントの <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API アクセスを有効にする方法</a>を参照してください。</td>
+      <td>Salesforce ドキュメントの <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API アクセスを有効にする方法</a>を参照してください。</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +54,7 @@ ht-degree: 95%
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Adobe Analytics の書き出し中に発生したエラー：INVALID_ADOBE_ANALYTICS_CONFIGURATION：エラー：アップロードできません。アップロードする前に、データソーススキーマを確認します。 データソース ID：1234</td>
+      <td>Adobe Analytics書き出し中にエラーが発生しました： INVALID_ADOBE_ANALYTICS_CONFIGURATION ：エラー：アップロードできません。 アップロードする前に、データソーススキーマを確認します。 データソース ID：1234</td>
       <td>Adobe Analytics 統合が正しく設定されていません。</td>
       <td>次のヘルプ記事を参照して、正しい設定を確認します。
         <ul>
@@ -73,7 +73,7 @@ ht-degree: 95%
       <p>
       広告の読み込み中に発生したエラー：INVALID_CURRENCY_ISO_CODE : 1234 のアカウントの通貨 XXX は、Marketo Measure ではサポートされていません。</td>
       <td>サポートしていない通貨が検出されました。</td>
-      <td>通知に示されるソースシステム（広告、CRM、Marketo）で、レコードに関連付けられた通貨がサポートされ、有効な通貨であることを確認します。サポートされる通貨は、ISO 通貨標準に基づいています。</td>
+      <td>通知に示されるソースシステム ( 広告、CRM、Marketo) では、レコードに関連付けられた通貨が、サポートされ、有効な通貨であることを確認します。 サポートされる通貨は、ISO 通貨標準に基づいています。</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -127,7 +127,7 @@ ht-degree: 95%
           CRM 読み込み中にエラーが発生しました：NULL_EMPTY_CURRENCY_ISO_CODE：MultiCurrency が RecordId 1234 に対して有効になっている場合、通貨 ISO コードは NULL または空です
       </td>
       <td>通貨は、サポートされている ISO 通貨コードである必要があります。</td>
-      <td>通知に示されるソースシステム（広告、CRM、Marketo）で、レコードに関連付けられた通貨がサポートされ、有効な通貨であることを確認します。サポートされる通貨は、ISO 通貨標準に基づいています。</td>
+      <td>通知に示されるソースシステム ( 広告、CRM、Marketo) では、レコードに関連付けられた通貨が、サポートされ、有効な通貨であることを確認します。 サポートされる通貨は、ISO 通貨標準に基づいています。</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>

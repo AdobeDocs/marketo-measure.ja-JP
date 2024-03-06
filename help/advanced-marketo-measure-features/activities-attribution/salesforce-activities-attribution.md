@@ -4,9 +4,9 @@ description: Salesforce アクティビティ属性 — [!DNL Marketo Measure]
 title: Salesforce アクティビティ属性
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ The [!DNL Marketo Measure] Salesforce アクティビティの統合により、
 
 一度、 [!DNL Marketo Measure] キャンペーン名が設定されている場合は、アクティビティルールを設定します。
 
-ルールは、どのレコードが属性を持つ資格があるかを示すフィルターとして機能します。 同様のロジックを使用して CRM でレポートを作成し、そのレポートを生成すると仮定します。 and/or 文との様々な演算子（など）を組み合わせて使用する柔軟性があります。 `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. 定義 `and` 文は、ボックス化された規則またはレイヤー内に `or` ステートメントを追加します。
+ルールは、どのレコードが属性を持つ資格があるかを示すフィルターとして機能します。 例えば、同じロジックを使用して CRM でレポートを作成して、そのレポートを生成するとします。 and/or 文との様々な演算子（など）を組み合わせて使用する柔軟性があります。 `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. 定義 `and` 文は、ボックス化された規則またはレイヤー内に `or` ステートメントを追加します。
 
 ![](assets/3.png)
 

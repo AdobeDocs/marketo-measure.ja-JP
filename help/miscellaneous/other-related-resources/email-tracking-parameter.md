@@ -4,9 +4,9 @@ description: E メールトラッキングパラメーター — [!DNL Marketo M
 title: メールトラッキングパラメーター
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ The [!DNL Marketo Measure] 電子メールトラッキングパラメーター�
 
 訪問者がサイトに到達したとき、 [!DNL Marketo Measure] は、電子メールアドレスまたは [!DNL Salesforce] ID を使用して、その訪問を「フォーム送信」に関連付け、そのアクティビティのタッチポイントを生成できます。
 
-顧客は、通常どおりに E メールテンプレートを作成します。 追跡するアクションのランディングページにを追加する時が来たら、各アクションの値を動的に表示するために、マーケティングオートメーションプラットフォームが受け入れるトークン、変数タグ、マクロを決定する必要があります。
+顧客は、通常どおりに E メールテンプレートを作成します。 追跡するアクションのランディングページにを追加する場合は、各アクションの値を動的に表示するためにマーケティングオートメーションプラットフォームが受け入れるトークン、変数タグ、マクロを決定する必要があります。
 
 Marketo Measureは、メールアドレス、Salesforce リード ID、Salesforce 連絡先 ID のいずれかの値を受け入れます。
 
@@ -72,6 +72,6 @@ Marketo Measureは、メールアドレス、Salesforce リード ID、Salesforc
  </tbody> 
 </table>
 
-最後に、内部で [!DNL Marketo Measure]に値を指定する場合は、トラッキングパラメーターを [!DNL Marketo Measure] で電子メールまたは ID 値を見つけることができます。 デフォルトは、上の例と下のスクリーンショットに示すように、「mailId」です。 の設定に値を入力します。 [!DNL Marketo Measure]を選択し、次に **[!UICONTROL 保存]**.
+最後に、内部で [!DNL Marketo Measure]に値を指定する場合は、トラッキングパラメーターを指定して、 [!DNL Marketo Measure] で電子メールまたは ID 値を見つけることができます。 デフォルトは、上の例と下のスクリーンショットに示すように、「mailId」です。 の設定に値を入力します。 [!DNL Marketo Measure]を選択し、次に **[!UICONTROL 保存]**.
 
 ![](assets/one.png)

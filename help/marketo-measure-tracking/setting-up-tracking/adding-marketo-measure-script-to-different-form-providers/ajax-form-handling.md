@@ -4,22 +4,22 @@ description: AJAX Form Handling - [!DNL Marketo Measure]
 title: AJAX フォームハンドリング
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '313'
 ht-degree: 1%
 
 ---
 
 # AJAX フォームハンドリング {#ajax-form-handling}
 
-顧客のコンバージョンをに手動でレポートするには [!DNL Marketo Measure]を使用するには、非常にシンプルな API を提供しています。 追跡コードがある場合、これらの両方の JavaScript API がサイトで自動的に使用可能になります。 アクセスするために特別な操作は必要ありません。
+顧客のコンバージョンをに手動でレポートするには [!DNL Marketo Measure]を使用する場合、簡単な API を使用できます。 トラッキングコードがある場合、これらの JavaScript API は両方ともサイトで自動的に使用可能になります。 アクセスするために特別な操作は必要ありません。
 
 ## シナリオ 1 - AJAX送信を含むHTMLフォーム {#scenario-html-form-with-an-ajax-submit}
 
 AJAX（またはその他のメカニズム）を含むフォームを使用して、変換日をクライアントからアドビのサーバーに送信する場合は、 [!DNL Marketo Measure] は、監視する標準パスを通じての顧客コンバージョンを認識していない可能性があります。 このシナリオでは、シンプルな API（以下で提供）を使用できます。
 
-独自のフォーム送信を処理する場合は、 [!DNL Marketo Measure] を JavaScript から取得します。 [!DNL Marketo Measure] は、フォームからすべての関連情報を収集し、アドビのサーバーに非同期で投稿します。
+独自のフォーム送信を処理する場合は、 [!DNL Marketo Measure] を JavaScript から取得します。 [!DNL Marketo Measure] はフォームからすべての関連情報を収集し、アドビのサーバーに非同期で投稿します。
 
 **JQuery を使用するコードサンプルを以下に示します（フォームの ID が「formId」の場合）。**
 
@@ -45,7 +45,7 @@ Bizible.Push('Form','MyFormID');
 
 ## シナリオ 2 — 非HTML形式で収集されたリード情報 {#scenario-lead-information-collected-in-a-non-html-form}
 
-変換後のリードからの情報が、HTML フォームのない JavaScript または単純なテキストフィールドを使用して収集される場合、このソリューションは機能します。 以下に、このシナリオで使用する API を示します。
+変換後のリードからの情報が、HTML フォームのない JavaScript または単純なテキストフィールドを使用して収集される場合、このソリューションは自動的に機能します。 以下に、このシナリオで使用する API を示します。
 
 ```jquery
 ///////////////////////////////////////////////////////////////////////  
@@ -62,7 +62,7 @@ eMail: 'user@gmail.com' // required
 
 ## シナリオ 3 - 「ありがとうございます」ページからのユーザー情報のレポート {#scenario-report-user-information-from-the-thank-you-page}
 
-場合によっては、リード情報をに報告する方が便利です。 [!DNL Marketo Measure] 「ありがとうございます」ページから、フォームの送信後に選択します。 この情報をレポートする最も簡単な方法は、フォーム送信からの情報を保持するページに非表示要素を追加し、 [!DNL Bizible.js] は、「ありがとうございます」ページが読み込まれた際に、この情報を読み取ります。
+リード情報のレポート先としての方が便利な場合があります。 [!DNL Marketo Measure] 「ありがとうございます」ページから、フォームの送信後に選択します。 この情報をレポートする最も簡単な方法は、フォーム送信からの情報を保持するページに非表示要素を追加し、 [!DNL Bizible.js] は、「ありがとうございます」ページが読み込まれた際に、この情報を読み取ります。
 
 **例：**
 

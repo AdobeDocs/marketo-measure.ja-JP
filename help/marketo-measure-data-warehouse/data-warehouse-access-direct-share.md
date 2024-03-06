@@ -3,9 +3,9 @@ description: Data Warehouseアクセス — 直接共有 — 製品ドキュメ�
 title: データウェアハウスへのアクセス - Direct Share
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 4%
 
 ---
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 ## 要件 {#requirements}
 
-次の条件を満たすため [!DNL Marketo Measure] data warehouse への直接共有を設定するには、次の要件を満たす必要があります。
+の場合 [!DNL Marketo Measure] data warehouse への直接共有を設定するには、次の要件を満たす必要があります。
 
 * 独自のSnowflakeインスタンスがある。
-* Snowflakeインスタンスは、Azure East US 2Snowflake地域にあります。
+* Snowflakeインスタンスが Azure East US 2Snowflake地域にあります。
 * 次の項目を指定します。 [!DNL Marketo Measure] をSnowflakeアカウント id に設定します。
 
 ## 制限事項 {#limitations}
 
-[!DNL Marketo Measure] は、現在のSnowflakeの直接共有の制限により、Azure East US 2 にあるアカウントとのみSnowflakeの直接共有を設定できます。 データを他のSnowflake地域で利用可能にする必要がある場合は、Azure East US 2 にあるSnowflakeアカウントでデータのコピーを作成し、 [Snowflakeデータベースのレプリケーション](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} の機能を使用して、選択したSnowflake地域/アカウントにデータをコピーできます。
+[!DNL Marketo Measure] は、現在のSnowflakeの直接共有の制限により、Azure East US 2 にあるアカウントとのみSnowflakeの直接共有を設定できます。 他のSnowflake地域でデータを利用できるようにする必要がある場合は、Azure East US 2 にあるSnowflakeアカウントでデータのコピーを作成し、 [Snowflakeデータベースのレプリケーション](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} の機能を使用して、選択したSnowflake地域/アカウントにデータをコピーできます。
 
 ## Snowflakeアカウント ID を入力 {#enter-snowflake-account-id}
 
@@ -32,7 +32,7 @@ ht-degree: 4%
 
 ## 共有へのアクセス {#accessing-the-share}
 
-指定したアカウント ID の共有を作成したら、 [設定手順](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} をSnowflakeインスタンス内で使用して、データにアクセスできます。
+指定したアカウント ID の共有を作成したら、 [設定手順](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} をSnowflakeインスタンス内でクリックして、データにアクセスします。
 
 >[!NOTE]
 >

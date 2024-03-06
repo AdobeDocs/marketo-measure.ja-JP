@@ -3,9 +3,9 @@ description: ドメイン管理 — [!DNL Marketo Measure]
 title: ドメインの管理
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有�
 
 ![](assets/domain-management-2.png)
 
-次の日： **[!UICONTROL 統合]** > **[!UICONTROL ドメイン]** ページに表示される場合は、Admin Consoleに登録したすべてのドメインとそのステータスが表示されます。 各ドメインは、有効または無効にすることができます。 ドメインが有効な場合、 [!DNL Marketo Measure] トラッキングは、そのドメインで見られるトラフィックをすべて収集します。 ドメインが無効になっている場合、 [!DNL Marketo Measure] は、そのドメインから来たトラフィックをすべて無視し、タッチポイントやその他のデータは作成しません。 [!DNL Marketo Measure] は、ドメインの無効化を確認し、影響を警告します。
+次の日： **[!UICONTROL 統合]** > **[!UICONTROL ドメイン]** ページに表示される場合は、Admin Consoleに登録したすべてのドメインとそのステータスが表示されます。 各ドメインは、有効または無効にすることができます。 ドメインが有効な場合、 [!DNL Marketo Measure] トラッキングは、そのドメインで見られるトラフィックをすべて収集します。 ドメインが無効になっている場合、 [!DNL Marketo Measure] は、そのドメインからのトラフィックを無視し、タッチポイントやその他のデータは作成しません。 [!DNL Marketo Measure] は、ドメインの無効化を確認し、次のような影響があるかどうかを警告します。
 
 ![](assets/domain-management-3.png)
 
@@ -55,7 +55,7 @@ Admin Consoleのステータスは、次のように分類されます。
 
 **ドメイン内のドメインが削除されるとどうなりますか？Admin Console内のドメインが削除されるとどうなりますか？**
 
-ドメインがAdmin Consoleで削除された場合、 [!DNL Marketo Measure] ドメインを削除済みとしてマークします。 [!DNL Marketo Measure] は、このドメインでのトラッキングトラフィックを直ちに停止しますが、以前に収集されたデータは削除されません。
+ドメインがAdmin Consoleで削除された場合、 [!DNL Marketo Measure] ドメインを削除済みとしてマークします。 [!DNL Marketo Measure] は、このドメインでのトラッキングトラフィックを即座に停止しますが、以前に収集されたデータは削除されません。
 
 **ドメインを有効にできないのはなぜですか？**
 

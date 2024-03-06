@@ -3,16 +3,16 @@ unique-page-id: 18874761
 description: シングルサインオン — [!DNL Marketo Measure]
 title: シングルサインオン
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
 
 # シングルサインオン {#single-sign-on}
 
-SSO（シングルサインオン）用の SAML（セキュリティアサーションマークアップ言語）を使用すると、ユーザーが会社の ID プロバイダーを通じて認証を行い、 [!DNL Marketo Measure] アプリを使用します。 SSO を使用すると、別のアプリを認証する必要なく、ユーザーが 1 回だけ認証できます。 すべてのユーザーが次の条件を満たすわけではないので、SAML は企業のお客様にとって必要不可欠です [!DNL Salesforce] または [!DNL Google] 組織内のアカウント。 スケールを設定するには、 [!DNL Marketo Measure] は、会社の ID プロバイダーをサポートする SAML ソリューションを開発しました。
+SSO（シングルサインオン）用の SAML（セキュリティアサーションマークアップ言語）を使用すると、ユーザーがログイン時に会社の ID プロバイダーを通じて認証できます。 [!DNL Marketo Measure] アプリを使用します。 SSO を使用すると、別々のアプリを認証する必要なく、ユーザーが 1 回認証できます。 すべてのユーザーが [!DNL Salesforce] または [!DNL Google] 組織内のアカウント。 拡大・縮小するには [!DNL Marketo Measure] は、会社の ID プロバイダーをサポートする SAML ソリューションを開発しました。
 
 >[!CAUTION]
 >
@@ -20,7 +20,7 @@ SSO（シングルサインオン）用の SAML（セキュリティアサーシ
 
 >[!NOTE]
 >
->会社が異なる ID プロバイダー（Ping ID、Okta など）を使用している可能性があります。 以下の設定手順および UI で使用される用語が、ID プロバイダーで使用される用語と直接一致しない場合があります。
+>会社が異なる ID プロバイダー（Ping ID、Okta など）を使用している可能性が高くなります。 以下の設定手順および UI で使用される用語が、ID プロバイダーで使用される用語と直接一致しない場合があります。
 
 ## 要件 {#requirements}
 
@@ -35,7 +35,7 @@ SSO（シングルサインオン）用の SAML（セキュリティアサーシ
 
 ## 処理 {#process}
 
-[!DNL Marketo Measure] シングルサインオンでは、次に従う必要がある一連の手順で認証設定を構成し、ロックアウトされるリスクを回避する必要があります。 [!DNL Marketo Measure] アカウント。
+[!DNL Marketo Measure] シングルサインオンでは、一連の手順で認証設定を構成し、ロックアウトされるリスクを回避する必要があります。 [!DNL Marketo Measure] アカウント。
 
 を設定します。 [!DNL Marketo Measure] ID プロバイダー内のアプリケーション。 手順については、以下に示す外部ドキュメントを参照してください。
 
@@ -119,7 +119,7 @@ ID プロバイダー構成の接続設定を入力します
 
 ## CRM ユーザ（詳細設定） {#crm-users-advanced-setup}
 
-デフォルトでは、すべてのアカウントが [!DNL Marketo Measure] CRM 資格情報を使用するアプリケーション。 アカウント所有者が、アクティブな CRM ライセンスを持つすべてのユーザーに対して、アクセスを特定の役割に制限し、開かないようにする必要が生じる場合があります。 詳細設定を使用すると、CRM の役割とグループを [!DNL Marketo Measure] ユーザー権限。
+デフォルトでは、すべてのアカウントが [!DNL Marketo Measure] CRM 資格情報を使用するアプリケーション。 アカウント所有者が、アクティブな CRM ライセンスを持つすべてのユーザーに対して、アクセスを特定の役割に制限し、開かないようにする必要が生じる場合があります。 詳細設定を使用すると、CRM の役割とグループをにマッピングできます。 [!DNL Marketo Measure] ユーザー権限。
 
 ロールまたはグループがマッピングされていない場合、デフォルト設定では、CRM 内のすべてのアクティブなライセンスに標準ユーザーアクセス権が付与されます。
 
@@ -144,7 +144,7 @@ ID プロバイダー構成の接続設定を入力します
 
 **Google Users**
 
-カスタム SSO が設定されると、 [!UICONTROL ユーザー] ページが更新され、Googleのログインで追加された外部ユーザーのみが表示されます。 アクセス権を持つすべてのユーザーは SSO 設定を通じて定義されるので、追加の外部ユーザーをここに示します。
+カスタム SSO が設定されると、 [!UICONTROL ユーザー] ページが更新され、Googleのログインで追加された外部ユーザーのみが表示されるようになりました。 アクセス権を持つすべてのユーザーは SSO 設定を通じて定義されるので、追加の外部ユーザーをここに示します。
 
 ![](assets/9.png)
 
@@ -152,7 +152,7 @@ ID プロバイダー構成の接続設定を入力します
 
 ## 外部リンク {#external-links}
 
-* [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Ping ID](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Ping ID](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

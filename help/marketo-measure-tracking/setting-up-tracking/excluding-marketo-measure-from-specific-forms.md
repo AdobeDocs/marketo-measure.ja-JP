@@ -4,7 +4,7 @@ description: 除外 [!DNL Marketo Measure] 特定のFormsから [!DNL Marketo Me
 title: 特定のフォームからの [!DNL Marketo Measure] の除外
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 4%

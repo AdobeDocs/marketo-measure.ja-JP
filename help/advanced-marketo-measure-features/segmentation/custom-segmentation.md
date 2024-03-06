@@ -4,10 +4,10 @@ description: カスタムセグメント — [!DNL Marketo Measure]
 title: カスタムセグメント化
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 4%
+source-wordcount: '740'
+ht-degree: 0%
 
 ---
 
@@ -71,9 +71,9 @@ ht-degree: 4%
 
 リード/連絡先と商談の両方にルールが設定されていない場合、データの一部のみが表示されます。 詳細を説明するには、商談ルールを設定しない場合、リード/連絡先データのみが表示され、関連する商談は表示されません。 リード/連絡先のルールを設定しない場合も同様です。関連するリード/連絡先のない商談のみが表示されます。
 
-完了したら、「 [!UICONTROL 保存] 最初に、すべてを確認し、次に「 [!UICONTROL 保存して処理]. 保存して処理する際、7 日間は設定を編集できないことに注意してください。 [!DNL Marketo Measure] は、この間にデータを再フォーマットしています。
+完了したら、「 [!UICONTROL 保存] 最初に、すべてを確認し、次に「 [!UICONTROL 保存して処理]. 保存して処理してから 7 日間は設定を編集できないので、 [!DNL Marketo Measure] は、この間にデータを再フォーマットしています。
 
-Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを取引先責任者として設定している場合は、リードに固有の以下の 2 つのフィールドを使用しないでください（[詳しくは、こちらを参照してください](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}）。
+Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先に設定している場合は、リード ([詳細情報](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}) をクリックします。
 
 * b2b.personStatus
 * b2b.isConverted

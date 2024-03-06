@@ -4,9 +4,9 @@ description: カスタムキャンペーンの同期 — [!DNL Marketo Measure]
 title: カスタムキャンペーン同期
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 1%
 
 ---
@@ -79,6 +79,6 @@ Campaign 内で購入者タッチポイントおよび購入者属性タッチ�
 
    ![](assets/9.png)
 
-1. メンバー数をクリックして、リードと連絡先、およびキャンペーンルールの実施要件の一部であるリードと連絡先の ID のリストを表示することもできます。 これはサンプルセットに過ぎず、最大 50 個まで表示されるので、どのレコードが適合するかを把握できます。
+1. メンバー数をクリックして、リードと連絡先、およびキャンペーンルールの実施要件の一部であるリードと連絡先の ID のリストを確認することもできます。 これはサンプルセットに過ぎず、最大 50 個まで表示されるので、どのレコードが適合するかを把握できます。
 
    ![](assets/10.png)

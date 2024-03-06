@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] Dynamics スキーマ — [!DNL Marketo Mea
 title: '"[!DNL Marketo Measure] Dynamics スキーマ»'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1070'
 ht-degree: 67%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 67%
 >
 >この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
 
-以下に、を使い始めるために必要な Dynamics スキーマを示します。 [!DNL Marketo Measure]. 必要な読み取り/書き込みアクセス権と共に、すべてのエンティティとフィールドが表示されます。
+使い始めるために必要な Dynamics スキーマを以下に示します。 [!DNL Marketo Measure]. 必要な読み取り/書き込みアクセス権と共に、すべてのエンティティとフィールドが表示されます。
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
@@ -912,7 +912,7 @@ ht-degree: 67%
 
 ## Dynamics 標準エンティティ {#dynamics-standard-entities}
 
-このリストには、Dynamics 標準エンティティが表示されます。 [!DNL Marketo Measure] は、とやり取りし、これらのエンティティに追加するカスタムフィールドとやり取りします。
+このリストには、Dynamics 標準エンティティが表示されます。 [!DNL Marketo Measure] は、これらのエンティティに追加したカスタムフィールドとやり取りします。
 
 **リード**
 

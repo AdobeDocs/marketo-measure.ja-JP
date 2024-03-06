@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] 101 レポートの概要 — [!DNL Marketo
 title: '"[!DNL Marketo Measure] 101 レポートの概要»'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
@@ -55,4 +55,4 @@ _購入者タッチポイントレポートフォルダーまたは 6 つの「_
 
 「Buyer Touchpoint Reports」フォルダーは、 [!DNL Marketo Measure] レポートを使用すると、レポートのニーズに合わせてレポートをカスタマイズする必要があります。 レポート内のレコード（および関連するタッチポイント）がレポートの目標と一致するように、必要なフィルターを追加する必要があります。
 
-次に、「_[!DNL Marketo Measure]101..._」レポートを作成する場合は、カスタムレポートタイプからレポートを再作成して、より多くのカスタムレポートのニーズに対応できます。 の作成 [[!DNL Marketo Measure] カスタムレポートタイプ](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) を使用すると、他の CRM レポートでよく使用するカスタムフィールドを取り込むことができます。 これはあなたを助ける [!DNL Marketo Measure] 次のレベルに報告！
+を参照してください。_[!DNL Marketo Measure]101..._」レポートを作成する場合は、カスタムレポートタイプからレポートを再作成して、より多くのカスタムレポートのニーズに対応できます。 の作成 [[!DNL Marketo Measure] カスタムレポートタイプ](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) を使用すると、他の CRM レポートでよく使用するカスタムフィールドを取り込むことができます。 これはあなたを助ける [!DNL Marketo Measure] 次のレベルに報告！

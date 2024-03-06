@@ -4,9 +4,9 @@ description: 許可中 [!DNL Salesforce] アクセス先 [!DNL Marketo Measure] 
 title: 許可中 [!DNL Salesforce] Marketo Measure Support へのアクセス
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '187'
 ht-degree: 2%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 2%
 
 1. 次の手順で **ログインアクセスを許可** ページ内 [!DNL Salesforce Classic] 次のいずれかの方法でユーザーインターフェイスを表示します。
 
-   * クリック： **[!UICONTROL 設定]** > **[!UICONTROL 個人情報]** > **[!UICONTROL ログインアクセスを許可]**.
+   * クリック **[!UICONTROL 設定]** > **[!UICONTROL 個人情報]** > **[!UICONTROL ログインアクセスを許可]**.
 
      OR
 
-   * クリック： `<your name>` > **[!UICONTROL マイ設定]** > **[!UICONTROL 個人]** > **[!UICONTROL アカウントログインアクセスの許可]**.
+   * クリック `<your name>` > **[!UICONTROL マイ設定]** > **[!UICONTROL 個人]** > **[!UICONTROL アカウントログインアクセスの許可]**.
 
 1. 次のアクセス有効期限を設定： [!UICONTROL Marketo Measureサポート]. 技術的なトラブルシューティングについては、 [!DNL Marketo Measure] 1 週間以上のアクセスをサポートします。
 1. 「**[!UICONTROL 保存]**」をクリックします。

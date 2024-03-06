@@ -3,9 +3,9 @@ description: カスタムモデルのベストプラクティス — [!DNL Marke
 title: カスタムモデルのベストプラクティス
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ The [!DNL Marketo Measure] カスタムアトリビューションモデルを�
 * カスタムステージは、 [!DNL Marketo Measure] マイルストーンタッチポイントの位置（FT、LC、OC、クローズ済み獲得/損失）
    * その場合、これらの位置は常に同時に発生し、ファネルの一部に水増しされたアトリビューションクレジットが与えられる可能性があります。
 * セールス商談チームと連携する
-   * ステージとその意味を最も近く持つチームを取り込むと、正しいステージを使用し、適切に定義されていることを確認できます。
+   * ステージとその意味を最も近く持つチームを取り込むと、正しいステージを使用し、それらが正しく定義されていることが保証されます。
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 

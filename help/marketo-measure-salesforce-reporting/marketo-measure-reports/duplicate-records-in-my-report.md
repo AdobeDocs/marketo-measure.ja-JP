@@ -4,9 +4,9 @@ description: レポート内の重複レコード — [!DNL Marketo Measure]
 title: マイレポートの重複レコード
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '268'
 ht-degree: 10%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 次に進むと、 [!DNL Marketo Measure] のレポート [!DNL Salesforce]」と入力すると、レポート内で「重複した」レコードの検索が開始される場合があります。 この感覚は、レビューの際に感じるでしょう [!DNL Marketo Measure] 標準のレポートです。
 
-Buyer Touchpoints オブジェクトや Buyer Attribution Touchpoint オブジェクトを使用してレポートを作成する場合、リード、連絡先、商談の数はレポートされなくなり、標準オブジェクト（リード、連絡先、商談）に関連する Buyer Touchpoints や Buyer Attribution Touchpoints の数がレポートされます。
+Buyer Touchpoints オブジェクトや Buyer Attribution Touchpoint オブジェクトを使用してレポートを作成する場合、リード、連絡先、商談の数はレポートされなくなり、標準オブジェクト（リード、連絡先、商談）に関連する Buyer Touchpoints や Buyer Attribution Touchpoints の数をレポートすることになります。
 
 次のレポートを例として見てみましょう。
 

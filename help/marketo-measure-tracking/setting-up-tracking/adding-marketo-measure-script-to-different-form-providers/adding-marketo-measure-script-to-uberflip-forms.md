@@ -4,9 +4,9 @@ description: 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Ube
 title: 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   このプリアンブルを [!DNL Hubs.onLoad] そして [!DNL Hubs.onPageChange] 以下に示すAJAX JavaScript イベントフックを使用します。 ( 注意：これらのイベントフックには他のコードも含まれている場合があります。 必ずプリアンブルも含めてください )。
+   このプリアンブルを [!DNL Hubs.onLoad] そして [!DNL Hubs.onPageChange] 以下に示すように、AJAX JavaScript イベントフックを設定します。 ( 注意：これらのイベントフックに他のコードが含まれている場合もあります。 プリアンブルも必ず含めてください )。
 
    `Hubs.onLoad = function () {`
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    `}`
 
-1. フォーム CTA の送信時に Bizible にデータをプッシュする関数を作成し定義します。 これは、 [!UICONTROL カスタムコード >JavaScript] 」セクションに入力します。 （注意：この関数は、 Uberflip が提供する ctaData パラメーターのみを必要としますが、ユーザーがコードをカスタマイズしてこのデータを渡す場合に備えて、他のパラメータ ctaId および ctaName を含めることもできます）。
+1. フォーム CTA の送信時に Bizible にデータをプッシュする関数を作成し定義します。 これは、 [!UICONTROL カスタムコード > JavaScript] 」セクションに入力します。 （注意：この関数は、 Uberflip が提供する ctaData パラメーターのみを必要としますが、ユーザーがコードをカスタマイズしてこのデータを渡す場合に備えて、他のパラメータ ctaId および ctaName を含めることもできます）。
 
    `function bizibleFormCode(ctaId, ctaData, ctaName) {`
    `var email = ctaData["email"];`
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    `}`
 
-1. フォーム CTA が送信されたら、 [!DNL Marketo Measure] 関数は、以下の単位で実行されます。 これは、 [!UICONTROL カスタムコード >JS] 」セクションに入力します。 （注意：Hubs.onCtaFormSubmitSuccess JavaScript イベントフック内に他のコードがある場合もあります。この関数呼び出しも必ず含めてください）。
+1. フォーム CTA が送信されたら、 [!DNL Marketo Measure] 関数は、以下の単位で実行されます。 これは、 [!UICONTROL カスタムコード >JS] 」セクションに入力します。 （注意： Hubs.onCtaFormSubmitSuccess JavaScript イベントフック内に他のコードがある場合は、この関数呼び出しも必ず含めてください）。
 
    `Hubs.onCtaFormSubmitSuccess = function (ctaId, ctaData, ctaName) {`
    `bizibleFormCode(ctaId, ctaData, ctaName);`\

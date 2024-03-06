@@ -4,9 +4,9 @@ description: Marketo接続のセットアップ — [!DNL Marketo Measure]
 title: Marketo接続のセットアップ
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Marketoへの接続を設定する方法を次に示します。
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. 新しいタブで、Marketo Engageアカウントにログインします。 に移動します。 **管理者** > **Web サービス**. 下にスクロールして REST API を表示します。 エンドポイントと ID サービスの URL をハイライトして保存します。 少しで必要になるでしょう。
+1. 新しいタブで、Marketo Engageアカウントにログインします。 に移動します。 **管理者** > **Web サービス**. 下にスクロールして REST API を表示します。 エンドポイントと ID サービスの URL をハイライトして保存します。 次の手順で必要になります。
 
    ![](assets/set-up-marketo-connection-5.png)
 
@@ -51,7 +51,7 @@ Marketoへの接続を設定する方法を次に示します。
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. 値を入力した後、 **[!UICONTROL 認証]**. Marketo Engageアカウントは次の場所に接続されます： [!DNL Marketo Measure].
+1. 値を入力した後、 **[!UICONTROL 認証]**. Marketo Engageアカウントが [!DNL Marketo Measure].
 
    ![](assets/set-up-marketo-connection-9.png)
 

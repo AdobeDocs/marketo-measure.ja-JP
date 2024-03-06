@@ -4,9 +4,9 @@ description: タッチポイントの削除およびタッチポイントの抑�
 title: Touchpoint の削除と Touchpoint の抑制
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,8 @@ ht-degree: 1%
 
 ![](assets/5.png)
 
-終了するには、 [!UICONTROL 保存して処理] ルールを設定します。 多くの変更を加える場合は、途中で必ず「変更を保存」してください。 [!DNL Marketo Measure] タッチポイントの削除は、 **保存して処理** 」ボタンをクリックします。
+終了するには、 [!UICONTROL 保存して処理] ルールを設定します。 多くの変更を加える場合は、途中で必ず「変更を保存」してください。 [!DNL Marketo Measure] タッチポイントの削除は、「
+[!UICONTROL **保存して処理**].
 
 | **演算子** | **使用例** |
 |---|---|

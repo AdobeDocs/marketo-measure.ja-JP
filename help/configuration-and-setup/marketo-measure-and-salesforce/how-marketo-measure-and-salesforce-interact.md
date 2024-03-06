@@ -4,10 +4,10 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 89%
+source-wordcount: '1267'
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 89%
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-この設定を変更する場合、小さいバッチサイズでは、CRM からの API クレジットがより多く消費されることに注意してください。 CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
+この設定を変更する場合、小さいバッチサイズでは、CRM からの API クレジットがより多く消費されることに注意してください。 CRM で CPU がタイムアウトしたり、CPU 負荷が高くなったりした場合にのみ、バッチサイズを小さくすることをお勧めします。
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 

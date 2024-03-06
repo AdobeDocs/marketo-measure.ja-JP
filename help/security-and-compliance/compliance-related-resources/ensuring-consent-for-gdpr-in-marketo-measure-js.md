@@ -4,10 +4,10 @@ description: Marketo Measure Js での GDPR に対する同意の確保 — Mark
 title: Marketo Measure Js での GDPR に対する同意の確保
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 20%
+source-wordcount: '423'
+ht-degree: 21%
 
 ---
 
@@ -17,9 +17,9 @@ EU 一般データ保護規則 (GDPR) は、2018 年 5 月 25 日に施行され
 
 ## 概要 {#overview}
 
-GDPR の目的は、個人データの使用および保護に関して、EU（欧州連合）および EEA（欧州経済圏）内のデータ主体の権利を強化することです。 「個人データ」とは、識別された自然人や識別可能な自然人に関する情報を指します。 GDPR は、EU 内または EEA 外で、EU 内のデータ主体に対するマーケティング商品やサービスを行っている、または EU 内のデータ主体の行動を追跡している組織に適用されます。ヨーロッパで個人データの処理を伴うデータ主体と取引を行う場合、この法律が適用されます。規制違反者に対する大規模な罰金を科し、コンプライアンス違反に対する罰則は重要です。1 回の違反に対する最大罰金は、2,000 万ユーロまたは世界的年間売上高の 4%のいずれか大きい方です。
+GDPR の目的は、EU（欧州連合）および EEA（欧州経済圏）内のデータ主体が自分の個人データをどのように使用および保護しているかに関する権利を強化することです。 「個人データ」とは、識別された自然人や識別可能な自然人に関する情報を指します。 GDPR は、EU 内または EEA 外で、EU 内のデータ主体に対するマーケティング商品やサービスを行っている、または EU 内のデータ主体の行動を追跡している組織に適用されます。ヨーロッパで個人データの処理を伴うデータ主体と取引を行う場合、この法律が適用されます。規制違反者に対する大規模な罰金を科し、コンプライアンス違反に対する罰則は重要です。1 回の違反に対する最大罰金は、2,000 万ユーロまたは世界的年間売上高の 4%のいずれか大きい方です。
 
-デフォルトでは、 [!DNL bizible.js] は、同意を待つように特に設定されていない限り、ユーザーの分析データを収集します。 条件 [!DNL bizible.js] は、ユーザーの同意を待つように設定されています。同意が得られるまで cookie を作成したり、analytics データを送信したりしません。
+デフォルトでは、 [!DNL bizible.js] は、同意を待つように設定されていない限り、ユーザーの analytics データを収集します。 条件 [!DNL bizible.js] は、ユーザーの同意を待つように設定されています。同意が得られるまで cookie を作成したり、analytics データを送信したりしません。
 
 ## 同意を待つ方法 {#how-to-wait-for-consent}
 
@@ -36,9 +36,9 @@ GDPR の目的は、個人データの使用および保護に関して、EU（�
 
 >[!NOTE]
 >
->この場合、 [!DNL bizible.js] は、id が「ConsentButtonId」のHTML要素にオンクリックイベントを添付します。
+>この場合、 [!DNL bizible.js] クリック時のイベントを、id が「ConsentButtonId」のHTML要素にアタッチします。
 
-このHTML要素がクリックされると、 [!DNL bizible.js] は、ユーザーの同意を受け取ったことを覚えておき、通常どおり analytics データの収集を開始するための cookie を作成します。
+このHTML要素がクリックされると、 [!DNL bizible.js] は、ユーザーの同意を受け取ったことを覚えておき、通常どおり analytics データの収集を開始するために cookie を作成します。
 
 **- または -**
 
@@ -50,7 +50,7 @@ GDPR の目的は、個人データの使用および保護に関して、EU（�
 
 *window[&#39;Bizible&#39;] =窓[&#39;Bizible&#39;] || { _queue: [], Push: function (o, p) { this._queue.push({ type: o, data: p }); } };*
 
-*Bizible.Push(&#39;Consent&#39;, true);*
+*Bizible。 Push(&#39;Consent&#39;, true);*
 
 **次を使用する場合、 [!DNL Google Tag Manager] スクリプトをインストールする**&#x200B;を削除する場合は、GTM によって data-attribute が削除されることに注意してください。そのため、代わりに次のスクリプトを使用します。
 
@@ -67,4 +67,4 @@ GDPR の目的は、個人データの使用および保護に関して、EU（�
 
 `Bizible.Push('Consent', false);`
 
-このコードを実行すると、 [!DNL bizible.js] 以前に作成され、ユーザーが再同意した場合にのみ analytics データの収集を再開します。
+このコードを実行すると、 [!DNL bizible.js] 以前に作成および再開された analytics データの収集は、ユーザーが同意した場合にのみ実行されます。

@@ -1,7 +1,7 @@
 ---
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '402'
 ht-degree: 82%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 82%
 
 ### コミュニティメンバーからの大きな変更または新しい記事
 
-Adobeコミュニティのメンバーが新しい記事を作成したり、大きな変更を投稿したりする場合は、Git リポジトリの「Issues」タブを使用して問題を送信し、ドキュメントチームとの会話を開始します。 計画に同意したら、公開および非公開リポジトリでの作業を組み合わせて新しいコンテンツを取り込むために、従業員と協力する必要があります。
+Adobeコミュニティに属していて、新しい記事を作成したり、大きな変更を投稿したりする場合は、Git リポジトリの「Issues」タブを使用して問題を送信し、ドキュメントチームとの会話を開始します。 計画に同意したら、公開および非公開リポジトリでの作業を組み合わせて新しいコンテンツを取り込むために、従業員と協力する必要があります。
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you will see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.

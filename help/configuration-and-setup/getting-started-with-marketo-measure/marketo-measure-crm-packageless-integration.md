@@ -4,9 +4,9 @@ description: "[!DNL Marketo Measure] CRM パッケージレスの統合 — [!DN
 title: '"[!DNL Marketo Measure] CRM パッケージレスの統合»'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '305'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 標準 [!DNL Marketo Measure] インストール {#standard-marketo-measure-installation}
 
-標準を使用 [!DNL Marketo Measure] インストールするには、 [!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] 管理ソリューション。 インストールには、カスタムオブジェクト/エンティティと、CRM に追加されるカスタムフィールドが含まれます。 [!DNL Marketo Measure] その後、はにデータを書き込むことができます。
+標準を使用 [!DNL Marketo Measure] インストールする場合は、 [!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] 管理ソリューション。 インストールには、カスタムオブジェクト/エンティティと、CRM に追加されるカスタムフィールドが含まれます。 [!DNL Marketo Measure] その後、はにデータを書き込むことができます。
 
 とのパッケージレスな統合 [!DNL Marketo Measure] は、CRM でカスタムオブジェクト/エンティティやカスタムフィールドを作成したくないお客様向けです。 また、外部Data Warehouseを使用しているお客様にも便利です。
 
@@ -35,7 +35,7 @@ A [!DNL Marketo Measure] CRM パッケージレスの統合では、引き続き
 
 [!DNL Microsoft Dynamics] お客様がクリックした [ここ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-上記の手順を完了したら、準備が整いました。 途中で問題が発生した場合は、お気軽に連絡を取ってください [!DNL Marketo Measure] 代理人または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+これらの手順が完了したら、統合が動作可能になります。 問題が発生した場合は、 [!DNL Marketo Measure] 代理人または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >

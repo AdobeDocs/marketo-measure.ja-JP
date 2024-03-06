@@ -3,9 +3,9 @@ description: カスタムの売上高額を利用する際のベストプラク�
 title: カスタム収益額の利用のベストプラクティス
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '431'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 7%
 * すべての商談に対して正確で使用されている収益フィールドを選択します
    * ARR または合計契約額お勧め
 * 数式フィールドを使用しない
-* 通貨換算にカスタム売上高を使用している場合、 [!UICONTROL Marketo Measure Multiple Currencies] の代わりに、の機能を使用することをお勧めします。
+* 通貨換算にカスタム収益金額を使用する場合、 [!UICONTROL Marketo Measure Multiple Currencies] の代わりに、の機能を使用することをお勧めします。
    * The [!DNL Marketo Measure] 「複数通貨」機能は、 [!DNL Salesforce] 通貨換算間の調整を最も確実におこなうため。 これにより、標準の「金額」（SFDC デフォルト）や、 [!DNL Salesforce] コンバージョン率。
 * Amount フィールドを更新する場合 [!DNL Marketo Measure] を参照するには、データローダーを使用して過去の商談を更新し、売上高データの一貫性を確保し、適切なフィールドがワークフロー経由で設定されるようにします。
 
@@ -35,7 +35,7 @@ ht-degree: 7%
 
 年別の売上高額の設定を調べて、アトリビューションデータが正確で、組織の他の売上高レポートと一致していることを確認します。
 
-カスタムの売上高を利用している場合は、次の手順に従って収益の設定を確認してください。
+カスタム売上高を利用する場合は、次のように収益設定を確認してください。
 
 * を [!DNL Marketo Measure] アカウントで、「[!UICONTROL 商談]「 」セクション（CRM の下）
 * 次を識別： [!UICONTROL カスタム商談額] フィールド、ここで [!UICONTROL カスタム売上高 API] フィールドをリストする必要があります

@@ -3,9 +3,9 @@ description: プライバシーリクエスト — [!DNL Marketo Measure]
 title: プライバシーリクエスト
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 20%
 
 ---
@@ -23,7 +23,7 @@ The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platfor
 
 ここでは、アクセスリクエストと削除リクエストの作成方法について説明します。
 
-## Marketo Measureのリクエストを送信するために必要な設定 {#required-setup-to-send-requests-for-marketo-measure}
+## Marketo Measureのリクエストを送信するための必須設定 {#required-setup-to-send-requests-for-marketo-measure}
 
 のデータのアクセスおよび削除をリクエストするには、以下を実行します。 [!DNL Marketo Measure]を使用する場合は、次の操作を行う必要があります。
 

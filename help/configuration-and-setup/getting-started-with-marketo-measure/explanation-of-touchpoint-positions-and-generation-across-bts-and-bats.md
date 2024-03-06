@@ -3,9 +3,9 @@ description: BT と BAT に関するタッチポイントの位置と世代の�
 title: BT と [!DNL BATs] にわたる Touchpoint の位置と生成の説明
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '764'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 **バイヤージャーニーでのタッチポイントポジションの生成とフロー**
 
-購入者のタッチポイントの位置と、それらがどのようにトリガーされるかを理解することが、を使用して正常にレポートする上で重要です。 [!DNL Marketo Measure] データ。 見込み客が購入者のジャーニーを通じて何をしたかを明確に把握し、さらにタッチポイントデータでどのように表示されるかを把握したい場合があります。 このトピックの詳細については、 [[!UICONTROL タッチポイントの生成とマッピング]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) 記事。
+購入者のタッチポイントの位置と、それらがどのようにトリガーされるかを理解することが、を使用して正常にレポートする上で重要です。 [!DNL Marketo Measure] データ。 見込み客が購入者のジャーニーを通じて何をしたかを明確に把握し、さらにタッチポイントデータでどのように表示されるかを把握したい場合。 このトピックの詳細については、 [[!UICONTROL タッチポイントの生成とマッピング]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) 記事。
 
 [!DNL Marketo Measure] には、購入者のジャーニーの様々なステップでトリガーされる様々なタッチポイントの位置があります。 次のレポートを作成する場合： [!DNL Marketo Measure] データには、タッチポイントデータとして、バイヤータッチポイント (BT) とバイヤー属性タッチポイント (BAT) の 2 組があります。 これらのデータセットは、異なるオブジェクトに関連するので、位置がわずかに異なることに気が付くかもしれません。 このトピックの詳細については、 [購入者タッチポイント (BT) と購入者アトリビューションタッチポイント (BAT) の違い](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) 記事。
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 * [!DNL Marketo Measure] 101: ID 別のリード/連絡先
 * [!DNL Marketo Measure] 101：チャネル別のリード/連絡先
 
-次に、購入者タッチポイントのポジションの概要を示します。これは、個人がジャーニーでどこにいるか、およびそのポジションを獲得するためにとったアクションを示します。
+次に、購入者タッチポイントのポジションの概要を示します。これは、個人のジャーニーにおける位置と、そのポジションを獲得するためにおこなったアクションを示します。
 
 <table> 
  <tbody>
@@ -42,7 +42,7 @@ ht-degree: 3%
   <tr>
    <td>リード作成（LC）</td> 
    <td>フォームの入力 <strong>または</strong> キャンペーン/プログラムの追加</td> 
-   <td>個人が最初に入力するフォーム（通常はフォーム送信ですが、キャンペーン/プログラムを含めることもできます）</td> 
+   <td>最初のフォームは個人が持つ（通常はフォーム送信ですが、キャンペーン/プログラムを含めることもできます）を入力します</td> 
   </tr>
   <tr>
    <td>Post LC</td> 
@@ -52,7 +52,7 @@ ht-degree: 3%
  </tbody>
 </table>
 
-**購入者の属性タッチポイント (BATS)**：オポチュニティとそのジャーニーに関連付けられたタッチポイントです。 これらのタッチポイントは、商談とその連絡先に関連付けられるので、売上高に関連付けられます。 すぐに使用できる次のレポートは、購入者の属性タッチポイントデータから作成されています。
+**購入者の属性タッチポイント (BATS)**：オポチュニティとそのジャーニーに関連付けられたタッチポイントです。 これらのタッチポイントは、商談とその連絡先に関連付けられているので、売上高に関連付けられます。 すぐに使用できる次のレポートは、購入者の属性タッチポイントデータから作成されています。
 
 * [!DNL Marketo Measure] 101: ID 別の商談
 * [!DNL Marketo Measure] 101: ID チャネル別の商談

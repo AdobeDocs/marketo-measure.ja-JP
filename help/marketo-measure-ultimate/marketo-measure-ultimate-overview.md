@@ -3,10 +3,10 @@ description: '[!DNL Marketo Measure] Ultimate の概要 — [!DNL Marketo Measur
 title: '[!DNL Marketo Measure] Ultimate の概要'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 98%
+source-wordcount: '677'
+ht-degree: 74%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 [!DNL Marketo Measure Ultimate] には、次の追加機能が含まれています。
 
-* ほとんどすべてのデータソースだけでなく、同じタイプの複数のデータソースからも取り込み、すべてのデータをアトリビューションのために取り込みます。
+* ほとんどの任意のデータソースと同じタイプの複数のデータソースから取り込み、すべてのデータを取り込んで属性を設定します。
    * Salesforce や Dynamics だけでなく、ほとんどすべての CRM で使用できます。
    * 複数の CRM インスタンスや MAP インスタンスを 1 つの [!DNL Marketo Measure] インスタンスに接続します。
    * サードパーティのウェビナー登録および参加データを取り込みます。
@@ -39,13 +39,13 @@ ht-degree: 98%
 
 **AEP を通じた B2B データの読み込み**
 
-マーケターは、AEP を通じて B2B データ（アカウント、商談、取引先責任者、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。CRM および Marketo Engage の直接接続は、Ultimate では使用できなくなりました。マーケターは、引き続き直接接続を通じて広告プラットフォームデータを取り込み、[!DNL Marketo Measure] JavaScript を通じて web アクティビティをトラッキングします。
+マーケターは、AEP を通じて B2B データ（アカウント、商談、連絡先、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。 CRM および Marketo Engage の直接接続は、Ultimate では使用できなくなりました。マーケターは、直接接続を通じて Ad Platform データを引き続き取り込み、を通じて Web アクティビティを追跡します。 [!DNL Marketo Measure] javascript.
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **デフォルトの通貨設定**
 
-[!DNL Marketo Measure Ultimate] では、ユーザが変更するまでデフォルトの通貨を USD に設定します。新しいデフォルト通貨を設定すると、再処理せずにデータが更新されます。選択した通貨がターゲット ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
+[!DNL Marketo Measure Ultimate] は、ユーザーが変更するまで、デフォルトの通貨を USD に設定します。 新しいデフォルト通貨を設定すると、再処理を行わずにデータが更新されます。 選択した通貨がターゲット ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -55,11 +55,11 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 
 >[!NOTE]
 >
->[!DNL Marketo Measure Ultimate] 実稼動インスタンスは AEP 実稼動サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
+>A [!DNL Marketo Measure Ultimate] 実稼動インスタンスは、AEP 実稼働サンドボックス ( [!DNL Marketo Measure Ultimate] 開発者インスタンスは、AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、現時点ではアプリケーションで変更できません。変更するには、次の場所にアクセスします。 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+サンドボックスマッピングの選択が保存されると、アプリケーションで変更できなくなります。 変更するには、次の場所にアクセスします。 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。各データセットは、1 つのデータフローにのみ含めることができます。違反すると、実行時にデータフローが停止します。
+特定のデータソースの特定のエンティティ（例えば、Account）のデータは、1 つのデータセットにのみ取り込むことができます。 各データセットは、1 つのデータフローにのみ含めることができます。違反は、実行時にデータフローを停止します。
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
@@ -106,8 +106,8 @@ Ultimate には CRM の直接接続がないので、アトリビューション
 
 ## 制限事項 {#limitations}
 
-* 現時点では、データ変換ルールで使用できるフィールドは制限されています。
-* 既存の階層 1／2／3 ユーザには移行パスはありません。新しい実装が必要ですが、アドビでは、トラッキング対象の web アクティビティデータを既存のインスタンスから移行するお手伝いをします。
+* データ変換ルールで使用できるフィールドには制限があります。
+* 既存の階層 1／2／3 ユーザには移行パスはありません。新しい実装が必要ですが、追跡対象の Web アクティビティデータを既存のインスタンスから移行する際に役立ちます。
 
 >[!MORELIKETHIS]
 >

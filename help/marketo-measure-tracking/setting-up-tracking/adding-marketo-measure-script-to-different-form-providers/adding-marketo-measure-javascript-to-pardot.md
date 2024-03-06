@@ -4,16 +4,16 @@ description: 追加中 [!DNL Marketo Measure] JavaScript をに設定 [!DNL Pard
 title: 追加中 [!DNL Marketo Measure] JavaScript をに設定 [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 0%
+source-wordcount: '225'
+ht-degree: 2%
 
 ---
 
 # 追加中 [!DNL Marketo Measure] JavaScript をに設定 [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
-[!DNL Pardot] フォームを使用するには、フォームテンプレート内でスクリプトを配置する以外の追加の処理が必要です。 [!DNL Marketo Measure] フォームの送信を認識するために使用されます。 この処理は簡単で、 [!DNL Marketo Measure] スクリプトを [!DNL Pardot] フォームテンプレート。
+[!DNL Pardot] フォームは、フォームテンプレート内で、スクリプトをサイトに配置する以外の追加の処理を行う必要があります。 [!DNL Marketo Measure] フォームの送信を認識するために使用されます。 この処理は簡単で、 [!DNL Marketo Measure] スクリプトを [!DNL Pardot] フォームテンプレート。
 
 ## 詳細な手順 {#step-by-step-instructions}
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. に移動します。 **[!UICONTROL マーケティング]**.
 
-1. クリック： **[!UICONTROL ランディングページ]**.
+1. 「**[!UICONTROL ランディングページ]**」をクリックします。
 
 1. 選択 **[!UICONTROL レイアウトテンプレート]**.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 次を確認します。 [!DNL Marketo Measure] JavaScript も一般的なサイトページにあります。
 
-   内 [!DNL Pardot] レイアウトテンプレートの場合、コードは次のようになります。
+   内 [!DNL Pardot] レイアウトテンプレートのコードは次のようになります。
 
 ```text
 <script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>
@@ -53,10 +53,10 @@ ht-degree: 0%
 
 `<base href="http://go.pardot.com">`
 
-_および_ IFrame 自体は、非セキュアなページ (HTTP) ではなく、セキュアなページ (HTTPS) 上にあります ( [!DNL Pardot] IFrame の場合、ブラウザーは HTTPS ページに HTTP バージョンのスクリプトを読み込もうとしますが、これは失敗し、トラッキングを妨げます。 解決策は、 [!DNL Pardot] セキュアバージョンのスクリプトを読み込むためのフレーム：
+_および_ IFrame 自体は、 [!DNL Pardot] IFrame の場合、ブラウザーは HTTPS ページでスクリプトの HTTP バージョンを読み込もうとしますが、これが失敗し、トラッキングが機能しなくなります。 解決策は、 [!DNL Pardot] 安全なバージョンのスクリプトを読み込むためのフレーム：
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-また、この領域には、既に他のトラッキングコードスニペット ( [!DNL Google Analytics] コード。 必ずセミコロンで区切ってください `;` 次の例のように、1 つのスペースを指定します。
+この領域には、例えば [!DNL Google Analytics] コード。 必ずセミコロンで区切ってください `;` 次の例のように、1 つのスペースを指定します。
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="othercode_example" src="otherfile_example.js" ></script>`
