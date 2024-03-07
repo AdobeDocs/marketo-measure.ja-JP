@@ -3,9 +3,9 @@ description: ウェブトラフィックダッシュボード — [!DNL Marketo 
 title: Web トラフィックダッシュボード
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '442'
 ht-degree: 6%
 
 ---
@@ -120,3 +120,4 @@ Web トラフィックダッシュボードは、サイトの訪問者のイン�
 * チャネル、サブチャネル
 * キャンペーン
 * URL
+* ページタイトル
