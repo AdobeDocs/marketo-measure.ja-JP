@@ -6,7 +6,7 @@ feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '737'
-ht-degree: 2%
+ht-degree: 91%
 
 ---
 
@@ -14,84 +14,84 @@ ht-degree: 2%
 
 ## 概要 {#overview}
 
-[!DNL Marketo Measure] は、との API 接続を提供します [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads]、およびLinkedIn これらの API 接続を使用すると、 [!DNL Marketo Measure] を使用して、広告プラットフォームから様々なデータを取り込み、購入者タッチポイントデータでレポートできます。 これらの API 接続の主な特長は、支出データを自動的に取り込む機能で、ROI レポートのデータを手動でアップロードするのに要する時間と労力を節約できる点です。 これらの API 接続の設定は、 [!DNL Marketo Measure] これらのチャネルを追跡するために役立ちますが、レポートを強化する貴重な詳細情報を提供します。
+[!DNL Marketo Measure] では、[!DNL Google AdWords]、[!DNL Microsoft Bing Ads]、[!DNL Facebook Ads]、LinkedIn との API 接続を提供します。これらの API 接続により、[!DNL Marketo Measure] では広告プラットフォームから様々なデータを取り込み、Buyer Touchpoint データでレポートできます。 これらの API 接続の主な機能は、支出データを自動的に取り込む機能で、ROI レポート用にデータを手動でアップロードするのにかかる時間と労力を節約できます。これらの API 接続の設定は、[!DNL Marketo Measure] でこれらのチャネルを追跡するために必須ではありませんが、レポートを強化する貴重な詳細情報を提供します。
 
-The [!DNL Marketo Measure] API 接続は、アカウントの非常に貴重な側面であり、アドビのベストプラクティスレコメンデーションは、お客様およびお客様のチームがアドビの接続を最大限に活用するのに役立ちます。
+[!DNL Marketo Measure] API 接続は、アカウントの非常に貴重な側面であり、アドビのベストプラクティスのレコメンデーションは、お客様とお客様のチームがアドビの接続を最大限に活用するのに役立ちます。
 
 ## ベストプラクティス {#best-practice}
 
 接続する広告プラットフォームに関係なく、次のガイドラインに留意する必要があります。
 
-* 管理者を使用した接続
-* 1 つのプラットフォームに対して複数の広告アカウントを接続できます
-* 可能な限り全ての広告アカウントを連携させて、支出のレポートを自動化します
-* 可能な場合は、常にトラッキングテンプレートを実装します。 このテンプレートは、広告アカウントが切断された場合でも、確実に [!DNL Marketo Measure] は、引き続き詳細な広告の詳細を取り込むことができます
+* 管理者を使用して接続します
+* 1 つのプラットフォームに複数の広告アカウントを接続できます
+* 可能なすべての広告アカウントを接続して、支出レポートを可能な限り自動化します
+* 可能な場合は、常にトラッキングテンプレートを実装します。このテンプレートにより、広告アカウントを切断した場合でも、[!DNL Marketo Measure] ではきめ細かい広告の詳細を取り込むことができます。
 
 それぞれを最適化するには [!DNL Marketo Measure] API は、次のベストプラクティスに従っています。
 
 **[!DNL Facebook]**：自動タグ付けを使用した接続
 
-自動タグ付けを有効にする前に、広告履歴を csv に書き出します。 自動タグ付けを有効にすると、 [!DNL Marketo Measure].
+自動タグ付けを有効にする前に、広告履歴を CSV に書き出します。自動タグ付けを有効にすると、[!DNL Marketo Measure] によってタグ付けされたすべての広告のコンバージョン履歴と社会的証明がリセットされます。
 
-ベストプラクティスの推奨事項に従うことで、 [!DNL Marketo Measure] [!DNL Facebook] API では、次のことが可能になります。
+ベストプラクティスのレコメンデーションに従うことで、[!DNL Marketo Measure] [!DNL Facebook] API では次の操作を実行できます。
 
-* すべて自動タグ付け [!DNL Facebook] 必要な広告 [!DNL Marketo Measure] パラメーター `_bf ={creative}`
-* すべてのアクティブな広告コスト情報をダウンロード [!DNL Facebook] 広告
-
->[!NOTE]
->
->次のトラッキングテンプレートはありません： [!DNL Facebook]の場合、API は広告の詳細を収集するために、自動タグ付け (_bf) パラメーターに依存します。
-
-**AdWords**：アカウントレベルでトラッキングテンプレートを実装し、自動タギングを有効にします。
-
-[!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベル、広告グループレベルのトラッキングテンプレートを使用することをお勧めします。広告履歴の中断や削除のリスクを伴わずに、すべての広告のパラメーターの追加と減算が可能になるからです。
-
-ベストプラクティスの推奨事項に従うことで、 [!DNL Marketo Measure] AdWords API は次のことを可能にします。
-
-* すべての AdWords 広告に [!DNL Marketo Measure] パラメーター `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}`
-* すべてのアクティブな AdWords 広告にわたる広告コスト情報のダウンロード
-
-**Bing**：アカウントレベルでトラッキングテンプレートを実装し、自動タギングを有効にします。
-
-を設定する際に、広告履歴が失われるリスクはありません。 [!DNL Bing] 他の一部の API 接続とは異なり、API 接続です。
-
-ベストプラクティスの推奨事項に従うことで、 [!DNL Marketo Measure] Bing API では、次のことが可能になります。
-* 次のパラメーターを使用して、すべての Bing Ads に自動タグ付けする `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
-* すべてのアクティブな Bing 広告にわたる広告コスト情報のダウンロード
-
-**LinkedIn**：自動タグ付けを使用した接続
-
-自動タグ付けを有効にすると、共有が再作成され、新しいクリエイティブに配置されます。古いクリエイティブはアーカイブされます。
-
-ベストプラクティスの推奨事項に従うことで、 [!DNL Marketo Measure] LinkedIn API では、次のことが可能になります。
-
-* 必要に応じて、広告タイプがスポンサー付きコンテンツであるすべてのLinkedIn広告に自動タグ付けします [!DNL Marketo Measure] parameter_bl={creativeId}. このパラメーターはクリエイティブ ID を取り込み、 [!DNL Marketo Measure] をクリックして、キャンペーンとクリエイティブの情報を解決します。
-* アクティブでサポートされているすべてのコスト情報をダウンロード [!DNL LinkedIn] 広告
+* すべての [!DNL Facebook] Ads に必要な [!DNL Marketo Measure] パラメーター `_bf ={creative}` を自動タグ付けする
+* すべてのアクティブな [!DNL Facebook] Ads にわたる広告コスト情報をダウンロードする
 
 >[!NOTE]
 >
->次のトラッキングテンプレートはありません： [!DNL LinkedIn]の場合、API は自動タグ付け (_bl) パラメーターに基づいて、可能なすべての広告の詳細を収集します。
+>[!DNL Facebook] にはトラッキングテンプレートがありません。API は自動タグ付き（_bf）パラメーターに依存して広告の詳細を収集します。
+
+**AdWords**：アカウントレベルでトラッキングテンプレートを実装し、自動タグ付けを有効にする
+
+[!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベルまたは広告グループレベルのトラッキングテンプレートを使用することをお勧めします。これにより、広告履歴の中断や削除のリスクなしに、すべての広告のパラメーターを追加および削除できます。
+
+ベストプラクティスのレコメンデーションに従うことで、[!DNL Marketo Measure] AdWords API では次の操作を実行できます。
+
+* すべての AdWords 広告に [!DNL Marketo Measure] パラメーターの `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}` を自動タグ付けする
+* 有効なすべての AdWords 広告の広告費用情報をダウンロードする
+
+**Bing**：アカウントレベルでトラッキングテンプレートを実装し、自動タグ付けを有効にする
+
+他の API 接続とは異なり、[!DNL Bing] API 接続を設定する際に広告履歴が失われるリスクはありません。
+
+ベストプラクティスのレコメンデーションに従うことで、[!DNL Marketo Measure] Bing API では次の操作を実行できます。
+* `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}` のパラメーターを使用して、すべての Bing Ads に自動タグ付けする
+* すべてのアクティブな Bing Ads をまたいだ広告コスト情報をダウンロードする
+
+**LinkedIn**：自動タグ付けを使用して接続
+
+自動タグ付けを有効にすると、共有が再作成され、新しいクリエイティブに配置され、古いクリエイティブがアーカイブされます。
+
+ベストプラクティスのレコメンデーションに従うことで、[!DNL Marketo Measure] LinkedIn API では次の操作を実行できます。
+
+* 広告タイプがスポンサー付きコンテンツであるすべての LinkedIn 広告に、必要な [!DNL Marketo Measure] パラメーター _bl={creativeId} を自動タグ付けする。このパラメーターではクリエイティブ ID を取り込み、[!DNL Marketo Measure] でキャンペーンとクリエイティブ情報を解決できます。
+* すべてのアクティブな、サポートされている [!DNL LinkedIn] 広告の広告コスト情報をダウンロードする
+
+>[!NOTE]
+>
+>[!DNL LinkedIn] にはトラッキングテンプレートがありません。API は自動タグ付き（_bl）パラメーターに依存して、考えられるすべての広告の詳細を収集します。
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
-アドビのベストプラクティスに従えば、接続が切断された場合にデータが失われるのを防ぐことができますが、接続を毎月、可能な限り定期的に確認することをお勧めします。 これは、 [!UICONTROL 接続] 」セクションに [!DNL Marketo Measure] アプリを使用して、赤いキーアイコンが存在しないことを確認し、接続解除されたアカウントを通知します。
+アドビのベストプラクティスに従うことで、接続を切断した場合でもデータの損失を防ぐことができますが、定期的に（可能であれば毎月）接続を確認することをお勧めします。[!DNL Marketo Measure] アプリの「[!UICONTROL 接続]」セクションで、アカウントが切断されていることを示す赤いキーアイコンが表示されていないことを確認します。
 
-API 接続アカウントが切断された場合、 [!DNL Marketo Measure] では、支出データを取り込んだり、新しい広告にタグを付けたりすることはできません。 可能な場合は、トラッキングテンプレートを常に実装することをお勧めするのは、そのためです。 このテンプレートは、広告アカウントが切断された場合でも、確実に [!DNL Marketo Measure] は、引き続き広告にタグを付け、詳細な広告の詳細を取り込むことができます。 再接続すると、支出データがバックフィルされ、有料チャネルレポートの中断が最小限に抑えられます。
+API に接続されたアカウントを切断すると、[!DNL Marketo Measure] では支出データを取り込んだり、新しい広告にタグを付けたりすることができません。このため、可能であればトラッキングテンプレートを実装することを常にお勧めします。このテンプレートにより、広告アカウントを切断した場合でも、[!DNL Marketo Measure] では引き続き広告にタグを付け、きめ細かい広告の詳細を取り込むことができます。再接続すると、支出データがバックフィルされ、有料チャネルのレポートへの中断は最小限に抑えられます。
 
-切断と再認証の理由には次のものが含まれます。
+切断と再認証の理由には、次のものが含まれます。
 
-* 接続している担当者アカウントに対するパスワードの変更
-* その人はもう会社にいません
+* 接続されている個人取引先のパスワードの変更
+* そのユーザが会社に存在していない
 * API の更新
 
 チームで上記のシナリオのいずれかが発生している場合は、 [!DNL Marketo Measure] 再認証が必要ないことを確認するアプリケーションです。
 
 >[!MORELIKETHIS]
 >
->* [統合広告プラットフォーム (API)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [入札管理ツールが及ぼす影響 [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
->* [[!DNL Marketo Measure] API パラメーターの説明](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
+>* [統合された広告プラットフォーム（API）](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
+>* [入札管理ツールの  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md) への影響
+>* [[!DNL Marketo Measure]  API パラメーターの説明](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Facebook API の概要](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
->* [[!DNL LinkedIn] 統合の概要](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
+>* [[!DNL LinkedIn]  統合の概要](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
 >* [AdWords 統合の概要](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
 >* [接続された API アカウントの再認証](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)

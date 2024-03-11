@@ -1,68 +1,68 @@
 ---
 unique-page-id: 18874608
 description: "[!DNL Marketo Measure] パラメーター — [!DNL Marketo Measure]"
-title: '"[!DNL Marketo Measure] パラメーター»'
+title: 「[!DNL Marketo Measure] パラメーター」
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 0%
+ht-degree: 99%
 
 ---
 
 # [!DNL Marketo Measure] パラメーター {#marketo-measure-parameters}
 
-## [!DNL Marketo Measure] パラメータの説明 {#marketo-measure-parameters-explained}
+## [!DNL Marketo Measure] パラメーターの説明 {#marketo-measure-parameters-explained}
 
-UTM の使用からより深い洞察を得るには、 [!DNL Marketo Measure] で広告にカスタムパラメーターを追加します。 [!DNL Google] AdWords、Bing Ads および [!DNL Facebook] 広告。 [!DNL Marketo Measure] は、これらのプラットフォームと統合されており、ほとんどの設定プロセスを自動化します。 自動タグ付けの使用を選択した場合、 [!DNL Marketo Measure] は、広告の URL に自動的にパラメーターを追加します。 [!DNL Marketo Measure] また、は、プラットフォームからマーケティングコストを自動的にダウンロードし、 [!DNL Marketo Measure] アプリを使用します。
+UTM の使用からさらにインサイトを取得するために、[!DNL Marketo Measure] では [!DNL Google] AdWords、Bing Ads、[!DNL Facebook] Ads の広告にカスタムパラメーターを追加します。[!DNL Marketo Measure] では、これらのプラットフォームと統合して、ほとんどの設定プロセスを自動化します。自動タグ付けの使用を選択した場合、[!DNL Marketo Measure] ではそのパラメーターを広告の URL に自動的に追加します。また、[!DNL Marketo Measure] では、マーケティングコストをプラットフォームから自動的にダウンロードし、[!DNL Marketo Measure] アプリに読み込みます。
 
-パラメーターのない URL の例：
+パラメーターを含まない URL の例：
 
 `http://adobe.com/landing-page?myParam=foo`
 
-を含む URL の例 [!DNL Marketo Measure] パラメータ：
+[!DNL Marketo Measure] パラメーターを含む URL の例：
 
 `http://adobe.com/landing-page?myParam=foo&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
 ## AdWords パラメーター {#adwords-parameters}
 
 * `_bk={keyword}`
-   * 検索エンジンで使用された人物のキーワードを表します。
-   * これは、UTM 用語パラメーターに似ています。
+   * ユーザが検索エンジンで使用したキーワードを表します。
+   * UTM 用語パラメーターに似ています。
 
 * `_bt={creative}`
    * クリエイティブ ID または名前を表します。
-   * これは、UTM コンテンツパラメーターに似ています。
+   * UTM コンテンツパラメーターに似ています。
 
 * `_bm={matchtype}`
-   * キーワードがどの程度近くに一致したかを表します。
-   * キーワード一致タイプは、広告のトリガー検索を制御するのに役立ちます。 例えば、広告を広範なオーディエンスに対して表示する場合は部分一致を使用し、特定の顧客グループに対しては完全一致を使用します。
-   * 部分一致、あいまい一致、正確一致の 3 つのタイプがあります。
+   * キーワードの一致レベルを表します。
+   * キーワード一致タイプは、広告をトリガーする検索を制御するのに役立ちます。例えば、部分一致を使用して広範なオーディエンスに広告を表示することや、完全一致を使用して特定の顧客グループに絞り込むことができます。
+   * 部分一致、あいまい一致、完全一致の 3 つの一致タイプがあります。
 
 >[!TIP]
 >
->一致タイプの詳細は、次のとおりです。 [関連する AdWords の記事を以下に示します。](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
+>一致タイプについて詳しくは、[こちらにある関連する AdWords の記事](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"}を参照してください。
 
 * `_bn={network}`
-   * 広告ネットワークタイプを表します — [表示または検索](https://support.google.com/adwords/answer/1752334?hl=en){target="_blank"}.
-   * これは、UTM Source パラメーターに似ています。
+   * 広告ネットワークのタイプ（[表示または検索](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"}）を表します。
+   * UTM ソースパラメーターに似ています。
 
 * `_bg={adgroupID}`
    * 広告が属する広告グループの ID を表します
 
 >[!NOTE]
 >
->リダイレクト URL パラメーターはサポートされていません。
+>リダイレクト URL パラメーターはサポートしていません。
 
-## Bing Ads のパラメーター {#bing-ads-parameters}
+## Bing Ads パラメーター {#bing-ads-parameters}
 
 * `_bt={adid}`
 * `utm_medium=cpc`
 * `utm_source=bing`
 * `utm_term={keyword}`
 
-## Facebook Parameters {#facebook-parameters}
+## Facebook パラメーター {#facebook-parameters}
 
 * `_bf ={creative}`
    * クリエイティブ ID または名前を表します

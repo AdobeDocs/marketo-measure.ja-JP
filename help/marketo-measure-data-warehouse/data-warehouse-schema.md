@@ -7,7 +7,7 @@ feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '21110'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -3045,7 +3045,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-データ統合から生成されたAttribution AI。 これらのフィールドは、Marketo Measure Ultimate のお客様向けにのみ入力されます。
+Attribution AI の統合から生成されたデータ。以下のフィールドは、Marketo Measure Ultimate のお客様に対してのみ入力されます。
 
 <table>
 <thead>
@@ -3060,13 +3060,13 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   <tr>
     <td>CONVERSION_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>コンバージョン日</td>
+    <td>コンバージョンの日付</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>CONVERSION_NAME</td>
     <td>varchar</td>
-    <td>コンバージョンイベントの名前（UI 設定で顧客が指定）</td>
+    <td>コンバージョンイベントの名前（UI 設定でお客様が指定）</td>
     <td> </td>
   </tr>
   <tr>
@@ -3078,8 +3078,8 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>コンバージョンイベントの元の MM イベント ID 
-    <br>ユーザーのタッチポイントまたはステージトランジションにマッピングされます</td>
+    <td>コンバージョンイベントの元の MM イベント ID
+    <br>ユーザのタッチポイントまたはステージトランジションにマッピングされます</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3097,21 +3097,21 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>コンバージョンイベントの元の MM リード ID <br>ほとんどの時間はヌルになりそうだ</td>
+    <td>コンバージョンイベントの元の MM リード ID <br>ほとんどの場合 null になる可能性が高い</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>コンバージョンイベントの元の MM 連絡先 ID
-    <br>ほとんどの時間はヌルになりそうだ</td>
+    <td>コンバージョンイベントの元の MM 取引先責任者 ID
+    <br>ほとんどの場合 null になる可能性が高い</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_TYPE</td>
     <td>varchar</td>
-    <td>コンバージョンイベントのタイプ（b2b =リードコンバージョン、b2c =オポチュニティコンバージョン）</td>
-    <td>b2b</td>
+    <td>コンバージョンイベントのタイプ（B2B = リードコンバージョン、B2C = 商談コンバージョン）</td>
+    <td>B2B</td>
   </tr>
   <tr>
     <td>SCORE_DATE</td>
@@ -3120,7 +3120,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
-    <td>INFLUCED_PERCENT</td>
+    <td>INFLUENCED_PERCENT</td>
     <td>number(38,35)</td>
     <td>各タッチポイントが関与するコンバージョンの割合</td>
     <td>0.10</td>
@@ -3134,67 +3134,67 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   <tr>
     <td>TOUCHPOINT_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>タッチポイントまたはステージの移行日</td>
+    <td>タッチポイントまたはステージトランジションの日付</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
     <td>varchar</td>
-    <td>タッチポイントを生成したイベントの id</td>
+    <td>タッチポイントを生成したイベントの ID</td>
     <td>00U3100000VLUnEEAX</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_OPPORTUNITY_ID</td>
     <td>varchar</td>
-    <td>タッチポイントに関連付けられたオポチュニティの ID</td>
+    <td>タッチポイントに関連付けられた商談の ID</td>
     <td>0060Z00000lFHtOQAW</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_ACCOUNT_ID</td>
     <td>varchar</td>
-    <td>タッチポイントに関連付けられているアカウントの id</td>
+    <td>タッチポイントに関連付けられたアカウントの ID</td>
     <td>0013100001kpAZxAAM</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_LEAD_ID</td>
     <td>varchar</td>
-    <td>タッチポイントに関連付けられたリードの id</td>
+    <td>タッチポイントに関連付けられたリードの ID</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_CONTACT_ID</td>
     <td>varchar</td>
-    <td>タッチポイントに関連付けられた連絡先の id</td>
+    <td>タッチポイントに関連付けられた取引先責任の ID</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>COUNT_TO_CONVERSION</td>
     <td>number(38,0)</td>
-    <td>コンバージョンイベントにつながるチェーン内のタッチポイントのランクまたは序数</td>
+    <td>コンバージョンイベントにつながるチェーン内のタッチポイントのランクまたは序数値</td>
     <td>10000</td>
   </tr>
   <tr>
     <td>AAI_SOURCE_ID</td>
     <td>varchar</td>
-    <td>attribution ai ソーステーブルの外部キー</td>
+    <td>Attribution AI ソーステーブルの外部キー</td>
     <td> </td>
   </tr>
   <tr>
     <td>_CREATED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>レコードがSnowflakeで作成された日付</td>
+    <td>Snowflake でレコードを作成した日付</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_MODIFIED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>レコードが最後に変更された日付 (Snowflake)</td>
+    <td>Snowflake でレコードを最後に変更した日付</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_DELETED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>レコードがSnowflakeで削除された日付</td>
+    <td>Snowflake でレコードを削除した日付</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
 </tbody>
@@ -7065,7 +7065,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>ISP_NAME</p>
       </td>
       <td>varchar</td>
-      <td>フィールドは古いので、null にする必要があります。</td>
+      <td>フィールドは古いので、null であることが予想されます。</td>
       <td>NULL</td>
     </tr>
     <tr>
@@ -10432,7 +10432,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
         <p>ISP_NAME</p>
       </td>
       <td>varchar</td>
-      <td>フィールドは古いので、null にする必要があります。</td>
+      <td>フィールドは古いので、null であることが予想されます。</td>
       <td>
         <p>NULL</p>
       </td>
