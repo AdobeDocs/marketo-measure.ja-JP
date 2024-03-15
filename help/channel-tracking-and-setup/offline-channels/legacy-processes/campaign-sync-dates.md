@@ -4,9 +4,9 @@ description: キャンペーン同期日 — [!DNL Marketo Measure]
 title: キャンペーンの同期日
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '486'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,3 @@ ht-degree: 1%
 新規の [!DNL Marketo Measure] のお客様は、SFDC キャンペーン経由で追跡したマーケティングデータの一部を取り込みたい場合があります。 ただし、オンライン SFDC キャンペーンに対してタッチポイントを有効にする場合は、以降、アトリビューションの二重カウントの問題が発生する可能性があります。 [!DNL Marketo Measure] は、オンラインマーケティング活動のタッチポイントを自動的に作成しています。 データの二重カウントを避けるために、Campaign タッチポイントの終了日を使用して、 [!DNL Marketo Measure] を SFDC キャンペーンに設定します。 例えば、SFDC で追跡していたソーシャルキャンペーンに遡及的なコンバージョンを追加する場合は、 [!DNL Marketo Measure] 7 月 1 日に（オンラインタッチポイントを作成している）JavaScript を編集し、Social SFDC キャンペーンを編集して、7 月 1 日と等しいタッチポイント終了日を含め、そのキャンペーンの購入者タッチポイントを有効にできます。
 
 タッチポイントの終了日に関しては、他にも多くの使用例が考えられます。 特定の状況を見つけ出すのに役立つ場合は、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
-
->[!MORELIKETHIS]
->
->[[!DNL Marketo Measure] 大学：キャンペーンおよびキャンペーンメンバーフィールド](https://learn.bizible.com/2-bizible-customization/137720https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)

@@ -4,7 +4,7 @@ description: 購入者属性タッチポイントを持つ商談または持た�
 title: Buyer Attribution Touchpoints を含む／含まない商談のレポート
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 22%
@@ -41,4 +41,4 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] 大学：追加の SFDC レポート](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cd0)
+>[[!DNL Marketo Measure] Tutorials：その他の SFDC レポート](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
