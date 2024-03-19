@@ -3,9 +3,9 @@ description: エラー通知 — [!DNL Marketo Measure]
 title: エラー通知
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
+source-git-commit: 20f886a0c6f448956ad2fda2d21a25f8d9a5a6af
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1692'
 ht-degree: 30%
 
 ---
@@ -13,6 +13,10 @@ ht-degree: 30%
 # エラー通知 {#error-notifications}
 
 以下に、アプリ内通知または電子メールで受け取る可能性のあるエラーのリストを示します。 これらのいずれかを受け取った場合は、それぞれのトラブルシューティング手順に従ってください。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
+
+完全な通知メッセージを表示するには、以下を参照してください： [!DNL Marketo Measure]をクリックし、 **すべて表示** をクリックします。
+
+![](assets/error-notifications-1.png)
 
 <table>
   <tbody>
@@ -49,7 +53,7 @@ ht-degree: 30%
             </li>
           </ul>
           <p>
-           <img src="assets/error-notifications-1.png">
+           <img src="assets/error-notifications-2.png">
           </p>
       </td>
     </tr>
@@ -87,27 +91,17 @@ ht-degree: 30%
       <td>DUPLICATES_DETECTED</td>
       <td>CRM エクスポート中にエラーが発生しました： DUPLICATES_DETECTED ：エンティティタイプ「連絡先」: CRM ErrorCode : DUPLICATES_DETECTED, CRM ErrorMessage ：重複レコードを作成しています。 代わりに既存のレコードを使用することをお勧めします。RecordId: 0123456</td>
       <td>Salesforce 組織にインポートされるレコードは既に存在します。</td>
-      <td>
-        <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">「ルールの複製」設定を無効にする</a> 重複を許可する場合。
-          </li>
-          <li>Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.
-          </li>
-        </ul>
-      </td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">「ルールの複製」設定を無効にする</a> 重複を許可する場合。
+          <p>
+          Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
       <td>CRM エクスポート中にエラーが発生しました： DUPLICATE_VALUE ：エンティティタイプ「リード」: CRM ErrorCode : DUPLICATE_VALUE、CRM ErrorMessage ：重複値が見つかりました： Email_Unique__c ID: 456 のレコードの値を複製します</td>
       <td>Salesforce 組織にインポートされるフィールドでは、値の重複は許可されていません。</td>
-      <td>
-        <ul>
-          <li>をオフにします。 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"一意のチェックボックス"</a> Salesforce 内。
-          </li>
-          <li>Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.
-          </li>
-        </ul>
-      </td>
+      <td>をオフにします。 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"一意のチェックボックス"</a> Salesforce 内。
+          <p>
+          Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
