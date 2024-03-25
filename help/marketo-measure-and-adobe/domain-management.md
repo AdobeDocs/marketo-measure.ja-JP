@@ -3,7 +3,7 @@ description: ドメイン管理 — [!DNL Marketo Measure]
 title: ドメインの管理
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 4c68fa08797c252a89ba097c723fb8afee82451f
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有�
 
 ![](assets/domain-management-1.png)
 
-ドメインの追加手順については、 [Admin Console文書](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). ドメインを追加した後は、 [ディレクトリにリンクされています](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+ドメインの追加手順については、 [Admin Console文書](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). ドメインを追加した後は、 [ディレクトリにリンクされています](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## でのドメインの管理 [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
