@@ -3,9 +3,9 @@ description: Discover ダッシュボードの基本 — [!DNL Marketo Measure] 
 title: Discover ダッシュボードの基本
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 2%
 # Discover ダッシュボードの基本 {#discover-dashboard-basics}
 
 この記事では、再設計されたインターフェイスの基本的な機能を説明し、データに容易にアクセスし、解釈できるようにします。 フィルタ・ペインの動的な詳細を調べ、ドリル機能、クロス・フィルタ、ツールチップなど、強化されたレポート機能の複雑さを明らかにします。
-
->[!NOTE]
->
->このダッシュボードは現在ベータ版です。 この移行フェーズでは、現在のダッシュボードと新しいダッシュボードの両方にアクセスできるようになります。 完全に切り替え、最適な機能を確保すると、現在のダッシュボードは非推奨となります。
 
 ## フィルターウィンドウ {#filter-pane}
 

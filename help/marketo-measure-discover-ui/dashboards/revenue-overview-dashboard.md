@@ -3,20 +3,16 @@ description: 収益の概要ダッシュボード — [!DNL Marketo Measure]  �
 title: 収益の概要ダッシュボード
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
 # 収益の概要ダッシュボード {#revenue-overview-dashboard}
 
 売上高の概要ダッシュボードは、CRM から得られる総売上高に関するインサイトを提供し、マーケティング戦略の役割を明らかにします。 マーケティングが全体的な売上高に与える影響と、契約の成功の終了にどのように貢献しているかに関する概要を提供します。
-
->[!NOTE]
->
->このダッシュボードは現在ベータ版です。 この移行フェーズでは、現在のダッシュボードと新しいダッシュボードの両方にアクセスできるようになります。 完全に切り替え、最適な機能を確保すると、現在のダッシュボードは非推奨となります。
 
 **取締役会の回答に関する質問：**
 

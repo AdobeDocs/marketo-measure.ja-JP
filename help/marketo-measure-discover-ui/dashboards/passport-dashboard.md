@@ -3,20 +3,16 @@ description: Passport ダッシュボード — [!DNL Marketo Measure]  — 製�
 title: パスポートダッシュボード
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 2%
+source-wordcount: '299'
+ht-degree: 3%
 
 ---
 
 # パスポートダッシュボード {#passport-dashboard}
 
 Passport ダッシュボードを使用すると、マーケターは、指定した期間内に様々なステージに移行するリード、連絡先、商談の動的なビューを提供できます。 特定の日付に対してフィルターを適用すると、その日のレコードのスナップショットを取得することもできます。
-
->[!NOTE]
->
->このダッシュボードは現在ベータ版です。 この移行フェーズでは、現在のダッシュボードと新しいダッシュボードの両方にアクセスできるようになります。 完全に切り替え、最適な機能を確保すると、現在のダッシュボードは非推奨となります。
 
 **取締役会の回答に関する質問：**
 

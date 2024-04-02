@@ -3,9 +3,9 @@ description: ROI ダッシュボード — [!DNL Marketo Measure]  — 製品
 title: ROI ダッシュボード
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '725'
 ht-degree: 3%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 3%
 # ROI ダッシュボード {#roi-dashboard}
 
 ROI ダッシュボードは、チャネル、サブチャネル、キャンペーン全体の投資収益率の詳細なビューをマーケターに提供します。 また、コストと売上高のパターンを細かく分類し、リードあたりのコスト、取引、商談などの指標に注目して、マーケティング属性を包括的に把握します。
-
->[!NOTE]
->
->このダッシュボードは現在ベータ版です。 この移行フェーズでは、現在のダッシュボードと新しいダッシュボードの両方にアクセスできるようになります。 完全に切り替え、最適な機能を確保すると、現在のダッシュボードは非推奨となります。
 
 **役員会の回答に関する質問**
 
