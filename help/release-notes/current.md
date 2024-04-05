@@ -3,7 +3,7 @@ description: 最新のリリースノート — [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 4a3b8a1df9d8a675d977b08693b9d7facb64bc02
+source-git-commit: 81ce4ead229e461eeb9e6e3b1e951108b627a4e8
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
@@ -45,3 +45,4 @@ _移行のサポート_
 **linkedIn統合に必要なアクション**
 
 LinkedInは最近、リード同期 API の更新バージョンをリリースしました。 中断を回避するため、5 月 20 日までにMarketo MeasureインスタンスのLinkedIn接続を再認証してください。
+
