@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] 究極のデータ整合性要件 — [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement - [!DNL Marketo Measure]'
 title: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件」
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] は、受信 AEP データセットを検証し、データが十分で一貫性があることをアトリビューションに対して確認します。 データの整合性要件を満たさないと、データセットが [!DNL Marketo Measure] システム。 このドキュメントでは、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドに対する解決策をお勧めします。
+[!DNL Marketo Measure] 受信 AEP データセットを検証し、アトリビューションに適した十分なデータ量のデータが一貫性があることを確認します。 データ整合性要件を満たすことができないと、データセットが次によって拒否されます： [!DNL Marketo Measure] システム。 この記事では、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドのソリューションを推奨します。
 
 ## エンティティオブジェクト {#entity-object}
 
@@ -37,7 +37,7 @@ ht-degree: 95%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： 123@999-abc-888.Marketo</td>
+      <td>例：123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -365,7 +365,7 @@ ht-degree: 95%
       <td>文字列</td>
       <td></td>
       <td>はい</td>
-      <td>例： 333@999-abc-888.Marketo</td>
+      <td>例：333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ ht-degree: 95%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例えば、333 は、データソーステーブルに応じて、リード ID または連絡先 ID です。</td>
+      <td>例：333 は、データソーステーブルに応じて、リード ID または連絡先 ID のどちらかです</td>
     </tr>
     <tr>
       <td></td>
@@ -1105,7 +1105,7 @@ ht-degree: 95%
   </tbody>
 </table>
 
-上記の表でサポートされていないイベントタイプに対して、「関心を引くモーメント」イベントタイプを使用します。サブタイプ「注目のアクション」を示すカスタムフィールドを追加します。
+上記の表でサポートされていないイベントタイプに対して、「関心を引くモーメント」イベントタイプを使用します。サブタイプ「興味深い瞬間」を示すカスタムフィールドを追加します。
 
 ## データ検査のクエリ例 {#query-examples-for-data-inspection}
 
