@@ -5,19 +5,19 @@ title: Marketo Measure フレームワーク
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 # Marketo Measure フレームワーク {#marketo-measure-framework}
 
-Marketo Measure フレームワークを構成する 4 つのメインコンポーネントについて詳しく説明します。Marketo Measure は、これらのアプリケーションに依存して、データをトラッキング、整理および保管し、レポート機能を提供します。Marketo Measureのフレームワークを構成する 4 つのコンポーネントは、次のとおりです。
+Marketo Measure フレームワークを構成する 4 つのメインコンポーネントについて詳しく説明します。Marketo Measure は、これらのアプリケーションに依存して、データをトラッキング、整理および保管し、レポート機能を提供します。以下に、Marketo Measure のフレームワークを構成する 4 つのコンポーネントを示します。
 
-* Marketo Measure JavaScript の使用
+* Marketo Measure の JavaScript
 * CRM 統合
-* サードパーティのアプリケーション/システム
+* サードパーティのアプリケーション／システム
 * Marketo Measure アプリケーション
 
 ## Marketo Measure JavaScript {#marketo-measure-javascript}
@@ -28,9 +28,9 @@ Marketo Measure JavaScript は、見込み客／リードがお客様の組織�
 
 >[!NOTE]
 >
->Marketo Measure JS の追加方法については、 [ここをクリック](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Marketo Measure JS の追加方法について詳しくは、[こちらを参照](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)してください。
 
-Marketo Measureの JS は、Web 訪問（匿名の Web 訪問を含む）、一般的なトラフィック/ページナビゲーション、コンテンツのダウンロード、フォーム送信からデータを取り込みます。 このデータは、お使いの CRM にプッシュされ、各マーケティングインタラクションがタッチポイントとして表示されます。
+Marketo Measure JS は、web 訪問（匿名の web 訪問を含む）、一般的なトラフィック／ページナビゲーション、コンテンツのダウンロード、フォームの送信からのデータを取得します。このデータは、お使いの CRM にプッシュされ、各マーケティングインタラクションがタッチポイントとして表示されます。
 
 ## CRM 統合 {#crm-integrations}
 
@@ -38,7 +38,7 @@ Marketo Measure は、CRM と統合され、Marketo Measure JS によって取�
 
 ![](assets/1-2.png)
 
-CRM でMarketo Measureのデータを表示することで、各タッチポイントに関する詳細な情報を確認し、レポートを生成して、チャネルのパフォーマンスを把握できます。
+Marketo Measure データをお使いの CRM で表示することで、各タッチポイントに関連する詳細な情報を確認したり、チャネルのパフォーマンスを把握するためのレポートを生成したりできます。
 
 ## サードパーティアプリケーション {#third-party-applications}
 
@@ -54,12 +54,12 @@ Marketo Measure アプリケーションは、アトリビューションデー�
 
 **アカウント構成**
 
-ここで、会社の一般情報を更新し、Marketo Measure JavaScript にアクセスできます。
+ここでは、会社の一般情報を更新したり、Marketo Measure JavaScript にアクセスしたりできます。
 
 **設定**
 
-このメニュー項目を使用すると、アトリビューションとチャネルマッピングの設定、CRM およびサードパーティアプリケーションとの統合の管理、Marketo Measureアカウントユーザーの表示/追加、請求情報の更新をおこなうことができます。
+このメニュー項目を使用すると、アトリビューションやチャネルマッピングを設定したり、CRM やサードパーティアプリケーションとの統合を管理したり、Marketo Measure アカウントユーザーを表示／追加したり、請求情報を更新したりできます。
 
 **Marketing ROI ダッシュボード**
 
-マーケティング ROI ダッシュボードのメニュー項目を使用すると、チャネルのパフォーマンス、アクティビティ、コストの観点からデータを視覚化できます。
+Marketing ROI ダッシュボードメニュー項目では、チャネルパフォーマンス、アクティビティおよびコストに関してデータを視覚化します。

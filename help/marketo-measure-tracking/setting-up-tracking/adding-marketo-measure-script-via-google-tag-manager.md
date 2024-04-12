@@ -1,25 +1,25 @@
 ---
 unique-page-id: 18874797
-description: 追加中 [!DNL Marketo Measure] スクリプト経由 [!DNL Google Tag Manager] - [!DNL Marketo Measure]
+description: ' [!DNL Google Tag Manager]  経由での  [!DNL Marketo Measure]  スクリプトの追加 - [!DNL Marketo Measure]'
 title: ' [!DNL Google Tag Manager] 経由での  [!DNL Marketo Measure]  スクリプトの追加'
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
 # [!DNL Google Tag Manager] 経由での [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-via-google-tag-manager}
 
-をインストールする際に [!DNL Marketo Measure] JavaScript の場合は、 [スクリプトのハードコーディング](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} をサイトに直接挿入します。 不可能な場合は、 [!DNL Google Tag Manager] (GTM) を使用して [!DNL Marketo Measure] JS. 注意： [!DNL Marketo Measure] GTM を介して読み込まれる JS は、遅延の影響を受けやすくなります。 遅延によりスクリプトの読み込み時間に遅延が生じ、その結果、すべてのフォーム送信の約 3～5％が失われる可能性があります。
+[!DNL Marketo Measure] JavaScript をインストールする場合は、サイトに直接[スクリプトをハードコード](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"}することをお勧めします。不可能な場合は、[!DNL Google Tag Manager]（GTM）を使用して [!DNL Marketo Measure] JS を読み込むこともできます。GTM 経由で読み込んだ [!DNL Marketo Measure] JS は待ち時間の影響を受けやすいことに注意してください。遅延によりスクリプトの読み込み時間に遅延が生じ、その結果、すべてのフォーム送信の約 3～5％が失われる可能性があります。
 
-GTM を使用してスクリプトを追加する場合は、 [!DNL Marketo Measure] スクリプトを実行順序で最も優先度が高く、 [!DNL Marketo Measure] タグを使用して、GTM の遅延による影響を軽減します。
+GTM 経由でスクリプトを追加する場合は、GTM の待ち時間による影響を軽減するために、[!DNL Marketo Measure] スクリプトを実行順序で最高の優先度に設定し、[!DNL Marketo Measure] タグの前に同期スクリプトがないことを確認してください。
 
 >[!NOTE]
 >
->使用方法 [Googleの支援記事](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"} を参照してください。
+>詳しくは、この [Google によるサポート記事](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"}を参照してください。
 
 ## [!DNL Google Tag Manager] 経由での [!DNL Marketo Measure] JS の追加方法 {#how-to-add-marketo-measure-js-via-google-tag-manager}
 
@@ -31,4 +31,4 @@ GTM を使用してスクリプトを追加する場合は、 [!DNL Marketo Meas
 
 1. 「**[!UICONTROL 実行ルールを追加]**」をクリックします。これにより、*すべてのページ*&#x200B;にスニペットを読み込むように Google に指示できます。
 
-1. 左側の「コンテナドラフトの概要」セクションに移動します。「 」ボタンをクリックして、コンテナのバージョンを作成し、変更を公開します。
+1. 左側の「コンテナドラフトの概要」セクションに移動します。ボタンをクリックしてコンテナのバージョンを作成し、変更を公開します。

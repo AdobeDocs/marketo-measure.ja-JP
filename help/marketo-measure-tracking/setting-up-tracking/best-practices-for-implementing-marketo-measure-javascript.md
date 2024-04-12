@@ -1,12 +1,12 @@
 ---
-description: 実装のベストプラクティス [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
+description: ' [!DNL Marketo Measure]  JavaScript の実装のベストプラクティス -  [!DNL Marketo Measure]'
 title: ' [!DNL Marketo Measure] JavaScript の実装のベストプラクティス'
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 [!DNL Marketo Measure] JavaScript を実装および管理する場合は、次のベストプラクティスに留意してください。
 
 * すべてのドメインが [!DNL Marketo Measure] アカウントにリストされていることを確認します
-   * ドメインに関するご不明な点は、サポートにお問い合わせください。
+   * ドメインに関して懸念がある場合は、サポートにお問い合わせください
 * すべてのページに JavaScript をデプロイします。
    * 特定のページにのみ JavaScript を配置すると、セッションデータが中断され、正しくない [!DNL Marketo Measure] データが発生します
 * タッチポイントを作成しないサイト上のフォームには、[!DNL Marketo Measure] Exclude スクリプトを追加する必要があります

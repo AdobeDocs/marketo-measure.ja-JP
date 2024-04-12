@@ -5,9 +5,9 @@ title: Marketo Measure フィールドの用語集
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3213'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 この記事では、Marketo Measure 基本パッケージから Salesforce に追加されたすべての Marketo Measure フィールドの用語集について説明します。また、フィールドが見つけることができるオブジェクトや各フィールドにどのように情報が入力されるかに関する情報が掲載されています。
 
-各Marketo Measureフィールドが関連するオブジェクトのマップの場合、 [ここをクリック](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+各 Marketo Measure フィールドがどのオブジェクトに関連しているかを示すマップについては、[こちらを参照](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)してください。
 
 [A](#a) · [B](#b) · [C](#c) · [D](#d) · [E](#e) · [F](#f) · [G](#g) · H · I · J · [K](#k) · [L](#l) · [M](#m) · N · [O](#o) · [P](#p) · Q · [R](#r) · [S](#s) · [T](#t) · [U](#u) · [V](#v) · W · X · Y · Z
 
@@ -299,7 +299,7 @@ Marketo Measure ABTest - ユーザーが web サイト上の A/B テストに参
 
 **マーケティングチャネル** | Buyer Touchpoint、Buyer Attribution Touchpoint
 
-このフィールドには、タッチポイントが属するマーケティングアクティビティまたはマーケティングチャネルの一般グループが表示されます（例：有料検索、直接、ソーシャルなど）。タッチポイントは、Marketo Measure アプリでのチャネルの設定方法に応じてグループ化されます。マーケティングチャネルの詳細、またはチャネルの設定方法については、 [ここをクリック](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+このフィールドには、タッチポイントが属するマーケティングアクティビティまたはマーケティングチャネルの一般グループが表示されます（例：有料検索、直接、ソーシャルなど）。タッチポイントは、Marketo Measure アプリでのチャネルの設定方法に応じてグループ化されます。マーケティングチャネルについて、またはチャネルの設定方法について詳しくは、[こちらを参照](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)してください。
 
 **マーケティングチャネル - パス** | Buyer Touchpoint、Buyer Attribution Touchpoint
 

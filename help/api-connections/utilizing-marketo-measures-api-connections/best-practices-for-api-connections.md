@@ -1,12 +1,12 @@
 ---
-description: API 接続のベストプラクティス — [!DNL Marketo Measure]
+description: API 接続のベストプラクティス - [!DNL Marketo Measure]
 title: API 接続のベストプラクティス
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 91%
 
 ## ベストプラクティス {#best-practice}
 
-接続する広告プラットフォームに関係なく、次のガイドラインに留意する必要があります。
+接続している広告プラットフォームに関係なく、次のガイドラインに留意することが重要です。
 
 * 管理者を使用して接続します
 * 1 つのプラットフォームに複数の広告アカウントを接続できます
 * 可能なすべての広告アカウントを接続して、支出レポートを可能な限り自動化します
 * 可能な場合は、常にトラッキングテンプレートを実装します。このテンプレートにより、広告アカウントを切断した場合でも、[!DNL Marketo Measure] ではきめ細かい広告の詳細を取り込むことができます。
 
-それぞれを最適化するには [!DNL Marketo Measure] API は、次のベストプラクティスに従っています。
+各 [!DNL Marketo Measure] API を最適化するには、次のベストプラクティスを遵守してください。
 
 **[!DNL Facebook]**：自動タグ付けを使用した接続
 
@@ -84,7 +84,7 @@ API に接続されたアカウントを切断すると、[!DNL Marketo Measure]
 * そのユーザが会社に存在していない
 * API の更新
 
-チームで上記のシナリオのいずれかが発生している場合は、 [!DNL Marketo Measure] 再認証が必要ないことを確認するアプリケーションです。
+お客様のチームで上記のシナリオが発生した場合は、[!DNL Marketo Measure] アプリで API 接続を確認して、再認証する必要がないことを確認してください。
 
 >[!MORELIKETHIS]
 >
