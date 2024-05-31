@@ -3,16 +3,42 @@ description: 最新のリリースノート -  [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 61%
 
 ---
 
 # リリースノート：2024年 {#release-notes-2024}
 
 2024年リリースのすべての新機能と更新された機能については、以下を参照してください。
+
+## 第 3 四半期リリース {#q3-release}
+
+<p>
+
+**リマインダー：Salesforce フィールドの非推奨（廃止予定） - 6 月 14 日（Pt）**
+
+昨年お知らせしたとおり、当社は、統合を簡素化し、Salesforce 標準オブジェクトにエクスポートする必要性を排除するために、リード/連絡先オブジェクトへのエクスポートジョブを段階的に廃止します。 次の手順に従って、タッチポイントオブジェクトから同じデータを取得できます [ここに記載されています](/help/release-notes/previous-releases/2023.md#deprecations). また、このデータをリード/連絡先オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024 年 6 月 14 日（PT）に廃止予定が発効します。
+
+この変更により、次の 2 つの主なメリットが得られます。
+
+* **Salesforce API コストの削減**：お客様は、Salesforce API のコストを約 10% 削減できると期待できます。
+* **統合の効率化**：エクスポートジョブでのエラーの最大数は、これらのプロセスに関連しています。 これらを削除すると、統合が大幅に効率化されます。
+
+**起因する商談ダッシュボード**
+
+新しいを紹介できるのを楽しみにしています [起因する商談ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)は、マーケティング活動が新興のパイプライン機会と成熟したパイプライン機会の両方にどのように貢献するかを包括的に把握できるように設計されています。 このダッシュボードを使用すると、戦略に起因するオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージでフィルタリングできる柔軟性を備えています。 アトリビューションされた商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、アトリビューションされた商談額の合計と、アトリビューションされたオープンおよびクローズされた商談の数が表示されます。
+
+**Marketo Measure Ultimate のMarketo Engage Cookie 同期**
+
+Marketo Measure Ultimate でMarketo Engage Cookie 同期が使用できるようになりました。 この機能を使用するには：
+
+1. AEP スキーマページで、B2B ユーザースキーマを編集し、フィールドグループに「Marketo Engageユーザーの詳細」を追加します。
+1. データを MMU に取り込む際には、フィールドグループの Cookie ID フィールドをMarketo Engageの Cookies フィールドにマッピングします。
+
+<p>
 
 ## 第 2 四半期リリース {#q2-release}
 
