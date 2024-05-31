@@ -3,10 +3,10 @@ description: 最新のリリースノート -  [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+source-git-commit: 88edec8ec5d015fb4152b9e822cb1bfa68ed85c2
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 61%
+source-wordcount: '788'
+ht-degree: 57%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 61%
 
 **リマインダー：Salesforce フィールドの非推奨（廃止予定） - 6 月 14 日（Pt）**
 
-昨年お知らせしたとおり、当社は、統合を簡素化し、Salesforce 標準オブジェクトにエクスポートする必要性を排除するために、リード/連絡先オブジェクトへのエクスポートジョブを段階的に廃止します。 次の手順に従って、タッチポイントオブジェクトから同じデータを取得できます [ここに記載されています](/help/release-notes/previous-releases/2023.md#deprecations). また、このデータをリード/連絡先オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024 年 6 月 14 日（PT）に廃止予定が発効します。
+昨年お知らせしたとおり、当社は、統合を簡素化し、Salesforce 標準オブジェクトにエクスポートする必要性を排除するために、リード/連絡先オブジェクトへのエクスポートジョブを段階的に廃止します。 次の手順に従って、タッチポイントオブジェクトから同じデータを取得できます [ここに記載されています](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. また、このデータをリード/連絡先オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024 年 6 月 14 日（PT）に廃止予定が発効します。
 
 この変更により、次の 2 つの主なメリットが得られます。
 
@@ -29,7 +29,7 @@ ht-degree: 61%
 
 **起因する商談ダッシュボード**
 
-新しいを紹介できるのを楽しみにしています [起因する商談ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)は、マーケティング活動が新興のパイプライン機会と成熟したパイプライン機会の両方にどのように貢献するかを包括的に把握できるように設計されています。 このダッシュボードを使用すると、戦略に起因するオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージでフィルタリングできる柔軟性を備えています。 アトリビューションされた商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、アトリビューションされた商談額の合計と、アトリビューションされたオープンおよびクローズされた商談の数が表示されます。
+新しいを紹介できるのを楽しみにしています [起因する商談ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}は、マーケティング活動が新興のパイプライン機会と成熟したパイプライン機会の両方にどのように貢献するかを包括的に把握できるように設計されています。 このダッシュボードを使用すると、戦略に起因するオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージでフィルタリングできる柔軟性を備えています。 アトリビューションされた商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、アトリビューションされた商談額の合計と、アトリビューションされたオープンおよびクローズされた商談の数が表示されます。
 
 **Marketo Measure Ultimate のMarketo Engage Cookie 同期**
 
@@ -37,6 +37,14 @@ Marketo Measure Ultimate でMarketo Engage Cookie 同期が使用できるよう
 
 1. AEP スキーマページで、B2B ユーザースキーマを編集し、フィールドグループに「Marketo Engageユーザーの詳細」を追加します。
 1. データを MMU に取り込む際には、フィールドグループの Cookie ID フィールドをMarketo Engageの Cookies フィールドにマッピングします。
+
+**Tier 2 および 3 のお客様に対してブーメランステージが有効化されました**
+
+ブーメランステージ機能は、2024 年 6 月 7 日（PT）以降、すべての Tier 2 および 3 のお客様が利用できるようになります。 この機能について詳しくは、以下のドキュメントを参照してください。
+
+* [ブーメランステージとタッチポイント](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [ブーメランステージの設定](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [ブーメランステージのシナリオ](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 <p>
 
