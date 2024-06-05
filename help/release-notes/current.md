@@ -3,7 +3,7 @@ description: 最新のリリースノート -  [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 57%
@@ -40,7 +40,7 @@ Marketo Measure Ultimate でMarketo Engage Cookie 同期が使用できるよう
 
 **階層 2 のお客様に対して有効なブーメランステージ**
 
-以前は Tier 3 のお客様のみが利用できましたが、Boomerang Stage 機能は、2024 年 6 月 7 日（PT）以降、Tier 2 のすべてのお客様も利用できるようになります。 この機能について詳しくは、以下のドキュメントを参照してください。
+以前は Tier 3 のお客様のみが利用できましたが、Boomerang Stage 機能は、2024 年 6 月 13 日（PT）以降、Tier 2 のすべてのお客様も利用できるようになります。 この機能について詳しくは、以下のドキュメントを参照してください。
 
 * [ブーメランステージとタッチポイント](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [ブーメランステージの設定](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
