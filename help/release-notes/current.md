@@ -4,9 +4,9 @@ title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '792'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -18,29 +18,29 @@ ht-degree: 57%
 
 <p>
 
-**リマインダー：Salesforce フィールドの非推奨（廃止予定） - 6 月 14 日（Pt）**
+**リマインダー：Salesforce フィールドの廃止予定 - 6月14日（PT）**
 
-昨年お知らせしたとおり、当社は、統合を簡素化し、Salesforce 標準オブジェクトにエクスポートする必要性を排除するために、リード/連絡先オブジェクトへのエクスポートジョブを段階的に廃止します。 次の手順に従って、タッチポイントオブジェクトから同じデータを取得できます [ここに記載されています](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. また、このデータをリード/連絡先オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024 年 6 月 14 日（PT）に廃止予定が発効します。
+昨年発表したように、アドビでは統合を簡素化し、Salesforce 標準オブジェクトに書き出す必要性をなくすために、リード／取引先責任者オブジェクトへの書き出しジョブを段階的に廃止する予定です。[ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。2024年6月14日（PT）にこの廃止が実施されます。
 
 この変更により、次の 2 つの主なメリットが得られます。
 
-* **Salesforce API コストの削減**：お客様は、Salesforce API のコストを約 10% 削減できると期待できます。
-* **統合の効率化**：エクスポートジョブでのエラーの最大数は、これらのプロセスに関連しています。 これらを削除すると、統合が大幅に効率化されます。
+* **Salesforce API コストの削減**：お客様は、Salesforce API コストの約 10％の削減を期待できます。
+* **統合の効率化**：書き出しジョブでのエラーの最大数は、これらのプロセスに関連しています。これらをなくすことで、統合が大幅に効率化されます。
 
 **起因する商談ダッシュボード**
 
-新しいを紹介できるのを楽しみにしています [起因する商談ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}は、マーケティング活動が新興のパイプライン機会と成熟したパイプライン機会の両方にどのように貢献するかを包括的に把握できるように設計されています。 このダッシュボードを使用すると、戦略に起因するオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージでフィルタリングできる柔軟性を備えています。 アトリビューションされた商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、アトリビューションされた商談額の合計と、アトリビューションされたオープンおよびクローズされた商談の数が表示されます。
+新しい[起因する商談ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}を導入できることを嬉しく思います。このダッシュボードは、マーケティング活動が初期と成熟期のパイプラインの機会の両方にどのように貢献するかの全体像を把握できるように設計されています。このダッシュボードでは、戦略に起因するすべてのオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージごとに柔軟にフィルタリングできます。ここでは、起因する商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、起因する商談額の合計と、起因するオープンな商談およびクローズされた商談の数が表示されます。
 
-**Marketo Measure Ultimate のMarketo Engage Cookie 同期**
+**Marketo Measure Ultimate の Marketo Engage cookie 同期**
 
-Marketo Measure Ultimate でMarketo Engage Cookie 同期が使用できるようになりました。 この機能を使用するには：
+Marketo Measure Ultimate で Marketo Engage cookie 同期を使用できるようになりました。この機能を使用するには：
 
-1. AEP スキーマページで、B2B ユーザースキーマを編集し、フィールドグループに「Marketo Engageユーザーの詳細」を追加します。
-1. データを MMU に取り込む際には、フィールドグループの Cookie ID フィールドをMarketo Engageの Cookies フィールドにマッピングします。
+1. AEP スキーマページで、B2B ユーザスキーマを編集し、フィールドグループ「Marketo Engage ユーザの詳細」を追加します。
+1. データを MMU に取り込む際には、フィールドグループの cookie ID フィールドを Marketo Engage の cookie フィールドにマッピングします。
 
-**階層 2 のお客様に対して有効なブーメランステージ**
+**階層 2 のお客様向けに有効なブーメランステージ**
 
-以前は Tier 3 のお客様のみが利用できましたが、Boomerang Stage 機能は、2024 年 6 月 13 日（PT）以降、Tier 2 のすべてのお客様も利用できるようになります。 この機能について詳しくは、以下のドキュメントを参照してください。
+以前は階層 3 のお客様のみが利用可能であったブーメランステージ機能は、2024年6月13日（PT）以降、階層 2 のすべてのお客様も利用できるようになります。この機能について詳しくは、以下のドキュメントを参照してください。
 
 * [ブーメランステージとタッチポイント](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [ブーメランステージの設定](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
