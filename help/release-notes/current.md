@@ -4,9 +4,9 @@ title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 **リマインダー：Salesforce フィールドの廃止予定 - 6月14日（PT）**
 
-昨年発表されたように、我々は次のようになるでしょう [リード/連絡先オブジェクトへのエクスポートジョブの段階的な廃止](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} 統合を簡素化し、Salesforce 標準オブジェクトにエクスポートする必要をなくすために、 [ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。2024年6月14日（PT）にこの廃止が実施されます。
+昨年発表したように、アドビでは統合を簡素化し、Salesforce 標準オブジェクトに書き出す必要性をなくすために、[リード／取引先責任者オブジェクトへの書き出しジョブを段階的に廃止](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}する予定です。[ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。2024年6月14日（PT）にこの廃止が実施されます。
 
 この変更により、次の 2 つの主なメリットが得られます。
 
