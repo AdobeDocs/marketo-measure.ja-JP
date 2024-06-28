@@ -4,9 +4,9 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
-workflow-type: ht
-source-wordcount: '1271'
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+workflow-type: tm+mt
+source-wordcount: '1155'
 ht-degree: 100%
 
 ---
@@ -124,67 +124,7 @@ ht-degree: 100%
    <td>カスタム</td> 
    <td>x</td> 
    <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -233,67 +173,7 @@ ht-degree: 100%
    <td>標準</td> 
    <td>x</td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -335,67 +215,7 @@ ht-degree: 100%
    <td>IsDeleted</td> 
    <td>標準</td> 
    <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_FT__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source_LC__c</td> 
-   <td>カスタム</td> 
-   <td>x</td> 
-   <td>x </td> 
+   <td> </td>
   </tr> 
  </tbody> 
 </table>
@@ -683,6 +503,12 @@ ht-degree: 100%
    <td>標準</td> 
    <td>x</td> 
    <td><br></td> 
+  </tr>
+  <tr> 
+   <td>名前</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr>
   <tr> 
    <td>bizible2__UniqueId__c</td> 
