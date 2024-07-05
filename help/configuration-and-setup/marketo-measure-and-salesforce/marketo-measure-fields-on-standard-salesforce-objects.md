@@ -5,9 +5,9 @@ title: 「標準  [!DNL Salesforce]  オブジェクトの [!DNL Marketo Measure
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ OnCampaignMemberDelete：初期状態では、キャンペーンメンバーが�
 
 ## リード {#lead}
 
-Bizible アカウントフィールドは、ABM 機能のリードとアカウントのマッピングに使用されます。 このフィールドに値を入力して、2 つのオブジェクト間の参照関係を作成します。
+「Bizible アカウント」フィールドは、ABM 機能のリードからアカウントへのマッピングに使用されます。このフィールドに値を入力して、2 つのオブジェクト間の参照関係を作成します。
 
 ## アカウント {#account-1}
 
