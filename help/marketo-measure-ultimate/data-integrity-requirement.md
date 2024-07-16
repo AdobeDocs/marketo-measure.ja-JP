@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement - [!DNL
 title: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件」
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1611'
 ht-degree: 86%
 
 ---
@@ -886,6 +886,8 @@ ht-degree: 86%
     </tr>
   </tbody>
 </table>
+
+## 通貨換算データの要件 {#currency-conversion-data-requirements}
 
 **デフォルト通貨**:Marketo Measureでは、すべての売上高とコストがレポート時にデフォルト通貨に変換されます。 ターゲット通貨自体に対して日付適用範囲が同じ（例：米ドルから米ドル） 1 つのレコードが必要で、コンバージョン率は 1 である必要があります。
 
