@@ -4,10 +4,10 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,17 @@ ht-degree: 100%
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
+
+## Salesforce 接続ユーザー権限 {#salesforce-connected-user-permissions}
+
+**専用ユーザー用のMarketo Measure管理者権限セット**: SFDC 管理者がMarketo Measure オブジェクトに対して CRUD 操作を実行できるようにします。
+
+**コンバート済みリードの表示と編集権限セット**：連絡先にコンバートされた後にリードを装飾するために、Marketo Measureが使用できます。
+
+**Salesforce マーケティングユーザーのチェックボックス**: ユーザーがキャンペーンを作成し、キャンペーンインポートウィザードを使用できるようになります。
+* キャンペーン「作成」に対する追加の権限が必要です。
+
+**Marketo Measure Standard ユーザー**: ユーザーがMarketo Measure オブジェクトからレコードを読み取れるようにします。
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 
@@ -1304,3 +1315,7 @@ Buyer Attribution Touchpoint は、商談に対するマーケティングの影
   </tr> 
  </tbody> 
 </table>
+
+>[!MORELIKETHIS]
+>
+>[統合権限の概要](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}

@@ -3,16 +3,16 @@ description: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement - [!DNL
 title: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件」
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 93%
+source-wordcount: '1607'
+ht-degree: 86%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] 受信 AEP データセットを検証し、アトリビューションに適した十分なデータ量のデータが一貫性があることを確認します。 データ整合性要件を満たすことができないと、データセットが次によって拒否されます： [!DNL Marketo Measure] システム。 この記事では、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドのソリューションを推奨します。
+[!DNL Marketo Measure] は、受信 AEP データセットを検証して、アトリビューションに適した十分かつ一貫性のあるデータであることを確認します。 データ整合性要件を満たすことができないと、データセットが [!DNL Marketo Measure] システムによって拒否されます。 この記事では、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドのソリューションを推奨します。
 
 ## エンティティオブジェクト {#entity-object}
 
@@ -886,6 +886,16 @@ ht-degree: 93%
     </tr>
   </tbody>
 </table>
+
+**デフォルト通貨**:Marketo Measureでは、すべての売上高とコストがレポート時にデフォルト通貨に変換されます。 ターゲット通貨自体に対して日付適用範囲が同じ（例：米ドルから米ドル） 1 つのレコードが必要で、コンバージョン率は 1 である必要があります。
+
+**コンバージョンレート**：各（ソース通貨、ターゲット通貨）ペアに、異なる日付範囲に対して複数のコンバージョンレートを設定できます。 料金は、Salesforce DatedConversionRate オブジェクトに従って、0001-01-01 から 9999-12-31 までの全期間をカバーする必要があります。
+
+**日付範囲**:
+* 設定されたレート（ソース通貨、ターゲット通貨）内に重複する日付範囲がありません（例：2023-01-01 ～ 2023-02-01 および 2023-01-01 ～ 2024-01-01）。
+* 日付範囲間にギャップはありません。 開始日はその日を含み、終了日はその日を含みません。
+
+<p>
 
 ## ExperienceEvent {#experienceevent}
 
