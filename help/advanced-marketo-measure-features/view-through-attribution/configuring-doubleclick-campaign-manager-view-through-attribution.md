@@ -21,13 +21,13 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->を使用する場合 [!DNL Marketo Measure] および [!DNL DoubleClick Campaign Manager] 統合するには、 [API 接続](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) そのため、広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
+>[!DNL Marketo Measure] と [!DNL DoubleClick Campaign Manager] の統合を使用している場合は、[API 接続が必要なので ](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
 
-を使用して、ビューからトラッキングに至るまでより詳細なインサイトを得るには [!DNL Doubleclick Campaign Manager]を設定する必要があります。
+[!DNL Doubleclick Campaign Manager] を使用したトラッキングを通じて、ビューからより詳細なインサイトを得るには、トラッキングピクセルを設定する必要があります。
 
-について [!DNL Marketo Measure] アトリビューションによる表示機能については、を参照してください。 [Marketo Measure ビュースルー属性に関するよくある質問](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
+[!DNL Marketo Measure] ビュースルーアトリビューション機能について詳しくは、[Marketo Measure ビュースルーアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) を参照してください。
 
-[!DNL Marketo Measure] は、DCM 広告タグを介したサードパーティの呼び出しであるため、ピギーバックタグと見なされます。 ピギーバックタグは、画像タグでは機能しません。iframe タグまたは JavaScript タグのみです。 DCM サポートによると、これは最近変更されておらず、常にそうでした。 標準タグは 2017 年 10 月 2 日（PT）に非推奨（廃止予定）となりましたが、の機能には影響しません [!DNL Marketo Measure] インプレッション数をトラッキングする
+[!DNL Marketo Measure] は、DCM 広告タグを介したサードパーティの呼び出しであるため、ピギーバックタグと見なされます。 ピギーバックタグは、画像タグでは機能しません。iframe タグまたは JavaScript タグのみです。 DCM サポートによると、これは最近変更されておらず、常にそうでした。 標準タグは 2017 年 10 月 2 日（PT）に非推奨（廃止予定）となりましたが、インプレッション数を追跡する [!DNL Marketo Measure] の機能には影響しません。
 
 DCM で親子階層を使用する場合は、インプレッショントラッキングのためにすべてのレベルにタグを適用する必要があります。
 
@@ -57,14 +57,14 @@ DCM で親子階層を使用する場合は、インプレッショントラッ�
 
 A：はい。 JavaScript タグではなく、画像タグです。
 
-**Q：接続されたユーザーに必要な権限は何ですか？**
+**Q：接続されたユーザーに必要な権限を教えてください。**
 
 A:dfatrafficking、dfareporting、userinfo.email
 
-**Q：費用データのインポートにはどのくらいの時間がかかりますか？**
+**Q：費用データのインポートにはどの程度の時間がかかりますか？**
 
 A：最大 6 時間
 
-**Q：広告データのインポートにはどのくらいの時間がかかりますか？**
+**Q：広告データのインポートにはどの程度の時間がかかりますか？**
 
 A：最大 6 時間

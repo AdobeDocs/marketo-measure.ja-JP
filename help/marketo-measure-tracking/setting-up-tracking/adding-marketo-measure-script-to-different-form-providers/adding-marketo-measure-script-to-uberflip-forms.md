@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874749
-description: 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms - [!DNL Marketo Measure]
-title: 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms
+description: ' [!DNL Uberflip] Forms - [!DNL Marketo Measure] への  [!DNL Marketo Measure]  スクリプトの追加'
+title: ' [!DNL Uberflip] Formsへの  [!DNL Marketo Measure]  スクリプトの追加'
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
@@ -11,19 +11,19 @@ ht-degree: 0%
 
 ---
 
-# 追加中 [!DNL Marketo Measure] スクリプトの宛先 [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
+# Formsへ [!DNL Marketo Measure] スクリプト [!DNL Uberflip] 追加 {#adding-marketo-measure-script-to-uberflip-forms}
 
-現在 [!DNL Uberflip] コンテンツを管理するには、次の必要な手順を実行して、 [!DNL Marketo Measure] は、これらのフォーム送信を追跡しています。 サクセスマネージャー ( ) [!DNL Uberflip] これに関しては、もう一度お手伝いをいただけるはずです。
+現在 [!DNL Uberflip] を使用してコンテンツを管理している場合は、これらの必要な手順を実行して、[!DNL Marketo Measure] がこれらのフォーム送信を追跡していることを確認することが重要です。 [!DNL Uberflip] のサクセスマネージャーも、これを支援できます。
 
-1. このスクリプトの追加先 [!DNL Uberflip]&#39;s [!UICONTROL カスタムコード/HTML] 」セクションに入力します。
+1. このスクリプトを [!DNL Uberflip] の [!UICONTROL  カスタムコード >HTML] セクションに追加します。
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. これを確認します。 [!DNL Marketo Measure] プリアンブルコードは、ページ読み込みとAJAXページの変更の両方で実行されます。 これは、 [!UICONTROL カスタムコード >JS] セクション
+1. この [!DNL Marketo Measure] プリアンブルコードが、ページの読み込み時とAJAX ページの変更時の両方で実行されるようにします。 [!UICONTROL  カスタムコード/JS] セクション内でこれを実行します。
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   このプリアンブルを [!DNL Hubs.onLoad] そして [!DNL Hubs.onPageChange] 以下に示すように、AJAX JavaScript イベントフックを設定します。 ( 注意：これらのイベントフックに他のコードが含まれている場合もあります。 プリアンブルも必ず含めてください )。
+   以下に従って、このプリアンブルを [!DNL Hubs.onLoad] と [!DNL Hubs.onPageChange] のAJAX JavaScript イベントフックの両方に追加します。 （メモ：これらのイベントフックには、他のコードも含めることができます。 必ずプリアンブルも含めてください）。
 
    `Hubs.onLoad = function () {`
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
    `}`
 
-1. フォーム CTA の送信時に Bizible にデータをプッシュする関数を作成し定義します。 これは、 [!UICONTROL カスタムコード > JavaScript] 」セクションに入力します。 （注意：この関数は、 Uberflip が提供する ctaData パラメーターのみを必要としますが、ユーザーがコードをカスタマイズしてこのデータを渡す場合に備えて、他のパラメータ ctaId および ctaName を含めることもできます）。
+1. フォーム CTA 送信時に Bizible にデータをプッシュする関数を作成し定義します。 これは、「カスタムコード [!UICONTROL JavaScript] セクションに移動します。 （メモ：この関数は、Uberflip が提供する ctaData パラメーターのみを必要としますが、ユーザーがこのデータを渡すためにコードをカスタマイズする場合に備えて、他のパラメーター ctaId および ctaName を含めることもできます）。
 
    `function bizibleFormCode(ctaId, ctaData, ctaName) {`
    `var email = ctaData["email"];`
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    `}`
 
-1. フォーム CTA が送信されたら、 [!DNL Marketo Measure] 関数は、以下の単位で実行されます。 これは、 [!UICONTROL カスタムコード >JS] 」セクションに入力します。 （注意： Hubs.onCtaFormSubmitSuccess JavaScript イベントフック内に他のコードがある場合は、この関数呼び出しも必ず含めてください）。
+1. フォーム CTA が送信されたら、[!DNL Marketo Measure] 関数が以下ごとに実行されていることを確認します。 これは、[!UICONTROL  カスタムコード/JS] セクション内で行われます。 （メモ：Hubs.onCtaFormSubmitSuccess JavaScript イベントフック内に他のコードがある場合は、この関数呼び出しも含めてください）。
 
    `Hubs.onCtaFormSubmitSuccess = function (ctaId, ctaData, ctaName) {`
    `bizibleFormCode(ctaId, ctaData, ctaName);`\

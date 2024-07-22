@@ -16,7 +16,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->このダッシュボードはベータ版です。 この移行段階では、現在のダッシュボードと新しいダッシュボードの両方にアクセスできます。 現在のダッシュボードは、完全に移行し、最適な機能を確保した後、非推奨になります。
+>このダッシュボードはBetaにあります。 この移行段階では、現在のダッシュボードと新しいダッシュボードの両方にアクセスできます。 現在のダッシュボードは、完全に移行し、最適な機能を確保した後、非推奨になります。
 
 **ボードが回答する質問**:
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 * ドリルダウン機能とアップ機能を使用して、月、四半期または年ごとにデータを分類します。
 * 詳細な情報を表示するには、棒グラフのセグメントまたは棒の間のスペースにポインタを合わせます。
 
-**グラフの回答に対する質問**:
+**グラフが回答する質問**:
 
 * 各四半期に最も起因する売上高を生成したチャネルはどれですか？
 * 先月のチャネル別のアトリビューション売上高の内訳は何でしたか？
@@ -80,5 +80,5 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [ダッシュボードデータ表示ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [ ダッシュボードデータ表示ポリシー ](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

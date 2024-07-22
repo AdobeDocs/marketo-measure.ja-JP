@@ -1,20 +1,20 @@
 ---
-description: '"[!UICONTROL データのダウンロードを確認] アクセス制御 — Marketo Measure — 製品ドキュメント»'
-title: '"[!UICONTROL Discover データのダウンロードのアクセス制御"]'
+description: 「[!UICONTROL Discover Data Download] アクセス制御 – Marketo Measure – 製品ドキュメント」
+title: 「[!UICONTROL  データのダウンロードを検出 ] アクセス制御」
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 13%
+ht-degree: 5%
 
 ---
 
-# [!UICONTROL Discover データのダウンロードのアクセス制御] {#discover-data-download-access-control}
+# [!UICONTROL Discover データのダウンロード ] アクセス制御 {#discover-data-download-access-control}
 
-[!UICONTROL データのダウンロードを確認] 有効にするコントロール [!DNL Marketo Measure] 管理者：ユーザーの役割に基づいて、Discover ダッシュボードのデータダウンロードポリシーを設定します。 このコントロールは、Discover ダッシュボードでのすべてのデータダウンロードアクションを対象としています。
+[!UICONTROL Discover データのダウンロード ] コントロールを使用すると、管 [!DNL Marketo Measure] 者は、ユーザーの役割に基づいて Discover ダッシュボードのデータのダウンロードポリシーを設定できます。 コントロールは、Discover ダッシュボードのすべてのデータダウンロードアクションをカバーします。
 
-1. クリック **[!UICONTROL データアクセス]** under [!UICONTROL セキュリティ].
+1. **[!UICONTROL セキュリティ]** の下の [!UICONTROL  データアクセス ] をクリックします。
 
    ![](assets/discover-data-download-access-control-1.png)
 
@@ -25,15 +25,15 @@ ht-degree: 13%
    <table>
     <tr>
      <td><strong>すべてのユーザー</strong></td>
-     <td>すべてのユーザーがデータをダウンロードできます (PDF形式と CSV 形式の両方を含む )。</td>
+     <td>すべてのユーザーが、PDF形式と CSV 形式の両方を含むデータをダウンロードできます。</td>
     </tr>
     <tr>
      <td><strong>管理者ユーザーのみ</strong></td>
-     <td>管理者ユーザーのみが、データ形式と CSV 形式の両方を含むPDFをダウンロードできます。</td>
+     <td>PDFと CSV 形式の両方を含むデータをダウンロードできるのは、管理者ユーザーのみです。</td>
     </tr>
     <tr>
      <td><strong>None</strong></td>
-     <td>PDF形式と CSV 形式の両方を含むデータをダウンロードできません。</td>
+     <td>PDF形式と CSV 形式の両方を含むデータは、誰もダウンロードできません。</td>
     </tr>
    </table>
 
@@ -43,4 +43,4 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->この設定は、ユーザーがログアウトしてから再度ログインするまで有効にならない場合があります。
+>設定は、ユーザーがログアウトして再度ログインするまで有効にならない場合があります。

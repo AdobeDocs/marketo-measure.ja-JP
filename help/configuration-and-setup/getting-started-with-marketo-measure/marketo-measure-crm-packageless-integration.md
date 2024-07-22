@@ -1,7 +1,7 @@
 ---
 unique-page-id: 37356027
-description: "[!DNL Marketo Measure] CRM パッケージレスの統合 — [!DNL Marketo Measure]"
-title: '"[!DNL Marketo Measure] CRM パッケージレスの統合»'
+description: "[!DNL Marketo Measure] CRM パッケージレス統合 –  [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] CRM パッケージレス統合"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
 source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
@@ -13,30 +13,30 @@ ht-degree: 1%
 
 # [!DNL Marketo Measure] CRM パッケージレス統合 {#marketo-measure-crm-packageless-integration}
 
-アクセスが制限されているか、CRM の所有権、価値の創出に要する時間が長いか、法的な意味を持つかにかかわらず、マーケティングチームのすべてが CRM からマーケティングレポートを実行したがらない（またはアクセスできる）。 ～の道を下る [!DNL Marketo Measure] クイックスタートを使用すると、を効果的に実装および実行できます。 [!DNL Marketo Measure] CRM への依存をできるだけ少なく抑えて
+すべてのマーケティングチームが、アクセスの制限、CRM の所有権、価値創出までの時間の延長、法的な影響などの理由にかかわらず、CRM からマーケティングレポートを実行する（またはアクセス権を持つ）わけではありません。 クイックスタートの道筋を進め [!DNL Marketo Measure] と、できるだけ CRM に依存することなく、効果的に [!DNL Marketo Measure] を実装して実行できます。
 
 ## 標準 [!DNL Marketo Measure] インストール {#standard-marketo-measure-installation}
 
-標準を使用 [!DNL Marketo Measure] インストールする場合は、 [!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] 管理ソリューション。 インストールには、カスタムオブジェクト/エンティティと、CRM に追加されるカスタムフィールドが含まれます。 [!DNL Marketo Measure] その後、はにデータを書き込むことができます。
+標準の [!DNL Marketo Measure] インストールを通じて、[!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] Managed Solution をインストールする必要があります。 インストールには、CRM に追加され、データの書き込み先となるカスタムオブジェクト/エンティティ [!DNL Marketo Measure] カスタムフィールドが含まれます。
 
-とのパッケージレスな統合 [!DNL Marketo Measure] は、CRM でカスタムオブジェクト/エンティティやカスタムフィールドを作成したくないお客様向けです。 また、外部Data Warehouseを使用しているお客様にも便利です。
+[!DNL Marketo Measure] とのパッケージレス統合は、CRM でカスタムオブジェクト/エンティティやカスタムフィールドを作成したくない顧客のためです。 また、外部Data Warehouseを使用しているお客様にも適したオプションです。
 
 ## 権限 {#permissions}
 
-A [!DNL Marketo Measure] CRM パッケージレスの統合では、引き続き、リードや連絡先などの標準の CRM オブジェクトにアクセスする必要があります。 適切なデータアクセス権限を持つ専用ユーザーが、接続したユーザーとして機能することをお勧めします。
+[!DNL Marketo Measure] の CRM パッケージレス統合でも、リードや連絡先などの標準の CRM オブジェクトへのアクセスが必要です。 適切なデータアクセス権限を持つ専用のユーザーが、接続ユーザーとして機能することをお勧めします。
 
-すべてのデータが CRM から正しく取り込まれるようにするには、次のセキュリティおよびアクセシビリティ設定が必要です。専用ユーザーのプロファイルのすべてのデータを表示します。 この権限セットは、 [!DNL Marketo Measure] 標準オブジェクトからデータをダウンロードするために必要なアクセス。 この権限セットはプロファイルレベルです。
+すべてのデータが CRM から正しく取り込まれていることを確認するには、セキュリティとアクセシビリティに関する次の設定が必要です。専用ユーザーのプロファイルのすべてのデータを表示。 このアクセス権セットは、標準オブジェクトからデータをダウンロードするために必要なアクセス権を [!DNL Marketo Measure] に付与します。 この権限セットはプロファイルレベルです。
 
 ## ID プロバイダーとデータ接続のセットアップ {#setup-your-identity-provider-and-data-connections}
 
-以下のガイドで、 [!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] 管理ソリューションに保存され、権限と統合手順にのみ従います。
+以下のガイドでは、[!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] Managed Solution をインストールする手順をスキップし、権限と統合手順にのみ従ってください。
 
-[!DNL Salesforce] お客様がクリックした [ここ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md).
+[!DNL Salesforce] のお客様は [ こちら ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md) をクリックしてください。
 
-[!DNL Microsoft Dynamics] お客様がクリックした [ここ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
+[!DNL Microsoft Dynamics] のお客様は [ こちら ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md) をクリックしてください。
 
-これらの手順が完了したら、統合が動作可能になります。 問題が発生した場合は、 [!DNL Marketo Measure] 代理人または [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+これらの手順を完了すると、統合は動作するようになります。 問題が発生した場合は、[!DNL Marketo Measure] 担当者または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 >[!NOTE]
 >
->最初に [!DNL Marketo Measure] CRM パッケージレスの統合は、後で Salesforce パッケージまたはMicrosoft Dynamics Managed Solution をインストールできます。
+>[!DNL Marketo Measure] CRM パッケージレス統合を使い始めた場合は、後で Salesforce パッケージかMicrosoft Dynamics 管理ソリューションをインストールできます。

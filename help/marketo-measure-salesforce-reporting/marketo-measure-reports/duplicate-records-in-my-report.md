@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874634
-description: レポート内の重複レコード — [!DNL Marketo Measure]
+description: マイレポートの重複レコード - [!DNL Marketo Measure]
 title: マイレポートの重複レコード
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
@@ -15,24 +15,24 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」と表示されるが、まだ「[!DNL Bizible]」と入力します。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
+>ドキュメントに「[!DNL Marketo Measure]」を指定する手順が表示される場合がありますが、CRM には「[!DNL Bizible]」が表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-次に進むと、 [!DNL Marketo Measure] のレポート [!DNL Salesforce]」と入力すると、レポート内で「重複した」レコードの検索が開始される場合があります。 この感覚は、レビューの際に感じるでしょう [!DNL Marketo Measure] 標準のレポートです。
+[!DNL Salesforce] の [!DNL Marketo Measure] レポートに進むと、レポート内で「重複」レコードが見つかることがあります。 標準提供のレポートを確認すると、こ [!DNL Marketo Measure] ような感覚が生じる可能性があります。
 
-Buyer Touchpoints オブジェクトや Buyer Attribution Touchpoint オブジェクトを使用してレポートを作成する場合、リード、連絡先、商談の数はレポートされなくなり、標準オブジェクト（リード、連絡先、商談）に関連する Buyer Touchpoints や Buyer Attribution Touchpoints の数をレポートすることになります。
+バイヤータッチポイントオブジェクトまたはBuyer Attribution Touchpointオブジェクトを使用してレポートする場合、リード、連絡先、または商談の数をレポートするのではなく、これらの標準オブジェクト（リード、連絡先、商談）に関連付けられたバイヤータッチポイントまたはバイヤ属性タッチポイントの数をレポートすることを理解することが重要です。
 
-次のレポートを例として見てみましょう。
+例として、次のレポートを見てみましょう。
 
-これは、 **購入者タッチポイントを持つ連絡先** レポート。 つまり、個々の連絡先に関連付けられたタッチポイントの数を調べているということです。
+これは **購入者タッチポイント連絡先** レポートです。 これは、個々の連絡先に関連付けられたタッチポイントの数を調べていることを意味します。
 
 ![](assets/1.gif)
 
-ご覧のように、レポートには 3 人の James Williams の連絡先が含まれているようで、「重複」と考えているかもしれません。
+ご覧のように、レポートには James Williams の連絡先が 3 人いるように見えるため、「重複」と考えている可能性があります。
 
-ただし、このレポートには、James に関連するタッチポイントの数が表示されます。 レポート内で、James には個別の FT（ファーストタッチ）、個別の LC、フォーム（リード作成タッチ）および PostLC タッチポイント（LC タッチポイントの後に実行されるフォーム送信）が含まれていることがわかります。
+ただし、このレポートには、James に関連するタッチポイント数が表示されています。 レポート内で、James に個々の FT （ファーストタッチ）、個々の LC、フォーム（リード作成タッチ）、PostLC タッチポイント（LC タッチポイントの後に発生するフォーム送信）があることを確認できます。
 
-「連絡先の数」を理解するには、「カウント — ファーストタッチ」、「カウント — リード作成タッチ」または「カウント — U 字形」のフィールドを使用して、マーケティングインタラクションが発生した連絡先の数を把握します。
+「取引先責任者数」を把握したい場合は、「カウント – ファーストタッチ」、「カウントリード作成タッチ」、「カウント - U字型」のフィールドを使用して、マーケティングインタラクションを行った取引先責任者の数を把握できます。
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials：在庫 SFDC レポート](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials: SFDC レポートのストック ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 42762762
-description: Marketo接続のセットアップ — [!DNL Marketo Measure]
-title: Marketo接続のセットアップ
+description: Marketo接続の設定 –  [!DNL Marketo Measure]
+title: Marketo連携の設定
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
@@ -11,50 +11,50 @@ ht-degree: 1%
 
 ---
 
-# Marketo接続のセットアップ {#set-up-marketo-connection}
+# Marketo連携の設定 {#set-up-marketo-connection}
 
-Marketoへの接続を設定する方法を次に示します。
+Marketoへの接続を設定する方法を以下に示します。
 
 >[!PREREQUISITES]
 >
->[API 専用のユーザーロールの作成](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) （の） [!DNL Marketo Measure]/Marketo Engage接続。
+>[API のみのユーザーの役割を作成 ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja) して、[!DNL Marketo Measure]/Marketo Engage接続を作成します。
 
-1. In [!DNL Marketo Measure]をクリックし、 **[!UICONTROL マイアカウント]** ドロップダウンして「 」を選択します。 **[!UICONTROL 設定]**.
+1. [!DNL Marketo Measure] で、「**[!UICONTROL マイアカウント]**」ドロップダウンをクリックし、「**[!UICONTROL 設定]**」を選択します。
 
    ![](assets/set-up-marketo-connection-1.png)
 
-1. の下 [!UICONTROL 統合]をクリックし、 **[!UICONTROL 接続]**.
+1. [!UICONTROL  統合 ] で、「**[!UICONTROL 接続]**」をクリックします。
 
    ![](assets/set-up-marketo-connection-2.png)
 
-1. クリック **[!UICONTROL 新しい CRM 接続の設定]**.
+1. **[!UICONTROL 新しい CRM 接続の設定]** をクリックします。
 
    ![](assets/set-up-marketo-connection-3.png)
 
-1. 次をクリック： **[!UICONTROL 接続]** ボタンをクリックします。Marketo
+1. Marketoの横にある **[!UICONTROL 接続]** ボタンをクリックします。
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. 新しいタブで、Marketo Engageアカウントにログインします。 に移動します。 **管理者** > **Web サービス**. 下にスクロールして REST API を表示します。 エンドポイントと ID サービスの URL をハイライトして保存します。 次の手順で必要になります。
+1. 新しいタブで、Marketo Engageアカウントにログインします。 **管理者**/**Web サービス** に移動します。 REST API まで下にスクロールします。 エンドポイント ID サービスの URL をハイライト表示して保存します。 これらは、次の手順で必要になります。
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. まだMarketo Engage中、 **LaunchPoint** 左の木に。 Marketo Measureに接続するカスタムサービスを見つけ、 **詳細を表示**.
+1. Marketo Engageのまま、左側のツリーで **LaunchPoint** を選択します。 Marketo Measureに接続するカスタムサービスを見つけて、「**詳細を表示**」をクリックします。
 
    ![](assets/set-up-marketo-connection-6.png)
 
-1. クライアント ID とクライアント秘密鍵をハイライト表示して保存します。 「**閉じる**」をクリックします。
+1. 「クライアント ID」と「クライアント秘密鍵」をハイライト表示して保存します。 「**閉じる**」をクリックします。
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. 戻る [!DNL Marketo Measure]を設定し、フィールドに収集したデータを入力します。
+1. [!DNL Marketo Measure] に戻り、収集したデータをフィールドに入力します。
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. 値を入力した後、 **[!UICONTROL 認証]**. Marketo Engageアカウントが [!DNL Marketo Measure].
+1. 値を入力したら、「**[!UICONTROL 認証]**」をクリックします。 Marketo Engageアカウントは [!DNL Marketo Measure] に接続されています。
 
    ![](assets/set-up-marketo-connection-9.png)
 
    >[!NOTE]
    >
-   >[!DNL Marketo Measure] は、Marketo API の制限を消費することなく、お客様に代わってMarketo API への呼び出しをおこなうので、他の統合との間でキャップやクレジットの割り当てについて心配する必要はありません。
+   >[!DNL Marketo Measure] は、Marketo API の制限を消費することなく、あなたに代わってMarketo API への呼び出しを行うので、他の統合機能によるキャップやクレジット配分について心配する必要はありません。

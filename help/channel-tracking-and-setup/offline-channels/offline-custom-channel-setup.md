@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874598
-description: オフラインカスタムチャネルの設定 — [!DNL Marketo Measure]
+description: オフライン カスタム チャネルの設定 –  [!DNL Marketo Measure]
 title: オフラインカスタムチャネル設定
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
@@ -15,39 +15,39 @@ ht-degree: 1%
 
 ## はじめに {#getting-started}
 
-比較対象： [!DNL Marketo Measure] でオンラインチャネルルールを処理する場合は、オフラインチャネルルールにスプレッドシートを使用する必要はありません。 ただし、実装計画にはまだシートが記載されています。これは、オフラインチャネルを整理する際に考えるのに役立つからです。
+[!DNL Marketo Measure] でのオンラインチャネルルールの処理方法と比較すると、オフラインチャネルルールではスプレッドシートを使用する必要がないことがわかります。 ただし、実装計画にはシートが用意されており、オフラインチャネルを整理する方法を考える際に役立ちます。
 
-スプレッドシートには次の 3 つの列があります。
+スプレッドシートには、次の 3 つの列があります。
 
 ![](assets/1-2.png)
 
-**[!UICONTROL Salesforce] キャンペーンタイプ**  — で識別されたキャンペーンタイプの追加 [!DNL Salesforce] ここ
+**[!UICONTROL Salesforce] キャンペーンタイプ** -[!DNL Salesforce] で特定されたキャンペーンタイプをここに追加
 
-* 例えば、電子メール、ウェビナー、会議、またはこのフィールドに作成した値のうち、タッチポイントを関連付ける値などです。
+* 例えば、メール、ウェビナー、会議など、タッチポイントの属性を設定するこのフィールドに対して作成した値を指定できます。
 
-**[!UICONTROL チャネル]**  — 様々なマーケティングチャネルをここに追加
+**[!UICONTROL チャネル]** – さまざまなマーケティングチャネルをここに追加します
 
-**[!UICONTROL Subchannel]**  — 対応するサブチャネルをここに追加します。
+**[!UICONTROL サブチャネル]** – 対応するサブチャネルをここに追加します
 
 ## オフラインチャネルロジック {#offline-channel-logic}
 
-[!DNL Marketo Measure] オフラインチャネルロジックは、Campaign オブジェクト、特に [!DNL Salesforce] キャンペーンのタイプ。 オフラインでの取り組みのそれぞれには、 [!DNL Salesforce] ディナーや展示会など、次の理由でキャンペーンのタイプを選択します。 [!DNL Marketo Measure] は、このフィールドに基づいて、マッピング先のチャネルとサブチャネルを把握します。
+オフラインチャネルのロジック [!DNL Marketo Measure]、キャンペーンオブジェクト（特に [!DNL Salesforce] キャンペーンタイプ）によって決定されます。 オフラインの各作業には、夕食や展示会などの [!DNL Salesforce] キャンペーンタイプが必要です。これは、このフィールドを利用して、マッピング [!DNL Marketo Measure] るチャネルとサブチャネルを把握できるためです。
 
-SFDC キャンペーンのタイプが [ オフラインチャネル ] タブの [ ] の下に表示されます。 [!DNL Salesforce] キャンペーンのタイプ。 注意： [!DNL Marketo Measure] では、バイヤータッチポイントが関連付けられているキャンペーンに対してのみ、SFDC キャンペーンタイプをインポートできます。
+SFDC キャンペーンタイプは、[!DNL Salesforce] キャンペーンタイプの下に表示されるオフラインチャネルのタブに表示されます。 買 [!DNL Marketo Measure] 手タッチポイントが関連付けられているキャンペーンの場合にのみ、SFDC キャンペーンタイプをインポートできます。
 
 ![](assets/2-2.png)
 
-ここで、 [!DNL Marketo Measure] アプリを使用します。 これには、新しいチャネルとサブチャネルを [!DNL Marketo Measure] アプリ（以下の画像に示すように、アプリの「チャネルを作成」セクションでおこなわれます）。 用に新しいチャネルとサブチャネルを作成する必要があります [!DNL Marketo Measure] タッチポイントをプッシュする場所を理解する キャンペーンタイプのマッピング方法を決定できます。
+[!DNL Marketo Measure] アプリでチャネル/サブチャネルマッピングを作成できる場所です。 これには、[!DNL Marketo Measure] アプリでの新しいチャネルとサブチャネルの作成が含まれる可能性があります。これは、以下の画像に示すように、アプリの「チャネルを作成」セクションで行います。 タッチポイントのプッシュ先を把握する [!DNL Marketo Measure] めに、新しいチャネルとサブチャネルを作成する必要があります。 キャンペーンタイプのマッピング方法を決定できます。
 
 ![](assets/3-2.png)
 
 ## チャネルマッピングの例 {#channel-mapping-example}
 
-例えば、2 人の [!DNL Salesforce] 1 年間の会議。 しかし、各会議は非常に異なり、独自のターゲットオーディエンスを持っています。 どちらがより価値を持つかを知りたいと思います。 を [!DNL Salesforce] 環境の場合は、1 月のイベントにキャンペーンのタイプを「会議」とし、チャネルに「[!DNL Salesforce]」、サブチャネルの「1 月の会議」を参照してください。
+例えば、1 年に 2 回の [!DNL Salesforce] 会議に出席するとします。 しかし、各会議は非常に異なっており、ユニークなターゲットオーディエンスを持っています。 この 2 つのうちどちらが価値をもたらすかを知りたい。 [!DNL Salesforce] 環境では、1 月のイベントにキャンペーンタイプとして「会議」を指定し、チャネルに「[!DNL Salesforce]」という名前を付け、サブチャネルに「1 月の会議」という名前を付けることができます。
 
-6 月の会議でも同じことをしたいと思います これは会議でもあるので、同じキャンペーンタイプ（この場合は「会議」）を指定できます。 チャネルは同じです。 [!DNL Salesforce]第 2 回会議のサブチャネルは「6 月会議」です。 これは、組織的な観点から理にかなっています。 しかし、 [!DNL Marketo Measure] どちらのキャンペーンもキャンペーンタイプが同じなので、これらのルールを読み取って適用するロジックです。 [!DNL Marketo Measure] スクリプトは、1 つのタイプから 2 つの異なるサブチャネルにデータをマッピングできません。 つまり、各サブチャネルに新しいキャンペーンタイプを作成する必要がありますが、サブチャネルに同じチャネルを割り当てることはできます。
+次に、6 月の会議でも同じことを行います。 これは会議でもあるため、同じキャンペーンタイプ（この場合は「会議」）を指定することもできます。 チャンネルは同じで [!DNL Salesforce] く、この 2 番目の会議のサブチャンネルは「6 月の会議」です。 これは、組織の観点から見ると理にかなっています。 ただし、両方のキャンペーンのキャンペーンタイプが同じなので、これらのルールを読んで適用すると、[!DNL Marketo Measure] のロジックでは非常に混乱します。 スクリプト [!DNL Marketo Measure]、1 つのタイプから 2 つの異なるサブチャネルにデータをマッピングできません。 つまり、サブチャネルごとに新しいキャンペーンタイプを作成する必要がありますが、サブチャネルは同じチャネルを持つことができます。
 
-以下は、 [!DNL Marketo Measure] は読み取れませんでした：
+次に、[!DNL Marketo Measure] が読めないロジックの例を示します。
 
 ![](assets/4-2.png)
 
@@ -55,36 +55,36 @@ SFDC キャンペーンのタイプが [ オフラインチャネル ] タブの
 
 ![](assets/5-2.png)
 
-既存のキャンペーンタイプをチャネルマップに含める必要があり、チャネルとして「NULL」を追加する必要があります。
+既存のキャンペーンタイプをチャネルマップに含め、「NULL」をチャネルとして追加する必要があります。
 
-時間をかけて～に入る [!DNL Salesforce] 既存のレコードタイプの数と特性（含めるレコードタイプ）、および上記の情報に基づいて追加のキャンペーンを作成する必要があるかどうかを判断する場合。 必要な情報をすべて入力したら、アップロードの準備が整いました。
+時間をかけて、既存のレコードタイプの数と特性、組み込むレコードタイプ、および上記の情報に基づいて追加のキャンペーンを作成する必要があるかどうかを [!DNL Salesforce] 認します。 必要な情報をすべて入力したら、アップロードする準備が整います。
 
-詳細情報： [オフラインでの同期 [!DNL Salesforce] 次を使用するキャンペーン [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
+詳しくは、[ オフライン  [!DNL Salesforce]  キャンペーンの  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md) との同期を参照してください。
 
-## オンラインマーケティング活動のための SFDC キャンペーンの処理 {#handling-sfdc-campaigns-for-online-marketing-efforts}
+## オンラインマーケティング活動における SFDC キャンペーンの処理 {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
-マーケティングチームが [!DNL Salesforce] キャンペーンを使用して様々なデジタルマーケティング活動を追跡できます。 この方法に問題はありません。ただし、これらのキャンペーンを、ダイレクトメールや会議などの真のオフラインキャンペーンとは異なる方法で扱うことが重要です。 デジタルイベント（Web サイト上でおこなわれるインタラクション）に関連するキャンペーンは、と同期しないでください。 [!DNL Marketo Measure]. これらのキャンペーンを同期すると、タッチポイントが重複する原因となります。これは、 [!DNL Marketo Measure] JavaScript は既にオンラインの取り組みを追跡しています。
+マーケティングチームは、様々なデジタルマーケティングの取り組みを追跡する [!DNL Salesforce] キャンペーンを作成するのが一般的です。 この方法に問題はありませんが、ダイレクトメールや会議などの真のオフラインキャンペーンとは異なる方法でこれらのキャンペーンを扱うことが重要です。 デジタルイベント（Web サイト上で実行されるインタラクション）に関連するキャンペーンは、[!DNL Marketo Measure] と同期しないでください。 これらのキャンペーンを同期すると、[!DNL Marketo Measure] JavaScriptが既にオンラインの取り組みをトラッキングしているので、タッチポイントの重複が発生します。
 
-オンラインアクティビティのキャンペーンを処理するためのもう 1 つのヒントは、 [!DNL Salesforce] キャンペーンタイプを NULL に設定します。 これをおこなうには、まず [!DNL Marketo Measure] 以下の画像に示すように、アプリは NULL とタイトル付けされます。 これは、 [!DNL Marketo Measure] アプリの下 **チャネルを作成** 」セクションに入力します。 同期すべきでないキャンペーンが誤って同期された場合に役立ちます。 キャンペーンを簡単に見つけ出し、同期ステータスを修正するには、NULL の下にグループ化されたすべてを確認します。
+オンラインアクティビティのキャンペーンを処理するもう 1 つのヒントは、[!DNL Salesforce] キャンペーンタイプを NULL にマッピングすることです。 それには、以下の画像に示すように、まず [!DNL Marketo Measure] アプリに NULL というタイトルのチャネルを作成します。 これは、[!DNL Marketo Measure] アプリの「**チャネルを作成** セクションにあります。 これは、同期すべきでないキャンペーンが誤って同期された場合に役立ちます。 NULL の下にバケット化されたすべてのものを確認することで、キャンペーンを見つけて同期ステータスを修正するのは簡単です。
 
 ![](assets/6-2.png)
 
 ## アプリへのオフラインチャネルルールの入力 {#entering-your-offline-channel-rules-to-the-app}
 
-スプレッドシートを編集し、カスタムルールで更新したら、次の手順で、 [!DNL Marketo Measure] アプリ — 実際にはオフラインチャネル用のスプレッドシートをアップロードしません。 代わりに、以下の画像に表示される選択リストボックスに情報を入力します。 これは、 **[!UICONTROL オフラインチャネル]** の下に **[!UICONTROL チャネル]** 」セクションに入力します。
+カスタムルールを使用してスプレッドシートを編集および更新したら、次の手順は、このチャネルマッピングを [!DNL Marketo Measure] アプリで再作成することです。実際にオフラインチャネルのスプレッドシートをアップロードすることはありません。 代わりに、以下の画像に示すように、選択リストボックスに情報を入力します。 この情報を確認するには、「**[!UICONTROL チャネル]**」セクションの「**[!UICONTROL オフラインチャネル]**」をクリックします。
 
 ![](assets/7-2.png)
 
 >[!TIP]
 >
->決定したい _when_ a [!DNL Salesforce] キャンペーンのタイプが [!DNL Marketo Measure] チャネルマッピング？ に移動します。 **[!UICONTROL 設定]** > **[!UICONTROL キャンペーン]** > **[!UICONTROL フィールド]** > **[!UICONTROL タイプ]**. 選択リストに含まれる値と非アクティブな値を確認できます。 非アクティブなものは、「 」に選択可能なタイプとして表示されません。[!UICONTROL オフラインチャネル]」セクションに追加しました。 このプロセスには、数分から 48 時間までの時間がかかる場合があります。
+>[!DNL Salesforce] キャンペーンタイプがチャネルマッピングに取り込まれる _タイミング_ を決定 [!DNL Marketo Measure] たい場合は、 **[!UICONTROL 設定]**/**[!UICONTROL キャンペーン]**/**[!UICONTROL フィールド]**/**[!UICONTROL タイプ]** に移動します。 その後、どの値が選択リストに含まれ、どの値が非アクティブかを確認できます。 非アクティブなチャネルは、「[!UICONTROL  オフラインチャネル ]」セクションで選択可能なタイプとして表示されません。 このプロセスには、数分から最大 48 時間かかる場合があります。
 
-クリック **[!UICONTROL 保存]** 完了して [!DNL Marketo Measure] 変更内容をアップロードし、データを再処理します。
+完了したら「**[!UICONTROL 保存]**」をクリック [!DNL Marketo Measure] ます。変更内容がアップロードされ、データが再処理されます。
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] Tutorials：オフラインチャネルのマッピング](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>* [[!DNL Marketo Measure] チュートリアル：オフラインチャネルのマッピング](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutorials：オフラインキャンペーンの同期](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutorials: オフラインキャンペーンを同期しています ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [Marketo Engageプログラムの統合](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+>* [Marketo Engage プログラムの統合 ](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

@@ -5,9 +5,9 @@ title: A/B テストの設定とレポート
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 設定 {#set-up}
 
-リード、取引先責任者、ケース、商談に関する [!DNL Marketo Measure] A/B テストセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} サイト実験による収益への影響を追跡できます。
+リード、取引先責任者、ケース、商談に関する [!DNL Marketo Measure] A/B テストセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely[ と [VWO](https://vwo.com/){target="_blank"} サイト実験の売上高の影響を追跡でき ](https://www.optimizely.com/){target="_blank"} す。
 
 1. パッケージ [!DNL Marketo Measure] v3.9 以降を使用していることを確認してください。これを行うには、[!UICONTROL Salesforce]／[!UICONTROL 設定]／[!UICONTROL インストール済みパッケージ]に移動します。
 1. リードページレイアウトを編集し、**[!DNL Marketo Measure]A/B テスト** 関連リストをページに追加します。

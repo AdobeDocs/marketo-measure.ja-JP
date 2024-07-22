@@ -1,7 +1,7 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] 人物の統合 — [!DNL Marketo Measure]"
-title: '"[!DNL Marketo Engage] 人物統合»'
+description: "[!DNL Marketo Engage] People 統合 –  [!DNL Marketo Measure]"
+title: "[!DNL Marketo Engage] People 統合"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
@@ -11,42 +11,42 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Marketo Engage] 人物統合 {#marketo-engage-people-integration}
+# [!DNL Marketo Engage] People 統合 {#marketo-engage-people-integration}
 
-Marketoのユーザー統合により、 [!DNL Marketo Measure] :Marketoから人物をダウンロードし始め、追跡セッションを個人に結び付け、タッチポイントを自分のエンゲージメントにマッピングし始める場合。 歴史的に、 [!DNL Marketo Measure] では、タッチポイントを CRM の個人にマッピングすることしかできないので、マーケターは、ステージやトリガーが CRM に同期するのを待たずに、早くマーケティング活動を測定できます。
+Marketo人物統合を使用 [!DNL Marketo Measure] ると、Marketoから人物のダウンロードを開始し、トラッキング対象セッションと個人を結び付け、タッチポイントをエンゲージメントにマッピングできるようになります。 従来、[!DNL Marketo Measure] はタッチポイントを CRM から人物にマッピングすることしかできませんでした。そのため、マーケターはステージやトリガーを待って CRM と同期するのではなく、マーケティング活動を迅速に測定できます。
 
 ## 要件 {#requirements}
 
-* 実稼動Marketoインスタンス
-* 実稼動 [!DNL Salesforce] または [!DNL Microsoft Dynamics] インスタンス
-* 任意の有料 [!DNL Marketo Measure] 購読
-* SOLR が有効（に連絡してください） [Marketoサポート](https://nation.marketo.com/t5/Support/ct-p/Support) を有効にする )
+* 実稼動Marketo インスタンス
+* 実稼動 [!DNL Salesforce] または実 [!DNL Microsoft Dynamics] 動インスタンス
+* 任意の有料 [!DNL Marketo Measure] サブスクリプション
+* SOLR を有効にする（これを有効にするには ](https://nation.marketo.com/t5/Support/ct-p/Support)[Marketo サポートにお問い合わせください）
 
 ## 仕組み {#how-it-works}
 
-現在のお客様は、 [!DNL Marketo Measure] は、既に CRM から担当者をダウンロードしています。 標準的なプロセスは [!DNL Marketo Measure] ユーザーをダウンロードし、電子メールアドレスを bizible.js 経由で追跡した Web セッションにマッピングします。
+現在のお客様は、既にお使 [!DNL Marketo Measure] の CRM からユーザーをダウンロードしています。 標準的なプロセスでは、[!DNL Marketo Measure] がユーザーをダウンロードし、メールアドレスを bizible.js で追跡した web セッションにマッピングします。
 
-Marketoの担当者をダウンロードする機能が導入され、 [!DNL Marketo Measure] では、CRM と同期されていない、より大きな個人プールに web セッションをマッピングできるようになりました。 一般的に、これは、ユーザーが特定のステータスに達するまで CRM にプッシュされるまで待つ内部プロセスが原因です。
+Marketoのユーザーのダウンロードが導入され、[!DNL Marketo Measure] は、CRM と同期されていない個人の大規模なプールに web セッションをマッピングできるようになりました。 これは通常、ユーザーが特定のステータスに達するまで待機した後に CRM にプッシュされる内部プロセスが原因です。
 
-条件 [!DNL Marketo Measure] Marketoの担当者を web セッションに正常にマッピングするために、アドビの処理で関連するタッチポイントが生成され、最終的にはでレポート可能になります。 [!DNL Marketo Measure Discover]. そのMarketoの担当者が CRM にプッシュされた場合、 [!DNL Marketo Measure] が重複シナリオを処理します。CRM 担当者のタッチポイントを再作成し、初期セットを「重複」とマークします。
+Marketo ユーザーを web セッションに正常にマッピングする [!DNL Marketo Measure]、アドビの処理により、関連するタッチポイントが生成され、最終的に [!DNL Marketo Measure Discover] でレポート可能になります。 そのMarketo ユーザーが CRM にプッシュされ [!DNL Marketo Measure] 場合、重複するシナリオを処理し、CRM ユーザーのタッチポイントを再作成して、最初のセットを「重複」としてマークします。
 
-これらの重複を検出するには、 [!DNL Marketo-Salesforce] または [!DNL Marketo-Dynamics] 同期がMarketo担当者のリード ID と連絡先 ID に入力されています。 ID が正しく同期されている場合は、次のように、Person レコードに CRM ID が表示されます。
+これらの重複を検出するために、[!DNL Marketo-Salesforce] または [!DNL Marketo-Dynamics] sync がMarketo Person のリード ID および連絡先 ID に入力されていることを確認します。 ID が正しく同期されている場合は、次のように、人物レコードに CRM ID が表示されます。
 
 ![](assets/5a.png)
 
 ![](assets/5b.png)
 
-お客様は、の中のMarketoの担当者と CRM の担当者の完全なセットをレポートするオプションがあります。 [!DNL Marketo Measure] 検出。 CRM の担当者のみのレポートに関心がある場合は、フィルターするセグメントを作成することをお勧めします。
+お客様は、[!DNL Marketo Measure] Discover 内でMarketo ユーザーと CRM ユーザーの完全なセットをレポートするオプションがあります。 CRM 人物のみのレポートに関心がある場合は、セグメントを作成してフィルタリングすることをお勧めします。
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-でリード（人）のレポートを作成する場合 [!DNL Marketo Measure Discover]をクリックすると、Marketoと CRM のリードの合計が表示されます。 Marketoのリードのみ、または CRM のリードのみを報告するには、ソースのセグメントカテゴリを作成し、「ソースシステム」フィールドを使用してMarketoと CRM のセグメントルールを作成してルールを定義します。 セグメントを作成すると、 [!DNL Marketo Measure Discover] ダッシュボード。
+[!DNL Marketo Measure Discover] でリード（人物）に関するレポートを作成する場合、Marketoと CRM のリードの合計が表示されます。 Marketoの人物または CRM リードのみを対象としてレポートする場合は、ソースのセグメントカテゴリを作成してから、「Source システム」フィールドを使用してMarketoと CRM のセグメントルールを作成します。 セグメントを作成すると、Source カテゴリが表示され、[!DNL Marketo Measure Discover] のダッシュボードでフィルタリングできるようになります。
 
 ![](assets/bizible-discover-1.png)
 
 ![](assets/bizible-discover-2.png)
 
-## フィールドマッピング {#field-mappings}
+## フィールド マッピング {#field-mappings}
 
 <table> 
  <colgroup> 
@@ -55,7 +55,7 @@ Marketoの担当者をダウンロードする機能が導入され、 [!DNL Mar
  </colgroup> 
  <tbody> 
   <tr> 
-   <th><p><strong>biz_leads</strong></p></th> 
+   <th><p><strong>biz_リード</strong></p></th> 
    <th><p><strong>Marketo</strong></p></th> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Marketoの担当者をダウンロードする機能が導入され、 [!DNL Mar
   </tr> 
   <tr> 
    <td><p>ACCOUNT_ID</p></td> 
-   <td><p>アカウント ID (L2A)</p></td> 
+   <td><p>アカウント Id （L2A）</p></td> 
   </tr> 
   <tr> 
    <td><p>BIZIBLE_STAGE</p></td> 
@@ -101,28 +101,28 @@ Marketoの担当者をダウンロードする機能が導入され、 [!DNL Mar
  </tbody> 
 </table>
 
-*Marketo会社エンティティのフィールドが担当者の updatedAt 値に影響を与えない既知の行動上の問題があります。そのため、Web サイトや会社などの関連するフィールドが更新される場合、 [!DNL Marketo Measure] updatedAt の日時の値が更新されないので、はこれらの値が変更されたことを認識しません。 これは ABM 機能に影響を与えます。リードのアカウントを解決するための新しいデータが得られない場合です。 現時点では回避策はありませんが、今後、この問題に対処する予定があります。
+*Marketo会社エンティティのフィールドがユーザーの updatedAt 値に影響を与えない既知の動作問題があるので、web サイトや会社などの関連フィールドが更新され [!DNL Marketo Measure] と、updatedAt の日時の値が更新されないので、これらの値が変更されないことがわかります。 これは ABM 機能に影響を与えます。この機能では、リードのアカウントを解決するための新しいデータはありません。 現時点では回避策はありませんが、今後この問題に対処する予定です。
 
 ## よくある質問 {#faq}
 
-**リード数が CRM とで異なるのはなぜですか？ [!DNL Marketo Measure Discover]?**
+**CRM と [!DNL Marketo Measure Discover] でリード数が異なるのはなぜですか？**
 
-この統合により、Marketoから直接インポートしたリードのタッチポイントを作成できるので、CRM に同期されないリードが存在する可能性があるので、タッチポイントは CRM リードに対してのみプッシュされるので、Discover 内のカウントは CRM よりも多くなる可能性があります。
+この統合により、Marketoから直接読み込んだリードに対してタッチポイントを作成できるので、CRM に同期されなかったリードが存在する可能性があり、タッチポイントは CRM リードに対してのみプッシュされるので、Discover 内のカウントが CRM よりも多くなる可能性があります。
 
-**これによってデータはどのように置き換えられますか？**
+**これはデータにどのように置き換わりますか？**
 
-この統合により、実際に現在の [!DNL Marketo Measure] インスタンスで置き換えられるものはありません。 現在の CRM リードから期待されることは、Marketoリードの 2 年間分をダウンロードした場合に、そのリードレコードを更新するだけで、Marketoリードとの一致も示せるようにすることです。 バックエンドで発生するすべての操作とタッチポイントは同じままである必要があります。 また、対象となるMarketoリードにより、より多くのタッチポイントが表示されると予想されます。 これらのMarketoの担当者に一致する Web セッションが見つかった場合は、次のリンクでカウントされたタッチポイントが表示され始めます： [!DNL Marketo Measure].
+この統合は、現在の [!DNL Marketo Measure] インスタンス内のデータセットを実際に結合するので、何も置き換えられません。 現在の CRM リードに期待されるのは、2 年分のMarketo リードをダウンロードする際に、そのリードレコードを更新するだけで、Marketo リードとも一致していることを示すことです。 すべてがバックエンドで発生し、タッチポイントは同じままであることが予想されます。 また、適格なMarketo リードにより、タッチポイントがより多く表示されることも予想されます。 これらのMarketoのユーザーに一致する web セッションが見つかれば、[!DNL Marketo Measure] でカウントされたタッチポイントが表示され始めます。
 
-**担当者をMarketoからダウンロードして CRM 接続を切断することはできますか？**
+**ユーザーをMarketoからダウンロードして、CRM 接続を切断することしかできますか？**
 
-現時点では、いいえ。 今後もこのオプションが用意される予定ですが、Marketoからのプログラム、機会、契約を次のものに結び付けるには、このMarketo統合の他のフェーズを構築する必要があります。 [!DNL Marketo Measure].
+現時点では、できません。 今後もこの方法を使用できますが、Marketoから [!DNL Marketo Measure] にプログラム、オポチュニティ、取引を結び付けられるように、このMarketo統合の他のフェーズを構築する必要があります。
 
-**すべてのMarketoの担当者をインポートしますか？**
+**Marketoのユーザーをすべて読み込みますか？**
 
-現時点では、最も早く人をインポートできるのは1/1/2018で、最低でも 2 年分のデータが保持されます。これは、CRM ダウンロードで実行するのと同じ動作です。 Marketo接続が確立されたら、2 年間周期のウィンドウをダウンロードする動作を改善します。
+現時点では、2018 年 1 月 1 日からユーザーをインポートするのが最も早いので、2 年以上のデータがあります。これは、CRM ダウンロードから適用するのと同じ動作です。 Marketoの接続が確立されると、2 年間の周期的な時間枠をダウンロードするように、改善された動作を実装します。
 
-また、どの人物タイプもフィルタリングしないので、2 年間の期間内のすべての人がインポートされ、タッチポイントの対象になります。
+また、あらゆる人物タイプに対してフィルターを適用しないので、2 年以内のすべての人物が読み込まれ、タッチポイントの対象になります。
 
 **SOLR とは何ですか？また、この機能を使用するために SOLR を有効にする必要があるのはなぜですか？**
 
-Marketoインスタンスで SOLR を有効にすると、Marketoでハードウェア領域が開き、サブスクリプションで [!DNL Marketo Measure] 統合とも呼ばれます。 SOLR を有効にしないと、特定の呼び出しにアクセスできなくなり、そうしないと、お使いのMarketoインスタンスから適切なユーザーをダウンロードできるようになります。
+Marketo インスタンスに対して SOLR を有効にする手順は、Marketoのハードウェア領域を解放する簡単な手順です。これにより、サブスクリプションで [!DNL Marketo Measure] 統合を利用できるようになります。 SOLR が有効になっていない場合、Marketo インスタンスから適切なユーザーをダウンロードすることが可能となる特定の呼び出しにはアクセスできません。

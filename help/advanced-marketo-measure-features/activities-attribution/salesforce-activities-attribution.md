@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874708
-description: Salesforce アクティビティ属性 — [!DNL Marketo Measure]
+description: Salesforce アクティビティ属性 –  [!DNL Marketo Measure]
 title: Salesforce アクティビティ属性
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Salesforce アクティビティ属性 {#salesforce-activities-attribution}
 
-The [!DNL Marketo Measure] Salesforce アクティビティの統合により、特定のタスクおよびイベントレコードが属性モデルに組み込まれます。 セールスメールやセールス電話の呼び出しで、クレジットの支払いが不十分なものの追跡を開始します。 アクティビティルールを設定するには、次に移動します。 [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}. そこから、 **[!UICONTROL 設定]** 」タブをクリックし、 **[!UICONTROL アクティビティ]** タブをクリックします。
+[!DNL Marketo Measure] Salesforce アクティビティ統合により、特定のタスクとイベントのレコードが属性モデルに取り込まれます。 販売用 E メールや販売用の電話など、期日のクレジットを受け取っていない項目の追跡を開始します。 アクティビティルールを設定するには、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} にアクセスしてください。 そこから、「**[!UICONTROL 設定]**」タブに移動して、「**[!UICONTROL アクティビティ]**」タブをクリックします。
 
 ![](assets/1.png)
 
-まず始めに、 [!DNL Marketo Measure] キャンペーン。 定義したルールごとに、レコードを [!DNL Marketo Measure] 名前を付けることができるキャンペーン。 必要に応じて複数のキャンペーンを追加します。 ペイドメディアキャンペーンの隣にあるアウトバウンドセールスキャンペーンの効果を測定すると想像してみてください。
+まず、[!DNL Marketo Measure] Campaign と呼ばれる新しい概念を導入します。 定義したルールごとに、名前を付けることができる [!DNL Marketo Measure] Campaign にレコードをバケット化します。 必要に応じて、複数のキャンペーンを追加します。 有料メディアキャンペーンの横にあるアウトバウンドセールスキャンペーンの有効性を測定すると想像してください。
 
-これを使用します [!DNL Marketo Measure] マッピング先のチャネルを示すキャンペーン名。 アウトバウンドセールスについてまだ考えている場合は、おそらくすべてのアウトバウンドセールスキャンペーンを BDR チャネルに配置する必要があります。
+この [!DNL Marketo Measure] キャンペーン名を使用して、マッピング先のチャネルを教えてくれます。 それでもアウトバウンドセールスについて考えている場合は、おそらく、すべてのアウトバウンドセールスキャンペーンを BDR チャネルに配置する必要があります。
 
-この階層について理解する：
+この階層について理解します。
 
 * チャネル
    * サブチャネル
@@ -32,61 +32,61 @@ The [!DNL Marketo Measure] Salesforce アクティビティの統合により、
 
 >[!TIP]
 >
->例えば、セールス担当ごとに一意のキャンペーンを設定する場合は、動的な置き換えパラメータを使用して [!DNL Marketo Measure] キャンペーン名。 同じ例で、 `"Outbound Sales - {AssignedTo}"` そしてそれを次のように変えます。 `"Outbound Sales - Jill"` または `"Outbound Sales - Jack."`
+>営業担当者ごとに一意のキャンペーンを設定する場合（例：）は、動的な置き換えパラメーターを使用して [!DNL Marketo Measure] キャンペーン名を入力します。 同じ例で、`"Outbound Sales - {AssignedTo}"` と入力すると、`"Outbound Sales - Jill"` や `"Outbound Sales - Jack."` などに変更されます
 
 ![](assets/2.png)
 
-一度、 [!DNL Marketo Measure] キャンペーン名が設定されている場合は、アクティビティルールを設定します。
+[!DNL Marketo Measure] キャンペーン名を設定したら、アクティビティルールを設定します。
 
-ルールは、どのレコードが属性を持つ資格があるかを示すフィルターとして機能します。 例えば、同じロジックを使用して CRM でレポートを作成して、そのレポートを生成するとします。 and/or 文との様々な演算子（など）を組み合わせて使用する柔軟性があります。 `matches any`, `contains`, `starts with`, `ends with`, `is equal to`. 定義 `and` 文は、ボックス化された規則またはレイヤー内に `or` ステートメントを追加します。
+ルールは、アトリビューションの対象となるレコードを示すフィルターとして機能します。 類似のロジックを使用して CRM でレポートを作成し、そのレポートを生成していると仮定します。 and/or ステートメントと様々な演算子（`matches any`、`contains`、`starts with`、`ends with`、`is equal to` など）を柔軟に組み合わせて使用できます。 ボックス化されたルール内の `and` ステートメントまたはボックス外のレイヤー `or` ステートメントを定義します。
 
 ![](assets/3.png)
 
 >[!NOTE]
 >
->数式フィールドは、ルール内で使用できず、選択リストには表示されません。 数式はバックグラウンドで計算され、レコードは変更されないので、 [!DNL Marketo Measure] は、レコードがルールに適合するかどうかを検出できません。
+>数式フィールドはルール内で使用できず、選択リストには表示されません。 式はバックグラウンドで計算され、レコードは変更されないの [!DNL Marketo Measure]、レコードが規則に適合するかどうかを検出できません。
 >
->ID フィールドには、 CrmEvent.CreatedById などの正しい値を必ず使用してください。 [!DNL Salesforce IDs] 長さは 18 文字 (0054H000007WmrfQAC) です。
+>CrmEvent.CreatedById などの ID フィールドには正しい値を使用してください。 長さ [!DNL Salesforce IDs]18 文字（0054H000007WmrfQAC）です。
 
-最後に、を購入者タッチポイント日として使用する日付または日付/時間フィールドの 1 つを選択します。 標準フィールドとカスタムフィールドのどちらも選択できます。
+最後に、Buyer Touchpointの日付として使用する日付または日付/時間フィールドを 1 つ選択します。 標準フィールドとカスタムフィールドのどちらも選択できます。
 
 >[!TIP]
 >
->パッケージのインストールで、 [!DNL Marketo Measure] アクティビティレコードにカスタムの購入者タッチポイント日フィールドが含まれています。 ステータスが変更された日付など、動的な日付を使用する場合は、CRM ワークフローを使用して「購入者タッチポイントの日付」を設定し、ここでこの手順で「購入者タッチポイントの日付」を選択できます。
+>パッケージのインストール時に、[!DNL Marketo Measure] クティビティレコードにカスタムBuyer Touchpoint日フィールドが追加されます。 ステータスが変更された日付などの動的な日付を使用する場合は、CRM ワークフローを使用して「Buyer Touchpoint日」を設定し、この手順で「Buyer Touchpoint日」を選択します。
 
 ![](assets/4.png)
 
-タスクまたはイベントに別のルールを設定することを忘れないでください。 セールスチームが、どのオブジェクトを使用してアクティビティを記録しているかを把握しておく必要があります。
+タスクまたはイベントに異なるルールを設定することを忘れないでください。 営業チームがアクティビティの記録に使用するオブジェクトを把握する必要があります。
 
 ![](assets/5.png)
 
-これらの新しいタッチポイントを、適切な [マーケティングチャネル](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. 作成したばかりの新しいキャンペーンマッピングでチャネルを定義します。
+これらの新しいタッチポイントを、適切な [ マーケティングチャネル ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=チャネル.Online%20 チャネル){target="_blank"} に配置することになるでしょう。 それには、作成されたばかりの新しいキャンペーンマッピングを使用してチャネルを定義します。
 
 >[!TIP]
 >
->チャネル定義を追加する場合、ワイルドカード値を使用すると、演算子を簡単に次のように記述できます。
+>チャネル定義を追加する場合は、ワイルドカード値を使用すると、次のような演算子の状態を簡単に設定できます。
 >
->次で始まる ( Outbound)&#42; )
+>次で始まる（アウトバウンド &#42;）
 >
-次を含む ( &#42;Outbound&#42; )
+次を含む（&#42; アウトバウンド &#42;）
 >
-次の値で終わる ( &#42;送信 )
+次で終わる（アウトバウンド &#42;
 >
-ワイルドカードは基本的に「等しい」を意味しないので、必要に応じて必ず使用してください。
+ワイルドカードは基本的に「次と等しい」という意味ではないので、必要に応じて使用してください。
 
-| **演算子** | **使用例** |
+| **演算子** | **ユースケース** |
 |---|---|
-| 次と等しい | 単一の値 — 完全一致 |
-| 次を含む | 単一の値 — 値を含む |
-| 任意に一致 | 複数の値 — 完全一致 |
-| いずれかに一致（次を含む） | 複数の値 — &#42;値&#42;, &#42;値 &#42;値&#42; |
+| が次と等しい | 単一の値 – 完全一致 |
+| 指定の語を含む | 単一値 – 値を含む |
+| 一致 | 複数の値 – 完全一致 |
+| いずれかと一致する（次を含む） | 複数の値 – &#42;value&#42;、&#42;value、&#42;value&#42; |
 
 ![](assets/6.png)
 
-最後に、新しいチャネルのコストを入力するオプションがあります。 The [マーケティング費用のアップロード](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} では、チャネルレベル、サブチャネルレベルまたはキャンペーンレベルでの支出を入力できます。 新しい [!DNL Marketo Measure] キャンペーンでは、関連コストを月単位で追加し、各キャンペーンの ROI を確認できます。
+最後に、新しいチャネルのコストを入力するオプションがあります。 [ マーケティング費用のアップロード ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} では、費用をチャネルレベル、サブチャネルレベルまたはキャンペーンレベルで入力できます。 新しい [!DNL Marketo Measure] キャンペーンを使用すると、これらの関連コストを月別に追加し、各キャンペーンの ROI を確認できます。
 
 ![](assets/7.png)
 
 >[!MORELIKETHIS]
 >
-[アクティビティ属性に関する FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+[ アクティビティアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

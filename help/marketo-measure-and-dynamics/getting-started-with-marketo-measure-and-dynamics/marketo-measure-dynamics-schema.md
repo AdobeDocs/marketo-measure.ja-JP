@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874523
-description: "[!DNL Marketo Measure] Dynamics スキーマ — [!DNL Marketo Measure]"
-title: '"[!DNL Marketo Measure] Dynamics スキーマ»'
+description: "[!DNL Marketo Measure] Dynamics スキーマ - [!DNL Marketo Measure]"
+title: "[!DNL Marketo Measure] Dynamics スキーマ"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 67%
+ht-degree: 68%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->この場合、[!DNL Marketo Measure]」 （ドキュメント内）が表示されますが、CRM には「Bizible」が表示されます。 アドビは現在、その更新を行っており、ブランディングの変更がまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-使い始めるために必要な Dynamics スキーマを以下に示します。 [!DNL Marketo Measure]. 必要な読み取り/書き込みアクセス権と共に、すべてのエンティティとフィールドが表示されます。
+[!DNL Marketo Measure] の使用を開始するために必要な Dynamics スキーマを以下に示します。 すべてのエンティティとフィールドが、必要な読み取り/書き込みアクセス権と共に表示されます。
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
-購入者タッチポイントは、 [!DNL Marketo Measure] 連絡先とリードのマーケティングインタラクションをカプセル化するカスタムエンティティです。
+Buyer Touchpointは、連絡先とリードのマーケティングインタラクションをカプセル化する [!DNL Marketo Measure] しいカスタムエンティティです。
 
-## 購入者タッチポイントの関係 {#buyer-touchpoint-relationships}
+## Buyer Touchpointの関係 {#buyer-touchpoint-relationships}
 
-この図は、Dynamics Stock エンティティと購入者タッチポイントの関係の概要を示しています。
+次の図は、Dynamics Stock エンティティとBuyer Touchpointの間の関係の概要を示しています。
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
@@ -306,11 +306,11 @@ ht-degree: 67%
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-購入者属性タッチポイントは、 [!DNL Marketo Measure] Opportunity に対するマーケティングの影響をカプセル化するカスタムエンティティ。
+Buyer Attribution Touchpointは、オポチュニティに対するマーケティングの影響をカプセル化する [!DNL Marketo Measure] しいカスタムエンティティです。
 
-## 購入者属性タッチポイント関係 {#buyer-attribution-touchpoint-relationships}
+## Buyer Attribution Touchpointの関係 {#buyer-attribution-touchpoint-relationships}
 
-この図は、Dynamics Stock エンティティと購入者属性タッチポイントとの関係の概要を示しています。
+次の図は、Dynamics Stock エンティティとBuyer Attribution Touchpointの間の関係の概要を示しています。
 
 ## Buyer Attribution Touchpoints {#buyer-attribution-touchpoints}
 
@@ -377,7 +377,7 @@ ht-degree: 67%
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_Custom_Model_2</p></td> 
+   <td><p>bizible2_属性_カスタム_モデル_2</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -395,13 +395,13 @@ ht-degree: 67%
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_U_Shaped</p></td> 
+   <td><p>bizible2_属性_U_Shaped</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_W_Shaped</p></td> 
+   <td><p>bizible2_Attribution_W_Shape</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -587,7 +587,7 @@ ht-degree: 67%
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_Custom_Model</p></td> 
+   <td><p>bizible2_収益_カスタム_モデル</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -635,7 +635,7 @@ ht-degree: 67%
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_U_Shaped</p></td> 
+   <td><p>bizible2_Revenue_U_Shape</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -647,7 +647,7 @@ ht-degree: 67%
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_W_Shaped</p></td> 
+   <td><p>bizible2_Revenue_W_Shape</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -715,7 +715,7 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] A/B テスト {#marketo-measure-ab-tests}
+## [!DNL Marketo Measure] AB テスト {#marketo-measure-ab-tests}
 
 <table> 
  <tbody> 
@@ -867,7 +867,7 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] 履歴 {#marketo-measure-history}
+## [!DNL Marketo Measure] History {#marketo-measure-history}
 
 <table> 
  <tbody> 
@@ -912,7 +912,7 @@ ht-degree: 67%
 
 ## Dynamics 標準エンティティ {#dynamics-standard-entities}
 
-このリストには、Dynamics 標準エンティティが表示されます。 [!DNL Marketo Measure] は、これらのエンティティに追加したカスタムフィールドとやり取りします。
+このリストには、やり取りする Dynamics 標準エンティティと、[!DNL Marketo Measure] れらのエンティティに追加するカスタムフィールドが表示されます。
 
 **リード**
 
@@ -925,7 +925,7 @@ ht-degree: 67%
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
-   <td><p>鉛製の</p></td> 
+   <td><p>レード</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1138,7 +1138,7 @@ ht-degree: 67%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>salesstage</p></td> 
+   <td><p>営業ステージ</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1156,7 +1156,7 @@ ht-degree: 67%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>実数値</p></td> 
+   <td><p>actualvalue</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1199,7 +1199,7 @@ ht-degree: 67%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>typeodename</p></td> 
+   <td><p>typecodename</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1249,7 +1249,7 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-**キャンペーンの応答**
+**キャンペーンの反応**
 
 <table> 
  <tbody> 
@@ -1308,7 +1308,7 @@ ht-degree: 67%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>wealdingobjectid</p></td> 
+   <td><p>regardingobjectid</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1357,7 +1357,7 @@ ht-degree: 67%
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
-   <td><p>リスチド</p></td> 
+   <td><p>listid</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1406,7 +1406,7 @@ ht-degree: 67%
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
-   <td><p>リスチド</p></td> 
+   <td><p>listid</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1485,7 +1485,7 @@ ht-degree: 67%
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>wealdingobjectid</p></td> 
+   <td><p>regardingobjectid</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1505,4 +1505,4 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-[] = V1 レガシー顧客のみ
+[] = V1 レガシーのお客様のみ

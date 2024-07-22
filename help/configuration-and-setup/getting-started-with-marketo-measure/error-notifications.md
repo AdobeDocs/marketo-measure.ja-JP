@@ -1,5 +1,5 @@
 ---
-description: エラー通知 — [!DNL Marketo Measure]
+description: エラー通知 –  [!DNL Marketo Measure]
 title: エラー通知
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
@@ -12,9 +12,9 @@ ht-degree: 30%
 
 # エラー通知 {#error-notifications}
 
-以下に、アプリ内通知または電子メールで受け取る可能性のあるエラーのリストを示します。 これらのいずれかを受け取った場合は、それぞれのトラブルシューティング手順に従ってください。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
+以下は、アプリ内通知またはメールで受信する可能性のあるエラーのリストです。 これらのいずれかが発生した場合は、対応するトラブルシューティング手順に従ってください。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
 
-完全な通知メッセージを表示するには、以下を参照してください： [!DNL Marketo Measure]をクリックし、 **すべて表示** をクリックします。
+通知メッセージ全体を [!DNL Marketo Measure] で表示するには、「通知」タブの下部にある **すべて表示** をクリックします。
 
 ![](assets/error-notifications-1.png)
 
@@ -58,96 +58,97 @@ ht-degree: 30%
       </td>
     </tr>
     <tr>
-      <td>CANNOT_EXECUTE_FLOW_トリガー</td>
-      <td>CRM エクスポート中にエラーが発生しました： CANNOT_EXECUTE_FLOW_ENTITY ：エンティティタイプ「連絡先」Salesforce 管理者にこれらの詳細を伝えます。
-制限を超えました。制限を超えた場合、組織がこの機能の上限を超えています。 エラー ID: 123456</td>
-      <td>レコードは、Salesforce 組織で設定されたトリガーフロールールを満たしていないので、保存できません。</td>
-      <td>通知メッセージの詳細を確認し、Salesforce 組織のフロートリガーを確認します。
-フロートリガーに関する Salesforce ドキュメント <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">ここにあります</a>.
+      <td>CANNOT_EXECUTE_FLOW_SYSTEMトリガー</td>
+      <td>Crm エクスポート中にエラーが発生しました：CANNOT_EXECUTE_FLOW_ENTITY : トリガータイプ「連絡先」 Salesforce 管理者に次の詳細を伝えてください。
+制限を超えています
+ユーザーまたは組織が、この機能の上限を超えています。 エラー ID : 123456</td>
+      <td>Salesforce 組織で設定されたトリガーフロールールを満たしていないため、レコードを保存できません。</td>
+      <td>通知メッセージの詳細をすべて確認し、Salesforce 組織のフロートリガーを確認します。
+フロートリガーに関する Salesforce のドキュメント <a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated"> こちらを参照 </a>。
       </td>
     </tr>
     <tr>
       <td>CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY</td>
-      <td>CRM エクスポート中にエラーが発生しました： CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY ：エンティティタイプ「リード」: CRM ErrorCode : CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, CRM ErrorMessage : System.Limit Cpu CPU time limit, Recod Id:
+      <td>Crm エクスポート中にエラーが発生しました：CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY : エンティティタイプ「Lead」 : CRM エラーコード : CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY、CRM エラーメッセージ : System.LimitException : Apex CPU の時間制限を超えています。RecordId : 0123456
       <p>
-      CRM エクスポート中にエラーが発生しました： CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY ：エンティティタイプ「アカウント」: CRM エラーコード： CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY, CRM ErrorMessage ：エンティティタイプを更新できません：アカウント、レコード ID: 0123456</td>
-      <td>トリガーがオブジェクトの更新や挿入を妨げています。
+      Crm エクスポート中にエラーが発生しました：CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY : エンティティタイプ「アカウント」 : CRM エラーコード : CANNOT_INSERT_UPDATE_ACTIVATE_ENTITY、CRM エラーメッセージ : エンティティタイプを更新できません：アカウント、レコード ID : 0123456</td>
+      <td>トリガーにより、更新またはオブジェクトを挿入できません。
       <p>
       OR
       <p>
       オブジェクトに対する権限がありません。</td>
-      <td>挿入/更新が失敗する原因となっているトリガーコードを確認します。 トリガーの詳細については、次の Salesforce ドキュメントを参照してください。
+      <td>挿入/更新が失敗する原因となるトリガーコードを確認します。 トリガーの詳細については、以下の Salesforce ドキュメントを参照してください。
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Apexトリガー</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5"> 頂点トリガー</a>
           </li>
-          <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated">フロートリガー</a>
+          <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated"> フロートリガー</a>
           </li>
         </ul>
         <p>
-        に必要なすべての権限を指定します。 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measureユーザー</a>.
+        <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure ユーザー </a> に必要な権限をすべて付与します。
       </td>
     </tr>
     <tr>
       <td>DUPLICATES_DETECTED</td>
-      <td>CRM エクスポート中にエラーが発生しました： DUPLICATES_DETECTED ：エンティティタイプ「連絡先」: CRM ErrorCode : DUPLICATES_DETECTED, CRM ErrorMessage ：重複レコードを作成しています。 代わりに既存のレコードを使用することをお勧めします。RecordId: 0123456</td>
-      <td>Salesforce 組織にインポートされるレコードは既に存在します。</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">「ルールの複製」設定を無効にする</a> 重複を許可する場合。
+      <td>Crm エクスポート中にエラーが発生しました：重複_検出済み：エンティティタイプ「連絡先」 : CRM エラーコード : DUPLICATES_DETECTED, CRM エラーメッセージ：重複するレコードを作成中です。 代わりに、既存のレコードを使用することをお勧めします。RecordId: 0123456</td>
+      <td>Salesforce 組織にインポートしているレコードは既に存在します。</td>
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> 「ルールを複製」設定を無効にする </a>、重複を許可します。
           <p>
-          Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.</td>
+          Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。</td>
     </tr>
     <tr>
       <td>DUPLICATE_VALUE</td>
-      <td>CRM エクスポート中にエラーが発生しました： DUPLICATE_VALUE ：エンティティタイプ「リード」: CRM ErrorCode : DUPLICATE_VALUE、CRM ErrorMessage ：重複値が見つかりました： Email_Unique__c ID: 456 のレコードの値を複製します</td>
-      <td>Salesforce 組織にインポートされるフィールドでは、値の重複は許可されていません。</td>
-      <td>をオフにします。 <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">"一意のチェックボックス"</a> Salesforce 内。
+      <td>Crm エクスポート中にエラーが発生しました：DUPLICATE_VALUE : エンティティタイプ「Lead」 : CRM エラーコード : DUPLICATE_VALUE、CRM エラーメッセージ：重複した値が見つかりました：Email_Unique__c 重複した値が、ID : 123、RecordId : 456 のレコードに含まれています</td>
+      <td>Salesforce 組織にインポートされているフィールドで値の重複が許可されていません。</td>
+      <td>Salesforce で <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> 「一意のチェックボックス」 </a> のチェックを外します。
           <p>
-          Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.</td>
+          Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。</td>
     </tr>
     <tr>
       <td>ENTITY_IS_LOCKED</td>
-      <td>CRM エクスポート中にエラーが発生しました： ENTITY_IS_LOCKED ：エンティティタイプ「アカウント」: CRM エラーコード： ENTITY_IS_LOCKED、CRM ErrorMessage ：このレコードはロックされています。 編集が必要な場合は、管理者にお問い合わせください。RecordId: 0123456</td>
-      <td>レコードが承認プロセス中で、現在の承認者またはシステム管理者以外のユーザーがレコードの編集を試みます。</td>
+      <td>Crm エクスポート中にエラーが発生しました：ENTITY_IS_LOCKED：エンティティタイプ「Account」 : CRM エラーコード : ENTITY_IS_LOCKED、CRM エラーメッセージ：このレコードはロックされています。 編集が必要な場合は、管理者にお問い合わせください。RecordId: 0123456</td>
+      <td>レコードが承認プロセスに入り、現在の承認者またはシステム管理者以外のユーザーがレコードを編集しようとする場合。</td>
       <td>
         <ul>
-          <li>Salesforce 組織内のそのレコードの保留中の承認プロセスを解決します。</li>
-          <li>Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.
+          <li>Salesforce 組織のそのレコードに対する承認保留中プロセスを解決します。</li>
+          <li>Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
-      <td>CRM エクスポート中にエラーが発生しました： FIELD_FILTER_VALIDATION_EXCEPTION ：エンティティタイプ「リード」: CRM エラーコード： FIELD_FILTER_VALIDATION_EXCEPTION、フィールド： User__C、CRM ErrorMessage：値が存在しないか、フィルター条件に一致しません。 「アカウントエグゼクティブ、インサイドセールス」の役割を持つユーザーを選択してください。RecordId: 0123456</td>
-      <td>変更されたレコードが、オブジェクトで定義された参照フィルターを満たさなくなりました。</td>
-      <td>Marketo Measureが変更しようとしているオブジェクトに対するフィルターを確認します。 詳しくは、 <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">この Salesforce 記事</a> を参照してください。</td>
+      <td>Crm エクスポート中にエラーが発生しました：FIELD_FILTER_VALIDATION_EXCEPTION : エンティティタイプ「リード」 : CRM エラーコード : FIELD_FILTER_VALIDATION_EXCEPTION、フィールド : User__C、CRM エラーメッセージ：値が存在しないか、フィルター条件に一致しません。 「Account Executive, Inside Sales」の役割を持つユーザーを選択してください。RecordId: 0123456</td>
+      <td>変更されたレコードは、オブジェクトで定義された参照フィルターを満たさなくなりました。</td>
+      <td>Marketo Measureが変更しようとしているオブジェクトのフィルターを確認します。 オブジェクトのフィルターを確認する方法については、<a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1"> この Salesforce の記事 </a> を参照してください。</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
-      <td>CRM エクスポート中にエラーが発生しました： FIELD_INTEGRITY_EXCEPTION ：エンティティタイプ'Lead': CRM ErrorCode: FIELD_INTEGRITY_EXCEPTION，フィールド：国、CRM ErrorMessage ：正しく表示されているにもかかわらず、この国に問題があります。 有効な国のリストから国/地域を選択してください。：国、レコード ID:0123456</td>
-      <td>期待されたレコードのタイプが一致しません。</td>
-      <td>最も一般的な例は、Salesforce 組織で設定された都道府県/国の命名規格に従っていないことです。これは、[ 州/国 ] フィールドが特定のピックリスト値のみを受け入れるように標準化されているからです。 この問題に対処するには、次の操作を行います。
+      <td>Crm エクスポート中にエラーが発生しました：FIELD_INTEGRITY_EXCEPTION : エンティティタイプ「リード」 : CRM エラーコード : FIELD_INTEGRITY_EXCEPTION, フィールド：国、CRM エラーメッセージ：この国には問題がありますが、正しく表示される場合があります。 有効な国の一覧から国/地域を選択してください。：国、レコード ID: 0123456</td>
+      <td>レコードの予期されたタイプが一致しません。</td>
+      <td>最も一般的なケースは、Salesforce 組織で設定された州/国の命名基準に従っていません。州/国フィールドが、特定のピックリスト値のみを受け入れるように標準化されているからです。 この問題に対処するには、次のようにします。
         <ul>
-          <li>レコードを更新して、そのフィールドで組織が受け入れた値に従います。 SFDC 管理者に問い合わせて、受け入れられた値のリストを取得してください。</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">都道府県/国の選択リストを無効にする</a>.
+          <li>そのフィールドに対する組織の許可値に従ってレコードを更新します。 使用可能な値のリストを取得するには、SFDC 管理者にお問い合わせください。</li>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5"> 都道府県/国の選択リストを無効にします </a>。
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>INACTIVE_OWNER_OR_USER</td>
-      <td>CRM エクスポート中にエラーが発生しました： INACTIVE_OWNER_OR_USER ：エンティティタイプ「連絡先」: CRM ErrorCode : INACTIVE_OWNER_OR_USER, CRM ErrorMessage ：非アクティブなユーザー [1234] を連絡先所有者として実行した操作、RecordId: 0123456</td>
+      <td>Crm エクスポート中にエラーが発生しました：INACTIVE_OWNER_OR_USER : エンティティタイプ「連絡先」 : CRM エラーコード : INACTIVE_OWNER_OR_USER、CRM エラーメッセージ：非アクティブなユーザー [1234] を連絡先の所有者として指定し、操作を実行しました。RecordId : 0123456</td>
       <td>Marketo Measureに「非アクティブな所有者でレコードを更新」権限がありません。</td>
-      <td>Marketo Measureに「<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">非アクティブな所有者でレコードを更新</a>"権限。</td>
+      <td>Marketo Measureに「<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1"> 非アクティブな所有者でレコードを更新 </a>」権限を付与します。</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
-      <td>CRM エクスポート中にエラーが発生しました： INSUFFICIENT_ACCESS_OR_READONLY ：エンティティタイプ「アカウント」: CRM ErrorCode : INSUFFICIENT_ACCESS_OR_READONLY, CRM ErrorMessage ：オブジェクト ID: [123]、RecordId: 456</td>
-      <td>Marketo Measureにはオブジェクト/フィールドに対する権限がないか、オブジェクトが読み取り専用です。</td>
-      <td>次を参照してください。 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience League記事</a> Marketo Measureに必要な権限に関するガイダンスを参照してください。</td>
+      <td>Crm エクスポート中にエラーが発生しました：INSUFFICIENT_ACCESS_OR_READONLY : エンティティタイプ「Account」 : CRM エラーコード : INSUFFICIENT_ACCESS_OR_READONLY、CRM エラーメッセージ : オブジェクト ID : [123] のアクセス権限が不十分です。RecordId : 456</td>
+      <td>Marketo Measureにオブジェクト / フィールドに対する権限がないか、オブジェクトが読み取り専用です。</td>
+      <td>Marketo Measureが必要とする権限のガイダンスについては </a> 次の <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Experience Leagueの記事を参照してください。</td>
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Adobe Analytics書き出し中にエラーが発生しました： INVALID_ADOBE_ANALYTICS_CONFIGURATION ：エラー：アップロードできません。 アップロードする前に、データソーススキーマを確認します。 データソース ID：1234</td>
+      <td>Adobe Analyticsの書き出し中にエラーが発生しました：INVALID_CONFIGURATION_ANALYTICS_CONFIGURATION : ADOBE: アップロードは許可されていません。 アップロードする前に、データソーススキーマを確認します。 データソース ID：1234</td>
       <td>Adobe Analytics 統合が正しく設定されていません。</td>
       <td>次のヘルプ記事を参照して、正しい設定を確認します。
         <ul>
@@ -166,13 +167,13 @@ ht-degree: 30%
       <p>
       広告の読み込み中に発生したエラー：INVALID_CURRENCY_ISO_CODE : 1234 のアカウントの通貨 XXX は、Marketo Measure ではサポートされていません。</td>
       <td>サポートしていない通貨が検出されました。</td>
-      <td>通知に示されるソースシステム ( 広告、CRM、Marketo) では、レコードに関連付けられた通貨が、サポートされ、有効な通貨であることを確認します。 サポートされる通貨は、ISO 通貨標準に基づいています。</td>
+      <td>通知に示されているソースシステム（Ad、Crm、Marketo）で、レコードに関連付けられている通貨がサポートされている有効な通貨であることを確認します。 サポートされる通貨は、ISO 通貨標準に基づいています。</td>
     </tr>
     <tr>
       <td>MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS</td>
-      <td>CRM エクスポート中にエラーが発生しました： MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS ：エンティティタイプ「キャンペーン」: CRM エラーコード： INVALID_FIELD_FOR_INSERT_UPDATE、フィールド： bizible2__UniqueId__c、CRM エラーメッセージ：フィールドを作成/更新するには： bizible2__UniqueId__c.このフィールドのセキュリティ設定を確認し、お使いのプロファイルまたは権限セットに対して読み取り/書き込みが行われていることを確認してください。</td>
-      <td>Marketo Measureは bizible フィールドに対する権限がありません。</td>
-      <td>「bizible2__」というプレフィックスが付いたすべてのフィールドに対する読み取りおよび書き込み権限が必要です。 これらのフィールドの完全なリストは、次のとおりです。 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">この記事では、</a>.</td>
+      <td>Crm エクスポート中にエラーが発生しました：MISSING_BIZIBLE_CUSTOM_FIELDS_PERMISSIONS : エンティティタイプ「キャンペーン」 : CRM エラーコード : INVALID_FIELD_FOR_INSERT_UPDATE, フィールド : bizible2__UniqueId__c, CRM エラーメッセージ : フィールドを作成/更新できません：bizible2__UniqueId__c.このフィールドのセキュリティ設定を確認し、プロファイルまたはアクセス許可セットに対して読み取り/書き込み可能であることを確認してください。</td>
+      <td>Marketo Measureに bizible フィールドに対する権限がありません。</td>
+      <td>先頭に「bizible2__」が付いたすべてのフィールドに対する読み取り権限と書き込み権限が必要です。 これらのフィールドの完全なリストは、<a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md"> この記事で </a> 確認できます。</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -221,13 +222,13 @@ ht-degree: 30%
     </tr>
     <tr>
       <td>MISSING_RECORD_OBJECT_PERMISSIONS</td>
-      <td>CRM エクスポート中にエラーが発生しました： MISSING_RECORD_OBJECT_PERMISSIONS ：エンティティタイプ'bizible2__Bizible_Touchpoint__c': CRM エラーコード： INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY，フィールド：アカウント、CRM ErrorMessage：相互参照 id のアクセス権：0123456</td>
+      <td>Crm エクスポート中にエラーが発生しました：MISSING_RECORD_OBJECT_PERMISSIONS : エンティティタイプ「bizible2__Bizible_Touchpoint__c」 : CRM エラーコード : INSUFFICIENT_ACCESS_ON_CROSS_REFERENCE_ENTITY, フィールド : アカウント，CRM エラーメッセージ：相互参照 ID 0123456 のアクセス権限が不十分です</td>
       <td>Marketo Measureに権限がありません。</td>
-      <td>このエラーには、Salesforce 組織に固有の理由がいくつかあります。 この問題を解決できる一般的なトラブルシューティング手順を以下にいくつか示します。
+      <td>このエラーには、Salesforce 組織に固有の理由がいくつかあります。 問題を解決できる一般的なトラブルシューティング手順を以下に示します。
         <ul>
-          <li>それぞれに必要なすべての権限を確認する <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">オブジェクトとフィールド</a>.</li>
-          <li>Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.</li>
-          <li>Marketo Measure "を付与<a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">すべて修正</a>"権限。</li>
+          <li>各 <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md"> オブジェクトとフィールド </a> に対して必要なすべての権限を確認します。</li>
+          <li>Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。</li>
+          <li>Marketo Measureに「すべて変更 <a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm"> 権限を付与 </a> ます。</li>
         </ul>
       </td>
     </tr>
@@ -238,7 +239,7 @@ ht-degree: 30%
           CRM 読み込み中にエラーが発生しました：NULL_EMPTY_CURRENCY_ISO_CODE：MultiCurrency が RecordId 1234 に対して有効になっている場合、通貨 ISO コードは NULL または空です
       </td>
       <td>通貨は、サポートされている ISO 通貨コードである必要があります。</td>
-      <td>通知に示されるソースシステム ( 広告、CRM、Marketo) では、レコードに関連付けられた通貨が、サポートされ、有効な通貨であることを確認します。 サポートされる通貨は、ISO 通貨標準に基づいています。</td>
+      <td>通知に示されているソースシステム（Ad、Crm、Marketo）で、レコードに関連付けられている通貨がサポートされている有効な通貨であることを確認します。 サポートされる通貨は、ISO 通貨標準に基づいています。</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>
@@ -250,37 +251,37 @@ ht-degree: 30%
     </tr>
     <tr>
       <td>RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES</td>
-      <td>CRM エクスポート中にエラーが発生しました： RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES ：エンティティタイプ「リード」: CRM エラーコード： FIELD_CUSTOM_VALIDATION_EXCEPTION、フィールド： Lead_Status_Reason__c、CRMErrorMessage：リードステータスを選択する必要があります理由、レコード ID: 0123456</td>
-      <td>更新中のレコードは、Salesforce 組織の検証ルールセットを満たしていません。</td>
-      <td>Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.
+      <td>Crm エクスポート中にエラーが発生しました：RECORD_NONCOMPLIANT_WITH_VALIDATION_RULES : エンティティタイプ「Lead」 : CRM エラーコード : FIELD_CUSTOM_VALIDATION_EXCEPTION、フィールド : Lead_Status_Reason__c、CRM エラーメッセージ : リードステータス理由、RecordId を選択する必要があります：0123456</td>
+      <td>更新中のレコードが Salesforce 組織に設定された検証ルールを満たしていません。</td>
+      <td>Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。
       <p>
-      を更新します。 <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">検証ルール</a>.</td>
+      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5"> 検証ルール </a> を更新します。</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>
-      <td>CRM エクスポート中にエラーが発生しました： RESTRICT_PICKLIST_VALUES_ENABLED ：エンティティタイプ「Campaign」: CRM ErrorCode : INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST、フィールド： Areas_of_Interest__c、CRMErrorMessage：制限された値リストフィールド：不明</td>
-      <td>選択リストフィールドの設定で「選択リストを値セットで定義された値に制限」が有効になっている場合、またはフィールドに挿入される値は、オブジェクトのレコードタイプで使用できません。</td>
-      <td>Salesforce 組織の制限候補リスト設定を無効にします。
+      <td>Crm エクスポート中にエラーが発生しました：RESTRICT_PICKLIST_VALUES_ENABLED : エンティティタイプ「Campaign」 : CRM エラーコード : INVALID_OR_NULL_FOR_RESTRICTED_PICKLIST, フィールド : Areas_of_Interest__c, CRM エラーメッセージ：制限付き選択リストフィールドに無効な値：不明</td>
+      <td>選択リストフィールドの設定で「選択リストを値セットで定義された値に制限」が有効になっている場合や、フィールドに挿入される値がオブジェクトのレコードタイプで使用できない場合。</td>
+      <td>Salesforce 組織で「選択リストを制限」設定を無効にします。
           <p>
-          Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.
+          Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。
       </td>
     </tr>
     <tr>
       <td>REQUIRED_FIELD_MISSING</td>
-      <td>CRM エクスポート中にエラーが発生しました： MISSING_REQUIRED_FIELD ：エンティティタイプ「リード」: CRM ErrorCode : REQUIRED_FIELD_MISSING，フィールド： Product_Type__c, CRM ErrorMessage ：必須フィールドが見つかりません： [Product_Type__c],Id:</td>
-      <td>検証ルールがオブジェクトの必須フィールドを指定する場合。</td>
-      <td>Marketo Measureの専用ユーザーの除外先 <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules">カスタム検証ルール</a>.
+      <td>Crm エクスポート中にエラーが発生しました：MISSING_REQUIRED_FIELD : エンティティタイプ「リード」 : CRM エラーコード : REQUIRED_FIELD_MISSING, フィールド : Product_Type__c, CRM エラーメッセージ：必須フィールドが見つかりません：[Product_Type__c], RecordId : 0123456</td>
+      <td>検証ルールでオブジェクトに必須フィールドが指定されている場合。</td>
+      <td>Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。
       </td>
     </tr>
     <tr>
       <td>UNKNOWN_EXCEPTION</td>
-      <td>CRM エクスポート中にエラーが発生しました： UNKNOWN_EXCEPTION ：エンティティタイプ「連絡先」 : CRM エラーコード：UNKNOWN_EXCEPTION、CRM エラーメッセージ：ポータルユーザーがパートナーアカウントを所有できない、レコード ID : 0123456</td>
+      <td>Crm エクスポート中にエラーが発生しました：UNKNOWN_EXCEPTION : エンティティタイプ「連絡先」 : CRM エラーコード : UNKNOWN_EXCEPTION、CRM エラーメッセージ : ポータルユーザーがパートナーアカウントを所有できない、RecordId : 0123456</td>
       <td>Salesforce で未処理の例外が発生しました。</td>
-      <td>問題が解決しない場合は、Salesforce に問題を報告し、エラーメッセージに数値をコピーします。</td>
+      <td>問題が解決しない場合は、Salesforce にケースを提出し、エラーメッセージの数値をコピーします。</td>
     </tr>
     <tr>
       <td>UNSUPPORTED_CRM_PACKAGE_VERSION</td>
-      <td>CRM インポート中にエラーが発生しました： UNSUPPORTED_CRM_PACKAGE_VERSION : CRM パッケージを更新してください</td>
+      <td>Crm のインポート中にエラーが発生しました：UNSUPPORTED_CRM_PACKAGE_VERSION :CRM パッケージを更新してください</td>
       <td>検出された現在のパッケージはサポートされなくなりました。</td>
       <td>パッケージを最新バージョンにアップグレードします。
         <ul>

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874584
-description: "[!DNL Marketo Measure] オブジェクトおよびフィールドの分類 — [!DNL Marketo Measure]"
-title: '"[!DNL Marketo Measure] オブジェクトおよびフィールドの分類»'
+description: "[!DNL Marketo Measure] オブジェクトとフィールドの分類 –  [!DNL Marketo Measure]"
+title: '[!DNL Marketo Measure] オブジェクトとフィールドの分類'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -13,28 +13,28 @@ ht-degree: 3%
 
 # [!DNL Marketo Measure] オブジェクトとフィールドの分類 {#marketo-measure-object-and-field-taxonomy}
 
-以下に、 [!DNL Marketo Measure] カスタムオブジェクトは次に関連付けられます。 [!DNL Salesforce] 標準オブジェクト。
+カスタムオブジェクトと標準オブジェクトの関係 [!DNL Marketo Measure] 示すフローチャート [!DNL Salesforce] 次に示します。
 
 ![](assets/1-2.png)
 
-フルサイズの画像の場合、 [ここをクリック](assets/bizible-object-and-field-taxonomy-graph-full.png).
+フルサイズの画像については、[ ここをクリック ](assets/bizible-object-and-field-taxonomy-graph-full.png) してください。
 
-の定義 [!DNL Marketo Measure] 各オブジェクトに格納されるフィールド [ここにあります](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+各オブジェクトに存在する [!DNL Marketo Measure] フィールドの定義 [ こちらを参照 ](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)。
 
 ## よくある質問 {#faq}
 
-**矢印のロジックとは何ですか？**
+**矢印のロジックは何ですか？**
 
-各矢印は、オブジェクトと他のオブジェクトとの関係を表します。 例えば、 [!DNL Marketo Measure] 担当者が標準のフィールドに入力します [!DNL Salesforce] リードオブジェクト。 それを指す場合は、矢印の受け側の端を通過していることを意味します。
+各矢印は、オブジェクトと他のオブジェクトとの関係を表します。 例えば、[!DNL Marketo Measure] Person が標準の [!DNL Salesforce] リードオブジェクトのフィールドに入力されていることがわかります。 矢印が指している場合は、矢印の受信側に入力されていることを意味します。
 
-**とは [!DNL Marketo Measure] 人間？**
+**[!DNL Marketo Measure] 人とは何ですか？**
 
-カスタムです [!DNL Marketo Measure] のオブジェクト [!DNL Salesforce] 購入者のタッチポイントをリードと連絡先にリンクさせる機能が含まれています。
+これは、[!DNL Salesforce] のカスタム [!DNL Marketo Measure] オブジェクトで、購入者タッチポイントをリードおよび連絡先にリンクします。
 
-**とは [!DNL Bizible].JS?**
+**[!DNL Bizible].JS とは**
 
-個人が特定のサイトに存在する Web 情報を追跡するのに利用するのは、アドビのカスタム JavaScript です。
+特定のサイトでユーザーが持っている web 情報をトラッキングするために利用するのは、カスタム JavaScriptです。
 
 **マーケティング ROI ダッシュボードとは**
 
-これは、 [!DNL Marketo Measure] アプリを使用します。 アクセスするには、 [!DNL Marketo Measure] タブ [!DNL Salesforce].
+これは、[!DNL Marketo Measure] アプリに存在するカスタムマーケティングチャネルダッシュボードです。 [!DNL Salesforce] の「[!DNL Marketo Measure]」タブに移動してアクセスできます。

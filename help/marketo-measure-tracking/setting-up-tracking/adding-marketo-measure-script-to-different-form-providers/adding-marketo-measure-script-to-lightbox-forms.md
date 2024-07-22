@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874519
-description: 追加中 [!DNL Marketo Measure] Lightbox Formsへのスクリプト — [!DNL Marketo Measure]
+description: Lightbox Formsへ  [!DNL Marketo Measure]  スクリプトの追加 –  [!DNL Marketo Measure]
 title: Lightbox フォームへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
@@ -11,25 +11,25 @@ ht-degree: 2%
 
 ---
 
-# 追加中 [!DNL Marketo Measure] スクリプトを Lightbox Formsに {#adding-marketo-measure-script-to-lightbox-forms}
+# Lightbox Formsへ [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-lightbox-forms}
 
-を適切に追加する方法を学ぶ [!DNL Marketo Measure] Lightbox 内のフォームに JavaScript を追加する。
+ライトボックス内のフォームに [!DNL Marketo Measure] JavaScriptを適切に追加する方法を説明します。
 
-Lightbox は、訪問者が特定のアクションを実行する（つまり、ページの特定の部分をクリックして、ページに一定時間を費やすなど）と、コンテンツの前にフォームを開きます。 通常は、 [!DNL Marketo Measure] JavaScript はランディングページの head に配置されていますが、Lightbox 内のフォームの場合は、追加の手順が 1 つ必要です。
+ライトボックスは、訪問者が特定のアクション（ページの特定の部分のクリックや、ページへの特定の時間の滞在など）を実行すると、コンテンツの前にフォームを開きます。 通常、[!DNL Marketo Measure] JavaScriptをランディングページの先頭に配置する必要がありますが、Lightbox 内のフォームの場合は、追加の手順が 1 つ必要です。
 
 Lightbox 内のフォームは基本的に iFrame 内のフォームなので、スクリプトはその iFrame 内に配置されます。
 
-まず、 [!UICONTROL ライトボックス] 住む場所を形成する。
+まず、[!UICONTROL lightbox] フォームが格納されている iFrame を見つけます。
 
 ![](assets/1.png)
 
-次に、 [!DNL Marketo Measure] iFrame 内の JavaScript。
+次に、[!DNL Marketo Measure] JavaScriptを iFrame 内に配置します。
 
 ![](assets/2.png)
 
-最後に、JavaScript が追加されると、次の指示に従ってフォーム送信の検証が追跡されます。
+最後に、JavaScriptが追加されたら、次の手順に従って、フォーム送信が追跡されていることを検証します。
 
-1. 次を含むランディングページの URL をコピー [!UICONTROL ライトボックス] フォーム。
+1. [!UICONTROL lightbox] フォームを含むランディングページの URL をコピーします。
 1. 匿名ブラウザーを開き、URL を貼り付けます。
-1. 一意の電子メールアドレスを使用してフォームを送信します。
-1. 使用する一意の電子メールアドレスが CRM で確認し、テストが追跡されたことを確認します。タッチポイントデータが入力されていることを確認します。
+1. 一意のメールアドレスを使用してフォームを送信します。
+1. CRM で使用されている一意のメールアドレスを確認して、テストが追跡されたことを確認し、タッチポイントデータが入力されていることを確認します。

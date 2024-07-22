@@ -1,5 +1,5 @@
 ---
-description: ドメイン管理 — [!DNL Marketo Measure]
+description: ドメイン管理 –  [!DNL Marketo Measure]
 title: ドメインの管理
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
@@ -12,55 +12,55 @@ ht-degree: 1%
 
 # ドメインの管理 {#domain-management}
 
-実行中の IMS 対応テナントの場合 [!DNL Marketo Measure] Experience Cloudインターフェイス [!DNL Marketo Measure] は、ユーザーが独自のドメインリストを管理できるインターフェイスを提供します。 [!DNL Marketo Measure] ユーザーは、最初に、 [Adobe Admin Console](https://adminconsole.adobe.com/). ドメインがAdmin Consoleで検証されると、ユーザーは、 [!DNL Marketo Measure] は、web サイトトラフィックの追跡にこれらのドメインを使用します。
+Experience Cloudインターフェイスで [!DNL Marketo Measure] を実行している IMS 対応テナントの場合、[!DNL Marketo Measure] には、ユーザーが独自のドメインのリストを管理できるインターフェイスが用意されています。 [!DNL Marketo Measure] ユーザーは、まず、[Adobe Admin Console](https://adminconsole.adobe.com/) で追跡するドメインを検証する必要があります。 ドメインがAdmin Consoleで検証されると、これらのドメインを Web サイトのトラフィックの追跡に使用 [!DNL Marketo Measure] るかどうかを管理できます。
 
-## ドメインの追加Admin Console {#adding-domains-in-admin-console}
+## Admin Consoleへのドメインの追加 {#adding-domains-in-admin-console}
 
-Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有するドメインを追加および検証できます。 ドメインの検証では、各ドメインの DNS レコードを追加し、Admin Consoleがそのレコードを検証できるようにします。
+Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有するドメインを追加および検証できます。 ドメインの検証では、ドメインごとに DNS レコードを追加し、Admin Consoleがそのレコードを検証できるようにします。
 
 ![](assets/domain-management-1.png)
 
-ドメインの追加手順については、 [Admin Console文書](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). ドメインを追加した後は、 [ディレクトリにリンクされています](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
+ドメインの追加手順については、[Admin Consoleドキュメント ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) を参照してください。 ドメインを追加したら、そのドメインを [ ディレクトリにリンク ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) する必要があります。
 
-## でのドメインの管理 [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
+## [!DNL Marketo Measure] でのドメインの管理 {#managing-domains-in-marketo-measure}
 
-ドメインに追加された後、Admin Console [!DNL Marketo Measure] このレコードを定期的にデータベースに同期します。 この同期は毎晩おこなわれます。また、ユーザーが **[!UICONTROL ドメイン]** ページの [!DNL Marketo Measure] UI デフォルトでは、 [!DNL Marketo Measure] インポートは無効になっており、テナントは各ドメインを手動で有効にする必要があります。
+ドメインがデータベースに追加されると、[!DNL Marketo Measure] は、このレコードをAdmin Consoleに定期的に同期します。 この同期は夜間に行われ、また、ユーザーが [!DNL Marketo Measure] UI の **[!UICONTROL ドメイン]** ページにアクセスするたびに行われます。 デフォルトでは、読み込み対象のレコード [!DNL Marketo Measure] 無効になっており、テナントは各ドメインを手動で有効にする必要があります。
 
 ![](assets/domain-management-2.png)
 
-次の日： **[!UICONTROL 統合]** > **[!UICONTROL ドメイン]** ページに表示される場合は、Admin Consoleに登録したすべてのドメインとそのステータスが表示されます。 各ドメインは、有効または無効にすることができます。 ドメインが有効な場合、 [!DNL Marketo Measure] トラッキングは、そのドメインで見られるトラフィックをすべて収集します。 ドメインが無効になっている場合、 [!DNL Marketo Measure] は、そのドメインからのトラフィックを無視し、タッチポイントやその他のデータは作成しません。 [!DNL Marketo Measure] は、ドメインの無効化を確認し、次のような影響があるかどうかを警告します。
+**[!UICONTROL Integration]**/**[!UICONTROL Domains]** ページには、Admin Consoleに登録したすべてのドメインがステータスと共に表示されます。 各ドメインは、有効または無効にできます。 ドメインが有効になっている場合、[!DNL Marketo Measure] のトラッキングは、そのドメインで発生するトラフィックを収集します。 ドメインが無効の場合、[!DNL Marketo Measure] はそのドメインからのトラフィックを無視し、タッチポイントや他のデータを作成しません。 [!DNL Marketo Measure] は、ドメインの無効化を確認し、影響が生じていることを警告します。
 
 ![](assets/domain-management-3.png)
 
-ドメインの切り替えの影響は直ちに発生し、変更は遡及されません。 将来、 [!DNL Marketo Measure] は、設定された期間が過ぎると、無効なドメインからデータをパージします。
+ドメインの切り替えの影響は即座に生じ、変更はさかのぼって適用されません。 今後、[!DNL Marketo Measure] は、設定された期間の後に、無効なドメインからデータをパージします。
 
-## ステータス {#statuses}
+## 状態 {#statuses}
 
-Admin Consoleのステータスは、次のように分類されます。
+Admin Consoleステータスは次のように分類されます。
 
-* **検証済み**：このドメインは、Admin Consoleで検証されます
-* **未検証**：このドメインはAdmin Consoleで完全に検証されておらず、でのトラッキングの対象になっていません [!DNL Marketo Measure]
-* **無効**：このドメインは、期限切れになっているか、Admin Consoleから削除されている可能性があります。 でのデータのトラッキング [!DNL Marketo Measure] 削除のフラグが設定されています
-* **レガシー**：このドメインはで作成されました。 [!DNL Marketo Measure] とはAdmin Consoleに存在しない
+* **検証済み**：このドメインはAdmin Consoleで検証されています
+* **未検証**：このドメインはAdmin Consoleで完全には検証されておらず、[!DNL Marketo Measure] でのトラッキングには適していません
+* **無効**：このドメインは有効期限が切れているか、Admin Consoleから削除されている可能性があります。 [!DNL Marketo Measure] 内の追跡データに削除のフラグが設定されました
+* **従来**：このドメインは [!DNL Marketo Measure] で作成されたもので、Admin Consoleには存在しません
 
-トラッキングのステータスには、次のものがあります。
+トラッキングステータスは次のようになります。
 
-* **アクティブ**: [!DNL Marketo Measure] は、このドメインからデータを受信しています
-* **無効**：このドメインはトラッキングに使用できますが、無効になっています。
-* **UNAVAILABLE**：このドメインは、検証されていないので、トラッキングに使用できません
+* **ACTIVE**:[!DNL Marketo Measure] はこのドメインからデータを受信しています
+* **DISABLED**：このドメインはトラッキングに使用できますが、無効になっています
+* **利用不可**：このドメインは検証されていないため、追跡には利用できません
 
-個々のステータス項目の上にマウスポインターを置くと、そのトリガーをさらに説明するツールチップが表示されます。
+個々のステータストリガーの上にマウスポインターを置くと、そのステータスについて詳しく説明するツールチップが表示されます。
 
 ## よくある質問 {#faq}
 
-**ドメイン内のドメインが削除されるとどうなりますか？Admin Console内のドメインが削除されるとどうなりますか？**
+**Admin Consoleでドメインが削除されるとどうなりますか？**
 
-ドメインがAdmin Consoleで削除された場合、 [!DNL Marketo Measure] ドメインを削除済みとしてマークします。 [!DNL Marketo Measure] は、このドメインでのトラッキングトラフィックを即座に停止しますが、以前に収集されたデータは削除されません。
+ドメインがAdmin Consoleから削除されると、[!DNL Marketo Measure] はそのドメインを削除済みとマークします。 [!DNL Marketo Measure] は、このドメインの追跡トラフィックを直ちに停止しますが、以前に収集したデータは削除しません。
 
 **ドメインを有効にできないのはなぜですか？**
 
-このページでドメインの選択が許可されない理由はいくつかあります。 ドメインがAdmin Consoleで検証されていない場合、次の場所では使用できません： [!DNL Marketo Measure]. 同様に、ドメインが現在のドメインとは異なるAdobe組織に所有されている場合 [!DNL Marketo Measure] テナント。選択できない可能性があります。
+このページでドメインの選択を許可しない理由はいくつかあります。 ドメインがAdmin Consoleで検証されない場合、[!DNL Marketo Measure] では使用できません。 同様に、現在の [!DNL Marketo Measure] テナントとは異なるAdobe組織がドメインを所有している場合は、選択できない可能性があります。
 
-**このリストからドメインを削除する方法を教えてください。**
+**このリストからドメインを削除するにはどうすればよいですか？**
 
-ドメインの「有効」スイッチがオフになっている場合、 [!DNL Marketo Measure] は無視し、効果的に削除されます。 [!DNL Marketo Measure]. ドメインを次の場所から永久に削除するには： [!DNL Marketo Measure]を無効にするには、で無効にする必要があります。 [!DNL Marketo Measure]をクリックし、Admin Consoleから削除します。
+ドメインで「有効」スイッチがオフになっている場合、[!DNL Marketo Measure] は無視し、実質的に [!DNL Marketo Measure] から削除されます。 ドメインを [!DNL Marketo Measure] から完全に削除するには、[!DNL Marketo Measure] で無効にしてから、Admin Consoleから削除する必要があります。

@@ -5,7 +5,7 @@ title: カスタムモデル設定 - フィールド履歴トラッキングの�
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 

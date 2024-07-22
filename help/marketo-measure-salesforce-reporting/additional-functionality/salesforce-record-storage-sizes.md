@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874576
-description: "[!DNL Salesforce] レコードストレージのサイズ — [!DNL Marketo Measure]"
-title: '"[!DNL Salesforce] レコードストレージのサイズ»'
+description: "[!DNL Salesforce] レコードのストレージサイズ - [!DNL Marketo Measure]"
+title: 「[!DNL Salesforce] レコードのストレージサイズ」
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Salesforce] レコードストレージのサイズ {#salesforce-record-storage-sizes}
+# [!DNL Salesforce] レコードのストレージサイズ {#salesforce-record-storage-sizes}
 
-[!DNL Marketo Measure] でレコードを作成します。 [!DNL Salesforce] インスタンスを使用するので、これらのレコードのストレージサイズを理解すると役立ちます。
+[!DNL Marketo Measure] は [!DNL Salesforce] インスタンスにレコードを作成するので、これらのレコードのストレージサイズを理解するのに役立ちます。
 
 ## ストレージサイズ {#storage-sizes}
 
-**永続レコード**
+**永続的な記録**
 
-* 購入者のタッチポイント= 1 KB
-* 購入者の属性タッチポイント= 2 KB
+* BUYER TOUCHPOINT = 1 KB
+* BUYER ATTRIBUTION TOUCHPOINT = 2 KB
 * [!DNL Marketo Measure] ユーザー= 2 KB
-* A/B テスト= 2 KB
+* A/B テスト = 2 KB
 
-**一時レコード**
+**一時記録**
 
-* イベント= 2 KB
-* [!DNL Marketo Measure] 履歴= 2 KB
+* イベント = 2 KB
+* [!DNL Marketo Measure] History = 2 KB

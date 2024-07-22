@@ -1,22 +1,22 @@
 ---
 unique-page-id: 18874726
-description: の設定 [!DNL Marketo Measure] A/B テストの統合 — [!DNL Marketo Measure]
+description: ' [!DNL Marketo Measure] A/B テストの統合の設定 –  [!DNL Marketo Measure]'
 title: ' [!DNL Marketo Measure] A/B テスト統合の設定'
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 6%
+source-wordcount: '118'
+ht-degree: 27%
 
 ---
 
-# の設定 [!DNL Marketo Measure] A/B テストの統合 {#configuring-the-marketo-measure-a-b-test-integration}
+# [!DNL Marketo Measure] A/B テストの統合の設定 {#configuring-the-marketo-measure-a-b-test-integration}
 
-次を追加： [!DNL Marketo Measure] リード、連絡先、事例、商談に関する A/B テストのセクション。 [!DNL Marketo Measure] A/B テストの統合により、 [Optimizely](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} サイト実験。
+リード、取引先責任者、ケース、商談に関する [!DNL Marketo Measure] A/B テストセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely[ と [VWO](https://vwo.com/){target="_blank"} サイト実験の売上高の影響を追跡でき ](https://www.optimizely.com/){target="_blank"} す。
 
-1. パッケージを使用していることを確認します。 [[!DNL Marketo Measure] v3.9 以降](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
-1. 「[!DNL Marketo Measure] ABTests」関連リストをページレイアウトに追加し、 **設定** （レンチ）ボタン。
-1. 選択したフィールドのリストから在庫「ID」フィールドを削除します。 追加 [!UICONTROL 実験], [!UICONTROL バリエーション]、および [!UICONTROL DateReported] フィールドに値を入力し、「並べ替え基準」を「レポート日」に変更します。 次をクリック： **[!UICONTROL 降順]** 」ボタンをクリックします。
-1. &quot;の下[!UICONTROL ボタン]&quot;，オフ **[!UICONTROL 新規]**.
-1. アカウント担当者に問い合わせるか、 [Marketoサポート](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} をクリックして機能を有効にします。
+1. パッケージ [[!DNL Marketo Measure] v3.9 以降 ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} を使用していることを確認します。
+1. ページレイアウトに「[!DNL Marketo Measure] ABTests」関連リストを追加し、**設定** （レンチ）ボタンをクリックします。
+1. 選択したフィールドのリストからストックの「ID」フィールドを削除します。[!UICONTROL  実験 ]、[!UICONTROL  バリエーション ]、[!UICONTROL  日付が報告 ] の各フィールドを追加し、「並べ替え基準」を「レポート日」に変更します。 **[!UICONTROL 降順]** ボタンをクリックします。
+1. 「[!UICONTROL  ボタン ]」で、「新規 **[!UICONTROL のチェックを外]** ます。
+1. この機能を有効にするには、アカウント担当者または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。

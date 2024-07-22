@@ -1,64 +1,64 @@
 ---
-description: プライバシーリクエスト — [!DNL Marketo Measure]
+description: プライバシーリクエスト - [!DNL Marketo Measure]
 title: プライバシーリクエスト
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '255'
 ht-degree: 20%
 
 ---
 
 # プライバシーリクエスト {#privacy-requests}
 
-このドキュメントでは、に送信できる個々のデータのプライバシーリクエストの管理の概要を説明します [!DNL Marketo Measure] から [!DNL Privacy Service] UI と **[!DNL Privacy Service]API**.
+このドキュメントでは、[!DNL Privacy Service] UI と **[!DNL Privacy Service]API** を使用して [!DNL Marketo Measure] に送信できる個々のデータプライバシーリクエストの管理の概要について説明します。
 
-から消費者データにアクセスして削除する個々のリクエストを送信できます。 [!DNL Marketo Measure] 次の 2 つの方法で説明します。
+個々のリクエストを送信して、[!DNL Marketo Measure] から消費者データにアクセスしたり削除したりするには、次の 2 つの方法があります。
 
-* を通じて [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* を通じて **[!DNL Privacy Service]API**. ドキュメントを参照してください [ここ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"} を使用する。
+* **[!DNL Privacy Service]API** を使用する。 詳しくは、ドキュメント [ こちら ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} および API リファレンス [ こちら ](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"} を参照してください。
 
-The [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} は、データアクセスとデータ削除の 2 種類のリクエストをサポートします。
+[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} は、データアクセスおよびデータ削除の 2 種類のリクエストをサポートしています。
 
-ここでは、アクセスリクエストと削除リクエストの作成方法について説明します。
+アクセスリクエストと削除リクエストの作成方法を見てみましょう。
 
-## Marketo Measureのリクエストを送信するための必須設定 {#required-setup-to-send-requests-for-marketo-measure}
+## Marketo Measureのリクエストを送信するために必要な設定 {#required-setup-to-send-requests-for-marketo-measure}
 
-のデータのアクセスおよび削除をリクエストするには、以下を実行します。 [!DNL Marketo Measure]を使用する場合は、次の操作を行う必要があります。
+[!DNL Marketo Measure] のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
 
 1. 以下を特定します。
 
-   a. IMS Org ID
+   a. IMS 組織 ID
 
-   b.行動を起こす人のメールアドレス
+   b.行動の対象となるユーザーのメールアドレス
 
-   IMS 組織 ID は、24 文字の英数字から成る文字列で、末尾に @AdobeOrg が付きます。マーケティングチームまたは内部Adobeシステム管理者が組織の IMS Org ID を把握していない場合は、Adobeカスタマーケア (gdprsupport@adobe.com) にお問い合わせください。 Privacy API にリクエストを送信するには、IMS 組織 ID が必要です。
+   IMS 組織 ID は、24 文字の英数字から成る文字列で、末尾に @AdobeOrg が付きます。マーケティングチームまたは社内Adobeシステム管理者が、組織の IMS 組織 ID を把握していない場合は、Adobeカスタマーケア（gdprsupport@adobe.com）にお問い合わせください。 Privacy API にリクエストを送信するには、IMS 組織 ID が必要です。
 
-1. In [!DNL Privacy Service]を使用すると、アクセス要求と削除要求を [!DNL Marketo Measure]、および既存のリクエストのステータスを確認します。
+1. [!DNL Privacy Service] では、[!DNL Marketo Measure] にアクセスリクエストと削除リクエストを送信し、既存のリクエストのステータスを確認できます。
 
-## 必須フィールド値： [!DNL Marketo Measure] JSON リクエスト {#required-field-values-in-marketo-measure-json-requests}
+## [!DNL Marketo Measure] JSON リクエストの必須フィールド値 {#required-field-values-in-marketo-measure-json-requests}
 
-&quot;companyContexts&quot;:
+「companyContexts」:
 
 * &quot;namespace&quot;: **imsOrgID**
 * &quot;value&quot;: `<Your IMS Org ID Value>`
 
-&quot;users&quot;:
+「ユーザー」:
 
-* &quot;action&quot;：次のいずれか [!UICONTROL アクセス] または削除
+* 「アクション」:「アクセス [!UICONTROL  または削除 ]
 * &quot;userIDs&quot;:
-   * &quot;namespace&quot;: email
-   * &quot;type&quot;: standard
+   * 「名前空間」：メール
+   * &quot;type&quot;：標準
    * &quot;value&quot;: `<Data Subject's Email Address>`
 
 &quot;include&quot;:
 
-* **marketoMeasure** ( リクエストに適用されるAdobe製品 )
+* **marketoMeasure** （リクエストに適用されるAdobe商品）
 
-&quot;regulation&quot;:
+規制：
 
-* **gdpr**, **ccpa**, **pdpa**, **lgpd_bra**&#x200B;または **nzpa_nzl** （リクエストに適用されるプライバシー規則）
+* **gdpr**、**ccpa**、**pdpa**、**lgpd_bra**、または **nzpa_nzl** （リクエストに適用されるプライバシー規制）
 
 ## 例 1：GDPR 削除リクエスト {#gdpr-delete-request}
 

@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874753
-description: 追加中 [!DNL Marketo Measure] Act-On Formsへ [!DNL Marketo Measure]
+description: 実  [!DNL Marketo Measure] Formsへの追加 –  [!DNL Marketo Measure]
 title: Act-On フォームへの [!DNL Marketo Measure] の追加
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
@@ -11,12 +11,12 @@ ht-degree: 6%
 
 ---
 
-# 追加中 [!DNL Marketo Measure] Act-On Forms {#adding-marketo-measure-to-act-on-forms}
+# Act-On Formsへの [!DNL Marketo Measure] の追加 {#adding-marketo-measure-to-act-on-forms}
 
 ## 道順 {#directions}
 
-1. 編集中のフォームで、 **[!UICONTROL 設定]** 」オプションを使用します。
-1. ラベルの付いた領域を探す [!UICONTROL 「外部 Web 分析」を参照してください。] ここで、 [!DNL Marketo Measure] トラッキングコードスニペットです。
+1. 編集するフォームで、右隅にある「**[!UICONTROL 設定]**」オプションを選択します。
+1. 「外部 web 分析 [!UICONTROL  というラベルの付いた領域を探します。] これは、[!DNL Marketo Measure] トラッキングコードスニペットをドロップする場所になります。
 
 ## [!DNL Marketo Measure] JavaScript {#marketo-measure-javascript}
 
@@ -24,6 +24,6 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->この領域には、例えば [!DNL Google Analytics] コード。 必ずセミコロンで区切ってください `;` そして次のような 1 つのスペース
+>この領域には、[!DNL Google Analytics] コードなど、既に他のトラッキングコードスニペットが存在する場合があります。 次のように、セミコロン `;` と 1 つのスペースを使用して、区切ってください。
 >
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>**; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`

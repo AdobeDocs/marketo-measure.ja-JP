@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874747
-description: 追加中 [!DNL Marketo Measure] Sitecore ページへのスクリプトの追加 — [!DNL Marketo Measure]
+description: Sitecore ペ  [!DNL Marketo Measure]  ジへのスクリプトの追加 –  [!DNL Marketo Measure]
 title: Sitecore ページへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
@@ -11,17 +11,17 @@ ht-degree: 3%
 
 ---
 
-# 追加中 [!DNL Marketo Measure] スクリプトを Sitecore ページに追加 {#adding-marketo-measure-script-to-sitecore-pages}
+# Sitecore ページへ [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-sitecore-pages}
 
-コンテンツ管理システムでは、 [!DNL Marketo Measure] フォームの送信を認識するために使用されます。 以下の手順で、 [!DNL Marketo Measure] JavaScript を [!DNL Sitecore] ページ。
+コンテンツ管理システムでは、フォーム送信を認識するために、標準のスクリプト実装を超える追加の手順が必要 [!DNL Marketo Measure] なる場合があります。 次のプロセスでは、[!DNL Sitecore] ページに [!DNL Marketo Measure] JavaScript を追加する方法の概要を説明します。
 
-Sitecore ページを持つサイトの場合：
+Sitecore ページを使用しているサイトの場合：
 
-1. Sitecore にログインし、Web サイトに移動します。 次を見つけます。 [!UICONTROL 設定] 同じレベルに存在するフォルダー [!UICONTROL ホーム] 項目と [!UICONTROL メタデータ] フォルダー。
-1. 次をクリック： **[!UICONTROL +]** の横 [!UICONTROL 設定] フォルダー。
-1. 次をクリック： **[!UICONTROL +]** の横 [!UICONTROL ツール] フォルダー。
-1. を選択します。 [!UICONTROL JavaScript] 項目。
-1. Adobe Analytics の [!UICONTROL コンテンツ] タブで、 **[!UICONTROL ロックと編集]** リンクをクリックして、項目を編集用にロック解除します。
-1. 次を検索： [!UICONTROL &#39;JavaScript&#39;] 」セクションに入力します。 まだ展開されていない場合は、 **[!UICONTROL +]**.
-1. スクリプトを入力してください： `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>`
-1. クリック **[!UICONTROL 保存]** をクリックします。
+1. Sitecore にログインし、web サイトに移動します。 [!UICONTROL  ホーム ] アイテムおよび [!UICONTROL  メタデータ ] フォルダーと同じレベルにある [!UICONTROL Configuration] フォルダーを見つけます。
+1. [!UICONTROL Configuration] フォルダーの横にある **[!UICONTROL +]** をクリックします。
+1. [!UICONTROL  ツール ] フォルダーの横にある **[!UICONTROL +]** をクリックします。
+1. [!UICONTROL JavaScript] 項目を選択します。
+1. 「[!UICONTROL  コンテンツ ]」タブで「**[!UICONTROL ロックして編集]**」リンクをクリックして、編集用に項目のロックを解除します。
+1. [!UICONTROL  のJavaScriptの節を見つけ ] す。 まだ展開していない場合は、「**[!UICONTROL +]**」をクリックします。
+1. スクリプト `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>` を入力してください
+1. 左上隅の **[!UICONTROL 保存]** をクリックします。

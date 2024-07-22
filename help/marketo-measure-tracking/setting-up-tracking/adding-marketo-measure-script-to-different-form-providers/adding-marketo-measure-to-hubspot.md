@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874759
-description: 追加中 [!DNL Marketo Measure] から [!DNL Hubspot] - [!DNL Marketo Measure]
-title: 追加中 [!DNL Marketo Measure] から [!DNL Hubspot]
+description: 追加  [!DNL Marketo Measure] to [!DNL Hubspot] - [!DNL Marketo Measure]
+title: 追加  [!DNL Marketo Measure]  先  [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
@@ -11,27 +11,27 @@ ht-degree: 1%
 
 ---
 
-# 追加中 [!DNL Marketo Measure] から [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
+# [!DNL Hubspot] への [!DNL Marketo Measure] の追加 {#adding-marketo-measure-to-hubspot}
 
-を追加する方法を説明します。 [!DNL Marketo Measure] 追跡する JavaScript [!DNL Hubspot] ランディングページとフォームの送信。
+[!DNL Marketo Measure] JavaScriptを追加して、[!DNL Hubspot] ランディングページとフォーム送信をトラッキングする方法を説明します。
 
-Hubspot は、ランディングページやフォーム、および Web サイトをホストできるという点で、他のマーケティング自動化システムとは少し異なります。 次の手順は、 [!DNL Marketo Measure] ～の活動を追跡する [!DNL Hubspot] — ホストされるページ。 Web サイトの電源を CMS 以外の [!DNL Hubspot] （例えば、Wordpress）、 [!DNL Marketo Measure] JavaScript をその CMS に対しても送信します。
+Hubspot は、ランディングページ/フォームや web サイトをホストできるという点で、他のマーケティング自動化システムとは少し異なります。 以下の手順は、[!DNL Hubspot] ーザーがホストするページでアクティビティ [!DNL Marketo Measure] 追跡するためのものです。 [!DNL Hubspot] 以外の CMS （Wordpress など）を使用して web サイトの機能を強化する場合は、[!DNL Marketo Measure] JavaScriptもその CMS に追加する必要があります。
 
 >[!NOTE]
 >
->タグ管理プロバイダー ( [!DNL Google Tag Manager]を手動でハードコードする必要はありません。 [!DNL Marketo Measure] JavaScript を Web サイトに挿入します。
+>[!DNL Google Tag Manager] などの Tag Management プロバイダーを通じてJavaScriptをデプロイする場合は、[!DNL Marketo Measure] JavaScriptを手動で Web サイトにハードコードする必要はありません。
 
 ## はじめに {#getting-started}
 
-次にログインし、 [!DNL Hubspot] アカウントを作成するには、次の手順に従います。
+[!DNL Hubspot] アカウントにログインしたら、次の手順に従います。
 
-1. 「コンテンツ」に移動します。
+1. コンテンツに移動します。
 
-1. クリック **[!UICONTROL コンテンツ設定]**.
+1. **[!UICONTROL コンテンツ設定]** をクリックします。
 
-1. Within [!UICONTROL コンテンツ設定]、「 Site Header 」HTML（下図を参照）をクリックします。
+1. [!UICONTROL  コンテンツ設定 ] 内で、「サイトヘッダー」HTML（下図を参照）をクリックします。
 
-1. 次のスクリプトを `<header>`:
+1. `<header>` 内に次のスクリプトを追加します。
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
@@ -44,6 +44,6 @@ Hubspot は、ランディングページやフォーム、および Web サイ�
 
 >[!TIP]
 >
->この領域には、既に他のトラッキングコードスニペット (Google Analyticsコードなど ) が存在する場合があります。 必ずセミコロンで区切ってください `;` そして次のような 1 つのスペース
+>この領域には、Google Analyticsコードなど、既に他のトラッキングコードスニペットが存在する場合があります。 次のように、セミコロン `;` と 1 つのスペースで区切ってください。
 >
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`
