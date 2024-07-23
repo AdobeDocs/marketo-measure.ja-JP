@@ -4,10 +4,10 @@ description: 「[!DNL Microsoft Dynamics] CRM インストールガイド - Mark
 title: 「[!DNL Microsoft Dynamics] CRM インストールガイド」
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 706f60a3b35e524da816b1d70abd363f0f02a1ba
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 100%
+source-wordcount: '970'
+ht-degree: 98%
 
 ---
 
@@ -56,6 +56,8 @@ CRM 内の他のユーザとの問題を回避するために、Dynamics 内で�
 セキュリティロールは、**[!UICONTROL 設定]**／**[!UICONTROL セキュリティ]**／**[!UICONTROL セキュリティロール]**&#x200B;にあります。
 
 [!DNL Marketo Measure] カスタムエンティティの場合、すべてのエンティティに対する完全な権限が必要です。
+
+標準エンティティの読み取り/書き込み権限に加え、キャンペーンの「作成」権限も必要です。
 
 >[!NOTE]
 >
