@@ -5,9 +5,9 @@ title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,16 +33,16 @@ ht-degree: 93%
 
 この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
-## Salesforce 接続ユーザー権限 {#salesforce-connected-user-permissions}
+## Salesforce 接続ユーザ権限 {#salesforce-connected-user-permissions}
 
-**専用ユーザー用のMarketo Measure管理者権限セット**: SFDC 管理者がMarketo Measure オブジェクトに対して CRUD 操作を実行できるようにします。
+**専用ユーザ用の Marketo Measure 管理者権限セット**：SFDC 管理者が Marketo Measure オブジェクトに対して CRUD 操作を実行できるようにします。
 
-**コンバート済みリードの表示と編集権限セット**：連絡先にコンバートされた後にリードを装飾するために、Marketo Measureが使用できます。
+**変換済みリードの表示と編集権限セット**：リードが取引先責任者に変換された後に、Marketo Measure でリードに装飾を追加できるようになります。
 
-**Salesforce マーケティングユーザーのチェックボックス**: ユーザーがキャンペーンを作成し、キャンペーンインポートウィザードを使用できるようになります。
-* キャンペーン「作成」に対する追加の権限が必要です。
+**Salesforce マーケティングユーザチェックボックス**：キャンペーンの作成やキャンペーンインポートウィザードの使用をユーザに対して許可できます。
+* キャンペーンの「作成」には追加の権限が必要です。
 
-**Marketo Measure Standard ユーザー**: ユーザーがMarketo Measure オブジェクトからレコードを読み取れるようにします。
+**Marketo Measure 標準ユーザ**：ユーザが Marketo Measure オブジェクトからレコードを読み取れるようにします。
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 
