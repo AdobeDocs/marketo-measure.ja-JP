@@ -3,10 +3,10 @@ description: 「[!DNL Marketo Measure] Ultimate の概要 - [!DNL Marketo Measur
 title: '[!DNL Marketo Measure] Ultimate の概要'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 36688972c241f5a79c1730237598510cd44f032d
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 99%
 
 ---
 
@@ -111,4 +111,6 @@ Ultimate には CRM の直接接続がないので、アトリビューション
 
 >[!MORELIKETHIS]
 >
->[Marketo Measure Ultimate の宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
+>* [Marketo Measure Ultimate の宛先](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
+>
+>* [ ビデオ：Marketo Measure Ultimate の概要 ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
