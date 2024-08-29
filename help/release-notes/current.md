@@ -3,7 +3,7 @@ description: 最新のリリースノート -  [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 67%
@@ -42,7 +42,7 @@ ht-degree: 67%
 
 この変更への適応に役立つように、新機能に関するドキュメントと、包括的なトラブルシューティング手順を含む明確なエラー説明を作成しました。
 
-* 新しいドキュメント：CRM エクスポートのエラー処理設定
+* 新しいドキュメント：[CRM エクスポートのエラー処理の設定 ](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [エラー通知](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## 第 3 四半期リリース {#q3-release}
