@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
 source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 99%
       + [ [!DNL Marketo Measure] の Salesforce への接続](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [ [!DNL Marketo Measure] CRM パッケージのベストプラクティス](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce オブジェクト](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
-      + [CRM エクスポートのエラー処理](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
+      + [CRM 書き出しのエラー処理](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [ [!DNL Marketo Measure] と [!DNL Salesforce] のやり取りの方法](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] オブジェクトとフィールドの分類](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
       + [標準 [!DNL Salesforce] オブジェクトの [!DNL Marketo Measure] フィールド](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
