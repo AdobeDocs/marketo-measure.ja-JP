@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: "[!DNL Marketo Measure] ガイド"
 user-guide-description: "[!DNL Marketo Measure] を使用すれば、マーケターは会社の売上高増加に最も効果的なマーケティング活動についてのインサイトを得ることができます。"
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+workflow-type: tm+mt
+source-wordcount: '817'
+ht-degree: 99%
 
 ---
 
@@ -220,6 +220,7 @@ ht-degree: 100%
    + [[!DNL Marketo Measure] Ultimate の概要](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
    + [データ整合性要件](marketo-measure-ultimate/data-integrity-requirement.md)
    + [実装ガイド](marketo-measure-ultimate/implementation-guide.md)
+   + [階層 1～2 から Ultimate へ  [!DNL Marketo Measure]  移行](marketo-measure-ultimate/migration-from-tier-to-marketo-measure-ultimate.md)
 + その他 {#miscellaneous}
    + その他の関連リソース {#other-related-resources}
       + [[!DNL Marketo Measure] メンテナンス](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
