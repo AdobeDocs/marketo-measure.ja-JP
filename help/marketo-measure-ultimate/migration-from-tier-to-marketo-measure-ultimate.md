@@ -1,19 +1,17 @@
 ---
 description: ' [!DNL Marketo Measure]  階層型サブスクリプションから  [!DNL Marketo Measure] Ultimate に移行する際の移行プロセスについて説明します。'
-hide: true
-hidefromtoc: true
 title: 階層から Ultimate へ  [!DNL Marketo Measure]  移行
 feature: Integration, Tracking, Attribution
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
 
 # 階層 1～2 から [!DNL Marketo Measure] Ultimate への移行 {#migration-from-tier-to-marketo-measure-ultimate}
 
-この記事では、Tier 1 または 2 のサブスクリプションからMarketo Measure Ultimate へ移行するユーザーの移行プロセスについて説明します。
+この記事では、Tier 1 または 2 のサブスクリプションから [!DNL Marketo Measure] Ultimate へ移行するユーザーの移行プロセスについて説明します。
 
 >[!IMPORTANT]
 >
