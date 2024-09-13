@@ -4,9 +4,9 @@ description: カスタムの「売上高」フィールドの使用 –  [!DNL M
 title: カスタム収益額フィールドの使用
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 3%
 
 ---
@@ -15,10 +15,10 @@ ht-degree: 3%
 
 デフォルトでは、バイヤー属性タッチポイントは、次の 2 つのフィールドのいずれかから商談額を取り込みます。
 
-* 金額（SFDC のデフォルト）
+* 金額（SFDCのデフォルト）
 * [!DNL Marketo Measure] 商談の金額（カスタム）
 
-商談にカスタムの「金額」フィールドを使用している場合、Buyer Touchpointの売上高を計算するためのワークフローを設定する必要があります。 この操作には、[!DNL Salesforce] に関するより高度な知識が必要なので、SFDC 管理者の支援が必要になる場合があります。
+商談にカスタムの「金額」フィールドを使用している場合、Buyer Touchpointの売上高を計算するためのワークフローを設定する必要があります。 これには、[!DNL Salesforce] に関するより高度な知識が必要なので、SFDC管理者の支援が必要になる場合があります。
 
 まず、次の情報が必要です。
 
@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ## Salesforce Lightning でのワークフローの作成 {#create-the-workflow-in-salesforce-lightning}
 
-以下の手順は、Salesforce Lightning ユーザー向けです。 Salesforce Classic を引き続き使用する場合は、これらの手順 [ 以下に示す ](#create-the-workflow-in-salesforce-classic) を参照してください。
+次の手順は、Salesforce Lightning を使用する場合に実行します。 まだSalesforce Classic を使用している場合、これらの手順 [ 以下に示します ](#create-the-workflow-in-salesforce-classic)。
 
 1. 「設定」から、「クイック検索」ボックスに「フロー」と入力し、「**[!UICONTROL フロー]**」を選択して Flow Builder を開始します。 右側のパネルから「**[!UICONTROL 新しいフロー]**」ボタンをクリックします。
 
@@ -62,7 +62,7 @@ ht-degree: 3%
    * ラベルを入力 – API 名が自動的に生成されます
    * 「How to Find Records to Update and Set Their Values」で、「**[!UICONTROL フローをトリガーした商談レコードを使用]** を選択します。
    * 「[!UICONTROL  フィルター条件を設定 ]」セクションで、レコードを更新するための条件要件として **[!UICONTROL レコードを常に更新]** を選択します。
-   * 「[!UICONTROL  キャンペーンレコードのフィールド値を設定 ]」の「フィールド」で、「Marketo Measure商談額」フィールドと「開始値」フィールドを選択します。 次に、カスタムの「金額」フィールドを選択します。
+   * 「[!UICONTROL  キャンペーンレコードのフィールド値を設定 ]」の「フィールド」で、「Marketo Measure商談額」フィールド（**bizible2__Bizible_Opportunity_Amount__c**）と「値」から選択します。 次に、カスタムの「金額」フィールドを選択します。
    * 「**[!UICONTROL 完了]**」をクリックします。
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 ## Salesforce Classic でのワークフローの作成 {#create-the-workflow-in-salesforce-classic}
 
-次の手順は、Salesforce Classic ユーザーを対象としています。 Salesforce Lightning に切り替えた場合は、これらの手順 [ 上記を参照 ](#create-the-workflow-in-salesforce-lightning) を参照してください。
+次の手順は、Salesforce Classic を使用する場合に実行します。 Salesforce Lightning に切り替えた場合は、これらの手順を参照してください [ 上記を参照 ](#create-the-workflow-in-salesforce-lightning)。
 
 1. **[!UICONTROL 設定]**/**[!UICONTROL 作成]**/**[!UICONTROL ワークフローと承認]**/**[!UICONTROL ワークフロールール]** に移動します。
 
@@ -104,6 +104,6 @@ ht-degree: 3%
 
    これらの手順を完了したら、「カスタム商談 [!UICONTROL  フィールドの新しい値を持つワークフローをトリガーにするために、商談を更新する必要があり ] す。
 
-   これは、SFDC 内のデータローダーを通じてオポチュニティを実行することで実現できます。 データローダーの使用について詳しくは、[ この記事 ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md) を参照してください。
+   これは、SFDC内のデータローダーを通じてオポチュニティを実行することで実現できます。 データローダーの使用について詳しくは、[ この記事 ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md) を参照してください。
 
 途中でご不明な点がございましたら、Adobeアカウントチーム（担当のアカウントマネージャー）または [[!DNL Marketo]  サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
