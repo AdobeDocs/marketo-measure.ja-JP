@@ -1,21 +1,25 @@
 ---
 unique-page-id: 18874708
 description: Salesforce アクティビティ属性 –  [!DNL Marketo Measure]
-title: Salesforce アクティビティ属性
+title: Salesforce アクティビティの属性
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
 
-# Salesforce アクティビティ属性 {#salesforce-activities-attribution}
+# Salesforce アクティビティの属性 {#salesforce-activities-attribution}
 
-[!DNL Marketo Measure] Salesforce アクティビティ統合により、特定のタスクとイベントのレコードが属性モデルに取り込まれます。 販売用 E メールや販売用の電話など、期日のクレジットを受け取っていない項目の追跡を開始します。 アクティビティルールを設定するには、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} にアクセスしてください。 そこから、「**[!UICONTROL 設定]**」タブに移動して、「**[!UICONTROL アクティビティ]**」タブをクリックします。
+[!DNL Marketo Measure] Salesforce アクティビティの統合により、特定のタスクおよびイベントレコードがアトリビューションモデルに取り込まれます。 販売用 E メールや販売用の電話など、期日のクレジットを受け取っていない項目の追跡を開始します。 アクティビティルールを設定するには、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} にアクセスしてください。 そこから、「**[!UICONTROL 設定]**」タブに移動して、「**[!UICONTROL アクティビティ]**」タブをクリックします。
 
 ![](assets/1.png)
+
+>[!AVAILABILITY]
+>
+>この機能は、階層 2 のお客様のみが有効です。 上位のアカウント層をリクエストするには、Adobeアカウントチーム（アカウントマネージャー）にお問い合わせください。
 
 まず、[!DNL Marketo Measure] Campaign と呼ばれる新しい概念を導入します。 定義したルールごとに、名前を付けることができる [!DNL Marketo Measure] Campaign にレコードをバケット化します。 必要に応じて、複数のキャンペーンを追加します。 有料メディアキャンペーンの横にあるアウトバウンドセールスキャンペーンの有効性を測定すると想像してください。
 
@@ -74,10 +78,10 @@ ht-degree: 1%
 >
 ワイルドカードは基本的に「次と等しい」という意味ではないので、必要に応じて使用してください。
 
-| **演算子** | **ユースケース** |
+| **演算子** | **使用例** |
 |---|---|
 | が次と等しい | 単一の値 – 完全一致 |
-| 指定の語を含む | 単一値 – 値を含む |
+| 次を含む | 単一値 – 値を含む |
 | 一致 | 複数の値 – 完全一致 |
 | いずれかと一致する（次を含む） | 複数の値 – &#42;value&#42;、&#42;value、&#42;value&#42; |
 

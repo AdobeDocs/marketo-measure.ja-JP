@@ -4,9 +4,9 @@ description: ブーメランステージの設定 –  [!DNL Marketo Measure]
 title: ブーメランステージの設定
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->ブーメラン機能は、Tier 2 および 3 のお客様のみが使用できます。 上位のアカウント層をリクエストするには、Adobeアカウントチーム（アカウントマネージャー）にお問い合わせください。
+>ブーメラン機能は、Tier 2 のお客様のみが使用できます。 上位のアカウント層をリクエストするには、Adobeアカウントチーム（アカウントマネージャー）にお問い合わせください。
 
 アカウントの [!UICONTROL  ブーメラン ] ステージを有効化するには、アカウント管理者である必要があります。 または、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせいただくことで、有効にすることができます。 この機能を有効にした後は、次の手順に従って設定します。
 
