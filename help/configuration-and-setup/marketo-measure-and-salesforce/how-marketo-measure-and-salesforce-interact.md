@@ -4,10 +4,10 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
-workflow-type: ht
-source-wordcount: '1240'
-ht-degree: 100%
+source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
+workflow-type: tm+mt
+source-wordcount: '1317'
+ht-degree: 93%
 
 ---
 
@@ -40,7 +40,10 @@ ht-degree: 100%
 **変換済みリードの表示と編集権限セット**：リードが取引先責任者に変換された後に、Marketo Measure でリードに装飾を追加できるようになります。
 
 **Salesforce マーケティングユーザチェックボックス**：キャンペーンの作成やキャンペーンインポートウィザードの使用をユーザに対して許可できます。
-* キャンペーンの「作成」には追加の権限が必要です。
+
+* CRM のキャンペーン「作成」と「更新」に対する追加の権限が必要です。
+
+* Web アクティビティからタッチポイントを作成したら、キャンペーンにリンクする必要があります。 Web アクティビティには対応する CRM キャンペーンがないので、このリンクを確立するには作成する必要があります。 これは、リードと商談の両方のタッチポイントに適用されます。 使用する呼び出しは「upsert」なので、更新権限が必要です。レコードが存在する場合は更新し、存在しない場合は作成します。 これは、アドビが作成するキャンペーンにのみ適用されます。
 
 **Marketo Measure 標準ユーザ**：ユーザが Marketo Measure オブジェクトからレコードを読み取れるようにします。
 
