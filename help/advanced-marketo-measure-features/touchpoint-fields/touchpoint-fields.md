@@ -4,9 +4,9 @@ description: タッチポイントフィールド - [!DNL Marketo Measure]
 title: Touchpoint フィールド
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
+source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 計算フィールドを作成するには、ユーザーが実行できるアクションとして、抽出、マッピング、連結の 3 つがあることに注意してください。 これらは、計算フィールドを定義するための演算子とも呼ばれます。
 
-抜粋
+### 抜粋 {#extracts}
 
-[!UICONTROL  抽出 ] 演算子は、キャンペーンフィールド、リードフィールド、より高度なユースケースでは [ ランディングページからカスタムパラメーターを抽出 ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} など、別の場所からフィールドから値を取り出します。 次に、タッチポイントフィールドに配置します（[ 例へのマップ ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2 を参照）。
+[!UICONTROL extractes] 演算子は、キャンペーンフィールド、リードフィールドなどの別の場所からフィールドから値を取り出します。または、より高度なユースケースでは、ランディングページからカスタムパラメーターを抽出します。 次に、タッチポイントフィールドに配置します。
 
 **例#1**
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 ![](assets/five.png)
 
-**マッピング先**
+### マッピング先 {#maps-to}
 
 [!UICONTROL  マップ先 ] 演算子は、別の値に変換またはバケット化する必要がある値のテーブルを作成します。 通常、これはキー値の形式でコードがわかりやすい名前を表し、そのわかりやすい名前にマッピングする必要があります。
 
@@ -169,7 +169,7 @@ ht-degree: 0%
 
 ![](assets/seven.png)
 
-**連結**
+### 連結 {#concatenates}
 
 [!UICONTROL  連結 ] 演算子は、複数のフィールドの値を単一のフィールドに結合します。 これは、を行うために様々なフィールドをまたいでデータを取り込むカスタム値を作成する場合に役立ちます。
 
