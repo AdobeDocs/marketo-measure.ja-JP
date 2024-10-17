@@ -3,10 +3,10 @@ description: 最新のリリースノート -  [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 86%
 
 ---
 
@@ -15,6 +15,22 @@ ht-degree: 100%
 2024年リリースのすべての新機能と更新された機能については、以下を参照してください。
 
 ## 第 4 四半期リリース {#q4-release}
+
+### 新しいセッションチャネルのキャリーオーバー動作
+
+非アクティブ状態が 30 分間続いた後 7 日以内に新しいセッションが開始された場合、前のセッションのチャネルが引き継がれるようになり、直接訪問（リファラーや内部リファラーなし）にのみ適用されます。 7 日間操作がないと、セッションはデフォルトで「ダイレクト/その他」に設定されます。 非ダイレクトチャネルは、以前のセッションデータによって上書きされません。
+
+さらに、ソーシャルログイン（Google、Microsoft、Apple）を使用したセッションが、1 つの継続的なセッションに統合され、よりスムーズなエクスペリエンスが提供されるようになりました。 このキャリーオーバー切り替えスイッチがないと、外部リファラーの違いにより、ソーシャルサインインで個別のセッションが作成される場合があります。
+
+新規のお客様の場合、セッションチャネルの繰り越しがデフォルトの動作になりました。 既存のお客様は、Everytouch アトリビューションの設定のセッションチャネルのキャリーオーバー切り替えスイッチをオン→することで、この機能を有効にできます。 一度アクティブ化すると、この設定は元に戻すことができません。
+
+ドキュメント：[Marketo Measure Web セッションの定義 ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+
+### キーワード ROI ダッシュボード
+
+新しいキーワード ROI ダッシュボードは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供し、キーワードレベルのコスト、起因する収益、生成されたリードと機会の包括的なビューを提供します。 このダッシュボードを使用すると、Google Adwords、LinkedIn、Bing Ads などの各キーワードの ROI を評価できます。
+
+ドキュメント：[ キーワード ROI ダッシュボード ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### セグメントルールの機能強化
 
