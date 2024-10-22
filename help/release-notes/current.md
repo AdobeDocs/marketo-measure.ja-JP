@@ -4,9 +4,9 @@ title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1376'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 86%
 
 ## 第 4 四半期リリース {#q4-release}
 
-### 新しいセッションチャネルのキャリーオーバー動作
+### 新しいセッションチャネルの引き継ぎ動作
 
-非アクティブ状態が 30 分間続いた後 7 日以内に新しいセッションが開始された場合、前のセッションのチャネルが引き継がれるようになり、直接訪問（リファラーや内部リファラーなし）にのみ適用されます。 7 日間操作がないと、セッションはデフォルトで「ダイレクト/その他」に設定されます。 非ダイレクトチャネルは、以前のセッションデータによって上書きされません。
+非アクティブ状態が 30 分間続いた後、7 日以内に新しいセッションが開始した場合、以前のセッションのチャネルが引き継がれ、直接訪問（リファラーや内部リファラーなし）にのみ適用されます。非アクティブ状態が 7 日間続いた後、セッションはデフォルトでダイレクト／その他に設定されます。非ダイレクトチャネルは、以前のセッションデータによって上書きされません。
 
-さらに、ソーシャルログイン（Google、Microsoft、Apple）を使用したセッションが、1 つの継続的なセッションに統合され、よりスムーズなエクスペリエンスが提供されるようになりました。 このキャリーオーバー切り替えスイッチがないと、外部リファラーの違いにより、ソーシャルサインインで個別のセッションが作成される場合があります。
+さらに、ソーシャルログイン（Google、Microsoft、Apple）を使用するセッションが 1 つの連続セッションに結合され、よりスムーズなエクスペリエンスが確保されるようになりました。この引き継ぎ切替スイッチがないと、外部リファラーの違いにより、ソーシャルログインによって個別のセッションが作成される可能性があります。
 
-新規のお客様の場合、セッションチャネルの繰り越しがデフォルトの動作になりました。 既存のお客様は、Everytouch アトリビューションの設定のセッションチャネルのキャリーオーバー切り替えスイッチをオン→することで、この機能を有効にできます。 一度アクティブ化すると、この設定は元に戻すことができません。
+新規のお客様の場合、セッションチャネルの引き継ぎはデフォルトの動作になりました。既存のお客様は、設定／エブリタッチアトリビューションでセッションチャネルの引き継ぎ切替スイッチをオンにして、これを有効にできます。この設定は、一度アクティブ化すると元に戻すことはできません。
 
-ドキュメント：[Marketo Measure Web セッションの定義 ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+ドキュメント：[Marketo Measure web セッションの定義](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### キーワード ROI ダッシュボード
 
-新しいキーワード ROI ダッシュボードは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供し、キーワードレベルのコスト、起因する収益、生成されたリードと機会の包括的なビューを提供します。 このダッシュボードを使用すると、Google Adwords、LinkedIn、Bing Ads などの各キーワードの ROI を評価できます。
+新しいキーワード ROI ダッシュボードでは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供し、キーワードレベルのコスト、起因する収益、生成されたリードと商談の包括的なビューを提供します。このダッシュボードは、Google Adwords、LinkedIn、Bing Ads などにおける各キーワードの ROI を評価するのに役立ちます。
 
-ドキュメント：[ キーワード ROI ダッシュボード ](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+ドキュメント：[キーワード ROI ダッシュボード](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### セグメントルールの機能強化
 
