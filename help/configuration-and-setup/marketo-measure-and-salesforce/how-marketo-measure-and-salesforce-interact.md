@@ -4,9 +4,9 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
-workflow-type: ht
-source-wordcount: '1317'
+source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+workflow-type: tm+mt
+source-wordcount: '1284'
 ht-degree: 100%
 
 ---
@@ -188,49 +188,6 @@ ht-degree: 100%
    <td>x</td> 
    <td> </td> 
   </tr>
- </tbody> 
-</table>
-
-**事例**
-
-<table> 
- <tbody> 
-  <tr> 
-   <th>フィールド</th> 
-   <th>標準／カスタム</th> 
-   <th>読み取り</th> 
-   <th>書き込み</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SuppliedEmail</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td>
-  </tr> 
  </tbody> 
 </table>
 
@@ -466,30 +423,6 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>標準</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
    <td>標準</td> 
    <td>x</td> 
    <td> </td> 
