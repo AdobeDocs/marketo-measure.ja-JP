@@ -4,7 +4,7 @@ description: Buyer Touchpoints と Buyer Attribution Touchpoints の違い -  [!
 title: Buyer Touchpoints と Buyer Attribution Touchpoints の違い
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -66,10 +66,10 @@ Buyer Touchpoint は、Touchpoint の位置として、ファーストタッチ�
 
 以下に、[!DNL Salesforce] での BT のスクリーンショットを示します。
 
-![](assets/1.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-1.png){width="600" zoomable="yes"}
 
 **Buyer Attribution Touchpoint は、Salesforce ではどのように見えますか？**
 
 以下に、[!DNL Salesforce] での BAT のスクリーンショットを示します。
 
-![](assets/2.png)
+![](assets/buyer-touchpoints-and-buyer-attribution-touchpoints-2.png){width="600" zoomable="yes"}
