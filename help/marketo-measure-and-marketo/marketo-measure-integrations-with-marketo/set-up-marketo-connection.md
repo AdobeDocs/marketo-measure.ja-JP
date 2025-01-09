@@ -4,7 +4,7 @@ description: Marketo接続の設定 –  [!DNL Marketo Measure]
 title: Marketo連携の設定
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
@@ -17,7 +17,7 @@ Marketoへの接続を設定する方法を以下に示します。
 
 >[!PREREQUISITES]
 >
->[API のみのユーザーの役割を作成 ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja) して、[!DNL Marketo Measure]/Marketo Engage接続を作成します。
+>[API のみのユーザーの役割を作成 ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja){target="_blank"} して、[!DNL Marketo Measure]/Marketo Engage接続を作成します。
 
 1. [!DNL Marketo Measure] で、「**[!UICONTROL マイアカウント]**」ドロップダウンをクリックし、「**[!UICONTROL 設定]**」を選択します。
 

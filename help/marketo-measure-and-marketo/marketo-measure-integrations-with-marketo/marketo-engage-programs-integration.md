@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] プログラムの統合 –  [!DNL Marketo Measure]"
+description: '[!DNL Marketo Engage] プログラムの統合 –  [!DNL Marketo Measure]'
 title: '[!DNL Marketo Engage] プログラムの統合'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 ## 要件 {#requirements}
 
 * 実稼動Marketo インスタンス
-* 実稼動環境の Salesforce またはMicrosoft Dynamics インスタンス
+* 実稼動SalesforceまたはMicrosoft Dynamics インスタンス
 * 任意の有料 [!DNL Marketo Measure] サブスクリプション
 * Marketo人物同期を有効にする（[!DNL Marketo Measure] Settings）
 * Marketo プログラムを有効にする（[!DNL Marketo Measure] Settings）
@@ -99,16 +99,12 @@ Marketo プログラムのデータインポートにより、コストは「期
 
 **フィールドマッピング**
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
+<table><thead>
   <tr> 
    <th>biz_ad_campaign</th> 
    <th>Marketo</th> 
-  </tr> 
+  </tr></thead>
+<tbody>
   <tr> 
    <td>ID</td> 
    <td>ID</td> 
@@ -118,24 +114,60 @@ Marketo プログラムのデータインポートにより、コストは「期
    <td>（API を使用してプログラムがまだ存在するかどうかを確認します）</td> 
   </tr> 
   <tr> 
-   <td><p>NAME</p></td> 
+   <td>NAME</td> 
    <td>名前</td> 
   </tr> 
  </tbody> 
 </table>
 
-| biz_campaign_members | Marketo |
-|---|---|
-| ID | &quot;MarketoProgramMembership&quot;_ProgramId_Lead Id |
-| MODIFIED_DATE | updatedAt |
-| CREATED_DATE | membershipDate |
-| LEAD_ID | Id （リストのメンバーシップ） |
-| LEAD_EMAIL | メール （リストのメンバーシップ） |
-| STATUS | progressionStatus |
-| HAS_RESPONDED | reachedStatus |
-| CAMPAIGN_NAME | programName |
-| CAMPAIGN_ID | programId |
-| CAMPAIGN_TYPE | チャネル |
+<table><thead>
+  <tr>
+    <th>biz_campaign_members</th>
+    <th>Marketo</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td>ID</td>
+    <td>"MarketoProgramMembership"_ProgramId_Lead Id</td>
+  </tr>
+  <tr>
+    <td>MODIFIED_DATE</td>
+    <td>updatedAt</td>
+  </tr>
+  <tr>
+    <td>CREATED_DATE</td>
+    <td>membershipDate</td>
+  </tr>
+  <tr>
+    <td>LEAD_ID</td>
+    <td>Id （リストのメンバーシップ）</td>
+  </tr>
+  <tr>
+    <td>LEAD_EMAIL</td>
+    <td>メール （リストのメンバーシップ）</td>
+  </tr>
+  <tr>
+    <td>STATUS</td>
+    <td>progressionStatus</td>
+  </tr>
+  <tr>
+    <td>HAS_RESPONDED</td>
+    <td>reachedStatus</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_NAME</td>
+    <td>programName</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_ID</td>
+    <td>programId</td>
+  </tr>
+  <tr>
+    <td>CAMPAIGN_TYPE</td>
+    <td>チャネル</td>
+  </tr>
+</tbody>
+</table>
 
 ## cookie のマッピング {#cookie-mapping}
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] アクティビティの統合 –  [!DNL Marketo Measure]"
-title: "[!DNL Marketo Engage] アクティビティの統合"
+description: '[!DNL Marketo Engage] アクティビティの統合 –  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Engage] アクティビティの統合'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '1660'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 0%
    * 参照元ページ
    * フォームページ
    * フォーム日
-   * プラットフォーム
+   * Platform
    * ブラウザー
 
    >[!NOTE]
@@ -119,13 +119,13 @@ Click Email （11）\
 
 リンク （3）をクリック\
 新しいリード （12）\
-リードを SFDC に同期（19）\
+リードをSFDCに同期（19）\
 リードを変換（21）\
 所有者の変更（23）\
 リストから削除（25）\
-SFDC アクティビティ （26）\
+SFDCアクティビティ（26）\
 電子メールバウンスソフト （27）\
-SFDC からのリードの削除（29）\
+SFDCからリードを削除（29）\
 リードを結合（32）\
 商談に追加（34）\
 オポチュニティから削除（35）\
@@ -135,9 +135,9 @@ SFDC からのリードの削除（29）\
 販売メールの送信（39）\
 営業メールを開く（40）\
 「Sales Email （41）」をクリックします。\
-SFDC キャンペーンに追加（42）\
-SFDC キャンペーンからを削除（43）\
-SFDC キャンペーンのステータスの変更（44）\
+SFDC Campaign に追加（42）\
+SFDC Campaign からを削除（43）\
+SFDC Campaign でのステータスの変更（44）\
 営業メールを受信（45）\
 リクエストキャンペーン （47）\
 バウンスメール （48）\
@@ -159,9 +159,9 @@ Dialog Appointment Scheduled （160）
 
 ## チャネルマッピング {#channel-mapping}
 
-プログラム ID を持つアクティビティタイプのルールのいずれについても、Marketo プログラムチャネルはプログラムから決定されます。 プログラムチャネルはカスタムのオフラインチャネルにマッピングするために使用されるので、チャネルが（ここで説明されているように [ 正しく設定されていることを確認する必要があ ](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping) ます。
+プログラム ID を持つアクティビティタイプのルールのいずれについても、Marketo プログラムチャネルはプログラムから決定されます。 プログラムチャネルはカスタムのオフラインチャネルにマッピングするために使用されるので、チャネルが（ここで説明されているように [ 正しく設定されていることを確認する必要があ ](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"} ます。
 
-また、プログラム ID を持たないアクティビティタイプのルールに対しては、最初にキャンペーン名を作成しました。 このキャンペーン名を使用して、（ここにレイアウトされた [ カスタムオンラインチャネルを設定 ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) ます。
+また、プログラム ID を持たないアクティビティタイプのルールに対しては、最初にキャンペーン名を作成しました。 このキャンペーン名を使用して、（ここにレイアウトされた [ カスタムオンラインチャネルを設定 ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"} ます。
 
 Marketo アクティビティのチャネルが適切に設定されていない場合、新しいタッチポイントは「その他」チャネルの下に配置される可能性があります。
 
