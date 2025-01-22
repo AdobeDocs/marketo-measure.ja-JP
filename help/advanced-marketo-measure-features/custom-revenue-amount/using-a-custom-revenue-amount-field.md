@@ -4,7 +4,7 @@ description: カスタムの「売上高」フィールドの使用 –  [!DNL M
 title: カスタム収益額フィールドの使用
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
+source-git-commit: 03342bde87b75ab702eea4c63b581479a7e303c1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 3%
@@ -104,6 +104,6 @@ ht-degree: 3%
 
    これらの手順を完了したら、「カスタム商談 [!UICONTROL  フィールドの新しい値を持つワークフローをトリガーにするために、商談を更新する必要があり ] す。
 
-   これは、SFDC内のデータローダーを通じてオポチュニティを実行することで実現できます。 データローダーの使用について詳しくは、[ この記事 ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md) を参照してください。
+   これは、SFDC内のデータローダーを通じてオポチュニティを実行することで実現できます。 データローダーの使用について詳しくは、[ この記事 ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"} を参照してください。
 
 途中でご不明な点がございましたら、Adobeアカウントチーム（担当のアカウントマネージャー）または [[!DNL Marketo]  サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
