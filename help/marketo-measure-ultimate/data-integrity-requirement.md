@@ -1,9 +1,9 @@
 ---
-description: '[!DNL Marketo Measure] Ultimate Data Integrity Requirement - [!DNL Marketo Measure]'
-title: 「[!DNL Marketo Measure] Ultimate のデータ整合性要件」
+description: '[!DNL Marketo Measure] Ultimateのデータ整合性要件 –  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] Ultimate のデータ整合性要件'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
+source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # [!DNL Marketo Measure] Ultimate のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] は、受信 AEP データセットを検証して、アトリビューションに適した十分かつ一貫性のあるデータであることを確認します。 データ整合性要件を満たすことができないと、データセットが [!DNL Marketo Measure] システムによって拒否されます。 この記事では、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドのソリューションを推奨します。
+[!DNL Marketo Measure] は、受信AEP データセットを検証して、アトリビューションに適した十分なデータが一貫性を持っていることを確認します。 データ整合性要件を満たすことができないと、データセットが [!DNL Marketo Measure] システムによって拒否されます。 この記事では、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドのソリューションを推奨します。
 
 ## エンティティオブジェクト {#entity-object}
 
@@ -891,7 +891,7 @@ ht-degree: 86%
 
 **デフォルト通貨**:Marketo Measureでは、すべての売上高とコストがレポート時にデフォルト通貨に変換されます。 ターゲット通貨自体に対して日付適用範囲が同じ（例：米ドルから米ドル） 1 つのレコードが必要で、コンバージョン率は 1 である必要があります。
 
-**コンバージョンレート**：各（ソース通貨、ターゲット通貨）ペアに、異なる日付範囲に対して複数のコンバージョンレートを設定できます。 料金は、Salesforce DatedConversionRate オブジェクトに従って、0001-01-01 から 9999-12-31 までの全期間をカバーする必要があります。
+**コンバージョンレート**：各（ソース通貨、ターゲット通貨）ペアに、異なる日付範囲に対して複数のコンバージョンレートを設定できます。 料金は、Salesforceの DatedConversionRate オブジェクトに従って、0001-01-01 から 9999-12-31 までの全期間をカバーする必要があります。
 
 **日付範囲**:
 * 設定されたレート（ソース通貨、ターゲット通貨）内に重複する日付範囲がありません（例：2023-01-01 ～ 2023-02-01 および 2023-01-01 ～ 2024-01-01）。
@@ -1322,13 +1322,13 @@ select 'addToCampaign campaign instance id', count(*) from marketo_activity wher
 union all
 select 'addToCampaign campaign key', count(*) from marketo_activity where eventType = 'leadOperation.addToCampaign' and leadOperation.addToCampaign.campaignKey.sourceKey is null
 union all
-select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceId is null
+select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceType is null
+select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceType is null
 union all
-select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
+select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
+select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
 ```
