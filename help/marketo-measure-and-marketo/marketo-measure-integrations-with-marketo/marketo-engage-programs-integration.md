@@ -4,9 +4,9 @@ description: '[!DNL Marketo Engage] プログラムの統合 –  [!DNL Marketo 
 title: '[!DNL Marketo Engage] プログラムの統合'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
+source-git-commit: c0fca7f9a91763aeb211973630bbe7a5fd3dc880
 workflow-type: tm+mt
-source-wordcount: '1261'
+source-wordcount: '1297'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 2%
 * Marketo人物同期を有効にする（[!DNL Marketo Measure] Settings）
 * Marketo プログラムを有効にする（[!DNL Marketo Measure] Settings）
 
-## セットアップ {#setup}
+## 設定 {#setup}
 
 **ルール**
 
@@ -94,6 +94,10 @@ Marketo プログラムチャネルのリストから、設定内で作成した
 ## プログラムコスト {#program-costs}
 
 Marketo プログラムのデータインポートにより、コストは「期間コスト」から自動的にダウンロードされ、Marketoで報告されたコストは割り当てられた月を通じて配分されます。 例えば、2021 年 1 月に$1000 とレポートされた場合、$1000 は 31 日間に分割されます。 コストは [!DNL Marketo Measure Discover] で確認できます。
+
+>[!NOTE]
+>
+>Marketo Measureでサポートされる期間コストは、1 か月に 1 つのみです。 すべてのコストを確実にインポートするには、合計月額コストを 1 つのエントリに集計します。 同じ月の複数の期間コスト エントリはサポートされていません。
 
 ## 仕組み {#how-it-works}
 
