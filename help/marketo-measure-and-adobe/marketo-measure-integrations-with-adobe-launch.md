@@ -22,11 +22,11 @@ Adobeの Launch にインストールして設定すると、[!DNL Marketo Measu
 >
 >Adobeローンチとその拡張機能について詳しくは、次のリンクを参照してください。
 >
->* [[!DNL Marketo Measure]  拡張機能 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [Adobeローンチの概要 ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html){target="_blank"}
->* [Adobeローンチ拡張機能の概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [[!DNL Marketo Measure]  拡張機能 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=ja#catalog){target="_blank"}
+>* [Adobeローンチの概要 ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ja){target="_blank"}
+>* [Adobeローンチ拡張機能の概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=ja){target="_blank"}
 
-1. 手順 [ この記事 ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"} に従ってプロパティを作成します。
+1. 手順 [ この記事 ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=ja#go-to-the-data-collection-interface){target="_blank"} に従ってプロパティを作成します。
 
 1. 作成したプロパティをクリックします。
 

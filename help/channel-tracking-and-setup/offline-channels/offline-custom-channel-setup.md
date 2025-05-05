@@ -85,6 +85,6 @@ SFDC キャンペーンタイプは、[!DNL Salesforce] キャンペーンタイ
 >
 >* [[!DNL Marketo Measure] チュートリアル：オフラインチャネルのマッピング](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutorials: オフラインキャンペーンを同期しています ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutorials: オフラインキャンペーンを同期しています ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
 >* [Marketo Engage プログラムの統合 ](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}

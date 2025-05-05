@@ -41,4 +41,4 @@ ht-degree: 31%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials：追加の SFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutorials：追加の SFDC レポート ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
