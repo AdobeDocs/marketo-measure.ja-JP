@@ -23,7 +23,7 @@ Marketoへの接続を設定する方法を以下に示します。
 
    ![](assets/set-up-marketo-connection-1.png)
 
-1. [!UICONTROL  統合 ] で、「**[!UICONTROL 接続]**」をクリックします。
+1. [!UICONTROL &#x200B; 統合 &#x200B;] で、「**[!UICONTROL 接続]**」をクリックします。
 
    ![](assets/set-up-marketo-connection-2.png)
 

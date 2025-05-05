@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ![](assets/2.png)
 
-[!UICONTROL  新しい広告接続の設定 ] ボタンをクリックすると、4 種類の広告 [!UICONTROL  接続 ] イオンタイプを含むウィンドウ（以下に示す）がポップアップ表示されます。 「接続」をクリックすると、別のウィンドウが表示されて資格情報の入力を求められます。 資格情報を入力し、「[!UICONTROL  認証 ]」をクリックしてアカウントを [!DNL Marketo Measure] に接続します。
+[!UICONTROL &#x200B; 新しい広告接続の設定 &#x200B;] ボタンをクリックすると、4 種類の広告 [!UICONTROL &#x200B; 接続 &#x200B;] イオンタイプを含むウィンドウ（以下に示す）がポップアップ表示されます。 「接続」をクリックすると、別のウィンドウが表示されて資格情報の入力を求められます。 資格情報を入力し、「[!UICONTROL &#x200B; 認証 &#x200B;]」をクリックしてアカウントを [!DNL Marketo Measure] に接続します。
 
 ![](assets/select-account-type.png)
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. [!DNL Marketo Measure] アカウント （[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にサインインします。
 
-1. [!UICONTROL  マイアカウント ]/[!UICONTROL  設定 ]/[!UICONTROL  統合 ]/[!UICONTROL  接続 ] に移動します。
+1. [!UICONTROL &#x200B; マイアカウント &#x200B;]/[!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 統合 &#x200B;]/[!UICONTROL &#x200B; 接続 &#x200B;] に移動します。
 
    ![](assets/4.png)
 
@@ -68,13 +68,13 @@ ht-degree: 0%
 
 ## [!DNL Marketo Measure] パラメーターを使用して AdWords にトラッキングテンプレートを設定する方法 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-AdWords では、[!UICONTROL  アカウント ]、[!UICONTROL  キャンペーン ] または広告グループのレベルでトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、広告の各レベルに追加した場合は、広告のレビューと承認のプロセスを実行する必要があり、広告のパフォーマンス履歴が再度開始される恐れがあります。 詳しくは、[ トラッキングテンプレートの作成 ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} を参照してください。
+AdWords では、[!UICONTROL &#x200B; アカウント &#x200B;]、[!UICONTROL &#x200B; キャンペーン &#x200B;] または広告グループのレベルでトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、広告の各レベルに追加した場合は、広告のレビューと承認のプロセスを実行する必要があり、広告のパフォーマンス履歴が再度開始される恐れがあります。 詳しくは、[ トラッキングテンプレートの作成 ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} を参照してください。
 
 1. [!DNL Google AdWords] アカウントにログインします。
-1. 左側のナビゲーションバーから [!UICONTROL  キャンペーン ] ビューに移動します
-1. 左側のナビゲーションバーの「[!UICONTROL  設定 ]」にも移動します。
-1. 上部の「[!UICONTROL  アカウント設定 ]」ビューに切り替えます
-1. 「[!UICONTROL  トラッキング ]」セクションを展開します
+1. 左側のナビゲーションバーから [!UICONTROL &#x200B; キャンペーン &#x200B;] ビューに移動します
+1. 左側のナビゲーションバーの「[!UICONTROL &#x200B; 設定 &#x200B;]」にも移動します。
+1. 上部の「[!UICONTROL &#x200B; アカウント設定 &#x200B;]」ビューに切り替えます
+1. 「[!UICONTROL &#x200B; トラッキング &#x200B;]」セクションを展開します
 1. 追跡テンプレートに次のテキスト文字列のいずれかを貼り付けて、テンプレートの値を設定します。
 
    * すべての URL に疑問符が含まれる場合は、次の URL テキストを使用します。
@@ -97,7 +97,7 @@ UTM タグは、最初は作成が困難に見えるかもしれませんが、U
 
 **[!DNL Google URL]Builder**
 
-Google URL ビルダーは、UTM タグを使用して正しい形式の URL を作成するための標準ツールです。 各パラメーターの URL と目的の値を入力し、「[!UICONTROL URL を生成 ]」をクリックします。 これは、タグ付けする URL が少数しかない場合に使用する理想的なツールです。 ツールにアクセスします [ こちら ](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}。
+Google URL ビルダーは、UTM タグを使用して正しい形式の URL を作成するための標準ツールです。 各パラメーターの URL と目的の値を入力し、「[!UICONTROL URL を生成 &#x200B;]」をクリックします。 これは、タグ付けする URL が少数しかない場合に使用する理想的なツールです。 ツールにアクセスします [ こちら ](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}。
 
 **EpikOne が生成したGoogle スプレッドシート**
 

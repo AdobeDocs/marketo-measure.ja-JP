@@ -27,14 +27,14 @@ AdWords と [!DNL Bing Ads] の統合と同様に、[!DNL Facebook] の統合で
 1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} に移動し、ログインします。
 1. マイアカウントで **[!UICONTROL 設定]** を選択します。
 1. 「統合」で **[!UICONTROL 「接続]**」を選択します。
-1. **[!UICONTROL 新しい広告接続の設定]** を選択すると、ポップアップが表示されます。 ]**0}Facebook} を選択し、Facebookの資格情報を使用してログインします。**[!UICONTROL 
+1. **[!UICONTROL 新しい広告接続の設定]** を選択すると、ポップアップが表示されます。 **0&rbrace;Facebook&rbrace; を選択し、Facebookの資格情報を使用してログインします。**
 
    >[!NOTE]
    >
    >[!DNL Facebook Ads] アカウントに接続するユーザーは、[!DNL Facebook Ads] アカウント内の管理者である必要があります。
 
 1. facebook アカウント [!DNL Marketo Measure] 接続したら、アカウントの横にある鉛筆アイコンをクリックします。
-1. このビュー内で、「自動タグ付け？」 「はい」に切り替えます。 次に、「[!UICONTROL  詳細情報 ]」セクションにあるチェックボックスをオンにして、利用条件に同意します。 [!UICONTROL  自動タグ付け ] の切り替えが「[!UICONTROL  はい ]」に設定されていることを確認します。
+1. このビュー内で、「自動タグ付け？」 「はい」に切り替えます。 次に、「[!UICONTROL &#x200B; 詳細情報 &#x200B;]」セクションにあるチェックボックスをオンにして、利用条件に同意します。 [!UICONTROL &#x200B; 自動タグ付け &#x200B;] の切り替えが「[!UICONTROL &#x200B; はい &#x200B;]」に設定されていることを確認します。
 
 ## アカウントの接続 {#connecting-the-account}
 

@@ -17,7 +17,7 @@ ht-degree: 7%
 
 1. [!DNL Unbounce] アカウントにログインします。
 1. **[!UICONTROL 設定]**/**[!UICONTROL スクリプトマネージャー]**/**[!UICONTROL スクリプトを追加]** をクリックします。
-1. ポップアップで [!UICONTROL  カスタムスクリプト ] を選択し、「[!DNL Marketo Measure Marketing Analytics]」という名前を付けます。 **[!UICONTROL スクリプトの詳細を追加]** をクリックします。
+1. ポップアップで [!UICONTROL &#x200B; カスタムスクリプト &#x200B;] を選択し、「[!DNL Marketo Measure Marketing Analytics]」という名前を付けます。 **[!UICONTROL スクリプトの詳細を追加]** をクリックします。
 1. ヘッドの配置を選択します。 メインランディングページとフォーム確認ダイアログにスクリプトを含めます。 次の [!DNL Marketo Measure] スクリプトをボックスに貼り付けます。
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`

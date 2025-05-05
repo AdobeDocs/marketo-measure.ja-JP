@@ -17,7 +17,7 @@ ht-degree: 95%
 
 ## 設定 {#set-up}
 
-リード、取引先責任者、ケース、商談に関する [!DNL Marketo Measure] A/B テストセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely[ と [VWO](https://vwo.com/){target="_blank"} サイト実験の売上高の影響を追跡でき ](https://www.optimizely.com/){target="_blank"} す。
+リード、取引先責任者、ケース、商談に関する [!DNL Marketo Measure] A/B テストセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely[&#128279;](https://www.optimizely.com/) と [VWO](https://vwo.com/){target="_blank"} サイト実験の売上高の影響を追跡でき {target="_blank"} す。
 
 1. パッケージ [!DNL Marketo Measure] v3.9 以降を使用していることを確認してください。これを行うには、[!UICONTROL Salesforce]／[!UICONTROL 設定]／[!UICONTROL インストール済みパッケージ]に移動します。
 1. リードページレイアウトを編集し、**[!DNL Marketo Measure]A/B テスト** 関連リストをページに追加します。

@@ -113,6 +113,6 @@ A：動的検索広告の個々のクリエイティブの詳細は取得でき�
 
 >[!NOTE]
 >
->変更が完了したら、完了です。 設定中にご質問がある場合は ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}[Marketo サポートまでお問い合わせください。
+>変更が完了したら、完了です。 設定中にご質問がある場合は [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}Marketo サポートまでお問い合わせください。
 
 アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[ ここをクリック ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。

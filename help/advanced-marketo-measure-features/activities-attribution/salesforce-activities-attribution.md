@@ -72,11 +72,11 @@ ht-degree: 1%
 >
 >次で始まる（アウトバウンド &#42;）
 >
-次を含む（&#42; アウトバウンド &#42;）
+>次を含む（&#42; アウトバウンド &#42;）
 >
-次で終わる（アウトバウンド &#42;
+>次で終わる（アウトバウンド &#42;
 >
-ワイルドカードは基本的に「次と等しい」という意味ではないので、必要に応じて使用してください。
+>ワイルドカードは基本的に「次と等しい」という意味ではないので、必要に応じて使用してください。
 
 | **演算子** | **使用例** |
 |---|---|
@@ -93,4 +93,4 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
-[ アクティビティアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[ アクティビティアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

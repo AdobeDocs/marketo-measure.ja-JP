@@ -21,7 +21,7 @@ ht-degree: 1%
 
 1. 画面上部のメニューバーで、「**[!UICONTROL マイアカウント]**」に移動し、「**[!UICONTROL 設定]**」オプションをクリックします。
 
-1. 左側の設定オプションの列で、「**[!UICONTROL 統合]** セクションの下にある [!UICONTROL  接続 ] をクリックします。
+1. 左側の設定オプションの列で、「**[!UICONTROL 統合]** セクションの下にある [!UICONTROL &#x200B; 接続 &#x200B;] をクリックします。
 
    ![](assets/connect-marketo-measure-to-salesforce-1.png)
 

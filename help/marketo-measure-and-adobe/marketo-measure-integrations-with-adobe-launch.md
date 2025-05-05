@@ -56,7 +56,7 @@ Adobeの Launch にインストールして設定すると、[!DNL Marketo Measu
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-7.png)
 
-1. [!UICONTROL  イベント ] の下の **[!UICONTROL 追加]** ボタンをクリックします。
+1. [!UICONTROL &#x200B; イベント &#x200B;] の下の **[!UICONTROL 追加]** ボタンをクリックします。
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 

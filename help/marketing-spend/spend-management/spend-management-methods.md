@@ -18,7 +18,7 @@ ht-degree: 2%
 
 **1 API 接続アカウント**
 
-API を介して [!DNL Marketo Measure] に接続した広告アカウントには、ROI レポートのために支出が自動的に取り [!DNL Marketo Measure] まれます。 接続したアカウントを確認し、費用を引き出すには、[!DNL Marketo Measure] アプリに移動して、「[!UICONTROL  統合 ]」セクションの下の「[!UICONTROL  接続 ]」タブを選択します。 API 接続の設定について詳しくは、[ 統合広告プラットフォーム ](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) を参照してください。
+API を介して [!DNL Marketo Measure] に接続した広告アカウントには、ROI レポートのために支出が自動的に取り [!DNL Marketo Measure] まれます。 接続したアカウントを確認し、費用を引き出すには、[!DNL Marketo Measure] アプリに移動して、「[!UICONTROL &#x200B; 統合 &#x200B;]」セクションの下の「[!UICONTROL &#x200B; 接続 &#x200B;]」タブを選択します。 API 接続の設定について詳しくは、[ 統合広告プラットフォーム ](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) を参照してください。
 
 **2 CRM キャンペーンコスト同期**
 

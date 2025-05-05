@@ -56,7 +56,7 @@ Ultimate ユーザーは AEP にプロビジョニングされます。 既に A
 
 * ユーティリティをダウンロードして設定する手順については、[こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ja#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}。
 
-_**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
+_&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
 
 * ソースから、データを追加／テンプレートを使用を選択します。
 

@@ -37,7 +37,7 @@ PostLC タッチポイントは動的です。 リードまたは連絡先が Po
 
 **リード**
 
-1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL  設定 ] に移動します。
+1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL &#x200B; 設定 &#x200B;] に移動します。
 
 1. CRM で「**[!UICONTROL リード]**」を選択します。
 
@@ -47,7 +47,7 @@ PostLC タッチポイントは動的です。 リードまたは連絡先が Po
 
 **取引先責任者**
 
-1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL  設定 ] に移動します。
+1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL &#x200B; 設定 &#x200B;] に移動します。
 
 1. CRM で、「**[!UICONTROL 連絡先]**」を選択します。
 
