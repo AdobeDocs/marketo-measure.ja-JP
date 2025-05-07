@@ -4,9 +4,9 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+source-git-commit: ec5172286951f482905f97268f33f063d1860694
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1290'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [!DNL Marketo Measure] と Salesforce の関係を大まかに見てみましょう。
 
-## Salesforce と [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce と [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 [!DNL Marketo Measure] アカウントが作成され、[!DNL Salesforce] が接続されると、[!DNL Marketo Measure] 管理パッケージがインストールされ、[!DNL Marketo Measure] Salesforce ユーザが編集権限を持っている限り、[!DNL Marketo Measure] はマーケティングデータを CRM インスタンスにプッシュし始めます。
 
@@ -449,7 +449,19 @@ ht-degree: 100%
    <td>タイプ</td> 
    <td>標準</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>StartDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>EndDate</td> 
+   <td>標準</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr>
   <tr> 
    <td>名前</td> 
@@ -583,7 +595,7 @@ ht-degree: 100%
 >* タスク
 
 
-## [!DNL Salesforce] の [!DNL Marketo Measure] カスタムオブジェクト {#marketo-measure-custom-objects-in-salesforce}
+## [!DNL Salesforce] の [!DNL Marketo Measure] カスタムオブジェクト  {#marketo-measure-custom-objects-in-salesforce}
 
 SFDC の標準オブジェクトでのカスタムフィールドの作成とは別に、[!DNL Marketo Measure] パッケージがインストールされると、カスタムオブジェクトがいくつか作成されます。以下に、これらのカスタムオブジェクトのリストと、[!DNL Marketo Measure] が書き込むフィールドを示す表を示します。
 
