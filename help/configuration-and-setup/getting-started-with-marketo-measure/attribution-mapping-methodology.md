@@ -4,10 +4,10 @@ description: アトリビューションマッピング手法 –  [!DNL Marketo
 title: アトリビューションマッピング手法
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
+source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 1%
 短所：誰が何に対してクレジットを取得するべきかを定義する強力なマーケティングおよび販売 SLA がある場合、この方法は問題が発生する可能性があります。 さらに、大規模なアカウント（例：IBM）内で特定のビジネスユニットを定義するためにアカウント階層を使用しない場合、あるビジネスユニットに固有のマーケティングインタラクションは、他のビジネスユニットのオポチュニティにも広がる可能性があります。
 
 ## 商談連絡先の役割マッピング {#opportunity-contact-role-mapping}
+
+>[!NOTE]
+>
+>連絡先の役割のマッピング方法は、Salesforceを CRM として使用している場合にのみ使用できます。 その CRM 内に連絡先ロールオブジェクトがないため、Microsoft Dynamics ユーザーは使用できません。
 
 ほとんどのクライアントはアカウント ID マッピングを使用し [!DNL Marketo Measure] いますが、商談内の連絡先の役割（商談に関連付けられた連絡先）を検索して、属性プロセスを分類することができます。 つまり、[!DNL Marketo Measure] はオポチュニティの連絡先の役割に関連付けられたマーケティングインタラクションのみを、バイヤー属性タッチポイントとしてプッシュします。 以下に、このプロセスを示します。
 
