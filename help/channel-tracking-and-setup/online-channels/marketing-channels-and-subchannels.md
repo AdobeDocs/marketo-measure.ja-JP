@@ -4,9 +4,9 @@ description: マーケティングチャネルとサブチャネル - [!DNL Mark
 title: マーケティングチャネルとサブチャネル
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,7 @@ UTM パラメーターに基づいて「バケット」に分類されるリー�
 
 以下の図に、次の URL の web ページに基づくマーケティングチャネル、サブチャネル、コンテンツの例を示します。
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial)*
+`http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial`
 
 この場合、ユーザーがアクセスしようとしているコンテンツは、B2B マーケティングアトリビューションの概要ガイドです。[!DNL Marketo Measure] では、この組織で設定されたチャネルルールを使用して、このコンテンツにつながる URL を分析および使用し、このリードをマーケティングチャネルの「有料ソーシャル」とサブチャネルの「LinkedIn」に「バケット化」します。
 

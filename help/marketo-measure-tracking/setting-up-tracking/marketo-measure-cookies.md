@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874590
-description: 「[!DNL Marketo Measure] の Cookie -  [!DNL Marketo Measure]」
-title: 「[!DNL Marketo Measure] クッキー」
+description: '[!DNL Marketo Measure] Cookie - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] クッキー'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>サードパーティ、ドメイン =.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>サードパーティ、ドメイン =.<a href="https://bizibly.com/">bizibly.com</a></td>
     <td>テナントのドメインの Marketo Measure cookie ID とその Doubleclick インプレッション cookie ID 間のマッピングです。</td>
     <td>1 年</td>
     <td>はい</td>
