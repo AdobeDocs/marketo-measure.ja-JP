@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # マーケティングチャネルのコスト設定 {#marketing-channel-costs}
 
-[!DNL Marketo Measure] を使用する最も基本的なメリットの 1 つは、マーケティング活動を、必要なだけ詳細に、収益に与える影響に直接結び付けることができることです。 タッチポイントレベルでは、ROI を確認することが可能です。 この利点を活用するには、チャネルコストを [!DNL Marketo Measure] アプリにアップロードする必要があります。 ROI レポートは自動的に作成され、[experience.adobe.com/marketo-measure **の** マーケティング ROI ダッシュボード ](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} で使用できます。
+[!DNL Marketo Measure] を使用する最も基本的なメリットの 1 つは、マーケティング活動を、必要なだけ詳細に、収益に与える影響に直接結び付けることができることです。 タッチポイントレベルでは、ROI を確認することが可能です。 この利点を活用するには、チャネルコストを [!DNL Marketo Measure] アプリにアップロードする必要があります。 ROI レポートは自動的に作成され、[experience.adobe.com/marketo-measure **の** マーケティング ROI ダッシュボード &#x200B;](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} で使用できます。
 
 [手順に直接移動するには、ここをクリックします。](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

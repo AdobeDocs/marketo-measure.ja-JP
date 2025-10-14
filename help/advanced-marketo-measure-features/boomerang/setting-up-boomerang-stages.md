@@ -17,7 +17,7 @@ ht-degree: 3%
 >
 >ブーメラン機能は、Tier 2 のお客様のみが使用できます。 上位のアカウント層をリクエストするには、Adobeアカウントチーム（アカウントマネージャー）にお問い合わせください。
 
-アカウントの [!UICONTROL &#x200B; ブーメラン &#x200B;] ステージを有効化するには、アカウント管理者である必要があります。 または、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせいただくことで、有効にすることができます。 この機能を有効にした後は、次の手順に従って設定します。
+アカウントの [!UICONTROL &#x200B; ブーメラン &#x200B;] ステージを有効化するには、アカウント管理者である必要があります。 または、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせいただくことで、有効にすることができます。 この機能を有効にした後は、次の手順に従って設定します。
 
 ## ブーメランステージの設定 {#boomerang-stage-setup}
 

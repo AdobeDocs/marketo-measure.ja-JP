@@ -30,7 +30,7 @@ ht-degree: 30%
       <td>API_DISABLED</td>
       <td>CRM の読み込み中に発生したエラー：API_DISABLED：このユーザの API 呼び出しが無効になっています</td>
       <td>Marketo Measure ユーザの API 権限が無効になっています。</td>
-      <td>Salesforce ドキュメントの <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API アクセスを有効にする方法</a>を参照してください。</td>
+      <td>Salesforce ドキュメントの <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">API アクセスを有効にする方法</a>を参照してください。</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -79,7 +79,7 @@ ht-degree: 30%
       オブジェクトに対する権限がありません。</td>
       <td>挿入/更新が失敗する原因となるトリガーコードを確認します。 トリガーの詳細については、以下の Salesforce ドキュメントを参照してください。
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5"> 頂点トリガー</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&type=5"> 頂点トリガー</a>
           </li>
           <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated"> フロートリガー</a>
           </li>
@@ -92,7 +92,7 @@ ht-degree: 30%
       <td>DUPLICATES_DETECTED</td>
       <td>Crm エクスポート中にエラーが発生しました：重複_検出済み：エンティティタイプ「連絡先」 : CRM エラーコード : DUPLICATES_DETECTED, CRM エラーメッセージ：重複するレコードを作成中です。 代わりに、既存のレコードを使用することをお勧めします。RecordId: 0123456</td>
       <td>Salesforce 組織にインポートしているレコードは既に存在します。</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> 「ルールを複製」設定を無効にする </a>、重複を許可します。
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1"> 「ルールを複製」設定を無効にする </a>、重複を許可します。
           <p>
           Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。</td>
     </tr>
@@ -100,7 +100,7 @@ ht-degree: 30%
       <td>DUPLICATE_VALUE</td>
       <td>Crm エクスポート中にエラーが発生しました：DUPLICATE_VALUE : エンティティタイプ「Lead」 : CRM エラーコード : DUPLICATE_VALUE、CRM エラーメッセージ：重複した値が見つかりました：Email_Unique__c 重複した値が、ID : 123、RecordId : 456 のレコードに含まれています</td>
       <td>Salesforce 組織にインポートされているフィールドで値の重複が許可されていません。</td>
-      <td>Salesforce で <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> 「一意のチェックボックス」 </a> のチェックを外します。
+      <td>Salesforce で <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1"> 「一意のチェックボックス」 </a> のチェックを外します。
           <p>
           Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。</td>
     </tr>
@@ -120,7 +120,7 @@ ht-degree: 30%
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Crm エクスポート中にエラーが発生しました：FIELD_FILTER_VALIDATION_EXCEPTION : エンティティタイプ「リード」 : CRM エラーコード : FIELD_FILTER_VALIDATION_EXCEPTION、フィールド : User__C、CRM エラーメッセージ：値が存在しないか、フィルター条件に一致しません。 「Account Executive, Inside Sales」の役割を持つユーザーを選択してください。RecordId: 0123456</td>
       <td>変更されたレコードは、オブジェクトで定義された参照フィルターを満たさなくなりました。</td>
-      <td>Marketo Measureが変更しようとしているオブジェクトのフィルターを確認します。 オブジェクトのフィルターを確認する方法については、<a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1"> この Salesforce の記事 </a> を参照してください。</td>
+      <td>Marketo Measureが変更しようとしているオブジェクトのフィルターを確認します。 オブジェクトのフィルターを確認する方法については、<a href="https://help.salesforce.com/s/articleView?id=000384756&type=1"> この Salesforce の記事 </a> を参照してください。</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -129,7 +129,7 @@ ht-degree: 30%
       <td>最も一般的なケースは、Salesforce 組織で設定された州/国の命名基準に従っていません。州/国フィールドが、特定のピックリスト値のみを受け入れるように標準化されているからです。 この問題に対処するには、次のようにします。
         <ul>
           <li>そのフィールドに対する組織の許可値に従ってレコードを更新します。 使用可能な値のリストを取得するには、SFDC 管理者にお問い合わせください。</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5"> 都道府県/国の選択リストを無効にします </a>。
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&type=5"> 都道府県/国の選択リストを無効にします </a>。
           </li>
         </ul>
       </td>
@@ -138,7 +138,7 @@ ht-degree: 30%
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Crm エクスポート中にエラーが発生しました：INACTIVE_OWNER_OR_USER : エンティティタイプ「連絡先」 : CRM エラーコード : INACTIVE_OWNER_OR_USER、CRM エラーメッセージ：非アクティブなユーザー [1234] を連絡先の所有者として指定し、操作を実行しました。RecordId : 0123456</td>
       <td>Marketo Measureに「非アクティブな所有者でレコードを更新」権限がありません。</td>
-      <td>Marketo Measureに「<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1"> 非アクティブな所有者でレコードを更新 </a>」権限を付与します。</td>
+      <td>Marketo Measureに「<a href="https://help.salesforce.com/s/articleView?id=000386699&type=1"> 非アクティブな所有者でレコードを更新 </a>」権限を付与します。</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
@@ -255,7 +255,7 @@ ht-degree: 30%
       <td>更新中のレコードが Salesforce 組織に設定された検証ルールを満たしていません。</td>
       <td>Marketo Measure専用ユーザーを <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a> から除外します。
       <p>
-      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5"> 検証ルール </a> を更新します。</td>
+      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5"> 検証ルール </a> を更新します。</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>

@@ -15,7 +15,7 @@ ht-degree: 23%
 
 [!DNL Marketo Measure] は、接続された [!DNL Salesforce] ユーザーを通じて [!DNL Marketo Measure] アプリ内でデータを送受信します。
 
-タッチポイントデータを [!DNL Salesforce] インスタンスにプッシュするには、接続ユーザーが、リードや連絡先などの標準 [!DNL Salesforce] オブジェクトだけでなく、[!DNL Marketo Measure] のカスタムオブジェクト（Buyer TouchpointやBuyer Attribution Touchpoint）へのアクセス権を持っている必要があります。 [[!DNL Marketo Measure] Salesforce 内 ](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md) を参照してください。
+タッチポイントデータを [!DNL Salesforce] インスタンスにプッシュするには、接続ユーザーが、リードや連絡先などの標準 [!DNL Salesforce] オブジェクトだけでなく、[!DNL Marketo Measure] のカスタムオブジェクト（Buyer TouchpointやBuyer Attribution Touchpoint）へのアクセス権を持っている必要があります。 [[!DNL Marketo Measure] Salesforce 内 &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md) を参照してください。
 
 管理者ユーザーライセンス [!DNL Salesforce]、デフォルトで必要なデータ権限を持っていることが多いので、接続ユーザーとして機能できます。 ただし、チームがインスタンスに対する [!DNL Marketo Measure] の影響を追跡するために、統合ユーザーまたは専用の [!DNL Salesforce] ユーザーライセンスの使用をお勧めする場合があります。
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 
 * コンバート済みリードの表示および編集権限セット
 
-これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。この権限セットが有効になっていない場合、データトラッキングに重大なギャップがある可能性があります。 詳しくは、[[!DNL Salesforce Trailblazer] community](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5) を参照してください。
+これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。この権限セットが有効になっていない場合、データトラッキングに重大なギャップがある可能性があります。 詳しくは、[[!DNL Salesforce Trailblazer] community](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5) を参照してください。
 
 * [!DNL Salesforce] マーケティングユーザーのチェックボックス
 

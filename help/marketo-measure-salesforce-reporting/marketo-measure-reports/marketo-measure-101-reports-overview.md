@@ -55,4 +55,4 @@ _購入者タッチポイントレポートのフォルダーや、そのフォ�
 
 「Buyer Touchpoint レポート」フォルダーは、[!DNL Marketo Measure] レポートを使い始めるのに役立つように設計されています。実用的なレポートについては、レポートニーズに合わせてカスタマイズできるように、レポートをカスタマイズする必要があります。 レポート内のレコード（およびその関連するタッチポイント）がレポートの目標に沿っていることを確認するために、必要なフィルターを追加する必要があります。
 
-「_[!DNL Marketo Measure]101..._」レポートをよく理解している場合は、カスタムレポートタイプから再作成して、より多くのカスタムレポートニーズに対応することができます。 [[!DNL Marketo Measure]  カスタムレポートタイプ ](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) を作成すると、他の CRM レポートで一般的に使用する可能性のあるカスタムフィールドを取り込むことができます。 これは、次のレベル [!DNL Marketo Measure] レポートするのに役立ちます。
+「_[!DNL Marketo Measure]101..._」レポートをよく理解している場合は、カスタムレポートタイプから再作成して、より多くのカスタムレポートニーズに対応することができます。 [[!DNL Marketo Measure]  カスタムレポートタイプ &#x200B;](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) を作成すると、他の CRM レポートで一般的に使用する可能性のあるカスタムフィールドを取り込むことができます。 これは、次のレベル [!DNL Marketo Measure] レポートするのに役立ちます。

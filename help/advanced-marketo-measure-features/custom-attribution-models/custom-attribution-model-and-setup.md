@@ -51,7 +51,7 @@ ht-degree: 1%
    >
    >カスタムフィールドの履歴トラッキングを必ず有効にしてください。
 
-カスタムモデルでカスタムフィールドを使用する場合は、CRM でフィールド履歴のトラッキングを有効にする必要があります。 フィールド履歴の追跡を有効にする手順については、[ カスタムモデル設定：フィールド履歴の追跡を有効にする ](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md) を参照してください。
+カスタムモデルでカスタムフィールドを使用する場合は、CRM でフィールド履歴のトラッキングを有効にする必要があります。 フィールド履歴の追跡を有効にする手順については、[&#x200B; カスタムモデル設定：フィールド履歴の追跡を有効にする &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md) を参照してください。
 
 1. カスタムモデルの属性パーセンテージを決定します。
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    「**[!UICONTROL カスタム]**」というラベルの付いた右端の列で、カスタムアトリビューションモデルの各ステージの重み付けの割合を設定できます。 「カスタム」列で各ステージの値を入力し、完了したら **[!UICONTROL 保存して再処理]** をクリックします。
 
-   _カスタム_ 列の左側には、**[!DNL Marketo Measure]機械学習モデル** があります。 機械学習モデルは、各カスタムステージで何が起こったかに応じて、取引の成立に対する相対的重要度に基づいてアトリビューションの重み付けを計算します。 機械学習モデルについて詳しくは、[ 機械学習モデルに関する FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md) を参照してください。
+   _カスタム_ 列の左側には、**[!DNL Marketo Measure]機械学習モデル** があります。 機械学習モデルは、各カスタムステージで何が起こったかに応じて、取引の成立に対する相対的重要度に基づいてアトリビューションの重み付けを計算します。 機械学習モデルについて詳しくは、[&#x200B; 機械学習モデルに関する FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md) を参照してください。
 
    ![](assets/3.png)
 

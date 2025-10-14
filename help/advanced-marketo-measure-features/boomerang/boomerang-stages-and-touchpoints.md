@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[ ブーメランステージの設定方法の説明 ](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
+>[&#x200B; ブーメランステージの設定方法の説明 &#x200B;](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
 
 ## CRM でのブーメランステージとタッチポイントの概要 {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 

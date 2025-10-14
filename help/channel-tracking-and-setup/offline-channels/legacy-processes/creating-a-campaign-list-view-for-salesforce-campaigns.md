@@ -44,4 +44,4 @@ ht-degree: 5%
 
 >[!MORELIKETHIS]
 >
->[ リスト表示のインライン編集に関する一般的な問題のトラブルシューティング ](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[&#x200B; リスト表示のインライン編集に関する一般的な問題のトラブルシューティング &#x200B;](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

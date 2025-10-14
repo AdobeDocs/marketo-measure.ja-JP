@@ -50,7 +50,7 @@ ht-degree: 7%
 
 >[!MORELIKETHIS]
 >
->* [ カスタムの「売上高」フィールドの使用 ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [ データローダーを使用したカスタム金額フィールドの更新 ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
->* [ 多通貨の概要 ](/help/advanced-marketo-measure-features/multi-currency/overview.md)
->* [ 複数通貨設定 ](/help/advanced-marketo-measure-features/multi-currency/settings.md)
+>* [&#x200B; カスタムの「売上高」フィールドの使用 &#x200B;](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [&#x200B; データローダーを使用したカスタム金額フィールドの更新 &#x200B;](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [&#x200B; 多通貨の概要 &#x200B;](/help/advanced-marketo-measure-features/multi-currency/overview.md)
+>* [&#x200B; 複数通貨設定 &#x200B;](/help/advanced-marketo-measure-features/multi-currency/settings.md)

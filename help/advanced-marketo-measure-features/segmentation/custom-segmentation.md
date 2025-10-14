@@ -77,7 +77,7 @@ ht-degree: 0%
 
 完了したら、まず [!UICONTROL &#x200B; 保存 &#x200B;] をクリックし、すべてを再確認してから、[!UICONTROL &#x200B; 保存して処理 &#x200B;] をクリックします。 保存および処理を行った後は、データが再フォーマットされるため、7 日間は設定を編集 [!DNL Marketo Measure] きないことに注意してください。
 
-Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先として設定している場合、リード固有の以下の 2 つのフィールドを使用しないでください（[ 詳細情報 ](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}）。
+Marketo Measure Ultimate のお客様で、デフォルトのダッシュボードオブジェクトを連絡先として設定している場合、リード固有の以下の 2 つのフィールドを使用しないでください（[&#x200B; 詳細情報 &#x200B;](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}）。
 
 * b2b.personStatus
 * b2b.isConverted

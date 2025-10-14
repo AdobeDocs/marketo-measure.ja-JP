@@ -39,4 +39,4 @@ ht-degree: 3%
 
    完了!
 
-   専用の [!DNL Marketo Measure] プロファイルの作成に関するご質問は、Adobeアカウントチーム（アカウントマネージャー）または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+   専用の [!DNL Marketo Measure] プロファイルの作成に関するご質問は、Adobeアカウントチーム（アカウントマネージャー）または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。

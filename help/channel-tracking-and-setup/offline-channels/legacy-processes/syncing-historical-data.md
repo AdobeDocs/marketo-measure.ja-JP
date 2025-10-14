@@ -95,7 +95,7 @@ SFDC キャンペーンタイプの数を細かいチャネルマッピングに
 
 その結果、タッチポイント日に使用されるマーケティングリスト内の全員の日付を一括で設定できます。 履歴日付をより正確に設定するには、同じキャンペーンに対して複数のマーケティングリストを作成し、それぞれに独自のタッチポイント日を設定します。 キャンペーンの期間が短い場合は、毎日マーケティングリストを作成することをお勧めします。 キャンペーンの期間が長い場合は、週単位でマーケティングリストを作成すると効果的です。
 
-マーケティングリストの同期について詳しくは、[[!DNL Dynamics]  キャンペーンとマーケティングリスト ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md) を参照してください。
+マーケティングリストの同期について詳しくは、[[!DNL Dynamics]  キャンペーンとマーケティングリスト &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md) を参照してください。
 
 >[!NOTE]
 >

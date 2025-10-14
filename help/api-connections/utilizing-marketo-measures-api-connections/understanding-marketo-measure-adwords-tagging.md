@@ -28,7 +28,7 @@ ht-degree: 6%
 **追跡テンプレート [!DNL Marketo Measure] 見つかった場合：**
 
 * [!DNL Marketo Measure] のパラメーターを追跡テンプレートに追加します。
-* サードパーティのリダイレクトが Kenshoo や Marin などのトラッキングテンプレートで見つかった場合、[!DNL Marketo Measure] のアクションは実行されません。 代わりに、[ アカウントのサードパーティツールにパラメーターを追加  [!DNL Marketo Measure]  する ](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} 必要があります。
+* サードパーティのリダイレクトが Kenshoo や Marin などのトラッキングテンプレートで見つかった場合、[!DNL Marketo Measure] のアクションは実行されません。 代わりに、[&#x200B; アカウントのサードパーティツールにパラメーターを追加  [!DNL Marketo Measure]  する &#x200B;](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} 必要があります。
 
 ただし、トラッキングテンプレートが見つからない場合は、次のよ [!DNL Marketo Measure] になります。
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 
 ## 追跡テンプレート {#tracking-templates}
 
-[!DNL Google AdWords] で説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックの把握に使用されます。 Googleについて詳しくは、[ ここをクリック ](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} してください。
+[!DNL Google AdWords] で説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックの把握に使用されます。 Googleについて詳しくは、[&#x200B; ここをクリック &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} してください。
 
 [!DNL Marketo Measure] では、広告履歴の中断や削除のリスクなしにすべての広告に関するパラメーターの追加と削除が可能なので、アカウントレベル、キャンペーンレベルまたは広告グループレベルのトラッキングテンプレートを使用することをお勧めします。
 
@@ -115,4 +115,4 @@ A：動的検索広告の個々のクリエイティブの詳細は取得でき�
 >
 >変更が完了したら、完了です。 設定中にご質問がある場合は [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}Marketo サポートまでお問い合わせください。
 
-アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[ ここをクリック ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。
+アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[&#x200B; ここをクリック &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。

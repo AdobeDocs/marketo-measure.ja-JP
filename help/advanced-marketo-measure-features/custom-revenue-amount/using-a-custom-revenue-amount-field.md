@@ -28,7 +28,7 @@ ht-degree: 3%
 
 ## Salesforce Lightning でのワークフローの作成 {#create-the-workflow-in-salesforce-lightning}
 
-次の手順は、Salesforce Lightning を使用する場合に実行します。 まだSalesforce Classic を使用している場合、これらの手順 [ 以下に示します ](#create-the-workflow-in-salesforce-classic)。
+次の手順は、Salesforce Lightning を使用する場合に実行します。 まだSalesforce Classic を使用している場合、これらの手順 [&#x200B; 以下に示します &#x200B;](#create-the-workflow-in-salesforce-classic)。
 
 1. 「設定」から、「クイック検索」ボックスに「フロー」と入力し、「**[!UICONTROL フロー]**」を選択して Flow Builder を開始します。 右側のパネルから「**[!UICONTROL 新しいフロー]**」ボタンをクリックします。
 
@@ -77,7 +77,7 @@ ht-degree: 3%
 
 ## Salesforce Classic でのワークフローの作成 {#create-the-workflow-in-salesforce-classic}
 
-次の手順は、Salesforce Classic を使用する場合に実行します。 Salesforce Lightning に切り替えた場合は、これらの手順を参照してください [ 上記を参照 ](#create-the-workflow-in-salesforce-lightning)。
+次の手順は、Salesforce Classic を使用する場合に実行します。 Salesforce Lightning に切り替えた場合は、これらの手順を参照してください [&#x200B; 上記を参照 &#x200B;](#create-the-workflow-in-salesforce-lightning)。
 
 1. **[!UICONTROL 設定]**/**[!UICONTROL 作成]**/**[!UICONTROL ワークフローと承認]**/**[!UICONTROL ワークフロールール]** に移動します。
 
@@ -104,6 +104,6 @@ ht-degree: 3%
 
    これらの手順を完了したら、「カスタム商談 [!UICONTROL &#x200B; フィールドの新しい値を持つワークフローをトリガーにするために、商談を更新する必要があり &#x200B;] す。
 
-   これは、SFDC内のデータローダーを通じてオポチュニティを実行することで実現できます。 データローダーの使用について詳しくは、[ この記事 ](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"} を参照してください。
+   これは、SFDC内のデータローダーを通じてオポチュニティを実行することで実現できます。 データローダーの使用について詳しくは、[&#x200B; この記事 &#x200B;](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"} を参照してください。
 
-途中でご不明な点がございましたら、Adobeアカウントチーム（担当のアカウントマネージャー）または [[!DNL Marketo]  サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+途中でご不明な点がございましたら、Adobeアカウントチーム（担当のアカウントマネージャー）または [[!DNL Marketo]  サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。

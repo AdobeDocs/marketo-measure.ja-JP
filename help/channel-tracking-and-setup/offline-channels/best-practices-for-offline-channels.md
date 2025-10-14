@@ -70,11 +70,11 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->* [ オフラインチャネル設定 ](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
->* [ カスタムキャンペーン同期 – アプリ同期 ](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [ オフラインキャンペーンの同期 – CRM 同期 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [ オフラインキャンペーンとキャンペーンメンバー – CRM 同期 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
->* [ キャンペーン同期日 – CRM 同期 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
->* [ 複数のキャンペーンレコードタイプの設定 ](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [ キャンペーンリスト表示の作成 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [ 履歴データの同期 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
+>* [&#x200B; オフラインチャネル設定 &#x200B;](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+>* [&#x200B; カスタムキャンペーン同期 – アプリ同期 &#x200B;](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+>* [&#x200B; オフラインキャンペーンの同期 – CRM 同期 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [&#x200B; オフラインキャンペーンとキャンペーンメンバー – CRM 同期 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [&#x200B; キャンペーン同期日 – CRM 同期 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+>* [&#x200B; 複数のキャンペーンレコードタイプの設定 &#x200B;](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
+>* [&#x200B; キャンペーンリスト表示の作成 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [&#x200B; 履歴データの同期 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

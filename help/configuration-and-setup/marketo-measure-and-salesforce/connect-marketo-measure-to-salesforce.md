@@ -67,7 +67,7 @@ Marketo Measureでは、統合ユーザーを通じてクライアントの Sale
 
 >[!NOTE]
 >
->接続ソリューションで利用可能な Salesforce API クレジットを増やすには、Salesforce 管理者に連絡して、[ この Salesforce ドキュメント ](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"} を参照してください。
+>接続ソリューションで利用可能な Salesforce API クレジットを増やすには、Salesforce 管理者に連絡して、[&#x200B; この Salesforce ドキュメント &#x200B;](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"} を参照してください。
 
 >[!MORELIKETHIS]
 >

@@ -159,9 +159,9 @@ Dialog Appointment Scheduled （160）
 
 ## チャネルマッピング {#channel-mapping}
 
-プログラム ID を持つアクティビティタイプのルールのいずれについても、Marketo プログラムチャネルはプログラムから決定されます。 プログラムチャネルはカスタムのオフラインチャネルにマッピングするために使用されるので、チャネルが（ここで説明されているように [ 正しく設定されていることを確認する必要があ ](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"} ます。
+プログラム ID を持つアクティビティタイプのルールのいずれについても、Marketo プログラムチャネルはプログラムから決定されます。 プログラムチャネルはカスタムのオフラインチャネルにマッピングするために使用されるので、チャネルが（ここで説明されているように [&#x200B; 正しく設定されていることを確認する必要があ &#x200B;](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"} ます。
 
-また、プログラム ID を持たないアクティビティタイプのルールに対しては、最初にキャンペーン名を作成しました。 このキャンペーン名を使用して、（ここにレイアウトされた [ カスタムオンラインチャネルを設定 ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"} ます。
+また、プログラム ID を持たないアクティビティタイプのルールに対しては、最初にキャンペーン名を作成しました。 このキャンペーン名を使用して、（ここにレイアウトされた [&#x200B; カスタムオンラインチャネルを設定 &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"} ます。
 
 Marketo アクティビティのチャネルが適切に設定されていない場合、新しいタッチポイントは「その他」チャネルの下に配置される可能性があります。
 

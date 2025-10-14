@@ -21,4 +21,4 @@ ht-degree: 5%
 
 ![](assets/1.png)
 
-タッチポイントが SFDC から削除されている場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} に連絡して、データの再読み込みをリクエストしてください。
+タッチポイントが SFDC から削除されている場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} に連絡して、データの再読み込みをリクエストしてください。

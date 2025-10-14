@@ -19,7 +19,7 @@ ht-degree: 10%
 
 [!DNL Marketo Measure] の主な機能の 1 つは、Web サイト上のアクションを通じてデジタルマーケティングの取り組みを追跡し、リードや連絡先を通じてそのデータを実稼動 [!DNL Salesforce org] ージにプッシュする機能です。 ただし、通常、サンドボックス統合内の web サイトから作成されたインバウンドリードはないので、データは純粋にオフラインの観点から焦点を当てます。
 
-テストの両方のフェーズで参照する 2 つのソースを次に示します。 [ 手順 1～4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&amp;language=en_US&amp;type=5) および [ 手順 5～6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)。 一部の領域で詳細を説明しているため、これらのドキュメントを確認することをお勧めします。
+テストの両方のフェーズで参照する 2 つのソースを次に示します。 [&#x200B; 手順 1～4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) および [&#x200B; 手順 5～6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)。 一部の領域で詳細を説明しているため、これらのドキュメントを確認することをお勧めします。
 
 1. キャンペーンにアップロードできるように、CSV でリードを作成する必要があります。 その方法は、実稼動環境の Salesforce でレポートを使用して、一部のリードをエクスポートすることです。 それ以外の場合は、Excel ファイルでリードを手動で作成し、それを CSV として保存して読み込むことができます。 必要なレコードは約 20 件だけです。 ファイルには次の列が必要です。
 

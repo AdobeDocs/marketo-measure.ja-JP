@@ -35,7 +35,7 @@ linkedInとの [!DNL Marketo Measure] 統合は、次の 2 つの部分に分か
 * アカウントマネージャ
 * キャンペーンマネージャー
 
-詳細情報：[Campaign Manager のユーザーの役割と機能 ](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
+詳細情報：[Campaign Manager のユーザーの役割と機能 &#x200B;](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
 
 **有料メディア管理者ロール**
 
@@ -44,7 +44,7 @@ linkedInとの [!DNL Marketo Measure] 統合は、次の 2 つの部分に分か
 * スポンサーコンテンツのポスター
 * リード生成Forms マネージャー
 
-詳細情報：[LinkedInページの管理者ロール ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細情報：[LinkedInページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
 他にも、統合に必要な [!DNL LinkedIn] の役割が **ありません**。 これらの役割は、多くの場合、必要な役割と誤解されているので、違いがあることに注意してください！
 
@@ -54,7 +54,7 @@ linkedInとの [!DNL Marketo Measure] 統合は、次の 2 つの部分に分か
 
 * スーパー管理者
 
-詳細情報：[LinkedInページの管理者ロール ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細情報：[LinkedInページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
 ## LinkedIn広告タイプ {#linkedin-ad-types}
 

@@ -55,7 +55,7 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->* [ タッチポイントの削除と抑制の概要 ](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
->* [ タッチポイントを削除してはいけない理由 ](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
->* [ バイヤータッチポイント（BT）とバイヤー属性タッチポイント（BAT）の比較 ](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+>* [&#x200B; タッチポイントの削除と抑制の概要 &#x200B;](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [&#x200B; タッチポイントを削除してはいけない理由 &#x200B;](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [&#x200B; バイヤータッチポイント（BT）とバイヤー属性タッチポイント（BAT）の比較 &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

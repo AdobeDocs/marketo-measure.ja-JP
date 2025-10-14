@@ -29,7 +29,7 @@ ht-degree: 5%
 
 ## サポートと移行 {#support-and-transition}
 
-[ サポートチーム ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} は、ご質問にお答えし、新しい統合パッケージへのスムーズな移行を支援いたします。
+[&#x200B; サポートチーム &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} は、ご質問にお答えし、新しい統合パッケージへのスムーズな移行を支援いたします。
 
 ## 必要なアクション {#retired-actions}
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 
 **現在のパッケージのデータをバックフィルするにはどうすればよいですか？**
 
-BT/BAT データのバックフィルと再処理を行い、タッチポイント ID およびフォーム ID フィールドに入力するためのチケットを [ サポート付き ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 提出できます。
+BT/BAT データのバックフィルと再処理を行い、タッチポイント ID およびフォーム ID フィールドに入力するためのチケットを [&#x200B; サポート付き &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 提出できます。
 
 **V1 および V2_EXT パッケージのフィールドは、統合パッケージで使用できますか？**
 
@@ -65,4 +65,4 @@ BT/BAT データのバックフィルと再処理を行い、タッチポイン�
 
 **V2_EXT フィールドを使用するレポートを、統合パッケージで再作成することはできますか？**
 
-あります。[ 必須アクション ](#retired-actions) の節の手順に従います。
+あります。[&#x200B; 必須アクション &#x200B;](#retired-actions) の節の手順に従います。
