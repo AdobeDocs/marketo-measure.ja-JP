@@ -97,7 +97,7 @@ ht-degree: 99%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>サードパーティ、ドメイン =.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
+    <td>サードパーティ、ドメイン =.<a href="https://business.adobe.com/jp/products/marketo/bizible.html">bizible.com</a></td>
     <td>複数のドメイン間でユーザを識別するユニバーサルユーザ ID です。</td>
     <td>1 年</td>
     <td>はい</td>
