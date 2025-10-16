@@ -15,7 +15,7 @@ ht-degree: 25%
 
 ## ビュースルーアトリビューションとは {#what-is-view-through-attribution}
 
-[!DNL Marketo Measure][!UICONTROL &#x200B; ビュースルーアトリビューション &#x200B;] 機能には、アトリビューションモデルに広告インプレッションを含める機能が含まれています。
+[!DNL Marketo Measure]&#x200B;[!UICONTROL &#x200B; ビュースルーアトリビューション &#x200B;] 機能には、アトリビューションモデルに広告インプレッションを含める機能が含まれています。
 
 >[!IMPORTANT]
 >

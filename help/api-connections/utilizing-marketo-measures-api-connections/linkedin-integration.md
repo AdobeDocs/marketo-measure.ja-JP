@@ -76,7 +76,7 @@ linkedInとの [!DNL Marketo Measure] 統合は、次の 2 つの部分に分か
 
 >[!NOTE]
 >
->最初に使用する前に、[!DNL Marketo Measure][!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 統合 &#x200B;]/[!UICONTROL Ads]/[!UICONTROL LinkedIn リード生成Formsを有効にする &#x200B;] に移動して、この機能設定を有効にする必要があります。
+>最初に使用する前に、[!DNL Marketo Measure]&#x200B;[!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 統合 &#x200B;]/[!UICONTROL Ads]/[!UICONTROL LinkedIn リード生成Formsを有効にする &#x200B;] に移動して、この機能設定を有効にする必要があります。
 
 **[!DNL LinkedIn's]独自の自動タグ付けの要件**
 

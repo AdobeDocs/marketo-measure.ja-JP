@@ -48,7 +48,7 @@ AdWords と [!DNL Bing Ads] の統合と同様に、[!DNL Facebook] の統合で
 
 ![](assets/2-2.png)
 
-統合を有効にすると、広告レベルのコスト [!DNL Marketo Measure][!DNL Marketo Measure Marketing ROI] ダッシュボードにダウンロードされるようになります。
+統合を有効にすると、広告レベルのコスト [!DNL Marketo Measure]&#x200B;[!DNL Marketo Measure Marketing ROI] ダッシュボードにダウンロードされるようになります。
 
 統合が正しく機能するには、[!DNL Facebook] アカウントで自動タグ付けを有効にする必要があります。 これにより、システムはすべての広告リンクに_bf パラメーターを追加できます。 このプロセスは、既に [!DNL Facebook] 広告に追加した他のトラッキングパラメーターの上に新しいパラメーターを追加します。
 
