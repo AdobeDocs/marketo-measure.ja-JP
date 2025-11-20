@@ -20,11 +20,11 @@ ht-degree: 88%
       + [マーケティングアトリビューション](introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
       + [[!DNL Marketo Measure] アトリビューションモデル](introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
       + [[!DNL Marketo Measure] フレームワーク](introduction-to-marketo-measure/overview-resources/marketo-measure-framework.md)
-      + [ [!DNL Marketo Measure] フィールドの用語集](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+      + [&#x200B; [!DNL Marketo Measure] フィールドの用語集](introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 + [!DNL Marketo Measure] トラッキング {#marketo-measure-tracking}
    + トラッキングの設定 {#setting-up-tracking}
-      + [ [!DNL Marketo Measure] JavaScript の実装のベストプラクティス](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
-      + [ [!DNL Marketo Measure] スクリプトの追加](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+      + [&#x200B; [!DNL Marketo Measure] JavaScript の実装のベストプラクティス](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
+      + [&#x200B; [!DNL Marketo Measure] スクリプトの追加](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Google タグマネージャーを介した [!DNL Marketo Measure] スクリプトの追加](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
       + [JavaScript で収集されるデータ](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + 異なるフォ [!DNL Marketo Measure] ムプロバイダーへのスクリプトの追加 {#adding-marketo-measure-script-to-different-form-providers}
@@ -40,7 +40,7 @@ ht-degree: 88%
          + [IFrame フォームと [!DNL Marketo Measure]](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/iframe-forms-and-marketo-measure.md)
       + [特定のフォームからの [!DNL Marketo Measure] の除外](marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
       + [[!DNL Marketo Measure] クッキー](marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md)
-      + [ [!DNL Marketo Measure] Web セッションの定義](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
+      + [&#x200B; [!DNL Marketo Measure] Web セッションの定義](marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions.md)
       + [テストのベストプラクティス](marketo-measure-tracking/setting-up-tracking/best-practices-for-testing.md)
 + 設定とセットアップ {#configuration-and-setup}
    + [!DNL Marketo Measure] の概要 {#getting-started-with-marketo-measure}
@@ -54,18 +54,18 @@ ht-degree: 88%
    + [!DNL Marketo Measure] とSalesforce {#marketo-measure-and-salesforce}
       + [[!DNL Marketo Measure] Salesforce パッケージのインストールと設定](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
       + [[!DNL Salesforce] パッケージの統合](configuration-and-setup/marketo-measure-and-salesforce/salesforce-package-consolidation.md)
-      + [ [!DNL Marketo Measure] の Salesforce への接続](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
-      + [ [!DNL Marketo Measure] CRM パッケージのベストプラクティス](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
+      + [&#x200B; [!DNL Marketo Measure] の Salesforce への接続](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+      + [&#x200B; [!DNL Marketo Measure] CRM パッケージのベストプラクティス](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [[!DNL Marketo Measure] Salesforce オブジェクト](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
       + [CRM 書き出しのエラー処理](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
-      + [ [!DNL Marketo Measure] と [!DNL Salesforce] のやり取りの方法](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
+      + [&#x200B; [!DNL Marketo Measure] と [!DNL Salesforce] のやり取りの方法](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [[!DNL Marketo Measure] オブジェクトとフィールドの分類](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
       + [標準 [!DNL Salesforce] オブジェクトの [!DNL Marketo Measure] フィールド](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
       + [ページレイアウトの手順](configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
       + [不要なレポートタイプの非表示](configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
-      + [ [!DNL Marketo Measure] プロファイルの作成](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
+      + [&#x200B; [!DNL Marketo Measure] プロファイルの作成](configuration-and-setup/marketo-measure-and-salesforce/creating-a-marketo-measure-profile.md)
       + [[!DNL Marketo Measure] 権限セット](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
-      + [ [!DNL Marketo Measure] 接続ユーザーに推奨される [!DNL Salesforce] 権限](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
+      + [&#x200B; [!DNL Marketo Measure] 接続ユーザーに推奨される [!DNL Salesforce] 権限](configuration-and-setup/marketo-measure-and-salesforce/recommended-salesforce-permissions-for-marketo-measure-connected-user.md)
    + サンドボックステスト {#sandbox-testing}
       + [Salesforce サンドボックスとの [!DNL Marketo Measure] 統合のテスト](configuration-and-setup/sandbox-testing/testing-the-marketo-measure-integration-with-a-salesforce-sandbox.md)
       + [Salesforce サンドボックスの実稼動への移行](configuration-and-setup/sandbox-testing/salesforce-sandbox-to-production-migration.md)
@@ -87,7 +87,7 @@ ht-degree: 88%
       + レガシープロセス {#legacy-processes}
          + [[!UICONTROL キャンペーンとキャンペーンメンバー]](channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
          + [キャンペーンの同期日](channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
-         + [ [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [&#x200B; [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成](channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
          + [Dynamics キャンペーンとマーケティングリスト](channel-tracking-and-setup/offline-channels/legacy-processes/dynamics-campaigns-and-marketing-lists.md)
          + [履歴データの同期](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)
          + [オフラインキャンペーンの同期](channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
@@ -100,7 +100,7 @@ ht-degree: 88%
       + [[!DNL Marketo Measure] パラメーター](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
       + [Facebook API](api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
       + [[!DNL LinkedIn] 統合](api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)
-      + [ [!DNL Marketo Measure] AdWords のタグ付けについて](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
+      + [&#x200B; [!DNL Marketo Measure] AdWords のタグ付けについて](api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md)
       + [接続されたアカウントの再認証](api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 + マーケティング費用 {#marketing-spend}
    + 費用管理 {#spend-management}
@@ -128,7 +128,7 @@ ht-degree: 88%
       + [アクティビティアトリビューションに関するよくある質問](advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
    + ブーメラン {#boomerang}
       + [ブーメランステージとタッチポイント](advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md)
-      + [ブーメランステージの設定 ](advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
+      + [ブーメランステージの設定 &#x200B;](advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
       + [ブーメランステージのシナリオ](advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md)
    + カスタム収益金額 {#custom-revenue-amount}
       + [カスタム収益額の利用のベストプラクティス](advanced-marketo-measure-features/custom-revenue-amount/best-practices-for-utilizing-a-custom-revenue-amount.md)
@@ -144,7 +144,7 @@ ht-degree: 88%
       + [アカウントベースのマーケティングの概要](advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md)
    + A/B テスト {#a-b-testing}
       + [A/B テストの設定とレポート](advanced-marketo-measure-features/a-b-testing/a-b-testing-set-up-and-reporting.md)
-      + [ [!DNL Marketo Measure] A/B テスト統合の設定](advanced-marketo-measure-features/a-b-testing/configuring-the-marketo-measure-a-b-test-integration.md)
+      + [&#x200B; [!DNL Marketo Measure] A/B テスト統合の設定](advanced-marketo-measure-features/a-b-testing/configuring-the-marketo-measure-a-b-test-integration.md)
    + チャットの統合 {#chat-integration}
       + [Drift 統合に関するよくある質問](advanced-marketo-measure-features/chat-integration/drift-integration-faq.md)
    + 複数通貨 {#multi-currency}
@@ -176,14 +176,14 @@ ht-degree: 88%
    + [!DNL Marketo Measure] と Dynamics の基本を学ぶ {#getting-started-with-marketo-measure-and-dynamics}
       + [[!DNL Marketo Measure] Dynamics スキーマ](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md)
       + [Microsoft Dynamics CRM インストールガイド](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md)
-      + [ [!DNL Dynamics] の [!DNL Marketo Measure] 収益ワークフロー](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-revenue-workflows-for-dynamics.md)
+      + [&#x200B; [!DNL Dynamics] の [!DNL Marketo Measure] 収益ワークフロー](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-revenue-workflows-for-dynamics.md)
       + [OAuth と  [!DNL Dynamics] CRM 用 Azure Active Directory](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)
       + [[!DNL Marketo Measure] と Dynamics の分類](marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/marketo-measure-and-dynamics-taxonomy.md)
    + Dynamics レポート {#dynamics-reporting}
-      + [ [!DNL Dynamics] の Stock レポートおよびダッシュボード](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
+      + [&#x200B; [!DNL Dynamics] の Stock レポートおよびダッシュボード](marketo-measure-and-dynamics/dynamics-reporting/stock-reports-and-dashboards-in-dynamics.md)
 + [!DNL Marketo Measure] とMarketo {#marketo-measure-and-marketo}
    + Marketoとの [!DNL Marketo Measure] 統合 {#marketo-measure-integrations-with-marketo}
-      + [ [!DNL Marketo] 接続の設定](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
+      + [&#x200B; [!DNL Marketo] 接続の設定](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/set-up-marketo-connection.md)
       + [Marketo Engage アクティビティ統合](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-activities-integration.md)
       + [Marketo Engage 顧客統合](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-people-integration.md)
       + [Marketo Engage プログラム統合](marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md)
@@ -215,7 +215,7 @@ ht-degree: 88%
 + セキュリティとコンプライアンス {#security-and-compliance}
    + コンプライアンス関連リソース {#compliance-related-resources}
       + [Discover データのダウンロードのアクセス制御](security-and-compliance/compliance-related-resources/discover-data-download-access-control.md)
-      + [ [!DNL Marketo Measure] Js での GDPR への同意の確認](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
+      + [&#x200B; [!DNL Marketo Measure] Js での GDPR への同意の確認](security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md)
       + [セキュリティセッションの制限：許可リストに追加する IP アドレス](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [[!DNL Marketo Measure] Ultimate の概要](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
@@ -229,7 +229,7 @@ ht-degree: 88%
       + [コールトラッキングの統合](miscellaneous/other-related-resources/call-tracking-integration.md)
       + [Google Analytics コンバージョンと Buyer Touchpoint の違い](miscellaneous/other-related-resources/difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint.md)
       + [メールトラッキングパラメーター](miscellaneous/other-related-resources/email-tracking-parameter.md)
-      + [ [!DNL Marketo Measure] サポートへの  [!DNL Salesforce] アクセス権の付与](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
+      + [&#x200B; [!DNL Marketo Measure] サポートへの  [!DNL Salesforce] アクセス権の付与](miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
       + [プライバシーリクエスト](miscellaneous/other-related-resources/privacy-requests.md)
       + [Google Analytics のランディングページ URL からの [!DNL Marketo Measure] トラッキングパラメーターの削除](miscellaneous/other-related-resources/remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics.md)
       + [Full Circle から [!DNL Marketo Measure] への移行](miscellaneous/other-related-resources/transitioning-to-marketo-measure-from-full-circle.md)
