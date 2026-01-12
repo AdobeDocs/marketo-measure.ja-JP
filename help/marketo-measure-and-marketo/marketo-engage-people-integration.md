@@ -20,7 +20,7 @@ Marketo人物統合を使用 [!DNL Marketo Measure] ると、Marketoから人物
 * 実稼動Marketo インスタンス
 * 実稼動 [!DNL Salesforce] または実 [!DNL Microsoft Dynamics] 動インスタンス
 * 任意の有料 [!DNL Marketo Measure] サブスクリプション
-* SOLR を有効にする（これを有効にするには [](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"}Marketo サポートにお問い合わせください）
+* SOLR を有効にする（これを有効にするには [&#128279;](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"}Marketo サポートにお問い合わせください）
 
 ## 仕組み {#how-it-works}
 
@@ -42,9 +42,9 @@ Marketo ユーザーを web セッションに正常にマッピングする [!D
 
 [!DNL Marketo Measure Discover] でリード（人物）に関するレポートを作成する場合、Marketoと CRM のリードの合計が表示されます。 Marketoの人物または CRM リードのみを対象としてレポートする場合は、ソースのセグメントカテゴリを作成してから、「Source システム」フィールドを使用してMarketoと CRM のセグメントルールを作成します。 セグメントを作成すると、Source カテゴリが表示され、[!DNL Marketo Measure Discover] のダッシュボードでフィルタリングできるようになります。
 
-![Marketoと CRM リードの合計を表示するMarketo Measure Discover ダッシュボード ](assets/bizible-discover-1.png)
+![Marketoと CRM リードの合計を表示するMarketo Measure Discover ダッシュボード &#x200B;](assets/bizible-discover-1.png)
 
-![Source システムセグメントをハイライトしたフィルターの確認 ](assets/bizible-discover-2.png)
+![Source システムセグメントをハイライトしたフィルターの確認 &#x200B;](assets/bizible-discover-2.png)
 
 ## フィールド マッピング {#field-mappings}
 

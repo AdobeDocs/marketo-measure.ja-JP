@@ -39,7 +39,7 @@ ht-degree: 2%
 * 各四半期に最も起因するオポチュニティ額を生成したチャネルはどれですか？
 * 先月のチャネル別のアトリビューションされたオポチュニティの金額の内訳を教えてください。
 
-![ チャネル別のアトリビューション済みオポチュニティ金額の推移グラフ ](assets/attributed-opportunity-dashboard-1.png)
+![&#x200B; チャネル別のアトリビューション済みオポチュニティ金額の推移グラフ &#x200B;](assets/attributed-opportunity-dashboard-1.png)
 
 ### アトリビューションされたオポチュニティの金額テーブル {#attributed-opportunity-amount-table}
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 各チャネルの横にある「**+**」アイコンをクリックすると、サブチャネルとキャンペーンの分類が表示されます。
 
-![ チャネルおよびキャンペーン別の属性付き商談額の表形式表示 ](assets/attributed-opportunity-dashboard-2.png)
+![&#x200B; チャネルおよびキャンペーン別の属性付き商談額の表形式表示 &#x200B;](assets/attributed-opportunity-dashboard-2.png)
 
 #### ツリー表示 {#tree-view}
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
 ブランチをクリックすると、後続の階層レイヤーをさらに掘り下げることができます。
 
-![ 属性の商談額ツリー表示階層 ](assets/attributed-opportunity-dashboard-3.png)
+![&#x200B; 属性の商談額ツリー表示階層 &#x200B;](assets/attributed-opportunity-dashboard-3.png)
 
 ### フィルターウィンドウ
 

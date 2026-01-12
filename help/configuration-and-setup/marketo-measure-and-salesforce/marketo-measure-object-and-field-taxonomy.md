@@ -15,11 +15,11 @@ ht-degree: 5%
 
 カスタムオブジェクトと標準オブジェクトの関係 [!DNL Marketo Measure] 示すフローチャート [!DNL Salesforce] 次に示します。
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
-フルサイズの画像については、[ ここをクリック ](assets/bizible-object-and-field-taxonomy-graph-full.png) してください。
+フルサイズの画像については、[&#x200B; ここをクリック &#x200B;](assets/bizible-object-and-field-taxonomy-graph-full.png) してください。
 
-各オブジェクトに存在する [!DNL Marketo Measure] フィールドの定義 [ こちらを参照 ](/help/glossary.md)。
+各オブジェクトに存在する [!DNL Marketo Measure] フィールドの定義 [&#x200B; こちらを参照 &#x200B;](/help/glossary.md)。
 
 ## よくある質問 {#faq}
 

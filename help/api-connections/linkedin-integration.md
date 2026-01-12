@@ -35,7 +35,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 * アカウントマネージャ
 * キャンペーンマネージャー
 
-詳細情報：[Campaign Manager のユーザーの役割と機能 ](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
+詳細情報：[Campaign Manager のユーザーの役割と機能 &#x200B;](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
 
 **有料メディア管理者ロール**
 
@@ -44,7 +44,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 * スポンサーコンテンツのポスター
 * リード生成Forms マネージャー
 
-詳細情報：[LinkedIn ページの管理者ロール ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細情報：[LinkedIn ページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
 他にも、統合に必要な [!DNL LinkedIn] の役割が **ありません**。 これらの役割は、多くの場合、必要な役割と誤解されているので、違いがあることに注意してください！
 
@@ -54,7 +54,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 
 * スーパー管理者
 
-詳細情報：[LinkedIn ページの管理者ロール ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細情報：[LinkedIn ページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
 ## LinkedIn 広告タイプ {#linkedin-ad-types}
 
@@ -66,7 +66,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 
 [!DNL Marketo Measure] は、スポンサー付きメッセージ、テキスト広告、動的広告をサポートしていません。
 
-![ リード生成Formsがサポートされている、シングル画像広告、ビデオ広告、カルーセルオプションを示す LinkedIn の広告形式タイプ ](assets/one.png)
+![&#x200B; リード生成Formsがサポートされている、シングル画像広告、ビデオ広告、カルーセルオプションを示す LinkedIn の広告形式タイプ &#x200B;](assets/one.png)
 
 >[!TIP]
 >スポンサーのないコンテンツソースに基づくキャンペーンや支出（「テキスト広告」や「スポンサー付きインメール」のキャンペーンタイプなど）の場合、[!DNL Marketo Measure] れらのキャンペーンタイプのトラッキングは本質的にはサポートされません __。 このようなキャンペーンの支出を「スポンサーコンテンツ」の支出と並べて追跡したい場合は、マーケティング支出 CSV を使用して、その支出を手動で記録してください。
@@ -74,7 +74,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 ## 仕組み：スポンサードコンテンツ {#how-it-works-sponsored-content}
 
 >[!NOTE]
->最初に使用する前に、[!DNL Marketo Measure] [!UICONTROL  設定 ]/[!UICONTROL  統合 ]/[!UICONTROL  広告 ]/[!UICONTROL LinkedIn リード生成Formsを有効にする ] に移動して、この機能設定を有効にする必要があります。
+>最初に使用する前に、[!DNL Marketo Measure] [!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 統合 &#x200B;]/[!UICONTROL &#x200B; 広告 &#x200B;]/[!UICONTROL LinkedIn リード生成Formsを有効にする &#x200B;] に移動して、この機能設定を有効にする必要があります。
 
 **[!DNL LinkedIn's]独自の自動タグ付けの要件**
 
@@ -105,9 +105,9 @@ CreativeB : Share 234\
 Creative C : Share 234\
 Creative D : Share 234
 
-![ 自動タグ付けプロセスの前に、関連付けられた共有を持つ 4 つのクリエイティブを示す図 ](assets/two.png)
+![&#x200B; 自動タグ付けプロセスの前に、関連付けられた共有を持つ 4 つのクリエイティブを示す図 &#x200B;](assets/two.png)
 
-`1)` [!DNL Marketo Measure] では、最初に「アクティブ」ステータスのすべてのキャンペーン、クリエイティブ、共有を確認します。 [!DNL Marketo Measure] は、一時停止、アーカイブまたはキャンセルされた広告をタグ付けしません。 広告が一時停止していた場合に「[!UICONTROL  アクティブ ]」に設定すると、再びアクティブになった時点でタグが付けられます。 一意の共有が見つかった場合、つまり複数のクリエイティブやキャンペーンで使用されていない場合（例：Creative A : Share 123）、カスタムパラメーター [!DNL Marketo Measure] を共有 URL に追加し `>> ?_bl={creativeId}` す。
+`1)` [!DNL Marketo Measure] では、最初に「アクティブ」ステータスのすべてのキャンペーン、クリエイティブ、共有を確認します。 [!DNL Marketo Measure] は、一時停止、アーカイブまたはキャンセルされた広告をタグ付けしません。 広告が一時停止していた場合に「[!UICONTROL &#x200B; アクティブ &#x200B;]」に設定すると、再びアクティブになった時点でタグが付けられます。 一意の共有が見つかった場合、つまり複数のクリエイティブやキャンペーンで使用されていない場合（例：Creative A : Share 123）、カスタムパラメーター [!DNL Marketo Measure] を共有 URL に追加し `>> ?_bl={creativeId}` す。
 
 `2)` ここで、共有が共有されて一意性が失われた場合（例：Creative B は 234 を共有、Creative C は 234 を共有、Creative D は 234 を共有）、[!DNL Marketo Measure] は類似したすべてのクリエイティブ（Creative B、Creative C、Creative D）を一時停止してアーカイブします。
 
@@ -120,7 +120,7 @@ Creative D : Share 234
 >[!NOTE]
 >これを実装すると、お客様はCreative B : Share 234、Creative C : Share 234 およびCreative D : Share 234 の広告履歴を失うことになります。それぞれCreative E : Share 345、Share F : Share 456 およびCreative G : Share 567 と再作成されるからです。
 
-![ 自動タグ付けおよびアーカイブプロセスの後に作成された、一意の共有を持つ新しいクリエイティブを示す図 ](assets/three.png)
+![&#x200B; 自動タグ付けおよびアーカイブプロセスの後に作成された、一意の共有を持つ新しいクリエイティブを示す図 &#x200B;](assets/three.png)
 
 ## 仕組み：リード生成Forms {#how-it-works-lead-gen-forms}
 
@@ -253,7 +253,7 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
  </tbody>
 </table>
 
-**&#42;**_「広告宛先 URL」フィールドは、スポンサー付きコンテンツの場合にのみ入力されます。 リード生成Forms用には入力されません。_
+**&#42;**&#x200B;_「広告宛先 URL」フィールドは、スポンサー付きコンテンツの場合にのみ入力されます。 リード生成Forms用には入力されません。_
 
 <br>
 
@@ -263,7 +263,7 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
 
 他の広告統合と同様に、[!DNL Marketo Measure] では、すべてのキャンペーン、クリエイティブ、コストを配置するマーケティングチャネルルール [!DNL LinkedIn] 定義しています。 このルールを使用するには、顧客が有料 [!DNL LinkedIn] ールの取り組みに新しい行を挿入する必要があります。 新規または既存のチャネルを指定できます。 リファラー列で、[!DNL LinkedIn] タグを持つ任意のタッチポイントとして定義し [!DNL Marketo Measure] 定義「[[!DNL Marketo Measure] Paid]」を使用します。
 
-![ リファラー列を持つ LinkedIn 有料チャネルの定義を示すマーケティングチャネルルール設定 ](assets/four.png)
+![&#x200B; リファラー列を持つ LinkedIn 有料チャネルの定義を示すマーケティングチャネルルール設定 &#x200B;](assets/four.png)
 
 ## [!DNL Marketo Measure] Discover {#marketo-measure-discover}
 
@@ -315,7 +315,7 @@ LinkedIn では、作成または変更されたすべての広告は、投稿�
 
 両方。 [!DNL Marketo Measure] 統合により、広告のクリックスルー画像から宛先 URL にタグを付けることができますが、広告の説明の短縮 URL も自動的に更新されます。
 
-![ 宛先 URL と短縮 URL の両方がタグ付けされた説明に表示されている LinkedIn 広告 ](assets/five.png)
+![&#x200B; 宛先 URL と短縮 URL の両方がタグ付けされた説明に表示されている LinkedIn 広告 &#x200B;](assets/five.png)
 
 **[!DNL LinkedIn ads] アカウントを接続しました。 リンクにタグ [!DNL Marketo Measure] 付けないのはなぜですか？**
 
@@ -325,7 +325,7 @@ LinkedIn では、作成または変更されたすべての広告は、投稿�
 
 共有 ID は [!DNL LinkedIn] レポートでは提供されていないので、クリエイティブと共有のマッピングを確認する明確で明白な方法はありません。 クリエイティブがコピーである可能性が疑われる場合は、[!DNL LinkedIn] Campaign マネージャーで広告を開いて手動で確認できます。新しいタブで広告が開き、URL で共有 ID を確認できます。
 
-![LinkedIn キャンペーンマネージャーで表示される広告が、URL に表示された共有 ID を持つ新しいタブで開かれた ](assets/six.png)
+![LinkedIn キャンペーンマネージャーで表示される広告が、URL に表示された共有 ID を持つ新しいタブで開かれた &#x200B;](assets/six.png)
 
 ## リード生成Formsに関するよくある質問 {#lead-gen-forms-faq}
 

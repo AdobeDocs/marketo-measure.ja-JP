@@ -15,23 +15,23 @@ ht-degree: 95%
 
 ## はじめに {#getting-started}
 
-[!DNL Tableau] レポートテンプレートにアクセスするには [ こちら ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} をクリックします。
+[!DNL Tableau] レポートテンプレートにアクセスするには [&#x200B; こちら &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} をクリックします。
 
 [!DNL Adobe Marketo Measure] レポートテンプレート Tableau ワークブックファイルを開きます。
 
 既存の接続データを特定の Snowflake 接続情報に更新する必要があります。「[!UICONTROL 接続を編集]」ボタンをクリックし、このドキュメントの[[!UICONTROL データ接続]](#data-connection)の節に記載されている手順に従います。
 
-![ 「接続を編集」ボタンが表示されている Tableau ワークブック ](assets/marketo-measure-report-template-tableau-1.png)
+![&#x200B; 「接続を編集」ボタンが表示されている Tableau ワークブック &#x200B;](assets/marketo-measure-report-template-tableau-1.png)
 
 ## データ接続 {#data-connection}
 
 Snowflake インスタンスへのデータ接続を設定する必要があります。このためには、ユーザ名とパスワードと共にサーバー名が必要です。この情報を見つけて、必要に応じてパスワードをリセットする場所の詳細は、[こちら](/help/data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}に記載されています。
 
-![ サーバーおよび認証フィールドを含むSnowflake接続ダイアログ ](assets/marketo-measure-report-template-tableau-2.png)
+![&#x200B; サーバーおよび認証フィールドを含むSnowflake接続ダイアログ &#x200B;](assets/marketo-measure-report-template-tableau-2.png)
 
 また、最初の SQL コマンドを入力する必要もあります。これにより、このデータモデルでのカスタムクエリの使用がサポートされます。入力するコマンドは、「Use Schema `<your schema name>`」です。スキーマ名は、[!UICONTROL Data Warehouse 接続ページ]で見つけることができます。上記のドキュメントを参照してください。
 
-![ スキーマ仕様の初期 SQL コマンドフィールド ](assets/marketo-measure-report-template-tableau-3.png)
+![&#x200B; スキーマ仕様の初期 SQL コマンドフィールド &#x200B;](assets/marketo-measure-report-template-tableau-3.png)
 
 ### カスタム SQL クエリ {#custom-sql-queries}
 
@@ -65,9 +65,9 @@ Snowflake インスタンスへのデータ接続を設定する必要があり�
 
 [!DNL Tableau] のデータには、Snowflake の元の状態からいくつかの変換が適用されています。これらの変換のほとんどは、[!DNL Tableau] モデルにテーブルを生成するカスタム SQL クエリに適用されます。テーブルの生成に使用されたカスタム SQL を表示するには、テーブル名を右クリックし、「カスタム SQL クエリを編集」を選択します。特定の変換のいくつかについては、以下で説明します。
 
-![ 「カスタム SQL クエリを編集」オプションを示すコンテキストメニュー ](assets/marketo-measure-report-template-tableau-4.png)
+![&#x200B; 「カスタム SQL クエリを編集」オプションを示すコンテキストメニュー &#x200B;](assets/marketo-measure-report-template-tableau-4.png)
 
-![Tableau のカスタム SQL クエリエディターダイアログ ](assets/marketo-measure-report-template-tableau-5.png)
+![Tableau のカスタム SQL クエリエディターダイアログ &#x200B;](assets/marketo-measure-report-template-tableau-5.png)
 
 ### 列を削除 {#removed-columns}
 
@@ -84,11 +84,11 @@ Snowflake インスタンスへのデータ接続を設定する必要があり�
 
 モデルの計算に通貨換算機能を追加するために、社内換算率とターゲット換算率の列を商談テーブルとコストテーブルの両方に追加しました。これらの列の値は行レベルで追加し、日付と通貨 ID の両方で換算率テーブルに結合することによって評価されます。Tableau ではファクトテーブルが複数のディメンションテーブルを共有できないので、それを使用するテーブルに換算率を直接追加しました。このモデルでの通貨換算の仕組みについて詳しくは、このドキュメントの[通貨換算](#currency-conversion)の節を参照してください。
 
-![ コンバージョン率列を含む商談テーブル ](assets/marketo-measure-report-template-tableau-6.png)
+![&#x200B; コンバージョン率列を含む商談テーブル &#x200B;](assets/marketo-measure-report-template-tableau-6.png)
 
 [!DNL Snowflake] の 2 つのテーブルが和集合を使用して結合され、[!DNL Tableau] データモデル内に 1 つのテーブルが作成されている場所がいくつかあります。これらのインスタンスでは、どの [!DNL Snowflake] テーブルからのものであるかを示し、行がどのエンティティを表すかを指定するために「Type」列が追加されています。組み合わされたテーブルについて詳しくは、このドキュメントの関係とデータフローの節を参照してください。
 
-![ エンティティ識別用のタイプ列を示す結合テーブル ](assets/marketo-measure-report-template-tableau-7.png)
+![&#x200B; エンティティ識別用のタイプ列を示す結合テーブル &#x200B;](assets/marketo-measure-report-template-tableau-7.png)
 
 ### セグメント名 {#segment-names}
 
@@ -96,21 +96,21 @@ Snowflake インスタンスへのデータ接続を設定する必要があり�
 
 [!UICONTROL CATEGORY] 列にはカテゴリ番号がリストされ、SEGMENT_NAME 列にはマッピング先のカスタマイズされたセグメント名が表示されます。
 
-![ カテゴリ名とカスタム名が表示されているセグメント名マッピングテーブル ](assets/marketo-measure-report-template-tableau-8.png)
+![&#x200B; カテゴリ名とカスタム名が表示されているセグメント名マッピングテーブル &#x200B;](assets/marketo-measure-report-template-tableau-8.png)
 
 名前は、2 つの方法で更新できます。最初のオプションは、カスタム SQL を更新することです。この例では、CATEGORY 1～6 がセグメント名テーブルのマッピングに基づいて名前変更されています。
 
-![ 名前が変更されたセグメントカテゴリを含むカスタム SQL](assets/marketo-measure-report-template-tableau-9.png)
+![&#x200B; 名前が変更されたセグメントカテゴリを含むカスタム SQL](assets/marketo-measure-report-template-tableau-9.png)
 
 もう 1 つのオプションは、[!DNL Tableau] テーブル内の列名を直接変更することです。
 
-![ セグメント列の名前が変更された Tableau テーブル ](assets/marketo-measure-report-template-tableau-10.png)
+![&#x200B; セグメント列の名前が変更された Tableau テーブル &#x200B;](assets/marketo-measure-report-template-tableau-10.png)
 
 ## データモデル {#data-model}
 
 以下の画像をクリックすると、フルサイズのバージョンが表示されます。
 
-[![ テーブルの関係を示す Tableau データモデル図 ](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
+[![&#x200B; テーブルの関係を示す Tableau データモデル図 &#x200B;](assets/marketo-measure-report-template-tableau-11.png)](/help/bi-report-templates/assets/tableau-data-model.png){target="_blank"}
 
 ### 関係とデータフロー {#relationships-and-data-flow}
 
@@ -122,7 +122,7 @@ Snowflake インスタンスへのデータ接続を設定する必要があり�
 
 コストデータとタッチポイントデータは両方とも、チャネルディメンションとキャンペーンディメンションを共有します。ただし、Tableau では、ファクトテーブル間の共有ディメンションをモデル化する機能が制限されています。共有ディメンションテーブルは 1 つだけに制限されているので、チャネルデータとキャンペーンデータは 1 つのテーブルに組み合わされています。これらは、2 つのディメンションのクロス結合を使用して、Tableau の 1 つのテーブル（チャネルとキャンペーン）に組み合わされます。一意の ID は、チャネル ID とキャンペーン ID を連結することによって作成されます。この同じ ID 値がタッチポイントテーブルとコストテーブルの両方に追加され、この組み合わされたディメンションテーブルとの関係が作成されます。
 
-![ チャネルとキャンペーンの組み合わせディメンションテーブル ](assets/marketo-measure-report-template-tableau-12.png)
+![&#x200B; チャネルとキャンペーンの組み合わせディメンションテーブル &#x200B;](assets/marketo-measure-report-template-tableau-12.png)
 
 このモデルでは、キャンペーンディメンションとチャネルディメンションがタッチポイントにリンクされているので、これらのディメンションに関するすべてのレポートはこのリンクを通じて行われ、イベントデータに関するディメンションレポートが不完全になる可能性があります。これは、多くのイベントには、タッチポイントに処理されるまでこれらのディメンションへのリンクがないからです。
 
@@ -140,17 +140,17 @@ Snowflake インスタンスへのデータ接続を設定する必要があり�
 * 元の値を換算：社内通貨の値／社内換算率 = 社内通貨での値
 * 社内通貨から選択した通貨への換算：社内通貨 `*` 選択した通貨の換算率 = 選択した通貨の値
 
-![Tableau の通貨換算計算フィールド ](assets/marketo-measure-report-template-tableau-13.png)
+![Tableau の通貨換算計算フィールド &#x200B;](assets/marketo-measure-report-template-tableau-13.png)
 
 このモデルの通貨換算測定では、換算率が特定できない場合、率の値 1.0 が代入されます。測定の通貨値を表示し、計算に複数の通貨値が含まれる場合（つまり、値を選択した通貨に換算できなかった場合）に警告するために、別の測定が作成されています。これらの測定（コスト通貨と収益通貨）は、コストまたは収益データを表示するビジュアルにツールヒントとして含まれます。
 
-![ 通貨換算の測定値を示すツールヒント ](assets/marketo-measure-report-template-tableau-14.png)
+![&#x200B; 通貨換算の測定値を示すツールヒント &#x200B;](assets/marketo-measure-report-template-tableau-14.png)
 
 ## データ定義 {#data-definitions}
 
 パラメーター、カスタム列、測定の定義を [!DNL Tableau model] モデルに追加しました。
 
-![ 説明を示す Tableau モデルのフィールド定義 ](assets/marketo-measure-report-template-tableau-15.png)
+![&#x200B; 説明を示す Tableau モデルのフィールド定義 &#x200B;](assets/marketo-measure-report-template-tableau-15.png)
 
 [!DNL Snowflake] から直接取得する列の定義を表示するには、[Data Warehouse のドキュメント](/help/data-warehouse/data-warehouse-schema.md){target="_blank"}を参照してください。
 

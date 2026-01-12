@@ -35,7 +35,7 @@ Marketo Measure JS は、web 訪問（匿名の web 訪問を含む）、一般�
 
 Marketo Measure は、CRM と統合され、Marketo Measure JS によって取得されたすべてのデータを保管および整理します。現在、Marketo Measure は、2 つの CRM と API 統合されています。
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
 Marketo Measure データをお使いの CRM で表示することで、各タッチポイントに関連する詳細な情報を確認したり、チャネルのパフォーマンスを把握するためのレポートを生成したりできます。
 
@@ -43,7 +43,7 @@ Marketo Measure データをお使いの CRM で表示することで、各タ�
 
 ほとんどのマーケターは、マーケティング活動を実行するために、いくつかの異なるアプリケーションに依存しています。Salesforce や MS Dynamics に加えて、Marketo Measure は、13 種類のサードパーティアプリケーション（以下を参照）と統合されています。
 
-![ 1](assets/2-1.png)
+![&#x200B; 1](assets/2-1.png)
 
 上記のアプリケーションを使用して任意のマーケティング活動を実行している場合、それらのアカウントを Marketo Measure アカウントにリンクできます。これにより、データを簡単にトラッキングして、Marketo Measure アカウントに転送できます。
 

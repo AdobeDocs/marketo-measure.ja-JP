@@ -34,14 +34,14 @@ Dynamics CRM 内に zip ファイルを[ダウンロードしてインストー�
 
 **[!UICONTROL 設定]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL ソリューション]**／**[!UICONTROL 読み込み]**（ボタン）／**[!UICONTROL ファイルを選択]**&#x200B;を選択します。
 
-![Dynamics CRM ソリューションのインポート画面（インポート ボタン付き） ](assets/1.png)
+![Dynamics CRM ソリューションのインポート画面（インポート ボタン付き） &#x200B;](assets/1.png)
 
 >[!NOTE]
 >次の 2 つのスクリーンショットは、ソリューションのアップグレード中に撮影されたものなので、実際のスクリーンショットとは少し異なる場合があります。
 
-![ パッケージの選択を示すソリューションの読み込みウィザード ](assets/2.png)
+![&#x200B; パッケージの選択を示すソリューションの読み込みウィザード &#x200B;](assets/2.png)
 
-![ ソリューションの読み込み確認画面 ](assets/3.png)
+![&#x200B; ソリューションの読み込み確認画面 &#x200B;](assets/3.png)
 
 ## [!DNL Marketo Measure] ユーザの作成 {#creating-a-marketo-measure-user}
 
@@ -60,7 +60,7 @@ CRM 内の他のユーザとの問題を回避するために、Dynamics 内で�
 >[!NOTE]
 >また、商談をクローズするユーザにも完全な権限が必要です。
 
-![ 権限を示す Dynamics セキュリティーロール設定画面 ](assets/4.png)
+![&#x200B; 権限を示す Dynamics セキュリティーロール設定画面 &#x200B;](assets/4.png)
 
 Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dynamics スキーマドキュメントを参照してください。大まかに言うと、[!DNL Marketo Measure] は、特定のエンティティを読み取り、適切なデータを収集し、管理ソリューションと共にインストールされるカスタムフィールドに書き込みます。標準レコードは作成されず、標準フィールドは更新されません。
 
@@ -72,20 +72,20 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
 
    * キャンペーンを設定するには、**[!UICONTROL CRM]**／**[!UICONTROL キャンペーン]**&#x200B;で「キャンペーンの同期」オプションをオンにする必要があります。
 
-   ![Marketo Measure設定でのキャンペーン同期の切り替え ](assets/5.png)
+   ![Marketo Measure設定でのキャンペーン同期の切り替え &#x200B;](assets/5.png)
 
 1. まず、タッチポイントを有効にするセクションに [!UICONTROL 1 列]タイルを追加します。この新しい列内で、アカウント、商談、取引先責任者、リードの各エンティティ内の各フォームにサブグリッドを追加する必要があります。
 
-   ![1 列セクションのレイアウトを表示するフォームエディター ](assets/6.png)
+   ![1 列セクションのレイアウトを表示するフォームエディター &#x200B;](assets/6.png)
 
-   ![ サブグリッドコンポーネントをフォームレイアウトに追加している様子 ](assets/7.png)
+   ![&#x200B; サブグリッドコンポーネントをフォームレイアウトに追加している様子 &#x200B;](assets/7.png)
 
 1. サブグリッドでレンダリングするオブジェクト（Buyer Attribution Touchpoints または Buyer Touchpoints）を選択します。これは、オブジェクトの関係に応じて異なります。必要に応じて、「編集」ボタンをクリックして、表示される列を変更します。デフォルトのレイアウトは、管理ソリューションによって設定されます。
 
    Buyer Attribution Touchpoint サブグリッド – アカウント、オポチュニティおよび連絡先
 Buyer Touchpoint サブグリッド – リードおよび連絡先
 
-   ![ オブジェクト選択オプションを表示するサブグリッドのプロパティダイアログ ](assets/8.png)
+   ![&#x200B; オブジェクト選択オプションを表示するサブグリッドのプロパティダイアログ &#x200B;](assets/8.png)
 
 1. フォームの更新が完了したら、変更を公開して保存します。
 
@@ -107,23 +107,23 @@ Buyer Touchpoint サブグリッド – リードおよび連絡先
 
 1. [!DNL Marketo Measure] アカウントで、**[!UICONTROL マイアカウント]**&#x200B;ドロップダウンをクリックし、「**[!UICONTROL 設定]**」を選択します。
 
-   ![ 「設定」オプションがハイライト表示されたMarketo Measure マイアカウントのドロップダウンメニュー ](assets/microsoft-dynamics-crm-installation-guide-16.png)
+   ![&#x200B; 「設定」オプションがハイライト表示されたMarketo Measure マイアカウントのドロップダウンメニュー &#x200B;](assets/microsoft-dynamics-crm-installation-guide-16.png)
 
 1. 左側のナビゲーションの[!UICONTROL 統合]で、「**[!UICONTROL 接続]**」をクリックします。
 
-   ![ 左側のナビゲーションに「接続」オプションがある設定ページ ](assets/microsoft-dynamics-crm-installation-guide-17.png)
+   ![&#x200B; 左側のナビゲーションに「接続」オプションがある設定ページ &#x200B;](assets/microsoft-dynamics-crm-installation-guide-17.png)
 
 1. 「**[!UICONTROL 新しい CRM 接続を設定]**」ボタンをクリックします。
 
-   ![ 新しい CRM 接続の設定ボタンを含む接続ページ ](assets/microsoft-dynamics-crm-installation-guide-18.png)
+   ![&#x200B; 新しい CRM 接続の設定ボタンを含む接続ページ &#x200B;](assets/microsoft-dynamics-crm-installation-guide-18.png)
 
 1. [!UICONTROL Microsoft Dynamics CRM] の横にある「**[!UICONTROL 接続]**」ボタンをクリックします。
 
-   ![ 「接続」ボタンを持つMicrosoft Dynamics CRM を示す CRM 接続オプション ](assets/microsoft-dynamics-crm-installation-guide-19.png)
+   ![&#x200B; 「接続」ボタンを持つMicrosoft Dynamics CRM を示す CRM 接続オプション &#x200B;](assets/microsoft-dynamics-crm-installation-guide-19.png)
 
 1. 「[!UICONTROL 資格情報]」または「[!UICONTROL OAuth]」を選択します。
 
-   ![Microsoft Dynamics CRM 認証方式選択画面 ](assets/microsoft-dynamics-crm-installation-guide-20.png)
+   ![Microsoft Dynamics CRM 認証方式選択画面 &#x200B;](assets/microsoft-dynamics-crm-installation-guide-20.png)
 
    >[!NOTE]
    >OAuth について詳しくは、[この記事](/help/marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)を参照してください。プロセスについてご質問がある場合は、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
@@ -140,11 +140,11 @@ Buyer Touchpoint サブグリッド – リードおよび連絡先
 
 1. 「**[!UICONTROL 新しい CRM 接続を接続]**」ボタンをクリックします。
 
-   ![ 「新しい CRM 接続の設定」ボタンを表示する接続ページ ](assets/microsoft-dynamics-crm-installation-guide-21.png)
+   ![&#x200B; 「新しい CRM 接続の設定」ボタンを表示する接続ページ &#x200B;](assets/microsoft-dynamics-crm-installation-guide-21.png)
 
 1. 目的のプラットフォームを選択します。
 
-   ![ 様々な広告プラットフォームオプションを使用した広告アカウントプラットフォーム選択画面 ](assets/microsoft-dynamics-crm-installation-guide-22.png)
+   ![&#x200B; 様々な広告プラットフォームオプションを使用した広告アカウントプラットフォーム選択画面 &#x200B;](assets/microsoft-dynamics-crm-installation-guide-22.png)
 
 **[!DNL Marketo Measure]JavaScript**
 
@@ -152,11 +152,11 @@ Buyer Touchpoint サブグリッド – リードおよび連絡先
 
 1. **[!UICONTROL マイアカウント]**&#x200B;ドロップダウンをクリックし、「**[!UICONTROL アカウント設定]**」を選択します。
 
-   ![ アカウント設定オプションを含むマイアカウントドロップダウン ](assets/microsoft-dynamics-crm-installation-guide-23.png)
+   ![&#x200B; アカウント設定オプションを含むマイアカウントドロップダウン &#x200B;](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
 1. 電話番号を入力します。Web サイトで [!DNL Marketo Measure] のトラッキングに使用するプライマリルートドメインをWeb サイトに入力します。終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-   ![ 電話番号と web サイトフィールドを含むアカウント設定ページ ](assets/microsoft-dynamics-crm-installation-guide-24.png)
+   ![&#x200B; 電話番号と web サイトフィールドを含むアカウント設定ページ &#x200B;](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
    >[!NOTE]
    >複数のルートドメインを追加するには、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。

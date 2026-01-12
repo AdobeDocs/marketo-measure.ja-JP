@@ -15,11 +15,11 @@ ht-degree: 0%
 
 現在 [!DNL Uberflip] を使用してコンテンツを管理している場合は、これらの必要な手順を実行して、[!DNL Marketo Measure] がこれらのフォーム送信を追跡していることを確認することが重要です。 [!DNL Uberflip] のサクセスマネージャーも、これを支援できます。
 
-1. このスクリプトを [!DNL Uberflip] の [!UICONTROL  カスタムコード >HTML] セクションに追加します。
+1. このスクリプトを [!DNL Uberflip] の [!UICONTROL &#x200B; カスタムコード >HTML] セクションに追加します。
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. この [!DNL Marketo Measure] プリアンブルコードが、ページの読み込み時とAJAX ページの変更時の両方で実行されるようにします。 [!UICONTROL  カスタムコード/JS] セクション内でこれを実行します。
+1. この [!DNL Marketo Measure] プリアンブルコードが、ページの読み込み時とAJAX ページの変更時の両方で実行されるようにします。 [!UICONTROL &#x200B; カスタムコード/JS] セクション内でこれを実行します。
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
@@ -47,7 +47,7 @@ function bizibleFormCode(ctaId, ctaData, ctaName) {
 }
 ```
 
-1. フォームCTAが送信されたら、[!DNL Marketo Measure] 関数が以下ごとに実行されていることを確認します。 これは、[!UICONTROL  カスタムコード/JS] セクション内で行われます。 （メモ：Hubs.onCtaFormSubmitSuccess JavaScript イベントフック内に他のコードがある場合は、この関数呼び出しも含めてください）。
+1. フォームCTAが送信されたら、[!DNL Marketo Measure] 関数が以下ごとに実行されていることを確認します。 これは、[!UICONTROL &#x200B; カスタムコード/JS] セクション内で行われます。 （メモ：Hubs.onCtaFormSubmitSuccess JavaScript イベントフック内に他のコードがある場合は、この関数呼び出しも含めてください）。
 
    `Hubs.onCtaFormSubmitSuccess = function (ctaId, ctaData, ctaName) {`
    `bizibleFormCode(ctaId, ctaData, ctaName);`\

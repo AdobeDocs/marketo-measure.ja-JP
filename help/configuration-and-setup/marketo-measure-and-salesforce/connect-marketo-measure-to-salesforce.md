@@ -21,17 +21,17 @@ ht-degree: 1%
 
 1. 画面上部のメニューバーで、「**[!UICONTROL マイアカウント]**」に移動し、「**[!UICONTROL 設定]**」オプションをクリックします。
 
-1. 左側の設定オプションの列で、「**[!UICONTROL 統合]** セクションの下にある [!UICONTROL  接続 ] をクリックします。
+1. 左側の設定オプションの列で、「**[!UICONTROL 統合]** セクションの下にある [!UICONTROL &#x200B; 接続 &#x200B;] をクリックします。
 
-   ![ 「統合」セクションの「接続」オプションを表示する設定メニュー ](assets/connect-marketo-measure-to-salesforce-1.png)
+   ![&#x200B; 「統合」セクションの「接続」オプションを表示する設定メニュー &#x200B;](assets/connect-marketo-measure-to-salesforce-1.png)
 
 1. 「接続」の「CRM」セクションで、「**[!UICONTROL 新しい CRM 接続の設定]**」をクリックします。
 
-   ![CRM 接続ページの「新しい CRM 接続を設定」ボタン ](assets/connect-marketo-measure-to-salesforce-2.png)
+   ![CRM 接続ページの「新しい CRM 接続を設定」ボタン &#x200B;](assets/connect-marketo-measure-to-salesforce-2.png)
 
 1. ポップアップウィンドウが表示され、「CRM 接続を選択」するように求められます。 **[!UICONTROL ロゴの横にある]** 接続 [!DNL Salesforce] をクリックします。
 
-   ![Salesforce ロゴと「接続」ボタンが表示された CRM 接続ポップアップウィンドウを選択 ](assets/connect-marketo-measure-to-salesforce-3.png)
+   ![Salesforce ロゴと「接続」ボタンが表示された CRM 接続ポップアップウィンドウを選択 &#x200B;](assets/connect-marketo-measure-to-salesforce-3.png)
 
 1. 最終的なポップアップウィンドウが表示され、[!DNL Salesforce] 資格情報、サンドボックスまたは実稼働環境の入力を求められます。 情報を入力し、「**[!UICONTROL 認証]**」をクリックしてアカウントを [!DNL Marketo Measure] に接続します。
 
@@ -47,7 +47,7 @@ Marketo Measureには、統合ユーザーを通じてクライアントのSales
 
 この制限には、Marketo Measureで **マイアカウント**/**設定**/**CRM**/**一般**/**1 日の CRM API 制限** からアクセスし、テナントに対して設定できます。
 
-![API クレジット割り当ての設定フィールドを表示する 1 日あたりの CRM API 制限設定 ](assets/connect-marketo-measure-to-salesforce-4.png)
+![API クレジット割り当ての設定フィールドを表示する 1 日あたりの CRM API 制限設定 &#x200B;](assets/connect-marketo-measure-to-salesforce-4.png)
 
 ### API クレジットの制限の設定 {#setting-a-limit-for-api-credits}
 
@@ -57,14 +57,14 @@ Marketo Measureには、統合ユーザーを通じてクライアントのSales
 
 1. 編集するには、鍵アイコンをクリックします。
 
-   ![1 日あたりの CRM API 制限フィールド編集用のロックアイコン ](assets/connect-marketo-measure-to-salesforce-5.png)
+   ![1 日あたりの CRM API 制限フィールド編集用のロックアイコン &#x200B;](assets/connect-marketo-measure-to-salesforce-5.png)
 
 1. 100,000 以上の上限を入力してください。 終了したら「**保存**」をクリックします。
 
-   ![ 値が入力され、「保存」ボタンが入力された 1 日の CRM API 制限入力フィールド ](assets/connect-marketo-measure-to-salesforce-6.png)
+   ![&#x200B; 値が入力され、「保存」ボタンが入力された 1 日の CRM API 制限入力フィールド &#x200B;](assets/connect-marketo-measure-to-salesforce-6.png)
 
 >[!NOTE]
->接続ソリューションで利用可能なSalesforce API クレジットを増やすには、Salesforce管理者に連絡し、[ このSalesforce ドキュメント ](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"} を参照してください。
+>接続ソリューションで利用可能なSalesforce API クレジットを増やすには、Salesforce管理者に連絡し、[&#x200B; このSalesforce ドキュメント &#x200B;](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"} を参照してください。
 
 >[!MORELIKETHIS]
 >[エラー通知](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

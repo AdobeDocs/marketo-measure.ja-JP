@@ -51,5 +51,5 @@ ht-degree: 4%
 * セールスイネーブルメントツールの変更または更新
 
 >[!MORELIKETHIS]
-> [ アクティビティの属性 ](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [セールスアクティビティアトリビューションに関するよくある質問 ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+> [&#x200B; アクティビティの属性 &#x200B;](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
+> [セールスアクティビティアトリビューションに関するよくある質問 &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

@@ -25,11 +25,11 @@ ht-degree: 2%
 
 1. **[!UICONTROL レイアウトテンプレート]** を選択します。
 
-   ![ 3](assets/1-3.png)
+   ![&#x200B; 3](assets/1-3.png)
 
 1. 適切なレイアウトテンプレートを決定し、右側の **[!UICONTROL 編集]** をクリックします。
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. HTML ページの閉じるヘッダータグの直前に [!DNL Marketo Measure] JavaScript コードをコピー&amp;ペーストします。
 

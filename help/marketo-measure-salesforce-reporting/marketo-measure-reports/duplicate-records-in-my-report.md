@@ -24,7 +24,7 @@ ht-degree: 9%
 
 これは **購入者タッチポイント連絡先** レポートです。 これは、個々の連絡先に関連付けられたタッチポイントの数を調べていることを意味します。
 
-![ 購入者タッチポイントを持つ連絡先レポート。連絡先ごとに複数のエントリが表示されます ](assets/1.gif)
+![&#x200B; 購入者タッチポイントを持つ連絡先レポート。連絡先ごとに複数のエントリが表示されます &#x200B;](assets/1.gif)
 
 ご覧のように、レポートには James Williams の連絡先が 3 人いるように見えるため、「重複」と考えている可能性があります。
 
@@ -33,4 +33,4 @@ ht-degree: 9%
 「取引先責任者数」を把握したい場合は、「カウント – ファーストタッチ」、「カウントリード作成タッチ」、「カウント - U字型」のフィールドを使用して、マーケティングインタラクションを行った取引先責任者の数を把握できます。
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

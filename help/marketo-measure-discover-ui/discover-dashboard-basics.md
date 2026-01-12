@@ -52,7 +52,7 @@ ht-degree: 2%
 
 ビジュアルの右上隅にマウスポインターを置くと、適用されたフィルターの読み取り専用リストが表示されます。
 
-![ 適用されたフィルターを視覚的にフィルター表示するツールヒント ](assets/discover-dashboard-basics-3b.png)
+![&#x200B; 適用されたフィルターを視覚的にフィルター表示するツールヒント &#x200B;](assets/discover-dashboard-basics-3b.png)
 
 ## レポートの機能 {#report-capabilities}
 
@@ -60,49 +60,49 @@ ht-degree: 2%
 
 * ビジュアルの上にマウスポインターを置くと、階層が含まれているかどうかが示されます。アクションバーにドリルコントロールオプションが表示されている場合は、そのことが示されます。
 
-![ ビジュアル上にドリルコントロールを表示する Discover ダッシュボード ](assets/discover-dashboard-basics-4.png)
+![&#x200B; ビジュアル上にドリルコントロールを表示する Discover ダッシュボード &#x200B;](assets/discover-dashboard-basics-4.png)
 
 * グレーの背景で強調表示されている下向き矢印をクリックして、ドリルダウンをアクティブにします。 元に戻すには、ドリルアップアイコンを使用します。
 
-![ グラフで単一レベルのドリルダウンがアクティブ化される ](assets/discover-dashboard-basics-5.png)
+![&#x200B; グラフで単一レベルのドリルダウンがアクティブ化される &#x200B;](assets/discover-dashboard-basics-5.png)
 
 一度に 1 つのフィールドをドリルダウンするには、ドリルダウン・アイコンをオンにして、バーなどの視覚要素を選択します。
 
-![ グラフで一度に 1 つのフィールドをドリルダウン ](assets/discover-dashboard-basics-6.gif)
+![&#x200B; グラフで一度に 1 つのフィールドをドリルダウン &#x200B;](assets/discover-dashboard-basics-6.gif)
 
 二重矢印ドリルダウンアイコンを使用して、次の階層レベルに進みます。
 
-![ 二重矢印ドリルダウンを使用して次の階層に移動 ](assets/discover-dashboard-basics-7.gif)
+![&#x200B; 二重矢印ドリルダウンを使用して次の階層に移動 &#x200B;](assets/discover-dashboard-basics-7.gif)
 
 現在のビューに階層レベルを追加するには、フォークのようなアイコンを使用します。
 
-![ 分岐アイコンを使用した階層レベルの追加 ](assets/discover-dashboard-basics-8.gif)
+![&#x200B; 分岐アイコンを使用した階層レベルの追加 &#x200B;](assets/discover-dashboard-basics-8.gif)
 
 ### ドリルスルー {#drill-through}
 
 ビジュアルの背後にあるデータを表示するには、ビジュアル要素を右クリックし、「ドリルスルー」オプションを選択します。
 
-![ ビジュアルの詳細データへの右クリック・ドリルスルー ](assets/discover-dashboard-basics-9.gif)
+![&#x200B; ビジュアルの詳細データへの右クリック・ドリルスルー &#x200B;](assets/discover-dashboard-basics-9.gif)
 
 ### データの書き出し {#export-data}
 
 ビジュアルから基になるデータを書き出すには、右上隅にカーソルを合わせます。 「その他のオプション」ボタンをクリックし、「データの書き出し」を選択し、好みの形式を選択してから「書き出し」をクリックします。
-![ ダッシュボードビジュアルからのデータのエクスポートメニュー ](assets/discover-dashboard-basics-10.gif)
+![&#x200B; ダッシュボードビジュアルからのデータのエクスポートメニュー &#x200B;](assets/discover-dashboard-basics-10.gif)
 
 ### フォーカスモード {#focus-mode}
 
 特定のビジュアルまたはタイルをズームインするには、右上隅にカーソルを置いて「フォーカス」ボタンを選択します。
 
-![ ダッシュボードビジュアルのフォーカスモードへの切り替え ](assets/discover-dashboard-basics-11.gif)
+![&#x200B; ダッシュボードビジュアルのフォーカスモードへの切り替え &#x200B;](assets/discover-dashboard-basics-11.gif)
 
 ### クロスフィルター {#cross-filtering}
 
 あるビジュアライゼーションで値または軸のラベルを選択すると、レポートページ上の他のビジュアライゼーションがクロスフィルターされ、関連するフィルター済みデータのみが表示されます。
 
-![ グラフの値を選択したクロスフィルタリングのビジュアル ](assets/discover-dashboard-basics-12.gif)
+![&#x200B; グラフの値を選択したクロスフィルタリングのビジュアル &#x200B;](assets/discover-dashboard-basics-12.gif)
 
 ### ツールチップ {#tooltips}
 
 ツールチップには、表示されるデータに関する補足詳細が表示されます。 視覚的要素の上にマウスポインターを置くと、コンテキストツールチップがポップアップされ、その特定のデータポイントに関連するインサイトや説明が提供されます。
 
-![ ダッシュボードビジュアル上でコンテキストデータを表示するツールヒントにマウスポインターを置く ](assets/discover-dashboard-basics-13.gif)
+![&#x200B; ダッシュボードビジュアル上でコンテキストデータを表示するツールヒントにマウスポインターを置く &#x200B;](assets/discover-dashboard-basics-13.gif)

@@ -18,7 +18,7 @@ ht-degree: 95%
 GTM 経由でスクリプトを追加する場合は、GTM の待ち時間による影響を軽減するために、[!DNL Marketo Measure] スクリプトを実行順序で最高の優先度に設定し、[!DNL Marketo Measure] タグの前に同期スクリプトがないことを確認してください。
 
 >[!NOTE]
->詳しくは、[Googleのサポート記事 ](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"} を参照してください。
+>詳しくは、[Googleのサポート記事 &#x200B;](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"} を参照してください。
 
 ## [!DNL Google Tag Manager] 経由での [!DNL Marketo Measure] JS の追加方法 {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

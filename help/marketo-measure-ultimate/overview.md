@@ -30,11 +30,11 @@ ht-degree: 88%
 
 **[!DNL Marketo Measure]の階層 1～3**
 
-![Marketo Measure Tier 1～3 のデータフローと接続を示したアーキテクチャ図 ](assets/marketo-measure-ultimate-overview-1.png)
+![Marketo Measure Tier 1～3 のデータフローと接続を示したアーキテクチャ図 &#x200B;](assets/marketo-measure-ultimate-overview-1.png)
 
 **[!DNL Marketo Measure Ultimate]**
 
-![Marketo Measure UltimateとAEPの統合を示すアーキテクチャ図 ](assets/marketo-measure-ultimate-overview-2.png)
+![Marketo Measure UltimateとAEPの統合を示すアーキテクチャ図 &#x200B;](assets/marketo-measure-ultimate-overview-2.png)
 
 ## [!DNL Marketo Measure Ultimate] の新機能 {#whats-new-in-marketo-measure-ultimate}
 
@@ -42,13 +42,13 @@ ht-degree: 88%
 
 マーケターは、AEP を通じて B2B データ（アカウント、商談、取引先責任者、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。CRM および Marketo Engage の直接接続は、Ultimate には使用できなくなりました。マーケターは、引き続き、直接接続を通じて広告プラットフォームデータを取り込み、[!DNL Marketo Measure] JavaScript を通じて web アクティビティをトラッキングします。
 
-![AEP Platform を介した B2B データの読み込みを示すデータフロー図 ](assets/marketo-measure-ultimate-overview-3.png)
+![AEP Platform を介した B2B データの読み込みを示すデータフロー図 &#x200B;](assets/marketo-measure-ultimate-overview-3.png)
 
 **デフォルトの通貨設定**
 
 [!DNL Marketo Measure Ultimate] では、ユーザが変更するまでデフォルトの通貨を USD に設定します。新しいデフォルト通貨を設定すると、再処理せずにデータが更新されます。選択した通貨がターゲット ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
 
-![USD 通貨オプションを使用したデフォルトの通貨設定インターフェイス ](assets/marketo-measure-ultimate-overview-4.png)
+![USD 通貨オプションを使用したデフォルトの通貨設定インターフェイス &#x200B;](assets/marketo-measure-ultimate-overview-4.png)
 
 **[!DNL Marketo Measure Ultimate]サンドボックス**
 
@@ -57,11 +57,11 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 >[!NOTE]
 >[!DNL Marketo Measure Ultimate] 実稼動インスタンスは AEP 実稼動サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。変更については、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。変更については、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。各データセットは、1 つのデータフローにのみ含めることができます。違反すると、実行時にデータフローが停止します。
 
-![ データセットとデータフローの関係を示すサンドボックスマッピング設定 ](assets/marketo-measure-ultimate-overview-5.png)
+![&#x200B; データセットとデータフローの関係を示すサンドボックスマッピング設定 &#x200B;](assets/marketo-measure-ultimate-overview-5.png)
 
 **ステージマッピング**
 
@@ -92,13 +92,13 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 
 ファネル、ブーメラン、カスタムモデルでは、選択はありません。ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。サポートするステージの数については、カスタムステージでは 15 個、ビルトインのステージでは 6 個の制限があります。
 
-![ ビルトインおよびカスタムステージ設定を示すステージマッピングインターフェイス ](assets/marketo-measure-ultimate-overview-6.png)
+![&#x200B; ビルトインおよびカスタムステージ設定を示すステージマッピングインターフェイス &#x200B;](assets/marketo-measure-ultimate-overview-6.png)
 
 キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセットに固有です。
 
-![ データセット別のキャンペーンメンバータッチポイントルールの設定 ](assets/marketo-measure-ultimate-overview-7.png)
+![&#x200B; データセット別のキャンペーンメンバータッチポイントルールの設定 &#x200B;](assets/marketo-measure-ultimate-overview-7.png)
 
-![ データセット別のアクティビティタッチポイントルールの設定 ](assets/marketo-measure-ultimate-overview-8.png)
+![&#x200B; データセット別のアクティビティタッチポイントルールの設定 &#x200B;](assets/marketo-measure-ultimate-overview-8.png)
 
 Ultimate には CRM の直接接続がないので、アトリビューションのタッチポイントは CRM に書き込まれません。
 
@@ -110,5 +110,5 @@ Ultimate には CRM の直接接続がないので、アトリビューション
 * 既存の階層 1／2／3 ユーザには移行パスはありません。新しい実装が必要ですが、アドビでは、トラッキング対象の web アクティビティデータを既存のインスタンスから移行するお手伝いをします。
 
 >[!MORELIKETHIS]
-> [Marketo Measure Ultimateの宛先 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
-> [ビデオ：Marketo Measure Ultimateの概要 ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+> [Marketo Measure Ultimateの宛先 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
+> [ビデオ：Marketo Measure Ultimateの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

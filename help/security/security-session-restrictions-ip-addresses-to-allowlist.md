@@ -21,4 +21,4 @@ ht-degree: 8%
 
 Salesforceで信頼済み IP 範囲に [!DNL Marketo Measure] の IP を追加するには、**[!UICONTROL 設定]**/**[!UICONTROL 管理設定]**/**[!UICONTROL セキュリティ制御]**/**[!UICONTROL ネットワークアクセス]**/**[!UICONTROL 新規]** をクリックします。
 
-![ 信頼できる IP 範囲を追加するためのSalesforce ネットワーク アクセス ページ ](assets/1.png)
+![&#x200B; 信頼できる IP 範囲を追加するためのSalesforce ネットワーク アクセス ページ &#x200B;](assets/1.png)

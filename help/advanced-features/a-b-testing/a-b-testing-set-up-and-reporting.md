@@ -17,22 +17,22 @@ ht-degree: 74%
 
 ## 設定 {#set-up}
 
-リード、取引先責任者、ケース、商談に関する [!DNL Marketo Measure] A/B テストセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely[ と ](https://www.optimizely.com/){target="_blank"}VWO[ サイト実験の売上高の影響を追跡でき ](https://vwo.com/){target="_blank"} す。
+リード、取引先責任者、ケース、商談に関する [!DNL Marketo Measure] A/B テストセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely[&#x200B; と &#x200B;](https://www.optimizely.com/){target="_blank"}VWO[&#x200B; サイト実験の売上高の影響を追跡でき &#x200B;](https://vwo.com/){target="_blank"} す。
 
 1. パッケージ [!DNL Marketo Measure] v3.9 以降を使用していることを確認してください。これを行うには、[!UICONTROL Salesforce]／[!UICONTROL 設定]／[!UICONTROL インストール済みパッケージ]に移動します。
 1. リードページレイアウトを編集し、**[!DNL Marketo Measure]A/B テスト** 関連リストをページに追加します。
 
-   ![Marketo Measure A/B テスト関連リストが追加されていることを示すリードページレイアウトエディター ](assets/1.png)
+   ![Marketo Measure A/B テスト関連リストが追加されていることを示すリードページレイアウトエディター &#x200B;](assets/1.png)
 
 1. 「[!UICONTROL レンチ]」ボタンをクリックします。選択したフィールドのリストからストックの「ID」フィールドを削除します。「**[!UICONTROL 実験]**」、「**[!UICONTROL バリエーション]**」、「**[!UICONTROL DateReported]**」フィールドを追加します。「[!UICONTROL 並べ替え基準]」を「**[!UICONTROL 報告日]**」に変更し、ドロップダウンで「**[!UICONTROL 降順]**」を選択します。
 
-   ![ 並べ替え設定を含む「実験」、「バリエーション」、「DateReported」の各フィールドを表示するフィールド設定ダイアログ ](assets/2.png)
+   ![&#x200B; 並べ替え設定を含む「実験」、「バリエーション」、「DateReported」の各フィールドを表示するフィールド設定ダイアログ &#x200B;](assets/2.png)
 
 1. [!UICONTROL ボタン]で、「**[!UICONTROL 新規]**」のチェックを外します。
 
-   ![ 「新規」ボタンが選択解除されていることを示す「ボタン」セクション ](assets/3.png)
+   ![&#x200B; 「新規」ボタンが選択解除されていることを示す「ボタン」セクション &#x200B;](assets/3.png)
 
-1. 機能を有効にするには、[!DNL Marketo Measure] 担当者または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+1. 機能を有効にするには、[!DNL Marketo Measure] 担当者または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 ## レポート {#reporting}
 
@@ -43,7 +43,7 @@ ht-degree: 74%
 * リードに関する [!DNL Marketo Measure] A/B テスト
 * 商談に関する [!DNL Marketo Measure] A/B テスト
 
-![ リード、連絡先、オポチュニティのMarketo Measure A/B テストのレポートタイプを示すレポートリスト ](assets/4.png)
+![&#x200B; リード、連絡先、オポチュニティのMarketo Measure A/B テストのレポートタイプを示すレポートリスト &#x200B;](assets/4.png)
 
 A/B レポートタイプは、A/B テストの対象となったリード、取引先責任者、または商談に関するレポートに使用します。これらのレポートには、A/B テストの対象となった商談に結び付けられた売上高も示されます。
 
@@ -62,8 +62,8 @@ Optimizely/VWO は、マーケティングチャネルではなく、コンテ�
 
 リードに関する **[!DNL Marketo Measure]A/B テスト**
 
-![ 実験とバリエーションを含むリードデータを使用したMarketo Measure A/B テストを示すSalesforce レポートの例 ](assets/5.png)
+![&#x200B; 実験とバリエーションを含むリードデータを使用したMarketo Measure A/B テストを示すSalesforce レポートの例 &#x200B;](assets/5.png)
 
 商談に関する **[!DNL Marketo Measure]A/B テスト**
 
-![ 売上高への影響を含む商談データを使用したMarketo Measure A/B テストを示すSalesforce レポートの例 ](assets/6.png)
+![&#x200B; 売上高への影響を含む商談データを使用したMarketo Measure A/B テストを示すSalesforce レポートの例 &#x200B;](assets/6.png)

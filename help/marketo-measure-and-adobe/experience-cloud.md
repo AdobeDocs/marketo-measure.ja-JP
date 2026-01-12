@@ -19,7 +19,7 @@ Adobe Experience Cloud インターフェイスは、Adobe Experience Cloud ア�
 
 既にAdobe Experience Cloudにログインしている場合は、メニューアイコンをクリックし、「**[!DNL Marketo Measure]**」を選択します。
 
-![Adobe Experience CloudメニューとMarketo Measure選択オプション ](assets/unified-shell-overview-4.png)
+![Adobe Experience CloudメニューとMarketo Measure選択オプション &#x200B;](assets/unified-shell-overview-4.png)
 
 >[!NOTE]
 >購読しているAdobe Experience Cloud商品によって、ドロップダウンメニューの表示が異なる場合があります。
@@ -32,35 +32,35 @@ Adobe Experience Cloud製品にまだログインしていない _場合_、次�
 
 **ドメインの管理**
 
-[ ーザーのサポートを受けずに  [!DNL Marketo Measure]  ドメイン ](/help/marketo-measure-and-adobe/domain-management.md) 管理 [!DNL Marketo Measure] します。
+[&#x200B; ーザーのサポートを受けずに  [!DNL Marketo Measure]  ドメイン &#x200B;](/help/marketo-measure-and-adobe/domain-management.md) 管理 [!DNL Marketo Measure] します。
 
-![ ドメイン設定オプションを表示するドメイン管理インターフェイス ](assets/unified-shell-overview-5.png)
+![&#x200B; ドメイン設定オプションを表示するドメイン管理インターフェイス &#x200B;](assets/unified-shell-overview-5.png)
 
 **統合ヘルプセンター**
 
 サポート記事の検索、チケットの送信、フィードバックの提供をすべて [!DNL Marketo Measure] アプリケーション内から行います。
 
-![ 検索とサポートオプションを備えた統合ヘルプセンター ](assets/unified-shell-overview-6.png)
+![&#x200B; 検索とサポートオプションを備えた統合ヘルプセンター &#x200B;](assets/unified-shell-overview-6.png)
 
 **アプリケーションの切り替え**
 
 複数のAdobe製品にアクセスできるユーザーは、簡単に切り替えることができます。
 
-![ アプリケーションスイッチャーに利用可能なAdobe製品が表示される ](assets/unified-shell-overview-7.png)
+![&#x200B; アプリケーションスイッチャーに利用可能なAdobe製品が表示される &#x200B;](assets/unified-shell-overview-7.png)
 
 **通知とお知らせ**
 
 製品固有の通知や一般的なアドビ製品のお知らせを、アプリケーションで直接表示および操作します。
 
-![ アラートインジケーターを含む通知アイコン ](assets/unified-shell-overview-8.png)
+![&#x200B; アラートインジケーターを含む通知アイコン &#x200B;](assets/unified-shell-overview-8.png)
 
-![ 製品のお知らせとアップデートを表示する通知パネル ](assets/unified-shell-overview-9.png)
+![&#x200B; 製品のお知らせとアップデートを表示する通知パネル &#x200B;](assets/unified-shell-overview-9.png)
 
 **アドビ設定**
 
-言語やその他のAdobe全体の環境設定を変更するには、自分のプロファイルアイコンをクリックします。 また、[ マイ設定 [!DNL Marketo Measure] をクリックして、**固有の変更を行うこ** もできます。
+言語やその他のAdobe全体の環境設定を変更するには、自分のプロファイルアイコンをクリックします。 また、&lbrack; マイ設定 [!DNL Marketo Measure] をクリックして、**固有の変更を行うこ** もできます。
 
-![Adobe設定とマイ設定のオプションを使用したプロファイルメニュー ](assets/unified-shell-overview-10.png)
+![Adobe設定とマイ設定のオプションを使用したプロファイルメニュー &#x200B;](assets/unified-shell-overview-10.png)
 
 ## よくある質問 {#faq}
 
@@ -72,6 +72,6 @@ Adobe Experience Cloud製品にまだログインしていない _場合_、次�
 
 Adobe Experience Cloudにログインできるが、次のようなページが表示される場合、問題は [!DNL Marketo Measure] 側にある可能性があります。
 
-![Marketo Measure接続の問題を示すエラーページ ](assets/unified-shell-overview-11.png)
+![Marketo Measure接続の問題を示すエラーページ &#x200B;](assets/unified-shell-overview-11.png)
 
-上記のエラーが発生した場合は、[ サポートにお問い合わせください ](https://nation.marketo.com/t5/support/ct-p/Support)。
+上記のエラーが発生した場合は、[&#x200B; サポートにお問い合わせください &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support)。

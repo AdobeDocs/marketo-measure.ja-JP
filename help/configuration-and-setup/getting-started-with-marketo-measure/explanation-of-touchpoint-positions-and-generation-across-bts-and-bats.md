@@ -15,9 +15,9 @@ ht-degree: 3%
 
 **タッチポイントポジションの作成とバイヤージャーニーの流れ**
 
-データを使用してレポートを正常に作成するには、Buyer Touchpointのポジションとそのトリガー方法 [!DNL Marketo Measure] 理解することが重要です。 見込み客が購入者のジャーニーを進む際にどのような行動を取り、タッチポイントデータでどのように表示されるかを明確に理解する必要があります。 このトピックについて詳しくは、「タッチポイントの生成とマッピング [[!UICONTROL  の記事を確認するこ ]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) をお勧めします。
+データを使用してレポートを正常に作成するには、Buyer Touchpointのポジションとそのトリガー方法 [!DNL Marketo Measure] 理解することが重要です。 見込み客が購入者のジャーニーを進む際にどのような行動を取り、タッチポイントデータでどのように表示されるかを明確に理解する必要があります。 このトピックについて詳しくは、「タッチポイントの生成とマッピング [[!UICONTROL &#x200B; の記事を確認するこ &#x200B;]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) をお勧めします。
 
-[!DNL Marketo Measure] には、バイヤージャーニーの様々なステップによってトリガーされる様々なタッチポイントのポジションがあります。 [!DNL Marketo Measure] データのレポートには、バイヤータッチポイント（BT）とバイヤ属性タッチポイント（BAT）の 2 つのタッチポイントデータのセットがあります。 これらのデータセットは、異なるオブジェクトに関連するため、位置が若干異なる場合があります。 このトピックについて詳しくは、[ バイヤータッチポイント（BT）とバイヤ属性タッチポイント（BAT）の違い ](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) の記事を確認することをお勧めします。
+[!DNL Marketo Measure] には、バイヤージャーニーの様々なステップによってトリガーされる様々なタッチポイントのポジションがあります。 [!DNL Marketo Measure] データのレポートには、バイヤータッチポイント（BT）とバイヤ属性タッチポイント（BAT）の 2 つのタッチポイントデータのセットがあります。 これらのデータセットは、異なるオブジェクトに関連するため、位置が若干異なる場合があります。 このトピックについて詳しくは、[&#x200B; バイヤータッチポイント（BT）とバイヤ属性タッチポイント（BAT）の違い &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) の記事を確認することをお勧めします。
 
 **買い手タッチポイント（BT）**：これらは、個々のユーザーとそのジャーニーに関連付けられたタッチポイントであり、その個人に固有になります。 次の標準提供レポートは、Buyer Touchpoint データに基づいて作成されます。
 

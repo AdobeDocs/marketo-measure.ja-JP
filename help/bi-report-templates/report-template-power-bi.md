@@ -15,11 +15,11 @@ ht-degree: 95%
 
 ## はじめに {#getting-started}
 
-Power BI レポートテンプレートにアクセスできます [ こちら ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}。
+Power BI レポートテンプレートにアクセスできます [&#x200B; こちら &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}。
 
 Adobe [!DNL Marketo Measure] レポートテンプレート Power BI ファイルを開きます。
 
-![Marketo Measure テンプレートのPower BI接続ダイアログ ](assets/marketo-measure-report-template-power-bi-1.png)
+![Marketo Measure テンプレートのPower BI接続ダイアログ &#x200B;](assets/marketo-measure-report-template-power-bi-1.png)
 
 特定のサーバー、ウェアハウス、スキーマ情報は、[!DNL Marketo Measure] UI の [!DNL Data Warehouse] 情報ページで見つけることができます。このページを見つける方法について詳しくは、[こちら](/help/data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}を参照してください。
 
@@ -37,14 +37,14 @@ QueryFilterStartDate パラメーターと QueryFilterEndDate パラメーター
 
 モデルに読み込まれるデータを制限するために、各テーブルはソースとしてネイティブクエリを使用して設定されます。ネイティブクエリの実行には承認が必要です。各クエリに対して「実行」をクリックする必要があります。この手順は、クエリを初めて実行する際や、パラメーターが変更された場合にのみ必要です。
 
-![Power BIのネイティブクエリ承認ダイアログ ](assets/marketo-measure-report-template-power-bi-2.png)
+![Power BIのネイティブクエリ承認ダイアログ &#x200B;](assets/marketo-measure-report-template-power-bi-2.png)
 
 すべてのクエリは削除された行をフィルターで除外し、[!UICONTROL ファクト]テーブルは変更日がパラメーターとして入力された開始日と終了日になっている行をフィルターするように設定されます。
 
 >[!NOTE]
 >日付フィルターは行の変更日に適用されるので、レポートの日付が、制限された日付の範囲外となる場合は注意が必要です。例えば、変更された日付範囲が過去 2 年間に制限されるとします。この場合、イベントの日付は 3 年前だけれど最近変更されたイベントは含まれます。ただし、2 年間の時間枠内にすべての行が変更されているわけではないので、3 年前のイベントをレポートすると、返される結果は不完全となります。
 
-![ 日付フィルターパラメーターを表示するクエリエディター ](assets/marketo-measure-report-template-power-bi-3.png)
+![&#x200B; 日付フィルターパラメーターを表示するクエリエディター &#x200B;](assets/marketo-measure-report-template-power-bi-3.png)
 
 次のテーブルは、ファクトテーブルとして扱われます。変更日の日付制限がこれらのクエリに追加されました。
 
@@ -76,7 +76,7 @@ QueryFilterStartDate パラメーターと QueryFilterEndDate パラメーター
 
 Power Query のデータには、いくつかの変換が適用されています。テーブルの特定の変換を表示するには、Power Query を開き、テーブルに移動して、ウィンドウの左側にある適用される手順を確認します。特定の変換のいくつかについては、以下で説明します。
 
-![ 適用された変換手順を示すパワークエリエディター ](assets/marketo-measure-report-template-power-bi-4.png)
+![&#x200B; 適用された変換手順を示すパワークエリエディター &#x200B;](assets/marketo-measure-report-template-power-bi-4.png)
 
 ### 列を削除 {#removed-columns}
 
@@ -86,19 +86,19 @@ Power Query のデータには、いくつかの変換が適用されていま�
 > 外部キー値を追加する場合は注意が必要です。Power BI は多くの場合、モデル内の関係を自動検出するように設定されており、外部キー値を追加すると、テーブル間に望ましくないリンクが発生したり、既存の関係が無効になったりする可能性があります。
 > [!DNL Marketo Measure] Data Warehouse 内のほとんどのテーブルには、非正規化されたディメンションデータが含まれています。アドビでは、パフォーマンスとデータの精度を向上させるために、Power BI のモデルを可能な限り正規化してクリーンアップすることに取り組んできました。ファクトテーブルに追加の非正規化フィールドを含める場合は注意する必要があります。これにより、テーブル間のディメンションフィルタリングが壊れたり、レポートが不正確になったりする可能性があります。
 
-![ 削除された列の設定を表示する列選択ダイアログ ](assets/marketo-measure-report-template-power-bi-5.png)
+![&#x200B; 削除された列の設定を表示する列選択ダイアログ &#x200B;](assets/marketo-measure-report-template-power-bi-5.png)
 
 ### 列名を変更 {#renamed-columns}
 
 従来より使いやすくし、命名規則を標準化するために、テーブルと列の名前を変更しました。列名の変更を表示するには、テーブルの「他の列の削除」手順の後の「列名の変更」手順に移動します。
 
-![ 列名のマッピングを示す、名前を変更した列の手順 ](assets/marketo-measure-report-template-power-bi-6.png)
+![&#x200B; 列名のマッピングを示す、名前を変更した列の手順 &#x200B;](assets/marketo-measure-report-template-power-bi-6.png)
 
 ### セグメント名の変更 {#renamed-segments}
 
 セグメント名はカスタマイズ可能なので、Snowflake Data Warehouse では一般的な列名が付けられます。[!DNL BIZ_SEGMENT_NAMES] は、[!DNL Marketo Measure] UI のセグメントセクションで定義された、汎用セグメント名とそのマッピング先のカスタマイズされたセグメント名をリストするマッピングテーブルです。セグメント名テーブルは、リードタッチポイントテーブルとアトリビューションタッチポイントテーブルのセグメント列の名前を変更するために使用します。カスタマイズされたセグメントが存在しない場合は、汎用セグメント名が残ります。
 
-![Power Query のセグメント名マッピングテーブル ](assets/marketo-measure-report-template-power-bi-7.png)
+![Power Query のセグメント名マッピングテーブル &#x200B;](assets/marketo-measure-report-template-power-bi-7.png)
 
 ### 大文字と小文字を区別する ID の変換 {#case-sensitive-id-conversion}
 
@@ -106,25 +106,25 @@ Power Query のデータには、いくつかの変換が適用されていま�
 /10/06/power-bi-and-case-sensitivity/）{target="_blank"}を参照してください。これらの大文字と小文字を区別する ID 値は、「結合 ID」としてラベル付けされ、関係レイヤーで結合キーとして使用されます。非表示の文字はカット
 ／ペースト機能やフィルタリングを妨げる可能性があるので、レポートレイヤーから結合 ID を非表示にし、元の ID 値をレポートで使用できるように表示したままにしました。
 
-![ 大文字と小文字を区別した ID 変換を示すタッチポイントテーブル ](assets/marketo-measure-report-template-power-bi-8.png)
+![&#x200B; 大文字と小文字を区別した ID 変換を示すタッチポイントテーブル &#x200B;](assets/marketo-measure-report-template-power-bi-8.png)
 
-![ 大文字と小文字を区別したマッチング用の結合 ID 列を持つキャンペーンテーブル ](assets/marketo-measure-report-template-power-bi-9.png)
+![&#x200B; 大文字と小文字を区別したマッチング用の結合 ID 列を持つキャンペーンテーブル &#x200B;](assets/marketo-measure-report-template-power-bi-9.png)
 
 ### 行の追加 {#rows-added}
 
 モデルの計算に通貨換算機能を追加するために、社内換算率の列を商談テーブルとコストテーブルの両方に追加しました。この列の値は行レベルで追加し、日付と通貨 ID の両方で換算率テーブルに結合することによって評価されます。このモデルでの通貨換算の仕組みについて詳しくは、このドキュメントの[通貨換算](#currency-conversion)の節を参照してください。
 
-![ 企業コンバージョン率列を含む商談テーブル ](assets/marketo-measure-report-template-power-bi-10.png)
+![&#x200B; 企業コンバージョン率列を含む商談テーブル &#x200B;](assets/marketo-measure-report-template-power-bi-10.png)
 
 [!DNL Snowflake] に保存されている換算率テーブルには、各換算の日付範囲が含まれています。Power BI では、計算（つまり、日付の範囲間）で結合条件を使用できません。日付で結合するために、換算率テーブルに行を拡張する手順を追加し、換算日の範囲内の日付ごとに 1 行が存在するようにしました。
 
-![ 展開された日付行を含むコンバージョンレートテーブル ](assets/marketo-measure-report-template-power-bi-11.png)
+![&#x200B; 展開された日付行を含むコンバージョンレートテーブル &#x200B;](assets/marketo-measure-report-template-power-bi-11.png)
 
 ## データモデル {#data-model}
 
 以下の画像をクリックすると、フルサイズのバージョンが表示されます。
 
-[![ テーブルの関係を示すPower BI データモデル図 ](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
+[![&#x200B; テーブルの関係を示すPower BI データモデル図 &#x200B;](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### 関係とデータフロー {#relationships-and-data-flow}
 
@@ -165,17 +165,17 @@ Power BI では 1 つの列におけるテーブル間の関係のみを使用�
 
 このモデルの通貨換算測定では、換算率が特定できない場合、率の値 1.0 が代入されます。測定の通貨値を表示し、計算に複数の通貨値が含まれる場合（つまり、値を選択した通貨に換算できなかった場合）に警告するために、別の測定が作成されています。
 
-![DAX 計算ロジックを示す通貨換算式 ](assets/marketo-measure-report-template-power-bi-13.png)
+![DAX 計算ロジックを示す通貨換算式 &#x200B;](assets/marketo-measure-report-template-power-bi-13.png)
 
 ## データ定義 {#data-definitions}
 
 テーブル、カスタム列、測定の定義を Power BI モデルに追加しました。
 
-![ 定義の説明を示すテーブル・プロパティ ](assets/marketo-measure-report-template-power-bi-14.png)
+![&#x200B; 定義の説明を示すテーブル・プロパティ &#x200B;](assets/marketo-measure-report-template-power-bi-14.png)
 
-![ データモデルのカスタム列の定義 ](assets/marketo-measure-report-template-power-bi-15.png)
+![&#x200B; データモデルのカスタム列の定義 &#x200B;](assets/marketo-measure-report-template-power-bi-15.png)
 
-![DAX 式を使用したメジャー定義 ](assets/marketo-measure-report-template-power-bi-16.png)
+![DAX 式を使用したメジャー定義 &#x200B;](assets/marketo-measure-report-template-power-bi-16.png)
 
 [!DNL Snowflake] から直接取得する列の定義を表示するには、[Data Warehouse のドキュメント](/help/data-warehouse/data-warehouse-schema.md){target="_blank"}を参照してください。
 

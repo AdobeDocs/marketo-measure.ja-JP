@@ -23,7 +23,7 @@ ht-degree: 9%
 1. [!DNL Marketo Engage] アカウントにログインします。
 1. ランディングページを選択し、「**[!UICONTROL ドラフトを編集]**」をクリックします。
 1. HTML要素内をドラッグします。
-1. [!DNL Marketo Measure]head[!UICONTROL  セクションに ] のJavaScriptを入力します。
+1. [!DNL Marketo Measure]head[!UICONTROL &#x200B; セクションに &#x200B;] のJavaScriptを入力します。
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
@@ -31,7 +31,7 @@ ht-degree: 9%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![ 先頭に Bizible スクリプトが追加されたMarketo ランディングページエディター ](assets/adding-bizible-to-marketo-landing-pages-1.png)
+   ![&#x200B; 先頭に Bizible スクリプトが追加されたMarketo ランディングページエディター &#x200B;](assets/adding-bizible-to-marketo-landing-pages-1.png)
 
 ## そのほかの備考 {#additional-notes}
 
@@ -41,4 +41,4 @@ ht-degree: 9%
 
 * 複数のランディングページテンプレートを使用している可能性があります。フォームが含まれるすべてのテンプレートに必ずコードを追加してください。
 
-* ランディングページ用のテンプレートを編集する際に、ランディングページが使用されるページを再承認する必要が生じる場合があります。 この記事では [ 一括承認方法 ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"} を説明します。
+* ランディングページ用のテンプレートを編集する際に、ランディングページが使用されるページを再承認する必要が生じる場合があります。 この記事では [&#x200B; 一括承認方法 &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"} を説明します。

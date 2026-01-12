@@ -44,10 +44,10 @@ ht-degree: 87%
 | セールスアクティビティ | CRM アクティビティの同期 | [!DNL Marketo Measure] の[!UICONTROL オンラインチャネル]ページを通じて、[!UICONTROL アクティビティ]ページで割り当てられたキャンペーン名を参照します |
 
 >[!MORELIKETHIS]
-> [ [!DNL Marketo Measure]  チャネル／サブチャネルへのオンラインタッチポイントのマッピング](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
-> [SFDC内からの CRM キャンペーンの同期 ](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
-> [ [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 内からの CRM キャンペーンの同期
-> [CRM キャンペーンとチャネル  [!DNL Marketo Measure]  サブチャネルのマッピング ](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-> [セールスアクティビティからのタッチポイント ](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md) 作成
-> [アクティビティに関する FAQ およびアクティビティタッチポイントのチャネル/サブチャネルへのマッピング ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+> [&#x200B; [!DNL Marketo Measure]  チャネル／サブチャネルへのオンラインタッチポイントのマッピング](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [SFDC内からの CRM キャンペーンの同期 &#x200B;](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+> [&#x200B; [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 内からの CRM キャンペーンの同期
+> [CRM キャンペーンとチャネル  [!DNL Marketo Measure]  サブチャネルのマッピング &#x200B;](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+> [セールスアクティビティからのタッチポイント &#x200B;](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md) 作成
+> [アクティビティに関する FAQ およびアクティビティタッチポイントのチャネル/サブチャネルへのマッピング &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
 

@@ -42,7 +42,7 @@ ht-degree: 3%
 * 各四半期に最も起因する売上高を生成したチャネルはどれですか？
 * 先月のチャネル別のアトリビューション売上高の内訳は何でしたか？
 
-![ チャネル別のアトリビューション収益の推移グラフ ](assets/attributed-revenue-dashboard-1.png)
+![&#x200B; チャネル別のアトリビューション収益の推移グラフ &#x200B;](assets/attributed-revenue-dashboard-1.png)
 
 ### 起因する収益テーブル {#attributed-revenue-table}
 
@@ -58,14 +58,14 @@ ht-degree: 3%
 * 表形式表示では、属性となる売上高の分布に関する明確で整理されたインサイトが提供されます。 ユーザーは、データをチャネル、サブチャネルおよびキャンペーンに分類することで、パフォーマンスパターンを迅速に識別し、効果的なマーケティング戦略を特定できます。
 * 各チャネルの横にある「+」アイコンをクリックすると、サブチャネルとキャンペーンの分類が表示されます。
 
-![ チャネル、サブチャネル、キャンペーン別のアトリビューション収益の表形式表示 ](assets/attributed-revenue-dashboard-2.png)
+![&#x200B; チャネル、サブチャネル、キャンペーン別のアトリビューション収益の表形式表示 &#x200B;](assets/attributed-revenue-dashboard-2.png)
 
 **ツリー表示**
 
 * ツリー表示を使用すると、よりインタラクティブできめ細かいデータ調査が可能になり、マーケターはマーケティング活動でトレンド、異常値、目立つパフォーマンスを特定できます。
 * ブランチをクリックすると、後続の階層レイヤーをさらに掘り下げることができます。
 
-![ 階層的な調査のための属性つき収益ツリー表示 ](assets/attributed-revenue-dashboard-3.png)
+![&#x200B; 階層的な調査のための属性つき収益ツリー表示 &#x200B;](assets/attributed-revenue-dashboard-3.png)
 
 ## フィルターウィンドウ {#filter-pane}
 
@@ -79,5 +79,5 @@ ht-degree: 3%
 
 >[!MORELIKETHIS]
 > [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [ダッシュボードデータ表示ポリシー ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+> [ダッシュボードデータ表示ポリシー &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

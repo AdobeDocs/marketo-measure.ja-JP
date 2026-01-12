@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # [!DNL Marketo Measure] Salesforce パッケージのインストールと設定 {#marketo-measure-salesforce-package-installation-and-set-up}
 
-[!DNL Marketo Measure][!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
+[!DNL Marketo Measure]&#x200B;[!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
 
 >[!NOTE]
 >[!DNL Marketo Measure] アカウントが [!DNL Salesforce] 実稼動インスタンスに接続されると、後方に移動してサンドボックスに接続することはできません。また、[!DNL Marketo Measure] アカウントは、1 つの [!DNL Salesforce] 実稼動インスタンスにのみ接続できます。
@@ -36,11 +36,11 @@ ht-degree: 91%
 
 1. 「**[!UICONTROL すべてのユーザーにインストール]**」を選択します。
 
-   ![Marketo Measure パッケージのSalesforce AppExchange インストールダイアログ ](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
+   ![Marketo Measure パッケージのSalesforce AppExchange インストールダイアログ &#x200B;](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
 
 1. インストールが完了すると、表示できます。
 
-   ![SalesforceにインストールされたMarketo Measure パッケージの詳細ページ ](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
+   ![SalesforceにインストールされたMarketo Measure パッケージの詳細ページ &#x200B;](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
 インストールが完了したら、必要に応じて、[[!DNL Salesforce] ページレイアウト](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"}を [!DNL Marketo Measure] フィールドで更新できます。
 
@@ -89,4 +89,4 @@ Salesforce にデータをプッシュする際に検証エラーが発生しな
 
 >[!MORELIKETHIS]
 > [統合権限の概要](/help/api-connections/integration-permissions-overview.md){target="_blank"}
-> [Adobe Admin Consoleの設定 ](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
+> [Adobe Admin Consoleの設定 &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}

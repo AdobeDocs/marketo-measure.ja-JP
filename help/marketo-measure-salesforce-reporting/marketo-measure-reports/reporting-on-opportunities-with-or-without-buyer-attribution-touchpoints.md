@@ -20,23 +20,23 @@ ht-degree: 30%
 
 1. **[!UICONTROL 設定]**/**[!UICONTROL 作成]**/**[!UICONTROL レポートタイプ]** に移動します。
 
-   ![ 1](assets/1-1.jpg)
+   ![&#x200B; 1](assets/1-1.jpg)
 
 1. **[!UICONTROL 新規カスタムレポートタイプ]** を選択します。
 
-   ![ 1](assets/2-1.jpg)
+   ![&#x200B; 1](assets/2-1.jpg)
 
 1. プライマリオブジェクトを「[!UICONTROL Opportunities]」に設定します。
 
    * レポート・タイプ・ラベルに「購買担当属性の有無を問わず商談」という名前を付けます。
    * レポートタイプ名にも同じ名前を使用します。 説明入力内に、「バイヤー属性タッチポイントのある商談またはバイヤー属性タッチポイントがない商談」と入力します。
-   * 「[!UICONTROL  その他 ]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ済み ]」に設定します。
+   * 「[!UICONTROL &#x200B; その他 &#x200B;]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ済み &#x200B;]」に設定します。
 
-   ![ 1](assets/3-1.jpg)
+   ![&#x200B; 1](assets/3-1.jpg)
 
 1. そこから、商談オブジェクトをバイヤー属性タッチポイントオブジェクトにリンクします。 ボタン「&#39;A&#39; レコードには関連する&#39;B&#39; レコードがある場合とない場合がある」を選択していることを確認してください。 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-   ![ 1](assets/4-1.jpg)
+   ![&#x200B; 1](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

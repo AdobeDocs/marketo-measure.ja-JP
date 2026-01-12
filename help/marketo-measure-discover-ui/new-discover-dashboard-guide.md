@@ -497,7 +497,7 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
 
 ## 新しい追加機能と改善点 {#new-additions-and-improvements}
 
-新機能については、[ ダッシュボードの基本を確認 ](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"} の記事を参照してください。
+新機能については、[&#x200B; ダッシュボードの基本を確認 &#x200B;](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"} の記事を参照してください。
 
 ## フィードバック {#feedback}
 
@@ -505,5 +505,5 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
 
 >[!MORELIKETHIS]
 >[Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
->[ダッシュボードデータ表示ポリシー ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+>[ダッシュボードデータ表示ポリシー &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
 

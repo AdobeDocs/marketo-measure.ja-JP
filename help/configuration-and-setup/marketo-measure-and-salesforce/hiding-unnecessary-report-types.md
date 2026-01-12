@@ -25,7 +25,7 @@ ht-degree: 5%
 
 1. 以下にオレンジ色の「X」が付いたマークが付いているレポートをクリックすると、レポートリストが以下の画像と同じになります。
 
-   ![ 4](assets/1-4.png)
+   ![&#x200B; 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
->[Salesforce – 未使用のレポートタイプを非表示にする ](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[Salesforce – 未使用のレポートタイプを非表示にする &#x200B;](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

@@ -68,6 +68,6 @@ ht-degree: 2%
 * 組織のfunnelと関係がなくなったタッチポイント位置が入力されているのを確認します
 
 >[!MORELIKETHIS]
-> [ カスタム属性モデルと設定 ](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
-> [カスタムモデルのフィールド履歴トラッキングを有効にする ](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [機械学習モデル ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+> [&#x200B; カスタム属性モデルと設定 &#x200B;](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+> [カスタムモデルのフィールド履歴トラッキングを有効にする &#x200B;](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
+> [機械学習モデル &#x200B;](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

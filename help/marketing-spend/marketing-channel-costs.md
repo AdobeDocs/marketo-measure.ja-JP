@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # マーケティングチャネルのコスト設定 {#marketing-channel-costs}
 
-[!DNL Marketo Measure] を使用する最も基本的なメリットの 1 つは、マーケティング活動を、必要なだけ詳細に、収益に与える影響に直接結び付けることができることです。 タッチポイントレベルでは、ROI を確認することが可能です。 この利点を活用するには、チャネルコストを [!DNL Marketo Measure] アプリにアップロードする必要があります。 ROI レポートは自動的に作成され、**experience.adobe.com/marketo-measure** の [ マーケティング ROI ダッシュボード ](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} で使用できます。
+[!DNL Marketo Measure] を使用する最も基本的なメリットの 1 つは、マーケティング活動を、必要なだけ詳細に、収益に与える影響に直接結び付けることができることです。 タッチポイントレベルでは、ROI を確認することが可能です。 この利点を活用するには、チャネルコストを [!DNL Marketo Measure] アプリにアップロードする必要があります。 ROI レポートは自動的に作成され、**experience.adobe.com/marketo-measure** の [&#x200B; マーケティング ROI ダッシュボード &#x200B;](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} で使用できます。
 
 [手順に直接移動するには、ここをクリックします。](/help/marketing-spend/marketing-channel-costs.md#uploading-marketing-costs)
 
@@ -77,13 +77,13 @@ ht-degree: 1%
 
 **[!UICONTROL マイアカウント]** メニューに移動し、「**[!UICONTROL 設定]** をクリックして、左側のサイドバーの **[!UICONTROL レポート]** セクションの下にある **[!UICONTROL マーケティング費用]** オプションに移動します。
 
-![Marketo Measureのマーケティング費用設定ページ ](assets/1.png)
+![Marketo Measureのマーケティング費用設定ページ &#x200B;](assets/1.png)
 
 **手順 2：現在のコストの CSV をダウンロード**
 
-画面の右側に移動して、「**[!UICONTROL 現在のコストをダウンロード ]」をクリックします。** このオプションを使用すると、スプレッドシートを CSV 形式でダウンロードできます。
+画面の右側に移動して、「**[!UICONTROL 現在のコストをダウンロード &#x200B;]」をクリックします。** このオプションを使用すると、スプレッドシートを CSV 形式でダウンロードできます。
 
-![ マーケティング費用ページの「現在のコストをダウンロード」オプション ](assets/2.png)
+![&#x200B; マーケティング費用ページの「現在のコストをダウンロード」オプション &#x200B;](assets/2.png)
 
 **手順 3:CSV ファイルを開いて変更する**
 
@@ -95,7 +95,7 @@ ht-degree: 1%
 
 例えば、Facebook をサブチャネル、ソーシャルをチャネルとして示す場合、ルールを「Social.Facebook」のように記述する必要があります。 同様に、オフラインイベントを追跡するには、チャネル構文を「Events.Big Conference」にする必要があります。 次の画像に例を示します。
 
-![ チャネルとサブチャネルのコストエントリを示した CSV の例 ](assets/3.png)
+![&#x200B; チャネルとサブチャネルのコストエントリを示した CSV の例 &#x200B;](assets/3.png)
 
 _その他のメモ_:
 

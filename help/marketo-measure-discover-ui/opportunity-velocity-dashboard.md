@@ -38,7 +38,7 @@ Velocity ダッシュボードは、見込み客がセールスfunnelを進む�
 >[!NOTE]
 >「商談作成」より前のステージでは、最新のタッチポイント日を「遷移イン」日として使用します。
 
-![ 販売ステージ別商談速度の棒グラフ ](assets/lead-velocity-dashboard-1.png)
+![&#x200B; 販売ステージ別商談速度の棒グラフ &#x200B;](assets/lead-velocity-dashboard-1.png)
 
 ### 商談速度の履歴 {#opportunity-velocity-over-time}
 
@@ -52,7 +52,7 @@ Velocity ダッシュボードは、見込み客がセールスfunnelを進む�
 * 観測された数か月間での、商談の各段階での滞在時間のトレンドは何ですか？
 * 営業段階を通じて商談が最も速い進捗を経験したのは、どの月ですか？
 
-![ 時間折れ線グラフ全体での商談速度のトレンド ](assets/lead-velocity-dashboard-2.png)
+![&#x200B; 時間折れ線グラフ全体での商談速度のトレンド &#x200B;](assets/lead-velocity-dashboard-2.png)
 
 ### チャネル別商談速度 {#opportunity-velocity-by-channel}
 
@@ -65,7 +65,7 @@ Velocity ダッシュボードは、見込み客がセールスfunnelを進む�
 * funnelの各ステージを順を追って最も速く進行するのは、どのチャネルですか？
 * 「見込み客」ステージの商談速度は、様々なチャネルでどのように異なりますか？
 
-![ チャネル別商談速度の比較グラフ ](assets/lead-velocity-dashboard-3.png)
+![&#x200B; チャネル別商談速度の比較グラフ &#x200B;](assets/lead-velocity-dashboard-3.png)
 
 ## フィルターウィンドウ {#filter-pane}
 

@@ -13,7 +13,7 @@ ht-degree: 96%
 
 # アカウントベースのマーケティングの概要 {#account-based-marketing-overview}
 
-以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。ABM の詳細については、Adobeの [ABM ブログ ](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"} を参照してください。
+以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。ABM の詳細については、Adobeの [ABM ブログ &#x200B;](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"} を参照してください。
 
 [!DNL Salesforce] インスタンス内で ABM を設定する手順について詳しくは、[Salesforce での ABM ページレイアウトの設定](/help/advanced-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}を参照してください。
 
@@ -76,16 +76,16 @@ PES の使用を開始するには、[!DNL Salesforce] の適切なページレ�
 1. **[!UICONTROL 設定]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL アカウント]**／**[!UICONTROL ページレイアウト]**&#x200B;に移動します。次に、編集するページレイアウトを選択します。
 1. [!UICONTROL フィールド]に移動し、「予測エンゲージメントスコア」フィールドを「アカウント情報」セクションに移動します。
 
-   ![ 予測エンゲージメントスコアフィールドを表示するアカウントページレイアウト ](assets/1.png)
+   ![&#x200B; 予測エンゲージメントスコアフィールドを表示するアカウントページレイアウト &#x200B;](assets/1.png)
 
 1. 最後に、[!UICONTROL 関連リスト]に移動し、「リード」関連リストをページレイアウトに移動します。
 
-   ![ アカウントのページレイアウトへのリード関連リストの追加 ](assets/2.png)
+   ![&#x200B; アカウントのページレイアウトへのリード関連リストの追加 &#x200B;](assets/2.png)
 
 1. 次に、**[!UICONTROL 設定]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL リード]**／**[!UICONTROL ページレイアウト]**&#x200B;に移動し、編集する適切なページレイアウトを選択します。
 1. 「**[!UICONTROL フィールド]**」をクリックし、ページ上の適切な場所に「[!UICONTROL アカウント]」フィールドを追加します。
 
-   ![ アカウントフィールドが追加されたリードページレイアウト ](assets/3.png)
+   ![&#x200B; アカウントフィールドが追加されたリードページレイアウト &#x200B;](assets/3.png)
 
 準備完了です。
 

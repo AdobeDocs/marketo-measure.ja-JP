@@ -21,57 +21,57 @@ Adobe Launch にインストールして設定すると、[!DNL Marketo Measure]
 
 >[!PREREQUISITES]
 >Adobe Launch とその拡張機能について詳しくは、次のリンクを参照してください。
-> [[!DNL Marketo Measure] 拡張機能 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+> [[!DNL Marketo Measure] 拡張機能 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
 > [Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ja){target="_blank"} 概要
-> [Adobe Launch 拡張機能の概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+> [Adobe Launch 拡張機能の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. 手順 [ この記事 ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"} に従ってプロパティを作成します。
+1. 手順 [&#x200B; この記事 &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"} に従ってプロパティを作成します。
 
 1. 作成したプロパティをクリックします。
 
-   ![ 使用可能なプロパティを示したAdobe Launch プロパティ選択画面 ](assets/marketo-measure-integrations-1.png)
+   ![&#x200B; 使用可能なプロパティを示したAdobe Launch プロパティ選択画面 &#x200B;](assets/marketo-measure-integrations-1.png)
 
 1. 「**[!UICONTROL 拡張機能]**」をクリックします。
 
-   ![Adobe Launch のプロパティ設定の「拡張機能」タブ ](assets/marketo-measure-integrations-2.png)
+   ![Adobe Launch のプロパティ設定の「拡張機能」タブ &#x200B;](assets/marketo-measure-integrations-2.png)
 
 1. 「**[!UICONTROL カタログ]**」タブをクリックし、「[!UICONTROL Bizible]」を検索します。
 
-   ![Bizible 拡張機能を示した拡張機能カタログ検索 ](assets/marketo-measure-integrations-3.png)
+   ![Bizible 拡張機能を示した拡張機能カタログ検索 &#x200B;](assets/marketo-measure-integrations-3.png)
 
 1. [!UICONTROL Bizible Analytics] タイルで、「**[!UICONTROL インストール]**」をクリックします。
 
-   ![ 「インストール」ボタン付き Bizible Analytics 拡張機能タイル ](assets/marketo-measure-integrations-4.png)
+   ![&#x200B; 「インストール」ボタン付き Bizible Analytics 拡張機能タイル &#x200B;](assets/marketo-measure-integrations-4.png)
 
 1. 「Bizible アカウント ID」フィールドに、web サイトの URL を入力します（例：`adobe.com`）。
 
-   ![AccountId フィールドを使用した Bizible 拡張機能の設定 ](assets/marketo-measure-integrations-5.png)
+   ![AccountId フィールドを使用した Bizible 拡張機能の設定 &#x200B;](assets/marketo-measure-integrations-5.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![Bizible 拡張機能設定の「保存」ボタン ](assets/marketo-measure-integrations-6.png)
+   ![Bizible 拡張機能設定の「保存」ボタン &#x200B;](assets/marketo-measure-integrations-6.png)
 
 1. **[!UICONTROL ルール]** をクリックし、「**[!UICONTROL 新しいルールの作成]**」を選択します。
 
-   ![ 「新規ルールを作成」ボタンを含む「ルール」タブ ](assets/marketo-measure-integrations-7.png)
+   ![&#x200B; 「新規ルールを作成」ボタンを含む「ルール」タブ &#x200B;](assets/marketo-measure-integrations-7.png)
 
-1. **[!UICONTROL イベント]** の下の [!UICONTROL  追加 ] ボタンをクリックします。
+1. **[!UICONTROL イベント]** の下の [!UICONTROL &#x200B; 追加 &#x200B;] ボタンをクリックします。
 
-   ![ ルール設定の「イベント」セクションの「追加」ボタン ](assets/marketo-measure-integrations-8.png)
+   ![&#x200B; ルール設定の「イベント」セクションの「追加」ボタン &#x200B;](assets/marketo-measure-integrations-8.png)
 
 1. 「拡張機能」ドロップダウンで、「**[!UICONTROL コア]**」を選択します。 次に、「イベントタイプ」ドロップダウンで、「ライブラリの読み込み **[!UICONTROL ページのトップ）]**」を選択します。 イベントに名前を付けない場合は、デフォルトの名前が適用されます。 完了したら、「**[!UICONTROL 変更を保持]**」をクリックします。
 
-   ![ コア拡張機能とライブラリの読み込みイベントタイプを含むイベント設定ダイアログ ](assets/marketo-measure-integrations-9.png)
+   ![&#x200B; コア拡張機能とライブラリの読み込みイベントタイプを含むイベント設定ダイアログ &#x200B;](assets/marketo-measure-integrations-9.png)
 
 1. 「アクション」の下の **[!UICONTROL 追加]** ボタンをクリックします。
 
-   ![ ルール設定の「アクション」セクションの「追加」ボタン ](assets/marketo-measure-integrations-10.png)
+   ![&#x200B; ルール設定の「アクション」セクションの「追加」ボタン &#x200B;](assets/marketo-measure-integrations-10.png)
 
 1. 「拡張機能」ドロップダウンで、「**[!UICONTROL Bizible 分析]**」を選択します。 次に、「アクションタイプ」ドロップダウンで「**[!UICONTROL 初期化]**」を選択します。 アクションに名前を付けない場合は、デフォルトの名前が適用されます。 完了したら、「**[!UICONTROL 変更を保持]**」をクリックします。
 
-   ![Bizible Analytics 拡張機能と初期化アクションタイプを含むアクション設定ダイアログ ](assets/marketo-measure-integrations-11.png)
+   ![Bizible Analytics 拡張機能と初期化アクションタイプを含むアクション設定ダイアログ &#x200B;](assets/marketo-measure-integrations-11.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![ ルール設定の「保存」ボタン ](assets/marketo-measure-integrations-12.png)
+   ![&#x200B; ルール設定の「保存」ボタン &#x200B;](assets/marketo-measure-integrations-12.png)
 

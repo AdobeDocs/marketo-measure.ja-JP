@@ -37,7 +37,7 @@ Ultimate ユーザーはAEPにプロビジョニングされます。 既にAEP�
 ## スキーマおよびデータセット {#schemas-and-datasets}
 
 >[!NOTE]
->スキーマ、クラス、フィールドグループの概要については、[ スキーマの構築ブロック ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"} を参照してください。
+>スキーマ、クラス、フィールドグループの概要については、[&#x200B; スキーマの構築ブロック &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"} を参照してください。
 
 **XDM スキーマ = クラス + スキーマフィールドグループ&#42;**
 
@@ -46,32 +46,32 @@ Ultimate ユーザーはAEPにプロビジョニングされます。 既にAEP�
 
 &#42; _スキーマは、クラスとゼロ以上のスキーマフィールドグループで構成されます。つまり、フィールドグループを使用せずにデータセットのスキーマを作成できます。_
 
-![ クラスとフィールドグループの関係を示すスキーマ構造図 ](assets/marketo-measure-ultimate-implementation-guide-1.png)
+![&#x200B; クラスとフィールドグループの関係を示すスキーマ構造図 &#x200B;](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[ データセットの概要 ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}:AEPに正常に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
+[&#x200B; データセットの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}:AEPに正常に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
 
 ## スキーマの作成 {#creating-a-schema}
 
 自動生成ユーティリティを使用して、10 個の標準 B2B スキーマを作成することをお勧めします。
 
-* ユーティリティのダウンロードおよび設定手順 [ こちらを参照 ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ja#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}。
+* ユーティリティのダウンロードおよび設定手順 [&#x200B; こちらを参照 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ja#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}。
 
-_**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
+_&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
 
 * ソースから、データを追加／テンプレートを使用を選択します。
 
-![ 「データを追加」および「テンプレートを使用」オプションを含むソースページ ](assets/marketo-measure-ultimate-implementation-guide-2.png)
+![&#x200B; 「データを追加」および「テンプレートを使用」オプションを含むソースページ &#x200B;](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
 * アカウントとすべての B2B テンプレートを選択して、10 個の標準 B2B スキーマを作成します。
 
-![ アカウント設定用の B2B スキーマテンプレートを示すテンプレート選択 ](assets/marketo-measure-ultimate-implementation-guide-3.png)
+![&#x200B; アカウント設定用の B2B スキーマテンプレートを示すテンプレート選択 &#x200B;](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## データフロー {#dataflows}
 
 >[!IMPORTANT]
 >新しいデータセットを追加する場合は、既存のデータセットを使用するのではなく、フローを作成することをお勧めします。
 
-[ データフローの概要 ](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=ja){target="_blank"}
+[&#x200B; データフローの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=ja){target="_blank"}
 
 **データフローの作成手順を以下に示します。**
 
@@ -85,7 +85,7 @@ _**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移�
    > あるスキーマタイプを別の同一のスキーマタイプにマッピングする場合は、自動的に行われます。
    > また、システム内の別のフローからマッピングを読み込むこともできます。
    > 1 つのソースフィールドを複数の宛先フィールドにマッピングすることはできますが、その逆はできません。
-   > 計算フィールド（[ データ準備のマッピング関数 ](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
+   > 計算フィールド（[&#x200B; データ準備のマッピング関数 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
 
    >[!CAUTION]
    > データフローを編集できますが、マッピングが変更されても、データはバックフィルされません。
@@ -109,9 +109,9 @@ _**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移�
 
 オプション 1：UI から直接クエリを実行するには、データ管理の「クエリ」タブにアクセスします。
 
-![ クエリインターフェイスが表示されているデータ管理の「クエリ」タブ ](assets/marketo-measure-ultimate-implementation-guide-4.png)
+![&#x200B; クエリインターフェイスが表示されているデータ管理の「クエリ」タブ &#x200B;](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-オプション 2:[PSQL をダウンロードして使用 ](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=ja){target="_blank"} （より高速で信頼性が高い）。
+オプション 2:[PSQL をダウンロードして使用 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=ja){target="_blank"} （より高速で信頼性が高い）。
 
 ## Marketo Measure のデータセットのアクティブ化 {#activate-dataset-for-marketo-measure}
 
@@ -142,7 +142,7 @@ _**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移�
 
 * ユーザーは、様々なソースからステージをマッピングできます。
 
-![ 複数のソースからのステージ設定を示すステージマッピングインターフェイス ](assets/marketo-measure-ultimate-implementation-guide-5.png)
+![&#x200B; 複数のソースからのステージ設定を示すステージマッピングインターフェイス &#x200B;](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 ステージをマッピングしていない場合、データを処理する場所がないので、システムは機能しません。
 

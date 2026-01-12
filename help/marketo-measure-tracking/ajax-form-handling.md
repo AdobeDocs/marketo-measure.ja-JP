@@ -58,7 +58,7 @@ eMail: 'user@gmail.com' // required
 });  
 ```
 
-このコードでは、「[!UICONTROL  メール ]」フィールドは必須です。 [!DNL Marketo Measure] は、このデータをサーバーに非同期で投稿します。
+このコードでは、「[!UICONTROL &#x200B; メール &#x200B;]」フィールドは必須です。 [!DNL Marketo Measure] は、このデータをサーバーに非同期で投稿します。
 
 ## シナリオ 3 – ありがとうページからのユーザー情報のレポート {#scenario-report-user-information-from-the-thank-you-page}
 

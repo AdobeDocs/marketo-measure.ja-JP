@@ -19,19 +19,19 @@ Experience Cloud インターフェイスで [!DNL Marketo Measure] を実行し
 
 Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有するドメインを追加および検証できます。 ドメインの検証では、ドメインごとに DNS レコードを追加し、Admin Consoleでそのレコードを検証できるようにします。
 
-![ 検証ステータスを示すAdobe Admin Console ドメインリスト ](assets/domain-management-1.png)
+![&#x200B; 検証ステータスを示すAdobe Admin Console ドメインリスト &#x200B;](assets/domain-management-1.png)
 
-ドメインの追加手順については、[Admin Console ドキュメント ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) を参照してください。 ドメインを追加したら、そのドメインを [ ディレクトリにリンク ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) する必要があります。
+ドメインの追加手順については、[Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) を参照してください。 ドメインを追加したら、そのドメインを [&#x200B; ディレクトリにリンク &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) する必要があります。
 
 ## [!DNL Marketo Measure] でのドメインの管理 {#managing-domains-in-marketo-measure}
 
 ドメインがAdmin Consoleに追加されると、[!DNL Marketo Measure] はこのレコードをデータベースに定期的に同期します。 この同期は夜間に行われ、また、ユーザーが **[!UICONTROL UI の]** ドメイン [!DNL Marketo Measure] ページにアクセスするたびに行われます。 デフォルトでは、読み込み対象のレコード [!DNL Marketo Measure] 無効になっており、テナントは各ドメインを手動で有効にする必要があります。
 
-![Marketo Measure ドメインページに、有効な切り替えを使用した検証済みドメインが一覧表示される ](assets/domain-management-2.png)
+![Marketo Measure ドメインページに、有効な切り替えを使用した検証済みドメインが一覧表示される &#x200B;](assets/domain-management-2.png)
 
 **[!UICONTROL 統合]**/**[!UICONTROL ドメイン]** ページには、Admin Consoleに登録したすべてのドメインがステータスと共に表示されます。 各ドメインは、有効または無効にできます。 ドメインが有効になっている場合、[!DNL Marketo Measure] のトラッキングは、そのドメインで発生するトラフィックを収集します。 ドメインが無効の場合、[!DNL Marketo Measure] はそのドメインからのトラフィックを無視し、タッチポイントや他のデータを作成しません。 [!DNL Marketo Measure] は、ドメインの無効化を確認し、影響が生じていることを警告します。
 
-![Marketo Measureでドメインを無効にする際の確認ダイアログ ](assets/domain-management-3.png)
+![Marketo Measureでドメインを無効にする際の確認ダイアログ &#x200B;](assets/domain-management-3.png)
 
 ドメインの切り替えの影響は即座に生じ、変更はさかのぼって適用されません。 今後、[!DNL Marketo Measure] は、設定された期間の後に、無効なドメインからデータをパージします。
 

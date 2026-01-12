@@ -117,4 +117,4 @@ ht-degree: 97%
 
 JavaScript の設定中に Web Application Firewall（WAF）の警告がトリガーされた場合、ユーザは、次の例に示すように、その WAF ルールを無効にするか、Cookie を許可リストに登録することができます。
 
-![WAFがに Cookie の許可リストに加えるMarketo Measureを求める警告の例 ](assets/marketo-measure-cookies-1.png)
+![WAFがに Cookie の許可リストに加えるMarketo Measureを求める警告の例 &#x200B;](assets/marketo-measure-cookies-1.png)

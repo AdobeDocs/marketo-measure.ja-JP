@@ -55,7 +55,7 @@ Marketo Measureでは、メールアドレス、Salesforce リード ID また�
    <td><p>Pardot</p></td>
    <td><p>%%email%% </p><p>または</p><p>%%user_crm_id%%</p></td>
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td>
-   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td>
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5</p></td>
   </tr>
   <tr>
    <td><p>Hubspot</p></td>
@@ -74,4 +74,4 @@ Marketo Measureでは、メールアドレス、Salesforce リード ID また�
 
 最後に、[!DNL Marketo Measure] 内でトラッキングパラメーターを指定して、メール [!DNL Marketo Measure] たは ID の値を特定できるようにする必要があります。 デフォルトは、上の例と下のスクリーンショットに示すように、「mailId」です。 [!DNL Marketo Measure] の設定に値を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
-![ メールトラッキングオプション ](assets/one.png)
+![&#x200B; メールトラッキングオプション &#x200B;](assets/one.png)

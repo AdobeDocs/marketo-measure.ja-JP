@@ -89,8 +89,8 @@ API に接続されたアカウントを切断すると、[!DNL Marketo Measure]
 >[!MORELIKETHIS]
 > [統合された広告プラットフォーム（API）](/help/api-connections/integrated-ad-platforms.md)
 > [入札管理ツールの [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md) への影響
-> [[!DNL Marketo Measure] API パラメーター ](/help/api-connections/marketo-measure-parameters.md)
-> [Facebook API の概要 ](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] 統合の概要 ](/help/api-connections/linkedin-integration.md)
-> [AdWords 統合の概要 ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Connected API アカウントの再認証 ](/help/api-connections/reauthorizing-connected-accounts.md)
+> [[!DNL Marketo Measure] API パラメーター &#x200B;](/help/api-connections/marketo-measure-parameters.md)
+> [Facebook API の概要 &#x200B;](/help/api-connections/facebook-api.md)
+> [[!DNL LinkedIn] 統合の概要 &#x200B;](/help/api-connections/linkedin-integration.md)
+> [AdWords 統合の概要 &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+> [Connected API アカウントの再認証 &#x200B;](/help/api-connections/reauthorizing-connected-accounts.md)

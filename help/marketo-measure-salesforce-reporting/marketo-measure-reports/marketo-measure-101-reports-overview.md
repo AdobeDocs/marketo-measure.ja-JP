@@ -18,7 +18,7 @@ ht-degree: 5%
 
 [!DNL Marketo Measure] および [!DNL Marketo Measure] を使用するすべての [!DNL Salesforce] のお客様は、SFDC インスタンス内の「バイヤータッチポイントレポート」フォルダーにアクセスできます。 このフォルダーには、Buyer Touchpoint データを使用したレポートの基本を学ぶのに役立つ、事前定義済みのレポートが多数含まれています。
 
-![Marketo Measure 101 のSalesforce Buyer Touchpoints Reports フォルダー ](assets/bizible-101-reports-overview-1.png)
+![Marketo Measure 101 のSalesforce Buyer Touchpoints Reports フォルダー &#x200B;](assets/bizible-101-reports-overview-1.png)
 
 これらのレポートの多くには、特定のレポート目標が既に設定されていますが、レポートニーズの大部分に対応する 3 つの主要なレポートタイプで表される 6 つの「_[!DNL Marketo Measure]101..._」があります。
 
@@ -26,7 +26,7 @@ ht-degree: 5%
 * 購入者タッチポイントを持つ [!DNL Marketo Measure] 担当者
 * 商談のあるバイヤー属性タッチポイント
 
-![SalesforceでのMarketo Measure 101 レポートリストの例 ](assets/bizible-101-reports-overview-2.png)
+![SalesforceでのMarketo Measure 101 レポートリストの例 &#x200B;](assets/bizible-101-reports-overview-2.png)
 
 これらのレポートでは、作成する [!DNL Marketo Measure] 関連レポートに必要な基本フィールドとインフラストラクチャが提供されます。 アドビでは、すべての顧客（新規および旧）に対して、マーケティングアトリビューションの質問を調査する際に、これらのレポートから始めることをお勧めします。 次に、「_[!DNL Marketo Measure]101..._」レポートの 6 つの説明を示します。
 
@@ -55,4 +55,4 @@ _購入者タッチポイントレポートのフォルダーや、そのフォ�
 
 「Buyer Touchpoint レポート」フォルダーは、[!DNL Marketo Measure] レポートを使い始めるのに役立つように設計されています。実用的なレポートについては、レポートニーズに合わせてカスタマイズできるように、レポートをカスタマイズする必要があります。 レポート内のレコード（およびその関連するタッチポイント）がレポートの目標に沿っていることを確認するために、必要なフィルターを追加する必要があります。
 
-「_[!DNL Marketo Measure]101..._」レポートをよく理解している場合は、カスタムレポートタイプから再作成して、より多くのカスタムレポートニーズに対応することができます。 [[!DNL Marketo Measure]  カスタムレポートタイプ ](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md) を作成すると、他の CRM レポートで一般的に使用する可能性のあるカスタムフィールドを取り込むことができます。 これは、次のレベル [!DNL Marketo Measure] レポートするのに役立ちます。
+「_[!DNL Marketo Measure]101..._」レポートをよく理解している場合は、カスタムレポートタイプから再作成して、より多くのカスタムレポートニーズに対応することができます。 [[!DNL Marketo Measure]  カスタムレポートタイプ &#x200B;](/help/marketo-measure-salesforce-reporting/new-report-types/creating-report-types.md) を作成すると、他の CRM レポートで一般的に使用する可能性のあるカスタムフィールドを取り込むことができます。 これは、次のレベル [!DNL Marketo Measure] レポートするのに役立ちます。

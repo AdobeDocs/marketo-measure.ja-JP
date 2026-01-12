@@ -33,7 +33,7 @@ Velocity ダッシュボードは、見込み客がセールスfunnelを進む�
 * リード/取引先責任者の期間が最長となるのはどの販売ステージですか？
 * 「ファーストタッチ」ステージと「MQL」ステージで費やした時間はどのように比較されますか？
 
-![ セールスステージごとのリードまたは取引先責任者の速度の棒グラフ ](assets/lead-velocity-dashboard-1.png)
+![&#x200B; セールスステージごとのリードまたは取引先責任者の速度の棒グラフ &#x200B;](assets/lead-velocity-dashboard-1.png)
 
 ### リード/取引先責任者速度の履歴 {#lead-contact-velocity-over-time}
 
@@ -47,7 +47,7 @@ Velocity ダッシュボードは、見込み客がセールスfunnelを進む�
 * 観測された月全体でのリード/連絡先の各段階での滞在時間のトレンドは何ですか？
 * リード/連絡先がセールス段階を最速で進めたのは、どの月ですか。
 
-![ リード速度のトレンドの推移の折れ線グラフ ](assets/lead-velocity-dashboard-2.png)
+![&#x200B; リード速度のトレンドの推移の折れ線グラフ &#x200B;](assets/lead-velocity-dashboard-2.png)
 
 ### チャネル別リード/取引先責任者速度 {#lead-contact-velocity-by-channel}
 
@@ -60,7 +60,7 @@ Velocity ダッシュボードは、見込み客がセールスfunnelを進む�
 * funnelの各段階を通じて、リードの進捗が最も早いチャネルはどれですか？
 * 「MQL」段階のリードベロシティは、チャネルごとにどのような違いがありますか？
 
-![ チャネル比較グラフによるリード速度 ](assets/lead-velocity-dashboard-3.png)
+![&#x200B; チャネル比較グラフによるリード速度 &#x200B;](assets/lead-velocity-dashboard-3.png)
 
 ## フィルターウィンドウ {#filter-pane}
 

@@ -25,19 +25,19 @@ ht-degree: 88%
 
 新規のお客様の場合、セッションチャネルの引き継ぎはデフォルトの動作になりました。既存のお客様は、設定/ Everytouch アトリビューションの下のセッションチャネルのキャリーオーバー切り替えスイッチをオンにすることで、この機能を有効にできます。 この設定は、一度アクティブ化すると元に戻すことはできません。
 
-ドキュメント：[Marketo Measure Web セッションの定義 ](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+ドキュメント：[Marketo Measure Web セッションの定義 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
 
 ### キーワード ROI ダッシュボード
 
 新しいキーワード ROI ダッシュボードでは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供し、キーワードレベルのコスト、起因する収益、生成されたリードと商談の包括的なビューを提供します。このダッシュボードは、Google Adwords、LinkedIn、Bing Ads などにおける各キーワードの ROI を評価するのに役立ちます。
 
-ドキュメント：[ キーワード ROI ダッシュボード ](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+ドキュメント：[&#x200B; キーワード ROI ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### セグメントルールの機能強化
 
 「タッチポイント」フィールドと「取引先責任者」フィールドに加えて、「キャンペーン」フィールドと「キャンペーンメンバー」フィールドを使用してセグメントを作成できるようになりました。この機能強化により、Discover でデータをより効果的に分析および解析できるようになります。
 
-![ セグメントルールの強化 ](assets/mm-q4-release-1.png)
+![&#x200B; セグメントルールの強化 &#x200B;](assets/mm-q4-release-1.png)
 
 ### 更新：CRM 書き出しのエラー処理設定
 
@@ -66,7 +66,7 @@ ht-degree: 88%
 
 ### リマインダー：Salesforce フィールドの非推奨（廃止予定） - 6 月 14 日（PT）
 
-昨年発表したとおり、統合を簡素化し、Salesforceの標準オブジェクトに書き出す必要をなくすために、[ リード/連絡先オブジェクトへの書き出しジョブを段階的に廃止 ](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} します。 [ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。2024年6月14日（PT）にこの廃止が実施されます。
+昨年発表したとおり、統合を簡素化し、Salesforceの標準オブジェクトに書き出す必要をなくすために、[&#x200B; リード/連絡先オブジェクトへの書き出しジョブを段階的に廃止 &#x200B;](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} します。 [ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。2024年6月14日（PT）にこの廃止が実施されます。
 
 この変更により、次の 2 つの主なメリットが得られます。
 
@@ -75,7 +75,7 @@ ht-degree: 88%
 
 ### 起因する商談ダッシュボード
 
-新しい [ アトリビューションされた機会ダッシュボード ](/help/marketo-measure-discover-ui/attributed-opportunity-dashboard.md){target="_blank"} を導入するのを非常に楽しみにしています。このダッシュボードは、マーケティング活動が、新興のパイプライン機会と成熟したパイプライン機会の両方にどのように貢献しているかを包括的に把握できるように設計されています。 このダッシュボードでは、戦略に起因するすべてのオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージごとに柔軟にフィルタリングできます。ここでは、起因する商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、起因する商談額の合計と、起因するオープンな商談およびクローズされた商談の数が表示されます。
+新しい [&#x200B; アトリビューションされた機会ダッシュボード &#x200B;](/help/marketo-measure-discover-ui/attributed-opportunity-dashboard.md){target="_blank"} を導入するのを非常に楽しみにしています。このダッシュボードは、マーケティング活動が、新興のパイプライン機会と成熟したパイプライン機会の両方にどのように貢献しているかを包括的に把握できるように設計されています。 このダッシュボードでは、戦略に起因するすべてのオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージごとに柔軟にフィルタリングできます。ここでは、起因する商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、起因する商談額の合計と、起因するオープンな商談およびクローズされた商談の数が表示されます。
 
 ### Marketo Measure UltimateのMarketo Engage Cookie 同期
 
@@ -98,7 +98,7 @@ Marketo Measure Ultimate で Marketo Engage cookie 同期を使用できるよ�
 
 プライバシーに関する懸念の高まりに対応して、サードパーティ cookie は段階的に廃止されており、Google Chrome の 2024年第 3 四半期の期限は、その終了を示しています。Marketo Measure では、サードパーティ cookie に依存する特定の機能、特に Google／DoubleClick インプレッション cookie に依存するクロスドメイントラッキングとビュースルーアトリビューションを廃止する予定です。この変更は、Marketo Measure の他の機能やファーストパーティ cookie の使用には影響しません。Google のタイムラインに従って、これらの機能は 6月1日（PT）までに廃止する予定ですが、この日付より前に収集したデータには引き続きアクセスできます。
 
-* [Marketo Measureにおけるサードパーティ Cookie の非推奨（廃止予定）への対応 ](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
+* [Marketo Measureにおけるサードパーティ Cookie の非推奨（廃止予定）への対応 &#x200B;](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure の Cookie](/help/marketo-measure-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### 強化されたエラー処理の段階的なロールアウト
