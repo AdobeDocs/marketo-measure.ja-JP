@@ -1,25 +1,25 @@
 ---
-unique-page-id: 18874584
-description: "[!DNL Marketo Measure] オブジェクトとフィールドの分類 –  [!DNL Marketo Measure]"
+description: '[!DNL Marketo Measure] オブジェクトとフィールドの分類  [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] オブジェクトとフィールドの分類'
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
+
 
 # [!DNL Marketo Measure] オブジェクトとフィールドの分類 {#marketo-measure-object-and-field-taxonomy}
 
 カスタムオブジェクトと標準オブジェクトの関係 [!DNL Marketo Measure] 示すフローチャート [!DNL Salesforce] 次に示します。
 
-![](assets/1-2.png)
+![ 2](assets/1-2.png)
 
-フルサイズの画像については、[&#x200B; ここをクリック &#x200B;](assets/bizible-object-and-field-taxonomy-graph-full.png) してください。
+フルサイズの画像については、[ ここをクリック ](assets/bizible-object-and-field-taxonomy-graph-full.png) してください。
 
-各オブジェクトに存在する [!DNL Marketo Measure] フィールドの定義 [&#x200B; こちらを参照 &#x200B;](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)。
+各オブジェクトに存在する [!DNL Marketo Measure] フィールドの定義 [ こちらを参照 ](/help/glossary.md)。
 
 ## よくある質問 {#faq}
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 **[!DNL Marketo Measure] 人とは何ですか？**
 
-これは、[!DNL Salesforce] のカスタム [!DNL Marketo Measure] オブジェクトで、購入者タッチポイントをリードおよび連絡先にリンクします。
+これは、[!DNL Marketo Measure] のカスタム [!DNL Salesforce] オブジェクトで、購入者タッチポイントをリードおよび連絡先にリンクします。
 
 **[!DNL Bizible].JS とは**
 
@@ -37,4 +37,4 @@ ht-degree: 3%
 
 **マーケティング ROI ダッシュボードとは**
 
-これは、[!DNL Marketo Measure] アプリに存在するカスタムマーケティングチャネルダッシュボードです。 [!DNL Salesforce] の「[!DNL Marketo Measure]」タブに移動してアクセスできます。
+これは、[!DNL Marketo Measure] アプリに存在するカスタムマーケティングチャネルダッシュボードです。 [!DNL Marketo Measure] の「[!DNL Salesforce]」タブに移動してアクセスできます。

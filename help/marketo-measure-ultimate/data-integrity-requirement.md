@@ -3,12 +3,13 @@ description: '[!DNL Marketo Measure] Ultimateのデータ整合性要件 –  [!
 title: '[!DNL Marketo Measure] Ultimate のデータ整合性要件'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 86%
+source-wordcount: '1610'
+ht-degree: 84%
 
 ---
+
 
 # [!DNL Marketo Measure] Ultimate のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
 
@@ -894,10 +895,9 @@ ht-degree: 86%
 **コンバージョンレート**：各（ソース通貨、ターゲット通貨）ペアに、異なる日付範囲に対して複数のコンバージョンレートを設定できます。 料金は、Salesforceの DatedConversionRate オブジェクトに従って、0001-01-01 から 9999-12-31 までの全期間をカバーする必要があります。
 
 **日付範囲**:
+
 * 設定されたレート（ソース通貨、ターゲット通貨）内に重複する日付範囲がありません（例：2023-01-01 ～ 2023-02-01 および 2023-01-01 ～ 2024-01-01）。
 * 日付範囲間にギャップはありません。 開始日はその日を含み、終了日はその日を含みません。
-
-<p>
 
 ## ExperienceEvent {#experienceevent}
 
@@ -1133,7 +1133,7 @@ personType フィールドには、「リード」または「取引先責任者
 
 ### XDM ビジネスアカウント {#xdm-business-account}
 
-```
+```sql
 select 'account source id', count(*) from salesforce_account where accountKey.sourceId is null
 union all
 select 'account source type', count(*) from salesforce_account where accountKey.sourceType is null
@@ -1151,7 +1151,7 @@ select 'last updated date', count(*) from salesforce_account where extSourceSyst
 
 ### XDM ビジネスキャンペーン {#xdm-business-campaign}
 
-```
+```sql
 select 'campaign source id', count(*) from salesforce_campaign where campaignKey.sourceId is null
 union all
 select 'campaign source type', count(*) from salesforce_campaign where campaignKey.sourceType is null
@@ -1169,7 +1169,7 @@ select 'last updated date', count(*) from salesforce_campaign where extSourceSys
 
 ### XDM ビジネスキャンペーンメンバー {#xdm-business-campaign-member}
 
-```
+```sql
 select 'campaign member source id', count(*) from salesforce_campaign_member where campaignMemberKey.sourceId is null
 union all
 select 'campaign member source type', count(*) from salesforce_campaign_member where campaignMemberKey.sourceType is null
@@ -1207,7 +1207,7 @@ select 'last updated date', count(*) from salesforce_campaign_member where extSo
 
 ### XDM ビジネス担当者 {#xdm-business-person}
 
-```
+```sql
 select 'person source id', count(*) from marketo_person where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from marketo_person where b2b.personKey.sourceType is null
@@ -1229,7 +1229,7 @@ union all
 select 'last updated date', count(*) from marketo_person where extSourceSystemAudit.lastUpdatedDate is null;
 ```
 
-```
+```sql
 select 'person source id', count(*) from salesforce_contact where b2b.personKey.sourceId is null
 union all
 select 'person source type', count(*) from salesforce_contact where b2b.personKey.sourceType is null
@@ -1261,7 +1261,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 
 ### XDM ビジネス商談 {#xdm-business-opportunity}
 
-```
+```sql
 select 'opportunity source id', count(*) from salesforce_opportunity where opportunityKey.sourceId is null
 union all
 select 'opportunity source type', count(*) from salesforce_opportunity where opportunityKey.sourceType is null
@@ -1299,7 +1299,7 @@ select 'last updated date', count(*) from salesforce_opportunity where extSource
 
 ### XDM ExperienceEvent {#xdm-experienceevent}
 
-```
+```sql
 select 'id', count(*) from marketo_activity where _id is null
 union all
 select 'event type', count(*) from marketo_activity where eventType is null
@@ -1331,7 +1331,7 @@ union all
 select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
-```
+```sql
 select 'id', count(*) from salesforce_task where _id is null
 union all
 select 'event type', count(*) from salesforce_task where eventType is null
@@ -1349,7 +1349,7 @@ select 'person source key', count(*) from salesforce_task where personKey.source
 
 ### コンバージョン {#conversion}
 
-```
+```sql
 select 'conversion rate', count(*) from currency_conversion_rate where conversionRate is null
 union all
 select 'end date', count(*) from currency_conversion_rate where endDate is null
@@ -1377,8 +1377,8 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 
 フィールドマッピングで計算フィールドを使用して、フィールドをデフォルトで NULL 以外の値に設定することをお勧めします。次に 2 つの例を示します。
 
-* 一部の商談レコードの opportunityName が null の場合は、次の計算フィールドをフィールドマッピングで作成して使用
+* 一部の商談レコードの `opportunityName` が null の場合、フィールドマッピングで次の計算フィールドを作成して使用します
    * `iif(name != null && trim(name) != "", name, "Unknown")`
 
-* 一部の experienceevent レコードの leadOperation.campaignProgression.campaignID が null の場合は、次の計算フィールドをフィールドマッピングで作成して使用
+* 一部のエクスペリエンスイベントレコードの `leadOperation.campaignProgression.campaignID` が null の場合、フィールドマッピングで次の計算フィールドを作成して使用します
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

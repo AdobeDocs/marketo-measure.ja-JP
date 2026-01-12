@@ -3,22 +3,22 @@ description: ' [!DNL Marketo Measure] CRM パッケージのベストプラク�
 title: ' [!DNL Marketo Measure] CRM パッケージのベストプラクティス'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 7%
 
 ---
 
+
 # CRM パッケージ [!DNL Marketo Measure] ベストプラクティス {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
->
 >ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。この情報は更新され、ブランド変更はすぐに CRM に反映されます。
 
 ## 概要 {#overview}
 
-[!DNL Marketo Measure] は [!DNL Salesforce] と [!DNL Microsoft Dynamics] の両方と統合されているため、このドキュメントでは、[!DNL Salesforce] 用に設計された CRM パッケージの [!DNL Marketo Measure] のベストプラクティスに焦点を当てています。
+[!DNL Marketo Measure] は [!DNL Salesforce] と [!DNL Microsoft Dynamics] の両方と統合されているため、このドキュメントでは、[!DNL Marketo Measure] 用に設計された CRM パッケージの [!DNL Salesforce] のベストプラクティスに焦点を当てています。
 
 実装時に、[!DNL Salesforce] インスタンスに次の 2 つのパッケージがインストールされていました。
 
@@ -49,12 +49,10 @@ CRM パッケージの設定は最初の実装時にカバーされますが、C
 * 最新バージョンのバイヤータッチポイントパッケージが [!DNL Salesforce] にインストールされていることを確認します
 
 >[!NOTE]
->
->Salesforce へのデータの書き出しを無効にしても、既存のMarketo Measureのデータは削除されません。 削除するには、[&#x200B; この Salesforce ヘルプ記事 &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"} の手順に従います。
+>Salesforceへのデータの書き出しを無効にしても、既存のMarketo Measureは削除されません。 削除するには、[ このSalesforce ヘルプ記事 ](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"} の手順に従います。
 
 >[!MORELIKETHIS]
->
->* [Buyer Touchpoint パッケージの更新 &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure]  アクセス権セット &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [&#x200B; レポートとダッシュボードのフォルダーの共有 &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
->* [Marketo Measureと Salesforce の接続 &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
+> [Buyer Touchpoint パッケージの更新 ](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
+> [[!DNL Marketo Measure] 権限セット ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [報告書とダッシュボードの共有フォルダー ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Marketo MeasureをSalesforceに接続する ](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

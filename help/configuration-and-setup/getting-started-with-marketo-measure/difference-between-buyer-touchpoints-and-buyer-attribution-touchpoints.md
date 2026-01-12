@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874646
 description: Buyer Touchpoints と Buyer Attribution Touchpoints の違い -  [!DNL Marketo Measure]
 title: Buyer Touchpoints と Buyer Attribution Touchpoints の違い
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
 ---
+
 
 # Buyer Touchpoints と Buyer Attribution Touchpoints の違い {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
@@ -21,31 +21,31 @@ Buyer Attribution Touchpoint オブジェクトは、取引先責任者、アカ
 
 BT と BAT の違い：
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
-  <tr> 
-   <td>Buyer Touchpoint（BT）</td> 
-   <td>Buyer Attribution Touchpoint（BAT）</td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>リード、連絡先、事例オブジェクトに関連する</li> 
-     <li>商談オブジェクトに関連しない</li> 
-     <li>収益は Buyer Touchpoint には関連付けられない</li> 
-    </ul></td> 
-   <td> 
-    <ul> 
-     <li>連絡先、アカウント、商談オブジェクトに関連する</li> 
-     <li>リードオブジェクトに関連しない</li> 
-     <li>Buyer Attribution Touchpoint は、商談に関連付けられているので、すべての BAT には、それらに関連付けられた収益がある</li> 
-    </ul></td> 
-  </tr> 
- </tbody> 
+<table>
+ <colgroup>
+  <col>
+  <col>
+ </colgroup>
+ <tbody>
+  <tr>
+   <td>Buyer Touchpoint（BT）</td>
+   <td>Buyer Attribution Touchpoint（BAT）</td>
+  </tr>
+  <tr>
+   <td>
+    <ul>
+     <li>リード、連絡先、事例オブジェクトに関連する</li>
+     <li>商談オブジェクトに関連しない</li>
+     <li>収益は Buyer Touchpoint には関連付けられない</li>
+    </ul></td>
+   <td>
+    <ul>
+     <li>連絡先、アカウント、商談オブジェクトに関連する</li>
+     <li>リードオブジェクトに関連しない</li>
+     <li>Buyer Attribution Touchpoint は、商談に関連付けられているので、すべての BAT には、それらに関連付けられた収益がある</li>
+    </ul></td>
+  </tr>
+ </tbody>
 </table>
 
 ## よくある質問 {#faq}

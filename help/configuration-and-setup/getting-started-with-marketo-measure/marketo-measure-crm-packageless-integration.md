@@ -1,15 +1,15 @@
 ---
-unique-page-id: 37356027
-description: "[!DNL Marketo Measure] CRM パッケージレス統合 –  [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] CRM パッケージレス統合"
+description: '[!DNL Marketo Measure] CRM パッケージレス統合 –  [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] CRM パッケージレス統合'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '305'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
+
 
 # [!DNL Marketo Measure] CRM パッケージレス統合 {#marketo-measure-crm-packageless-integration}
 
@@ -31,12 +31,11 @@ ht-degree: 1%
 
 以下のガイドでは、[!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] Managed Solution をインストールする手順をスキップし、権限と統合手順にのみ従ってください。
 
-[!DNL Salesforce] のお客様は [&#x200B; こちら &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md) をクリックしてください。
+[!DNL Salesforce] のお客様は [ こちら ](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md) をクリックしてください。
 
-[!DNL Microsoft Dynamics] のお客様は [&#x200B; こちら &#x200B;](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md) をクリックしてください。
+[!DNL Microsoft Dynamics] のお客様は [ こちら ](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md) をクリックしてください。
 
-これらの手順を完了すると、統合は動作するようになります。 問題が発生した場合は、[!DNL Marketo Measure] 担当者または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+これらの手順を完了すると、統合は動作するようになります。 問題が発生した場合は、[!DNL Marketo Measure] 担当者または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 >[!NOTE]
->
->[!DNL Marketo Measure] CRM パッケージレス統合を使い始めた場合は、後で Salesforce パッケージかMicrosoft Dynamics 管理ソリューションをインストールできます。
+>[!DNL Marketo Measure] CRM パッケージレス統合から始める場合は、後でSalesforce パッケージまたはMicrosoft Dynamics Managed Solution をインストールできます。

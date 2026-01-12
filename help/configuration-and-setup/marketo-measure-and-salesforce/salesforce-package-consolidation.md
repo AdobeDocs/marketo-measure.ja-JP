@@ -1,14 +1,15 @@
 ---
-description: '[!DNL Salesforce] パッケージ統合 –  [!DNL Marketo Measure]'
+description: '[!DNL Salesforce] パッケージの統合 –  [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] パッケージの統合'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 5%
+source-wordcount: '449'
+ht-degree: 6%
 
 ---
+
 
 # [!DNL Salesforce] パッケージの統合 {#salesforce-package-consolidation}
 
@@ -25,11 +26,11 @@ ht-degree: 5%
 レポート機能を強化する新しいフィールドが 2 つあります。
 
 * form_name：BT/BAT オブジェクトで使用できるようになったこのフィールドにより、ユーザーはフォーム名に基づいてレポートを作成できます。
-* user_touchpoint_id：このフィールドを使用すると、ユーザーは一意のユーザータッチポイント数（Salesforce での `bizible2__User_Touchpoint_V2__c`）でレポートを作成できます。
+* user_touchpoint_id：このフィールドを使用すると、一意のユーザータッチポイント数を含むレポートを作成できます（Salesforceでの `bizible2__User_Touchpoint_V2__c`）。
 
 ## サポートと移行 {#support-and-transition}
 
-[&#x200B; サポートチーム &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} は、ご質問にお答えし、新しい統合パッケージへのスムーズな移行を支援いたします。
+[ サポートチーム ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} は、ご質問にお答えし、新しい統合パッケージへのスムーズな移行を支援いたします。
 
 ## 必要なアクション {#retired-actions}
 
@@ -41,13 +42,13 @@ ht-degree: 5%
       * V2_EXT クエリ：
          * bizible2_ext__Ad_Content_FT__c にはアウトリーチが含まれています
 
-![](assets/package-consolidation-1.png)
+![V2_EXT Ad Content FT フィールドを使用したサンプルレポートフィルター ](assets/package-consolidation-1.png)
 
 * 統合パッケージ内の対応するクエリ：
    * bizible2__Touchpoint_Position__c には、FT と
    * bizible2__Ad_Content__c にはアウトリーチが含まれています
 
-![](assets/salesforce-package-consolidation-2.png)
+![ 統合タッチポイントフィールドを使用した同等のレポートフィルター ](assets/salesforce-package-consolidation-2.png)
 
 ## よくある質問 {#faq}
 
@@ -57,12 +58,12 @@ ht-degree: 5%
 
 **現在のパッケージのデータをバックフィルするにはどうすればよいですか？**
 
-BT/BAT データのバックフィルと再処理を行い、タッチポイント ID およびフォーム ID フィールドに入力するためのチケットを [&#x200B; サポート付き &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 提出できます。
+BTとBATのデータをバックフィルして再処理し、タッチポイント ID およびフォーム ID フィールドに入力するためのチケットを [ サポート付き ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 提出できます。
 
 **V1 および V2_EXT パッケージのフィールドは、統合パッケージで使用できますか？**
 
-あります。統合パッケージには、V1 に同じフィールドが含まれており、オブジェクト別にさらに分類され、タッチポイントフィールドを介して V2_EXT フィールドが含まれています。
+はい。統合パッケージには、V1 に同じフィールドが含まれており、オブジェクト別にさらに分類され、タッチポイントフィールドを介して V2_EXT フィールドが含まれています。
 
 **V2_EXT フィールドを使用するレポートを、統合パッケージで再作成することはできますか？**
 
-あります。[&#x200B; 必須アクション &#x200B;](#retired-actions) の節の手順に従います。
+はい。[ 必須アクション ](#retired-actions) の節の手順に従います。

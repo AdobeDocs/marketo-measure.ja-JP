@@ -1,27 +1,25 @@
 ---
-unique-page-id: 35586140
-description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメント
+description: Data Warehouse スキーマ
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: '21106'
 ht-degree: 99%
 
 ---
+
 
 # Data Warehouse スキーマ {#data-warehouse-schema}
 
 Data Warehouse を使用すると、好きなだけトラッキングしたり、好きな場所でアトリビューションデータをレポートしたり、他のデータセットに接続したりできます。
 
 >[!IMPORTANT]
->
->* _DELETED_DATE の値を含む行は、7 日間保持された後、Snowflake から削除されます。
->* Snowflake で使用されるタイムゾーンは、協定世界時（UTC）に準拠しています。
+> _DELETED_DATE の値を含む行は、7 日間保持された後、Snowflake から削除されます。
+> Snowflake で使用されるタイムゾーンは、協定世界時（UTC）に準拠しています。
 
 >[!NOTE]
->
 >この記事の下部にあるサンプルクエリを参照するには、[こちらをクリック](#sample-queries)します。
 
 ## エンティティ関係図 {#entity-relationship-diagrams}
@@ -40,9 +38,9 @@ _フルサイズバージョンを表示するには、画像をクリックし�
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
-  </tr> 
- </tbody> 
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
+  </tr>
+ </tbody>
 </table>
 
 ## ビュー {#views}
@@ -3069,7 +3067,7 @@ Attribution AI の統合から生成されたデータ。以下のフィール�
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>コンバージョンイベントの元の MM イベント ID
-    <br>ユーザのタッチポイントまたはステージトランジションにマッピングされます</td>
+    <br> ユーザータッチポイントまたはステージ遷移にマッピング</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -5791,8 +5789,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
 インプレッション、ページビュー、訪問数、フォーム送信、User Touchpoints、Touchpoint（BT）、Attribution Touchpoints（BAT）およびコストデータを結合します。[!DNL Marketo Measure] レポートをサポートするために内部で使用されます。
 
 >[!IMPORTANT]
->
->Marketo Measure は、2024 年半ばにこのテーブルを廃止する予定です。自分で作成する場合は、[この SQL クエリ](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql)を実行してください。
+>Marketo Measure は、2024 年半ばにこのテーブルを廃止する予定です。自分で作成する場合は、[この SQL クエリ](/help/data-warehouse/assets/BIZ_FACTS.sql)を実行してください。
 
 <table>
   <tbody>
@@ -6528,7 +6525,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>レコードが削除されたかどうか（監査証跡として使用されます）。</p>
+        <p>レコードが削除されたかどうか（監査記録として使用されます）。</p>
       </td>
       <td>
         <p>false</p>
@@ -6664,7 +6661,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>フォームが送信された URL（任意のクエリパラメーターを含む）。</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6918,7 +6915,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>インプレッションが提供された URL（任意のクエリパラメーターを含む）。</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -9333,7 +9330,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
         <p>ページビューが発生した URL（任意のクエリパラメーターを含む）。</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9912,7 +9909,7 @@ Web 訪問から収集されたページビューです。複数のページビ�
         <p>セッションの最初のページビューの URL（任意のクエリパラメーターを含む）。</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -11613,7 +11610,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
         <p>タッチポイントとなったセッションの最初のランディングページ。未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。CRM では、「ランディングページ未加工」と呼ばれます。</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12628,7 +12625,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
         <p>タッチポイントとなったセッションの最初のランディングページ。未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。CRM では、「ランディングページ未加工」と呼ばれます。</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12673,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
         <p>タッチポイントとなったセッションに記録された最初のフォーム。後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。CRM では、「フォーム URL - 未加工」と呼ばれます。</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13265,7 +13262,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>varchar</td>
       <td>ページビューの URL（任意のクエリパラメーターを含む）。</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13361,7 +13358,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13383,7 +13380,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13450,7 +13447,6 @@ order by 1
 **単一の商談について、すべての Buyer Attribution Touchpoints（BAT）およびその「起因する収益」を表示する。**
 
 >[!NOTE]
->
 >このクエリは、w 字モデルの起因する収益を返します。起因する収益計算のフィールドを更新して、モデルを変更します。
 
 ```

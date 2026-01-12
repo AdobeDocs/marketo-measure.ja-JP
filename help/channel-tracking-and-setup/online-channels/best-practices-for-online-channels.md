@@ -3,12 +3,13 @@ description: オンラインチャネルのベストプラクティス - [!DNL M
 title: オンラインチャネルのベストプラクティス
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
+
 
 # オンラインチャネルのベストプラクティス {#best-practices-for-online-channels}
 
@@ -36,7 +37,7 @@ ht-degree: 100%
    * [!DNL Marketo Measure] は各ルール（行）を読み取り、true の最初の適合を探します。その後、タッチポイントがそのチャネル／サブチャネルにマッピングされます
    * 論理ルールに干渉するので、シートをアルファベット順で並べ替えないでください。
 * 括弧付きのルールを維持し、括弧付きのルールを編集したり追加したりしない（例：[AdWords 有料検索]または [Facebook 有料検索]）
-   * これらは、[!DNL Marketo Measure] 統合に関連付けられたロジックが組み込まれた、すぐに使用できる [!DNL Marketo Measure] ルールです。[!DNL Marketo Measure] 統合は設計どおりに動作できるように、これらのルールをそのチャネル／サブチャネルセクションで最優先に設定します。
+   * これらは、[!DNL Marketo Measure] 統合に関連付けられたビルトインのロジックを持つ、すぐに使用できる [!DNL Marketo Measure] ルールです。[!DNL Marketo Measure] 統合は設計どおりに動作できるように、これらのルールをそのチャネル／サブチャネルセクションで最優先に設定します。
 * ファイルがアップロードされると、7 日間はルールを変更できない
    * [!DNL Marketo Measure] では、この時間を利用してタッチポイントを処理および更新するので、アップロードする前に必ずルールを再確認すること。
 
@@ -54,8 +55,7 @@ ht-degree: 100%
 チームが最近上記のいずれかを経験した場合、[!DNL Marketo Measure] ではオンラインチャネルのルールを確認し、適切な変更を行うことをお勧めします。
 
 >[!MORELIKETHIS]
->
->* [オンラインチャネルの設定](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [UTM パラメーター](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [マーケティングチャネルとサブチャネル](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
->* [UTM のベストプラクティス](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+> [オンラインチャネルの設定](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [UTM パラメーター ](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+> [マーケティングチャネルとサブチャネル ](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+> [UTM のベストプラクティス ](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)

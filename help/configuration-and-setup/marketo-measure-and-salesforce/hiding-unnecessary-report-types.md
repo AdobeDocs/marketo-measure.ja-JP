@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874785
 description: 不要なレポート・タイプの非表示 –  [!DNL Marketo Measure]
 title: 不要なレポートタイプの非表示
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '144'
 ht-degree: 5%
 
 ---
+
 
 # 不要なレポートタイプの非表示 {#hiding-unnecessary-report-types}
 
@@ -25,8 +25,7 @@ ht-degree: 5%
 
 1. 以下にオレンジ色の「X」が付いたマークが付いているレポートをクリックすると、レポートリストが以下の画像と同じになります。
 
-   ![](assets/1-4.png)
+   ![ 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
->
->[Salesforce – 未使用のレポートタイプを非表示 &#x200B;](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[Salesforce – 未使用のレポートタイプを非表示にする ](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874682
 description: マーケティングチャネルとサブチャネル - [!DNL Marketo Measure]
 title: マーケティングチャネルとサブチャネル
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
+
 
 # マーケティングチャネルとサブチャネル {#marketing-channels-and-subchannels}
 
@@ -49,7 +49,7 @@ UTM パラメーターに基づいて「バケット」に分類されるリー�
 
 この場合、ユーザーがアクセスしようとしているコンテンツは、B2B マーケティングアトリビューションの概要ガイドです。[!DNL Marketo Measure] では、この組織で設定されたチャネルルールを使用して、このコンテンツにつながる URL を分析および使用し、このリードをマーケティングチャネルの「有料ソーシャル」とサブチャネルの「LinkedIn」に「バケット化」します。
 
-![](assets/1.jpg)
+![ タグ付き URL からのマーケティングチャネル、サブチャネルおよびコンテンツをリンクする図 ](assets/1.jpg)
 
 その他の例…
 

@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874694
 description: Salesforce サンドボックスから実稼動への移行 -  [!DNL Marketo Measure]
 title: Salesforce サンドボックスから実稼動への移行
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
+
 
 # Salesforce サンドボックスから実稼動への移行 {#salesforce-sandbox-to-production-migration}
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * 「[!UICONTROL すべてのユーザ]」設定で [!DNL Marketo Measure] パッケージを実稼動環境にインストールします
 
-   * [ベースパッケージ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [ 基本パッケージ ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * [!DNL Marketo Measure] と [!DNL Salesforce] の関係について詳しくは、[この記事](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)を参照してください
 * [!DNL Salesforce] の設定が少し必要です。具体的なアクション項目については、[以下の手順 4](#salesforce-configuration) を参照してください
@@ -31,7 +31,7 @@ ht-degree: 100%
 * SFDC 接続の横にあるごみ箱アイコンをクリックして削除します
 * 削除を確認するプロンプトが表示されます。プロンプトを注意深く読んで、削除の結果を理解します
 
-  ![](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![Marketo Measure サンドボックスの削除を確認するSalesforce接続ページ ](assets/salesforce-sandbox-to-production-migration-1.png)
 
    * 確認モデルのプロンプトに従ってビジネスの名前を入力し、「結果を理解しました。この接続を削除します」をクリックします
 * これにより、削除プロセスがトリガーされ、完了するまでに時間がかかります
@@ -51,8 +51,8 @@ ht-degree: 100%
 
 [権限セット](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[レポートの共有](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0){target="_blank"}
+[ レポートの共有 ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [不要なレポートタイプの非表示](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 
-[カスタムワークフロー（該当する場合）](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+[カスタムワークフロー（該当する場合）](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)

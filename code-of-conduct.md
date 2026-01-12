@@ -1,14 +1,13 @@
 ---
-source-git-commit: ea1e867b7169bac473d8e9754cbb97a0fdcb57fd
-workflow-type: ht
-source-wordcount: '431'
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+workflow-type: tm+mt
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
 # アドビ行動規範
 
 ## アドビの誓約
-
 
 オープンで居心地の良い環境を育むために、私たちは投稿者およびメンテナーとして、年齢、体の大きさ、障害、民族、性同一性、表現、経験のレベル、国籍、個人的な外見、人種、宗教、または性同一性と方向性に関係なく、私たちのプロジェクトとコミュニティへの参加をすべての人にとってハラスメントのない体験にすることを約束します。 
 
