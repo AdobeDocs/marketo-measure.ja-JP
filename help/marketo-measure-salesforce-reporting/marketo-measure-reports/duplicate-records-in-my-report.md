@@ -33,4 +33,4 @@ ht-degree: 9%
 「取引先責任者数」を把握したい場合は、「カウント – ファーストタッチ」、「カウントリード作成タッチ」、「カウント - U字型」のフィールドを使用して、マーケティングインタラクションを行った取引先責任者の数を把握できます。
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

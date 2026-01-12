@@ -46,4 +46,4 @@ ht-degree: 3%
    これは、マーケティングチャネル別に要約された商談レポートで、チャネルをまたいでクローズ済みの失注を測定します。 このレポートを使用すると、パフォーマンスが低い可能性のあるチャネルを把握できます。 レポートしたいフィルターやフィールドに自由に追加できます。
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
