@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] AdWords タグ付けについて –  [!DNL Marketo Measure]'
+description: 'Marketo Measure ユーザー向け AdWords タグ付けガイダンスについて  [!DNL Marketo Measure] '
 title: ' [!DNL Marketo Measure] AdWords のタグ付けについて'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 6%
 
 ---
-
 
 # [!DNL Marketo Measure] AdWords タグ付けについて {#understanding-marketo-measure-adwords-tagging}
 
@@ -28,7 +27,7 @@ ht-degree: 5%
 **追跡テンプレート [!DNL Marketo Measure] 見つかった場合：**
 
 * [!DNL Marketo Measure] のパラメーターを追跡テンプレートに追加します。
-* サードパーティのリダイレクトが Kenshoo や Marin などのトラッキングテンプレートで見つかった場合、[!DNL Marketo Measure] のアクションは実行されません。 代わりに、[&#x200B; アカウントのサードパーティツールにパラメーターを追加  [!DNL Marketo Measure]  する &#x200B;](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} 必要があります。
+* サードパーティのリダイレクトが Kenshoo や Marin などのトラッキングテンプレートで見つかった場合、[!DNL Marketo Measure] のアクションは実行されません。 代わりに、[ アカウントのサードパーティツールにパラメーターを追加  [!DNL Marketo Measure]  する ](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} 必要があります。
 
 ただし、トラッキングテンプレートが見つからない場合は、次のよ [!DNL Marketo Measure] になります。
 
@@ -41,7 +40,7 @@ ht-degree: 5%
 
 ## 追跡テンプレート {#tracking-templates}
 
-[!DNL Google AdWords] で説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックの把握に使用されます。 Googleについて詳しくは、[&#x200B; ここをクリック &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} してください。
+[!DNL Google AdWords] で説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックの把握に使用されます。 Googleについて詳しくは、[ ここをクリック ](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} してください。
 
 [!DNL Marketo Measure] では、広告履歴の中断や削除のリスクなしにすべての広告に関するパラメーターの追加と削除が可能なので、アカウントレベル、キャンペーンレベルまたは広告グループレベルのトラッキングテンプレートを使用することをお勧めします。
 
@@ -61,11 +60,11 @@ ht-degree: 5%
 
 1. 展開ウィンドウで **[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL 設定]** をクリックします。
 
-   ![&#x200B; 「設定」オプションを使用して、すべてのキャンペーンメニューを表示するGoogle AdWords ナビゲーション &#x200B;](assets/1.png)
+   ![1.展開の「すべてのキャンペーン」をクリックしてから「設定」をクリックし ](assets/utilizing-connections-13.png) す。
 
 1. 上部の **[!UICONTROL アカウント設定]** をクリックし、次に **[!UICONTROL トラッキングテンプレート]** をクリックします。 [!DNL Marketo Measure] 追跡テンプレートを入力します。
 
-   ![Marketo Measure パラメーターを入力するための「トラッキングテンプレート」フィールドを含むアカウント設定ページ &#x200B;](assets/2-1.png)
+   ![1.上部の「アカウント設定」をクリックし、「トラッキング」をクリックし ](assets/bizible-guide-1.png) す。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -73,11 +72,11 @@ ht-degree: 5%
 
 1. 展開ウィンドウで **[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL キャンペーン]** をクリックします。
 
-   ![&#x200B; 「キャンペーン」オプションを使用してすべてのキャンペーンメニューを表示するGoogle AdWords ナビゲーション &#x200B;](assets/3.png)
+   ![1.すべてのキャンペーンをクリックしてから、展開内のキャンペーンをクリックし ](assets/utilizing-connections-12.png) す。
 
 1. 該当するキャンペーンをすべて選択するか、「**[!UICONTROL すべてを選択]**」をクリックし、「**[!UICONTROL 編集]**」をクリックして、「**[!UICONTROL トラッキングテンプレートを変更]**」をクリックします。
 
-   ![&#x200B; 「変更の追跡テンプレート」オプションが表示された「編集」メニューを使用したキャンペーン選択ページ &#x200B;](assets/4-1.png)
+   ![1.適用可能なすべてのキャンペーンを選択するか、すべてを選択し、「編集」をクリックします ](../assets/marketo-engage-activities-05.png)。
 
 1. [!DNL Marketo Measure] Tracking Template を入力し、「**[!UICONTROL Apply]**」をクリックします。
 
@@ -85,13 +84,13 @@ ht-degree: 5%
 
 1. 展開ウィンドウで、**[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL 広告グループ]** をクリックします。
 
-   ![&#x200B; 「広告グループ」オプションを使用して、すべてのキャンペーンメニューを表示するGoogle AdWords ナビゲーション &#x200B;](assets/5-1.png)
+   ![1.「すべてのキャンペーン」をクリックし、](assets/api-connections-01.png) の「広告グループ」をクリックします。
 
 1. 該当するすべての広告グループを選択するか、「すべて選択」を選択し、「**[!UICONTROL 編集]**」をクリックします。次に、「**[!UICONTROL トラッキングテンプレートを変更]**」をクリックします。
 
 1. [!DNL Marketo Measure] Tracking Template を入力し、「**[!UICONTROL Apply]**」をクリックします。
 
-   ![&#x200B; 「変更の追跡テンプレート」オプションと「適用」ボタンが表示された「編集」メニューを含む広告グループ選択ページ &#x200B;](assets/6-1.png)
+   ![1.「Marketo Measure トラッキングテンプレート」を入力し、「適用」をクリックします。](../assets/marketo-engage-activities-01.png)
 
 ## よくある質問 {#faq}
 
@@ -112,6 +111,7 @@ A: 4 時間
 A：動的検索広告の個々のクリエイティブの詳細は取得できませんが、自動タギングが有効になっている場合は、クリエイティブ ID と属性収益を取得できます。
 
 >[!NOTE]
->変更が完了したら、完了です。 設定中にご質問がある場合は [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}Marketo サポートまでお問い合わせください。
+>
+>変更が完了したら、完了です。 設定中にご質問がある場合は [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}Marketo サポートまでお問い合わせください。
 
-アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[&#x200B; ここをクリック &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。
+アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[ ここをクリック ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。

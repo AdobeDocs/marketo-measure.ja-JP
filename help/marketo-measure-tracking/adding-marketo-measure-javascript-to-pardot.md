@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] - [!DNL Pardot]  への  [!DNL Marketo Measure]JavaScriptの追加'
+description: Marketo Measure ユーザー向けの  [!DNL Marketo Measure] JavaScriptの追加  [!DNL Pardot]  ガイダンス
 title: ' [!DNL Marketo Measure]  に  [!DNL Pardot]JavaScriptを追加しています'
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '245'
 ht-degree: 2%
 
 ---
-
 
 # [!DNL Marketo Measure] への [!DNL Pardot] JavaScriptの追加 {#adding-marketo-measure-javascript-to-pardot}
 
@@ -25,11 +24,11 @@ ht-degree: 2%
 
 1. **[!UICONTROL レイアウトテンプレート]** を選択します。
 
-   ![&#x200B; 3](assets/1-3.png)
+   ![1.レイアウトテンプレート。](assets/adding-providers-4.png) を選択します。
 
 1. 適切なレイアウトテンプレートを決定し、右側の **[!UICONTROL 編集]** をクリックします。
 
-   ![&#x200B; 1](assets/2-1.png)
+   ![1.適切なレイアウトテンプレートを決定し、「編集」をクリックして ](assets/adding-pages-1.png) の操作を行います。
 
 1. HTML ページの閉じるヘッダータグの直前に [!DNL Marketo Measure] JavaScript コードをコピー&amp;ペーストします。
 

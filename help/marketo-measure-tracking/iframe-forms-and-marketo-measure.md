@@ -1,15 +1,14 @@
 ---
-description: IFrame フォームと  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向けの IFrame Forms and [!DNL Marketo Measure] guidance
 title: IFrame フォームと [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 85%
+source-wordcount: '202'
+ht-degree: 77%
 
 ---
-
 
 # IFrame フォームと [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
 
@@ -21,6 +20,6 @@ IFrame はページ内のページと考えてください。そのため、ス�
 
 JavaScript を IFrame の先頭に配置することをお勧めします。そこから、そのフレーム内のフォームに自動的に添付されます。
 
-![HTML コード &#x200B;](assets/1-1.png)
+![JavaScriptは、の先頭部分に配置することをお勧めします ](assets/adding-pages-1.png)
 
-JavaScriptの IFrame フォームへの追加に関するご質問は、Adobe アカウントチーム（アカウントマネージャー）または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+JavaScriptの IFrame フォームへの追加に関するご質問は、Adobe アカウントチーム（アカウントマネージャー）または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。

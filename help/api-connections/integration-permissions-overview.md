@@ -1,11 +1,11 @@
 ---
-description: 統合権限の概要 –  [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向けの統合権限の概要ガイダンス
 title: 統合権限の概要
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1291'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 3%
 <tbody>
   <tr>
     <td>Salesforce</td>
-    <td>B2B システムデータ  
+    <td>B2B システムデータ
 </td>
     <td>Marketo Measureがトラッキング中：
     <p>
@@ -61,7 +61,7 @@ ht-degree: 3%
     <p>
     <b>Salesforce Standard フィールドの権限 </b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Salesforce標準オブジェクトおよびアクセス </a>
+    <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md">Salesforce標準オブジェクトおよびアクセス </a>
     <p>
     <b>Salesforce カスタムフィールドの権限 </b>
     <br>
@@ -108,7 +108,7 @@ Marketo Measureのカスタムエンティティの場合は、すべてのエ�
 <p>
 <b>Dynamics Standard フィールドの権限 </b>
 <br>
-<a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics スキーマ </a>
+<a href="/help/marketo-measure-dynamics-schema.md">Marketo Measure Dynamics スキーマ </a>
 <p>
 <b>Dynamics カスタムフィールドの権限 </b>
 <br>
@@ -211,16 +211,16 @@ Marketo Measureは、キャンペーン、広告グループ、クリエイテ�
   <tr>
     <td>Marketo Engage</td>
     <td>B2B システムデータ</td>
-    <td>Marketo統合によって、Marketo Measureは、Marketoのアクティビティ、ユーザー、プログラムおよびプログラムメンバーシップを収集できます。 さらに、Marketo Measureは、Marketo web アクティビティをMarketo Measure リードタッチポイントにリンクする目的で、Marketo Cookie （Munchkin ID<a href="/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#cookie-mapping"> を追跡します（詳しくは、こちらを参照 </a>。
+    <td>Marketo統合によって、Marketo Measureは、Marketoのアクティビティ、ユーザー、プログラムおよびプログラムメンバーシップを収集できます。 さらに、Marketo Measureは、Marketo web アクティビティをMarketo Measure リードタッチポイントにリンクする目的で、Marketo Cookie （Munchkin ID<a href="/help/marketo-engage-programs-integration.md#cookie-mapping"> を追跡します（詳しくは、こちらを参照 </a>。
     <p>
     <i>MarketoとMarketo Measureを統合した結果、Marketo Measure Cookie ID もマッピングされ、Marketo Munchkin ID と同期されるようになりました。 これは、FT と LC の両方のタッチをMarketo アクティビティに関連付けるのではなく、匿名のファーストタッチを web セッションに関連付けることのできるギャップを埋めるのに役立ちます。</i>
     </td>
-    <td>お客様は、専用のMarketo Engage API ユーザーを作成し、Marketo Measureに資格情報を提供する必要があります。 追加の権限設定は必要ありません。 <a href="/help/marketo-measure-and-marketo/set-up-marketo-connection.md#configuring-the-integration">詳細情報</a>。</td>
+    <td>お客様は、専用のMarketo Engage API ユーザーを作成し、Marketo Measureに資格情報を提供する必要があります。 追加の権限設定は必要ありません。 <a href="/help/set-up-marketo-connection.md#configuring-the-integration">詳細情報</a>。</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
     <td>B2B システムデータ</td>
-    <td>B2B 顧客属性の統合により、Marketo MeasureとAdobe Analyticsの相互ユーザーは、Adobe Analytics アトリビューションエンジンおよび CRM との同期機能から得られる貴重なメタデータを使用して、Marketo Measure ユーザープロファイルをエンリッチメントできます（Microsoft DynamicsとSalesforce）。 <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">詳細情報</a>。</td>
+    <td>B2B 顧客属性の統合により、Marketo MeasureとAdobe Analyticsの相互ユーザーは、Adobe Analytics アトリビューションエンジンおよび CRM との同期機能から得られる貴重なメタデータを使用して、Marketo Measure ユーザープロファイルをエンリッチメントできます（Microsoft DynamicsとSalesforce）。 <a href="/help/adobe-analytics.md">詳細情報</a>。</td>
     <td>お客様は、Analytics インスタンスにデータをアップロードする場所に、Marketo Measureにエイリアス ID と FTP サーバー資格情報を提供する必要があります。
     <p>
     プロセスの後半の手順で必要になるので、次の情報に注意してください。
@@ -228,7 +228,7 @@ Marketo Measureは、キャンペーン、広告グループ、クリエイテ�
     <li>エイリアス ID。任意の値を指定できます。 「marketomeasure_id」をお勧めします</li>
     <li>FTP サーバーのホスト名と資格情報（ユーザー名とパスワード）</li>
     <p>
-    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">詳細情報</a></td>
+    <a href="/help/adobe-analytics.md#configuring-the-integration">詳細情報</a></td>
   </tr>
   <tr>
     <td>Bizible Javascript</td>
@@ -240,4 +240,4 @@ Marketo Measureは、キャンペーン、広告グループ、クリエイテ�
 </table>
 
 >[!MORELIKETHIS]
->[エラー通知](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[エラー通知](/help/configuration-and-setup/error-notifications.md){target="_blank"}

@@ -1,15 +1,14 @@
 ---
-description: Lightbox Formsへ  [!DNL Marketo Measure]  スクリプトの追加 –  [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向け Lightbox Formsガイダン  [!DNL Marketo Measure]  へのスクリプトの追加
 title: Lightbox フォームへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
-
 
 # Lightbox Formsへ [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-lightbox-forms}
 
@@ -21,11 +20,11 @@ Lightbox 内のフォームは基本的に iFrame 内のフォームなので、
 
 まず、[!UICONTROL lightbox] フォームが格納されている iFrame を見つけます。
 
-![&#x200B; ページソースでの Lightbox フォーム iFrame の場所 &#x200B;](assets/1.png)
+![ まず、Lightbox フォームが格納されている iFrame を見つけます。](assets/adding-providers-8.png)
 
 次に、[!DNL Marketo Measure] JavaScriptを iFrame 内に配置します。
 
-![Lightbox iFrame 内に配置されたMarketo Measure スクリプト &#x200B;](assets/2.png)
+![ 次に、iFrame 内にMarketo Measure JavaScriptを配置します。](assets/adding-providers-5.png)
 
 最後に、JavaScriptが追加されたら、次の手順に従って、フォーム送信が追跡されていることを検証します。
 

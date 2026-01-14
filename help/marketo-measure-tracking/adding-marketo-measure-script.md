@@ -1,22 +1,23 @@
 ---
-description: 追加  [!DNL Marketo Measure]  スクリプト - [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向けのスクリプ  [!DNL Marketo Measure]  ガイダンスの追加
 title: ' [!DNL Marketo Measure]  スクリプトの追加'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1298'
 ht-degree: 57%
 
 ---
-
 
 # [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure] で追跡する [!DNL Marketo Measure] JavaScript は、できるだけ早くすべての web プロパティに追加する必要があります。JavaScriptをデプロイすると、[!DNL Marketo Measure] がデジタルデータの収集を開始します。 この記事では、JavaScriptのデプロイ方法とその他 [!DNL Marketo Measure] 考慮事項の概要を説明します。
 
 >[!NOTE]
->[!DNL Marketo Measure] JavaScript のデプロイに加えて、[適切なドメインをすべて  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} で要求する必要があります。
+>
+>[!DNL Marketo Measure] JavaScript のデプロイに加えて、[適切なドメインをすべて  [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"} で要求する必要があります。
 
 [!DNL Marketo Measure] の使用を開始する際、[!DNL Marketo Measure] JavaScript を web サイトに追加するには次の 2 つの方法があります。
 
@@ -32,7 +33,8 @@ ht-degree: 57%
 JavaScriptをページの `<head>` にハードコードすると、[!DNL Marketo Measure] スクリプトが最初に読み込まれ、参照情報が失われることはありません。 [!DNL Marketo Measure] JavaScript は非同期で読み込まれます。ハードコードする場合は、JavaScript をマーケティングオートメーションに手動で追加する必要があります。
 
 >[!TIP]
->スクリプトが [GDPR に準拠 &#x200B;](/help/security/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"} していることを確認する方法を説明します。
+>
+>スクリプトが GDPR に準拠していることを確認する方法を説明します。
 
 ## タグ管理システム {#tag-management-systems}
 
@@ -56,7 +58,7 @@ JavaScriptをページの `<head>` にハードコードすると、[!DNL Market
 
 サードパーティのページを使用している場合は、ユースケースについて [!DNL Marketo Measure] コンサルタントと話し合ってください。 一般に、必要に応じて、JavaScriptのカスタムバージョンを追加して、それら [!DNL Marketo Measure] ページをトラッキングできるかどうかを知る必要があります。 それが不可能な場合は、[!DNL Marketo Measure] コンサルタントが CRM キャンペーンタッチポイントを使用したトラッキングを調査します。
 
-アトリビューションに対応していないフォーム（例えば、登録解除フォーム、顧客ログインなど）があり、[!DNL Marketo Measure] でトラッキングすべきでないフォームはありますか？ その場合は、除外コード [&#x200B; この記事 &#x200B;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} を各フォームに追加します
+アトリビューションに対応していないフォーム（例えば、登録解除フォーム、顧客ログインなど）があり、[!DNL Marketo Measure] でトラッキングすべきでないフォームはありますか？ その場合は、除外コード [ この記事 ](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} を各フォームに追加します
 
 セキュリティで保護されていないページはありますか？安全なページと安全でないページの間を移動すると、トラッキングセッションが中断されるので、これらを保護する必要があります。
 
@@ -64,7 +66,7 @@ JavaScriptをページの `<head>` にハードコードすると、[!DNL Market
 
 JavaScriptの設定中に [!DNL Web Application Firewall (WAF)] 警告がトリガーされた場合、次の例のように、そのWAF ルールを無効にするか、cookie を許可リストに加えるできます。
 
-![&#x200B; 例Marketo Measure スクリプトのWAF警告プロンプト &#x200B;](assets/adding-marketo-measure-script-1.png)
+![ 次の期間に web アプリケーションファイアウォール（WAF）の警告がトリガーされた場合 ](assets/adding-script-1.png)
 
 ## 特別な注意を払うべきフォーム {#forms-to-pay-extra-attention-to}
 
@@ -79,6 +81,7 @@ JavaScriptの設定中に [!DNL Web Application Firewall (WAF)] 警告がトリ�
 * 解決策：除外コードをアカウント／顧客／パートナーのログインフォームに追加します。
 
 >[!NOTE]
+>
 >アカウントまたは体験版を作成するためのタッチポイントを作成することをお勧めします。
 
 **アセットのダウンロード**

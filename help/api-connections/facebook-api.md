@@ -3,13 +3,13 @@ description: '[!DNL Facebook] API - [!DNL Marketo Measure]'
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
-
 
 # [!DNL Facebook] API {#facebook-api}
 
@@ -30,27 +30,29 @@ AdWords と [!DNL Bing Ads] の統合と同様に、[!DNL Facebook] の統合で
 1. **[!UICONTROL 新しい広告接続の設定]** を選択すると、ポップアップが表示されます。 **[!UICONTROL Facebook]** を選択し、Facebook の資格情報を使用してログインします。
 
    >[!NOTE]
+   >
    >[!DNL Facebook Ads] アカウントに接続するユーザーは、[!DNL Facebook Ads] アカウント内の管理者である必要があります。
 
 1. Facebook アカウントに接続し [!DNL Marketo Measure] ら、アカウントの横にある鉛筆アイコンをクリックします。
-1. このビュー内で、「自動タグ付け？」 「はい」に切り替えます。 次に、「[!UICONTROL &#x200B; 詳細情報 &#x200B;]」セクションにあるチェックボックスをオンにして、利用条件に同意します。 [!UICONTROL &#x200B; 自動タグ付け &#x200B;] の切り替えが「[!UICONTROL &#x200B; はい &#x200B;]」に設定されていることを確認します。
+1. このビュー内で、「自動タグ付け？」 「はい」に切り替えます。 次に、「[!UICONTROL  詳細情報 ]」セクションにあるチェックボックスをオンにして、利用条件に同意します。 [!UICONTROL  自動タグ付け ] の切り替えが「[!UICONTROL  はい ]」に設定されていることを確認します。
 
 ## アカウントの接続 {#connecting-the-account}
 
-![Marketo Measureでの新しい Facebook 広告連携の設定 &#x200B;](assets/1.gif)
+![ アカウント {connecting-the-account}](assets/utilizing-connections-2.gif) の接続
 
 ## 自動タギングの有効化 {#enabling-autotagging}
 
 >[!NOTE]
->自動タギングを有効にすると、タグ付けしたすべての広告のコンバージョン履歴とソーシャル校正がリセットされます。 自動タギングを有効にする前に、[&#x200B; このデータを CSV として書き出す &#x200B;](https://www.facebook.com/business/help/205067636197240) ことを強くお勧めします。
+>
+>自動タギングを有効にすると、タグ付けしたすべての広告のコンバージョン履歴とソーシャル校正がリセットされます。 自動タギングを有効にする前に、[ このデータを CSV として書き出す ](https://www.facebook.com/business/help/205067636197240) ことを強くお勧めします。
 
-![&#x200B; 2](assets/2-2.png)
+![ 自動タグ付けを有効にすると、コンバージョン履歴とソーシャル校正がリセットされます ](assets/bizible-guide-1.png)
 
-統合を有効にすると、広告レベルのコスト [!DNL Marketo Measure]&#x200B;[!DNL Marketo Measure Marketing ROI] ダッシュボードにダウンロードされるようになります。
+統合を有効にすると、広告レベルのコスト [!DNL Marketo Measure][!DNL Marketo Measure Marketing ROI] ダッシュボードにダウンロードされるようになります。
 
 統合が正しく機能するには、[!DNL Facebook] アカウントで自動タグ付けを有効にする必要があります。 これにより、システムはすべての広告リンクに_bf パラメーターを追加できます。 このプロセスは、既に [!DNL Facebook] 広告に追加した他のトラッキングパラメーターの上に新しいパラメーターを追加します。
 
-![Facebook 接続設定での自動タグ付けの有効化 &#x200B;](assets/3.gif)
+![ 統合が正しく機能するには、で自動タグ付けを有効にする必要があります ](../assets/marketo-engage-activities-05.png)
 
 ## フィールドマッピング {#field-mapping}
 

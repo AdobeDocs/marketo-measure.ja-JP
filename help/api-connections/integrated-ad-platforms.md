@@ -1,15 +1,15 @@
 ---
-description: 統合された広告プラットフォーム - [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向けの統合広告プラットフォームガイダンス
 title: 統合された広告プラットフォーム
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 0%
+source-wordcount: '1734'
+ht-degree: 1%
 
 ---
-
 
 # 統合された広告プラットフォーム {#integrated-ad-platforms}
 
@@ -21,11 +21,11 @@ ht-degree: 0%
 
 以下の画像に示すように、新しい広告接続を設定するボタンが表示されます。
 
-![&#x200B; 新しい広告接続を設定ボタンを含む接続ページ &#x200B;](assets/2.png)
+![ 以下の画像に示すように、へのボタンが表示されます ](assets/bizible-guide-1.png)
 
-[!UICONTROL &#x200B; 新しい広告接続の設定 &#x200B;] ボタンをクリックすると、4 種類の広告 [!UICONTROL &#x200B; 接続 &#x200B;] イオンタイプを含むウィンドウ（以下に示す）がポップアップ表示されます。 「接続」をクリックすると、別のウィンドウが表示されて資格情報の入力を求められます。 資格情報を入力し、「[!UICONTROL &#x200B; 認証 &#x200B;]」をクリックしてアカウントを [!DNL Marketo Measure] に接続します。
+[!UICONTROL  新しい広告接続の設定 ] ボタンをクリックすると、4 種類の広告 [!UICONTROL  接続 ] イオンタイプを含むウィンドウ（以下に示す）がポップアップ表示されます。 「接続」をクリックすると、別のウィンドウが表示されて資格情報の入力を求められます。 資格情報を入力し、「[!UICONTROL  認証 ]」をクリックしてアカウントを [!DNL Marketo Measure] に接続します。
 
-![&#x200B; 使用可能なアカウントタイプを使用したMarketo Measure ads 接続モーダル &#x200B;](assets/select-account-type.png)
+![ 「新しい広告接続を設定」ボタンをクリックすると、](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 [!DNL Marketo Measure] アカウント内のトラッキングテンプレートを [!DNL AdWords] で検索：
 
 * *オプション A*：追跡テンプレートが見つかりました。 パラメーター [!DNL Marketo Measure] テンプレートに追加されます。
-* *オプション B*：サードパーティのリダイレクトが見つかった。 追跡テンプレートにサードパーティのリダイレクトが見つかっ [!DNL Marketo Measure] 場合は、何も実行できません。 [!DNL Marketo Measure] のタグをサードパーティ製システムに手動で追加する必要があります。 サードパーティのリダイレクトの例として、Kenshoo や Marin などの入札管理ツールがあります。 [&#x200B; 入札管理ツールの影響  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} の詳細をご覧ください。
+* *オプション B*：サードパーティのリダイレクトが見つかった。 追跡テンプレートにサードパーティのリダイレクトが見つかっ [!DNL Marketo Measure] 場合は、何も実行できません。 [!DNL Marketo Measure] のタグをサードパーティ製システムに手動で追加する必要があります。 サードパーティのリダイレクトの例として、Kenshoo や Marin などの入札管理ツールがあります。 [ 入札管理ツールの影響  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} の詳細をご覧ください。
 
 * *オプション C*：追跡テンプレートが見つからない。 [!DNL Marketo Measure] べての広告宛先 URL をスキャンして、[!DNL Marketo Measure] のパラメーターを確認します。 スキャンに基づいて、次の場合：
    * パラメーターが見つかりました。設定が完了しました。
    * パラメーターが見つかりません：[!DNL Marketo Measure] のパラメーターを広告宛先 URL の末尾に追加します。 [!DNL Marketo Measure] は、作成後 2 時間以内に新しい広告を追加します。 パラメーターはテンプレートに追加されないことに注意してください。
 
-詳しくは、[[!DNL AdWords]  自動タグ付け機能 &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"} を参照してください。
+詳しくは、[[!DNL AdWords]  自動タグ付け機能 ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"} を参照してください。
 
 ## Adwords の自動タギング [!DNL Marketo Measure] 有効にする方法 {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -54,27 +54,27 @@ ht-degree: 0%
 
 1. [!DNL Marketo Measure] アカウント （[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にサインインします。
 
-1. [!UICONTROL &#x200B; マイアカウント &#x200B;]/[!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 統合 &#x200B;]/[!UICONTROL &#x200B; 接続 &#x200B;] に移動します。
+1. [!UICONTROL  マイアカウント ]/[!UICONTROL  設定 ]/[!UICONTROL  統合 ]/[!UICONTROL  接続 ] に移動します。
 
-   ![&#x200B; 既存の広告アカウントとの接続リスト &#x200B;](assets/4.png)
+   ![1.マイアカウントの設定に移動します。統合接続。](assets/utilizing-connections-8.png)
 
 1. 自動タギングを有効にする Adwords アカウントの横にある鉛筆アイコン [!DNL Marketo Measure] クリックします。
 
-   ![&#x200B; 自動タギング切り替えを使用した広告アカウント設定パネル &#x200B;](assets/5.png)
+   ![1.](assets/utilizing-connections-9.png) の操作を行う Adwords アカウントの横にある鉛筆アイコンをクリックします。
 
 1. 右上隅で、「自動タギング **[!UICONTROL を「はい]** に切り替え **[!UICONTROL ま]**。 ページの下部にある **[!UICONTROL 詳細情報]** をクリックしてテキストボックスを展開し、「**[!UICONTROL 保存]** をクリックします。 自動タグ付けの設定が完了しました。
 
-   ![Marketo Measureでの自動タグ付けの確認モーダル &#x200B;](assets/6.png)
+   ![1.右上隅で、自動タグ付けの切り替えをに切り替えます ](assets/utilizing-connections-10.png)
 
 ## [!DNL Marketo Measure] パラメーターを使用して AdWords にトラッキングテンプレートを設定する方法 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-AdWords では、[!UICONTROL &#x200B; アカウント &#x200B;]、[!UICONTROL &#x200B; キャンペーン &#x200B;] または広告グループのレベルでトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、広告の各レベルに追加した場合は、広告のレビューと承認のプロセスを実行する必要があり、広告のパフォーマンス履歴が再度開始される恐れがあります。 詳しくは、[&#x200B; トラッキングテンプレートの作成 &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} を参照してください。
+AdWords では、[!UICONTROL  アカウント ]、[!UICONTROL  キャンペーン ] または広告グループのレベルでトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、広告の各レベルに追加した場合は、広告のレビューと承認のプロセスを実行する必要があり、広告のパフォーマンス履歴が再度開始される恐れがあります。 詳しくは、[ トラッキングテンプレートの作成 ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} を参照してください。
 
 1. [!DNL Google AdWords] アカウントにログインします。
-1. 左側のナビゲーションバーから [!UICONTROL &#x200B; キャンペーン &#x200B;] ビューに移動します
-1. 左側のナビゲーションバーの「[!UICONTROL &#x200B; 設定 &#x200B;]」にも移動します。
-1. 上部の「[!UICONTROL &#x200B; アカウント設定 &#x200B;]」ビューに切り替えます
-1. 「[!UICONTROL &#x200B; トラッキング &#x200B;]」セクションを展開します
+1. 左側のナビゲーションバーから [!UICONTROL  キャンペーン ] ビューに移動します
+1. 左側のナビゲーションバーの「[!UICONTROL  設定 ]」にも移動します。
+1. 上部の「[!UICONTROL  アカウント設定 ]」ビューに切り替えます
+1. 「[!UICONTROL  トラッキング ]」セクションを展開します
 1. 追跡テンプレートに次のテキスト文字列のいずれかを貼り付けて、テンプレートの値を設定します。
 
    * すべての URL に疑問符が含まれる場合は、次の URL テキストを使用します。
@@ -88,6 +88,7 @@ AdWords では、[!UICONTROL &#x200B; アカウント &#x200B;]、[!UICONTROL &#
    URL を手動でタグ付けするときにエラーが発生しないように、通常は UTM パラメーターを自動的に生成することをお勧めします。 これは、AdWords や [!DNL Marketo Measure] パラメーターによる自動タグ付けを意味する必要はありません。指定された情報に基づいて URL のパラメーターを自動的に生成することで、プロセスを簡略化するツールが複数あります。
 
    >[!TIP]
+   >
    >トラッキングテンプレートが無効であるというエラーが表示された場合は、ブラウザーのキャッシュをクリアして再試行してください。多くの場合、これによって問題が解決します。
 
 ## [!DNL Google AdWords] の UTM タグを自動生成する方法 {#how-to-automatically-generate-utm-tags-for-google-adwords}
@@ -96,21 +97,21 @@ UTM タグは、最初は作成が困難に見えるかもしれませんが、U
 
 **[!DNL Google URL]Builder**
 
-Google URL ビルダーは、UTM タグを使用して正しい形式の URL を作成するための標準ツールです。 各パラメーターの URL と目的の値を入力し、「[!UICONTROL URL を生成 &#x200B;]」をクリックします。 これは、タグ付けする URL が少数しかない場合に使用する理想的なツールです。 ツールにアクセスします [&#x200B; こちら &#x200B;](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}。
+Google URL ビルダーは、UTM タグを使用して正しい形式の URL を作成するための標準ツールです。 各パラメーターの URL と目的の値を入力し、「[!UICONTROL URL を生成 ]」をクリックします。 これは、タグ付けする URL が少数しかない場合に使用する理想的なツールです。 ツールにアクセスします [ こちら ](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}。
 
 **EpikOne が生成したGoogle スプレッドシート**
 
-このスプレッドシートには、タグ付けされた宛先 URL を自動的に生成する数式が含まれています。 これは、多数のリンクをタグ付けする必要がある場合に使用する優れたツールです。 スプレッドシート [&#x200B; こちら &#x200B;](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"} にアクセスします。
+このスプレッドシートには、タグ付けされた宛先 URL を自動的に生成する数式が含まれています。 これは、多数のリンクをタグ付けする必要がある場合に使用する優れたツールです。 スプレッドシート [ こちら ](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"} にアクセスします。
 
 **Rafflecopter リンク タグ付けツール**
 
 Rafflecopter が作成したスプレッドシートは、[!DNL EpikOne's] のスプレッドシートの変更版です。 また、タグ付けされた宛先リンクを自動生成して使用する数式も含まれています。
 
-これらの各ツールには、ニーズに合わせて使用および変更する方法の詳細な手順が記載されています。 このツールは [&#x200B; こちら &#x200B;](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} から利用できます。
+これらの各ツールには、ニーズに合わせて使用および変更する方法の詳細な手順が記載されています。 このツールは [ こちら ](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} から利用できます。
 
 **驚くべき UTM ビルダーを実現**
 
-これは、UTM タグをすばやく生成できるChrome拡張機能です。 [&#x200B; こちら &#x200B;](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"} で見つけます。
+これは、UTM タグをすばやく生成できるChrome拡張機能です。 [ こちら ](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"} で見つけます。
 
 ## Bing Ads {#bing-ads}
 
@@ -121,6 +122,7 @@ Bing Ads は、URL の自動タグ付けを有効にしたり、[!DNL Marketo Me
 * テキスト広告
 * モバイル広告
 * テキスト広告を展開
+
 
 Bing Ads の自動タグ付け機能では、次の UTM パラメーターが追加されます。
 
@@ -146,13 +148,13 @@ Bing Ads の自動タギングでは、次のカスタムパラメーターも�
 
 ## Facebook 広告 {#facebook-ads}
 
-[!DNL Marketo Measure] と [!DNL Facebook] の統合により、広告情報を自動的にダウンロードし、URL にパラメーターをタグ付けできます。 自動タグ付 [!DNL Marketo Measure] を通じてキャンペーンと広告セットの情報を取り込みます。 広告セットが広告グループ名フィールドに表示されます。 [!DNL Facebook] プラットフォームでの URL タグの設定について詳しくは、[!DNL Facebook] [&#x200B; ビジネス &#x200B;](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} ページを参照してください。
+[!DNL Marketo Measure] と [!DNL Facebook] の統合により、広告情報を自動的にダウンロードし、URL にパラメーターをタグ付けできます。 自動タグ付 [!DNL Marketo Measure] を通じてキャンペーンと広告セットの情報を取り込みます。 広告セットが広告グループ名フィールドに表示されます。 [!DNL Facebook] プラットフォームでの URL タグの設定について詳しくは、[!DNL Facebook] [ ビジネス ](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} ページを参照してください。
 
 [!DNL Facebook Ads] を使用した自動タグ付けを有効にする前に、以前のパフォーマンス履歴を CSV として書き出すことが重要です。 この時点で、_bf パラメーター [!DNL Marketo Measure] 使用してタグが [!DNL Facebook Ads] び出されると、[!DNL Facebook] は広告を新しいものとして読み取り、パフォーマンス履歴を消去します。 したがって、自分自身や組織にとって価値がある場合は、以前のパフォーマンスのレコードを書き出すことが重要です。
 
 [!DNL Facebook] アカウントはいつでも [!DNL Marketo Measure] アプリに接続でき、データは失われません。自動タグ付けが有効な場合にのみ、パフォーマンス履歴が消去されます。
 
-[&#x200B; 広告レポートの書き出しについて詳しくは、Facebook の &#x200B;](https://www.facebook.com/business/help/393890194130036){target="_blank"} この記事 [!DNL Facebook] を参照してください。
+[ 広告レポートの書き出しについて詳しくは、Facebook の ](https://www.facebook.com/business/help/393890194130036){target="_blank"} この記事 [!DNL Facebook] を参照してください。
 
 ## LinkedIn スポンサー付きコンテンツ {#linkedin-sponsored-content}
 

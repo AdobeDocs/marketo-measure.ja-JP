@@ -1,15 +1,14 @@
 ---
-description: AJAX フォームの処理 –  [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向けのAJAX フォーム処理ガイダンス
 title: AJAX フォームハンドリング
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
-
 
 # AJAX フォームハンドリング {#ajax-form-handling}
 
@@ -23,21 +22,21 @@ AJAX（または他のメカニズム）を含むフォームを使用して、�
 
 **以下は、JQuery を使用したコードサンプルです（フォームの ID が「formId」である場合）。**
 
-```jquery
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
+```javascript
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
 
-// Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.  
+// Give Marketo Measure the JQuery Selector for the form and we'll collect the data automatically.
 Bizible.Push('Form',$('#*formId*'));
 ```
 
 **以下は、JQuery を使用しないコードサンプルです（フォームの ID が「formId」である場合）。**
 
-```jquery
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
+```javascript
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
 
 // Give Marketo Measure the Form ID and we'll collect the data automatically.
 Bizible.Push('Form','MyFormID');
@@ -47,18 +46,18 @@ Bizible.Push('Form','MyFormID');
 
 変換されたリードの情報を、JavaScriptまたは HTML フォームを含まないシンプルなテキストフィールドを使用して収集する場合、このソリューションは最適です。 このシナリオで使用する API を以下で共有します。
 
-```jquery
-///////////////////////////////////////////////////////////////////////  
-// Preamble for all API usage.  
-window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };  
+```javascript
+///////////////////////////////////////////////////////////////////////
+// Preamble for all API usage.
+window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };
 
-// If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.  
+// If your site is using Ajax, or you are running a secure site, it is best to send us the data directly.
 Bizible.Push('User', {
-eMail: 'user@gmail.com' // required  
-});  
+eMail: 'user@gmail.com' // required
+});
 ```
 
-このコードでは、「[!UICONTROL &#x200B; メール &#x200B;]」フィールドは必須です。 [!DNL Marketo Measure] は、このデータをサーバーに非同期で投稿します。
+このコードでは、「[!UICONTROL  メール ]」フィールドは必須です。 [!DNL Marketo Measure] は、このデータをサーバーに非同期で投稿します。
 
 ## シナリオ 3 – ありがとうページからのユーザー情報のレポート {#scenario-report-user-information-from-the-thank-you-page}
 
@@ -67,8 +66,8 @@ eMail: 'user@gmail.com' // required
 **例：**
 
 ```html
-<div id="bizible.reportUser" style="display:none"  
-data-email="user@gmail.com">  
+<div id="bizible.reportUser" style="display:none"
+data-email="user@gmail.com">
 ```
 
 非表示の要素が div、script またはその他のタグタイプであるかどうかは関係ありません。 [!DNL Marketo Measure] は id=&quot;bizible.reportUser&quot;を探し、情報を読み取ります。
