@@ -11,7 +11,7 @@ ht-degree: 81%
 
 # Marketo Measure ドキュメント
 
-![Marketo Measure ドキュメント ](/help/assets/marketo-measure-banner.jpg)
+![Marketo Measure ドキュメント &#x200B;](/help/assets/marketo-measure-banner.jpg)
 
 Marketo Measure（以前の Bizible）は、行動データや広告データを販売結果や機械学習と統合するので、適切なマーケティングの意思決定を行うことができます。
 

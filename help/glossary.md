@@ -305,7 +305,7 @@ Marketo Measure ABTest - ユーザーが web サイト上の A/B テストに参
 
 このフィールドには、マーケティングチャネルおよびタッチポイントが属するサブチャネルが表示されます。以下の例では、マーケティングチャネル - パスは、Social.Linkedin です（つまり、マーケティングチャネルが Social で、サブチャネルが LinkedIn）。
 
-![ このフィールドには、マーケティングチャネルと、そのサブチャネルが表示されます ](assets/overview-resources-16.png)
+![&#x200B; このフィールドには、マーケティングチャネルと、そのサブチャネルが表示されます &#x200B;](assets/overview-resources-16.png)
 
 **メディア** | Buyer Touchpoint、Buyer Attribution Touchpoint
 

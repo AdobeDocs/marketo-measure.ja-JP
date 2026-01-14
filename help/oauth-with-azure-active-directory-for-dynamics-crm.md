@@ -41,7 +41,7 @@ ht-degree: 1%
 
    ![1.上部の「新規登録」をクリックします。](assets/microsoft-guide-3.png)
 
-1. プロンプトに従って、アプリケーションを作成します。 Web アプリケーションかパブリッククライアント（モバイルおよびデスクトップ）アプリケーションかに関係なく、Web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例が必要な場合は、[ クイックスタート ](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview) を確認してください。
+1. プロンプトに従って、アプリケーションを作成します。 Web アプリケーションかパブリッククライアント（モバイルおよびデスクトップ）アプリケーションかに関係なく、Web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例が必要な場合は、[&#x200B; クイックスタート &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview) を確認してください。
 a. 「名前」はアプリケーション名で、エンドユーザーに対するアプリケーションの説明です。
 b. 「サポートされているアカウントタイプ」で、任意の組織ディレクトリおよび個人用Microsoft アカウント内の「アカウント」を選択します。
 c. リダイレクト URI を指定します。 Web アプリケーションの場合、これは、ユーザーがログインできるアプリのベース URL です。 たとえば、`http://localhost:12345` のように設定します。パブリッククライアント（モバイルおよびデスクトップ）の場合、Azure AD はこれを使用してトークン応答を返します。 アプリケーションに固有の値を入力します。 例：`http://MyFirstAADApp`。
@@ -56,7 +56,7 @@ c. リダイレクト URI を指定します。 Web アプリケーションの�
 
 1. リダイレクト URL のリストに [!DNL Marketo Measure] リダイレクト URL `https://apps.bizible.com/OAuth2` および `https://apps.bizible.com/OAuth2?identityOnly=true` を追加します。
 
-   ![1.Marketo Measureのリダイレクト URL （https://apps.bizible.com/OAuth2およびhttps://apps.bizible.com/OAuth2?identityOnly=true）を ](assets/microsoft-guide-5.png) に追加します。
+   ![1.Marketo Measureのリダイレクト URL （https://apps.bizible.com/OAuth2およびhttps://apps.bizible.com/OAuth2?identityOnly=true）を &#x200B;](assets/microsoft-guide-5.png) に追加します。
 
 1. 「API 権限」タブに移動し、アプリケーションに正しい権限が割り当てられていることを確認します。
 
@@ -70,13 +70,13 @@ c. リダイレクト URI を指定します。 Web アプリケーションの�
 
 1. 「権限」タブで、「**[!UICONTROL （インスタンス名）の管理者の同意を付与]**」をクリックします。
 
-   ![1.「権限」タブで、「（インスタンス ](assets/microsoft-guide-8.png) の管理者の同意を付与」をクリックします
+   ![1.「権限」タブで、「（インスタンス &#x200B;](assets/microsoft-guide-8.png) の管理者の同意を付与」をクリックします
 
 1. 「**[!UICONTROL 確定]**」をクリックします。
 
    ![1.Accept.](assets/microsoft-guide-9.png) をクリックします
 
-1. 「[!UICONTROL  ユーザーとグループ ]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
+1. 「[!UICONTROL &#x200B; ユーザーとグループ &#x200B;]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
 
    ![1.「ユーザーとグループ」タブから、](assets/microsoft-guide-10.png) のことを確認します。
 
@@ -106,7 +106,7 @@ c. リダイレクト URI を指定します。 Web アプリケーションの�
 
 ## OAuth 経由での Dynamics インスタンスの接続 {#connecting-your-dynamics-instance-via-oAuth}
 
-1. Dynamics 接続を初めて設定する場合は、[ この記事 ](/help/microsoft-dynamics-crm-installation-guide.md) の「データプロバイダーとしての CRM」の節の手順 1～5 に従ってください。
+1. Dynamics 接続を初めて設定する場合は、[&#x200B; この記事 &#x200B;](/help/microsoft-dynamics-crm-installation-guide.md) の「データプロバイダーとしての CRM」の節の手順 1～5 に従ってください。
 
 1. OAuth 資格情報の入力画面が表示されたら、前述の節で設定したクライアント ID、クライアント秘密鍵、アプリケーション ID URI を入力します。
 
@@ -114,7 +114,7 @@ a. クライアント ID は、上記の節の手順#7 の ID です。 書き�
 
 b. クライアントシークレットは、証明書とシークレットの下で、アプリケーション用に Azure Portal で作成されたアプリケーションシークレットです。
 
-![b.クライアントシークレットは、Azure Portal で作成されたアプリケーションシークレットで ](assets/microsoft-guide-11.png)。
+![b.クライアントシークレットは、Azure Portal で作成されたアプリケーションシークレットで &#x200B;](assets/microsoft-guide-11.png)。
 
 c. アプリケーション ID URI は、ターゲット web API （保護されたリソース）の URL です。 アプリ ID の URL を確認するには、Azure Portal で [[!DNL Azure Active Directory]] をクリックし、[ アプリケーション登録 ] をクリックして、アプリケーションの [ 設定 ] ページを開き、[ プロパティ ] をクリックします。 また、`https://graph.microsoft.com` のような外部リソースである場合もあります。 これは、通常、Dynamics インスタンスの URL です。
 

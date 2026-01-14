@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Drift 統合に関するよくある質問 {#drift-integration-faq}
 
-ドリフトとの [!DNL Marketo Measure] 統合の一環として、最もよくある質問のいくつかを以下に示します。 以下に記載されていないご質問については、Adobe アカウントチーム（アカウントマネージャー）または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+ドリフトとの [!DNL Marketo Measure] 統合の一環として、最もよくある質問のいくつかを以下に示します。 以下に記載されていないご質問については、Adobe アカウントチーム（アカウントマネージャー）または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 **統合はどのように有効になりますか？**
 
@@ -40,4 +40,4 @@ ht-degree: 1%
 
 ドリフトチャットインタラクションのタッチポイントを作成するアクティビティルールが設定されている場合は、ルールにロジックを追加する必要があります。 タッチポイントの重複を防ぐために、タスク作成日フィールドを使用してロジックを追加します（つまり、CrmTask.CreatedDate が機能ビットが有効だった日付より前の日付です）。 例として、以下のスクリーンショットを参照してください。
 
-![ ドリフトのタッチポイントを作成するアクティビティルールが設定されている場合 ](assets/chat-integration-1.png)
+![&#x200B; ドリフトのタッチポイントを作成するアクティビティルールが設定されている場合 &#x200B;](assets/chat-integration-1.png)

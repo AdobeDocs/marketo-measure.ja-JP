@@ -20,7 +20,7 @@ ht-degree: 95%
 
 「タッチポイント」フィールドと「取引先責任者」フィールドに加えて、「キャンペーン」フィールドと「キャンペーンメンバー」フィールドを使用してセグメントを作成できるようになりました。この機能強化により、Discover でデータをより効果的に分析および解析できるようになります。
 
-![ キャンペーンおよびキャンペーンメンバーフィールドを使用してセグメントを作成できるようになりました ](assets/release-notes-2.png)
+![&#x200B; キャンペーンおよびキャンペーンメンバーフィールドを使用してセグメントを作成できるようになりました &#x200B;](assets/release-notes-2.png)
 
 ### 更新：CRM 書き出しのエラー処理設定
 
@@ -49,7 +49,7 @@ ht-degree: 95%
 
 **リマインダー：Salesforce フィールドの廃止予定 - 6月14日（PT）**
 
-昨年発表したとおり、統合を簡素化し、Salesforceの標準オブジェクトに書き出す必要をなくすために、[ リード/連絡先オブジェクトへの書き出しジョブを段階的に廃止 ](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} します。 [ここに記載されている](/help/2023.md){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。2024年6月14日（PT）にこの廃止が実施されます。
+昨年発表したとおり、統合を簡素化し、Salesforceの標準オブジェクトに書き出す必要をなくすために、[&#x200B; リード/連絡先オブジェクトへの書き出しジョブを段階的に廃止 &#x200B;](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} します。 [ここに記載されている](/help/2023.md){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。2024年6月14日（PT）にこの廃止が実施されます。
 
 この変更により、次の 2 つの主なメリットが得られます。
 
@@ -81,7 +81,7 @@ Marketo Measure Ultimate で Marketo Engage cookie 同期を使用できるよ�
 
 プライバシーに関する懸念の高まりに対応して、サードパーティ cookie は段階的に廃止されており、Google Chrome の 2024年第 3 四半期の期限は、その終了を示しています。Marketo Measure では、サードパーティ cookie に依存する特定の機能、特に Google／DoubleClick インプレッション cookie に依存するクロスドメイントラッキングとビュースルーアトリビューションを廃止する予定です。この変更は、Marketo Measure の他の機能やファーストパーティ cookie の使用には影響しません。Google のタイムラインに従って、これらの機能は 6月1日（PT）までに廃止する予定ですが、この日付より前に収集したデータには引き続きアクセスできます。
 
-* [Marketo Measureにおけるサードパーティ Cookie の非推奨（廃止予定）への対応 ](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
+* [Marketo Measureにおけるサードパーティ Cookie の非推奨（廃止予定）への対応 &#x200B;](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure の Cookie](/help/marketo-measure-tracking/marketo-measure-cookies.md){target="_blank"}
 
 **強化されたエラー処理の段階的なロールアウト**

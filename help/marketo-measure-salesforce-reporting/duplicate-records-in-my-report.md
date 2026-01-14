@@ -24,7 +24,7 @@ ht-degree: 9%
 
 これは **購入者タッチポイント連絡先** レポートです。 これは、個々の連絡先に関連付けられたタッチポイントの数を調べていることを意味します。
 
-![ これは、購入者タッチポイント連絡先レポートです。 繰り返しますが、これは ](assets/marketo-reports-1.gif) のことを意味します。
+![&#x200B; これは、購入者タッチポイント連絡先レポートです。 繰り返しますが、これは &#x200B;](assets/marketo-reports-1.gif) のことを意味します。
 
 ご覧のように、レポートには James Williams の連絡先が 3 人いるように見えるため、「重複」と考えている可能性があります。
 
@@ -34,4 +34,4 @@ ht-degree: 9%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

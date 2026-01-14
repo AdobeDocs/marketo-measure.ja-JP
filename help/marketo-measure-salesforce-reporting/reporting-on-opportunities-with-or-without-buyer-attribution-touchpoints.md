@@ -30,14 +30,14 @@ ht-degree: 26%
 
    * レポート・タイプ・ラベルに「購買担当属性の有無を問わず商談」という名前を付けます。
    * レポートタイプ名にも同じ名前を使用します。 説明入力内に、「バイヤー属性タッチポイントのある商談またはバイヤー属性タッチポイントがない商談」と入力します。
-   * 「[!UICONTROL  その他 ]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ済み ]」に設定します。
+   * 「[!UICONTROL &#x200B; その他 &#x200B;]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ済み &#x200B;]」に設定します。
 
-   ![ 「その他」内にレポートを保存し、レポートをに設定 ](assets/bizible-guide-3.png)
+   ![&#x200B; 「その他」内にレポートを保存し、レポートをに設定 &#x200B;](assets/bizible-guide-3.png)
 
 1. そこから、商談オブジェクトをバイヤー属性タッチポイントオブジェクトにリンクします。 ボタン「&#39;A&#39; レコードには関連する&#39;B&#39; レコードがある場合とない場合がある」を選択していることを確認してください。 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
-   ![1.そこから、商談オブジェクトを購入者にリンクしま ](assets/bizible-guide-4.png)。
+   ![1.そこから、商談オブジェクトを購入者にリンクしま &#x200B;](assets/bizible-guide-4.png)。
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

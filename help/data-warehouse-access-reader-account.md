@@ -18,7 +18,7 @@ Snowflake Data Warehouse にアクセスするには、Snowflake アカウント
 
 1. [!DNL Marketo Measure] で、ページ上部の **[!UICONTROL マイアカウント]**/**[!UICONTROL 設定]** をクリックします。
 
-   ![1.Marketo Measureで、ページ上部のをクリックします ](assets/data-account-7.png)
+   ![1.Marketo Measureで、ページ上部のをクリックします &#x200B;](assets/data-account-7.png)
 
 1. 左側のメニューの [ セキュリティ ] で、[**[!UICONTROL Data Warehouse]**] をクリックします。
 
@@ -42,20 +42,20 @@ Snowflake Data Warehouse にアクセスするには、Snowflake アカウント
 
 1. BIZIBLE_ROI_V3 データベースオブジェクトが画面の左側に表示されます。 クエリー・ウィンドウの上部にあるドロップダウン・オプションから、「ウェアハウス」、「データベース」、「スキーマ」を入力します。 それぞれにオプションは 1 つだけにする必要があります。 これで、Snowflake クエリエディター内でクエリを実行する準備が整いました。
 
-   ![1.BIZIBLEROIV3 データベース オブジェクトは ](assets/data-account-4.png) の左側にあります。
+   ![1.BIZIBLEROIV3 データベース オブジェクトは &#x200B;](assets/data-account-4.png) の左側にあります。
 
 ## パスワードのリセット {#reset-your-password}
 
-[!DNL Marketo Measure] はSnowflake ログインパスワードへのアクセス権を持っていません。 パスワードをリセットする必要がある場合は、Data Warehouse情報ページの [!UICONTROL  パスワードのリセット ] ボタンをクリックし、指示に従ってください。 一時パスワードが UI に直ちに表示されます。 次に Data Warehouse にログインする際に、独自のパスワードを作成するよう求められます。
+[!DNL Marketo Measure] はSnowflake ログインパスワードへのアクセス権を持っていません。 パスワードをリセットする必要がある場合は、Data Warehouse情報ページの [!UICONTROL &#x200B; パスワードのリセット &#x200B;] ボタンをクリックし、指示に従ってください。 一時パスワードが UI に直ちに表示されます。 次に Data Warehouse にログインする際に、独自のパスワードを作成するよう求められます。
 
 >[!NOTE]
 >
 >* パスワードをリセットすると、現在ログインしてい [!DNL Marketo Measure] ユーザーだけでなく、組織内のすべてのユーザーに対してパスワードがリセットされます。
 >* UI には一時パスワードのみが表示されます。 メールは送信されません。
 
-![UI には一時パスワードのみが表示されます。 電子メールは ](assets/data-account-3.png) のようになります。
+![UI には一時パスワードのみが表示されます。 電子メールは &#x200B;](assets/data-account-3.png) のようになります。
 
-![UI には一時パスワードのみが表示されます。 電子メールは ](assets/data-account-1.png) のようになります。
+![UI には一時パスワードのみが表示されます。 電子メールは &#x200B;](assets/data-account-1.png) のようになります。
 
 ## サードパーティ製ツールを使用したSnowflakeへの接続 {#connecting-to-snowflake-via-third-party-tools}
 
@@ -76,4 +76,4 @@ Snowflake データウェアハウスをサードパーティのツールに接�
 * **ウェアハウス名** （必ずしも必須ではありません）
    * ウェアハウスはSnowflakeでクエリを実行するものです。 これは計算されたリソースです。 ウェアハウス名は [!DNL Marketo Measure] のData Warehouse情報ページにリストされます。
 
-  ![ ウェアハウスはSnowflakeでクエリを実行するものです。 計算済みです ](assets/data-account-2.png)
+  ![&#x200B; ウェアハウスはSnowflakeでクエリを実行するものです。 計算済みです &#x200B;](assets/data-account-2.png)

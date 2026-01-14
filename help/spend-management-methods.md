@@ -18,17 +18,17 @@ ht-degree: 2%
 
 **1 API 接続アカウント**
 
-API を介して [!DNL Marketo Measure] に接続した広告アカウントには、ROI レポートのために支出が自動的に取り [!DNL Marketo Measure] まれます。 接続したアカウントを確認し、費用を引き出すには、[!DNL Marketo Measure] アプリに移動して、「[!UICONTROL  統合 ]」セクションの下の「[!UICONTROL  接続 ]」タブを選択します。 API 接続の設定について詳しくは、[ 統合広告プラットフォーム ](/help/api-connections/integrated-ad-platforms.md) を参照してください。
+API を介して [!DNL Marketo Measure] に接続した広告アカウントには、ROI レポートのために支出が自動的に取り [!DNL Marketo Measure] まれます。 接続したアカウントを確認し、費用を引き出すには、[!DNL Marketo Measure] アプリに移動して、「[!UICONTROL &#x200B; 統合 &#x200B;]」セクションの下の「[!UICONTROL &#x200B; 接続 &#x200B;]」タブを選択します。 API 接続の設定について詳しくは、[&#x200B; 統合広告プラットフォーム &#x200B;](/help/api-connections/integrated-ad-platforms.md) を参照してください。
 
 **2 CRM キャンペーンコスト同期**
 
-すべての [!DNL Marketo Measure] アカウントは、「[CRM キャンペーンコストの同期 ](/help/crm-campaign-costs.md) と呼ばれる機能にアクセスできます。 デフォルトでは、この機能ビットは「No」に設定されていますが、いつでもオンにできます。
+すべての [!DNL Marketo Measure] アカウントは、「[CRM キャンペーンコストの同期 &#x200B;](/help/crm-campaign-costs.md) と呼ばれる機能にアクセスできます。 デフォルトでは、この機能ビットは「No」に設定されていますが、いつでもオンにできます。
 
-![ すべてのMarketo Measure アカウントが、同期と呼ばれる機能にアクセスできます ](assets/spend-management-1.png)
+![&#x200B; すべてのMarketo Measure アカウントが、同期と呼ばれる機能にアクセスできます &#x200B;](assets/spend-management-1.png)
 
 有効にすると、この機能により、次の条件を満たす任意の CRM キャンペーン/プログラムから支出が自動的に取り込まれます。
 
-i.最初に、キャンペーン/プログラム [!DNL Marketo Measure]、作成された一致する [ キャンペーン同期ルール ](/help/channel-tracking-and-setup/custom-campaign-sync.md) または作成された一致する [ プログラム同期ルール ](/help/marketo-engage-programs-integration.md) から、または [ 購入者タッチポイント値を有効にする ](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) が、「すべてのキャンペーンメンバーを含める」または「応答済みの」キャンペーンメンバーを含める」タッチポイントを作成しているかどうかを調べます。
+i.最初に、キャンペーン/プログラム [!DNL Marketo Measure]、作成された一致する [&#x200B; キャンペーン同期ルール &#x200B;](/help/channel-tracking-and-setup/custom-campaign-sync.md) または作成された一致する [&#x200B; プログラム同期ルール &#x200B;](/help/marketo-engage-programs-integration.md) から、または [&#x200B; 購入者タッチポイント値を有効にする &#x200B;](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) が、「すべてのキャンペーンメンバーを含める」または「応答済みの」キャンペーンメンバーを含める」タッチポイントを作成しているかどうかを調べます。
 
 ii.キャンペーン/プログラムに開始日を入力する必要があります
 
@@ -38,6 +38,6 @@ iv.実際のコスト （SFDCのキャンペーンの場合）または期間コ
 
 **3 手動コストアップロード**
 
-この方法を使用すると、API 連携アカウントまたは CRM キャンペーンコスト同期でカバーされていないチャネルとサブチャネルの [ 費用データを手動でアップロード ](/help/marketing-channel-costs.md) できます。 [!DNL Marketo Measure] 設定でマーケティング費用セクションに移動すると、CSV ファイルを介して任意のチャネルの費用データをアップロードできます。
+この方法を使用すると、API 連携アカウントまたは CRM キャンペーンコスト同期でカバーされていないチャネルとサブチャネルの [&#x200B; 費用データを手動でアップロード &#x200B;](/help/marketing-channel-costs.md) できます。 [!DNL Marketo Measure] 設定でマーケティング費用セクションに移動すると、CSV ファイルを介して任意のチャネルの費用データをアップロードできます。
 
 顧客は、[!DNL Marketo Measure] ーザーの特定の設定に応じて、これら 3 つの方法すべてを組み合わせて使用し、費用を管理できます。 費用を [!DNL Marketo Measure] にインポートする方法は 3 つあるので、Discover にあるマーケティング費用ボードを使用して、すべての費用データを包括的に把握することを強くお勧めします。 このボードは、すべてのチャネルとそれに関連する支出を表示できる唯一の場所です。 マーケティング費用ボードを使用すると、費用データにギャップがある場所や、ROI レポートの改善方法をすばやく特定するのに役立ちます。

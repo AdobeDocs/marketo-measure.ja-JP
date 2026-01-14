@@ -28,7 +28,7 @@ ht-degree: 2%
 
 1. 適切なレイアウトテンプレートを決定し、右側の **[!UICONTROL 編集]** をクリックします。
 
-   ![1.適切なレイアウトテンプレートを決定し、「編集」をクリックして ](assets/adding-pages-1.png) の操作を行います。
+   ![1.適切なレイアウトテンプレートを決定し、「編集」をクリックして &#x200B;](assets/adding-pages-1.png) の操作を行います。
 
 1. HTML ページの閉じるヘッダータグの直前に [!DNL Marketo Measure] JavaScript コードをコピー&amp;ペーストします。
 

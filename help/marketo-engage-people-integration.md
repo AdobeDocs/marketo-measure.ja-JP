@@ -19,7 +19,7 @@ Marketo人物統合を使用 [!DNL Marketo Measure] ると、Marketoから人物
 * 実稼動Marketo インスタンス
 * 実稼動 [!DNL Salesforce] または実 [!DNL Microsoft Dynamics] 動インスタンス
 * 任意の有料 [!DNL Marketo Measure] サブスクリプション
-* SOLR を有効にする（これを有効にするには [](https://nation.marketo.com/t5/Support/ct-p/Support)Marketo サポートにお問い合わせください）
+* SOLR を有効にする（これを有効にするには [&#128279;](https://nation.marketo.com/t5/Support/ct-p/Support)Marketo サポートにお問い合わせください）
 
 ## 仕組み {#how-it-works}
 
@@ -31,9 +31,9 @@ Marketo ユーザーを web セッションに正常にマッピングする [!D
 
 これらの重複を検出するために、[!DNL Marketo-Salesforce] または [!DNL Marketo-Dynamics] sync がMarketo Person のリード ID および連絡先 ID に入力されていることを確認します。 ID が正しく同期されている場合は、次のように、人物レコードに CRM ID が表示されます。
 
-![ これらの重複を検出するには、次の点を確認してください ](assets/marketo-engage-programs-06.png)
+![&#x200B; これらの重複を検出するには、次の点を確認してください &#x200B;](assets/marketo-engage-programs-06.png)
 
-![ これらの重複を検出するには、次の点を確認してください ](assets/marketo-engage-programs-07.png)
+![&#x200B; これらの重複を検出するには、次の点を確認してください &#x200B;](assets/marketo-engage-programs-07.png)
 
 お客様は、[!DNL Marketo Measure] Discover 内でMarketo ユーザーと CRM ユーザーの完全なセットをレポートするオプションがあります。 CRM 人物のみのレポートに関心がある場合は、セグメントを作成してフィルタリングすることをお勧めします。
 

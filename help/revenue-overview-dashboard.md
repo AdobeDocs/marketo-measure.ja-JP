@@ -41,7 +41,7 @@ ht-degree: 2%
 * 2022 年 8 月の売上高のうち、マーケティングの取り組みに起因するのは何 % ですか？
 * 昨年第 3 四半期の属性付き売上高は第 4 四半期に対してどのように積み上げられますか？
 
-![ 昨年第 3 四半期のアトリビューション付き売上高はどのように積み上げられていますか ](assets/revenue-dashboard-1.png)
+![&#x200B; 昨年第 3 四半期のアトリビューション付き売上高はどのように積み上げられていますか &#x200B;](assets/revenue-dashboard-1.png)
 
 ### アトリビューションカバレッジグラフ {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 * 昨年のマーケティング活動に起因する売上高のカバー率はどれくらいでしたか？
 
-![ マーケティング活動による売上収益の割合はどれくらいでした ](assets/revenue-dashboard-2.png)。
+![&#x200B; マーケティング活動による売上収益の割合はどれくらいでした &#x200B;](assets/revenue-dashboard-2.png)。
 
 ## フィルターウィンドウ {#filter-pane}
 
@@ -62,4 +62,4 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータ表示ポリシー ](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータ表示ポリシー &#x200B;](/help/dashboard-data-visibility-policy.md){target="_blank"}

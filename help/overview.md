@@ -41,7 +41,7 @@ ht-degree: 87%
 
 マーケターは、AEP を通じて B2B データ（アカウント、商談、取引先責任者、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。CRM および Marketo Engage の直接接続は、Ultimate には使用できなくなりました。マーケターは、引き続き、直接接続を通じて広告プラットフォームデータを取り込み、[!DNL Marketo Measure] JavaScript を通じて web アクティビティをトラッキングします。
 
-![ マーケターは、B2B データ（アカウント、オポチュニティなど ](assets/marketo-overview-2.png) を取り込むことが期待されます
+![&#x200B; マーケターは、B2B データ（アカウント、オポチュニティなど &#x200B;](assets/marketo-overview-2.png) を取り込むことが期待されます
 
 **デフォルトの通貨設定**
 
@@ -57,11 +57,11 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 >
 >[!DNL Marketo Measure Ultimate] 実稼動インスタンスは AEP 実稼動サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。変更については、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。変更については、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。各データセットは、1 つのデータフローにのみ含めることができます。違反すると、実行時にデータフローが停止します。
 
-![ 特定のデータからの特定のエンティティ（アカウントなど）のデータ ](assets/marketo-overview-6.png)
+![&#x200B; 特定のデータからの特定のエンティティ（アカウントなど）のデータ &#x200B;](assets/marketo-overview-6.png)
 
 **ステージマッピング**
 
@@ -92,13 +92,13 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 
 ファネル、ブーメラン、カスタムモデルでは、選択はありません。ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。サポートするステージの数については、カスタムステージでは 15 個、ビルトインのステージでは 6 個の制限があります。
 
-![funnelとブーメランとカスタムモデルの選択がありません。 すべてのステージは ](assets/marketo-overview-4.png) のとおりです。
+![funnelとブーメランとカスタムモデルの選択がありません。 すべてのステージは &#x200B;](assets/marketo-overview-4.png) のとおりです。
 
 キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセットに固有です。
 
-![ キャンペーンメンバータッチポイントルールおよびアクティビティタッチポイントルールは、データセット固有です。](assets/marketo-overview-5.png)
+![&#x200B; キャンペーンメンバータッチポイントルールおよびアクティビティタッチポイントルールは、データセット固有です。](assets/marketo-overview-5.png)
 
-![ キャンペーンメンバータッチポイントルールおよびアクティビティタッチポイントルールは、データセット固有です。](assets/marketo-overview-8.png)
+![&#x200B; キャンペーンメンバータッチポイントルールおよびアクティビティタッチポイントルールは、データセット固有です。](assets/marketo-overview-8.png)
 
 Ultimate には CRM の直接接続がないので、アトリビューションのタッチポイントは CRM に書き込まれません。
 
@@ -111,6 +111,6 @@ Ultimate には CRM の直接接続がないので、アトリビューション
 
 >[!MORELIKETHIS]
 >
->* [Marketo Measure Ultimateの宛先 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
+>* [Marketo Measure Ultimateの宛先 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
 >
->* [ ビデオ：Marketo Measure Ultimateの概要 ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>* [&#x200B; ビデオ：Marketo Measure Ultimateの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

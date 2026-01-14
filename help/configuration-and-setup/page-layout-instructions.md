@@ -32,17 +32,17 @@ ht-degree: 92%
 
 1. 更新するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。
 
-   ![1.目的のページ レイアウトの横にある [ 編集 ] をクリックします ](assets/marketo-salesforce-1.jpg)
+   ![1.目的のページ レイアウトの横にある [ 編集 ] をクリックします &#x200B;](assets/marketo-salesforce-1.jpg)
 
 1. 「[!UICONTROL フィールド]」オプション内で、「**[!UICONTROL Buyer Touchpoints を有効化]**」フィールドを選択して、ページ上の任意の場所にドラッグします。次に、「**[!UICONTROL タッチポイント開始日]**」フィールドと「**[!UICONTROL タッチポイント終了日]**」フィールドを追加します。
 
-   ![1.フィールドオプション内で、「購入者タッチポイントを有効にする」を選択し ](assets/bizible-full-1.png) す。
+   ![1.フィールドオプション内で、「購入者タッチポイントを有効にする」を選択し &#x200B;](assets/bizible-full-1.png) す。
 
 1. 次に、ページ上部で、クイック検索メニューの「[!UICONTROL ボタン]」オプションをクリックします。
 
 1. 「**[!UICONTROL Touchpoint 日の一括更新]**」ボタンをカスタムボタンセクションにドラッグします。
 
-   ![1.「タッチポイント日を一括更新」ボタンをカスタムにドラッグ ](assets/bizible-taxonomy-1.png) ます。
+   ![1.「タッチポイント日を一括更新」ボタンをカスタムにドラッグ &#x200B;](assets/bizible-taxonomy-1.png) ます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -64,7 +64,7 @@ ht-degree: 92%
 
 1. **[!UICONTROL Marketo Measure リード関連リスト]** VisualForce ページをページレイアウトセクションにドラッグします。
 
-   ![1.Marketo Measure Lead 関連リスト VisualForce ページを ](assets/connect-salesforce-1.png) の場所にドラッグします。
+   ![1.Marketo Measure Lead 関連リスト VisualForce ページを &#x200B;](assets/connect-salesforce-1.png) の場所にドラッグします。
 
 1. [!DNL VisualForce] ページ内のレンチをクリックして、高さを 100 に変更し、スクロールバーを有効にします。
 

@@ -13,7 +13,7 @@ ht-degree: 92%
 
 # Salesforce パッケージのインストール{#marketo-measure-salesforce-package-installation}
 
-[!DNL Marketo Measure][!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
+[!DNL Marketo Measure]&#x200B;[!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
 
 >[!NOTE]
 >

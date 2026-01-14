@@ -31,11 +31,11 @@ ht-degree: 2%
 
 以下のガイドでは、[!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] Managed Solution をインストールする手順をスキップし、権限と統合手順にのみ従ってください。
 
-[!DNL Salesforce] のお客様は [ こちら ](/help/configuration-and-setup/install-set-up.md) をクリックしてください。
+[!DNL Salesforce] のお客様は [&#x200B; こちら &#x200B;](/help/configuration-and-setup/install-set-up.md) をクリックしてください。
 
-[!DNL Microsoft Dynamics] のお客様は [ こちら ](/help/microsoft-dynamics-crm-installation-guide.md) をクリックしてください。
+[!DNL Microsoft Dynamics] のお客様は [&#x200B; こちら &#x200B;](/help/microsoft-dynamics-crm-installation-guide.md) をクリックしてください。
 
-これらの手順を完了すると、統合は動作するようになります。 問題が発生した場合は、[!DNL Marketo Measure] 担当者または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+これらの手順を完了すると、統合は動作するようになります。 問題が発生した場合は、[!DNL Marketo Measure] 担当者または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 >[!NOTE]
 >[!DNL Marketo Measure] CRM パッケージレス統合から始める場合は、後でSalesforce パッケージまたはMicrosoft Dynamics Managed Solution をインストールできます。

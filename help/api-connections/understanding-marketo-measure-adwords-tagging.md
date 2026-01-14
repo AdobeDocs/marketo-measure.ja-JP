@@ -27,7 +27,7 @@ ht-degree: 6%
 **追跡テンプレート [!DNL Marketo Measure] 見つかった場合：**
 
 * [!DNL Marketo Measure] のパラメーターを追跡テンプレートに追加します。
-* サードパーティのリダイレクトが Kenshoo や Marin などのトラッキングテンプレートで見つかった場合、[!DNL Marketo Measure] のアクションは実行されません。 代わりに、[ アカウントのサードパーティツールにパラメーターを追加  [!DNL Marketo Measure]  する ](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} 必要があります。
+* サードパーティのリダイレクトが Kenshoo や Marin などのトラッキングテンプレートで見つかった場合、[!DNL Marketo Measure] のアクションは実行されません。 代わりに、[&#x200B; アカウントのサードパーティツールにパラメーターを追加  [!DNL Marketo Measure]  する &#x200B;](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} 必要があります。
 
 ただし、トラッキングテンプレートが見つからない場合は、次のよ [!DNL Marketo Measure] になります。
 
@@ -40,7 +40,7 @@ ht-degree: 6%
 
 ## 追跡テンプレート {#tracking-templates}
 
-[!DNL Google AdWords] で説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックの把握に使用されます。 Googleについて詳しくは、[ ここをクリック ](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} してください。
+[!DNL Google AdWords] で説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックの把握に使用されます。 Googleについて詳しくは、[&#x200B; ここをクリック &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} してください。
 
 [!DNL Marketo Measure] では、広告履歴の中断や削除のリスクなしにすべての広告に関するパラメーターの追加と削除が可能なので、アカウントレベル、キャンペーンレベルまたは広告グループレベルのトラッキングテンプレートを使用することをお勧めします。
 
@@ -60,11 +60,11 @@ ht-degree: 6%
 
 1. 展開ウィンドウで **[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL 設定]** をクリックします。
 
-   ![1.展開の「すべてのキャンペーン」をクリックしてから「設定」をクリックし ](assets/utilizing-connections-13.png) す。
+   ![1.展開の「すべてのキャンペーン」をクリックしてから「設定」をクリックし &#x200B;](assets/utilizing-connections-13.png) す。
 
 1. 上部の **[!UICONTROL アカウント設定]** をクリックし、次に **[!UICONTROL トラッキングテンプレート]** をクリックします。 [!DNL Marketo Measure] 追跡テンプレートを入力します。
 
-   ![1.上部の「アカウント設定」をクリックし、「トラッキング」をクリックし ](assets/bizible-guide-1.png) す。
+   ![1.上部の「アカウント設定」をクリックし、「トラッキング」をクリックし &#x200B;](assets/bizible-guide-1.png) す。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -72,11 +72,11 @@ ht-degree: 6%
 
 1. 展開ウィンドウで **[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL キャンペーン]** をクリックします。
 
-   ![1.すべてのキャンペーンをクリックしてから、展開内のキャンペーンをクリックし ](assets/utilizing-connections-12.png) す。
+   ![1.すべてのキャンペーンをクリックしてから、展開内のキャンペーンをクリックし &#x200B;](assets/utilizing-connections-12.png) す。
 
 1. 該当するキャンペーンをすべて選択するか、「**[!UICONTROL すべてを選択]**」をクリックし、「**[!UICONTROL 編集]**」をクリックして、「**[!UICONTROL トラッキングテンプレートを変更]**」をクリックします。
 
-   ![1.適用可能なすべてのキャンペーンを選択するか、すべてを選択し、「編集」をクリックします ](../assets/marketo-engage-activities-05.png)。
+   ![1.適用可能なすべてのキャンペーンを選択するか、すべてを選択し、「編集」をクリックします &#x200B;](../assets/marketo-engage-activities-05.png)。
 
 1. [!DNL Marketo Measure] Tracking Template を入力し、「**[!UICONTROL Apply]**」をクリックします。
 
@@ -112,6 +112,6 @@ A：動的検索広告の個々のクリエイティブの詳細は取得でき�
 
 >[!NOTE]
 >
->変更が完了したら、完了です。 設定中にご質問がある場合は [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}Marketo サポートまでお問い合わせください。
+>変更が完了したら、完了です。 設定中にご質問がある場合は [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}Marketo サポートまでお問い合わせください。
 
-アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[ ここをクリック ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。
+アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[&#x200B; ここをクリック &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。

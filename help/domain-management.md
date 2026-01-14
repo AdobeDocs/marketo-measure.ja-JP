@@ -21,17 +21,17 @@ Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、所有�
 
 ![Adobe Admin Consoleへのアクセス権を持つ IMS ユーザーは、](assets/domain-management-4.png) の項目を追加できます。
 
-ドメインの追加手順については、[Admin Console ドキュメント ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) を参照してください。 ドメインを追加したら、そのドメインを [ ディレクトリにリンク ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) する必要があります。
+ドメインの追加手順については、[Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html) を参照してください。 ドメインを追加したら、そのドメインを [&#x200B; ディレクトリにリンク &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies) する必要があります。
 
 ## [!DNL Marketo Measure] でのドメインの管理 {#managing-domains-in-marketo-measure}
 
 ドメインがAdmin Consoleに追加されると、[!DNL Marketo Measure] はこのレコードをデータベースに定期的に同期します。 この同期は夜間に行われ、また、ユーザーが **[!UICONTROL UI の]** ドメイン [!DNL Marketo Measure] ページにアクセスするたびに行われます。 デフォルトでは、読み込み対象のレコード [!DNL Marketo Measure] 無効になっており、テナントは各ドメインを手動で有効にする必要があります。
 
-![ ドメインがAdmin Console（Marketo Measure）に追加された後 ](assets/domain-management-2.png)
+![&#x200B; ドメインがAdmin Console（Marketo Measure）に追加された後 &#x200B;](assets/domain-management-2.png)
 
 **[!UICONTROL 統合]**/**[!UICONTROL ドメイン]** ページには、Admin Consoleに登録したすべてのドメインがステータスと共に表示されます。 各ドメインは、有効または無効にできます。 ドメインが有効になっている場合、[!DNL Marketo Measure] のトラッキングは、そのドメインで発生するトラフィックを収集します。 ドメインが無効の場合、[!DNL Marketo Measure] はそのドメインからのトラフィックを無視し、タッチポイントや他のデータを作成しません。 [!DNL Marketo Measure] は、ドメインの無効化を確認し、影響が生じていることを警告します。
 
-![ 統合ドメインページには、すべてのドメインが表示されます ](assets/domain-management-3.png)
+![&#x200B; 統合ドメインページには、すべてのドメインが表示されます &#x200B;](assets/domain-management-3.png)
 
 ドメインの切り替えの影響は即座に生じ、変更はさかのぼって適用されません。 今後、[!DNL Marketo Measure] は、設定された期間の後に、無効なドメインからデータをパージします。
 

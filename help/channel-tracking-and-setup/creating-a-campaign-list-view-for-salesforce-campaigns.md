@@ -24,11 +24,11 @@ ht-degree: 5%
 1. ビューに「[!DNL Marketo Measure] と同期するキャンペーン」という名前を付けます。
 1. このリストには、[!DNL Marketo Measure] と同期するキャンペーンのみを表示するので、次のフィルターが必要です。
 
-   * **Type**[EQUALS] 「オフラインチャネルにマッピングしたすべてのキャンペーンタイプ」。 実装プランまたは [!DNL Marketo Measure] の「オフラインチャネル」タブ（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}/「マイアカウント」/「設定」/「オフラインチャネル」）を参照します。 虫めがねアイコンを使用して、必要なタイプ（オフラインのマーケティングチャネルにマッピングされるタイプ）を選択できます。
+   * **Type**&#x200B;[EQUALS] 「オフラインチャネルにマッピングしたすべてのキャンペーンタイプ」。 実装プランまたは [!DNL Marketo Measure] の「オフラインチャネル」タブ（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}/「マイアカウント」/「設定」/「オフラインチャネル」）を参照します。 虫めがねアイコンを使用して、必要なタイプ（オフラインのマーケティングチャネルにマッピングされるタイプ）を選択できます。
 
       * 各フィルターに対して 3 種類の最大を選択します。 フィルターフィールドには、文字数の制限があります。 フィルターごとに 3 つのタイプから開始し、必要に応じて「Type」フィルターの行を追加します。
 
-   * **作成日**[ 以上 ][!DNL Marketo Measure] の開始日。 開始日は、[!DNL Marketo Measure] アプリ内の ROI ダッシュボードで確認できます。 ダッシュの日付範囲で「作成日から」を選択するだけで、開始日が表示されます。
+   * **作成日**&#x200B;[ 以上 ]&#x200B;[!DNL Marketo Measure] の開始日。 開始日は、[!DNL Marketo Measure] アプリ内の ROI ダッシュボードで確認できます。 ダッシュの日付範囲で「作成日から」を選択するだけで、開始日が表示されます。
    * **&#42;レコードタイプ&#42;** - リスト表示で編集を行うには、レコードタイプのフィルターを追加する必要があります。 編集が必要になる各キャンペーンレコードは、同じレコードタイプである必要があります。
 
 1. 選択したフィールドを編集して、リスト表示に表示します。 リスト表示の完全な設定は、次の例のようになります。
@@ -43,4 +43,4 @@ ht-degree: 5%
 
 >[!MORELIKETHIS]
 >
->[ リスト表示のインライン編集に関する一般的な問題のトラブルシューティング ](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}
+>[&#x200B; リスト表示のインライン編集に関する一般的な問題のトラブルシューティング &#x200B;](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

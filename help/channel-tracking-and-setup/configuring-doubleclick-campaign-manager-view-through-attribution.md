@@ -20,7 +20,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] と [!DNL DoubleClick Campaign Manager] の統合を使用している場合は、[API 接続が必要なので ](/help/api-connections/integrated-ad-platforms.md) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
+>[!DNL Marketo Measure] と [!DNL DoubleClick Campaign Manager] の統合を使用している場合は、[API 接続が必要なので &#x200B;](/help/api-connections/integrated-ad-platforms.md) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
 
 [!DNL Doubleclick Campaign Manager] を使用したトラッキングを通じて、ビューからより詳細なinsightを取得するには、トラッキングピクセルを設定する必要があります。
 
@@ -48,7 +48,7 @@ DCM で親子階層を使用する場合は、インプレッショントラッ�
    m = %m マッチ コード マクロ\
    n = %n 乱数マクロ
 
-   ![n = %n 乱数マクロ ](assets/view-attribution-1.png)
+   ![n = %n 乱数マクロ &#x200B;](assets/view-attribution-1.png)
 
 ## よくある質問 {#faq}
 

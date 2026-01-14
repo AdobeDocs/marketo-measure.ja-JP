@@ -18,7 +18,7 @@ Adobe Experience Cloud インターフェイスは、Adobe Experience Cloud ア�
 
 既にAdobe Experience Cloudにログインしている場合は、メニューアイコンをクリックし、「**[!DNL Marketo Measure]**」を選択します。
 
-![ 既にAdobe Experience Cloud製品にログインしている場合 ](assets/unified-overview-6.png)
+![&#x200B; 既にAdobe Experience Cloud製品にログインしている場合 &#x200B;](assets/unified-overview-6.png)
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Adobe Experience Cloud製品にまだログインしていない _場合_、次�
 
 **ドメインの管理**
 
-[ ーザーのサポートを受けずに  [!DNL Marketo Measure]  ドメイン ](/help/domain-management.md) 管理 [!DNL Marketo Measure] します。
+[&#x200B; ーザーのサポートを受けずに  [!DNL Marketo Measure]  ドメイン &#x200B;](/help/domain-management.md) 管理 [!DNL Marketo Measure] します。
 
 ![Marketo Measureのサポートを受けずに、Marketo Measure ドメイン（/help/domain-management.md）を管理します。](assets/unified-overview-9.png)
 
@@ -40,27 +40,27 @@ Adobe Experience Cloud製品にまだログインしていない _場合_、次�
 
 サポート記事の検索、チケットの送信、フィードバックの提供をすべて [!DNL Marketo Measure] アプリケーション内から行います。
 
-![ サポート記事の検索、チケットの送信、フィードバックの提供をすべて内から行います ](assets/unified-overview-5.png)
+![&#x200B; サポート記事の検索、チケットの送信、フィードバックの提供をすべて内から行います &#x200B;](assets/unified-overview-5.png)
 
 **アプリケーションの切り替え**
 
 複数のAdobe製品にアクセスできるユーザーは、簡単に切り替えることができます。
 
-![ 複数のAdobe製品にアクセスできるユーザーは、簡単に切り替えることができます ](assets/unified-overview-4.png)
+![&#x200B; 複数のAdobe製品にアクセスできるユーザーは、簡単に切り替えることができます &#x200B;](assets/unified-overview-4.png)
 
 **通知とお知らせ**
 
 製品固有の通知や一般的なアドビ製品のお知らせを、アプリケーションで直接表示および操作します。
 
-![ 製品固有の通知やAdobe製品に関する一般的なお知らせの直接表示と操作 ](assets/unified-overview-10.png)
+![&#x200B; 製品固有の通知やAdobe製品に関する一般的なお知らせの直接表示と操作 &#x200B;](assets/unified-overview-10.png)
 
-![ 製品固有の通知やAdobe製品に関する一般的なお知らせの直接表示と操作 ](assets/unified-overview-11.png)
+![&#x200B; 製品固有の通知やAdobe製品に関する一般的なお知らせの直接表示と操作 &#x200B;](assets/unified-overview-11.png)
 
 **アドビ設定**
 
-言語やその他のAdobe全体の環境設定を変更するには、自分のプロファイルアイコンをクリックします。 また、[ マイ設定 [!DNL Marketo Measure] をクリックして、**固有の変更を行うこ** もできます。
+言語やその他のAdobe全体の環境設定を変更するには、自分のプロファイルアイコンをクリックします。 また、&lbrack; マイ設定 [!DNL Marketo Measure] をクリックして、**固有の変更を行うこ** もできます。
 
-![ 言語やその他のAdobe全体の環境設定を変更するには、自分のプロファイルアイコンをクリックします。](assets/unified-overview-8.png)
+![&#x200B; 言語やその他のAdobe全体の環境設定を変更するには、自分のプロファイルアイコンをクリックします。](assets/unified-overview-8.png)
 
 ## よくある質問 {#faq}
 
@@ -72,6 +72,6 @@ Adobe Experience Cloud製品にまだログインしていない _場合_、次�
 
 Adobe Experience Cloudにログインできるが、次のようなページが表示される場合、問題は [!DNL Marketo Measure] 側にある可能性があります。
 
-![Adobe Experience Cloudにログインできるが、が表示される場合 ](assets/unified-overview-7.png)
+![Adobe Experience Cloudにログインできるが、が表示される場合 &#x200B;](assets/unified-overview-7.png)
 
-上記のエラーが発生した場合は、[ サポートにお問い合わせください ](https://nation.marketo.com/t5/support/ct-p/Support)。
+上記のエラーが発生した場合は、[&#x200B; サポートにお問い合わせください &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support)。

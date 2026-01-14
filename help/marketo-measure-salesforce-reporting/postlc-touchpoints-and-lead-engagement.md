@@ -24,7 +24,7 @@ ht-degree: 3%
 
 PostLC タッチポイントは動的です。 リードまたは連絡先が PostLC フォームを送信し続ける [!DNL Marketo Measure]、は CRM の PostLC タッチポイントを更新して、最新のフォーム送信を表示します。 特に、5 つの PostLC タッチポイントの制限を設定した場合、[!DNL Marketo Measure] は常に 5 つの _最新の_ タッチポイントを CRM にプッシュします。  この例では、このアカウントは、PostLC 制限を 4 つのタッチポイントに設定しています。 このリードは、既に CRM で使用できる PostLC タッチポイントの最大数に達しています。 前回の PostLC タッチは 2018 年 2 月 6 日（PT）でした。 このユーザーが翌日に別のフォームに入力した場合、[!DNL Marketo Measure] は最初の PostLC タッチポイントを 2017 年 11 月 9 日から削除し、最新のタッチポイントを 2018 年 2 月 7 日から追加します。
 
-![PostLC タッチポイントは動的です。 リードまたは連絡先が送信を続ける場合 ](assets/additional-functionality-2.png)
+![PostLC タッチポイントは動的です。 リードまたは連絡先が送信を続ける場合 &#x200B;](assets/additional-functionality-2.png)
 
 >[!NOTE]
 >
@@ -36,20 +36,20 @@ PostLC タッチポイントは動的です。 リードまたは連絡先が Po
 
 **リード**
 
-1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL  設定 ] に移動します。
+1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL &#x200B; 設定 &#x200B;] に移動します。
 
 1. CRM で「**[!UICONTROL リード]**」を選択します。
 
 1. リードにプッシュする postLC タッチポイントの数を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![1.プッシュする postLC タッチポイントの数を入力します ](assets/additional-functionality-3.png)
+   ![1.プッシュする postLC タッチポイントの数を入力します &#x200B;](assets/additional-functionality-3.png)
 
 **取引先責任者**
 
-1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL  設定 ] に移動します。
+1. [!DNL Marketo Measure] アカウント（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）にログインし、[!UICONTROL &#x200B; 設定 &#x200B;] に移動します。
 
 1. CRM で、「**[!UICONTROL 連絡先]**」を選択します。
 
 1. 連絡先にプッシュする postLC タッチポイントの数を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![1.プッシュする postLC タッチポイントの数を入力します ](assets/additional-functionality-4.png)
+   ![1.プッシュする postLC タッチポイントの数を入力します &#x200B;](assets/additional-functionality-4.png)

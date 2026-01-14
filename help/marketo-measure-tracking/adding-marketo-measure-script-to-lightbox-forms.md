@@ -20,11 +20,11 @@ Lightbox 内のフォームは基本的に iFrame 内のフォームなので、
 
 まず、[!UICONTROL lightbox] フォームが格納されている iFrame を見つけます。
 
-![ まず、Lightbox フォームが格納されている iFrame を見つけます。](assets/adding-providers-8.png)
+![&#x200B; まず、Lightbox フォームが格納されている iFrame を見つけます。](assets/adding-providers-8.png)
 
 次に、[!DNL Marketo Measure] JavaScriptを iFrame 内に配置します。
 
-![ 次に、iFrame 内にMarketo Measure JavaScriptを配置します。](assets/adding-providers-5.png)
+![&#x200B; 次に、iFrame 内にMarketo Measure JavaScriptを配置します。](assets/adding-providers-5.png)
 
 最後に、JavaScriptが追加されたら、次の手順に従って、フォーム送信が追跡されていることを検証します。
 

@@ -58,7 +58,7 @@ JavaScriptをページの `<head>` にハードコードすると、[!DNL Market
 
 サードパーティのページを使用している場合は、ユースケースについて [!DNL Marketo Measure] コンサルタントと話し合ってください。 一般に、必要に応じて、JavaScriptのカスタムバージョンを追加して、それら [!DNL Marketo Measure] ページをトラッキングできるかどうかを知る必要があります。 それが不可能な場合は、[!DNL Marketo Measure] コンサルタントが CRM キャンペーンタッチポイントを使用したトラッキングを調査します。
 
-アトリビューションに対応していないフォーム（例えば、登録解除フォーム、顧客ログインなど）があり、[!DNL Marketo Measure] でトラッキングすべきでないフォームはありますか？ その場合は、除外コード [ この記事 ](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} を各フォームに追加します
+アトリビューションに対応していないフォーム（例えば、登録解除フォーム、顧客ログインなど）があり、[!DNL Marketo Measure] でトラッキングすべきでないフォームはありますか？ その場合は、除外コード [&#x200B; この記事 &#x200B;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} を各フォームに追加します
 
 セキュリティで保護されていないページはありますか？安全なページと安全でないページの間を移動すると、トラッキングセッションが中断されるので、これらを保護する必要があります。
 
@@ -66,7 +66,7 @@ JavaScriptをページの `<head>` にハードコードすると、[!DNL Market
 
 JavaScriptの設定中に [!DNL Web Application Firewall (WAF)] 警告がトリガーされた場合、次の例のように、そのWAF ルールを無効にするか、cookie を許可リストに加えるできます。
 
-![ 次の期間に web アプリケーションファイアウォール（WAF）の警告がトリガーされた場合 ](assets/adding-script-1.png)
+![&#x200B; 次の期間に web アプリケーションファイアウォール（WAF）の警告がトリガーされた場合 &#x200B;](assets/adding-script-1.png)
 
 ## 特別な注意を払うべきフォーム {#forms-to-pay-extra-attention-to}
 

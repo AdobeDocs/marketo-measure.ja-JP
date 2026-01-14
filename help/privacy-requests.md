@@ -47,7 +47,7 @@ ht-degree: 46%
 
 &quot;users&quot;：
 
-* 「アクション」:「アクセス [!UICONTROL  または削除 ]
+* 「アクション」:「アクセス [!UICONTROL &#x200B; または削除 &#x200B;]
 * “userIDs”：
    * 「名前空間」：メール
    * &quot;type&quot;：標準

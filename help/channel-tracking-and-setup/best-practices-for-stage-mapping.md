@@ -31,7 +31,7 @@ ht-degree: 4%
    * ブール値フィールドは、ベストプラクティスの推奨事項です
 * リードまたは連絡先ステージのセクションは、損失、オープン、コンバートに分かれています。ステージが適切なステージセクションにあることを確認します
    * 誤ったステージセクションにステージがあると、[!DNL Marketo Measure] データが非常に不正確になる場合があります
-   * Marketo Measure Ultimateのお客様で、デフォルトのダッシュボードオブジェクトを連絡先として設定している場合、次のリード固有の 2 つのフィールドを使用しないでください（[ 詳細情報 ](/help/data-integrity-requirement.md){target="_blank"}）。
+   * Marketo Measure Ultimateのお客様で、デフォルトのダッシュボードオブジェクトを連絡先として設定している場合、次のリード固有の 2 つのフィールドを使用しないでください（[&#x200B; 詳細情報 &#x200B;](/help/data-integrity-requirement.md){target="_blank"}）。
       * b2b.personStatus
       * b2b.isConverted
 * 商談ステージのセクションは、損失、オープン、獲得に分かれています。ステージが適切なステージセクションにあることを確認してください
@@ -52,4 +52,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[Funnel ステージとカスタムモデルステージの違い ](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)
+>[Funnel ステージとカスタムモデルステージの違い &#x200B;](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)

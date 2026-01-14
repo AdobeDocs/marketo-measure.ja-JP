@@ -20,13 +20,13 @@ ht-degree: 4%
 
    ![1.クイック検索で「Bizible 属性」にタイプし、](assets/bizible-guide-1.png) の項目を選択します。
 
-1. レポートの先頭から **[!UICONTROL すべての Bizible 属性タッチポイント]** を表示し、レポートしたい期間に従って日付フィールドを調整します。 この例では、「すべての時間」を表示しています。 さらに、レポート形式を [!UICONTROL  表形式 ] から **[!UICONTROL 概要]** に変更します。
+1. レポートの先頭から **[!UICONTROL すべての Bizible 属性タッチポイント]** を表示し、レポートしたい期間に従って日付フィールドを調整します。 この例では、「すべての時間」を表示しています。 さらに、レポート形式を [!UICONTROL &#x200B; 表形式 &#x200B;] から **[!UICONTROL 概要]** に変更します。
 
-   ![1.レポートの先頭から、すべての Bizible を表示 ](assets/bizible-guide-2.png)
+   ![1.レポートの先頭から、すべての Bizible を表示 &#x200B;](assets/bizible-guide-2.png)
 
 1. 次に、レポートにフィールドを追加します。 左側のクイック検索で、「マーケティングチャネル」と入力し、レポートの概要グループに追加します。
 
-   ![1.次に、レポートにフィールドを追加します。 で ](assets/marketo-reports-10.jpg)
+   ![1.次に、レポートにフィールドを追加します。 で &#x200B;](assets/marketo-reports-10.jpg)
 
 1. 次に、レポートを実行して分析します。
 
@@ -34,4 +34,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

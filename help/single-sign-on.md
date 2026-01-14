@@ -15,7 +15,7 @@ SSO（シングルサインオン）の SAML（Security Assertion Markup Languag
 
 >[!CAUTION]
 >
->この記事では、シングルサインオン（SSO）と高度な CRM ユーザ管理について説明します。アカウントを **2020年9月10日（PT）以降**&#x200B;にプロビジョニングした場合は、SSO と ID 管理が [ [!DNL Marketo Measure]  統合のために Adobe Admin Console](/help/implementation-guide.md) 内で設定されるので、この記事は無視してください。
+>この記事では、シングルサインオン（SSO）と高度な CRM ユーザ管理について説明します。アカウントを **2020年9月10日（PT）以降**&#x200B;にプロビジョニングした場合は、SSO と ID 管理が [&#x200B; [!DNL Marketo Measure]  統合のために Adobe Admin Console](/help/implementation-guide.md) 内で設定されるので、この記事は無視してください。
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ SSO（シングルサインオン）の SAML（Security Assertion Markup Languag
 
 はじめに、[!DNL Marketo Measure] アプリケーションの設定／セキュリティ／認証ページに移動します。次に、ログインタイプをカスタム SSO に切り替えて、設定オプションを確認します。認証をテストし、ページの下部にある「**[!UICONTROL 保存]**」ボタンをクリックするまで、変更は有効になりません。
 
-![ 開始するには、の設定セキュリティ認証ページに移動します ](assets/compliance-resources-1.png)
+![&#x200B; 開始するには、の設定セキュリティ認証ページに移動します &#x200B;](assets/compliance-resources-1.png)
 
 ## 処理 {#process}
 
@@ -86,7 +86,7 @@ ID プロバイダー設定の接続設定を入力します
     
     c. 複数のロールまたはグループを 1 つのロールにマッピングする必要がある場合は、各値をコンマで区切って入力します。
 
-![c.複数の役割またはグループを 1 つの役割にマッピングする必要がある場合 ](assets/discover-control-2.png)
+![c.複数の役割またはグループを 1 つの役割にマッピングする必要がある場合 &#x200B;](assets/discover-control-2.png)
 
 シングルサインオン設定をテストします
 
@@ -94,7 +94,7 @@ ID プロバイダー設定の接続設定を入力します
     
     b.「失敗」エラーが表示された場合は、メッセージに従って、もう一度試してください。
 
-![b.「失敗」エラーが表示された場合は、メッセージに従って ](assets/discover-control-3.png) の操作を試みます。
+![b.「失敗」エラーが表示された場合は、メッセージに従って &#x200B;](assets/discover-control-3.png) の操作を試みます。
 
 設定を保存し、新しいカスタムサインイン URL で[!UICONTROL シングルサインオン]を使用するよう同僚に指示します。
 
@@ -110,7 +110,7 @@ ID プロバイダー設定の接続設定を入力します
     
     c. おめでとうございます。アカウントの  [!DNL Marketo Measure]  アプリケーションでシングルサインオンが正常に設定されました。
 
-![c.これで、 へのシングル サインオンが正常に設定されました ](assets/discover-control-3.png)
+![c.これで、 へのシングル サインオンが正常に設定されました &#x200B;](assets/discover-control-3.png)
 
 >[!NOTE]
 >
@@ -131,21 +131,21 @@ ID プロバイダー設定の接続設定を入力します
 
 [!DNL Salesforce] ロールには、各ロールの名前を使用します。すべてのロールは、[!UICONTROL 設定]／[!UICONTROL ユーザを管理]／[!UICONTROL ロール]メニューにあります。
 
-![Salesforce ロールの場合、各ロールの名前を使用します。 すべてのロール ](assets/discover-control-3.png)
+![Salesforce ロールの場合、各ロールの名前を使用します。 すべてのロール &#x200B;](assets/discover-control-3.png)
 
 **Dynamics ロール**
 
 [!DNL Dynamics] ロールには、各セキュリティロールの名前を使用します。すべてのセキュリティロールは、[!UICONTROL 設定]／[!UICONTROL セキュリティ]／[!UICONTROL セキュリティロール]メニューにあります。
 
-![Dynamics ロールの場合は、各セキュリティーロールの名前を使用します。 すべて ](assets/discover-control-3.png)
+![Dynamics ロールの場合は、各セキュリティーロールの名前を使用します。 すべて &#x200B;](assets/discover-control-3.png)
 
-![Dynamics ロールの場合は、各セキュリティーロールの名前を使用します。 すべて ](assets/discover-control-3.png)
+![Dynamics ロールの場合は、各セキュリティーロールの名前を使用します。 すべて &#x200B;](assets/discover-control-3.png)
 
 **Google ユーザ**
 
 カスタム SSO を設定すると、[!UICONTROL ユーザ]ページが更新され、Google ログインで追加した外部ユーザのみが表示されます。アクセス権を持つすべてのユーザは SSO 設定を通じて定義されるので、追加の外部ユーザがここにリストされます。
 
-![ カスタム SSO を設定すると、ユーザーページが表示されます ](assets/discover-control-3.png)
+![&#x200B; カスタム SSO を設定すると、ユーザーページが表示されます &#x200B;](assets/discover-control-3.png)
 
 有効な [!DNL Google] アカウントのみを追加でき、ユーザロールを定義する必要があります。
 

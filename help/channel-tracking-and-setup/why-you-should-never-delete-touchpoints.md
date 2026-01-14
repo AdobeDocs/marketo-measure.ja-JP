@@ -18,6 +18,6 @@ ht-degree: 5%
 
 タッチポイントを削除すると、アトリビューションデータに穴が作成されます。 通常、これはオポチュニティの属性タッチポイントに現れます。 次の画像では、商談作成タッチを受け取るタッチポイントが削除されています。 その結果、この商談には OC タッチポイントがなく、この商談の属性パーセンテージは最大 100% 加算されません。
 
-![ タッチポイントが削除されると、アトリビューションに穴が作成される ](assets/touchpoint-settings-10.png)
+![&#x200B; タッチポイントが削除されると、アトリビューションに穴が作成される &#x200B;](assets/touchpoint-settings-10.png)
 
-タッチポイントがSFDCから削除されている場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} に連絡して、データの再読み込みをリクエストしてください。
+タッチポイントがSFDCから削除されている場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} に連絡して、データの再読み込みをリクエストしてください。

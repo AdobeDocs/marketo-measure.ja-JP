@@ -16,13 +16,13 @@ Marketoへの接続を設定する方法を以下に示します。
 
 >[!PREREQUISITES]
 >
->[/Marketo Engage連携の ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja)API のみのユーザーの役割を作成 [!DNL Marketo Measure] します。
+>[/Marketo Engage連携の &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja)API のみのユーザーの役割を作成 [!DNL Marketo Measure] します。
 
 1. [!DNL Marketo Measure] で、「**[!UICONTROL マイアカウント]**」ドロップダウンをクリックし、「**[!UICONTROL 設定]**」を選択します。
 
    ![1.Marketo Measureで、マイアカウント ドロップダウンをクリックし、](assets/set-connection-7.png) の操作を行います。
 
-1. [!UICONTROL  統合 ] で、「**[!UICONTROL 接続]**」をクリックします。
+1. [!UICONTROL &#x200B; 統合 &#x200B;] で、「**[!UICONTROL 接続]**」をクリックします。
 
    ![1.「統合」で、「接続」をクリックします。](assets/set-connection-8.png)
 
@@ -48,7 +48,7 @@ Marketoへの接続を設定する方法を以下に示します。
 
 1. [!DNL Marketo Measure] に戻り、収集したデータをフィールドに入力します。
 
-   ![1.Marketo Measureに戻り、フィールドにデータを入力し ](assets/set-connection-1.png) す。
+   ![1.Marketo Measureに戻り、フィールドにデータを入力し &#x200B;](assets/set-connection-1.png) す。
 
 1. 値を入力したら、「**[!UICONTROL 認証]**」をクリックします。 Marketo Engage アカウントが [!DNL Marketo Measure] に接続されています。
 

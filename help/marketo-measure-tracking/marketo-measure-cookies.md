@@ -33,4 +33,4 @@ ht-degree: 85%
 
 JavaScript の設定中に Web Application Firewall（WAF）の警告がトリガーされた場合、ユーザは、次の例に示すように、その WAF ルールを無効にするか、Cookie を許可リストに登録することができます。
 
-![JavaScript中に web アプリケーションファイアウォール（WAF）の警告がトリガーされた場合 ](assets/adding-script-1.png)
+![JavaScript中に web アプリケーションファイアウォール（WAF）の警告がトリガーされた場合 &#x200B;](assets/adding-script-1.png)

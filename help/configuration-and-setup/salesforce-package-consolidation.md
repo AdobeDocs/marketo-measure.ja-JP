@@ -29,7 +29,7 @@ ht-degree: 6%
 
 ## サポートと移行 {#support-and-transition}
 
-[ サポートチーム ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} は、ご質問にお答えし、新しい統合パッケージへのスムーズな移行を支援いたします。
+[&#x200B; サポートチーム &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} は、ご質問にお答えし、新しい統合パッケージへのスムーズな移行を支援いたします。
 
 ## 必要なアクション {#retired-actions}
 
@@ -41,13 +41,13 @@ ht-degree: 6%
       * V2_EXT クエリ：
          * bizible2_ext__Ad_Content_FT__c にはアウトリーチが含まれています
 
-![bizible2extAdContentFTc にはアウトリーチが含まれています ](assets/bizible-full-1.png)
+![bizible2extAdContentFTc にはアウトリーチが含まれています &#x200B;](assets/bizible-full-1.png)
 
 * 統合パッケージ内の対応するクエリ：
    * bizible2__Touchpoint_Position__c には、FT と
    * bizible2__Ad_Content__c にはアウトリーチが含まれています
 
-![bizible2AdContentc にはアウトリーチが含まれています ](assets/bizible-taxonomy-1.png)
+![bizible2AdContentc にはアウトリーチが含まれています &#x200B;](assets/bizible-taxonomy-1.png)
 
 ## よくある質問 {#faq}
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 
 **現在のパッケージのデータをバックフィルするにはどうすればよいですか？**
 
-BTとBATのデータをバックフィルして再処理し、タッチポイント ID およびフォーム ID フィールドに入力するためのチケットを [ サポート付き ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 提出できます。
+BTとBATのデータをバックフィルして再処理し、タッチポイント ID およびフォーム ID フィールドに入力するためのチケットを [&#x200B; サポート付き &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} 提出できます。
 
 **V1 および V2_EXT パッケージのフィールドは、統合パッケージで使用できますか？**
 
@@ -65,4 +65,4 @@ BTとBATのデータをバックフィルして再処理し、タッチポイン
 
 **V2_EXT フィールドを使用するレポートを、統合パッケージで再作成することはできますか？**
 
-はい。[ 必須アクション ](#retired-actions) の節の手順に従います。
+はい。[&#x200B; 必須アクション &#x200B;](#retired-actions) の節の手順に従います。

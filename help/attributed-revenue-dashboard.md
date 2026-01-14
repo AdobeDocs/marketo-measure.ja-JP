@@ -43,7 +43,7 @@ ht-degree: 3%
 * 各四半期に最も起因する売上高を生成したチャネルはどれですか？
 * 先月のチャネル別のアトリビューション売上高の内訳は何でしたか？
 
-![ 先月、チャネル別のアトリビューション売上高の内訳を教えてください。](assets/attributed-dashboard-4.png)
+![&#x200B; 先月、チャネル別のアトリビューション売上高の内訳を教えてください。](assets/attributed-dashboard-4.png)
 
 ### 起因する収益テーブル {#attributed-revenue-table}
 
@@ -59,14 +59,14 @@ ht-degree: 3%
 * 表形式表示では、属性となる売上高の分布に関する明確で整理されたインサイトが提供されます。 ユーザーは、データをチャネル、サブチャネルおよびキャンペーンに分類することで、パフォーマンスパターンを迅速に識別し、効果的なマーケティング戦略を特定できます。
 * 各チャネルの横にある「+」アイコンをクリックすると、サブチャネルとキャンペーンの分類が表示されます。
 
-![ 各チャネルの横にある「+」アイコンをクリックして、分類を表示します ](assets/attributed-dashboard-5.png)
+![&#x200B; 各チャネルの横にある「+」アイコンをクリックして、分類を表示します &#x200B;](assets/attributed-dashboard-5.png)
 
 **ツリー表示**
 
 * ツリー表示を使用すると、よりインタラクティブできめ細かいデータ調査が可能になり、マーケターはマーケティング活動でトレンド、異常値、目立つパフォーマンスを特定できます。
 * ブランチをクリックすると、後続の階層レイヤーをさらに掘り下げることができます。
 
-![ 分岐をクリックして、後続の階層レイヤーをさらに詳しく調べます。](assets/attributed-dashboard-6.png)
+![&#x200B; 分岐をクリックして、後続の階層レイヤーをさらに詳しく調べます。](assets/attributed-dashboard-6.png)
 
 ## フィルターウィンドウ {#filter-pane}
 
@@ -81,5 +81,5 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータ表示ポリシー ](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータ表示ポリシー &#x200B;](/help/dashboard-data-visibility-policy.md){target="_blank"}
 

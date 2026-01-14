@@ -14,4 +14,4 @@ ht-degree: 13%
 
 [!DNL Marketo Measure] のカスタムオブジェクトと Dynamics Standard オブジェクトとの関係を示すフローチャートを次に示します。<p>
 
-![ 以下は、Marketo Measureの仕組みを表したフローチャートです ](assets/bizible-taxonomy-1.png)
+![&#x200B; 以下は、Marketo Measureの仕組みを表したフローチャートです &#x200B;](assets/bizible-taxonomy-1.png)

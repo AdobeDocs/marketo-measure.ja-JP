@@ -56,6 +56,6 @@ ht-degree: 96%
 
 >[!MORELIKETHIS]
 > [オンラインチャネルの設定](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
-> [UTM パラメーター ](/help/channel-tracking-and-setup/utm-parameters.md)
-> [マーケティングチャネルとサブチャネル ](/help/channel-tracking-and-setup/marketing-channels-and-subchannels.md)
-> [UTM のベストプラクティス ](/help/channel-tracking-and-setup/best-practices-for-setting-up-utm-parameters.md)
+> [UTM パラメーター &#x200B;](/help/channel-tracking-and-setup/utm-parameters.md)
+> [マーケティングチャネルとサブチャネル &#x200B;](/help/channel-tracking-and-setup/marketing-channels-and-subchannels.md)
+> [UTM のベストプラクティス &#x200B;](/help/channel-tracking-and-setup/best-practices-for-setting-up-utm-parameters.md)

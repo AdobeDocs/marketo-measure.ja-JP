@@ -16,7 +16,7 @@ ht-degree: 9%
 
 幸いなことに、これは簡単な修正です。
 
-1. [!DNL Google Analytics] で、[!UICONTROL  管理者 ]/[!UICONTROL  設定を表示 ]/[!UICONTROL URL クエリパラメーターを除外 ] に移動します。
+1. [!DNL Google Analytics] で、[!UICONTROL &#x200B; 管理者 &#x200B;]/[!UICONTROL &#x200B; 設定を表示 &#x200B;]/[!UICONTROL URL クエリパラメーターを除外 &#x200B;] に移動します。
 1. ボックスに「_bt,_bk,_bm,_bn,_bg」と入力します（引用符を除く）。
 1. 下にスクロールして、「**[!UICONTROL 保存]**」をクリックします。
 

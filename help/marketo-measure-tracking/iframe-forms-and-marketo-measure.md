@@ -20,6 +20,6 @@ IFrame はページ内のページと考えてください。そのため、ス�
 
 JavaScript を IFrame の先頭に配置することをお勧めします。そこから、そのフレーム内のフォームに自動的に添付されます。
 
-![JavaScriptは、の先頭部分に配置することをお勧めします ](assets/adding-pages-1.png)
+![JavaScriptは、の先頭部分に配置することをお勧めします &#x200B;](assets/adding-pages-1.png)
 
-JavaScriptの IFrame フォームへの追加に関するご質問は、Adobe アカウントチーム（アカウントマネージャー）または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+JavaScriptの IFrame フォームへの追加に関するご質問は、Adobe アカウントチーム（アカウントマネージャー）または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
