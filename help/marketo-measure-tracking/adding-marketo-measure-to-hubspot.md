@@ -1,15 +1,14 @@
 ---
-description: 追加  [!DNL Marketo Measure] to [!DNL Hubspot] - [!DNL Marketo Measure]
+description: Marketo Measure ユ  [!DNL Marketo Measure]  ザー向  [!DNL Hubspot]  ガイダンスの追加
 title: 追加  [!DNL Marketo Measure]  先  [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # [!DNL Marketo Measure] への [!DNL Hubspot] の追加 {#adding-marketo-measure-to-hubspot}
 
@@ -18,6 +17,7 @@ ht-degree: 1%
 Hubspot は、ランディングページ/フォームや web サイトをホストできるという点で、他のマーケティング自動化システムとは少し異なります。 以下の手順は、[!DNL Marketo Measure] ーザーがホストするページでアクティビティ [!DNL Hubspot] 追跡するためのものです。 [!DNL Hubspot] 以外のCMS（Wordpress など）を使用して web サイトの機能を強化する場合は、[!DNL Marketo Measure] JavaScriptもそのCMSに追加する必要があります。
 
 >[!NOTE]
+>
 >[!DNL Google Tag Manager] などの Tag Management プロバイダーを通じてJavaScriptをデプロイする場合は、[!DNL Marketo Measure] JavaScriptを手動で Web サイトにハードコードする必要はありません。
 
 ## はじめに {#getting-started}
@@ -28,7 +28,7 @@ Hubspot は、ランディングページ/フォームや web サイトをホス
 
 1. **[!UICONTROL コンテンツ設定]** をクリックします。
 
-1. [!UICONTROL &#x200B; コンテンツ設定 &#x200B;] 内で、「サイトヘッダーHTML」（下図を参照）をクリックします。
+1. [!UICONTROL  コンテンツ設定 ] 内で、「サイトヘッダーHTML」（下図を参照）をクリックします。
 
 1. `<header>` 内に次のスクリプトを追加します。
 
@@ -36,11 +36,13 @@ Hubspot は、ランディングページ/フォームや web サイトをホス
 
    次のようになります。
 
-```text
+```html
 <!-- Marketo Measure Javascript -->
 <script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="">
 ```
 
 >[!TIP]
+>
 >この領域には、Google Analytics コードなど、既に他のトラッキングコードスニペットが存在する場合があります。 次のように、セミコロン `;` と 1 つのスペースで区切ってください。
+>
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`

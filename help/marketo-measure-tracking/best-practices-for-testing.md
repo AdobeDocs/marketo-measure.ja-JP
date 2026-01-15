@@ -1,15 +1,14 @@
 ---
-description: テストのベストプラクティス - [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向けテストガイダンスのベストプラクティス
 title: テストのベストプラクティス
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 19%
+source-wordcount: '187'
+ht-degree: 18%
 
 ---
-
 
 # テストのベストプラクティス {#best-practices-for-testing}
 
@@ -20,6 +19,7 @@ ht-degree: 19%
 1. シークレットブラウザーを使用するか、各フォーム送信テストの間に Cookie を消去します _および_ 毎回異なるメールアドレスを使用します）。
 
    >[!TIP]
+   >
    >ベストプラクティスは、テストであることを示す内容と時間帯を含んだ偽のメールを使用することです。 例：`testing830am@test.com`。
 
 1. 検索エンジン（`google.com` など）で検索を開始するか、フォームに直接移動します。
@@ -31,4 +31,5 @@ ht-degree: 19%
 1. そのフォーム送信に対して CRM（リードまたは連絡先）で作成されたレコードを見つけて、タッチポイントが適切に作成されたことを確認します。
 
 >[!NOTE]
+>
 >[!DNL Marketo Measure] タッチポイントを使用したリードなどの [!DNL Marketo Measure] しい在庫レポートを使用したり、[!DNL Marketo Measure] しい詳細でページレイアウトを更新することを選択した場合は、リード/連絡先ページレイアウトを調べたりできます。 データが処理されるまでしばらく時間がかかる場合があります。

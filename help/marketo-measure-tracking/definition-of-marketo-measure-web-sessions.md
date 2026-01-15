@@ -1,15 +1,14 @@
 ---
-description: ' [!DNL Marketo Measure] web セッションの定義 - [!DNL Marketo Measure]'
+description: Marketo Measure ユーザー向け Web セッション  [!DNL Marketo Measure]  ガイダンスの定義
 title: ' [!DNL Marketo Measure]  web セッションの定義'
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 98%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
-
 
 # [!DNL Marketo Measure] web セッションの定義 {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ ht-degree: 98%
 
 ## 時間ベースの有効期限 {#time-based-expiration}
 
-### 従来の動作 {#legacy-behavior}
-
 **セッションの持続時間**
 
-[!UICONTROL Marketo Measure] セッションは、web サイトで 30 分間アクティビティがないと終了します。例：
+[!DNL Marketo Measure] セッションは、web サイトで 30 分間アクティビティがないと終了します。例：
 
-Haley が adobe.com を訪問すると、セッションが開始します。数分間 web サイトを探索した後、コンピューターから離れますが、web サイトは開いたままにします。セッションは、web サイトで 30 分間アクティビティがないと終了します。
+Haley が adobe.com を訪問すると、セッションが開始します。数分間 web サイトを探索した後、コンピューターから離れますが、web サイトは開いたままにします。セッションは、30 分間アクティビティがないと終了します。
 
-現在、[!UICONTROL Marketo Measure] は、ページナビゲーションとフォーム送信のみをアクティビティと見なします。Web ページをスクロールしたり、ページ上の要素にポインタを合わせたりすることは、アクティビティと見なされません。そのため、Haley がブログ投稿を読むために adobe.com を訪問し、読むのに 1 時間かかる場合、ページ上のコンテンツをスクロールしていても、web セッションは 30 分後に終了します。
-
-### 新しい動作 {#new-behavior}
-
-新規ユーザの場合、これがデフォルトの動作になります。
-
-既存のユーザは、**設定**／**エブリタッチアトリビューション**／**セッションチャネルの引き継ぎ**&#x200B;で切替スイッチをオンにして、新しい動作を採用できます。この設定は、一度アクティブ化すると元に戻すことはできません。
-
-非アクティブ状態が 30 分間続いた後に新しいセッションを作成する場合、7 日以内に新しいセッションが開始していれば、以前のセッションのチャネルが引き継がれます。この引き継ぎは、直接訪問（リファラーや内部リファラーなし）にのみ適用されます。非アクティブ状態が 7 日間を超える場合、新しいセッションのチャネルはデフォルトでダイレクト／その他に設定されます。例えば、Haley が Google から landingpage.com に訪問し、非アクティブ状態が 30 分以上続き、7 日以内に戻った場合、新しいセッションでは Google チャネルが保持されます。ただし、同じユーザが別のチャネルを通じてページに再訪問した場合、非ダイレクトチャネルは以前の Google チャネルによって上書きされません。
-
-キャンペーンやリファラーの詳細を除き、チャネルのみが引き継がれます。これは、チャネルの分類が Marketo Measure によって処理され、他のデータポイントが個別に収集されるからです。
-
-**ソーシャルログイン**
-
-訪問者が Google、Microsoft、Apple 経由でソーシャルログインを使用する際、セッションは 1 つの連続セッションに結合されます。例えば、訪問者が LinkedIn からページにアクセスし、Google ソーシャルログインを完了して、サンキューページに到達した場合、すべてが 1 回のセッションとしてカウントされます。セッションチャネルの引き継ぎ切替スイッチをオンにしないと、ソーシャルログインでは、外部リファラーによって個別のセッションが作成されます。
+現在、[!DNL Marketo Measure] は、ページナビゲーションとフォーム送信のみをアクティビティと見なします。Web ページをスクロールしたり、ページ上の要素にポインタを合わせたりすることは、アクティビティと見なされません。そのため、Haley がブログ投稿を読むために adobe.com を訪問し、読むのに 1 時間かかる場合、ページ上のコンテンツをスクロールしていても、web セッションは 30 分後に終了します。
 
 ## チャネルベースの有効期限 {#channel-based-expiration}
 
@@ -82,4 +65,4 @@ _ただし_、Haley の最初の web セッションが Web ダイレクトか�
 
 ## Google Analytics セッション {#google-analytics-sessions}
 
-[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。Google Analyticsによるセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=enを参照してください &#x200B;](https://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"}
+[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。Google Analyticsによるセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=enを参照してください ](https://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"}

@@ -1,15 +1,14 @@
 ---
-description: API 接続のベストプラクティス - [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向け API 接続のベストプラクティスに関するガイダンス
 title: API 接続のベストプラクティス
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 96%
 
 ---
-
 
 # API 接続のベストプラクティス {#best-practices-for-api-connections}
 
@@ -40,6 +39,7 @@ ht-degree: 95%
 * すべてのアクティブな [!DNL Facebook] Ads にわたる広告コスト情報をダウンロードする
 
 >[!NOTE]
+>
 >[!DNL Facebook] にはトラッキングテンプレートがありません。API は自動タグ付き（_bf）パラメーターに依存して広告の詳細を収集します。
 
 **AdWords**：アカウントレベルでトラッキングテンプレートを実装し、自動タグ付けを有効にする
@@ -56,7 +56,6 @@ ht-degree: 95%
 他の API 接続とは異なり、[!DNL Bing] API 接続を設定する際に広告履歴が失われるリスクはありません。
 
 ベストプラクティスのレコメンデーションに従うことで、[!DNL Marketo Measure] Bing API では次の操作を実行できます。
-
 * `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}` のパラメーターを使用して、すべての Bing Ads に自動タグ付けする
 * すべてのアクティブな Bing Ads をまたいだ広告コスト情報をダウンロードする
 
@@ -70,6 +69,7 @@ ht-degree: 95%
 * すべてのアクティブな、サポートされている [!DNL LinkedIn] 広告の広告コスト情報をダウンロードする
 
 >[!NOTE]
+>
 >[!DNL LinkedIn] にはトラッキングテンプレートがありません。API は自動タグ付き（_bl）パラメーターに依存して、考えられるすべての広告の詳細を収集します。
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
@@ -87,10 +87,11 @@ API に接続されたアカウントを切断すると、[!DNL Marketo Measure]
 お客様のチームで上記のシナリオが発生した場合は、[!DNL Marketo Measure] アプリで API 接続を確認して、再認証する必要がないことを確認してください。
 
 >[!MORELIKETHIS]
-> [統合された広告プラットフォーム（API）](/help/api-connections/integrated-ad-platforms.md)
-> [入札管理ツールの [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md) への影響
-> [[!DNL Marketo Measure] API パラメーター &#x200B;](/help/api-connections/marketo-measure-parameters.md)
-> [Facebook API の概要 &#x200B;](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] 統合の概要 &#x200B;](/help/api-connections/linkedin-integration.md)
-> [AdWords 統合の概要 &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Connected API アカウントの再認証 &#x200B;](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [統合された広告プラットフォーム（API）](/help/api-connections/integrated-ad-platforms.md)
+>* [入札管理ツールの  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md) への影響
+>* [[!DNL Marketo Measure]  API パラメーターの説明](/help/api-connections/marketo-measure-parameters.md)
+>* [Facebook API の概要](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn]  統合の概要](/help/api-connections/linkedin-integration.md)
+>* [AdWords 統合の概要](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [接続された API アカウントの再認証](/help/api-connections/reauthorizing-connected-accounts.md)
