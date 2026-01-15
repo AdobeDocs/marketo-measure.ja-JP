@@ -65,4 +65,4 @@ _ただし_、Haley の最初の web セッションが Web ダイレクトか�
 
 ## Google Analytics セッション {#google-analytics-sessions}
 
-[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。Google Analyticsによるセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=enを参照してください ](https://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"}
+[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。Google Analyticsによるセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=enを参照してください &#x200B;](https://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"}
