@@ -57,7 +57,7 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 >
 >[!DNL Marketo Measure Ultimate] 実稼動インスタンスは AEP 実稼動サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。変更については、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。変更については、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。各データセットは、1 つのデータフローにのみ含めることができます。違反すると、実行時にデータフローが停止します。
 
@@ -111,6 +111,6 @@ Ultimate には CRM の直接接続がないので、アトリビューション
 
 >[!MORELIKETHIS]
 >
->* [Marketo Measure Ultimateの宛先 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
+>* [Marketo Measure Ultimateの宛先 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
 >
->* [ ビデオ：Marketo Measure Ultimateの概要 ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>* [&#x200B; ビデオ：Marketo Measure Ultimateの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

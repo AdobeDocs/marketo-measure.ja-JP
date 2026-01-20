@@ -14,7 +14,7 @@ ht-degree: 99%
 
 ## はじめに {#getting-started}
 
-[!DNL Tableau] レポートテンプレートにアクセスするには [ こちら ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} をクリックします。
+[!DNL Tableau] レポートテンプレートにアクセスするには [&#x200B; こちら &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"} をクリックします。
 
 [!DNL Adobe Marketo Measure] レポートテンプレート Tableau ワークブックファイルを開きます。
 

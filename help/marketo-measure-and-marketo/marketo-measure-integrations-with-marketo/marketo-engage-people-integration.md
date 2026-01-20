@@ -20,7 +20,7 @@ Marketo人物統合を使用 [!DNL Marketo Measure] ると、Marketoから人物
 * 実稼動Marketo インスタンス
 * 実稼動 [!DNL Salesforce] または実 [!DNL Microsoft Dynamics] 動インスタンス
 * 任意の有料 [!DNL Marketo Measure] サブスクリプション
-* SOLR を有効にする（これを有効にするには [](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"}Marketo サポートにお問い合わせください）
+* SOLR を有効にする（これを有効にするには [&#128279;](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"}Marketo サポートにお問い合わせください）
 
 ## 仕組み {#how-it-works}
 

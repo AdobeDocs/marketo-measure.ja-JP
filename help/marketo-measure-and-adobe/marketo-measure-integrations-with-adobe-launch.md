@@ -22,11 +22,11 @@ Adobe Launch にインストールして設定すると、[!DNL Marketo Measure]
 >
 >Adobe Launch とその拡張機能について詳しくは、次のリンクを参照してください。
 >
->* [[!DNL Marketo Measure]  拡張機能 ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
->* [Adobe Launch の概要 ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ja){target="_blank"}
->* [Adobe Launch 拡張機能の概要 ](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
+>* [[!DNL Marketo Measure]  拡張機能 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+>* [Adobe Launch の概要 &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ja){target="_blank"}
+>* [Adobe Launch 拡張機能の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. 手順 [ この記事 ](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"} に従ってプロパティを作成します。
+1. 手順 [&#x200B; この記事 &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"} に従ってプロパティを作成します。
 
 1. 作成したプロパティをクリックします。
 
@@ -56,7 +56,7 @@ Adobe Launch にインストールして設定すると、[!DNL Marketo Measure]
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-7.png)
 
-1. **[!UICONTROL イベント]** の下の [!UICONTROL  追加 ] ボタンをクリックします。
+1. **[!UICONTROL イベント]** の下の [!UICONTROL &#x200B; 追加 &#x200B;] ボタンをクリックします。
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 

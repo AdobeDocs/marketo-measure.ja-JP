@@ -27,17 +27,17 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL [!UICONTROL プライマリオブジェクト ]]: リード
-   * 識別/[!UICONTROL  レポートタイプラベル ]：購入者タッチポイントを持つリード（カスタム）
-   * [!UICONTROL  カテゴリ内に保存 ]：その他のレポート
-   * [!UICONTROL  デプロイメント ]/[!UICONTROL  デプロイメントステータス ]：デプロイ済み
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL [!UICONTROL プライマリオブジェクト &#x200B;]]: リード
+   * 識別/[!UICONTROL &#x200B; レポートタイプラベル &#x200B;]：購入者タッチポイントを持つリード（カスタム）
+   * [!UICONTROL &#x200B; カテゴリ内に保存 &#x200B;]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;]/[!UICONTROL &#x200B; デプロイメントステータス &#x200B;]：デプロイ済み
 
    ![](assets/2.png)
 
 1. オブジェクトの関係を定義します。
 
    * リードオブジェクト（A）を [!DNL Marketo Measure] ースユーザーオブジェクト（B）に関連付け、次にBuyer Touchpointオブジェクト（C）に関連付けます
-   * 「[!UICONTROL  各 A/B レコードには少なくとも 1 つの B/C] が必要」レコードが選択されていることを確認します
+   * 「[!UICONTROL &#x200B; 各 A/B レコードには少なくとも 1 つの B/C] が必要」レコードが選択されていることを確認します
    * [!UICONTROL 保存]
 
    ![](assets/3.png)
@@ -50,17 +50,17 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]: [!DNL Marketo Measure] 人
-   * [!UICONTROL ID]/[!UICONTROL  レポートタイプラベル ]：購入者タッチポイントを持つ [!DNL Marketo Measure] ユーザー（カスタム）
-   * [!UICONTROL  カテゴリ内に保存 ]：その他のレポート
-   * [!UICONTROL  デプロイメント ]/[!UICONTROL  デプロイメントステータス ]：デプロイ済み
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]: [!DNL Marketo Measure] 人
+   * [!UICONTROL ID]/[!UICONTROL &#x200B; レポートタイプラベル &#x200B;]：購入者タッチポイントを持つ [!DNL Marketo Measure] ユーザー（カスタム）
+   * [!UICONTROL &#x200B; カテゴリ内に保存 &#x200B;]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;]/[!UICONTROL &#x200B; デプロイメントステータス &#x200B;]：デプロイ済み
 
    ![](assets/5.png)
 
 1. オブジェクトの関係を定義します。
 
    * [!DNL Marketo Measure] Person オブジェクト（A）とBuyer Touchpoint オブジェクト（B）の関連付け
-   * 「[!UICONTROL  各 A レコードには少なくとも 1 つの B が必要 ]」レコードが選択されていることを確認します
+   * 「[!UICONTROL &#x200B; 各 A レコードには少なくとも 1 つの B が必要 &#x200B;]」レコードが選択されていることを確認します
    * [!UICONTROL 保存]
 
    ![](assets/6.png)
@@ -73,17 +73,17 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]：商談
-   * [!UICONTROL ID]/[!UICONTROL  レポートタイプラベル ]:Buyer Attribution Touchpointに関する商談（カスタム）
-   * [!UICONTROL  カテゴリ内に保存 ]：その他のレポート
-   * [!UICONTROL  デプロイメント ]/[!UICONTROL  デプロイメントステータス ]：デプロイ済み
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]：商談
+   * [!UICONTROL ID]/[!UICONTROL &#x200B; レポートタイプラベル &#x200B;]:Buyer Attribution Touchpointに関する商談（カスタム）
+   * [!UICONTROL &#x200B; カテゴリ内に保存 &#x200B;]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;]/[!UICONTROL &#x200B; デプロイメントステータス &#x200B;]：デプロイ済み
 
    ![](assets/8.png)
 
 1. オブジェクトの関係を定義します。
 
    * 商談オブジェクト（A）とBuyer Attribution Touchpointオブジェクト（B）の関連付け
-   * 「[!UICONTROL  各 A レコードには少なくとも 1 つの B が必要 ]」レコードが選択されていることを確認します
+   * 「[!UICONTROL &#x200B; 各 A レコードには少なくとも 1 つの B が必要 &#x200B;]」レコードが選択されていることを確認します
    * [!UICONTROL 保存]
 
    ![](assets/9.png)
@@ -94,6 +94,6 @@ ht-degree: 6%
 
    ![](assets/10.png)
 
-1. レポートに追加するカスタムフィールドが「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加したい他のフィールドがある場合は、「[!UICONTROL  ルックアップ経由で関連するフィールドを追加 ]」オプションを使用します。
+1. レポートに追加するカスタムフィールドが「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加したい他のフィールドがある場合は、「[!UICONTROL &#x200B; ルックアップ経由で関連するフィールドを追加 &#x200B;]」オプションを使用します。
 
    ![](assets/11.png)

@@ -36,7 +36,7 @@ Adobe Admin Console にアクセスすると、「概要」セクションに [!
 
 [!DNL Marketo Measure] 製品インスタンス内でプロファイルを作成する際に必要なアクションはありません。
 
-[!DNL Marketo Measure] にアクセスできるユーザの追加を開始するには、以下の[  [!DNL Marketo Measure]  管理者と  [!DNL Marketo Measure]  ユーザの追加](#adding-marketo-measure-admins-and-marketo-measure-users)の節を参照してください。
+[!DNL Marketo Measure] にアクセスできるユーザの追加を開始するには、以下の[&#x200B;  [!DNL Marketo Measure]  管理者と  [!DNL Marketo Measure]  ユーザの追加](#adding-marketo-measure-admins-and-marketo-measure-users)の節を参照してください。
 
 ## [!DNL Marketo Measure] 管理者と [!DNL Marketo Measure] ユーザの追加 {#adding-marketo-measure-admins-and-marketo-measure-users}
 

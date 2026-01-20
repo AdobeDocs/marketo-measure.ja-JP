@@ -20,7 +20,7 @@ B2B 顧客属性の統合により、[!DNL Marketo Measure] とAdobe Analytics�
 
 ## 統合の設定 {#configuring-the-integration}
 
-1. Experience Cloud コンソールで、新しい顧客属性データSourceを作成します。 手順について詳しくは [ こちらを参照 ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ja) してください。
+1. Experience Cloud コンソールで、新しい顧客属性データSourceを作成します。 手順について詳しくは [&#x200B; こちらを参照 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ja) してください。
 
    後の手順で必要になる、次の情報をメモします。
 
@@ -34,11 +34,11 @@ B2B 顧客属性の統合により、[!DNL Marketo Measure] とAdobe Analytics�
 
    Adobe IMS組織 ID を入力します。 この ID は、Adobe Experience Cloud Admin Consoleの右下隅に表示されます。 この ID の検索について詳しくは、Adobe アカウントチーム（アカウントマネージャー）にお問い合わせください。
 
-1. [!DNL Marketo Measure] アカウントでの接続の作成が完了したら、Experience Cloud コンソールに戻って [ スキーマを検証 ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en) する必要があります。 FTP ファイルのアップロードについて心配する必要はありません [!DNL Marketo Measure]、この部分は自動的に追加されました。 手順 1 で作成した顧客属性Sourceの「表示/編集」スキーマ画面に移動し、[!DNL Marketo Measure] がユーザーに代わってアップロードした各属性のデータタイプをAdobeに指定します。 必要に応じて、アップロードした属性に新しい表示にわかりやすい名前を作成することもできます。
+1. [!DNL Marketo Measure] アカウントでの接続の作成が完了したら、Experience Cloud コンソールに戻って [&#x200B; スキーマを検証 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en) する必要があります。 FTP ファイルのアップロードについて心配する必要はありません [!DNL Marketo Measure]、この部分は自動的に追加されました。 手順 1 で作成した顧客属性Sourceの「表示/編集」スキーマ画面に移動し、[!DNL Marketo Measure] がユーザーに代わってアップロードした各属性のデータタイプをAdobeに指定します。 必要に応じて、アップロードした属性に新しい表示にわかりやすい名前を作成することもできます。
 
    CRM アカウントオブジェクトから属性を同期することを選択した場合は、新しい表示名を選択することを強くお勧めします。[!DNL Marketo Measure] れらの属性は通常、レポートに適さない API レベルの名前のみが入力されるからです。
 
-1. 最後の手順では、属性を使用するExperience Cloud アプリケーションの属性サブスクリプションを設定します。 [!DNL Adobe Analytics] または [!DNL Adobe Target] の購読を設定できます。  その方法について詳しくは [ こちらを参照 ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html) してください。
+1. 最後の手順では、属性を使用するExperience Cloud アプリケーションの属性サブスクリプションを設定します。 [!DNL Adobe Analytics] または [!DNL Adobe Target] の購読を設定できます。  その方法について詳しくは [&#x200B; こちらを参照 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/subscription.html) してください。
 
 ## 属性の説明 {#attribute-descriptions}
 
@@ -79,7 +79,7 @@ B2B 顧客属性接続を作成すると、B2B 顧客属性の標準セット [!
 
 **属性の制限に関するメモ**
 
-この統合を通じて表示される属性は、[!DNL Adobe Analytics] および [!DNL Adobe Target] の契約上の属性制限に対してカウントされます。 属性の購読（[ 統合の設定 ](#configuring-the-integration) の手順 5）を介して表示された属性のみが、購読しているアプリケーションの制限にカウントされます。
+この統合を通じて表示される属性は、[!DNL Adobe Analytics] および [!DNL Adobe Target] の契約上の属性制限に対してカウントされます。 属性の購読（[&#x200B; 統合の設定 &#x200B;](#configuring-the-integration) の手順 5）を介して表示された属性のみが、購読しているアプリケーションの制限にカウントされます。
 
 ## よくある質問（FAQ） {#faqs}
 

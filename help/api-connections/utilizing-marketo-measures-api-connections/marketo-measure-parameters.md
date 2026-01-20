@@ -42,10 +42,10 @@ UTM の使用からさらにインサイトを取得するために、[!DNL Mark
 
 >[!TIP]
 >
->一致タイプについて詳しくは、[ 関連する AdWords 記事を参照 ](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"} してください。
+>一致タイプについて詳しくは、[&#x200B; 関連する AdWords 記事を参照 &#x200B;](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"} してください。
 
 * `_bn={network}`
-   * 広告ネットワークのタイプ [ 表示または検索 ](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"} を表します。
+   * 広告ネットワークのタイプ [&#x200B; 表示または検索 &#x200B;](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"} を表します。
    * UTM ソースパラメーターに似ています。
 
 * `_bg={adgroupID}`

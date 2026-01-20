@@ -25,7 +25,7 @@ ht-degree: 1%
 
    カスタム属性モデルの作成を開始するには、マーケティングチームにとって重要なステージを選択する必要があります。 [!DNL Marketo Measure] のマイルストーンステージ（FT、LC、OC、クローズド）に加えて、カスタムモデルに最大 6 つのリード/連絡先ステータスまたは商談ステージを追加できます。 例えば、MQL ステージをカスタムモデルに含めるのが一般的です。 マーケティングチームは、多くの場合、MQL ステージへの移行を推進している取り組みやチャネルを知りたいと考えます。
 
-   [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} にサインインします。 [!UICONTROL  マイアカウント ]/[!UICONTROL  設定 ]/に移動し、「CRM」セクションで **[!UICONTROL ステージマッピング]** を選択します。
+   [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} にサインインします。 [!UICONTROL &#x200B; マイアカウント &#x200B;]/[!UICONTROL &#x200B; 設定 &#x200B;]/に移動し、「CRM」セクションで **[!UICONTROL ステージマッピング]** を選択します。
 
    次に、「**[!UICONTROL モデルに含める]**」ボックスを選択して、含めるリード/連絡先および商談ステージを選択します。
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
    ステージを選択したら、ページ下部の **[!UICONTROL 保存して処理]** ボタンを必ずクリックしてください。 ステージが「**[!UICONTROL アトリビューション設定]**」タブに表示され、各ステージにアトリビューションの割合を割り当てることができます。 カスタムステージは、デマンドウォーターフォール内のリードまたは商談ステージとしてマーケティングパフォーマンススイートにも表示されます。
 
-   モデルに含める他のステージがあるものの、それらが [!UICONTROL  リード/連絡先ステータス ] または [!UICONTROL  商談ステージ ] リストに含まれていない場合、CRM のフィールドに基づいて独自のカスタムステージを定義できます。
+   モデルに含める他のステージがあるものの、それらが [!UICONTROL &#x200B; リード/連絡先ステータス &#x200B;] または [!UICONTROL &#x200B; 商談ステージ &#x200B;] リストに含まれていない場合、CRM のフィールドに基づいて独自のカスタムステージを定義できます。
 
    以下の例では、カスタム「MQL」ステージが日付フィールドを使用して定義されています。 このルールは、「MQL 日付」フィールドが空でない場合は MQL と見なしてカスタムモデルに含める必要があると述べるだけです。 また、カスタムステージを作成したら、セールスサイクルの進行状況に従うようにカスタムステージを並べ替えることも重要です。
 
@@ -51,7 +51,7 @@ ht-degree: 1%
    >
    >カスタムフィールドの履歴トラッキングを必ず有効にしてください。
 
-カスタムモデルでカスタムフィールドを使用する場合は、CRM でフィールド履歴のトラッキングを有効にする必要があります。 フィールド履歴の追跡を有効にする手順については、[ カスタムモデル設定：フィールド履歴の追跡を有効にする ](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md) を参照してください。
+カスタムモデルでカスタムフィールドを使用する場合は、CRM でフィールド履歴のトラッキングを有効にする必要があります。 フィールド履歴の追跡を有効にする手順については、[&#x200B; カスタムモデル設定：フィールド履歴の追跡を有効にする &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md) を参照してください。
 
 1. カスタムモデルの属性パーセンテージを決定します。
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    「**[!UICONTROL カスタム]**」というラベルの付いた右端の列で、カスタムアトリビューションモデルの各ステージの重み付けの割合を設定できます。 「カスタム」列で各ステージの値を入力し、完了したら **[!UICONTROL 保存して再処理]** をクリックします。
 
-   _カスタム_ 列の左側には、**[!DNL Marketo Measure]機械学習モデル** があります。 機械学習モデルは、各カスタムステージで何が起こったかに応じて、取引の成立に対する相対的重要度に基づいてアトリビューションの重み付けを計算します。 機械学習モデルについて詳しくは、[ 機械学習モデルに関する FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md) を参照してください。
+   _カスタム_ 列の左側には、**[!DNL Marketo Measure]機械学習モデル** があります。 機械学習モデルは、各カスタムステージで何が起こったかに応じて、取引の成立に対する相対的重要度に基づいてアトリビューションの重み付けを計算します。 機械学習モデルについて詳しくは、[&#x200B; 機械学習モデルに関する FAQ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md) を参照してください。
 
    ![](assets/3.png)
 

@@ -54,4 +54,4 @@ Passport ダッシュボードを使用すると、マーケターは、指定�
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータ表示ポリシー ](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータ表示ポリシー &#x200B;](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

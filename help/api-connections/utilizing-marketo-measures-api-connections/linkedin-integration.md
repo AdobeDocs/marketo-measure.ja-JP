@@ -35,7 +35,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 * アカウントマネージャ
 * キャンペーンマネージャー
 
-詳細情報：[Campaign Manager のユーザーの役割と機能 ](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
+詳細情報：[Campaign Manager のユーザーの役割と機能 &#x200B;](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
 
 **有料メディア管理者ロール**
 
@@ -44,7 +44,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 * スポンサーコンテンツのポスター
 * リード生成Forms マネージャー
 
-詳細情報：[LinkedIn ページの管理者ロール ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細情報：[LinkedIn ページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
 他にも、統合に必要な [!DNL LinkedIn] の役割が **ありません**。 これらの役割は、多くの場合、必要な役割と誤解されているので、違いがあることに注意してください！
 
@@ -54,7 +54,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 
 * スーパー管理者
 
-詳細情報：[LinkedIn ページの管理者ロール ](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細情報：[LinkedIn ページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
 ## LinkedIn 広告タイプ {#linkedin-ad-types}
 
@@ -76,7 +76,7 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 
 >[!NOTE]
 >
->最初に使用する前に、[!DNL Marketo Measure] [!UICONTROL  設定 ]/[!UICONTROL  統合 ]/[!UICONTROL  広告 ]/[!UICONTROL LinkedIn リード生成Formsを有効にする ] に移動して、この機能設定を有効にする必要があります。
+>最初に使用する前に、[!DNL Marketo Measure] [!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 統合 &#x200B;]/[!UICONTROL &#x200B; 広告 &#x200B;]/[!UICONTROL LinkedIn リード生成Formsを有効にする &#x200B;] に移動して、この機能設定を有効にする必要があります。
 
 **[!DNL LinkedIn's]独自の自動タグ付けの要件**
 
@@ -109,7 +109,7 @@ Creative D : Share 234
 
 ![](assets/two.png)
 
-`1)` [!DNL Marketo Measure] では、最初に「アクティブ」ステータスのすべてのキャンペーン、クリエイティブ、共有を確認します。 [!DNL Marketo Measure] は、一時停止、アーカイブまたはキャンセルされた広告をタグ付けしません。 広告が一時停止していた場合に「[!UICONTROL  アクティブ ]」に設定すると、再びアクティブになった時点でタグが付けられます。 一意の共有が見つかった場合、つまり複数のクリエイティブやキャンペーンで使用されていない場合（例：Creative A : Share 123）、カスタムパラメーター [!DNL Marketo Measure] を共有 URL に追加し `>> ?_bl={creativeId}` す。
+`1)` [!DNL Marketo Measure] では、最初に「アクティブ」ステータスのすべてのキャンペーン、クリエイティブ、共有を確認します。 [!DNL Marketo Measure] は、一時停止、アーカイブまたはキャンセルされた広告をタグ付けしません。 広告が一時停止していた場合に「[!UICONTROL &#x200B; アクティブ &#x200B;]」に設定すると、再びアクティブになった時点でタグが付けられます。 一意の共有が見つかった場合、つまり複数のクリエイティブやキャンペーンで使用されていない場合（例：Creative A : Share 123）、カスタムパラメーター [!DNL Marketo Measure] を共有 URL に追加し `>> ?_bl={creativeId}` す。
 
 `2)` ここで、共有が共有されて一意性が失われた場合（例：Creative B は 234 を共有、Creative C は 234 を共有、Creative D は 234 を共有）、[!DNL Marketo Measure] は類似したすべてのクリエイティブ（Creative B、Creative C、Creative D）を一時停止してアーカイブします。
 
@@ -258,7 +258,7 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
  </tbody> 
 </table>
 
-**&#42;**_「広告宛先 URL」フィールドは、スポンサー付きコンテンツの場合にのみ入力されます。 リード生成Forms用には入力されません。_
+**&#42;**&#x200B;_「広告宛先 URL」フィールドは、スポンサー付きコンテンツの場合にのみ入力されます。 リード生成Forms用には入力されません。_
 
 <br>
 

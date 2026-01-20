@@ -17,13 +17,13 @@ Marketoへの接続を設定する方法を以下に示します。
 
 >[!PREREQUISITES]
 >
->[/Marketo Engage連携の ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja){target="_blank"}API のみのユーザーの役割を作成 [!DNL Marketo Measure] します。
+>[/Marketo Engage連携の &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja){target="_blank"}API のみのユーザーの役割を作成 [!DNL Marketo Measure] します。
 
 1. [!DNL Marketo Measure] で、「**[!UICONTROL マイアカウント]**」ドロップダウンをクリックし、「**[!UICONTROL 設定]**」を選択します。
 
    ![](assets/set-up-marketo-connection-1.png)
 
-1. [!UICONTROL  統合 ] で、「**[!UICONTROL 接続]**」をクリックします。
+1. [!UICONTROL &#x200B; 統合 &#x200B;] で、「**[!UICONTROL 接続]**」をクリックします。
 
    ![](assets/set-up-marketo-connection-2.png)
 

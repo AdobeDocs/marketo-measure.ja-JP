@@ -41,7 +41,7 @@ ht-degree: 0%
 
    ![](assets/setup-5.png)
 
-1. プロンプトに従って、アプリケーションを作成します。 Web アプリケーションかパブリッククライアント（モバイルおよびデスクトップ）アプリケーションかに関係なく、Web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例が必要な場合は、[ クイックスタート ](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview) を確認してください。\
+1. プロンプトに従って、アプリケーションを作成します。 Web アプリケーションかパブリッククライアント（モバイルおよびデスクトップ）アプリケーションかに関係なく、Web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例が必要な場合は、[&#x200B; クイックスタート &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview) を確認してください。\
    a. 「名前」はアプリケーション名で、エンドユーザーに対するアプリケーションの説明です。\
    b. 「サポートされているアカウントタイプ」で、任意の組織ディレクトリおよび個人用Microsoft アカウント内の「アカウント」を選択します。\
    c. リダイレクト URI を指定します。 Web アプリケーションの場合、これは、ユーザーがログインできるアプリのベース URL です。 たとえば、`http://localhost:12345` のように設定します。パブリッククライアント（モバイルおよびデスクトップ）の場合、Azure AD はこれを使用してトークン応答を返します。 アプリケーションに固有の値を入力します。 例：`http://MyFirstAADApp`。
@@ -76,7 +76,7 @@ ht-degree: 0%
 
    ![](assets/setup-13b.png)
 
-1. 「[!UICONTROL  ユーザーとグループ ]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
+1. 「[!UICONTROL &#x200B; ユーザーとグループ &#x200B;]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
 
    ![](assets/setup-14.png)
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## OAuth 経由での Dynamics インスタンスの接続 {#connecting-your-dynamics-instance-via-oAuth}
 
-1. Dynamics 接続を初めて設定する場合は、[ この記事 ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md) の「データプロバイダーとしての CRM」の節の手順 1～5 に従ってください。
+1. Dynamics 接続を初めて設定する場合は、[&#x200B; この記事 &#x200B;](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md) の「データプロバイダーとしての CRM」の節の手順 1～5 に従ってください。
 
 1. OAuth 資格情報の入力画面が表示されたら、前述の節で設定したクライアント ID、クライアント秘密鍵、アプリケーション ID URI を入力します。
 

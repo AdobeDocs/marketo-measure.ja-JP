@@ -23,7 +23,7 @@ ht-degree: 4%
 
    ![](assets/2-3.jpg)
 
-1. レポートの先頭から「[!UICONTROL  すべての Bizible 属性タッチポイント ]」を表示し、レポートしたい期間に従って日付フィールドを調整します。 この例では、「すべての時間」を表示しています。 さらに、レポートの形式を表形式から概要に変更します。
+1. レポートの先頭から「[!UICONTROL &#x200B; すべての Bizible 属性タッチポイント &#x200B;]」を表示し、レポートしたい期間に従って日付フィールドを調整します。 この例では、「すべての時間」を表示しています。 さらに、レポートの形式を表形式から概要に変更します。
 
    ![](assets/3-3.jpg)
 
@@ -47,4 +47,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

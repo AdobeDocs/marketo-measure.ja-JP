@@ -14,7 +14,7 @@ ht-degree: 99%
 
 ## はじめに {#getting-started}
 
-Power BI レポートテンプレートにアクセスできます [ こちら ](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}。
+Power BI レポートテンプレートにアクセスできます [&#x200B; こちら &#x200B;](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}。
 
 Adobe [!DNL Marketo Measure] レポートテンプレート Power BI ファイルを開きます。
 

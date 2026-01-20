@@ -27,4 +27,4 @@ Account-Based Marketing（ABM）の台頭に伴い、ABM 戦略をどのよう�
 
 アカウントに結び付けられ [!DNL Marketo Measure] すべてのマーケティングインタラクションが表示されるので、マーケターは、どのアカウントがクローズされる可能性があるか、会社とエンゲージメントした頻度、それらのエンゲージメントが何か、各エンゲージメントに価値がある売上高などについて、より深く理解できます。
 
-[!DNL Marketo Measure] と ABM アプローチを使用すると、マーケティングのパフォーマンスは収益に基づきます。 アカウントベースのマーケティングアプローチへの移行を検討している場合は、[CMO の ABM オーケストレーションのガイド ](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf) を参照してください。このガイドでは、ABM オーケストレーションの計画、実行、測定の各フェーズについて説明しています。
+[!DNL Marketo Measure] と ABM アプローチを使用すると、マーケティングのパフォーマンスは収益に基づきます。 アカウントベースのマーケティングアプローチへの移行を検討している場合は、[CMO の ABM オーケストレーションのガイド &#x200B;](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf) を参照してください。このガイドでは、ABM オーケストレーションの計画、実行、測定の各フェーズについて説明しています。

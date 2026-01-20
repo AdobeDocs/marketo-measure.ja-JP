@@ -19,7 +19,7 @@ ht-degree: 98%
 
 * 「[!UICONTROL すべてのユーザ]」設定で [!DNL Marketo Measure] パッケージを実稼動環境にインストールします
 
-   * [ 基本パッケージ ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [&#x200B; 基本パッケージ &#x200B;](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * [!DNL Marketo Measure] と [!DNL Salesforce] の関係について詳しくは、[この記事](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)を参照してください
 * [!DNL Salesforce] の設定が少し必要です。具体的なアクション項目については、[以下の手順 4](#salesforce-configuration) を参照してください
@@ -51,7 +51,7 @@ ht-degree: 98%
 
 [権限セット](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[ レポートの共有 ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
+[&#x200B; レポートの共有 &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [不要なレポートタイプの非表示](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

@@ -31,11 +31,11 @@ ht-degree: 2%
 
 以下のガイドでは、[!DNL Salesforce] パッケージまたは [!DNL Microsoft Dynamics] Managed Solution をインストールする手順をスキップし、権限と統合手順にのみ従ってください。
 
-[!DNL Salesforce] のお客様は [ こちら ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md) をクリックしてください。
+[!DNL Salesforce] のお客様は [&#x200B; こちら &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md) をクリックしてください。
 
-[!DNL Microsoft Dynamics] のお客様は [ こちら ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md) をクリックしてください。
+[!DNL Microsoft Dynamics] のお客様は [&#x200B; こちら &#x200B;](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md) をクリックしてください。
 
-これらの手順を完了すると、統合は動作するようになります。 問題が発生した場合は、[!DNL Marketo Measure] 担当者または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+これらの手順を完了すると、統合は動作するようになります。 問題が発生した場合は、[!DNL Marketo Measure] 担当者または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
 
 >[!NOTE]
 >

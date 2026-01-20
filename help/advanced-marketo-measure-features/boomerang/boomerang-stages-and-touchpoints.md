@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[ ブーメランステージの設定方法の説明 ](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
+>[&#x200B; ブーメランステージの設定方法の説明 &#x200B;](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md)
 
 ## CRM でのブーメランステージとタッチポイントの概要 {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
@@ -82,6 +82,6 @@ MQL-02 **（前回）**
 
 **Q：カスタムモデリングでブーメランステージを使用する利点は何ですか？**
 
-カスタムモデリングで [!UICONTROL  ブーメラン ] ステージを使用すると、アトリビューションの重み付けを [!UICONTROL  ブーメラン ] タッチポイントに割り当てることができ、これにより、これらのステージに収益クレジットが割り当てられます。
+カスタムモデリングで [!UICONTROL &#x200B; ブーメラン &#x200B;] ステージを使用すると、アトリビューションの重み付けを [!UICONTROL &#x200B; ブーメラン &#x200B;] タッチポイントに割り当てることができ、これにより、これらのステージに収益クレジットが割り当てられます。
 
 カスタムモデリングを使用しない場合、[!DNL Marketo Measure] はブーメランとステージ遷移ごとにタッチポイントを作成しますが、これらのタッチポイントに属性クレジットを割り当てません。 アトリビューションクレジットを受け取るブーメランタッチポイントは、送信タッチポイントのみです。 カスタムモデルがない場合、[!DNL Boomerang] タッチポイントは「ミドルタッチ」と同じと見なされ、それに応じて属性クレジットを受け取ります。

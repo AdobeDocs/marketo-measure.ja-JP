@@ -21,7 +21,7 @@ ht-degree: 4%
 
    ![](assets/1-2.jpg)
 
-1. レポートの先頭から **[!UICONTROL すべての Bizible 属性タッチポイント]** を表示し、レポートしたい期間に従って日付フィールドを調整します。 この例では、「すべての時間」を表示しています。 さらに、レポート形式を [!UICONTROL  表形式 ] から **[!UICONTROL 概要]** に変更します。
+1. レポートの先頭から **[!UICONTROL すべての Bizible 属性タッチポイント]** を表示し、レポートしたい期間に従って日付フィールドを調整します。 この例では、「すべての時間」を表示しています。 さらに、レポート形式を [!UICONTROL &#x200B; 表形式 &#x200B;] から **[!UICONTROL 概要]** に変更します。
 
    ![](assets/2-2.jpg)
 
@@ -35,4 +35,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

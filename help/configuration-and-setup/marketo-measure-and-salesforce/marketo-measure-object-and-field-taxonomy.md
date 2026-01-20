@@ -17,9 +17,9 @@ ht-degree: 5%
 
 ![](assets/1-2.png)
 
-フルサイズの画像については、[ ここをクリック ](assets/bizible-object-and-field-taxonomy-graph-full.png) してください。
+フルサイズの画像については、[&#x200B; ここをクリック &#x200B;](assets/bizible-object-and-field-taxonomy-graph-full.png) してください。
 
-各オブジェクトに存在する [!DNL Marketo Measure] フィールドの定義 [ こちらを参照 ](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)。
+各オブジェクトに存在する [!DNL Marketo Measure] フィールドの定義 [&#x200B; こちらを参照 &#x200B;](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)。
 
 ## よくある質問 {#faq}
 

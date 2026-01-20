@@ -1,6 +1,6 @@
 ---
 description: '[!UICONTROL Discover Data Download] アクセス制御 – Marketo Measure – 製品ドキュメント'
-title: '[!UICONTROL Discover データのダウンロード ] アクセス制御'
+title: '[!UICONTROL Discover データのダウンロード &#x200B;] アクセス制御'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
 source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
@@ -10,11 +10,11 @@ ht-degree: 5%
 
 ---
 
-# [!UICONTROL Discover データのダウンロード ] アクセス制御 {#discover-data-download-access-control}
+# [!UICONTROL Discover データのダウンロード &#x200B;] アクセス制御 {#discover-data-download-access-control}
 
-[!UICONTROL Discover データのダウンロード ] コントロールを使用すると、管 [!DNL Marketo Measure] 者は、ユーザーの役割に基づいて Discover ダッシュボードのデータのダウンロードポリシーを設定できます。 コントロールは、Discover ダッシュボードのすべてのデータダウンロードアクションをカバーします。
+[!UICONTROL Discover データのダウンロード &#x200B;] コントロールを使用すると、管 [!DNL Marketo Measure] 者は、ユーザーの役割に基づいて Discover ダッシュボードのデータのダウンロードポリシーを設定できます。 コントロールは、Discover ダッシュボードのすべてのデータダウンロードアクションをカバーします。
 
-1. **[!UICONTROL セキュリティ]** の下の [!UICONTROL  データアクセス ] をクリックします。
+1. **[!UICONTROL セキュリティ]** の下の [!UICONTROL &#x200B; データアクセス &#x200B;] をクリックします。
 
    ![](assets/discover-data-download-access-control-1.png)
 

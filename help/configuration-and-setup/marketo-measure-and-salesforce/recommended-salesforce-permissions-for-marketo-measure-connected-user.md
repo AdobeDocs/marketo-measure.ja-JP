@@ -15,7 +15,7 @@ ht-degree: 23%
 
 [!DNL Marketo Measure] は、接続された [!DNL Salesforce] ユーザーを通じて [!DNL Marketo Measure] アプリ内でデータを送受信します。
 
-タッチポイントデータを [!DNL Salesforce] インスタンスにプッシュするには、接続ユーザーが、リードや連絡先などの標準 [!DNL Marketo Measure] オブジェクトだけでなく、[!DNL Salesforce] のカスタムオブジェクト（Buyer TouchpointやBuyer Attribution Touchpoint）へのアクセス権を持っている必要があります。 [[!DNL Marketo Measure] Salesforce内 ](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md) を参照してください。
+タッチポイントデータを [!DNL Salesforce] インスタンスにプッシュするには、接続ユーザーが、リードや連絡先などの標準 [!DNL Marketo Measure] オブジェクトだけでなく、[!DNL Salesforce] のカスタムオブジェクト（Buyer TouchpointやBuyer Attribution Touchpoint）へのアクセス権を持っている必要があります。 [[!DNL Marketo Measure] Salesforce内 &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md) を参照してください。
 
 管理者ユーザーライセンス [!DNL Salesforce]、デフォルトで必要なデータ権限を持っていることが多いので、接続ユーザーとして機能できます。 ただし、チームがインスタンスに対する [!DNL Salesforce] の影響を追跡するために、統合ユーザーまたは専用の [!DNL Marketo Measure] ユーザーライセンスの使用をお勧めする場合があります。
 

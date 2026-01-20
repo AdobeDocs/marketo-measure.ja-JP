@@ -46,7 +46,7 @@ Snowflake Data Warehouse にアクセスするには、Snowflake アカウント
 
 ## パスワードのリセット {#reset-your-password}
 
-[!DNL Marketo Measure] はSnowflake ログインパスワードへのアクセス権を持っていません。 パスワードをリセットする必要がある場合は、Data Warehouse情報ページの [!UICONTROL  パスワードのリセット ] ボタンをクリックし、指示に従ってください。 一時パスワードが UI に直ちに表示されます。 次に Data Warehouse にログインする際に、独自のパスワードを作成するよう求められます。
+[!DNL Marketo Measure] はSnowflake ログインパスワードへのアクセス権を持っていません。 パスワードをリセットする必要がある場合は、Data Warehouse情報ページの [!UICONTROL &#x200B; パスワードのリセット &#x200B;] ボタンをクリックし、指示に従ってください。 一時パスワードが UI に直ちに表示されます。 次に Data Warehouse にログインする際に、独自のパスワードを作成するよう求められます。
 
 >[!NOTE]
 >

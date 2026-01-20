@@ -29,4 +29,4 @@ ht-degree: 5%
 
 >[!MORELIKETHIS]
 >
->[Salesforce – 未使用のレポートタイプを非表示にする ](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[Salesforce – 未使用のレポートタイプを非表示にする &#x200B;](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

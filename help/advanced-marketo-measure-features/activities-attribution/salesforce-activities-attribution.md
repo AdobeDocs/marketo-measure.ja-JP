@@ -64,7 +64,7 @@ ht-degree: 1%
 
 ![](assets/5.png)
 
-これらの新しいタッチポイントを、適切な [ マーケティングチャネル ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=チャネル.Online%20 チャネル){target="_blank"} に配置することになるでしょう。 それには、作成されたばかりの新しいキャンペーンマッピングを使用してチャネルを定義します。
+これらの新しいタッチポイントを、適切な [&#x200B; マーケティングチャネル &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=チャネル.Online%20 チャネル){target="_blank"} に配置することになるでしょう。 それには、作成されたばかりの新しいキャンペーンマッピングを使用してチャネルを定義します。
 
 >[!TIP]
 >
@@ -87,10 +87,10 @@ ht-degree: 1%
 
 ![](assets/6.png)
 
-最後に、新しいチャネルのコストを入力するオプションがあります。 [ マーケティング費用のアップロード ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} では、費用をチャネルレベル、サブチャネルレベルまたはキャンペーンレベルで入力できます。 新しい [!DNL Marketo Measure] キャンペーンを使用すると、これらの関連コストを月別に追加し、各キャンペーンの ROI を確認できます。
+最後に、新しいチャネルのコストを入力するオプションがあります。 [&#x200B; マーケティング費用のアップロード &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} では、費用をチャネルレベル、サブチャネルレベルまたはキャンペーンレベルで入力できます。 新しい [!DNL Marketo Measure] キャンペーンを使用すると、これらの関連コストを月別に追加し、各キャンペーンの ROI を確認できます。
 
 ![](assets/7.png)
 
 >[!MORELIKETHIS]
 >
->[ アクティビティアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[&#x200B; アクティビティアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
