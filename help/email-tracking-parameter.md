@@ -32,11 +32,11 @@ Marketo Measureでは、メールアドレス、Salesforce リード ID また�
 
 | マーケティングオートメーション | トークン/タグ/マクロ | 例 | サポート資料 |
 | --- | --- | --- | --- |
-| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [ トークン ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=ja) 概要 |
-| Pardot | %%email%% または %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Pardot 変数タグリファレンス ](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
-| Hubspot | （エディターを使用して挿入） | 該当なし | [HubSpot によるコンテンツのパーソナライズ ](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
-| Act-On | （Message Composer 経由で挿入） | 該当なし | [Act-On によるメールコンテンツのパーソナライズ ](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
+| Marketo | {{lead.Email Address}} | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}> | [&#x200B; トークン &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=ja) 概要 |
+| Pardot | %%email%% または %%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Pardot 変数タグリファレンス &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
+| Hubspot | （エディターを使用して挿入） | 該当なし | [HubSpot によるコンテンツのパーソナライズ &#x200B;](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
+| Act-On | （Message Composer 経由で挿入） | 該当なし | [Act-On によるメールコンテンツのパーソナライズ &#x200B;](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
 
 最後に、[!DNL Marketo Measure] 内でトラッキングパラメーターを指定して、メール [!DNL Marketo Measure] たは ID の値を特定できるようにする必要があります。 デフォルトは、上の例と下のスクリーンショットに示すように、「mailId」です。 [!DNL Marketo Measure] の設定に値を入力し、「**[!UICONTROL 保存]**」をクリックします。
 
-![ 最後に、Marketo Measure内でトラッキングパラメーターを指定する必要があります ](assets/marketo-engage-activities-01.png)
+![&#x200B; 最後に、Marketo Measure内でトラッキングパラメーターを指定する必要があります &#x200B;](assets/marketo-engage-activities-01.png)

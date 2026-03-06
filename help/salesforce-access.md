@@ -19,7 +19,7 @@ ht-degree: 2%
 
 ## Salesforce Classic でのログインアクセスの許可 {#granting-login-access-in-salesforce-classic}
 
-組織によっては、ページの右上隅の名前の横に [!UICONTROL  設定 ] ボタンがあるか、名前をクリックするとドロップダウンオプションとして表示されます。
+組織によっては、ページの右上隅の名前の横に [!UICONTROL &#x200B; 設定 &#x200B;] ボタンがあるか、名前をクリックするとドロップダウンオプションとして表示されます。
 
 1. ユーザーインターフェイスの **ログインアクセス [!DNL Salesforce Classic] 許可** ページにアクセスするには、次のいずれかを実行します。
 
@@ -29,12 +29,12 @@ ht-degree: 2%
 
    * `<your name>`/**[!UICONTROL マイ設定]**/**[!UICONTROL 個人]**/**[!UICONTROL アカウントへのログインアクセスの許可]** をクリックします。
 
-1. [!UICONTROL Marketo Measure サポート ] のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、[!DNL Marketo Measure] のサポートへのアクセスを少なくとも 1 週間は許可することをお勧めします。
+1. [!UICONTROL Marketo Measure サポート &#x200B;] のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、[!DNL Marketo Measure] のサポートへのアクセスを少なくとも 1 週間は許可することをお勧めします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## [!DNL Salesforce] Lightning でのログインアクセスの許可 {#granting-login-access-in-salesforce-lightning}
 
 1. 画面右上のアバターをクリックし、「**[!UICONTROL 設定]**」を選択します。
 1. 「**[!UICONTROL アカウントへのログインアクセスの許可]**」をクリックします。
-1. 「[!UICONTROL Marketo Measure サポート ]」のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、[!DNL Marketo Measure] のサポートへのアクセスを少なくとも 1 週間は許可することをお勧めします。
+1. 「[!UICONTROL Marketo Measure サポート &#x200B;]」のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、[!DNL Marketo Measure] のサポートへのアクセスを少なくとも 1 週間は許可することをお勧めします。
 1. 「**[!UICONTROL 保存]**」をクリックします。

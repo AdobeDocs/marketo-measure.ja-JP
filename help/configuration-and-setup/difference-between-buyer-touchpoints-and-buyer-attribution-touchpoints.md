@@ -65,10 +65,10 @@ Buyer Touchpoint は、Touchpoint の位置として、ファーストタッチ�
 
 以下に、[!DNL Salesforce] での BT のスクリーンショットを示します。
 
-![ 以下は、SalesforceのBTのスクリーンショットです。](assets/adobe-setup-1.png)
+![&#x200B; 以下は、SalesforceのBTのスクリーンショットです。](assets/adobe-setup-1.png)
 
 **Buyer Attribution Touchpoint は、Salesforce ではどのように見えますか？**
 
 以下に、[!DNL Salesforce] での BAT のスクリーンショットを示します。
 
-![ 以下は、SalesforceのBATのスクリーンショットです。](assets/adobe-setup-2.png)
+![&#x200B; 以下は、SalesforceのBATのスクリーンショットです。](assets/adobe-setup-2.png)

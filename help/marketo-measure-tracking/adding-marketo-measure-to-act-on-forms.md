@@ -15,7 +15,7 @@ ht-degree: 6%
 ## 道順 {#directions}
 
 1. 編集するフォームで、右隅にある「**[!UICONTROL 設定]**」オプションを選択します。
-1. 「外部 web 分析 [!UICONTROL  というラベルの付いた領域を探し ] す。 ここに [!DNL Marketo Measure] トラッキングコードスニペットをドロップします。
+1. 「外部 web 分析 [!UICONTROL &#x200B; というラベルの付いた領域を探し &#x200B;] す。 ここに [!DNL Marketo Measure] トラッキングコードスニペットをドロップします。
 
 ## [!DNL Marketo Measure] JavaScript {#marketo-measure-javascript}
 

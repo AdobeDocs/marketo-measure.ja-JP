@@ -20,13 +20,13 @@ ht-degree: 3%
 
 1. 画面上部のメニューバーで、「**[!UICONTROL マイアカウント]**」に移動し、「**[!UICONTROL 設定]**」オプションをクリックします。
 
-1. 左側の設定オプションの列で、「**[!UICONTROL 統合]** セクションの下にある [!UICONTROL  接続 ] をクリックします。
+1. 左側の設定オプションの列で、「**[!UICONTROL 統合]** セクションの下にある [!UICONTROL &#x200B; 接続 &#x200B;] をクリックします。
 
    ![1. 左側の設定オプションの列で、](assets/bizible-full-1.png) のボタンをクリックします。
 
 1. 「接続」の「CRM」セクションで、「**[!UICONTROL 新しい CRM 接続の設定]**」をクリックします。
 
-   ![1. 「接続」の「CRM」セクションで、「新規設定」をクリックします ](assets/bizible-taxonomy-1.png)
+   ![1. 「接続」の「CRM」セクションで、「新規設定」をクリックします &#x200B;](assets/bizible-taxonomy-1.png)
 
 1. ポップアップウィンドウが表示され、「CRM 接続を選択」するように求められます。 [!DNL Salesforce] ロゴの横にある **[!UICONTROL 接続]** をクリックします。
 
@@ -48,7 +48,7 @@ Marketo Measureには、統合ユーザーを通じてクライアントのSales
 
 この制限には、Marketo Measureで **マイアカウント**/**設定**/**CRM**/**一般**/**1 日の CRM API 制限** からアクセスし、テナントに対して設定できます。
 
-![ この制限には、Marketo Measureの「マイアカウント設定」からアクセスできます ](assets/connect-salesforce-2.png)
+![&#x200B; この制限には、Marketo Measureの「マイアカウント設定」からアクセスできます &#x200B;](assets/connect-salesforce-2.png)
 
 ### API クレジットの制限の設定 {#setting-a-limit-for-api-credits}
 
@@ -66,7 +66,7 @@ Marketo Measureには、統合ユーザーを通じてクライアントのSales
 
 >[!NOTE]
 >
->接続ソリューションで利用可能なSalesforce API クレジットを増やすには、Salesforce管理者に連絡し、[ このSalesforce ドキュメント ](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"} を参照してください。
+>接続ソリューションで利用可能なSalesforce API クレジットを増やすには、Salesforce管理者に連絡し、[&#x200B; このSalesforce ドキュメント &#x200B;](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"} を参照してください。
 
 >[!MORELIKETHIS]
 >

@@ -47,7 +47,7 @@ GDPR の目的は、EU（欧州連合）と EEA（欧州経済圏）内のデー
 
 同意に達するまで追跡しないように [!DNL bizible.js] に指示します。これは、次の JS API を使用して実行できます。
 
-*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || {_queue: [], Push: function （o, p） { this._queue.push （{ type: o, data: p }）; };*
+*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || &lbrace;_queue: [], Push: function （o, p） { this._queue.push （{ type: o, data: p }）; };*
 
 *Bizible. Push(&#39;Consent&#39;, true);*
 
