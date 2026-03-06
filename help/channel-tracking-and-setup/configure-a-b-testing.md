@@ -1,0 +1,22 @@
+---
+description: Marketo Measure ユーザー向けの  [!DNL Marketo Measure] A/B テスト統合ガイダンスの設定
+title: ' [!DNL Marketo Measure] A/B テスト統合の設定'
+exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
+feature: A/B Testing, Integration
+source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+workflow-type: tm+mt
+source-wordcount: '133'
+ht-degree: 24%
+
+---
+
+
+# [!DNL Marketo Measure] A/B テストの統合の設定 {#configuring-a-b-testing}
+
+リード、連絡先、ケース、オポチュニティに関する [!DNL Marketo Measure] A/B テストのセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely](https://www.optimizely.com/){target="_blank"} および [VWO](https://vwo.com/){target="_blank"} サイト実験の売上高の影響を追跡 [ きます。
+
+1. パッケージ [[!DNL Marketo Measure] v3.9 以降 ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} を使用していることを確認します。
+1. ページレイアウトに「[!DNL Marketo Measure] ABTests」関連リストを追加し、**設定** （レンチ）ボタンをクリックします。
+1. 選択したフィールドのリストからストックの「ID」フィールドを削除します。 [!UICONTROL  実験 ]、[!UICONTROL  バリエーション ]、[!UICONTROL  日付が報告 ] の各フィールドを追加し、「並べ替え基準」を「レポート日」に変更します。 **[!UICONTROL 降順]** ボタンをクリックします。
+1. 「[!UICONTROL  ボタン ]」で、「新規 **[!UICONTROL のチェックを外]** ます。
+1. この機能を有効にするには、アカウント担当者または [Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。

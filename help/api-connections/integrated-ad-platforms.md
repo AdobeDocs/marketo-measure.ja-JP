@@ -1,12 +1,12 @@
 ---
-unique-page-id: 18874594
-description: 統合された広告プラットフォーム - [!DNL Marketo Measure]
+description: Marketo Measure ユーザー向けの統合広告プラットフォームガイダンス
 title: 統合された広告プラットフォーム
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
+hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->使用できる広告プラットフォーム接続の最大数は 300 です。
+>接続できる Ad Platform 接続の最大数は 300 です。
 
 各プラットフォームの詳細を説明する前に、これらのアカウントを [!DNL Marketo Measure] に接続する方法について説明します。 まず [!DNL Marketo Measure] にログインし、画面の左上にある **[!UICONTROL マイアカウント]** タブの下の **[!UICONTROL 設定]** オプションに移動します。 次に、左側の **[!UICONTROL 統合]** セクションの下の **[!UICONTROL 接続]** を選択します。
 
 以下の画像に示すように、新しい広告接続を設定するボタンが表示されます。
 
-![](assets/2.png)
+![ 以下の画像に示すように、へのボタンが表示されます ](assets/bizible-guide-1.png)
 
 [!UICONTROL  新しい広告接続の設定 ] ボタンをクリックすると、4 種類の広告 [!UICONTROL  接続 ] イオンタイプを含むウィンドウ（以下に示す）がポップアップ表示されます。 「接続」をクリックすると、別のウィンドウが表示されて資格情報の入力を求められます。 資格情報を入力し、「[!UICONTROL  認証 ]」をクリックしてアカウントを [!DNL Marketo Measure] に接続します。
 
-![](assets/select-account-type.png)
+![ 「新しい広告接続を設定」ボタンをクリックすると、](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -42,13 +42,13 @@ ht-degree: 1%
 [!DNL AdWords] アカウント内のトラッキングテンプレートを [!DNL Marketo Measure] で検索：
 
 * *オプション A*：追跡テンプレートが見つかりました。[!DNL Marketo Measure] は、そのパラメーターをテンプレートに追加します。
-* *オプション B*：サードパーティのリダイレクトが見つかった。 追跡テンプレートにサードパーティのリダイレクトが見つかっ [!DNL Marketo Measure] 場合は、何も実行できません。 [!DNL Marketo Measure] のタグをサードパーティ製システムに手動で追加する必要があります。 サードパーティのリダイレクトの例として、Kenshoo や Marin などの入札管理ツールがあります。 [ 入札管理ツールの影響  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} の詳細をご覧ください。
+* *オプション B*：サードパーティのリダイレクトが見つかった。 追跡テンプレートにサードパーティのリダイレクトが見つかっ [!DNL Marketo Measure] 場合は、何も実行できません。 [!DNL Marketo Measure] のタグをサードパーティ製システムに手動で追加する必要があります。 サードパーティのリダイレクトの例として、Kenshoo や Marin などの入札管理ツールがあります。 [ 入札管理ツールの影響  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} の詳細をご覧ください。
 
 * *オプション C*：追跡テンプレートが見つからない。[!DNL Marketo Measure] はすべての広告宛先 URL をスキャンして [!DNL Marketo Measure] パラメーターを確認します。 スキャンに基づいて、次の場合：
    * パラメーターが見つかりました。設定が完了しました。
    * パラメーターが見つかりません：[!DNL Marketo Measure] のパラメーターを広告宛先 URL の末尾に追加します。[!DNL Marketo Measure] は、作成後 2 時間以内に新しい広告を追加します。 パラメーターはテンプレートに追加されないことに注意してください。
 
-詳しくは、[[!DNL AdWords]  自動タグ付け機能 ](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"} を参照してください。
+詳しくは、[[!DNL AdWords]  自動タグ付け機能 ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"} を参照してください。
 
 ## Adwords の自動タギング [!DNL Marketo Measure] 有効にする方法 {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -60,15 +60,15 @@ ht-degree: 1%
 
 1. [!UICONTROL  マイアカウント ]/[!UICONTROL  設定 ]/[!UICONTROL  統合 ]/[!UICONTROL  接続 ] に移動します。
 
-   ![](assets/4.png)
+   ![1. マイアカウントの設定に移動します。統合接続。](assets/utilizing-connections-8.png)
 
 1. 自動タギングを有効にする Adwords アカウントの横にある鉛筆アイコン [!DNL Marketo Measure] クリックします。
 
-   ![](assets/5.png)
+   ![1. ](assets/utilizing-connections-9.png) の操作を行う Adwords アカウントの横にある鉛筆アイコンをクリックします。
 
 1. 右上隅で、「自動タギング **[!UICONTROL を「はい]** に切り替え **[!UICONTROL ま]**。 ページの下部にある **[!UICONTROL 詳細情報]** をクリックしてテキストボックスを展開し、「**[!UICONTROL 保存]** をクリックします。 自動タグ付けの設定が完了しました。
 
-   ![](assets/6.png)
+   ![1. 右上隅で、自動タグ付けの切り替えをに切り替えます ](assets/utilizing-connections-10.png)
 
 ## [!DNL Marketo Measure] パラメーターを使用して AdWords にトラッキングテンプレートを設定する方法 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
