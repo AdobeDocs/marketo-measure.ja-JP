@@ -1,27 +1,29 @@
 ---
 solution: Marketo Measure
 feature-set: Marketo Measure
+landing-page-name: marketo-measure
+landing-page-breadcrumb-title: Marketo Measure
 type: Documentation
-git-repo: https://github.com/AdobeDocs/marketo-measure.ja-JP
+git-repo: https://github.com/AdobeDocs/marketo-measure.en
 index: true
-source-git-commit: ce2ce5c5652d4067f50e88b062d7d951b645d93b
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
 
-# 社内用メタデータ
+# 内部使用のためのメタデータ
 
-metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトリレベルのメタデータが含まれます。任意のユーザーガイドの metadata.md コンテンツを変更する場合は、どの TOC.md ファイルででもおこなうことができます。
+metadata.md ファイルには、リポジトリ内のユーザーガイド TOC.md ファイルに渡されるリポジトレベルのメタデータが含まれています。 任意のユーザーガイドのmetadata.md コンテンツを変更する場合は、任意のTOC.md ファイルで変更します。
 
-| メタデータ | 動作 |
+| metadata | 機能 |
 |--- |--- |
-| solution-title | 記事ヘッダーでリンクとして使用します。 |
-| solution-hub-url | helpx ハブページを開きます。 |
-| solution-image | ソリューションタイトルの横にソリューションアイコンを表示します。未実装。 |
-| getting-started-url | helpx の概要ページへのリンク。 |
-| tutorials-url | ビデオチュートリアルへのリンク（helpx チュートリアルまたは KT チュートリアル）。 |
-| mini-toc-levels | 右側のレールに表示する見出しレベルの数を決定します。デフォルトは 2 です。 |
-| git-repo | 内部で使用するマスターリポジトリの場所を指定します。 |
+| solution-title | 記事ヘッダーにリンクとして使用 |
+| solution-hub-url | helpx ハブページを開きます |
+| solution-image | ソリューションタイトルの横にソリューションアイコンを表示します。 まだ実装されていません |
+| getting-started-url | Helpx入門ページへのリンク |
+| tutorials-url | ビデオチュートリアルへのリンク - helpx チュートリアルまたはKT チュートリアル |
+| ミニ目次レベル | 右側のパネルに表示される見出しレベルの数を指定します。 デフォルトは2です |
+| git-repo | 内部使用のマスターリポジトリの場所を指定します |
