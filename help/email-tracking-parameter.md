@@ -32,10 +32,10 @@ Marketo Measureでは、電子メールアドレス、Salesforce リード ID、
 
 | マーケティングオートメーション | トークン/タグ/マクロ | 例 | 支持材料 |
 | --- | --- | --- | --- |
-| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [ トークンの概要](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=ja) |
+| Marketo | `{{lead.Email Address}}` | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=`{{`lead.EmailAddress`}}`> | [&#x200B; トークンの概要](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html?lang=ja) |
 | Pardot | %%email%%または%%user_crm_id%% | <https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%> | [Pardot変数タグ参照](https://help.salesforce.com/s/articleView?language=en_US&id=pardot_variable_tags_reference.htm&type=5) |
-| Hubspot | （エディターを介して挿入） | 該当なし | [HubSpot パーソナライズ コンテンツ ](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
-| アクションオン | （Message Composerを使用して挿入） | 該当なし | [Act-On メール コンテンツのパーソナライズ ](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
+| Hubspot | （エディターを介して挿入） | 該当なし | [HubSpot パーソナライズ コンテンツ &#x200B;](https://knowledge.hubspot.com/website-pages/personalize-your-content) |
+| アクションオン | （Message Composerを使用して挿入） | 該当なし | [Act-On メール コンテンツのパーソナライズ &#x200B;](https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data) |
 
 最後に、[!DNL Marketo Measure]内でトラッキングパラメーターを指定して、[!DNL Marketo Measure]が電子メールまたはIdの値を見つけられるようにする必要があります。 上記の例と以下のスクリーンショットに示すように、デフォルトは「mailId」です。 値を[!DNL Marketo Measure]の設定に入力し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
