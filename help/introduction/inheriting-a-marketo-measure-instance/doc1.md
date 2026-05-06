@@ -1,15 +1,15 @@
 ---
-description: 文書 1
-title: 文書 1
+description: ドキュメント 1
+title: ドキュメント 1
 hide: true
 hidefromtoc: true
-source-git-commit: 7c3f586e308ba885d10f3f9b8925af93277ad2e0
+source-git-commit: 3f04c21a6990f61000418642713217a490d10f86
 workflow-type: tm+mt
 source-wordcount: '7'
 ht-degree: 14%
 
 ---
 
-# 文書 1 {#doc1}
+# ドキュメント 1 {#doc1}
 
 テキスト
