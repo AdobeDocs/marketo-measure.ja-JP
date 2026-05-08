@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # アーカイブ
 
-このリポジトリは<https://github.com/Adobe-Enterprise-Docs/marketo-measure.en>に移行されました。
+このリポジトリは<https://github.com/Adobe-Enterprise-Docs/marketo-measure.ja-JP>に移行されました。
