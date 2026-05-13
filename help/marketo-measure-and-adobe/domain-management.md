@@ -25,7 +25,7 @@ ADOBE ADMIN CONSOLEへのアクセス権を持つIMS ユーザーは、自分が
 
 ![](assets/domain-management-1.png)
 
-ドメインを追加する方法については、[Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html)を参照してください。 ドメインを追加したら、そのドメインは[&#x200B; ディレクトリ &#x200B;](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies)にリンクされている必要があります。
+ドメインを追加する方法については、[Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/jp/enterprise/using/add-domains-directories.html)を参照してください。 ドメインを追加したら、そのドメインは[&#x200B; ディレクトリ &#x200B;](https://helpx.adobe.com/jp/enterprise/using/add-domains-directories.html#link-domains-to-directoies)にリンクされている必要があります。
 
 ## [!DNL Marketo Measure]のドメインの管理 {#managing-domains-in-marketo-measure}
 

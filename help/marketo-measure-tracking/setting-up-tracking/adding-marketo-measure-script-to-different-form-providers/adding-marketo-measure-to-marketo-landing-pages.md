@@ -45,4 +45,4 @@ ht-degree: 9%
 
 * 複数のランディングページテンプレートを使用している場合は、必ずフォームを持つすべてのテンプレートにコードを追加してください。
 
-* ランディングページのテンプレートを編集する際に、ランディングページが使用するページを再承認する必要がある場合があります。 この記事では、[一括承認の方法](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}について説明します。
+* ランディングページのテンプレートを編集する際に、ランディングページが使用するページを再承認する必要がある場合があります。 この記事では、[一括承認の方法](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=ja){target="_blank"}について説明します。
