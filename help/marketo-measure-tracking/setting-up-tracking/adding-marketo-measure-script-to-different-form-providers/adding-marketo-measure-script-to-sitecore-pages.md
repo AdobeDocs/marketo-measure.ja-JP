@@ -1,27 +1,33 @@
 ---
 unique-page-id: 18874747
-description: Sitecore ペ  [!DNL Marketo Measure]  ジへのスクリプトの追加 –  [!DNL Marketo Measure]
+description: Sitecore ページへの [!DNL Marketo Measure]  スクリプトの追加 –  [!DNL Marketo Measure]
 title: Sitecore ページへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: 87ce1857-7532-45a7-8c39-255c6118b50a
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/sXO-rCY3NbxX0AztYt-o3f-tpJFlrncLIb7-NvEjZO0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: 126
 ht-degree: 3%
 
 ---
 
-# Sitecore ページへ [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-sitecore-pages}
+# Sitecore ページへの[!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-sitecore-pages}
 
-コンテンツ管理システムでは、フォーム送信を認識するために、標準のスクリプト実装を超える追加の手順が必要 [!DNL Marketo Measure] なる場合があります。 次のプロセスでは、[!DNL Marketo Measure] ページに [!DNL Sitecore] JavaScript を追加する方法の概要を説明します。
+コンテンツ管理システムは、フォーム送信を認識するために、[!DNL Marketo Measure]の標準スクリプト実装を超える追加の手順を必要とする場合があります。 以下のプロセスでは、[!DNL Marketo Measure] JavaScriptを[!DNL Sitecore] ページに追加する方法の概要を説明します。
 
-Sitecore ページを使用しているサイトの場合：
+Sitecore ページを含むサイトの場合：
 
-1. Sitecore にログインし、web サイトに移動します。 [!UICONTROL &#x200B; ホーム &#x200B;] アイテムおよび [!UICONTROL &#x200B; メタデータ &#x200B;] フォルダーと同じレベルにある [!UICONTROL Configuration] フォルダーを見つけます。
-1. **[!UICONTROL Configuration]** フォルダーの横にある [!UICONTROL +] をクリックします。
-1. **[!UICONTROL ツール]** フォルダーの横にある [!UICONTROL +] をクリックします。
-1. [!UICONTROL JavaScript] 項目を選択します。
-1. 「[!UICONTROL &#x200B; コンテンツ &#x200B;]」タブで「**[!UICONTROL ロックして編集]**」リンクをクリックして、編集用に項目のロックを解除します。
-1. [!UICONTROL &#x200B; のJavaScriptの節を見つけ &#x200B;] す。 まだ展開していない場合は、「**[!UICONTROL +]**」をクリックします。
-1. スクリプト `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>` を入力してください
-1. 左上隅の **[!UICONTROL 保存]** をクリックします。
+1. Sitecoreにログインし、web サイトに移動します。 [!UICONTROL &#x200B; ホーム &#x200B;]項目および[!UICONTROL &#x200B; メタデータ &#x200B;] フォルダーと同じレベルにある[!UICONTROL 構成] フォルダーを探します。
+1. [!UICONTROL Configuration] フォルダーの横にある&#x200B;**[!UICONTROL +]**&#x200B;をクリックします。
+1. [!UICONTROL &#x200B; ツール &#x200B;] フォルダーの横にある&#x200B;**[!UICONTROL +]**&#x200B;をクリックします。
+1. [!UICONTROL Javascript]項目を選択します。
+1. 「[!UICONTROL &#x200B; コンテンツ &#x200B;]」タブで、「**[!UICONTROL ロックして編集]**」リンクをクリックして、編集用のアイテムのロックを解除します。
+1. 「[!UICONTROL &#39;JavaScript&#39;]」セクションを検索します。 まだ展開されていない場合は、**[!UICONTROL +]**&#x200B;をクリックします。
+1. 次のスクリプトを入力してください：`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>`
+1. 左上隅の「**[!UICONTROL 保存]**」をクリックします。

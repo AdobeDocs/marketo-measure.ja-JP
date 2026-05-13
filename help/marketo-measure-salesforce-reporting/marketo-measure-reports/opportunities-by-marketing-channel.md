@@ -4,24 +4,29 @@ description: マーケティングチャネル別の商談 –  [!DNL Marketo Me
 title: マーケティングチャネルによる商談
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
 feature: Channels, Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/UUVK-y5KT4g8YGIwDq1cWi4IU5-s8Ajr41n4pLwsLOU
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 4%
+source-wordcount: 213
+ht-degree: 3%
 
 ---
 
 # マーケティングチャネルによる商談 {#opportunities-by-marketing-channel}
 
-このレポートは、マーケティングチャネルで生成された商談の数を表示します。すべての商談が含まれます。 ただし、このレポートをフィルタリングすると、特定のタイプの商談を分析できます。
+このレポートには、マーケティングチャネルによって生成された商談件数が表示されます。この件数には、あらゆる商談が含まれます。 ただし、このレポートをフィルタリングして、特定のタイプの商談を分析できます。
 
-1. Salesforceの「**[!UICONTROL レポート]**」タブをクリックし、「**[!UICONTROL 新しいレポート]**」を選択します。
+1. Salesforceの「**[!UICONTROL レポート]**」タブをクリックし、**[!UICONTROL 新規レポート]**&#x200B;を選択します。
 
-1. 「Bizible 属性」のタイプを素早く見つけ、**[!UICONTROL Bizible 属性タッチポイントと商談]** レポートタイプを選択し、**[!UICONTROL 作成]** を選択します。
+1. 「Bizible Attribution」のクイック検索タイプで、**[!UICONTROL 商談]** レポートタイプのBizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
 
    ![](assets/1-2.jpg)
 
-1. レポートの先頭から **[!UICONTROL すべての Bizible 属性タッチポイント]** を表示し、レポートしたい期間に従って日付フィールドを調整します。 この例では、「すべての時間」を表示しています。 さらに、レポート形式を [!UICONTROL &#x200B; 表形式 &#x200B;] から **[!UICONTROL 概要]** に変更します。
+1. レポートの先頭から、**[!UICONTROL すべてのBizible アトリビューション タッチポイント]**&#x200B;を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を[!UICONTROL 表形式]から&#x200B;**[!UICONTROL 概要]**&#x200B;に変更します。
 
    ![](assets/2-2.jpg)
 
@@ -29,9 +34,9 @@ ht-degree: 4%
 
    ![](assets/3-2.jpg)
 
-1. 次に、レポートを実行して分析します。
+1. レポートを実行して分析します。
 
-   これは、マーケティングチャネル別に要約された商談レポートです。 このレポートは、すべての商談に焦点を当てていますが、ステージ/商談のタイプに基づいて自由にフィルタリングできます。 さらに、レポートしたいフィールドに自由に追加できます。
+   マーケティングチャネルをまたいで要約したオポチュニティレポートです。 このレポートでは、あらゆる商談に焦点を当てていますが、ステージや機会のタイプに応じて絞り込むことができます。 さらに、レポートを作成するフィールドを自由に追加できます。
 
 >[!MORELIKETHIS]
 >

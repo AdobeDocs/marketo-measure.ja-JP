@@ -1,33 +1,38 @@
 ---
 unique-page-id: 18874572
-description: 重複レコードおよび  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: レコードを複製し、 [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: 重複レコードと [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/71lYDeI8YBsbc1Enq1-dDPN9YihW6lcnv1MNFBZTNkc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: 281
 ht-degree: 12%
 
 ---
 
-# 重複するレコードと [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
+# レコードと[!DNL Marketo Measure]を複製 {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-[!DNL Marketo Measure] では、CRM 内の関連するリードまたは連絡先とデータを照合する際に、メールアドレスを一意の識別子として使用します。 同じメールアドレス [!DNL Marketo Measure] 持つ複数のリードまたは連絡先が見つかった場合、すべてのレコードに同じデータが表示されます。 この影響は、[!DNL Marketo Measure] ーザーとのリードまたは連絡先についてレポートしている際に生じ、購入者タッチポイントを持つ一意のユーザーの数を誤って水増しする可能性があります。
+[!DNL Marketo Measure]は、CRM内の関連するリードまたは取引先責任者にデータを照合する際に、一意のIDとして電子メールアドレスを使用します。 [!DNL Marketo Measure]さんが同じ電子メールアドレスを持つ複数のリードまたは取引先責任者を見つけると、すべてのレコードに同じデータが表示されます。 この影響は、[!DNL Marketo Measure]のリードまたは取引先責任者に関するレポートを作成する際に発生し、誤ってBuyer Touchpointsを持つユニークなユーザーの数を増やす可能性があります。
 
-[!DNL Marketo Measure] Reporting では、どのような表示になりますか？
+これは[!DNL Marketo Measure] レポートでどのように表示されますか？
 
-_例レポート：購入者タッチポイントを持つ [!DNL Marketo Measure] 人物_
+_レポートの例：[!DNL Marketo Measure]購入者のタッチポイントを持つ人物。_
 
 ![](assets/1-1.png)
 
-kelsey@adobe.comの [!DNL Marketo Measure] の人物 ID は、そのメールアドレスに存在するリードと連絡先の両方があることがわかります。 このレポートには、2 つのファーストタッチ、2 つのリード作成タッチ、および 2 つの PostLC インタラクションが報告されています。 これらの重複レコードは、タッチポイントの日付とタッチポイント情報を共有するため、同一人物であるにもかかわらず、2 人の人物が異なるという結論が出る可能性があります。
+kelsey@adobe.comの[!DNL Marketo Measure]人IDを確認すると、そのメールアドレスに存在するリードと連絡先の両方があることがわかります。 このレポートでは、2つのファーストタッチ、2つのリード作成タッチ、2つのPostLC インタラクションが報告されています。 これらの重複したレコードは、タッチポイントの日付とタッチポイント情報を共有し、同じ人物であっても2人の異なる人物であるという結論に至る可能性があります。
 
 **レコメンデーション**
 
-* レポートに対する収益を最大化するために、CRM 内で重複排除ツールを使用して、新しい一意のレコードのみを確実に作成することをお勧めします。 これは、マーケティング自動化ツールまたは CRM 内にインストールされた別のソフトウェアで行うことができます。 [!DNL Marketo Measure] は記録を自動的に重複排除することはなく、当社のソフトウェアを通じてこのサービスを提供しません。
-* 重複を識別する際にレコードを手動で結合する方法もあります。 このプロセスには時間がかかり、面倒な場合がありますが、正確なレポートを出力するには、時間を投資する価値があります。
+* レポートの効果を最大化するには、CRM内の重複排除ツールを使用して、純新規の一意のレコードのみを作成することをお勧めします。 これは、MA ツールまたはCRM内にインストールされた個別のソフトウェアを使用して実行できます。 [!DNL Marketo Measure]はレコードを自動的に重複排除せず、このサービスをアドビのソフトウェアを通じて提供しません。
+* 別の方法として、重複を特定する際に、レコードを手動で結合する方法があります。 このプロセスは時間がかかり、面倒な場合もありますが、正確なレポートを出力することは、時間のかかる投資に見合うものです。

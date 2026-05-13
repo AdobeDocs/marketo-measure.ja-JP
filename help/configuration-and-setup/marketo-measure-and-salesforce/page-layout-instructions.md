@@ -4,9 +4,14 @@ description: ページレイアウトの手順 - [!DNL Marketo Measure]
 title: ページレイアウトの手順
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: 840
 ht-degree: 100%
 
 ---
@@ -15,15 +20,15 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-簡単に [!DNL Marketo Measure] データを確認するには、[!UICONTROL アカウント]、[!UICONTROL 取引先責任者]、[!UICONTROL リード]、[!UICONTROL 商談]、[!UICONTROL キャンペーン]の各オブジェクトのページレイアウトを更新することをお勧めします。手順は、以下のオブジェクトページレイアウトごとに分かれています。
+簡単に [!DNL Marketo Measure] データを確認するには、[!UICONTROL アカウント]、[!UICONTROL 取引先責任者]、[!UICONTROL リード]、[!UICONTROL 商談]、[!UICONTROL キャンペーン]の各オブジェクトのページレイアウトを更新することをお勧めします。 手順は、以下のオブジェクトページレイアウトごとに分かれています。
 
 まず、[!DNL Salesforce] 設定に移動して、「[!UICONTROL カスタマイズ]」タブを見つけます。
 
 ## キャンペーンオブジェクト {#campaign-object}
 
-サンドボックスのみの SFDC キャンペーンに「[!DNL Marketo Measure]」フィールドを追加することをお勧めします。このフィールドを使用して、タッチポイントの生成をテストできます。実稼動環境では、[!DNL Marketo Measure] の「タッチポイント日の一括更新」ボタンのみを追加することをお勧めします。キャンペーン同期ルールを作成できるので、「[!DNL Marketo Measure]」フィールドを実稼動環境に追加することはお勧めしません。
+サンドボックスのみの SFDC キャンペーンに「[!DNL Marketo Measure]」フィールドを追加することをお勧めします。 このフィールドを使用して、タッチポイントの生成をテストできます。 本番環境では、[!DNL Marketo Measure] の「タッチポイント日の一括更新」ボタンのみを追加することをお勧めします。 キャンペーン同期ルールを作成できるので、「[!DNL Marketo Measure]」フィールドを本番環境に追加することはお勧めしません。
 
 1. 「ビルド」オプションで「**[!UICONTROL キャンペーン]**」を選択します。
 
@@ -35,7 +40,7 @@ ht-degree: 100%
 
    ![](assets/2-1.jpg)
 
-1. 「[!UICONTROL フィールド]」オプション内で、「**[!UICONTROL Buyer Touchpoints を有効化]**」フィールドを選択して、ページ上の任意の場所にドラッグします。次に、「**[!UICONTROL タッチポイント開始日]**」フィールドと「**[!UICONTROL タッチポイント終了日]**」フィールドを追加します。
+1. 「[!UICONTROL フィールド]」オプション内で、「**[!UICONTROL Buyer Touchpoints を有効化]**」フィールドを選択して、ページ上の任意の場所にドラッグします。 次に、「**[!UICONTROL タッチポイント開始日]**」フィールドと「**[!UICONTROL タッチポイント終了日]**」フィールドを追加します。
 
    ![](assets/3-2.png)
 
@@ -49,7 +54,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >複数のキャンペーンレコードタイプを使用している場合は、「**[!UICONTROL Buyer Touchpoints を有効にする]**」フィールドの選択リストの値を更新する必要があります。手順については、[こちらの記事](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)を参照してください。
+   >複数のキャンペーンレコードタイプを使用している場合は、「**[!UICONTROL Buyer Touchpoints を有効にする]**」フィールドの選択リストの値を更新する必要があります。 手順については、[こちらの記事](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)を参照してください。
 
 ## リード {#leads}
 
@@ -57,7 +62,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
-1. 更新するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。複数のページレイアウトに「Buyer Touchpoints」セクションを含めることができます。
+1. 更新するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。 複数のページレイアウトに「Buyer Touchpoints」セクションを含めることができます。
 
 1. クイック検索メニュー内の左側にある VisualForce ページオプションをクリックします。
 
@@ -79,7 +84,7 @@ ht-degree: 100%
    >
    >これらのセクションごとに「1 列」形式を選択します。
 
-1. 新規作成したセクションに [!DNL Marketo Measure Insights] キャンバスアプリをドラッグします。「**保存**」をクリックします。Salesforce が即座に認識しないので、キャンバスアプリにドロップする前にまずページレイアウトを保存する必要が生じる場合があります。したがって、セクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。これは、すべてのオブジェクトに当てはまります。
+1. 新規作成したセクションに [!DNL Marketo Measure Insights] キャンバスアプリをドラッグします。 「**保存**」をクリックします。 Salesforce が即座に認識しないので、キャンバスアプリにドロップする前にまずページレイアウトを保存する必要が生じる場合があります。 したがって、セクションを作成した後、ページレイアウトを保存し、再度編集して、そのセクション内にキャンバスアプリをドラッグします。 これは、すべてのオブジェクトに当てはまります。
 
    >[!NOTE]
    >

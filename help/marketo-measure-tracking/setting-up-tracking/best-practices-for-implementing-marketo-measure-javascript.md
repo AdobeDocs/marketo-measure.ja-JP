@@ -3,9 +3,15 @@ description: ' [!DNL Marketo Measure]  JavaScript の実装のベストプラク
 title: ' [!DNL Marketo Measure] JavaScript の実装のベストプラクティス'
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: 371
 ht-degree: 100%
 
 ---
@@ -14,7 +20,7 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-[!DNL Marketo Measure] JavaScript は、web 訪問者のデジタルマーケティングインタラクションを追跡し、オンラインタッチポイントデータを作成する [!DNL Marketo Measure] 機能の鍵となります。[!DNL Marketo Measure] JavaScript をサイト全体に正しく包括的にデプロイすると、収集されたセッションデータから正確なタッチポイントデータが確実に生成されます。
+[!DNL Marketo Measure] JavaScript は、web 訪問者のデジタルマーケティングインタラクションを追跡し、オンラインタッチポイントデータを作成する [!DNL Marketo Measure] 機能の鍵となります。 [!DNL Marketo Measure] JavaScript をサイト全体に正しく包括的にデプロイすると、収集されたセッションデータから正確なタッチポイントデータが確実に生成されます。
 
 [!DNL Marketo Measure] JavaScript のデプロイメントに不一致があると、セッションデータが中断され、次のような問題が発生する可能性があります。
 
@@ -44,7 +50,7 @@ ht-degree: 100%
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
-[!DNL Marketo Measure] JavaScript の設定は初期実装中に適用されますが、サイトや管理するチームに変更を行うと、[!DNL Marketo Measure] のトラッキングが中断される可能性があります。[!DNL Marketo Measure] JavaScript が正しくかつ包括的にデプロイされていることを年に 1 回確認することをお勧めします。さらに、組織に web サイト用の変更プロトコルのドキュメントがある場合は、[!DNL Marketo Measure] JavaScript をすべての新しいページに保持／追加する必要があることを説明する部分があることを確認します。
+[!DNL Marketo Measure] JavaScript の設定は初期実装中に適用されますが、サイトや管理するチームに変更を行うと、[!DNL Marketo Measure] のトラッキングが中断される可能性があります。 [!DNL Marketo Measure] JavaScript が正しくかつ包括的にデプロイされていることを年に 1 回確認することをお勧めします。 さらに、組織に web サイト用の変更プロトコルのドキュメントがある場合は、[!DNL Marketo Measure] JavaScript をすべての新しいページに保持／追加する必要があることを説明する部分があることを確認します。
 
 JavaScript 設定のレビューをトリガーする可能性があるその他の理由としては、次のようなものがあります。
 

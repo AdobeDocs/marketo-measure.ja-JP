@@ -4,9 +4,14 @@ description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 -
 title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/71lT9aeqiSrxM12rpi7rDPoVaq-vX5GDOEdiOl8Dnds
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: 1289
 ht-degree: 100%
 
 ---
@@ -15,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
 [!DNL Marketo Measure] と Salesforce の関係を大まかに見てみましょう。
 
@@ -27,11 +32,11 @@ ht-degree: 100%
 
 ![](assets/1-3.png)
 
-デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。これは、[!DNL Marketo Measure] web アプリケーションの[!UICONTROL 設定]／[!UICONTROL CRM]／[!UICONTROL 一般]ページで設定でき、顧客は 200（デフォルト）、100、50、25 のバッチサイズから選択できます。
+デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。 これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。 ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。 この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。 これは、[!DNL Marketo Measure] web アプリケーションの[!UICONTROL 設定]／[!UICONTROL CRM]／[!UICONTROL 一般]ページで設定でき、顧客は 200（デフォルト）、100、50、25 のバッチサイズから選択できます。
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
-この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
+この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。 CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
 ## Salesforce 接続ユーザ権限 {#salesforce-connected-user-permissions}
 
@@ -43,13 +48,13 @@ ht-degree: 100%
 
 * CRM でのキャンペーンの「作成」と「更新」には追加の権限が必要です。
 
-* Web アクティビティからタッチポイントを作成する際には、そのタッチポイントをキャンペーンにリンクする必要があります。Web アクティビティには対応する CRM キャンペーンがないので、このリンクを確立するにはキャンペーンを作成する必要があります。これは、リードと商談の両方のタッチポイントに適用されます。使用する呼び出しは「アップサート」なので、更新権限が必要です。レコードが存在する場合は更新し、存在しない場合は作成します。これは、アドビが作成したキャンペーンにのみ適用されます。
+* Web アクティビティからタッチポイントを作成する際には、そのタッチポイントをキャンペーンにリンクする必要があります。 Web アクティビティには対応する CRM キャンペーンがないので、このリンクを確立するにはキャンペーンを作成する必要があります。 これは、リードと商談の両方のタッチポイントに適用されます。 使用する呼び出しは「アップサート」なので、更新権限が必要です。レコードが存在する場合は更新し、存在しない場合は作成します。 これは、アドビが作成したキャンペーンにのみ適用されます。
 
 **Marketo Measure 標準ユーザ**：ユーザが Marketo Measure オブジェクトからレコードを読み取れるようにします。
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 
-これには、[!DNL Marketo Measure] がやり取りする [!DNL Salesforce] 標準オブジェクトと、接続が確立され [!DNL Marketo Measure] パッケージがインストールされた後にこれらのオブジェクトに追加するカスタムフィールドが一覧表示されます。そのままでは、[!DNL Marketo Measure] は標準の [!DNL Salesforce] オブジェクトフィールドに書き込みません。
+これには、[!DNL Marketo Measure] がやり取りする [!DNL Salesforce] 標準オブジェクトと、接続が確立され [!DNL Marketo Measure] パッケージがインストールされた後にこれらのオブジェクトに追加するカスタムフィールドが一覧表示されます。 そのままでは、[!DNL Marketo Measure] は標準の [!DNL Salesforce] オブジェクトフィールドに書き込みません。
 
 **リード**
 
@@ -583,7 +588,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Salesforce アカウント内での削除イベントを Marketo Measure が確実にキャプチャするには、以下のオブジェクトに対する複製可能な権限が必要です。複製可能な権限は、次のオブジェクトに標準で付属しています。
+>Salesforce アカウント内での削除イベントを Marketo Measure が確実にキャプチャするには、以下のオブジェクトに対する複製可能な権限が必要です。 複製可能な権限は、次のオブジェクトに標準で付属しています。
 >
 >* アカウント
 >* キャンペーン
@@ -597,7 +602,7 @@ ht-degree: 100%
 
 ## [!DNL Salesforce] の [!DNL Marketo Measure] カスタムオブジェクト  {#marketo-measure-custom-objects-in-salesforce}
 
-SFDC の標準オブジェクトでのカスタムフィールドの作成とは別に、[!DNL Marketo Measure] パッケージがインストールされると、カスタムオブジェクトがいくつか作成されます。以下に、これらのカスタムオブジェクトのリストと、[!DNL Marketo Measure] が書き込むフィールドを示す表を示します。
+SFDC の標準オブジェクトでのカスタムフィールドの作成とは別に、[!DNL Marketo Measure] パッケージがインストールされると、カスタムオブジェクトがいくつか作成されます。 以下に、これらのカスタムオブジェクトのリストと、[!DNL Marketo Measure] が書き込むフィールドを示す表を示します。
 
 **Buyer Touchpoint**
 

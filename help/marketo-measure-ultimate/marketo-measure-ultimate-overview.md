@@ -3,16 +3,25 @@ description: '[!DNL Marketo Measure] Ultimateの概要 –  [!DNL Marketo Measur
 title: '[!DNL Marketo Measure] Ultimate の概要'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 726
 ht-degree: 97%
 
 ---
 
 # [!DNL Marketo Measure] Ultimate の概要 {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure]（以前の Bizible）は、マーケターに、収益の促進と、会社の投資回収率の最大化に最も効果的なマーケティング活動に関するインサイトを提供します。[!DNL Marketo Measure] は、チャネルパフォーマンスを自動的にトラッキングしてレポートする、マーケティングアトリビューションソリューションです。顧客エンゲージメントを最も推進しているチャネルを可視化し、それに応じてマーケティング費用を最適化できます。
+[!DNL Marketo Measure]（以前の Bizible）は、マーケターに、収益の促進と、会社の投資回収率の最大化に最も効果的なマーケティング活動に関するインサイトを提供します。 [!DNL Marketo Measure] は、チャネルパフォーマンスを自動的にトラッキングしてレポートする、マーケティングアトリビューションソリューションです。顧客エンゲージメントを最も推進しているチャネルを可視化し、それに応じてマーケティング費用を最適化できます。
 
 [!DNL Marketo Measure Ultimate] には、次の追加機能が含まれています。
 
@@ -23,7 +32,7 @@ ht-degree: 97%
 
 * フィールドマッピングと変換機能を通じて、優れた柔軟性でデータを変換し、適切なデータ形状を確保します。
 
-* 付属の Data Warehouse を通じて、外部アプリケーションでアトリビューションのインサイトを使用できるようにし、インサイトをワークフローに統合します。結果データと BI ベースのレポートを強化します（詳細な結果データへのアクセスと、分析とレポートに任意の BI ツールを使用できる機能を提供する Snowflake Data Warehouse を含む）。
+* 付属の Data Warehouse を通じて、外部アプリケーションでアトリビューションのインサイトを使用できるようにし、インサイトをワークフローに統合します。 結果データと BI ベースのレポートを強化します（詳細な結果データへのアクセスと、分析とレポートに任意の BI ツールを使用できる機能を提供する Snowflake Data Warehouse を含む）。
 
 * RTCDP（B2B または B2P エディション）との統合により、RTCDP と [!DNL Marketo Measure] は両方とも一元化された Adobe Experience Platform（AEP）データから機能するので、RTCDP のお客様向けに統合された B2B アトリビューションソリューションを提供できます。
 
@@ -39,13 +48,13 @@ ht-degree: 97%
 
 **AEP を通じた B2B データの読み込み**
 
-マーケターは、AEP を通じて B2B データ（アカウント、商談、取引先責任者、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。CRM および Marketo Engage の直接接続は、Ultimate には使用できなくなりました。マーケターは、引き続き、直接接続を通じて広告プラットフォームデータを取り込み、[!DNL Marketo Measure] JavaScript を通じて web アクティビティをトラッキングします。
+マーケターは、AEP を通じて B2B データ（アカウント、商談、取引先責任者、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。 CRM および Marketo Engage の直接接続は、Ultimate には使用できなくなりました。 マーケターは、引き続き、直接接続を通じて広告プラットフォームデータを取り込み、[!DNL Marketo Measure] JavaScript を通じて web アクティビティをトラッキングします。
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **デフォルトの通貨設定**
 
-[!DNL Marketo Measure Ultimate] では、ユーザが変更するまでデフォルトの通貨を USD に設定します。新しいデフォルト通貨を設定すると、再処理せずにデータが更新されます。選択した通貨がターゲット ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
+[!DNL Marketo Measure Ultimate] では、ユーザが変更するまでデフォルトの通貨を USD に設定します。 新しいデフォルト通貨を設定すると、再処理せずにデータが更新されます。 選択した通貨がターゲット ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -55,17 +64,17 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 
 >[!NOTE]
 >
->[!DNL Marketo Measure Ultimate] 実稼動インスタンスは AEP 実稼動サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
+>[!DNL Marketo Measure Ultimate] 本番稼働インスタンスは AEP 本番稼働用サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。変更については、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。 これを変更するには、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
-特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。各データセットは、1 つのデータフローにのみ含めることができます。違反すると、実行時にデータフローが停止します。
+特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。 各データセットは、1 つのデータフローにのみ含めることができます。 違反すると、実行時にデータフローが停止します。
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
 **ステージマッピング**
 
-すべての [!DNL Marketo Measure Ultimate] ルールは、データセットに固有です。ステージマッピングルールは、すべてのデータセットと選択したすべてのステージに対して作成する必要があります。
+すべての [!DNL Marketo Measure Ultimate] ルールは、データセットに固有です。 ステージマッピングルールは、すべてのデータセットと選択したすべてのステージに対して作成する必要があります。
 
 次の 6 つのビルトインのステージがあります。
 
@@ -76,7 +85,7 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 * オープンな商談
 * 成立した商談
 
-「不成立」、「成立」および「コンバージョン済み」の各セクションでは、カスタムステージを使用できません。ただし、マッピングルールを更新することで、ソースデータをビルトインの不成立／成立／コンバージョン済みステージにマッピングできます。
+「不成立」、「成立」および「コンバージョン済み」の各セクションでは、カスタムステージを使用できません。 ただし、マッピングルールを更新することで、ソースデータをビルトインの不成立／成立／コンバージョン済みステージにマッピングできます。
 
 カスタムステージは、「オープン」セクションに対してのみ定義できます。
 ステージマッピングに CRM ステージが自動的に含まれなくなりました。
@@ -88,9 +97,9 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 * オープンな商談
 * 成立した商談
 
-ルール条件は、データセットに固有です。ステージマッピングルールは、不成立となったリードとコンバージョン済みリードを除くすべてのデータセットとすべてのステージに対して作成する必要があります。
+ルール条件は、データセットに固有です。 ステージマッピングルールは、不成立となったリードとコンバージョン済みリードを除くすべてのデータセットとすべてのステージに対して作成する必要があります。
 
-ファネル、ブーメラン、カスタムモデルでは、選択はありません。ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。サポートするステージの数については、カスタムステージでは 15 個、ビルトインのステージでは 6 個の制限があります。
+ファネル、ブーメラン、カスタムモデルでは、選択はありません。 ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。 サポートするステージの数については、カスタムステージでは 15 個、ビルトインのステージでは 6 個の制限があります。
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 
@@ -102,15 +111,15 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 
 Ultimate には CRM の直接接続がないので、アトリビューションのタッチポイントは CRM に書き込まれません。
 
-[!DNL Marketo Measure] ABM ML サービス（リードとアカウントのマッチングおよび予測エンゲージメントスコア）は、[!DNL Marketo Measure Ultimate] では使用できません。RT-CDP B2B エディションには、このようなサービスが無料で含まれています。
+[!DNL Marketo Measure] ABM ML サービス（リードとアカウントのマッチングおよび予測エンゲージメントスコア）は、[!DNL Marketo Measure Ultimate] では使用できません。 RT-CDP B2B エディションには、このようなサービスが無料で含まれています。
 
 ## 制限事項 {#limitations}
 
 * データ変換ルールで使用できるフィールドは制限されています。
-* 既存の階層 1／2／3 ユーザには移行パスはありません。新しい実装が必要ですが、アドビでは、トラッキング対象の web アクティビティデータを既存のインスタンスから移行するお手伝いをします。
+* 既存の階層 1／2／3 ユーザには移行パスはありません。 新しい実装が必要ですが、アドビでは、トラッキング対象の web アクティビティデータを既存のインスタンスから移行するお手伝いをします。
 
 >[!MORELIKETHIS]
 >
->* [Marketo Measure Ultimateの宛先 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
+>* [Marketo Measure Ultimate Destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
 >
->* [&#x200B; ビデオ：Marketo Measure Ultimateの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>* [&#x200B; ビデオ：Marketo Measure Ultimateの概要](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
