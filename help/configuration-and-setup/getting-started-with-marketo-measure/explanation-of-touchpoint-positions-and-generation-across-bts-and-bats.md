@@ -1,61 +1,64 @@
 ---
-description: BT と BAT をまたいだタッチポイント位置と生成の説明 –  [!DNL Marketo Measure]
+description: BTとBAT間のタッチポイントの位置と生成の説明 –  [!DNL Marketo Measure]
 title: BT と [!DNL BATs] にわたる Touchpoint の位置と生成の説明
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: 792
 ht-degree: 3%
 
 ---
 
-# BT と [!DNL BATs] 間でのタッチポイント位置と生成の説明 {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# BTおよび[!DNL BATs]間のタッチポイントの位置と生成の説明 {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
-**タッチポイントポジションの作成とバイヤージャーニーの流れ**
+**バイヤージャーニーを通じたタッチポイントのポジションとフローの生成**
 
-データを使用してレポートを正常に作成するには、Buyer Touchpointのポジションとそのトリガー方法 [!DNL Marketo Measure] 理解することが重要です。 見込み客が購入者のジャーニーを進む際にどのような行動を取り、タッチポイントデータでどのように表示されるかを明確に理解する必要があります。 このトピックについて詳しくは、「タッチポイントの生成とマッピング [[!UICONTROL &#x200B; の記事を確認するこ &#x200B;]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md) をお勧めします。
+Buyer Touchpointの位置とそのトリガー方法を理解することは、[!DNL Marketo Measure] データを使用してレポートを正常に作成するために重要です。 見込み客がバイヤーズジャーニーを進む中で何をしたか、そしてタッチポイントデータでどのような表示になるかを明確に把握する必要があります。 このトピックに関する詳細なコンテキストについては、[[!UICONTROL  タッチポイント生成とマッピング ]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)記事を確認することをお勧めします。
 
-[!DNL Marketo Measure] には、バイヤージャーニーの様々なステップによってトリガーされる様々なタッチポイントのポジションがあります。 [!DNL Marketo Measure] データのレポートには、バイヤータッチポイント（BT）とバイヤ属性タッチポイント（BAT）の 2 つのタッチポイントデータのセットがあります。 これらのデータセットは、異なるオブジェクトに関連するため、位置が若干異なる場合があります。 このトピックについて詳しくは、[&#x200B; バイヤータッチポイント（BT）とバイヤ属性タッチポイント（BAT）の違い &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md) の記事を確認することをお勧めします。
+[!DNL Marketo Measure]には、バイヤーズジャーニーの様々なステップによってトリガーされる、様々なタッチポイントのポジションがあります。 [!DNL Marketo Measure] データに関するレポートには、Buyer Touchpoints （BT）とBuyer Attribution Touchpoints （BAT）の2つのタッチポイントデータがあります。 これらのデータセットは、オブジェクトに関連する位置が少し異なります。 このトピックに関する詳細なコンテキストについては、[購入者のタッチポイント （BT）と購入者のアトリビューションのタッチポイント （BAT）の違い](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)の記事を確認することをお勧めします。
 
-**買い手タッチポイント（BT）**：これらは、個々のユーザーとそのジャーニーに関連付けられたタッチポイントであり、その個人に固有になります。 次の標準提供レポートは、Buyer Touchpoint データに基づいて作成されます。
+**購入者の顧客接点（BT）**：これらは、個人とそのジャーニーに関連付けられた顧客接点であり、その個人に固有です。 Buyer Touchpointのデータをもとに、次のようなレポートを作成できます。
 
-* [!DNL Marketo Measure] 101:ID 別のリード
-* [!DNL Marketo Measure] 101：チャネル別のリード
-* [!DNL Marketo Measure] 101：リード/取引先責任者（ID 別）
-* [!DNL Marketo Measure] 101：チャネル別のリード/担当者
+* [!DNL Marketo Measure] 101: ID別リード
+* [!DNL Marketo Measure] 101: チャネル別リード
+* [!DNL Marketo Measure] 101: リード/取引先責任者（ID）
+* [!DNL Marketo Measure] 101: チャネル別リード/取引先責任者
 
-次に、個人のジャーニーの場所と、その役職を得るために実行したアクションを説明するBuyer Touchpointの役職の概要を示します。
+次に、Buyer Touchpointの役職の概要を示します。この役職では、個人がジャーニーのどの段階にいるのか、その役職を獲得するためにどのような行動を取ったのかを把握できます。
 
 <table> 
  <tbody>
   <tr>
-   <th>Buyer Touchpoint（BT）の位置づけ</th> 
+   <th>Buyer Touchpoint（BT）ポジション</th> 
    <th>タッチポイントタイプ（タッチポイントをトリガーできるアクション）</th> 
    <th>タッチポイントの説明</th> 
   </tr>
   <tr>
    <td>ファーストタッチ（FT）</td> 
    <td>ウェブ訪問</td> 
-   <td>個人がブランドと行う最初のマーケティングインタラクション</td> 
+   <td>個人が企業と最初に接するマーケティング上のインタラクション</td> 
   </tr>
   <tr>
    <td>リード作成（LC）</td> 
-   <td>フォーム入力 <strong>OR</strong> キャンペーン/プログラムを含める</td> 
-   <td>最初のフォームは、個人が持つ項目（通常はフォーム送信ですが、キャンペーン/プログラムを含めることもできます）を入力します</td> 
+   <td>フォーム入力<strong>または</strong> キャンペーン/プログラムのインクルード</td> 
+   <td>最初のフォームは、個人が持つフォームです（通常はフォーム送信ですが、キャンペーン/プログラムのインクルージョンにもできます）</td> 
   </tr>
   <tr>
-   <td>ポスト LC</td> 
-   <td>フォーム入力 <strong>OR</strong> キャンペーン/プログラムを含める</td> 
-   <td>LC （または後続のキャンペーン/プログラムを含める）の後に個人が完了するフォーム</td> 
+   <td>Post LC</td> 
+   <td>フォーム入力<strong>または</strong> キャンペーン/プログラムのインクルード</td> 
+   <td>個人がLC （またはその後のキャンペーン/プログラムのインクルージョン）の後に完了したフォーム</td> 
   </tr>
  </tbody>
 </table>
 
-**バイヤー属性タッチポイント（BATS）**：これは、商談とそのジャーニーに関連付けられているタッチポイントです。 これらのタッチポイントは、商談とその連絡先に接続されているため、収益に接続されています。 次の標準提供レポートは、Buyer Attribution Touchpoint データに基づいて作成されます。
+**購入者アトリビューションタッチポイント（BATS）**：これらは、商談とそのジャーニーに関連付けられているタッチポイントです。 これらの顧客接点は、商談とその連絡先に接続されているため、収益に接続されています。 Buyer Attribution Touchpointのデータをもとに、次のようなレポートを作成できます。
 
-* [!DNL Marketo Measure] 101：商談（ID 別）
-* [!DNL Marketo Measure] 101:ID チャネル別の商談
+* [!DNL Marketo Measure] 101: ID別の商談
+* [!DNL Marketo Measure] 101: ID チャネル別の商談
 
 <table> 
  <tbody>
@@ -67,54 +70,54 @@ ht-degree: 3%
   <tr>
    <td>ファーストタッチ（FT）</td> 
    <td>ウェブ訪問</td> 
-   <td>連絡先がブランドと行った最初のマーケティングインタラクション</td> 
+   <td>コンタクトが自社と最初に行ったマーケティング上のインタラクション</td> 
   </tr>
   <tr>
    <td>リード作成（LC）</td> 
-   <td>フォーム入力 <strong>OR</strong> キャンペーン/プログラムを含める</td> 
-   <td>連絡先に最初に入力されたフォーム（通常はフォーム送信ですが、キャンペーン/プログラムに含まれる場合もあります）</td> 
+   <td>フォーム入力<strong>または</strong> キャンペーン/プログラムのインクルード</td> 
+   <td>連絡先が最初に入力したフォーム（通常はフォーム送信ですが、キャンペーン/プログラムのインクルージョンにもできます）</td> 
   </tr>
   <tr>
-   <td>オポチュニティの作成</td> 
-   <td>フォーム入力 <strong>OR</strong> Web 訪問 <strong>OR</strong> キャンペーン/プログラムを含める</td> 
-   <td>商談の作成時に最も近いマーケティングインタラクション</td> 
+   <td>機会の創出</td> 
+   <td>フォーム入力<strong>または</strong> Web訪問<strong>または</strong> キャンペーン/プログラムの包含</td> 
+   <td>商談が創出されたタイミングに最も近いマーケティングインタラクション</td> 
   </tr> 
   <tr>
    <td>クローズ済み/失注</td> 
-   <td>フォーム入力 <strong>OR</strong> Web 訪問 <strong>OR</strong> キャンペーン/プログラムを含める</td> 
-   <td>商談がクローズ済み（受注または失注）の場合に最も近いマーケティングインタラクション</td> 
+   <td>フォーム入力<strong>または</strong> Web訪問<strong>または</strong> キャンペーン/プログラムの包含</td> 
+   <td>商談が成約に最も近いマーケティングインタラクション（成約または失注）</td> 
   </tr>
   <tr>
    <td>ミドルタッチ</td> 
-   <td>フォーム入力 <strong>OR</strong> キャンペーン/プログラムを含める</td> 
-   <td>連絡先がオンラインフォームに入力し、マイルストーンタッチポイントと一致しない場合</td> 
+   <td>フォーム入力<strong>または</strong> キャンペーン/プログラムのインクルード</td> 
+   <td>連絡先がオンラインフォームに入力し、それがマイルストーンの顧客接点と一致しない場合</td> 
   </tr>
  </tbody>
 </table>
 
-[!DNL Marketo Measure] には、個人のジャーニーとオポチュニティを明確に理解するための、これら 2 つのタッチポイントデータのセットがあります。 これらの 2 つのタッチポイントデータセットを使用すると、funnelの上部からfunnelの下部に何が起こったかを明確に把握できます。
+[!DNL Marketo Measure]には、個人のジャーニーと商談を明確に理解するために、2つのタッチポイントデータが含まれています。 このふたつのタッチポイントデータセットにより、funnelの上部からfunnelの下部にかけて何が起こったのかを明確に把握できます。
 
-次の例は、バイヤータッチポイント（BT）からバイヤ属性タッチポイント（BAT）へのデータのフローを示しています。 この例では、ユーザー A とユーザー B は、両方とも同じ Opportunity の一部で、作成日は 2020 年 3 月 7 日、クローズ日は 2020 年 5 月 6 日です。
+次の例は、Buyer Touchpoints （BT）からBuyer Attribution Touchpoints （BAT）へのデータの流れを示しています。 この例では、人物Aと人物Bは、作成日が2020年3月7日で、終了日が2020年6月5日の同じ商談の一部です。
 
-**ユーザー A** Buyer Touchpoint データセット
+**人物A** Buyer Touchpoint データセット
 
-* ファーストタッチ（FT） – 有料検索.AdWords - 2019 年 9 月 1 日（PT）
-* リード作成（LC） – オーガニック検索Google - 2019 年 11 月 20 日
-* Post LC （フォーム入力） – ウェビナー – 2020 年 3 月 4 日（PT）
+* ファーストタッチ（FT） – 有料検索.AdWords - 9/1/2019
+* リードジェネレーション（LC） – オーガニック検索。Google - 2019年11月20日
+* Post LC （フォーム入力） – ウェビナー – 2020年3月4日
 
-**ユーザー B** Buyer Touchpoint データセット
-
-* ファーストタッチ（FT） – ペイドソーシャル.Facebook - 8/26/2019
-* リード作成（LC） – オーガニック検索。Yahoo - 2020 年 2 月 20 日
-* Post LC （フォーム入力） – メール - 2020 年 5 月 1 日（PT）
-
-**商談** Buyer Attribution Touchpointのデータは次のように読まれます…
+**人物B** Buyer Touchpoint データセット
 
 * ファーストタッチ（FT） – ペイドソーシャル.Facebook - 8/26/2019
-   * （アカウント **商談** 真の _ファーストタッチ_ を持っているので、ユーザー B から）
-* リード作成（LC） – オーガニック検索Google - 2019 年 11 月 20 日
-   * （アカウント/商談の真の **リード作成** を持っているので、_ユーザー A_ から）
-* オポチュニティの作成（OC） – ウェビナー – 2020 年 3 月 4 日（PT）
-   * （**ユーザー A** からの Post LC タッチポイントは、2020 年 3 月 7 日（PT）に作成される商談に対する最新のインタラクションであったので、_OC タッチポイント_ になります）
-* 受注案件 – メール - 2020 年 5 月 1 日（Pt）
-   * （**人物 B** からの投稿 LC タッチポイントは、商談が 2020 年 5 月 6 日にクローズされる必要がある最新のインタラクションであったので、_クローズ済み受注タッチポイント_ になります）
+* リードジェネレーション（LC） – オーガニック検索.Yahoo - 2/20/2020
+* Post LC （フォーム入力） - Email - 5/1/2020
+
+**商談** Buyer Attribution Touchpoint データは次のように読まれます…
+
+* ファーストタッチ（FT） – ペイドソーシャル.Facebook - 8/26/2019
+   * （アカウント/商談に対する&#x200B;_ファーストタッチ_&#x200B;があるため、**人物B**&#x200B;から）
+* リードジェネレーション（LC） – オーガニック検索。Google - 2019年11月20日
+   * （**人物A**&#x200B;から、アカウント/商談に対して真の&#x200B;_リード作成_&#x200B;を持っているため）
+* 商談作成（OC） – ウェビナー – 2020年3月4日
+   * （2020年3月7日に作成された商談に対する最も最近のインタラクションが&#x200B;**人物A**&#x200B;からのLC後のタッチポイントは&#x200B;_OC タッチポイント_&#x200B;になります）
+* クローズ済み – メール - 2020年5月1日
+   * （2020年5月6日に商談がクローズされたのは最新のインタラクションであるため、**人物B**&#x200B;からのLC後のタッチポイントは&#x200B;_クローズ済み顧客接点_&#x200B;になります）

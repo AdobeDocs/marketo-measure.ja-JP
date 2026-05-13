@@ -1,80 +1,83 @@
 ---
 unique-page-id: 18874592
-description: コールトラッキングの統合 –  [!DNL Marketo Measure]
+description: コールトラッキング統合 –  [!DNL Marketo Measure]
 title: コールトラッキングの統合
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: 692
 ht-degree: 1%
 
 ---
 
 # コールトラッキングの統合 {#call-tracking-integration}
 
-[!DNL CallTrackingMetrics] との統合は、web セッションと電話を結合することを目的としています。 電話は、[!DNL Marketo Measure] へのフォーム送信として扱われます。 実際のフォーム送信がなかったので、web 訪問とみなされるだけだった web セッションにクレジットを与えます。
+[!DNL CallTrackingMetrics]との統合は、Web セッションと電話を統合することを目的としています。 電話は[!DNL Marketo Measure]へのフォーム送信として扱われます。 実際のフォーム送信がないため、web訪問としか見なされなかったweb セッションにクレジットを与えます。
 
-## コールトラッキング {#call-tracking-explained}
+## コールトラッキングの説明 {#call-tracking-explained}
 
-一般的な意味での「コールトラッキング」は、[!DNL CallTrackingMetrics]、[!DNL DiaglogTech]、[!DNL Invoca]、[!DNL CallRail] などの企業の製品です。 一意の電話番号は、送信元の様々なマーケティングチャネルやキャンペーンに基づいてユーザーに表示されます。 これにより、マーケターは、これらのチャネルやキャンペーンのパフォーマンスを確認できます。
+一般的な意味での「コールトラッキング」は、例えば[!DNL CallTrackingMetrics]、[!DNL DiaglogTech]、[!DNL Invoca]、または[!DNL CallRail]などの企業の製品です。 ユーザーの属するマーケティングチャネルや施策にもとづいて、独自の電話番号が表示されます。 これにより、マーケターはチャネルやキャンペーンのパフォーマンスを確認できます。
 
 ![](assets/1.png)
 
 ## 前後 {#before-and-after}
 
-CallTrackingMetrics との統合を行わずに [!DNL Marketo Measure] が電話の呼び出しを処理する方法については、以下のフローチャートを参照してください。 発生した電話は追跡されなかったので、web セッションと見なされ、タッチポイントは作成されませんでした。 ユーザーがフォームを完了した次の訪問まで、タッチポイントは最終的に入力されませんでした。
+以下のフローチャートを見て、[!DNL Marketo Measure]がCallTrackingMetricsとの統合なしで電話を処理するために使用された方法を確認してください。 発生した電話は未追跡だったため、web セッションと見なされ、タッチポイントが作成されませんでした。 顧客が次にフォームに入力してから、ようやく顧客接点の情報が入力されました。
 
-この統合により、web セッションが実際に通話に結び付けられていることがわかります。 次のフォーム入力は最終的に PostLC タッチになり、まだジャーニーの一環として追跡されています。
+統合により、web セッションが実際に電話に結びついていたことがわかります。 次のフォームへの入力はPostLC タッチになり、ジャーニーの一部として追跡されます。
 
 ![](assets/2.png)
 
 ## 仕組み {#how-it-works}
 
-CallTrackingMetrics は、これを機能させるために、開発作業を行う必要があります。 サイトにJavaScriptを配置すると、CallTrackingMetrics は [!DNL Marketo Measure] Cookie から_biz_uid を取得できます。 この「[!DNL BizibleId]」は、CallTrackingMetrics によって保存されます。
+CallTrackingMetricsは、これを機能させるためにいくつかの開発作業を行う必要があります。 サイトに配置されたJavaScriptを使用すると、CallTrackingMetricsは[!DNL Marketo Measure] Cookieから_biz_uidを取得できます。 この「[!DNL BizibleId]」は、CallTrackingMetricsによって保存されます。
 
-訪問者がサイトを訪れて電話をかけると、そのデータを [!DNL Salesforce] にプッシュするのが CallTrackingMetrics の仕事です。  通常、電話番号、件名、タイプなどのデータを入力する [!DNL Salesforce Task] ールが作成され、[!DNL BizibleId] が表示されるようになりました
+訪問者がサイトにアクセスして電話をかけたとき、そのデータを[!DNL Salesforce]にプッシュするのはCallTrackingMetricsの役割です。  通常、[!DNL Salesforce Task]が作成され、電話番号、件名、種類、現在の[!DNL BizibleId]などのデータが入力されます
 
-[!DNL BizibleId] は、[!DNL Marketo Measure] Marketing Attribution パッケージのバージョン 6.7 以降と共にインストールされるフィールドです。
+[!DNL BizibleId]は、[!DNL Marketo Measure] マーケティングアトリビューションパッケージのバージョン 6.7以降でインストールされているフィールドです。
 
-次に、[!DNL BizibleId] が入力されたタスクレコードの例を示します。
+以下は、[!DNL BizibleId]が入力されたタスクレコードの例です。
 
 ![](assets/3.png)
 
-[!DNL Marketo Measure] が既知の [!DNL BizibleId] 値が入力されている Task レコードを見つけ [!DNL Marketo Measure] と、そのユーザーを同じ [!DNL BizibleId] を持つ web セッションにマッピングし、そのセッションを web 訪問ではなく通話に関連付けることができます。
+[!DNL Marketo Measure]が既知の[!DNL BizibleId]値が入力されたタスクレコードを見つけると、[!DNL Marketo Measure]はそのユーザーを同じ[!DNL BizibleId]のweb セッションにマッピングし、そのセッションをweb訪問ではなく電話に属性することができます。
 
-## タッチポイント {#the-touchpoint}
+## The Touchpoint {#the-touchpoint}
 
-タスク [!DNL Marketo Measure] インポート/ダウンロードできる場合、その詳細を web セッションと共に処理します。 通常は、リファラーまたは広告と結合できます。 次の例では、訪問者が有料Google広告からビジネスを見つけ、電話をかけました。
+[!DNL Marketo Measure]がタスクをインポートまたはダウンロードできる場合、その詳細をweb セッションと共に処理します。 通常、リファラーや広告と組み合わせることができます。 下の例では、訪問者が有料のGoogle広告からビジネスを見つけ、電話をかけています。
 
-[!UICONTROL &#x200B; タッチポイント &#x200B;] タイプ「呼び出し」は、上記のスクリーンショットからタスクから取得されます。また、このスクリーンショットは、タスクの作成時に CallTrackingMetrics によって入力されます。
+[!UICONTROL  タッチポイント ] タイプの「Call」は、上のスクリーンショットのタスクから取得されます。これは、タスクの作成時にCallTrackingMetricsでも設定されます。
 
 ![](assets/4.png)
 
 ## レポート {#reporting}
 
-タッチポイントタイプの値 [!DNL Marketo Measure]、通常、Web 訪問、Web フォームまたは Web チャットですが、CallTrackingMetrics タッチポイントの場合、タッチポイントタイプは Phone Call です。 これにより、マーケターは、どのチャネルが最も多くの電話で引き込まれるのかを確認し、組織の収益を生み出すのに役立ちます。
+[!DNL Marketo Measure]が通常プッシュするタッチポイントタイプの値は、Web訪問、Web フォーム、またはWeb チャットですが、CallTrackingMetrics タッチポイントの場合、タッチポイントタイプは電話です。 これにより、マーケターは、どのチャネルが最も多くの電話をかけているかを把握し、売上につなげることができます。
 
 ![](assets/5.png)
 
 ## よくある質問 {#faq}
 
-**タッチポイントタイプの web 訪問はなぜですか？**
+**タッチポイントタイプのweb訪問が表示されるのはなぜですか？**
 
-タッチポイントタイプは、Task.Type フィールドから入力されます。 Task.Type フィールドが空白の場 [!DNL Marketo Measure]、タッチポイントタイプが Web 訪問として自動的に設定されます。 Task.Type フィールドに値が入力されると [!DNL Marketo Measure] その値が読み取られ、それに応じてタッチポイントタイプが入力されます。
+タッチポイントタイプは、Task.Type フィールドから入力されます。 Task.Type フィールドが空白の場合、[!DNL Marketo Measure]はタッチポイントタイプをWeb訪問として自動的に設定します。 Task.Type フィールドが入力されると、[!DNL Marketo Measure]はその値を読み取り、それに応じてタッチポイントタイプを入力します。
 
-**タッチポイントは電話から他にどのようなフィールドを入力しますか？**
+**電話からタッチポイントに入力されるその他のフィールドは何ですか？**
 
-タッチポイントタイプとMediumの両方に、Task.Type から取り込まれたデータが含まれています。 その他のすべてのデータポイントは、web トラッキングと Javascript データから取り込まれます。
+タッチポイントタイプとMediumの両方に、Task.Typeから取得したデータが含まれます。 それ以外のデータポイントはすべて、web トラッキングとJavaScript データから取得されます。
 
-**この電話が web セッションに結び付けられないのはなぜですか？**
+**この電話がWeb セッションに関連付けられていないのはなぜですか？**
 
-まず、タスクをチェックして、[!DNL BizibleId] が入力されていることを確認します。 値がない場合、そのタッチポイントを作成することはできません。 これは CallTrackingMetrics でエスカレーションする必要があります。
+まず、タスクを確認して、[!DNL BizibleId]が入力されていることを確認します。 価値がない場合は、その接点を作成することはできません。 これはCallTrackingMetricsでエスカレーションする必要があります。
 
-値がある場合、すべての web セッションは 30 分と見なされることに注意してください。 Google広告が 12:17pm （Web サイトでのセッションの開始）でクリックされたが、1:05pm まで通話が発生しなかった場合、Web セッションと通話は結合されません。 代わりに、[!DNL Marketo Measure] は電話を追跡するための個別の [!DNL Salesforce Task] タッチポイントを作成しますが、web セッションデータは持ちません。
+値がある場合は、すべてのweb セッションが30分のみとみなされることに注意してください。 Google広告が12:17pm （web サイト上のセッションの開始）にクリックされたが、電話が1:05pmまで発生しなかった場合、web セッションと電話は統合されません。 代わりに、[!DNL Marketo Measure]は、電話を追跡するために別の[!DNL Salesforce Task] タッチポイントを作成しますが、web セッションデータはありません。
 
 ![](assets/6.png)
 
 ## パートナーシップ {#partnerships}
 
-[!DNL Marketo Measure] には現在、共同マーケティングや製品トレーニングを含む「公式」統合プロセスを経た 1 つの公式コールトラッキングパートナーがあります。 この 1 つのパートナーは CallTrackingMetrics です。
+[!DNL Marketo Measure]には現在、共同マーケティングと製品トレーニングを含む「公式」統合プロセスを経た公式コールトラッキングパートナーが1人います。 このパートナーは、CallTrackingMetricsです。

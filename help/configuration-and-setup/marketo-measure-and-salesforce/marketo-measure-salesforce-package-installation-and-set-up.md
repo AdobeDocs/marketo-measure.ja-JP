@@ -1,22 +1,25 @@
 ---
-description: Salesforce パッケージ [!DNL Marketo Measure] インストールと設定 –  [!DNL Marketo Measure]
+description: '[!DNL Marketo Measure] Salesforce パッケージのインストールとセットアップ - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] [!DNL Salesforce]  パッケージのインストールとセットアップ'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 512
 ht-degree: 95%
 
 ---
 
 # [!DNL Marketo Measure] Salesforce パッケージのインストールと設定 {#marketo-measure-salesforce-package-installation-and-set-up}
 
-[!DNL Marketo Measure]&#x200B;[!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
+[!DNL Marketo Measure][!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] アカウントが [!DNL Salesforce] 実稼動インスタンスに接続されると、後方に移動してサンドボックスに接続することはできません。また、[!DNL Marketo Measure] アカウントは、1 つの [!DNL Salesforce] 実稼動インスタンスにのみ接続できます。
+>[!DNL Marketo Measure] アカウントが [!DNL Salesforce] 本番稼働インスタンスに接続されると、後方に移動してサンドボックスに接続することはできません。 また、[!DNL Marketo Measure] アカウントは、1 つの [!DNL Salesforce] 本番稼働インスタンスにのみ接続できます。
 
 [!DNL Marketo Measure] 基本パッケージには、以下が含まれます。
 
@@ -24,13 +27,13 @@ ht-degree: 95%
 * カスタム [!DNL Marketo Measure] フィールド
 * 25 個の [!DNL Stock] レポート
 
-[!DNL Marketo Measure] は、標準 [!DNL Salesforce] オブジェクト、フィールドおよびレコードを読み込むことができますが、[!DNL Marketo Measure] は、それらを更新したり、それらにデータをプッシュしたりすることはありません。[!DNL Marketo Measure] JavaScript で収集されたすべてのデータは、[!DNL Marketo Measure] カスタムオブジェクトおよびフィールドに表示されます。
+[!DNL Marketo Measure] は、標準 [!DNL Salesforce] オブジェクト、フィールドおよびレコードを読み込むことができますが、[!DNL Marketo Measure] は、それらを更新したり、それらにデータをプッシュしたりすることはありません。 [!DNL Marketo Measure] JavaScript で収集されたすべてのデータは、[!DNL Marketo Measure] カスタムオブジェクトおよびフィールドに表示されます。
 
 以下の手順に従って、[!DNL Marketo Measure Salesforce] 基本パッケージをインストールします。
 
-1. 匿名ブラウザーを使用して、[Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} に移動し、ログインします。
+1. シークレットブラウザーを使用して、[Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}に移動し、ログインします。
 
-1. サンドボックスまたは実稼動で [!DNL Marketo Measure] パッケージにインストールします。
+1. サンドボックスまたは本番稼働で [!DNL Marketo Measure] パッケージにインストールします。
 
 1. [!DNL Salesforce] に管理者としてログインします。
 
@@ -63,7 +66,7 @@ Salesforce にデータをプッシュする際に検証エラーが発生しな
 * 「[!DNL Marketo Measure] 管理者権限セット」
    * 管理された権限セットは、SFDC 管理者に、[!DNL Marketo Measure] オブジェクトからレコードを作成、読み取り、書き込み、削除する権限を付与します。
 * 「コンバート済みリードの表示および編集権限セット」
-   * これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。この権限セットが有効でない場合、大幅なデータトラッキングギャップが生じる可能性があります。
+   * これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。 この権限セットが有効でない場合、大幅なデータトラッキングギャップが生じる可能性があります。
 
 >[!NOTE]
 >
@@ -75,19 +78,19 @@ Salesforce にデータをプッシュする際に検証エラーが発生しな
 
 1. 「マーケティングユーザー」をユーザーレベル権限として有効にします。
 
-* 「[!UICONTROL マーケティングユーザー]」チェックボックスを使用すると、ユーザーは、キャンペーンを作成したり、キャンペーンインポートウィザードを使用したりできます。このオプションが選択されていない場合、そのユーザができるのは、キャンペーンおよび高度なキャンペーン設定の表示、単一のリードまたは取引先責任者のキャンペーン履歴の編集およびキャンペーンレポートの実行のみです。[!DNL Marketo Measure] には、キャンペーンオブジェクトに対する読み取りおよび書き込み権限が必要です。
+* 「[!UICONTROL マーケティングユーザー]」チェックボックスを使用すると、ユーザーは、キャンペーンを作成したり、キャンペーンインポートウィザードを使用したりできます。 このオプションが選択されていない場合、そのユーザができるのは、キャンペーンおよび高度なキャンペーン設定の表示、単一のリードまたは取引先責任者のキャンペーン履歴の編集およびキャンペーンレポートの実行のみです。 [!DNL Marketo Measure] には、キャンペーンオブジェクトに対する読み取りおよび書き込み権限が必要です。
 
 手順 3：すべてのトリガー、ワークフローおよび処理からこのプロファイルを除外
 
 手順 4：[!DNL Marketo Measure] アカウントにログインして、[!DNL Salesforce] 接続を新規ユーザーで再認証
 
-1. apps.bizible.com に移動して、新規ユーザー実稼動 [!DNL Salesforce] 資格情報でログインします。
+1. apps.bizible.com に移動して、新規ユーザー本番稼働 [!DNL Salesforce] 資格情報でログインします。
 
 1. **[!UICONTROL マイアカウント]**&#x200B;ドロップダウンで、**[!UICONTROL 設定]**&#x200B;を選択します。
 
 1. **[!UICONTROL 統合]**&#x200B;グループで&#x200B;**[!UICONTROL 接続]**&#x200B;を選択します。
 
-1. 現在接続されている [!DNL Salesforce] 接続の右側にあるキーアイコンをクリックして、**実稼動で再認証**&#x200B;を選択します。新規ユーザ資格情報でもう一度ログインします（メッセージが表示された場合）。
+1. 現在接続されている [!DNL Salesforce] 接続の右側にあるキーアイコンをクリックして、**本番稼働で再認証**&#x200B;を選択します。 新規ユーザ資格情報でもう一度ログインします（メッセージが表示された場合）。
 
 >[!MORELIKETHIS]
 >

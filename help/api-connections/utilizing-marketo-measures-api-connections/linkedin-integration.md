@@ -1,25 +1,30 @@
 ---
 unique-page-id: 35586080
-description: LinkedIn 統合 –  [!DNL Marketo Measure]
-title: LinkedIn 統合
+description: LinkedIn統合 –  [!DNL Marketo Measure]
+title: LinkedInとの連携
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/q-asa3ypcHJV5cuXj7IeZfsDoDqy6lQsl9agSLVj-lc
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2653'
-ht-degree: 1%
+source-wordcount: 2729
+ht-degree: 2%
 
 ---
 
-# LinkedIn 統合 {#linkedin-integration}
+# LinkedInとの連携 {#linkedin-integration}
 
 ## 概要 {#overview}
 
-LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構成されます。
+LinkedInとの[!DNL Marketo Measure]統合は、次の2つの部分で構成されています。
 
-スポンサードコンテンツ：スポンサードコンテンツ統合を使用 [!DNL Marketo Measure] ると、[!DNL LinkedIn] 広告の宛先 URL をタグ付けすることができます。これにより、[!DNL Marketo Measure] ーザーはタッチポイントジャーニー全体を通じてユーザーを追跡し、アクティビティを特定の [!DNL LinkedIn] Campaign とCreativeにマッピングすることができます。 これにより、顧客のアクティビティの ROI に関するインサイト [!DNL LinkedIn] 顧客に提供されます。
+スポンサーコンテンツ：スポンサーコンテンツ統合により、[!DNL Marketo Measure]は[!DNL LinkedIn]広告の宛先URLをタグ付けできます。これにより、[!DNL Marketo Measure]は最終的に、ユーザーのタッチポイントジャーニー全体を通じてユーザーをフォローし、特定の[!DNL LinkedIn] キャンペーンとCreativeにアクティビティをマッピングできます。 これにより、顧客の[!DNL LinkedIn] アクティビティのROIに関するインサイトが得られます。
 
-リード生成Forms: LinkedIn のリード生成Formsとの統合を通じて、Marketo Measureは LinkedIn プラットフォームを通じて送信されたフォームにinsightを組み込みます。 これらのフォーム入力は、CRM または [!DNL Marketo Engage] インスタンスからのリードと照合され、属性の対象となります。 Campaign、Creative、フォームへのinsightを使用したフォームの生成で、LinkedIn のマーケティングや広告費用をさらに最適化できるようになりました。
+リードジェネレーション Forms: LinkedInのリードジェネレーション Formsと統合することで、Marketo Measureは、LinkedInのプラットフォームを通じて送信されたフォームにinsightを取り込むことができます。 これらのフォーム入力は、アトリビューションの対象となるように、CRMまたは[!DNL Marketo Engage] インスタンスのリードと照合されます。 Adobe insightをAdobe Campaign、Adobe Creative、Adobe Experience Manager Formsに組み込み、フォームの生成を支援したことで、マーケティング部門と広告部門の支出をさらに最適化できるようになりました。
 
 ## 利用可能性 {#availability}
 
@@ -29,137 +34,137 @@ LinkedIn との [!DNL Marketo Measure] 統合は、次の 2 つの部分で構�
 
 **キャンペーンマネージャーの役割**
 
-広告データ [!DNL Marketo Measure] 広告コストデータをダウンロードするには、Campaign マネージャーで次のいずれかの役割が必要です。
+[!DNL Marketo Measure]が広告データと広告コストデータをダウンロードするには、Campaign Managerに次のいずれかの役割が必要です。
 
-* 請求管理者
+* 課金管理者
 * アカウントマネージャ
-* キャンペーンマネージャー
+* Campaign Manager
 
-詳細情報：[Campaign Manager のユーザーの役割と機能 &#x200B;](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
+詳細：[Campaign Managerのユーザーの役割と機能](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager)。
 
-**有料メディア管理者ロール**
+**有料メディア管理者の役割**
 
-スポンサークリエイティブを作成/更新するには、次のいずれかの有料メディア管理者ロールが [!DNL Marketo Measure] 要です。
+[!DNL Marketo Measure]がスポンサークリエイティブを作成/更新できるようにするには、次のいずれかの有料メディア管理者の役割が必要です：
 
-* スポンサーコンテンツのポスター
-* リード生成Forms マネージャー
+* スポンサードコンテンツポスター
+* リードジェネレーション Forms Manager
 
-詳細情報：[LinkedIn ページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細：[LinkedIn ページ管理者の役割](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
-他にも、統合に必要な [!DNL LinkedIn] の役割が **ありません**。 これらの役割は、多くの場合、必要な役割と誤解されているので、違いがあることに注意してください！
+統合に&#x200B;**not**&#x200B;が必要とする他の[!DNL LinkedIn]個の役割があります。 これらの役割は、必要な役割と間違えられることが多いので、違いがあることに注意してください。
 
 **ページ管理者の役割**
 
-リード生成フォーム [!DNL Marketo Measure] リードをダウンロードまたは統合するには、次のページ管理者の役割が必要です。
+[!DNL Marketo Measure]がリードジェネレーションフォームからリードをダウンロードまたは統合するには、次のページ管理者の役割が必要です。
 
 * スーパー管理者
 
-詳細情報：[LinkedIn ページの管理者ロール &#x200B;](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
+詳細：[LinkedIn ページ管理者の役割](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview)。
 
-## LinkedIn 広告タイプ {#linkedin-ad-types}
+## LinkedInの広告タイプ {#linkedin-ad-types}
 
-[!DNL Marketo Measure] は以下をサポートします。
+[!DNL Marketo Measure]は次をサポートします：
 
-**スポンサードコンテンツ：** スポンサードコンテンツを使用すると、会社をフォローしているメンバー以外のメンバーの [!DNL LinkedIn] フィードにもコンテンツを配信できます。 スポンサー付きコンテンツは、特定のオーディエンスをターゲットにすることができ、広告主がデスクトップ、モバイル、タブレット全体の [!DNL LinkedIn] プラットフォームでエンゲージメントを行っている場所と時間に [!DNL LinkedIn] ーザーメンバーにリーチするのに役立ちます。 リード生成Formsによるスポンサー付きコンテンツがサポートされます。
+**スポンサードコンテンツ：** スポンサードコンテンツを使用すると、会社をフォローしているメンバー以外のメンバーの[!DNL LinkedIn] フィードにコンテンツを配信できます。 スポンサードコンテンツは、特定のオーディエンスをターゲットにすることができ、広告主が[!DNL LinkedIn] メンバーに、デスクトップ、モバイル、タブレットをまたいで[!DNL LinkedIn] プラットフォームでエンゲージしているときにいつでもどこでもリーチするのに役立ちます。 Lead Gen Formsによるスポンサードコンテンツもサポートされています。
 
-[!DNL Marketo Measure] がサポートするスポンサー付きコンテンツ広告の種類は、シングル画像広告とビデオ広告（リード生成Formsを通して）です。 スキーマが複雑なため、カルーセル広告はサポートされていません。
+[!DNL Marketo Measure]がサポートするスポンサードコンテンツ広告の種類は、シングル画像広告とビデオ広告（リードジェネレーション Formsを通じて）です。 スキーマが複雑であるため、カルーセル広告はサポートされていません。
 
-[!DNL Marketo Measure] は、スポンサー付きメッセージ、テキスト広告、動的広告をサポートしていません。
+[!DNL Marketo Measure]は、スポンサードメッセージ、テキスト広告、または動的広告をサポートしていません。
 
 ![](assets/one.png)
 
 >[!TIP]
 >
->スポンサーのないコンテンツソースに基づくキャンペーンや支出（「テキスト広告」や「スポンサー付きインメール」のキャンペーンタイプなど）の場合、[!DNL Marketo Measure] れらのキャンペーンタイプのトラッキングは本質的にはサポートされません __。 このようなキャンペーンの支出を「スポンサーコンテンツ」の支出と並べて追跡したい場合は、マーケティング支出 CSV を使用して、その支出を手動で記録してください。
+>非スポンサー付きコンテンツソースから発生するキャンペーン/支出（「テキスト広告」または「スポンサー付きInMail」のキャンペーンタイプなど）については、[!DNL Marketo Measure]はこれらのキャンペーンタイプの追跡を本質的にサポートしていません&#x200B;_not_。 このようなキャンペーンの支出を「スポンサードコンテンツ」支出と一緒に追跡したい場合は、必ず当社のマーケティング支出CSVを使用して、その支出を手動で記録してください。
 
 ## 仕組み：スポンサードコンテンツ {#how-it-works-sponsored-content}
 
 >[!NOTE]
 >
->最初に使用する前に、[!DNL Marketo Measure] [!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; 統合 &#x200B;]/[!UICONTROL &#x200B; 広告 &#x200B;]/[!UICONTROL LinkedIn リード生成Formsを有効にする &#x200B;] に移動して、この機能設定を有効にする必要があります。
+>最初に使用する前に、[!DNL Marketo Measure] [!UICONTROL Settings] > [!UICONTROL Integrations] > [!UICONTROL Ads] > [!UICONTROL Enable LinkedIn Lead Gen Forms]に移動して、この機能設定を有効にする必要があります。
 
-**[!DNL LinkedIn's]独自の自動タグ付けの要件**
+**[!DNL LinkedIn's]の一意の自動タグ付け要件**
 
-ランディングページ [!DNL Marketo Measure] 自動タグ付けされるので、[!DNL LinkedIn] campaign のパフォーマンスを追跡するのに役立ちます。
+[!DNL Marketo Measure]は、ランディングページを自動タグ付けすることで、[!DNL LinkedIn] キャンペーンのパフォーマンスを追跡するのに役立ちます。
 
-[!DNL Marketo Measure] は、一意の LinkedIn 共有を持つクリエイティブを検索し、その末尾に `?_bl={creativeId}` パラメーターを追加します。
+[!DNL Marketo Measure]は、一意のLinkedIn Shareを持つクリエイターを検索し、その末尾に`?_bl={creativeId}` パラメーターを追加します。
 
-**株式の複製**
+**共有のコピー**
 
-この [!DNL Marketo Measure/LinkedIn] 統合では、既存のクリエイティブをコピー/クローン/複製しないでください。 共有が見つかり、1 つのCreativeでのみ使用されることが検出された場 [!DNL Marketo Measure]、クリエイティブや共有を再作成する必要なく、共有にそのままタグを付けることができます。すべての広告履歴（インプレッション、クリック数、共有）は残ります。
+この[!DNL Marketo Measure/LinkedIn]統合では、既存のクリエイティブをコピー/複製/複製しないようお客様にお願いします。 共有が見つかり、1つのCreativeでのみ使用されることが検出された場合、[!DNL Marketo Measure]はクリエイティブまたは共有を再作成することなく、そのまま共有をタグ付けでき、すべての広告履歴（インプレッション、クリック、共有）は残ります。
 
-共有が複数のクリエイティブで共有されていることが判明した [!DNL Marketo Measure]、一意のセットを作成するには、一時停止、コピー、再タグ付けのプロセスを経る必要があります。 [!DNL Marketo Measure] は、ライブクリエイティブを一時停止してアーカイブするので、インプレッション数、クリック数、ソーシャルシェアを含む広告履歴を消去して、すべてを適切に自動タグ付けします。
+共有が複数のクリエイター間で共有されていることが判明すると、一意のセットを作成するために、[!DNL Marketo Measure]は一時停止、コピー、および再タグ付けのプロセスを実行する必要があります。 [!DNL Marketo Measure]はライブ クリエイティブを一時停止してアーカイブし、インプレッション数、クリック数、ソーシャル共有などの広告履歴を消去して、すべてを適切に自動タグ付けします。
 
-[!DNL Marketo Measure] 今後は、[!DNL LinkedIn] の共有を複製せず、すべてのクリエイティブと共有をできるだけ一意に保つことをお勧めします。これにより、広告履歴を消去することなく、トラッキングを簡単に追加できます。
+今後、[!DNL Marketo Measure]さんは、広告履歴を消去することなくトラッキングを簡単に追加できるように、[!DNL LinkedIn]の共有を複製せず、すべてのクリエイターと共有をできるだけユニークなものにすることをお勧めします。
 
-**短縮 URL**
+**短縮URL**
 
-余分な手順が必要な理由は、LinkedIn では宛先 URL を短縮 URL （bit.ly、goog.le など）にできるため、[!DNL Marketo Measure] は長い解決済み URL を表示せず、[!DNL Marketo Measure] は解決済み URL にトラッキングパラメーターを追加する必要があるからです。 この問題を回避するには、広告を再作成す [!DNL Marketo Measure] 前に短縮 URL を検索し、URL を展開してから、解決された URL とそのすべてのパラメーターを含む新しい広告を作成し、タグを追加で [!DNL Marketo Measure] ます。 新しい広告を作成すると、広告履歴（インプレッション数、クリック数、共有）が消去されるので、短縮 URL にタグ付けする権限が必要になります。
+追加の手順の理由は、LinkedInでは宛先URLを短縮URL （bit.ly、goog.leなど）にすることができるため、[!DNL Marketo Measure]には長い解決済みURLが表示されず、[!DNL Marketo Measure]には解決済みURLにトラッキングパラメーターを追加する必要があります。 この問題を回避するために、[!DNL Marketo Measure]は広告を再作成する前に短縮URLを検索し、URLを展開し、解決されたURLとそのすべてのパラメーターを使用して新しい広告を作成し、[!DNL Marketo Measure]がタグを追加できるようにします。 新しい広告を作成すると、広告の履歴（インプレッション数、クリック数、共有数）が消去されるため、短縮されたURLをタグ付けするための権限が必要になります。
 
-短縮 URL を頻繁に使用すると、クリエイティブに大きな影響を与える可能性があります。 新しい広告を作成したり広告履歴を消去したりせずにランディングページにタグを付け [!DNL Marketo Measure] きるように、短縮 URL を使用しないことをお勧めします。
+短縮 URL を多用する場合は、これによってクリエイティブに大きな影響が及ぶ可能性があります。 新しい広告を作成したり、広告履歴を消去したりすることなく、[!DNL Marketo Measure]がランディングページにタグ付けできるように、短縮URLを使用しないことをお勧めします。
 
 **プロセス**
 
-それでは、いくつかの例から始めましょう。 持っていると言ってみましょう…
+いくつかの例から始めましょう。 たとえば…
 
-CreativeA : Share 123\
-CreativeB : Share 234\
+Creative A :Share 123\
+Creative B : Share 234\
 Creative C : Share 234\
 Creative D : Share 234
 
 ![](assets/two.png)
 
-`1)` [!DNL Marketo Measure] では、最初に「アクティブ」ステータスのすべてのキャンペーン、クリエイティブ、共有を確認します。 [!DNL Marketo Measure] は、一時停止、アーカイブまたはキャンセルされた広告をタグ付けしません。 広告が一時停止していた場合に「[!UICONTROL &#x200B; アクティブ &#x200B;]」に設定すると、再びアクティブになった時点でタグが付けられます。 一意の共有が見つかった場合、つまり複数のクリエイティブやキャンペーンで使用されていない場合（例：Creative A : Share 123）、カスタムパラメーター [!DNL Marketo Measure] を共有 URL に追加し `>> ?_bl={creativeId}` す。
+`1)` [!DNL Marketo Measure]は、最初に「アクティブ」ステータスのすべてのキャンペーン、クリエイティブ、共有を確認します。 [!DNL Marketo Measure]は、一時停止、アーカイブ、またはキャンセルされた広告にタグ付けしません。 広告が一時停止された場合は、[!UICONTROL active]に設定し、再びアクティブになるとタグ付けします。 一意のShareが見つかり、複数のクリエイティブまたはキャンペーンで使用されていない場合（例：Creative A : Share 123）、[!DNL Marketo Measure]はShare URLにカスタムパラメーター`>> ?_bl={creativeId}`を追加します。
 
-`2)` ここで、共有が共有されて一意性が失われた場合（例：Creative B は 234 を共有、Creative C は 234 を共有、Creative D は 234 を共有）、[!DNL Marketo Measure] は類似したすべてのクリエイティブ（Creative B、Creative C、Creative D）を一時停止してアーカイブします。
+`2)`現在、共有が共有され、その一意性が失われた場合（例えば、Creative B : Share 234、Creative C : Share 234、Creative D : Share 234）、[!DNL Marketo Measure]は、同様のすべてのクリエイティブ（Creative B、Creative C、Creative Dなど）を一時停止してアーカイブします。
 
-`3)` [!DNL Marketo Measure] は、アーカイブされたCreative B のコンテンツをコピーする 3 つの新しいクリエイティブ（Creative E、Creative F、Creative G）を作成します。
+`3)` [!DNL Marketo Measure]は、アーカイブされたCreative Bのコンテンツをコピーする3つの新しいクリエイティブ（Creative E、Creative F、Creative G）を作成します。
 
-`4)` [!DNL Marketo Measure] はまた、Share 234 の内容をコピーする 3 つの新しい共有（Share 345、Share 456 および Share 567）を作成しますが、独自の `?_bl` タグ付けが用意されています。
+`4)` [!DNL Marketo Measure]は、Share 234のコンテンツをコピーする3つの新しい共有、Share 345、Share 456、およびShare 567も作成します。ただし、独自の`?_bl` タグ付けがあります。
 
-`5)` [!DNL Marketo Measure] は、共有が共有されないことを定期的に確認する必要があります。共有される場合は、上記の手順 2 でプロセスを再開します。
+`5)` [!DNL Marketo Measure]は、共有が共有されないことを定期的に確認する必要があります。共有されない場合は、上記の手順2でプロセスを再開します。
 
 >[!NOTE]
 >
->これを実装すると、お客様はCreative B : Share 234、Creative C : Share 234 およびCreative D : Share 234 の広告履歴を失うことになります。それぞれCreative E : Share 345、Share F : Share 456 およびCreative G : Share 567 と再作成されるからです。
+>これを実装すると、Creative B : Share 234、Creative C : Share 234およびCreative D : Share 234は、それぞれCreative E : Share 345、Share F : Share 456、およびCreative G : Share 567で再作成されるので、お客様は広告履歴を失うことになります。
 
 ![](assets/three.png)
 
-## 仕組み：リード生成Forms {#how-it-works-lead-gen-forms}
+## 仕組み：リードジェネレーションForms {#how-it-works-lead-gen-forms}
 
-**[!DNL LinkedIn's]独自の自動タグ付けの要件**
+**[!DNL LinkedIn's]の一意の自動タグ付け要件**
 
-ランディングページ [!DNL Marketo Measure] 自動タグ付けされるので、[!DNL LinkedIn] campaign のパフォーマンスを追跡するのに役立ちます。
+[!DNL Marketo Measure]は、ランディングページを自動タグ付けすることで、[!DNL LinkedIn] キャンペーンのパフォーマンスを追跡するのに役立ちます。
 
-[!DNL Marketo Measure] は、一意の LinkedIn 共有を持つクリエイティブを検索し、その末尾に `?_bl={creativeId}` パラメーターを追加します。
+[!DNL Marketo Measure]は、一意のLinkedIn Shareを持つクリエイターを検索し、その末尾に`?_bl={creativeId}` パラメーターを追加します。
 
 **プロセス**
 
-Ad Form API[!DNL LinkedIn's]Ad Form Response API を通じて、広告アカウントのフォーム送信データを収集し、メールアドレスを CRM またはMarketoのリードに関連付けることができます。
+[!DNL LinkedIn's]広告フォーム APIと広告フォーム応答APIを通じて、広告アカウントのフォーム送信データを収集し、CRMまたはMarketoからリードにメールアドレスを関連付けることができます。
 
-LinkedIn フォームには、複数のメールアドレスを含めることができます。 フォームの回答をダウンロードすると、仕事用メール、メールアドレス（プライマリフォームフィールド）、または有効なメール値を持つカスタムフィールドの優先度を持つメールアドレスが検索されます。
+LinkedIn フォームに複数のメールアドレスが含まれている場合があります。 フォームの回答をダウンロードする際に、作業メール、メールアドレス（プライマリフォームフィールド）、または有効なメール値を持つカスタムフィールドを優先的に検索します。
 
-Campaign またはCreativeのステータスに関係なく、すべてのフォームの応答はタッチポイントになります。 [!DNL Marketo Measure] には 90 日間のルックバック制限が [!DNL Marketo Measure] り、90 日を経過したフォーム応答にアクセスできませんが、[!DNL Marketo Measure] と [!DNL LinkedIn] の統合が有効になっている期間が長いほど、[!DNL Marketo Measure] を通じて多くのリード生成フォームタッチポイントが表示されます。
-
->[!NOTE]
->
->LinkedIn のコストは、スポンサー付きコンテンツキャンペーンの一部として引き続きダウンロードされます。
-
-**CRM またはMarketoでのリード生成Formsのトラッキング**
-
-[!DNL Marketo Measure] と LinkedIn リード生成Forms統合が存在する前は、お客様はフォーム送信をMarketo プログラムや CRM キャンペーンにプッシュしてフォームをトラッキングし、これらのアクティビティのアトリビューションを受け取るのが一般的でした。 リード生成Forms設定が有効になったら、これらのフォーム送信が二重にカウントされないようにする必要があります。 次の点を確認してください。
-
-* CRM オブジェクトの「購入者タッチポイントを有効にする」フィールドが「なし」または「すべてのキャンペーンメンバーを除外」に設定されている
-* 関連するMarketo プログラムまたはMarketo アクティビティルールを更新します
-* 関連する CRM キャンペーンルールを更新
+CampaignまたはCreativeのステータスに関係なく、すべてのフォームの回答はタッチポイントになります。 [!DNL Marketo Measure]には90日間のルックバック制限があるため、[!DNL Marketo Measure]は90日を超えるフォーム応答にアクセスできませんが、[!DNL Marketo Measure]と[!DNL LinkedIn]の統合が有効になっている時間が長いほど、[!DNL Marketo Measure]を通じて表示されるリード生成フォームのタッチポイントが多くなります。
 
 >[!NOTE]
 >
->LinkedIn API には 90 日間のルックバック制限があるので、Marketoまたは CRM ルールを使用している場合、ルールの終了日を、[!DNL Marketo Measure] で統合を有効にした日付の 90 日前に設定することをお勧めします。
+>LinkedInのコストは、スポンサードコンテンツキャンペーンの一部として引き続きダウンロードされます。
+
+**CRMまたはMarketoでのリード生成Formsのトラッキング**
+
+[!DNL Marketo Measure]とLinkedIn リードジェネレーション Formsの統合が存在する前は、フォーム送信をMarketo プログラムやCRM キャンペーンにプッシュして、フォームをトラッキングし、それらのアクティビティに対するアトリビューションを受け取ることが一般的でした。 リードジェネレーション Forms設定を有効にすると、フォーム送信が二重カウントされないようにします。 次の項目を確認します。
+
+* CRM オブジェクトの「バイヤータッチポイントを有効にする」フィールドが「なし」または「すべてのキャンペーンメンバーを除外」に設定されている
+* 関連するMarketo プログラムまたはMarketo アクティビティルールの更新
+* 関連するCRM キャンペーンルールの更新
+
+>[!NOTE]
+>
+>LinkedIn APIには90日間のルックバック制限があるため、MarketoまたはCRM ルールを使用している場合は、ルールの終了日を、[!DNL Marketo Measure]で統合を有効にした日付の90日前に設定することをお勧めします。
 
 ## Touchpoint の詳細 {#touchpoint-details}
 
-[!DNL Marketo Measure] が LinkedIn クリエイティブでランディングページに正常にタグ付けされたら、タッチポイントで解決済みの広告データを表示できます。 表示されるはずのデータ値のマッピングを次に示します。
+[!DNL Marketo Measure]がLinkedIn クリエイティブ上のランディングページに正常にタグ付けした後、タッチポイントで解決済みの広告データを表示できます。 表示されるデータ値のマッピングは次のとおりです。
 
 <table> 
  <colgroup> 
@@ -172,12 +177,12 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
    <th>サンプル値</th> 
   </tr> 
   <tr> 
-   <td>広告 Id</td>
+   <td>広告Id</td>
    <td>84186224</td>
   </tr> 
   <tr> 
    <td>広告コンテンツ</td>
-   <td>copy-1-image-2-man マーケターの 95%#B2B、需要創造戦略が成功したと考えています。 詳細情報：[!DNL https]://lnkd.in/jgdi50vKrgv</td>
+   <td>copy-1-image-2-man マーケターの95%が、需要創出戦略#B2B成功させたいと考えています。 詳細：[!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
    <td>広告グループ Id</td>
@@ -196,7 +201,7 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
    <td>SU - COM Accounts - Demand Skills</td>
   </tr> 
   <tr> 
-   <td>広告宛先 URL <b>*</b></td>
+   <td>広告宛先URL <b>*</b></td>
    <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
@@ -212,7 +217,7 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
    <td>(空)</td> 
   </tr> 
   <tr> 
-   <td>キーワード一致タイプ</td> 
+   <td>キーワードマッチタイプ</td> 
    <td>(空)</td> 
   </tr> 
   <tr> 
@@ -229,22 +234,22 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
   </tr> 
   <tr> 
    <td>マーケティングチャネル – パス</td> 
-   <td>Paid Social.LinkedIn</td> 
+   <td>ペイドソーシャル.LinkedIn</td> 
   </tr> 
   <tr> 
    <td>中</td> 
-   <td>「cpc」または「リード生成フォーム」</td> 
+   <td>「cpc」または「リードジェネレーションフォーム」</td> 
   </tr> 
   <tr> 
    <td>参照元ページ</td> 
    <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td>参照元ページ – 未加工</td> 
+   <td>リファラーページ – 未加工</td> 
    <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td>フレーズを検索</td> 
+   <td>検索フレーズ</td> 
    <td>(空)</td> 
   </tr> 
   <tr> 
@@ -258,104 +263,104 @@ Campaign またはCreativeのステータスに関係なく、すべてのフォ
  </tbody> 
 </table>
 
-**&#42;**&#x200B;_「広告宛先 URL」フィールドは、スポンサー付きコンテンツの場合にのみ入力されます。 リード生成Forms用には入力されません。_
+**&#42;** _「Ad Destination URL」フィールドは、スポンサーコンテンツにのみ入力されます。 リードジェネレーション Formsに入力されていません。_
 
 <br>
 
 ## コスト {#costs}
 
-[!DNL Marketo Measure] は [!DNL LinkedIn] と直接統合されているので、各キャンペーンとCreativeの記録済み費用を毎日ダウンロードします。 お客様が [!DNL LinkedIn] アプリケーション内の [!DNL Marketo Measure] 費用についてレポートする必要はなくなりました。
+[!DNL Marketo Measure]は[!DNL LinkedIn]と直接統合されているため、CampaignとCreativeごとに毎日ダウンロードした費用を記録できます。 [!DNL Marketo Measure] アプリケーション内の[!DNL LinkedIn]の支出について報告する顧客はもう必要ありません。
 
-他の広告統合と同様に、[!DNL Marketo Measure] では、すべてのキャンペーン、クリエイティブ、コストを配置するマーケティングチャネルルール [!DNL LinkedIn] 定義しています。 このルールを使用するには、顧客が有料 [!DNL LinkedIn] ールの取り組みに新しい行を挿入する必要があります。 新規または既存のチャネルを指定できます。 リファラー列で、[!DNL LinkedIn] タグを持つ任意のタッチポイントとして定義し [!DNL Marketo Measure] 定義「[[!DNL Marketo Measure] Paid]」を使用します。
+他の広告の統合と同様に、[!DNL Marketo Measure]はすべての[!DNL LinkedIn]件のキャンペーン、クリエイティブ、コストを配置するためのマーケティングチャネルルールを定義しました。 このルールを使用するには、お客様は有料[!DNL LinkedIn]施策に新しい行を挿入する必要があります。 新規または既存のチャネルを選択できます。 リファラー列で、「[[!DNL LinkedIn] Paid]」という定義を使用します。この定義は、[!DNL Marketo Measure]さんが[!DNL Marketo Measure] タグを持つ任意のタッチポイントとして定義しています。
 
 ![](assets/four.png)
 
-## [!DNL Marketo Measure] Discover {#marketo-measure-discover}
+## [!DNL Marketo Measure]もっと知る {#marketo-measure-discover}
 
-リード生成のForms レポートをサポートするために、[!DNL Marketo Measure] Discover にいくつかの機能強化が行われました。
+リードジェネレーション Forms レポートをサポートするために、[!DNL Marketo Measure] Discoverにいくつかの機能強化が行われました。
 
-**ペイドメディアボード**
+**有料メディアボード**
 
-リード生成Forms タイル：LinkedIn フォームへの入力数を含む新しいタイルです。 このカウントのドリルスルーでは、アクティビティ ID、フォーム日、フォーム名、および電子メールアドレスが表示されます。
+リードジェネレーション Forms タイル：LinkedIn フォーム入力数を含む新しいタイル。 この数をドリルスルーすると、アクティビティ ID、フォーム日、フォーム名、メールアドレスが表示されます。
 
-**係合パスボード**
+**エンゲージメントパスボード**
 
-イベントのジャーニー：統合を通じて取得されるフォーム用に、「アクティビティ」イベントタイプと中程度の「リード生成フォーム」が含まれます。 ドリルスルービューには、Campaign、Creative、フォームの詳細が含まれます。
+イベントのジャーニー:「アクティビティ」イベントタイプと、統合を介して送信されるフォームの中の「リードジェネレーションフォーム」が含まれます。 ドリルスルー表示には、Campaign、Creative、フォームの詳細が含まれます。
 
-## スポンサー付きコンテンツに関するよくある質問 {#sponsored-content-faq}
+## スポンサードコンテンツに関するFAQ {#sponsored-content-faq}
 
-**暗い分け前とは何ですか？**
+**ダークシェアとは何ですか？**
 
-ダークシェアとは、会社のページに投稿されず、すぐに作成されてCreativeとして直接追加される投稿です。 作成 [!DNL Marketo Measure] れたクリエイティブが会社のページの上部に表示されず、再び昇格しないように、暗いシェアを使用して背後で立ち上げることができます。
+ダークシェアとは、企業のページに投稿されることなく、すぐに作成され、Creativeとして直接追加される投稿のことです。 作成した[!DNL Marketo Measure]人のクリエイターが会社のページの上部に表示されず、再度昇格できるように、暗い共有が使用され、バックグラウンドで起動できます。
 
-**実際にはどのステータス [!DNL Marketo Measure] タグ付けされますか？**
+**実際に[!DNL Marketo Measure]がタグ付けするステータスは何ですか？**
 
-[!DNL LinkedIn] Campaign とCreativeには、アクティブ、一時停止、アーカイブ済み、キャンセルの 4 種類のステータスがあります。 アクティブなキャンペーンとクリエイティブにのみタグを付けます。 他のステータスをタグ付けすると、再度アクティブに設定されます。 [!DNL Marketo Measure] では、一時停止、アーカイブ、キャンセルされたキャンペーンやクリエイティブのタグ付けは行われませんが、ステータスがアクティブに変わると、タグ付けが再開されます。
+[!DNL LinkedIn] キャンペーンとCreativeには、アクティブ、一時停止、アーカイブ、キャンセルの4つの異なるステータスがあります。 タグ付けするのは、アクティブなキャンペーンとクリエイティブのみです。 他のステータスにタグ付けすると、再度アクティブに設定されます。 [!DNL Marketo Measure]は、一時停止、アーカイブ済み、またはキャンセル済みのキャンペーンまたはクリエイティブにタグ付けすることはできませんが、ステータスが「アクティブ」に変更された場合はタグ付けを再開します。
 
-**[!DNL Marketo Measure] がタグ付けに使用している値は何ですか？**
+**タグ付けに[!DNL Marketo Measure]が使用している値は何ですか？**
 
-宛先 URL の末尾に、パラメーター [!DNL Marketo Measure]`&_bl={creativeId}` 追加されます。`{creativeId}` は LinkedIn のCreative ID です。 Creative ID を使用 [!DNL Marketo Measure] ると、各キャンペーンが 1 つのキャンペーンにのみ属す [!DNL LinkedIn] ことができるので、キャンペーン ID はかなり基本的な広告構造を持つので、Creative ID を判断することもできます。
+宛先URLの最後に、[!DNL Marketo Measure]がパラメーター`&_bl={creativeId}`を追加しています。ここで、`{creativeId}`はLinkedInのCreative IDです。 Creative Idでは、[!DNL Marketo Measure]はキャンペーン IDを判断することもできます。各Creativeは1つのキャンペーンにのみ属することができるため、[!DNL LinkedIn]はかなり基本的な広告構造を持っています。
 
-**古いクリエイティブで新しいバージョン [!DNL Marketo Measure] 作成するとどうなりますか？**
+**古いクリエイティブを[!DNL Marketo Measure]が新しいバージョンを作成すると、どうなりますか？**
 
-共有 [!DNL Marketo Measure] 再作成し、新しいCreativeに配置すると、古いCreativeがアーカイブされます。 これが、アーカイブされ [!DNL Marketo Measure] キャンペーンやクリエイティブにタグ付けしない理由でもあります。そうしないと、[!DNL Marketo Measure] が無期限にタグ付けしようとしてループします。
+[!DNL Marketo Measure]がShareを再作成し、新しいCreativeに配置すると、古いCreativeがアーカイブされます。 これも、[!DNL Marketo Measure]がアーカイブされたキャンペーンまたはクリエイティブにタグ付けしない理由です。そうしないと、タグ付けを無期限に行おうとしたときに[!DNL Marketo Measure]とループします。
 
-**作成した広告の宛先 URL が元の広告と一致しないのはなぜですか？**
+**作成した広告の宛先URLが元の広告と一致しないのはなぜですか？**
 
-解決され [!DNL Marketo Measure]URL にトラッキングパラメーターを追加する必要がありますが、API で提示される URL は、すべてのパラメーターが存在しない短縮 URL にすることができます。 この問題を回避するために、[!DNL Marketo Measure] は追加を再作成する前に短縮 URL を検索し、解決してから、解決された URL とそのすべてのパラメーターを使用して新しい広告を作成し、タグを追加で [!DNL Marketo Measure] ます。
+[!DNL Marketo Measure]はトラッキングパラメーターを解決されたURLに追加する必要がありますが、APIに表示されるURLは、すべてのパラメーターが存在しない場合、短縮されたURLになる可能性があります。 この問題を回避するために、[!DNL Marketo Measure]は追加を再作成する前に短縮URLを検索して解決し、その後、解決されたURLとそのすべてのパラメーターを含む新しい広告を作成して、[!DNL Marketo Measure]がタグを追加できるようにします。
 
-**広告にタグを付けていますか？ すべてのランディングページに bl パラメーターが表示されません。**
+**すべての広告にタグ付けしていますか？ すべてのランディングページにbl パラメーターが表示されませんか？**
 
-一部のマーケターが、タグ付けできない宛先 URL に画像リンクを配置し [!DNL Marketo Measure] いるので、広告コンテンツ内で URL を検索します。 短縮 URL にタグを付ける権限が [!DNL Marketo Measure] る場合は、URL とタグを展開します。ただし、LinkedIn のコピー構造により、テキスト内で自動的に短縮されます。 タグは、LinkedIn 短縮 URL 内に存在します。この URL は、ランディングページ – 未加工フィールドではなく、タッチポイントの「広告コンテンツ」フィールドに表示されます。
+一部のマーケターが画像リンクを宛先URLに配置し、[!DNL Marketo Measure]がタグ付けできないので、広告コンテンツ内でURLを検索します。 [!DNL Marketo Measure]に短縮URLのタグ付け権限がある場合、そのURLを展開してタグ付けしますが、LinkedInのコピー構造により、テキスト内で自動的に短縮されます。 タグはLinkedInの短縮URL内に存在し、ランディングページ - Raw フィールドではなく、タッチポイントの広告コンテンツフィールドに表示されます。
 
-**いやいや、私のチームの誰かが誤って共有をクローンしました。 一時停止してもいいですか**
+**申し訳ありません。チームの誰かが誤って共有を複製しました。 一時停止できますか？**
 
-心配しないで。 [!DNL Marketo Measure] は、プログラムによって、一意でなくなった（つまり、それ以降に別のCreativeにコピーされた）共有をチェックします。 そのコピーが検出され [!DNL Marketo Measure] ら、通常のフローに従ってタグ付けし、新しい広告を作成します。
+心配ありません。 [!DNL Marketo Measure]は、プログラムによって一意ではないシェアをチェックします。つまり、そのシェアは別のCreativeにコピーされました。 そのコピーが検出されると、[!DNL Marketo Measure]は通常のフローに従ってタグ付けし、新しい広告を作成します。
 
-**以前、広告のレビューが保留になっていました。 タグ付け後にレビューが再び保留 [!DNL Marketo Measure] れるのはなぜですか？**
+**以前に自分の広告がレビュー待ちでした。 [!DNL Marketo Measure]さんがタグ付けした後、再度審査待ちとなるのはなぜですか？**
 
-LinkedIn では、作成または変更されたすべての広告は、投稿される前に通常のセキュリティプロセスを経る必要があります。 [!DNL Marketo Measure] は、6 時間ごとに新しい広告をスキャンするので、できるだけ早く広告を傍受しようとしますが、追加の手順 [!DNL LinkedIn's] 伴い、ローンチを数時間遅らせる可能性があります。
+LinkedInでは、作成または変更されたすべての広告は、投稿前に通常のセキュリティプロセスを経る必要があります。 [!DNL Marketo Measure]は、6時間ごとに新しい広告をスキャンするので、できるだけ早く広告を傍受しようとしますが、[!DNL LinkedIn's]個の追加ステップを使用すると、ローンチが数時間遅れる可能性があります。
 
-**広告に 2 つの URL があります。 タグ付けされるのはどれ**
+**広告には2つのURLがあります。 タグ付けされるのはどれですか？**
 
-両方。 [!DNL Marketo Measure] 統合により、広告のクリックスルー画像から宛先 URL にタグを付けることができますが、広告の説明の短縮 URL も自動的に更新されます。
+両方。 [!DNL Marketo Measure]統合により、広告内のクリックスルー画像から宛先URLをタグ付けできるだけでなく、広告説明の短縮URLも自動的に更新されます。
 
 ![](assets/five.png)
 
-**[!DNL LinkedIn ads] アカウントを接続しました。 リンクにタグ [!DNL Marketo Measure] 付けないのはなぜですか？**
+**自分の[!DNL LinkedIn ads] アカウントを接続しました。 [!DNL Marketo Measure]が自分のリンクにタグ付けをしないのはなぜですか？**
 
-接続する [!DNL LinkedIn] ユーザーには、適切な編集アクセス権が必要です。つまり、ユーザーはアカウントマネージャー、キャンペーンマネージャーまたはCreative マネージャーである必要があります。
+接続されている[!DNL LinkedIn] ユーザーには適切な編集アクセス権が必要です。つまり、そのユーザーはAccount Manager、Campaign Manager、またはCreative Managerである必要があります。
 
-**自分のクリエイティブがコピーされるかどうかを知るにはどうすればよいですか？ クリエイティブが同じシェアを使用しているかどうかを確認することはできますか？**
+**自分のクリエイティブがコピーされるかどうかを確認するにはどうすればよいですか？ クリエイターが同じ共有を使用しているかどうかを確認できますか？**
 
-共有 ID は [!DNL LinkedIn] レポートでは提供されていないので、クリエイティブと共有のマッピングを確認する明確で明白な方法はありません。 クリエイティブがコピーである可能性が疑われる場合は、[!DNL LinkedIn] Campaign マネージャーで広告を開いて手動で確認できます。新しいタブで広告が開き、URL で共有 ID を確認できます。
+共有IDは[!DNL LinkedIn] レポートで指定されていないため、クリエイティブと共有のマッピングを確認する明確で明確な方法がありません。 クリエイティブがコピーである可能性が疑われる場合は、[!DNL LinkedIn] キャンペーンマネージャー内から広告を開いて手動で確認できます。これにより、広告が新しいタブで開き、URLに共有IDが表示されます。
 
 ![](assets/six.png)
 
-## リード生成Formsに関するよくある質問 {#lead-gen-forms-faq}
+## リードジェネレーション Formsに関するFAQ {#lead-gen-forms-faq}
 
-**この機能強化のコストはどれくらいですか？**
+**この機能強化のコストはいくらですか？**
 
-このオファリングは、有料の [!DNL Marketo Measure] サブスクリプションに含まれています。
+このサービスは、有料の[!DNL Marketo Measure] サブスクリプションに含まれています。
 
 **統合は遡及的ですか？**
 
-はい、LinkedIn から過去の広告フォームの応答をダウンロードしますが、90 日間のルックバックウィンドウに制限されています。 [!DNL Marketo Measure] と LinkedIn の統合が有効になっている期間が長いほど、[!DNL Marketo Measure] を通じてリード生成フォームのタッチポイントが多く表示されます。
+はい、過去の広告フォームの回答はLinkedInからダウンロードしますが、90日間のルックバックウィンドウに限定されます。 [!DNL Marketo Measure]とLinkedInの統合が有効になっている時間が長いほど、リード生成フォームのタッチポイントが[!DNL Marketo Measure]を通じてより多く表示されます。
 
-ダウンロードする特定の日付を設定するオプションはありませんが、抑制する必要があるタッチポイントがある場合は、オプションでタッチポイント削除ルールを設定できます。
+ダウンロードの特定の日付を設定するオプションはありませんが、除外する必要があるタッチポイントがある場合は、オプションでタッチポイント削除ルールを設定できます。
 
-**既に [!DNL Marketo Measure] LinkedIn 広告統合を使用している場合、これは自動的に有効になりますか？**
+**既に[!DNL Marketo Measure] LinkedIn広告の統合を使用している場合、これは自動的に有効になりますか？**
 
-いいえ、すべてのお客様に対して自動的にダウンロードを開始するわけではありませんが、この機能を設定で有効にするための非常に簡単なスイッチです。
+いいえ、すべての顧客に対して自動的にダウンロードを開始するわけではありませんが、設定でこの機能を有効にするのは非常に簡単な切り替えです。
 
-**フォームデータは使用できますか？**
+**フォームデータは利用できますか？**
 
-フォームデータは、フォーム ID とフォーム名を含む [!DNL Marketo Measure] Discover を通じて利用できます。 CRM のタッチポイントオブジェクトでは、まだフォームの詳細を使用できません。
+フォームデータは、[!DNL Marketo Measure] Discover （フォーム IDとフォーム名を含む）から利用できます。 フォームの詳細は、CRMのタッチポイントオブジェクトではまだ利用できません。
 
-**以前にMarketo プログラムまたは CRM キャンペーンと同期されていた [!DNL LinkedIn] リードはどうなりますか？**
+**以前にMarketo プログラムまたはCRM キャンペーンに同期した[!DNL LinkedIn]件のリードはどうなりますか？**
 
-重複を避けるために、[!DNL Marketo Measure] のルールを調整して、これらの特定のプログラムやキャンペーンからタッチポイントを生成することをお勧めします。 LinkedIn API には 90 日間のルックバック制限があるので、Marketoまたは CRM ルールを使用している場合、ルールの終了日を、[!DNL Marketo Measure] で統合を有効にした日付の 90 日前に設定することをお勧めします。 この時点から、insight[!DNL Marketo Measure] 詳細を含むリードをダウンロードできます。
+重複を避けるために、これらの特定のプログラムまたはキャンペーンからタッチポイントを生成するために、[!DNL Marketo Measure] ルールを調整することをお勧めします。 LinkedIn APIには90日間のルックバック制限があるため、MarketoまたはCRM ルールを使用している場合は、ルールの終了日を、[!DNL Marketo Measure]で統合を有効にした日付の90日前に設定することをお勧めします。 この時点から、[!DNL Marketo Measure]はinsightと詳細に関するリードをダウンロードできます。
 
-**自動タグ付けやトラッキングは含まれていますか？**
+**自動タグ付けまたはトラッキングは関係していますか？**
 
-いいえ、これは他の [!DNL Marketo Measure] 統合とは異なります。 ランディングページを変更するのではなく（ランディングページへのクリックスルーがないので）、LinkedIn から関連情報をダウンロードし、[!DNL Marketo Measure] 内のアクティビティとして扱うだけです。
+いいえ、これは他の[!DNL Marketo Measure]統合とは異なります。 ランディングページを変更するのではなく（ランディングページをクリックすることはないため）、LinkedInから関連情報をダウンロードし、[!DNL Marketo Measure]内のアクティビティとして扱うだけです。

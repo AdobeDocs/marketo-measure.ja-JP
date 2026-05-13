@@ -4,20 +4,23 @@ description: '[!DNL Marketo Measure] Cookie - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] クッキー'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 99%
+source-wordcount: 409
+ht-degree: 97%
 
 ---
 
 # Marketo Measure の Cookie {#marketo-measure-cookies}
 
-[!DNL Marketo Measure] の JavaScript をランディングページに適用する際に、サイトに読み込まれる様々な [!DNL Marketo Measure] の Cookie について説明します。この情報は、実装時に web 開発チームに役立つ場合があります。
+[!DNL Marketo Measure] の JavaScript をランディングページに適用する際に、サイトに読み込まれる様々な [!DNL Marketo Measure] の Cookie について説明します。 この情報は、実装時に web 開発チームに役立つ場合があります。
 
 >[!IMPORTANT]
 >
->プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。その結果、アドビでは、サードパーティ Cookie に依存する Marketo Measure 機能、特に、Google／DoubleClick インプレッション Cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションを廃止します。Marketo Measure のその他の機能に影響はありません。また、ファーストパーティ cookie の使用にも影響はありません。Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。この日付より前に収集された関連データは、アドビのお客様が引き続き使用できます。
+>プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。 Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。 その結果、アドビでは、サードパーティ Cookie に依存する Marketo Measure 機能、特に、Google／DoubleClick インプレッション Cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションを廃止します。 Marketo Measure のその他の機能に影響はありません。 また、ファーストパーティ cookie の使用にも影響はありません。 Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。 この日付より前に収集された関連データは、アドビのお客様が引き続き使用できます。
 
 <table>
 <thead>
@@ -97,7 +100,7 @@ ht-degree: 99%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>サードパーティ、ドメイン =.<a href="https://business.adobe.com/jp/products/marketo/bizible.html">bizible.com</a></td>
+    <td>サードパーティ、domain=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
     <td>複数のドメイン間でユーザを識別するユニバーサルユーザ ID です。</td>
     <td>1 年</td>
     <td>はい</td>
@@ -106,7 +109,7 @@ ht-degree: 99%
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>サードパーティ、ドメイン =.<a href="https://bizibly.com/">bizibly.com</a></td>
+    <td>サードパーティ、domain=.<a href="https://bizibly.com/">bizibly.com</a></td>
     <td>テナントのドメインの Marketo Measure cookie ID とその Doubleclick インプレッション cookie ID 間のマッピングです。</td>
     <td>1 年</td>
     <td>はい</td>

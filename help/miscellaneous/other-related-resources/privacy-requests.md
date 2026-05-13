@@ -1,41 +1,45 @@
 ---
-description: プライバシーリクエスト - [!DNL Marketo Measure]
+description: プライバシー要求 –  [!DNL Marketo Measure]
 title: プライバシーリクエスト
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 47%
+source-wordcount: 284
+ht-degree: 54%
 
 ---
 
 # プライバシーリクエスト {#privacy-requests}
 
-このドキュメントでは、[!DNL Marketo Measure] UI と [!DNL Privacy Service] API **[!DNL Privacy Service]を使用して** に送信できる個々のデータプライバシーリクエストの管理の概要について説明します。
+このドキュメントでは、[!DNL Privacy Service] UIと&#x200B;**[!DNL Privacy Service]API**&#x200B;を通じて[!DNL Marketo Measure]に送信できる個々のデータプライバシー要求の管理の概要を説明します。
 
-個々のリクエストを送信して、[!DNL Marketo Measure] から消費者データにアクセスしたり削除したりするには、次の 2 つの方法があります。
+[!DNL Marketo Measure]から消費者データにアクセスして削除する個々のリクエストを送信するには、次の2つの方法があります。
 
-* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja){target="_blank"} を使用する。
-* **[!DNL Privacy Service]API** を使用する。 [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja){target="_blank"}のドキュメントと[こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}の API リファレンスを参照してください。
+* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}を使用します。
+* **[!DNL Privacy Service]API**&#x200B;を使用します。 [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"}のドキュメントと[こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}の API リファレンスを参照してください。
 
 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} では、データアクセスとデータ削除の 2 種類のリクエストがサポートされます。
 
 ここでは、アクセスリクエストと削除リクエストの作成方法について説明します。
 
-## Marketo Measureのリクエストを送信するために必要な設定 {#required-setup-to-send-requests-for-marketo-measure}
+## Marketo Measureのリクエストを送信するには、設定が必要です {#required-setup-to-send-requests-for-marketo-measure}
 
-[!DNL Marketo Measure] のデータへのアクセスおよび削除をリクエストするには、次の操作が必要です。
+[!DNL Marketo Measure]のデータへのアクセスと削除を要求するには、次の操作を行う必要があります。
 
 1. 以下を特定します。
 
-   a. IMS 組織 ID
+   a. IMS Org ID
 
-   b.行動の対象となるユーザーのメールアドレス
+   b. アクションを実行するユーザーの電子メールアドレス
 
-   IMS 組織 ID は、24 文字の英数字から成る文字列で、末尾に @AdobeOrg が付きます。マーケティングチームまたはアドビの内部システム管理者が組織の IMS Org ID を把握していない場合は、アドビカスタマーケア（gdprsupport@adobe.com）にお問い合わせください。Privacy API にリクエストを送信するには、IMS 組織 ID が必要です。
+   IMS 組織 ID は、24 文字の英数字から成る文字列で、末尾に @AdobeOrg が付きます。 マーケティングチームまたはアドビの内部システム管理者が組織の IMS Org ID を把握していない場合は、アドビカスタマーケア（gdprsupport@adobe.com）にお問い合わせください。 Privacy API にリクエストを送信するには、IMS 組織 ID が必要です。
 
-1. [!DNL Privacy Service] では、[!DNL Marketo Measure] にアクセスリクエストと削除リクエストを送信し、既存のリクエストのステータスを確認できます。
+1. [!DNL Privacy Service]では、アクセス要求と削除要求を[!DNL Marketo Measure]に送信し、既存の要求のステータスを確認できます。
 
 ## [!DNL Marketo Measure] JSON リクエストの必須フィールド値 {#required-field-values-in-marketo-measure-json-requests}
 
@@ -46,10 +50,10 @@ ht-degree: 47%
 
 &quot;users&quot;：
 
-* 「アクション」:「アクセス [!UICONTROL &#x200B; または削除 &#x200B;]
+* &quot;action&quot;: [!UICONTROL access]またはdelete
 * “userIDs”：
-   * 「名前空間」：メール
-   * &quot;type&quot;：標準
+   * &quot;namespace&quot;: email
+   * &quot;type&quot;: standard
    * &quot;value&quot;：`<Data Subject's Email Address>`
 
 “include”：
@@ -58,7 +62,7 @@ ht-degree: 47%
 
 “regulation”：
 
-* **gdpr**、**ccpa**、**pdpa**、**lgpd_bra**、または **nzpa_nzl** （リクエストに適用されるプライバシー規制）
+* **gdpr、**、**ccpa**、**pdpa**、**lgpd_bra****nzpa_nzl** のいずれか（リクエストに適用されるプライバシー規則）
 
 ## 例 1：GDPR 削除リクエスト {#gdpr-delete-request}
 

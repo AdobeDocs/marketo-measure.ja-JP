@@ -4,9 +4,11 @@ description: '[!DNL Marketo Measure] Dynamics スキーマ - [!DNL Marketo Measu
 title: '[!DNL Marketo Measure] Dynamics スキーマ'
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/8Naefwjo6LIx7ovwcm95E06yReRQeoXGNqIfRisfRgQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: 1086
 ht-degree: 68%
 
 ---
@@ -15,17 +17,17 @@ ht-degree: 68%
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-[!DNL Marketo Measure] の使用を開始するために必要な Dynamics スキーマを以下に示します。 すべてのエンティティとフィールドが、必要な読み取り/書き込みアクセス権と共に表示されます。
+[!DNL Marketo Measure]を開始するために必要なDynamics スキーマを以下に示します。 すべてのエンティティとフィールドが、必要な読み取りおよび/または書き込みアクセス権と共にリストされます。
 
 ## Buyer Touchpoints {#buyer-touchpoints}
 
-Buyer Touchpointは、連絡先とリードのマーケティングインタラクションをカプセル化する [!DNL Marketo Measure] しいカスタムエンティティです。
+Buyer Touchpointは、取引先責任者とリードのマーケティングインタラクションをカプセル化するための[!DNL Marketo Measure] カスタムエンティティです。
 
-## Buyer Touchpointの関係 {#buyer-touchpoint-relationships}
+## Buyer Touchpointとの連携 {#buyer-touchpoint-relationships}
 
-次の図は、Dynamics Stock エンティティとBuyer Touchpointの間の関係の概要を示しています。
+この図は、Dynamics Stock エンティティとBuyer Touchpoint間の関係を大まかに視覚化したものです。
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
@@ -34,7 +36,7 @@ Buyer Touchpointは、連絡先とリードのマーケティングインタラ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -306,11 +308,11 @@ Buyer Touchpointは、連絡先とリードのマーケティングインタラ�
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-Buyer Attribution Touchpointは、オポチュニティに対するマーケティングの影響をカプセル化する [!DNL Marketo Measure] しいカスタムエンティティです。
+Buyer Attribution Touchpointは、商談に対するマーケティングの影響をカプセル化するための[!DNL Marketo Measure] カスタムエンティティです。
 
-## Buyer Attribution Touchpointの関係 {#buyer-attribution-touchpoint-relationships}
+## Buyer Attribution Touchpointとの連携 {#buyer-attribution-touchpoint-relationships}
 
-次の図は、Dynamics Stock エンティティとBuyer Attribution Touchpointの間の関係の概要を示しています。
+この図は、Dynamics Stock エンティティとBuyer Attribution Touchpoint間の関係を大まかに視覚化したものです。
 
 ## Buyer Attribution Touchpoints {#buyer-attribution-touchpoints}
 
@@ -319,7 +321,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -377,7 +379,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_属性_カスタム_モデル_2</p></td> 
+   <td><p>bizible2_Attribution_Custom_Model_2</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -395,13 +397,13 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_属性_U_Shaped</p></td> 
+   <td><p>bizible2_Attribution_U_Shaped</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Attribution_W_Shape</p></td> 
+   <td><p>bizible2_Attribution_W_Shaped</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -587,7 +589,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_収益_カスタム_モデル</p></td> 
+   <td><p>bizible2_Revenue_Custom_Model</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -635,7 +637,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_U_Shape</p></td> 
+   <td><p>bizible2_Revenue_U_Shaped</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -647,7 +649,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
    <td><p>x</p></td> 
   </tr> 
   <tr> 
-   <td><p>bizible2_Revenue_W_Shape</p></td> 
+   <td><p>bizible2_Revenue_W_Shaped</p></td> 
    <td><p>カスタム</p></td> 
    <td><p>x</p></td> 
    <td><p>x</p></td> 
@@ -715,14 +717,14 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] AB テスト {#marketo-measure-ab-tests}
+## [!DNL Marketo Measure]件のAB テスト {#marketo-measure-ab-tests}
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -807,7 +809,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -867,14 +869,14 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
  </tbody> 
 </table>
 
-## [!DNL Marketo Measure] History {#marketo-measure-history}
+## [!DNL Marketo Measure]履歴 {#marketo-measure-history}
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -910,9 +912,9 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
  </tbody> 
 </table>
 
-## Dynamics 標準エンティティ {#dynamics-standard-entities}
+## Dynamics Standard エンティティ {#dynamics-standard-entities}
 
-このリストには、やり取りする Dynamics 標準エンティティと、[!DNL Marketo Measure] れらのエンティティに追加するカスタムフィールドが表示されます。
+このリストには、[!DNL Marketo Measure]が操作するDynamics Standard エンティティと、これらのエンティティに追加するカスタムフィールドが表示されます。
 
 **リード**
 
@@ -921,11 +923,11 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
-   <td><p>レード</p></td> 
+   <td><p>leadid</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1006,7 +1008,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -1055,7 +1057,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -1098,7 +1100,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -1138,7 +1140,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>営業ステージ</p></td> 
+   <td><p>salesstage</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1178,14 +1180,14 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
 
 **キャンペーン**
 
-以下の読み取り/書き込み権限に加えて、キャンペーンの「作成」権限も必要です。
+以下の読み取り/書き込み権限に加えて、キャンペーン「作成」権限も必要です。
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -1251,14 +1253,14 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
  </tbody> 
 </table>
 
-**キャンペーンの反応**
+**キャンペーン応答**
 
 <table> 
  <tbody> 
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -1355,11 +1357,11 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
-   <td><p>listid</p></td> 
+   <td><p>リスト ID</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1404,11 +1406,11 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
-   <td><p>listid</p></td> 
+   <td><p>リスト ID</p></td> 
    <td><p>標準</p></td> 
    <td><p>x</p></td> 
    <td> </td> 
@@ -1447,7 +1449,7 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
   <tr> 
    <th><p>スキーマ名</p></th> 
    <th><p>標準／カスタム</p></th> 
-   <th><p>読み取り</p></th> 
+   <th><p>既読</p></th> 
    <th><p>書き込み</p></th> 
   </tr> 
   <tr> 
@@ -1507,4 +1509,4 @@ Buyer Attribution Touchpointは、オポチュニティに対するマーケテ�
  </tbody> 
 </table>
 
-[] = V1 レガシーのお客様のみ
+[] = V1 レガシー顧客のみ

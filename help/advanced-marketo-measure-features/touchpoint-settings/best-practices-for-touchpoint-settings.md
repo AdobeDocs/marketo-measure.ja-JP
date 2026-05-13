@@ -3,9 +3,12 @@ description: タッチポイント設定のベストプラクティス - [!DNL M
 title: Touchpoint 設定のベストプラクティス
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/57Y-eSngdDje7RcPmmKobrzk2-QWrRyxN2rIVtdrOLQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: 658
 ht-degree: 6%
 
 ---
@@ -14,48 +17,48 @@ ht-degree: 6%
 
 ## 概要 {#overview}
 
-[!UICONTROL &#x200B; アプリの &#x200B;] タッチポイント設定 [!DNL Marketo Measure] セクションを使用すると、[!DNL Marketo Measure] データおよび関連システムのタッチポイントを抑制または削除するルールを設定できます。 これらのルールは、購入者のタッチポイントデータで表す必要がないデータや、トラッキングやデータ収集の妨げとならずにアトリビューションクレジットを受け取りたくないデータのセットを分離するのに役立ちます。
+[!DNL Marketo Measure] アプリの[!UICONTROL  タッチポイント設定] セクションでは、[!DNL Marketo Measure] データおよび関連システムからタッチポイントを除外または削除するルールを設定できます。 これらのルールは、購入者のタッチポイントデータで表現する必要がない、トラッキングやデータ収集に影響を与えることなくアトリビューションクレジットを受け取りたくない、特定のデータセットを分離するのに役立ちます。
 
-**タッチポイントの削除** とは、ルール条件 [!DNL Marketo Measure] 適合する CRM からすべてのタッチポイントを削除（つまり、削除）することを意味します。 データは、[!DNL Marketo Measure] ROI ダッシュボード（Discover）内でレポートできますが、CRM には表示されません。 CRM 内のデータストレージ制限に対するストレスを軽減するために一般的に使用される
+**顧客接点の削除**&#x200B;とは、[!DNL Marketo Measure]がルール条件に適合する顧客接点をCRMから削除（つまり、削除）することを意味します。 データは、[!DNL Marketo Measure] ROI ダッシュボード （Discover）内でレポートできますが、CRMには表示されません。 CRM内のデータストレージ限界に対するストレスを軽減するために一般的に使用されます
 
-**タッチポイント抑制** は、タッチポイントの削除に似ていますが、ROI ダッシュボード内でデータをレポートすることはできません。 抑制されているタッチポイントは、CRM または Discover からアクセスできません。 抑制を使用すると、CRM データと Discover データが一致するようになります。 アトリビューションクレジットを受け取るタッチポイントデータを微調整し、さらに指定するために一般的に使用されます。
+**タッチポイント抑制**&#x200B;はタッチポイント削除に似ていますが、データはROI ダッシュボード内で報告できません。 抑制されたタッチポイントは、CRMまたは「もっと知る」ではアクセスできません。 抑制することで、CRM データとDiscover データが一致することが保証されます。 アトリビューションのクレジットを受け取るタッチポイントデータを調整し、さらに指定するために一般的に使用されます。
 
-[!DNL Marketo Measure] アプリでは、「[!UICONTROL &#x200B; タッチポイント設定 &#x200B;] セクションが 4 つの主要なセクションに分類されます。 各セクションでは、異なるデータセットが抑制または削除されます。 以下のキーを使用して、ルールが目的のタッチポイントを抑制または削除していることを確認します。
+[!DNL Marketo Measure] アプリでは、[!UICONTROL  タッチポイント設定] セクションが4つの重要なセクションに分けられます。 各セクションは、異なるデータセットのセットを抑制または削除します。 以下のキーを使用して、ルールが目的のタッチポイントを抑制または削除していることを確認します。
 
 * Buyer Touchpointを CRM から削除
-   * このセクションを使用すると、**Buyer Touchpoint データ** （オポチュニティではなく、個人に関連付けられたタッチポイント）を **CRM** から削除するルールを作成できます
+   * このセクションは、**CRM**&#x200B;から&#x200B;**Buyer Touchpoint data** （商談ではなく、個人に関連付けられているタッチポイント）を削除するルールを作成する場合に使用します
 * CRM のBuyer Touchpointを抑制
-   * このセクションを使用して、**Buyer Touchpoint データ** （商談ではなく、個人に関連付けられたタッチポイント）を **CRM** と **Discover** から削除するルールを作成する場合を設定します
+   * このセクションは、**CRM**&#x200B;および&#x200B;**もっと知る**&#x200B;から&#x200B;**Buyer Touchpoint データ** （商談ではなく、個人に関連付けられているタッチポイント）を削除するルールを作成する場合に使用します
 * Buyer Attribution Touchpoint を CRM から削除
-   * このセクションを使用すると、**Buyer Attribution Touchpoint** データ（商談と売上高に関連付けられているタッチポイント）を **CRM** から削除するルールを作成できます
+   * このセクションは、**CRM**&#x200B;から&#x200B;**Buyer Attribution Touchpoint** データ （商談と収益に関連付けられているタッチポイント）を削除するルールを作成する場合に使用します
 * CRM のBuyer Attribution Touchpointを抑制
-   * このセクションは、**Buyer Attribution Touchpoint** データ（商談と売上高に関連付けられているタッチポイント）を **CRM** と **Discover** から削除するルールを作成する場合に使用します
+   * このセクションは、**CRM**&#x200B;および&#x200B;**もっと知る**&#x200B;から&#x200B;**Buyer Attribution Touchpoint** データ （商談と収益に関連付けられているタッチポイント）を削除するルールを作成する場合に使用します
 
 ## ベストプラクティス {#best-practice}
 
-タッチポイント設定ルールを初めて設定する場合でも、精度を確認するためにタッチポイント設定ルールを見直す場合でも、次のベストプラクティスを念頭に置いてください。
+タッチポイント設定ルールを初めて確立する場合でも、単に正確性をチェックするためにルールを確認する場合でも、次のベストプラクティスを念頭に置いてください。
 
-* ルールを作成する前に、抑制または削除するデータのリストを設定します
-* 設定しているルールを明確に示すフィールドを正確に特定する
-* ルールに対して正しい演算子を指定したことを確認します
-* 上記のキーを利用して、ルールがタッチポイント設定の正しいセクションで指定されていることを確認します
-* CRM の購入者タッチポイントレポートのルールロジックをレプリケートし、目的のデータを抑制または削除していることを確認してから、ルールを実装します
+* ルールを作成する前に、除外または削除するデータのリストを設定します
+* 設定するルールを明確に示すフィールドを正確に特定します
+* ルールに正しい演算子を指定していることを確認してください
+* 上記のキーを使用して、タッチポイント設定の正しいセクションにルールを指定してください
+* ルールを実装する前に、CRMのバイヤータッチポイントレポートでルールロジックをレプリケートして、ルールが目的のデータを抑制または削除していることを確認します
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
-[!UICONTROL &#x200B; タッチポイント設定 &#x200B;] の確認は、適切に定義されていないとデータが大幅に変更される可能性があるので、重要です。 ベストプラクティスとして、少なくとも年に 2 回タッチポイント設定を確認することをお勧めします。 これは、[!DNL Marketo Measure] アプリのタッチポイント設定セクションで設定されたルールを視覚的に簡単に確認するものです。 このレビューにより、タッチポイント設定が最新であり、それに応じて変更を加えることができると確信できます。
+[!UICONTROL  タッチポイント設定]を確認することは、適切に定義されていない場合にデータを大幅に変更できるため重要です。 ベストプラクティスとして、少なくとも年に2回、タッチポイント設定を確認することをお勧めします。 これは、[!DNL Marketo Measure] アプリの「タッチポイント設定」セクションで設定されたルールを簡単に視覚的に確認したものです。 このレビューにより、タッチポイント設定が最新であり、それに応じて変更を加えることができることを確認できます。
 
-[!UICONTROL &#x200B; タッチポイント &#x200B;] 設定を確認する理由には次が含まれます…
+[!UICONTROL  タッチポイント ]設定を確認する理由には、次のようなものがあります。
 
 * マーケティングチームの入れ替わり
-* Web サイト構造の大幅な更新
-* 役に立たなくなったタッチポイントデータの識別
-   * アトリビューションクレジットを受け取るべきではないと感じるタッチポイントデータに遭遇するたびに、[!DNL touchpoint suppression] のルールは、データをできる限りクリーンで正確にする機能です。
-* 抑制または削除ルールの定義に使用するフィールドへの変更
+* web サイト構造の大幅な更新
+* 役に立たなくなった顧客接点データの識別
+   * アトリビューションクレジットを受け取ってはいけないと思われるタッチポイントデータに遭遇するたびに、[!DNL touchpoint suppression] ルールは、データをできるだけクリーンで正確なものにする機能です。
+* 抑制ルールまたは削除ルールの定義に使用されるフィールドの変更
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; タッチポイントの削除と抑制の概要 &#x200B;](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
->* [&#x200B; タッチポイントを削除してはいけない理由 &#x200B;](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
->* [&#x200B; 買い手タッチポイント（BT）と買い手属性タッチポイント（BAT）の比較 &#x200B;](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+>* [ タッチポイントの削除と抑制の概要](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [ タッチポイントを削除しない理由](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [購入者のタッチポイント （BT）と購入者のアトリビューションのタッチポイント （BAT） ](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

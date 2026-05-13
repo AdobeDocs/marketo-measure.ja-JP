@@ -3,9 +3,12 @@ description: セグメンテーションのベストプラクティス -  [!DNL 
 title: セグメンテーションのベストプラクティス
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/YR-eQXPLgo1FbUk4VXa9cuaAwjiSSVBbSB3ZjAeScaY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 451
 ht-degree: 100%
 
 ---
@@ -14,11 +17,11 @@ ht-degree: 100%
 
 ## 概要 {#overview}
 
-[!DNL Marketo Measure] セグメント化では、CRM フィールドに基づいてルール（基本的にはフィルター）を定義し、個々のセグメントにバケット化できます。これらのセグメントは、Discover ダッシュボードおよび [!DNL Salesforce] レポートで使用できるようになります。
+[!DNL Marketo Measure] セグメント化では、CRM フィールドに基づいてルール（基本的にはフィルター）を定義し、個々のセグメントにバケット化できます。 これらのセグメントは、Discover ダッシュボードおよび [!DNL Salesforce] レポートで使用できるようになります。
 
-セグメント化は、[!DNL Marketo Measure] アカウント、特に Discover ボード内での利用にとって重要です。[!DNL Marketo Measure] Discover ボードは事前に定義されたフィルターのセットに制限されているので、セグメント化により、[!DNL Salesforce] レポートの場合と同じように Discover でデータを分析できます。
+セグメント化は、[!DNL Marketo Measure] アカウント、特に Discover ボード内での利用にとって重要です。 [!DNL Marketo Measure] Discover ボードは事前に定義されたフィルターのセットに制限されているので、セグメント化により、[!DNL Salesforce] レポートの場合と同じように Discover でデータを分析できます。
 
-[!DNL Salesforce] にプッシュされると、セグメント値は「セグメント」フィールドに書き込まれ、購入者のタッチポイントレポートタイプ内に含まれます。これにより、両方のプラットフォームにわたって均等なレポートが可能になります。セグメントは、任意のタッチポイントの「タッチポイントの詳細」でも見つけることができます。
+[!DNL Salesforce] にプッシュされると、セグメント値は「セグメント」フィールドに書き込まれ、購入者のタッチポイントレポートタイプ内に含まれます。 これにより、両方のプラットフォームにわたって均等なレポートが可能になります。 セグメントは、任意のタッチポイントの「タッチポイントの詳細」でも見つけることができます。
 
 [!UICONTROL Discover] にプッシュすると、セグメントはすべてのボードにあるフィルタードロップダウンメニュー内に使用可能なフィルターとして表示されます。
 
@@ -39,7 +42,7 @@ ht-degree: 100%
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
-少なくとも年に 2 回セグメント化をレビューすると、セグメント化が最新の状態になります。ベストプラクティスとして、[!DNL Marketo Measure] アカウント設定の「[!UICONTROL セグメント]」タブ内でルールをレビューすると共に、[!DNL Salesforce] 内でレポートを取得して実際のセグメントをレビューすることをお勧めします。これらの手順は、ユーザーとチームがセグメント化と、[!DNL Marketo Measure] レポートに自信を持てるようにするのに役立ちます。
+少なくとも年に 2 回セグメント化をレビューすると、セグメント化が最新の状態になります。 ベストプラクティスとして、[!DNL Marketo Measure] アカウント設定の「[!UICONTROL セグメント]」タブ内でルールをレビューすると共に、[!DNL Salesforce] 内でレポートを取得して実際のセグメントをレビューすることをお勧めします。 これらの手順は、ユーザーとチームがセグメント化と、[!DNL Marketo Measure] レポートに自信を持てるようにするのに役立ちます。
 
 セグメント化のレビューをトリガーする可能性があるその他の理由としては、次のようなものがあります。
 

@@ -1,13 +1,16 @@
 ---
 unique-page-id: 18874781
-description: アトリビューションを使用した Doubleclick Campaign Manager ビューの設定 –  [!DNL Marketo Measure]
+description: アトリビューションによるDoubleclick Campaign Manager ビューの設定 –  [!DNL Marketo Measure]
 title: Doubleclick Campaign Manager ビュースルーアトリビューションの設定
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RekX4OsH-i5HHm-KyRNTp8r6SHhJRGM14trA7XXaJNQ
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 27%
+source-wordcount: 425
+ht-degree: 28%
 
 ---
 
@@ -17,54 +20,54 @@ ht-degree: 27%
 
 >[!IMPORTANT]
 >
->プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。その結果、アドビでは、サードパーティ Cookie に依存する Marketo Measure 機能、特に、Google／DoubleClick インプレッション Cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションを廃止します。Marketo Measure のその他の機能に影響はありません。また、ファーストパーティ cookie の使用にも影響はありません。Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。この日付より前に収集された関連データは、アドビのお客様が引き続き使用できます。
+>プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。 Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。 その結果、アドビでは、サードパーティ Cookie に依存する Marketo Measure 機能、特に、Google／DoubleClick インプレッション Cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションを廃止します。 Marketo Measure のその他の機能に影響はありません。 また、ファーストパーティ cookie の使用にも影響はありません。 Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。 この日付より前に収集された関連データは、アドビのお客様が引き続き使用できます。
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] と [!DNL DoubleClick Campaign Manager] の統合を使用している場合は、[API 接続が必要なので &#x200B;](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
+>[!DNL Marketo Measure]と[!DNL DoubleClick Campaign Manager]の統合を使用している場合は、広告を解決するためにキャンペーンとクリエイティブの詳細をダウンロードできるように、[API接続](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms)が必要です。
 
-[!DNL Doubleclick Campaign Manager] を使用したトラッキングを通じて、ビューからより詳細なinsightを取得するには、トラッキングピクセルを設定する必要があります。
+[!DNL Doubleclick Campaign Manager]を使用したトラッキングを通じて、表示からより詳細なinsightの取得を開始するには、トラッキングピクセルを設定する必要があります。
 
-[!DNL Marketo Measure] ビュースルーアトリビューション機能について詳しくは、[Marketo Measure ビュースルーアトリビューションに関する FAQ](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) を参照してください。
+[!DNL Marketo Measure] ビュースルーアトリビューション機能について詳しくは、[Marketo Measure ビュースルーアトリビューション FAQ](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md)を参照してください。
 
-[!DNL Marketo Measure] は、DCM 広告タグを介したサードパーティの呼び出しであるため、ピギーバックタグと見なされます。 ピギーバックタグは、画像タグでは機能しません。iframe タグまたは JavaScript タグのみです。 DCM サポートによると、これは最近変更されておらず、常にそうでした。 標準タグは 2017 年 10 月 2 日（PT）に非推奨（廃止予定）となりましたが、インプレッション数を追跡する [!DNL Marketo Measure] の機能には影響しません。
+[!DNL Marketo Measure]はDCM広告タグを介したサードパーティ呼び出しであるため、ピギーバック タグと見なされます。 Piggyback タグは画像タグでは機能せず、iframeまたはjavascript タグのみです。 DCM サポートによると、これは最近変わっておらず、常にそうでした。 標準タグは2017年10月2日に廃止されましたが、[!DNL Marketo Measure]のインプレッションの追跡機能には影響しません。
 
-DCM で親子階層を使用する場合は、インプレッショントラッキングのためにすべてのレベルにタグを適用する必要があります。
+DCMで親子階層を使用する場合は、インプレッションの追跡のために、すべてのレベルにタグを適用する必要があります。
 
 ## 画像タグの追加方法 {#how-to-add-the-image-tag}
 
-広告主設定の下の Doubleclick にタグを追加し、インプレッションイベントタグを作成します。
+広告主設定の下にあるDoubleclickにタグを追加し、インプレッションイベントタグを作成します。
 
-1. 次のコードを 1 x 1 画像ピクセルとして追加します。
+1. 次のコードを1x1の画像ピクセルとして追加します。
 
 `https://cdn.bizibly.com/i?v=%eadv!&a=%eaid!&c=%ecid!&s=%esid!&p=%epid!&m=%m&n=%n`
 
-1. 追加したら、次のように区切り文字がマッピングされていることを確認します。 タグを適用したら、これは自動的に行われます。
+1. 追加したら、区切り記号が次のようにマッピングされていることを確認します。 タグが適用されると、これは自動的に行われます。
 
-   v = %eadv! [!DNL Expand] 広告主 Id\
-   a = %eaid! 広告 Id を展開\
-   c = %ecid! Creative Id を展開\
-   s = %esid! サイト Id を展開\
-   p = %epid! プレースメント Id を展開\
-   m = %m マッチ コード マクロ\
-   n = %n 乱数マクロ
+   v = %eadv![!DNL Expand] 広告主ID\
+   a = %eaid! 広告IDを展開\
+   c = %ecid! Creative IDを展開\
+   s = %esid! サイト IDを展開\
+   p = %epid! プレースメント IDを展開\
+   m = %m Match Code マクロ\
+   n = %n乱数マクロ
 
    ![](assets/1.png)
 
 ## よくある質問 {#faq}
 
-**Q：画像タグは保護されていますか？**
+**Q：画像タグは安全ですか？**
 
-A：はい。 JavaScript タグではなく、画像タグです。
+A：はい。 JavaScriptのタグではなく、画像のタグです。
 
-**Q：接続されたユーザーに必要な権限を教えてください。**
+**Q：接続されたユーザーに必要な権限は何ですか？**
 
-A:dfatrafficking、dfareporting、userinfo.email
+A: dfatrafficking、dfareporting、userinfo.email
 
-**Q：費用データのインポートにはどの程度の時間がかかりますか？**
+**Q：支出データの読み込みにどのくらいの時間がかかりますか？**
 
-A：最大 6 時間
+A:6時間まで
 
-**Q：広告データのインポートにはどの程度の時間がかかりますか？**
+**Q：広告データの読み込みにどのくらいの時間がかかりますか？**
 
-A：最大 6 時間
+A:6時間まで

@@ -4,9 +4,13 @@ description: '[!DNL Marketo Measure] パラメーター –  [!DNL Marketo Measu
 title: '[!DNL Marketo Measure] パラメーター'
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/IurdaUgr2R1vxfOP4bcXp8TSUj4ymkA-R9kZ9put4Ug
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: 243
 ht-degree: 91%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 91%
 
 ## [!DNL Marketo Measure] パラメーターの説明 {#marketo-measure-parameters-explained}
 
-UTM の使用からさらにインサイトを取得するために、[!DNL Marketo Measure] では [!DNL Google] AdWords、Bing Ads、[!DNL Facebook] Ads の広告にカスタムパラメーターを追加します。[!DNL Marketo Measure] では、これらのプラットフォームと統合して、ほとんどの設定プロセスを自動化します。自動タグ付けの使用を選択した場合、[!DNL Marketo Measure] ではそのパラメーターを広告の URL に自動的に追加します。また、[!DNL Marketo Measure] では、マーケティングコストをプラットフォームから自動的にダウンロードし、[!DNL Marketo Measure] アプリに読み込みます。
+UTM の使用からさらにインサイトを取得するために、[!DNL Marketo Measure] では [!DNL Google] AdWords、Bing Ads、[!DNL Facebook] Ads の広告にカスタムパラメーターを追加します。 [!DNL Marketo Measure] では、これらのプラットフォームと統合して、ほとんどの設定プロセスを自動化します。 自動タグ付けの使用を選択した場合、[!DNL Marketo Measure] ではそのパラメーターを広告の URL に自動的に追加します。 また、[!DNL Marketo Measure] では、マーケティングコストをプラットフォームから自動的にダウンロードし、[!DNL Marketo Measure] アプリに読み込みます。
 
 パラメーターを含まない URL の例：
 
@@ -37,15 +41,15 @@ UTM の使用からさらにインサイトを取得するために、[!DNL Mark
 
 * `_bm={matchtype}`
    * キーワードの一致レベルを表します。
-   * キーワード一致タイプは、広告をトリガーする検索を制御するのに役立ちます。例えば、部分一致を使用して広範なオーディエンスに広告を表示することや、完全一致を使用して特定の顧客グループに絞り込むことができます。
+   * キーワード一致タイプは、広告をトリガーする検索を制御するのに役立ちます。 例えば、部分一致を使用して広範なオーディエンスに広告を表示することや、完全一致を使用して特定の顧客グループに絞り込むことができます。
    * 部分一致、あいまい一致、完全一致の 3 つの一致タイプがあります。
 
 >[!TIP]
 >
->一致タイプについて詳しくは、[&#x200B; 関連する AdWords 記事を参照 &#x200B;](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"} してください。
+>一致タイプについて詳しくは、[関連するAdWordsの記事](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"}を参照してください。
 
 * `_bn={network}`
-   * 広告ネットワークのタイプ [&#x200B; 表示または検索 &#x200B;](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"} を表します。
+   * 広告ネットワークの種類（[表示または検索](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"}）を表します。
    * UTM ソースパラメーターに似ています。
 
 * `_bg={adgroupID}`

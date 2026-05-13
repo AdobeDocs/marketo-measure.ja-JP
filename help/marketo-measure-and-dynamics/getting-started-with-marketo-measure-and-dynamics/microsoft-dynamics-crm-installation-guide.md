@@ -1,12 +1,16 @@
 ---
 unique-page-id: 18874763
-description: '[!DNL Microsoft Dynamics] CRM インストールガイド - Marketo Measure – 製品ドキュメント'
+description: '[!DNL Microsoft Dynamics] CRM インストール ガイド - Marketo Measure – 製品ドキュメント'
 title: '[!DNL Microsoft Dynamics] CRM インストールガイド'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/KMhrHYDuF9z18bdpdrjfj2O3NbIcMsvQyJBqTpLf1Xo
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: 975
 ht-degree: 99%
 
 ---
@@ -15,7 +19,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
 ## サポートされているバージョン {#supported-versions}
 
@@ -47,7 +51,7 @@ Dynamics CRM 内に zip ファイルを[ダウンロードしてインストー�
 
 ## [!DNL Marketo Measure] ユーザの作成 {#creating-a-marketo-measure-user}
 
-CRM 内の他のユーザとの問題を回避するために、Dynamics 内で専用の Marketo Measure ユーザを「アプリケーションユーザ」として作成し、データを書き出しおよび読み込むことをお勧めします。ユーザ名、パスワード、およびエンドポイント URLは [!DNL Marketo Measure] アカウントの作成時に使用されるので、書き留めておきます。
+CRM 内の他のユーザとの問題を回避するために、Dynamics 内で専用の Marketo Measure ユーザを「アプリケーションユーザ」として作成し、データを書き出しおよび読み込むことをお勧めします。 ユーザ名、パスワード、およびエンドポイント URLは [!DNL Marketo Measure] アカウントの作成時に使用されるので、書き留めておきます。
 
 ## セキュリティロール {#security-roles}
 
@@ -65,11 +69,11 @@ CRM 内の他のユーザとの問題を回避するために、Dynamics 内で�
 
 ![](assets/4.png)
 
-Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dynamics スキーマドキュメントを参照してください。大まかに言うと、[!DNL Marketo Measure] は、特定のエンティティを読み取り、適切なデータを収集し、管理ソリューションと共にインストールされるカスタムフィールドに書き込みます。標準レコードは作成されず、標準フィールドは更新されません。
+Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dynamics スキーマドキュメントを参照してください。 大まかに言うと、[!DNL Marketo Measure] は、特定のエンティティを読み取り、適切なデータを収集し、管理ソリューションと共にインストールされるカスタムフィールドに書き込みます。 標準レコードは作成されず、標準フィールドは更新されません。
 
 ## ページレイアウトにタッチポイントを含める： {#include-touchpoints-on-page-layouts}
 
-1. 各エンティティについて、フォームエディターに移動します。これは、**[!UICONTROL 設定]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL システムをカスタマイズ]**／`[Entity]`／**[!UICONTROL フォーム]**&#x200B;で見つけることができます。または、レコードの表示中に設定で見つけることもできます。
+1. 各エンティティについて、フォームエディターに移動します。 これは、**[!UICONTROL 設定]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL システムをカスタマイズ]**／`[Entity]`／**[!UICONTROL フォーム]**&#x200B;で見つけることができます。 または、レコードの表示中に設定で見つけることもできます。
 
    * 設定するエンティティ：アカウント、商談、取引先責任者、リード、キャンペーン。
 
@@ -77,13 +81,13 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
 
    ![](assets/5.png)
 
-1. まず、タッチポイントを有効にするセクションに [!UICONTROL 1 列]タイルを追加します。この新しい列内で、アカウント、商談、取引先責任者、リードの各エンティティ内の各フォームにサブグリッドを追加する必要があります。
+1. まず、タッチポイントを有効にするセクションに [!UICONTROL 1 列]タイルを追加します。 この新しい列内で、アカウント、商談、取引先責任者、リードの各エンティティ内の各フォームにサブグリッドを追加する必要があります。
 
    ![](assets/6.png)
 
    ![](assets/7.png)
 
-1. サブグリッドでレンダリングするオブジェクト（Buyer Attribution Touchpoints または Buyer Touchpoints）を選択します。これは、オブジェクトの関係に応じて異なります。必要に応じて、「編集」ボタンをクリックして、表示される列を変更します。デフォルトのレイアウトは、管理ソリューションによって設定されます。
+1. サブグリッドでレンダリングするオブジェクト（Buyer Attribution Touchpoints または Buyer Touchpoints）を選択します。これは、オブジェクトの関係に応じて異なります。 必要に応じて、「編集」ボタンをクリックして、表示される列を変更します。 デフォルトのレイアウトは、管理ソリューションによって設定されます。
 
    Buyer Attribution Touchpoint サブグリッド - アカウント、商談、および取引先責任者\
    Buyer Touchpoint サブグリッド - リードと取引先責任者
@@ -96,11 +100,11 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
 
 **収益**
 
-[!DNL Marketo Measure] は、デフォルトで標準の「実収益」フィールドを指します。これを使用していない場合は、カスタムワークフローが必要となるので、ソリューションエンジニアまたはサクセスマネージャーに収益を報告する方法を説明します。
+[!DNL Marketo Measure] は、デフォルトで標準の「実収益」フィールドを指します。 これを使用していない場合は、カスタムワークフローが必要となるので、ソリューションエンジニアまたはサクセスマネージャーに収益を報告する方法を説明します。
 
 **クローズ日**
 
-[!DNL Marketo Measure] は、標準の「実際クローズ日」フィールドを指します。これを使用していない場合や、「推定クローズ日」フィールドも使用している場合は、ソリューションエンジニアまたはサクセスマネージャーにプロセスを説明します。両方のフィールドを考慮するには、カスタムワークフローが必要になる場合があります。
+[!DNL Marketo Measure] は、標準の「実際クローズ日」フィールドを指します。 これを使用していない場合や、「推定クローズ日」フィールドも使用している場合は、ソリューションエンジニアまたはサクセスマネージャーにプロセスを説明します。 両方のフィールドを考慮するには、カスタムワークフローが必要になる場合があります。
 
 ## 接続とデータプロバイダーの設定 {#configuring-your-connections-and-data-providers}
 
@@ -130,9 +134,9 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
 
    >[!NOTE]
    >
-   >OAuth について詳しくは、[この記事](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)を参照してください。プロセスについてご質問がある場合は、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
+   >OAuth について詳しくは、[この記事](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md)を参照してください。 プロセスについてご質問がある場合は、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
 
-1. この例では、「資格情報」を選択します。資格情報を入力し、「**[!UICONTROL 次へ]**」をクリックします。
+1. この例では、「資格情報」を選択します。 資格情報を入力し、「**[!UICONTROL 次へ]**」をクリックします。
 
 接続後、CRM/MAP 接続リストに Dynamics 接続の詳細が表示されます。
 
@@ -158,7 +162,7 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
 
    ![](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
-1. 電話番号を入力します。Web サイトで [!DNL Marketo Measure] のトラッキングに使用するプライマリルートドメインをWeb サイトに入力します。終了したら「**[!UICONTROL 保存]**」をクリックします。
+1. 電話番号を入力します。 Web サイトで [!DNL Marketo Measure] のトラッキングに使用するプライマリルートドメインをWeb サイトに入力します。 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
@@ -166,17 +170,17 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
    >
    >複数のルートドメインを追加するには、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
 
-1. 次に、[[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) をサイト全体とランディングページ全体に配置する必要があります。ランディングページの先頭にスクリプトをハードコードするか、[Google タグマネージャー](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)などのタグ管理システムを通じて追加することをお勧めします。
+1. 次に、[[!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md) をサイト全体とランディングページ全体に配置する必要があります。 ランディングページの先頭にスクリプトをハードコードするか、[Google タグマネージャー](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)などのタグ管理システムを通じて追加することをお勧めします。
 
    >[!NOTE]
    >
-   >デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。これは、[!DNL Marketo Measure] Web アプリケーションの設定／CRM／一般ページで設定でき、顧客は 200（デフォルト）、100、50、25 のバッチサイズから選択できます。
+   >デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。 これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。 ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。 この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。 これは、[!DNL Marketo Measure] Web アプリケーションの設定／CRM／一般ページで設定でき、顧客は 200（デフォルト）、100、50、25 のバッチサイズから選択できます。
    >
-   >この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
+   >この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。 CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
    >[!NOTE]
    >
-   >Marketo Measure による Dynamics へのデータの書き出しを無効にしても、既存のデータは削除されません。既存のデータの削除に関するヘルプについては、Dynamics サポートにお問い合わせください。
+   >Marketo Measure による Dynamics へのデータの書き出しを無効にしても、既存のデータは削除されません。 既存のデータの削除に関するヘルプについては、Dynamics サポートにお問い合わせください。
 
    >[!MORELIKETHIS]
    >

@@ -1,18 +1,21 @@
 ---
-description: 新しい Discover ダッシュボードガイド - [!DNL Marketo Measure]  – 製品
+description: 新しい「もっと知る」ダッシュボードガイド -  [!DNL Marketo Measure]  – 製品
 title: 新しい Discover ダッシュボードガイド
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: 1055
 ht-degree: 4%
 
 ---
 
 # 新しい Discover ダッシュボードガイド {#new-discover-dashboard-guide}
 
-Discover ダッシュボードの新しいデザインを紹介します。 アドビの主な目標は、より合理化された直感的なエクスペリエンスを提供することです。 よりクリーンなビジュアルとシンプルなナビゲーションにより、この改良は既存の指標のほとんどを保持するだけでなく、新しいインサイトも導き出します。 の詳細を説明し、強化された明確さと付加価値を確認します。
+Discover ダッシュボードのリニューアルをご紹介できることを嬉しく思います。 アドビの主な目標は、より合理化された直感的なエクスペリエンスを提供することです。 よりクリーンなビジュアルとシンプルなナビゲーションにより、この刷新では既存の指標のほとんどを維持するだけでなく、新しいインサイトも導入しています。 さらに詳しく、より明瞭度を高め、付加価値をご覧ください。
 
 <table>
   <colgroup>
@@ -26,57 +29,57 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
     </tr>
     <tr>
       <td>概要</td>
-      <td><ul><li><strong> 売上高 </strong>：起因する売上高、売上高の概要、ROI ダッシュボード</li>
-          <li><strong> 概要 </strong>:<ul>              <li>アトリビューション収益ダッシュボード：アトリビューション収益（チャネル別）の推移グラフ</li>
-            <li>ROI ダッシュボード：コストの推移グラフ</li></ul></li><li><strong> 支出 </strong>:ROI ダッシュボード</li>
-          <li><strong> 契約 </strong>：起因する売上高、売上高の概要、ROI ダッシュボード</li>
+      <td><ul><li><strong>収益</strong>：収益への貢献度、収益の概要、ROI ダッシュボード</li>
+          <li><strong>概要</strong>:<ul>              <li>帰属収益ダッシュボード：チャネル別の帰属収益の推移チャート</li>
+            <li>ROI ダッシュボード：時間経過によるコスト</li></ul></li><li><strong>支出</strong>: ROI ダッシュボード</li>
+          <li><strong>案件</strong>：売上への貢献度、売上の概要、ROI ダッシュボード</li>
           <li>
-            <strong> 契約あたりのコスト：</strong>ROI ダッシュボード</li>
+            <strong>取引単価：</strong>ROI ダッシュボード</li>
           <li>
-            <strong> チャネル/サブチャネル/キャンペーンサマリ：</strong>ROI ダッシュボード</li>
+            <strong> チャネル/サブチャネル/キャンペーンの概要：</strong>ROI ダッシュボード</li>
           <li>
-            <strong>ROI と ROI サマリ：</strong>ROI ダッシュボード</li>
+            <strong>ROIとROIの概要：</strong>ROI ダッシュボード</li>
           <li>
-            <strong> パイプライン収益：</strong> 非推奨（後述）</li>
+            <strong> パイプライン収益：</strong>非推奨（以下を参照）</li>
           <li>
-            <strong> 平均契約サイズ：</strong> 非推奨（後述）</li></ul>
+            <strong>平均契約サイズ：</strong>非推奨（以下を参照）</li></ul>
       </td>
     </tr>
     <tr>
       <td>成長</td>
       <td><ul>
           <li>
-            <strong> 収益と収益の履歴 </strong>：起因する収益、収益の概要、ROI ダッシュボード</li>
+            <strong>収益と収益の推移</strong>：収益への貢献度、収益の概要、ROI ダッシュボード</li>
           <li>
-            <strong> 契約 </strong>：起因する売上高、売上高の概要、ROI ダッシュボード</li>
+            <strong>案件</strong>：売上への貢献度、売上の概要、ROI ダッシュボード</li>
           <li>
-            <strong> リード </strong>：起因する収益、収益の概要、ROI ダッシュボード</li>
+            <strong> リード </strong>：売上への貢献度、売上の概要、ROI ダッシュボード</li>
           <li>
-            <strong> 商談 </strong>：起因する収益、収益の概要、ROI ダッシュボード</li>
+            <strong>商談</strong>：売上への貢献度、売上の概要、ROI ダッシュボード</li>
           <li>
-            <strong> 訪問回数と訪問回数の推移 </strong>:Web トラフィックダッシュボード</li>
+            <strong>時間の経過に伴う訪問と訪問</strong>: Web トラフィックダッシュボード</li>
           <li>
-            <strong> ユニーク訪問数およびユニーク訪問数の推移 </strong>:Web トラフィックダッシュボード</li>
+            <strong> ユニーク訪問回数とユニーク訪問回数</strong>: Web トラフィックダッシュボード</li>
           <li>
-            <strong> サイトFormsとサイトFormsの推移 </strong>:Web トラフィックダッシュボード</li>
+            <strong> サイトFormsとサイトFormsの推移</strong>: Web トラフィックダッシュボード</li>
           <li>
-            <strong> 契約の履歴 </strong>
-            <strong>: </strong> 非推奨（後述）</li>
+            <strong>案件の推移</strong>
+            <strong>: </strong>非推奨（以下を参照）</li>
           <li>
-            <strong> パイプライン収益 </strong>
-            <strong>: </strong> 非推奨（後述）</li>
+            <strong> パイプライン収益</strong>
+            <strong>: </strong>非推奨（以下を参照）</li>
           <li>
-            <strong> パイプライン収益の履歴 </strong>
-            <strong>: </strong> 非推奨（後述）</li>
+            <strong> パイプライン収益の推移</strong>
+            <strong>: </strong>非推奨（以下を参照）</li>
           <li>
-            <strong> リードの履歴 </strong>
-            <strong>: </strong> 非推奨（後述）</li>
+            <strong> リードの推移</strong>
+            <strong>: </strong>非推奨（以下を参照）</li>
           <li>
-            <strong> 連絡先および連絡先の履歴 </strong>
-            <strong>: </strong> 非推奨（後述）</li>
+            <strong>取引先責任者と取引先責任者</strong>
+            <strong>: </strong>非推奨（以下を参照）</li>
           <li>
-            <strong> 商談の履歴 </strong>
-            <strong>: </strong> 非推奨（後述）</li>
+            <strong>時間の経過に伴う機会</strong>
+            <strong>: </strong>非推奨（以下を参照）</li>
         </ul>
       </td>
     </tr>
@@ -85,9 +88,9 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
       <td>
         <ul>
           <li>
-            <strong> チャネル/サブチャネル/キャンペーン ROI サマリ：</strong> ROI ダッシュボード</li>
+            <strong> チャネル/サブチャネル/キャンペーン ROIの概要：</strong> ROI ダッシュボード</li>
           <li>
-            <strong> キーワードとCreativeの ROI サマリ：</strong> 非推奨（後述）</li>
+            <strong> キーワードとCreative ROIの概要：</strong>非推奨（以下を参照）</li>
         </ul>
       </td>
     </tr>
@@ -96,27 +99,27 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
       <td>
         <ul>
           <li>
-            <strong> 売上高 </strong>：起因する売上高、売上高の概要、ROI ダッシュボード</li>
+            <strong>収益</strong>：収益への貢献度、収益の概要、ROI ダッシュボード</li>
           <li>
-            <strong> マッチしたリード </strong>:ROI ダッシュボード</li>
+            <strong>件のリードが一致しました</strong>: ROI ダッシュボード</li>
           <li>
             <strong> タッチポイント数：</strong>ROI ダッシュボード</li>
           <li>
             <strong> エンゲージメント済みアカウント：</strong> エンゲージメントダッシュボード</li>
           <li>
-            <strong> エンゲージした商談 </strong>
-            <strong>:</strong>Engagement ダッシュボード</li>
+            <strong>商談エンゲージメント </strong>
+            <strong>:</strong> エンゲージメントダッシュボード</li>
           <li>
-            <strong> 関与した個人 </strong>
-            <strong>:</strong>Engagement ダッシュボード</li>
+            <strong> エンゲージした個人</strong>
+            <strong>:</strong> エンゲージメントダッシュボード</li>
           <li>
-            <strong> アカウントあたりの平均タッチ数：</strong> エンゲージメントダッシュボード</li>
+            <strong> アカウントあたりの平均接触回数：</strong> エンゲージメントダッシュボード</li>
           <li>
-            <strong> タッチポイントの履歴：</strong> エンゲージメントダッシュボード</li>
+            <strong> タッチポイントの推移：</strong> エンゲージメントダッシュボード</li>
           <li>
-            <strong> タッチポイント数別のアカウント：</strong> エンゲージメントダッシュボード</li>
+            タッチポイント数：</strong> エンゲージメントダッシュボード別<strong> アカウント</li>
           <li>
-            <strong> パイプライン収益：</strong> 非推奨（後述）</li>
+            <strong> パイプライン収益：</strong>非推奨（以下を参照）</li>
         </ul>
       </td>
     </tr>
@@ -125,13 +128,13 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
       <td>
         <ul>
           <li>
-            <strong> 売上高 </strong>：起因する売上高、売上高の概要、ROI ダッシュボード</li>
+            <strong>収益</strong>：収益への貢献度、収益の概要、ROI ダッシュボード</li>
           <li>
-            <strong> 支出 </strong>:ROI ダッシュボード</li>
+            <strong>支出</strong>: ROI ダッシュボード</li>
           <li>
             <strong>ROI: </strong>ROI ダッシュボード</li>
           <li>
-            <strong> チャネル/サブチャネル/キャンペーン別の支出：</strong>ROI ダッシュボード</li>
+            チャネル/サブチャネル/キャンペーン別<strong>費用：</strong>ROI ダッシュボード</li>
         </ul>
       </td>
     </tr>
@@ -142,15 +145,15 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
           <li>
             <strong> ユニーク訪問数：</strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> 訪問回数：</strong>Web トラフィックダッシュボード</li>
+            <strong>訪問数：</strong>Web トラフィックダッシュボード</li>
           <li>
             <strong> ページビュー：</strong>Web トラフィックダッシュボード</li>
           <li>
             <strong> サイトForms:</strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> 概要：</strong>Web トラフィックダッシュボード</li>
+            <strong>概要：</strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong>Web トラフィックの概要：</strong>Web トラフィックダッシュボード</li>
+            <strong>Web トラフィックの概要：</strong>Web トラフィック ダッシュボード</li>
           <li>
             <strong> リファラーの概要：</strong>Web トラフィックダッシュボード</li>
           <li>
@@ -158,21 +161,21 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
           <li>
             <strong>Sourceによる訪問：</strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> フォーム URL 別のリード：</strong> ウェブトラフィックダッシュボード</li>
+            <strong> フォーム URL:</strong>Web トラフィックダッシュボードによるリード</li>
           <li>
             <strong> ユニーク訪問あたりのコスト </strong>
           </li>
           <li>
-            <strong> 訪問あたりのコスト </strong>
+            <strong>訪問あたりのコスト </strong>
           </li>
           <li>
-            <strong> ユニーク訪問あたりの売上高 </strong>
+            <strong> ユニーク訪問あたりの収益</strong>
           </li>
           <li>
-            <strong> 訪問あたりの売上高 </strong>
+            <strong>訪問あたりの売上高</strong>
           </li>
           <li>
-            <strong> ランディングページ別のリード </strong>
+            ランディングページ別<strong> リード </strong>
           </li>
         </ul>
       </td>
@@ -182,84 +185,84 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
       <td>
         <ul>
           <li>
-            <strong> 売上高 </strong>：起因する売上高、売上高の概要、ROI ダッシュボード</li>
+            <strong>収益</strong>：収益への貢献度、収益の概要、ROI ダッシュボード</li>
           <li>
-            <strong> 概要 </strong>:<ul>
-              <li>アトリビューション収益ダッシュボード：アトリビューション収益（チャネル別）の推移グラフ</li>
-              <li>ROI ダッシュボード：コストの推移グラフ</li>
+            <strong>概要</strong>:<ul>
+              <li>帰属収益ダッシュボード：チャネル別の帰属収益の推移チャート</li>
+              <li>ROI ダッシュボード：時間経過によるコスト</li>
             </ul>
           </li>
           <li>
-            <strong> 支出 </strong>:ROI ダッシュボード</li>
+            <strong>支出</strong>: ROI ダッシュボード</li>
           <li>
-            <strong> 契約 </strong>：起因する売上高、売上高の概要、ROI ダッシュボード</li>
+            <strong>案件</strong>：売上への貢献度、売上の概要、ROI ダッシュボード</li>
           <li>
-            <strong> 契約あたりのコスト：</strong>ROI ダッシュボード</li>
+            <strong>取引単価：</strong>ROI ダッシュボード</li>
           <li>
-            <strong> チャネル/サブチャネル/キャンペーンサマリ：</strong>ROI ダッシュボード</li>
+            <strong> チャネル/サブチャネル/キャンペーンの概要：</strong>ROI ダッシュボード</li>
           <li>
-            <strong> パイプライン収益：</strong> 非推奨（後述）</li>
+            <strong> パイプライン収益：</strong>非推奨（以下を参照）</li>
           <li>
-            <strong> 平均契約サイズ：</strong> 非推奨（後述）</li>
+            <strong>平均契約サイズ：</strong>非推奨（以下を参照）</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>ペイドメディア</td>
-      <td>ユーザーは、<strong>Web トラフィックダッシュボード </strong> の有料メディアチャネルにフィルターを適用できます。</td>
+      <td>ユーザーは、<strong>Web トラフィックダッシュボード </strong>で有料メディアチャネルにフィルターを適用できます。</td>
     </tr>
     <tr>
       <td>コンテンツマーケティング</td>
       <td>
         <ul>
           <li>
-            <strong> 概要：</strong>Web トラフィックダッシュボード</li>
+            <strong>概要：</strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> サイトForms:</strong>
+            <strong> サイト Forms:</strong>
             <strong></strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> ユニーク訪問数：</strong>
+            <strong> ユニーク訪問：</strong>
             <strong></strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> ユニーク訪問数によるトップランディングページ：</strong>
+            <strong> ユニーク訪問者数によるトップランディングページ：</strong>
             <strong></strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> 訪問数によるトップランディングページ：</strong>
+            <strong>訪問者数ごとのトップランディングページ：</strong>
             <strong></strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> リード数別のランディングページ：</strong>
+            リード数別<strong> ランディングページ：</strong>
             <strong></strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> リード数：</strong>
+            <strong> リード：</strong>
             <strong></strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> 商談 </strong>：起因する収益、収益の概要、ROI ダッシュボード</li>
+            <strong>商談</strong>：売上への貢献度、売上の概要、ROI ダッシュボード</li>
           <li>
-            <strong> ウェブトラフィックサマリ：</strong>
+            <strong>Web トラフィックの概要：</strong>
             <strong></strong>Web トラフィックダッシュボード</li>
           <li>
-            <strong> チャネル別のフォーム URL</strong>
+            チャネル別<strong> フォーム URL</strong>
             <strong>:</strong>
-            <strong></strong>Web トラフィックダッシュボード（チャネルでサイトのForms タイルをフィルタリング）</li>
+            <strong></strong>Web トラフィックダッシュボード （チャネル別のサイトForms タイルのフィルター）</li>
           <li>
-            <strong> 収益別のランディングページ：</strong> 非推奨（廃止予定）（以下を参照）</li>
+            収益別<strong> ランディングページ：</strong>非推奨（以下を参照）</li>
           <li>
-            <strong> パイプライン収益：</strong> 非推奨（後述）</li>
+            <strong> パイプライン収益：</strong>非推奨（以下を参照）</li>
           <li>
-            <strong> パイプライン収益別のランディングページ：</strong> 非推奨（廃止予定）（以下を参照）</li>
+            パイプライン収益：</strong>非推奨（以下を参照）別<strong> ランディングページ</li>
           <li>
-            <strong> 商談数別のランディングページ：</strong> 非推奨（廃止予定）（後述）</li>
+            <strong>商談数ごとのランディングページ：</strong>非推奨（以下を参照）</li>
           <li>
-            <strong> リードパイプラインサマリ：</strong> レビュー中</li>
+            <strong> リードパイプラインの概要：</strong> レビュー中</li>
           <li>
-            <strong> 商談パイプラインサマリ：</strong> レビュー中</li>
+            <strong>商談パイプラインの概要：</strong> レビュー中</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>マーケティング業務</td>
       <td>
-        <p>マーケティング業務ダッシュボード</p>
+        <p>マーケティングオペレーションのダッシュボード</p>
       </td>
     </tr>
     <tr>
@@ -267,36 +270,36 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
       <td>
         <ul>
           <li>
-            <strong> 速度（日数）:</strong> 速度ダッシュボード</li>
+            <strong>速度（日数）:</strong>速度ダッシュボード</li>
           <li>
-            <strong> チャネル別契約速度：</strong> 速度ダッシュボード</li>
+            <strong> チャネル別の取引速度：</strong>速度ダッシュボード</li>
           <li>
-            <strong> チャネル別リード速度：</strong> 速度ダッシュボード</li>
+            <strong> チャネル別リード速度：</strong>速度ダッシュボード</li>
           <li>
-            <strong> 平均契約速度：</strong> 速度ダッシュボード</li>
+            <strong>平均取引速度：</strong>速度ダッシュボード</li>
           <li>
-            <strong> 平均リード速度：</strong> 速度ダッシュボード</li>
+            <strong>平均リードベロシティ：</strong> ベロシティ ダッシュボード</li>
           <li>
-            <strong> 商談速度の履歴：</strong> 速度ダッシュボード</li>
+            <strong>時間の経過に伴う商談の速度：</strong>速度ダッシュボード</li>
           <li>
-            <strong> リード速度の履歴：</strong> 速度ダッシュボード</li>
+            <strong> リードベロシティの推移：</strong> ベロシティ ダッシュボード</li>
           <li>
-            <strong>BT/BATの推移：</strong> エンゲージメントダッシュボード</li>
+            <strong>時間の経過に伴うBT/BAT:</strong> エンゲージメントダッシュボード</li>
           <li>
-            <strong> 進行中の商談：</strong>
-            <strong></strong> 非推奨（後述）</li>
+            <strong> オープン商談：</strong>
+            <strong> </strong>非推奨（以下を参照）</li>
           <li>
-            <strong> 平均契約サイズ：</strong>
-            <strong></strong> 非推奨（後述）</li>
+            <strong>平均取引額：</strong>
+            <strong></strong>非推奨（以下を参照）</li>
           <li>
-            <strong> 獲得率：</strong>
-            <strong></strong> 非推奨（後述）</li>
+            <strong>勝率：</strong>
+            <strong> </strong>非推奨（以下を参照）</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>スナップショット</td>
-      <td>ユーザーは、<strong>Passport ダッシュボード </strong> で特定の日付をフィルタリングすることで、レコードのスナップショットを取得できます。
+      <td>ユーザーは、<strong> パスポートダッシュボードで特定の日付をフィルタリングすることで、レコードのスナップショットを取得できます。</strong>
       </td>
     </tr>
     <tr>
@@ -304,7 +307,7 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
       <td>
         <ul>
           <li>
-            <strong> 商談およびリード/連絡先：</strong> パスポートダッシュボード</li>
+            <strong>商談とリード/連絡先：</strong> パスポートダッシュボード</li>
         </ul>
       </td>
     </tr>
@@ -321,7 +324,7 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
           <li>
             <strong> コホートFunnel:</strong> コホートジャーニーダッシュボード</li>
           <li>
-            <strong> コホートの影響と売上高：</strong> 非推奨（後述）</li>
+            <strong> コホートの影響と収益：</strong>非推奨（以下を参照）</li>
         </ul>
       </td>
     </tr>
@@ -349,40 +352,40 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
     <tr>
       <td>
         <p>
-          <strong> パイプライン収益 </strong>
+          <strong> パイプライン収益</strong>
         </p>
       </td>
       <td rowspan="3">
-        <p>パイプラインアトリビューションは後向きのプロセスであるのに対して、アトリビューションは将来的なプロセスなので、本質的に課題となります。 アトリビューションをパイプラインに早い段階で適用しようとすると、タッチポイントデータが不完全になり、結果に偏りが生じる可能性があります。 代わりに、ROI ダッシュボード内に未実現のパイプラインデータを組み込みました。 さらに、このデータには、カスタムレポートオーサリングを使用して引き続きアクセスできます。
+        <p>パイプラインのアトリビューションは、本質的には将来を見据えた上で課題となります。一方、アトリビューションは、過去を振り返るプロセスです。 時期尚早にパイプラインにアトリビューションを適用しようとすると、顧客接点データが不完全になり、結果に偏りが生じる可能性があります。 未実現のパイプラインデータをROI ダッシュボードに組み込みました。 さらに、このデータにはカスタムレポートのオーサリング経由でアクセスできます。
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> パイプライン収益の履歴 </strong>
+          <strong> パイプライン収益の推移</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>PipelineRevenue 別のランディングページ </strong>
+          <strong>PipelineRevenue別ランディングページ </strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> 平均契約サイズ </strong>
+          <strong>平均取引額</strong>
         </p>
       </td>
-      <td rowspan="3">アトリビューションインサイトを強調するために、ダッシュボードでこれらの CRM データポイントを複製しないことを選択しました。</td>
+      <td rowspan="3">アトリビューションのインサイトを重視するため、これらのCRM データポイントをダッシュボードに重複しないことを選択しました。</td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> オープンな商談 </strong>
+          <strong>商談を開く</strong>
           <strong>
             <br/>
           </strong>
@@ -392,42 +395,42 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
     <tr>
       <td>
         <p>
-          <strong> 獲得率 </strong>
+          <strong>勝率</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> 契約の履歴 </strong>
+          <strong>案件の推移</strong>
         </p>
       </td>
-      <td rowspan="4">これらの指標は、既に KPI タイルで提供されています。 冗長性を避け、明確さを維持するために、ダッシュボードから時系列の表示を除外しました。
+      <td rowspan="4">これらの指標は既にKPI タイルで提供されています。 冗長性を避け、明確さを維持するために、ダッシュボードから時系列ビューを除外しました。
       </td>
     </tr>
     <tr>
       <td>
-        <strong> 取引先責任者の履歴 </strong>
+        <strong>取引先責任者</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong> 商談の履歴 </strong>
+        <strong>時間の経過に伴う機会</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong> リードの履歴 </strong>
+        <strong> リードの推移</strong>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> キーワードとCreativeの ROI サマリ </strong>
+          <strong> キーワードとCreative ROIの概要</strong>
         </p>
       </td>
       <td>
-        <p>これらのディメンションは、プラットフォームに固有で、web トラフィックの全体像を提供するものではありません。 Marketo Measureでチャネル/サブチャネル/キャンペーンデータを調査した後、キーワード/クリエイティブレベルのインサイトを得るための特定のプラットフォームツールを掘り下げて、精度とコンテキストを維持することをお勧めします。
+        <p>これらのディメンションはプラットフォームに特化したもので、web トラフィックの全体像を提供するものではありません。 Marketo Measureのチャネル、サブチャネル、キャンペーンのデータを確認し、キーワードやクリエイティブレベルのインサイトを得るために、特定のプラットフォームツールを詳細に調査して、正確性とコンテキストを維持することをお勧めします。
         </p>
       </td>
     </tr>
@@ -438,7 +441,7 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
         </p>
       </td>
       <td rowspan="7">
-        <p>売上高やコストなどのビジネス指標を web トラフィックダッシュボードに導入すると、誤解が生じる可能性があります。 アドビでは、web トラフィックがリードジェネレーションに与える影響を明らかにするインサイトに重点を置くことを推奨しています。 アトリビューションや ROI をより深く掘り下げるためには、チャネル/サブチャネル/キャンペーンレベルでの分析が不可欠であり、明確さと精度を確保します。 さらに、このデータには、カスタムレポートオーサリングを使用して引き続きアクセスできます。
+        <p>web トラフィックダッシュボードに、売上やコストなどのビジネス指標を導入すると、誤解を招く可能性があります。 アドビでは、web トラフィックがリードジェネレーションに与える影響を明らかにするインサイトに重点を置くことを提唱しています。 アトリビューションやROIを深く掘り下げるには、チャネル、サブチャネル、キャンペーンのレベルでの分析が不可欠で、明確さと正確性を確保する必要があります。 さらに、このデータにはカスタムレポートのオーサリング経由でアクセスできます。
         </p>
         <br/>
       </td>
@@ -452,58 +455,58 @@ Discover ダッシュボードの新しいデザインを紹介します。 ア�
     <tr>
       <td>
         <p>
-          <strong> 訪問あたりの売上高 </strong>
+          <strong>訪問あたりの売上高</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> ランディングページ別のリード </strong>
+          ランディングページ別<strong> リード </strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> 収益別のランディングページ </strong>
+          収益別<strong> ランディングページ </strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong> 商談数別のランディングページ </strong>
+          商談数</strong>別<strong> ランディングページ
         </p>
       </td>
     </tr>
     <tr>
       <td>
-        <strong> コホートの影響と売上高 </strong>
+        <strong> コホートの影響と収益</strong>
       </td>
-      <td>ユーザーを混乱させる可能性があるので、非推奨（廃止予定）です。 私たちの目的は、明確さと即時のデータ価値です。</td>
+      <td>ユーザーを混乱させる可能性があるため非推奨（廃止予定）。 当社の目標は、明瞭性とデータ価値の即時化です。</td>
     </tr>
   </tbody>
 </table>
 
-## 廃止した機能 {#features-weve-phased-out}
+## 段階的に提供してきた機能 {#features-weve-phased-out}
 
-**フィルターの更新**：エクスペリエンスを効率化するために、フィルターの選択内容を以下のように調整しました。
+**フィルターの更新**：エクスペリエンスを効率化するために、フィルターの選択を次のように調整しました。
 
-* **日付タイプ、指標、Dimension、グループ化**：これらの設定は、insight配信を最適化するために、ダッシュボードごとに事前定義されるようになりました。 詳細な情報には、ツールチップおよび付属のドキュメントからアクセスできます。
+* **日付タイプ、指標、Dimension、グループ化**：これらの設定は、insight配信を最適化するために、各ダッシュボードに対して事前定義されるようになりました。 詳細な詳細は、ツールヒントと付随ドキュメントからアクセスできます。
 * **キャンペーンのソース**
-* **アカウント ID と名前**：レビュー中です。
+* **アカウント IDと名前**：審査中。
 
-## 新しい追加機能と改善点 {#new-additions-and-improvements}
+## 新しい追加と機能強化 {#new-additions-and-improvements}
 
-新機能については、[&#x200B; ダッシュボードの基本を確認 &#x200B;](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} の記事を参照してください。
+新機能については、[ ダッシュボードの基本を見つける](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}記事を参照してください。
 
 ## フィードバック {#feedback}
 
-私たちは継続的にあなたの経験を向上させるために努力しているので、私たちはこの最新の更新に関するあなたのフィードバックを非常に感謝します。 あなたの考えは将来の洗練に直接影響を与え、私たちのプラットフォームが常にあなたのニーズに合っていることを保証します。 Marketo Measureのフィードバックフォームに注目してください。
+私たちはあなたの体験を向上させるように継続的に努力しているので、この最新のアップデートに関するあなたのフィードバックに大いに感謝します。 お客様の考えが今後の改良に直接影響を与え、当社のプラットフォームが常にお客様のニーズに沿ったものとなることを保証します。 Marketo Measureのフィードバックフォームに注目してください。
 
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [&#x200B; ダッシュボードデータ表示ポリシー &#x200B;](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [ ダッシュボードデータの可視化ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

@@ -1,13 +1,16 @@
 ---
 unique-page-id: 18874618
-description: 購買者属性タッチポイントの有無に関する商談のレポート - [!DNL Marketo Measure]
+description: バイヤーアトリビューションのタッチポイントの有無に関する商談のレポート -  [!DNL Marketo Measure]
 title: Buyer Attribution Touchpoints を含む／含まない商談のレポート
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 31%
+source-wordcount: 188
+ht-degree: 28%
 
 ---
 
@@ -15,30 +18,30 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-新しいレポートタイプを作成して、バイヤー属性タッチポイントの有無にかかわらずすべての商談を含めます。
+新しいレポートタイプを作成し、バイヤーアトリビューションタッチポイントの有無にかかわらず、すべての商談を含めます。
 
-1. **[!UICONTROL 設定]**/**[!UICONTROL 作成]**/**[!UICONTROL レポートタイプ]** に移動します。
+1. **[!UICONTROL 設定]** > **[!UICONTROL 作成]** > **[!UICONTROL レポートタイプ]**&#x200B;に移動します。
 
    ![](assets/1-1.jpg)
 
-1. **[!UICONTROL 新規カスタムレポートタイプ]** を選択します。
+1. **[!UICONTROL 新しいカスタムレポートタイプ]**&#x200B;を選択します。
 
    ![](assets/2-1.jpg)
 
 1. プライマリオブジェクトを「[!UICONTROL Opportunities]」に設定します。
 
-   * レポート・タイプ・ラベルに「購買担当属性の有無を問わず商談」という名前を付けます。
-   * レポートタイプ名にも同じ名前を使用します。 説明入力内に、「バイヤー属性タッチポイントのある商談またはバイヤー属性タッチポイントがない商談」と入力します。
-   * 「[!UICONTROL &#x200B; その他 &#x200B;]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ済み &#x200B;]」に設定します。
+   * レポートタイプラベルに「バイヤーアトリビューションの有無に関わらず、商談」という名前を付けます。
+   * レポートタイプ名には、同じ名前を使用します。 説明入力内の「バイヤーアトリビューションタッチポイントの有無に関わらず商談」を選択します。
+   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ ]」に設定します。
 
    ![](assets/3-1.jpg)
 
-1. そこから、商談オブジェクトをバイヤー属性タッチポイントオブジェクトにリンクします。 ボタン「&#39;A&#39; レコードには関連する&#39;B&#39; レコードがある場合とない場合がある」を選択していることを確認してください。 終了したら「**[!UICONTROL 保存]**」をクリックします。
+1. そこから、商談オブジェクトをBuyer Attribution Touchpoints オブジェクトにリンクします。 「&#39;A&#39; レコードに関連する&#39;B&#39; レコードがある場合とない場合がある」ボタンを選択していることを確認します。 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
