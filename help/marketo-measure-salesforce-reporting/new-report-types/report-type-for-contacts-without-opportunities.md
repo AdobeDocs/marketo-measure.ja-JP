@@ -5,8 +5,10 @@ title: 商談を含まない連絡先のレポートタイプ
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
 TQID: https://experienceleague.adobe.com/j7dgYcy3QY2XRGdYptv-S3N6IWfsSRa6iQrpD0FF1Tg
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 165
@@ -30,7 +32,7 @@ ht-degree: 17%
 
    ![](assets/2.jpg)
 
-1. [!UICONTROL プライマリオブジェクト ]を「[!UICONTROL 連絡先]」に設定します。 レポートタイプラベルに「バイヤーのタッチポイントを使用した連絡先」という名前を付けます。 レポートタイプ名には、同じ名前を使用します。 説明入力内の「購入者のタッチポイントへの連絡」をクリックします。 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ ]」に設定します。
+1. [!UICONTROL プライマリオブジェクト &#x200B;]を「[!UICONTROL 連絡先]」に設定します。 レポートタイプラベルに「バイヤーのタッチポイントを使用した連絡先」という名前を付けます。 レポートタイプ名には、同じ名前を使用します。 説明入力内の「購入者のタッチポイントへの連絡」をクリックします。 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ &#x200B;]」に設定します。
 
    ![](assets/3.jpg)
 

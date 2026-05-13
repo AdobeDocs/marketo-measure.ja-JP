@@ -5,8 +5,10 @@ title: Dynamicsの[!DNL Marketo Measure]収益ワークフロー
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
 TQID: https://experienceleague.adobe.com/JuO-Wg0yApkF8GK--qS4tHkBweWLDbkg6Bd-qNXGUDE
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 791
@@ -30,7 +32,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->「Dynamics アカウントを使用して検索」の「[!DNL Marketo Measure] Opportunity Amount （bizible2_bizible_opportunity_amount）」フィールドを指定することはできません。 Dynamicsのお客様は、[!DNL Marketo Measure]が「もっと知る」で指すように、カスタム商談金額フィールドを作成する必要があります。 完了したら、お客様は、カスタム商談金額フィールドの[!DNL Marketo Measure]商談金額（bizible2_bizible_opportunity_amount） **および**&#x200B;の両方&#x200B;**を更新するワークフローを作成する必要があります。**[!DNL Marketo Measure] Opportunity Amount フィールドにはパッケージが付属していますが、カスタムフィールドを作成する必要があります。
+>「Dynamics アカウントを使用して検索」の「[!DNL Marketo Measure] Opportunity Amount （bizible2_bizible_opportunity_amount）」フィールドを指定することはできません。 Dynamicsのお客様は、[!DNL Marketo Measure]が「もっと知る」で指すように、カスタム商談金額フィールドを作成する必要があります。 完了したら、お客様は、カスタム商談金額フィールドの[!DNL Marketo Measure]商談金額（bizible2_bizible_opportunity_amount） **および**&#x200B;の両方&#x200B;**を更新するワークフローを作成する必要があります。**&#x200B;[!DNL Marketo Measure] Opportunity Amount フィールドにはパッケージが付属していますが、カスタムフィールドを作成する必要があります。
 
 金額ワークフロー手順：
 

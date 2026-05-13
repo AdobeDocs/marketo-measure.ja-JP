@@ -5,8 +5,10 @@ title: カスタムセグメント化
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
 TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 754
@@ -36,11 +38,11 @@ ht-degree: 1%
 
 この機能を利用する前に、フィルタリングするタッチポイント情報を決めます。 レコードタイプには、CRMの値を正確に指定することが重要です。 この設定では、マーケティングfunnelの上部から下部までのタッチポイントがフィルタリングされます。
 
-手順2 - ログインして、[!UICONTROL  セグメント ]機能を見つけます。
+手順2 - ログインして、[!UICONTROL &#x200B; セグメント &#x200B;]機能を見つけます。
 
 * [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}に移動してログインします
-* 「[!UICONTROL  マイアカウント ]」タブで、[!UICONTROL 設定]を選択します
-* [!UICONTROL  レポート ] セクションの左側にあるサイドバーのオプションから[!UICONTROL  セグメント ]を選択します
+* 「[!UICONTROL &#x200B; マイアカウント &#x200B;]」タブで、[!UICONTROL 設定]を選択します
+* [!UICONTROL &#x200B; レポート &#x200B;] セクションの左側にあるサイドバーのオプションから[!UICONTROL &#x200B; セグメント &#x200B;]を選択します
 
 手順3 - コンポーネントの理解
 
@@ -50,7 +52,7 @@ ht-degree: 1%
 
 手順4 - フィルタールールを追加します。
 
-* まず、カテゴリ名を入力します。 [!UICONTROL  ビジネスタイプ ]はその一例です。 完了したら、チェックマークをクリックします。 セグメントを追加する前に、カテゴリ名を入力する必要があります
+* まず、カテゴリ名を入力します。 [!UICONTROL &#x200B; ビジネスタイプ &#x200B;]はその一例です。 完了したら、チェックマークをクリックします。 セグメントを追加する前に、カテゴリ名を入力する必要があります
 * プラス記号をクリックしてセグメントを追加します
 * セグメント名を入力します。 たとえば、新規事業、パートナー、更新、アップセル用のセグメントを1つ作成できます
 

@@ -4,8 +4,13 @@ title: '[!DNL Marketo Measure] Ultimate 実装ガイド'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
 TQID: https://experienceleague.adobe.com/Dj1Dbz4wPQt99NlAEtcn7v3AQoQPdIV5HDExXmlbcZ0
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1074
@@ -40,7 +45,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 >[!NOTE]
 >
->スキーマ、クラス、フィールドグループの概要については、[ スキーマのブロックの構築](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"}を参照してください。
+>スキーマ、クラス、フィールドグループの概要については、[&#x200B; スキーマのブロックの構築](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"}を参照してください。
 
 **XDM スキーマ = クラス + スキーマフィールドグループ&#42;**
 
@@ -51,7 +56,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[ データセットの概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}: AEPに正常に取り込まれたすべてのデータは、データセットとしてデータレイク内に保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
+[&#x200B; データセットの概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}: AEPに正常に取り込まれたすべてのデータは、データセットとしてデータレイク内に保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
 
 ## スキーマの作成 {#creating-a-schema}
 
@@ -59,7 +64,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 * ユーティリティ [をダウンロードして設定する手順については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ja#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}。
 
-_**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
+_&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
 
 * ソースから、データを追加／テンプレートを使用を選択します。
 
@@ -90,7 +95,7 @@ _**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移�
    >* 1つのスキーマタイプを別の同一のスキーマタイプにマッピングすると、自動的に行われます。
    >* また、システム内の別のフローからマッピングを読み込むこともできます。
    >* 1 つのソースフィールドを複数の宛先フィールドにマッピングすることはできますが、その逆はできません。
-   >* 計算フィールド （[ データ準備マッピング関数](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
+   >* 計算フィールド （[&#x200B; データ準備マッピング関数](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
 
    >[!CAUTION]
    >

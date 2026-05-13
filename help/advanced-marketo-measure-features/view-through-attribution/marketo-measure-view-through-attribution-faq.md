@@ -5,8 +5,10 @@ title: '[!DNL Marketo Measure] ビュースルーアトリビューションに�
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
 TQID: https://experienceleague.adobe.com/JL9J8c0qR5xOVFvzVaxrBKgBR0MO4WhcdUjQTX9Y2i0
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 506
@@ -18,13 +20,13 @@ ht-degree: 33%
 
 ## View Through Attributionとは何ですか？ {#what-is-view-through-attribution}
 
-[!DNL Marketo Measure] [!UICONTROL  ビュースルーアトリビューション ]機能には、アトリビューションモデルに広告インプレッションを含める機能が含まれています。
+[!DNL Marketo Measure] [!UICONTROL &#x200B; ビュースルーアトリビューション &#x200B;]機能には、アトリビューションモデルに広告インプレッションを含める機能が含まれています。
 
 >[!IMPORTANT]
 >
 >プライバシーに関する懸念により、サードパーティ Cookie は廃止されます。 Google Chrome が 2024 年第 3 四半期に発表したサードパーティ Cookie の廃止は、事実上、この形式のトラッキングの終了を意味します。 その結果、アドビでは、サードパーティ Cookie に依存する Marketo Measure 機能、特に、Google／DoubleClick インプレッション Cookie を使用するクロスドメイントラッキングとビュースルーアトリビューションを廃止します。 Marketo Measure のその他の機能に影響はありません。 また、ファーストパーティ cookie の使用にも影響はありません。 Google のスケジュールを考慮すると、上記 2 つの機能の廃止予定日は 2024年6月1日（PT）です。 この日付より前に収集された関連データは、アドビのお客様が引き続き使用できます。
 
-## [!UICONTROL  ビュースルー属性]が重要なのはなぜですか？ {#why-is-view-through-attribution-important}
+## [!UICONTROL &#x200B; ビュースルー属性]が重要なのはなぜですか？ {#why-is-view-through-attribution-important}
 
 従来、リターゲティングやインプレッション広告は、マーケターがアトリビューション分析で説明するのが困難でした。 潜在的な顧客は、何度もリターゲティング広告にさらされる可能性がありますが、実際にこれらの広告のいずれかをクリックして、同じセッションでフォームに入力する可能性は低くなります。 「View Through Attribution」ソリューションでは、誰かがインプレッション広告に接触したかどうかを追跡できるようになりました。 このタッチポイントは個人レコードに追加され、見込み客が顧客になるまで処理されます。 これにより、マーケターはリターゲティング広告のパフォーマンスについて、より優れたinsightを入手できるようになります。
 

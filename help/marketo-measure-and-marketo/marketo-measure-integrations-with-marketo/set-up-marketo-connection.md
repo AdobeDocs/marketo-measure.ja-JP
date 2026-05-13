@@ -5,9 +5,13 @@ title: Marketo Connectionの設定
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
 TQID: https://experienceleague.adobe.com/IQhZzu6iqS-5BdooPRA6-A8BoJtQ936NRFJHPGu3Xp4
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 206
@@ -21,7 +25,7 @@ Marketoへの接続を設定する方法は次のとおりです。
 
 >[!PREREQUISITES]
 >
->[[!DNL Marketo Measure]/Marketo Engage接続用のAPIのみのユーザーロール ](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja){target="_blank"}を作成します。
+>[[!DNL Marketo Measure]/Marketo Engage接続用のAPIのみのユーザーロール &#x200B;](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html?lang=ja){target="_blank"}を作成します。
 
 1. [!DNL Marketo Measure]で、**[!UICONTROL マイアカウント]** ドロップダウンをクリックし、**[!UICONTROL 設定]**&#x200B;を選択します。
 

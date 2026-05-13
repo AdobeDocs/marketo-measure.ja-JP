@@ -5,8 +5,10 @@ title: Touchpoint の削除と Touchpoint の抑制
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
 TQID: https://experienceleague.adobe.com/DgzPRjvGigZ3swx1fTw0x7r-XbURxwRMNGHH4JdXLfQ
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 648
@@ -56,7 +58,7 @@ CRMから特定の条件を満たすタッチポイントを削除または除�
 
 ![](assets/2.png)
 
-`3)` ルールが複雑になり、グループを再作成して各ステートメントに小さな変更を加える必要がある場合は、[!UICONTROL  クローン ] オプションを使用して処理を簡単にします。
+`3)` ルールが複雑になり、グループを再作成して各ステートメントに小さな変更を加える必要がある場合は、[!UICONTROL &#x200B; クローン &#x200B;] オプションを使用して処理を簡単にします。
 
 ![](assets/3.png)
 
@@ -68,7 +70,7 @@ CRMから特定の条件を満たすタッチポイントを削除または除�
 
 ![](assets/5.png)
 
-最後に、[!UICONTROL  ルールを保存して処理]します。 多くの変更を加える場合は、必ず変更を保存してください。 [!DNL Marketo Measure]は、クリックするまでタッチポイントの削除を開始しません
+最後に、[!UICONTROL &#x200B; ルールを保存して処理]します。 多くの変更を加える場合は、必ず変更を保存してください。 [!DNL Marketo Measure]は、クリックするまでタッチポイントの削除を開始しません
 [!UICONTROL **保存して処理**]。
 
 | **演算子** | **ユースケース** |

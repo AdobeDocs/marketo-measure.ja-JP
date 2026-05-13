@@ -5,8 +5,10 @@ title: カスタムアトリビューションモデルと設定
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
 TQID: https://experienceleague.adobe.com/Bqvp26IvjPnXom9rfkB2cWtrnrM3Jsz6SQKqDYKp-cc
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 849
@@ -28,7 +30,7 @@ ht-degree: 1%
 
    カスタムアトリビューションモデルの構築を始めるには、マーケティング部門にとって重要なステージを選択する必要があります。 [!DNL Marketo Measure]個のマイルストーンステージ（FT、LC、OC、クローズ）に加えて、カスタムモデルに追加できるリード/コンタクトのステータスまたは商談ステージは、最大6つまで追加できます。 たとえば、MQL ステージはカスタムモデルに含まれるのが一般的です。 マーケティング部門は、MQL ステージへの移行にどのような取り組みやチャネルを推進しているのかを把握したいと考えがちです。
 
-   [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}にログインします。 [!UICONTROL  マイアカウント ] > [!UICONTROL 設定] >に移動し、CRM セクションで「**[!UICONTROL ステージマッピング]**」を選択します。
+   [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}にログインします。 [!UICONTROL &#x200B; マイアカウント &#x200B;] > [!UICONTROL 設定] >に移動し、CRM セクションで「**[!UICONTROL ステージマッピング]**」を選択します。
 
    次に、「**[!UICONTROL モデルに含める]**」ボックスを選択して、含めるリード/取引先責任者と商談のステージを選択します。
 
@@ -44,7 +46,7 @@ ht-degree: 1%
 
    ステージを選択したら、ページの下部にある「**[!UICONTROL 保存とプロセス]**」ボタンを必ずクリックしてください。 ステージが「**[!UICONTROL アトリビューション設定]**」タブに表示され、各ステージにアトリビューションの割合を割り当てることができます。 カスタムステージは、Marketing Performance Suiteの需要ウォーターフォール内のリードまたは商談ステージにも表示されます。
 
-   モデルに含める他のステージがあるが、[!UICONTROL  リード/連絡先ステータス ]または[!UICONTROL 商談ステージ ] リストにない場合は、CRMのフィールドに基づいて独自のカスタムステージを定義できます。
+   モデルに含める他のステージがあるが、[!UICONTROL &#x200B; リード/連絡先ステータス &#x200B;]または[!UICONTROL 商談ステージ &#x200B;] リストにない場合は、CRMのフィールドに基づいて独自のカスタムステージを定義できます。
 
    次の例では、カスタム「MQL」ステージが日付フィールドを使用して定義されています。 このルールでは、MQL日付フィールドが空でない場合は、MQLとみなし、カスタムモデルに含める必要があることを簡単に示しています。 カスタムステージを作成した後で並べ替えて、セールスサイクルの進行に沿えるようにすることも重要です。
 
@@ -54,7 +56,7 @@ ht-degree: 1%
    >
    >カスタムフィールドの履歴トラッキングを有効にすることが重要です。
 
-カスタムモデルでカスタムフィールドを使用する場合、フィールド履歴トラッキングをCRMで有効にする必要があります。 フィールド履歴トラッキングを有効にする手順については、[ カスタムモデル設定：フィールド履歴トラッキングを有効にする](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)を参照してください。
+カスタムモデルでカスタムフィールドを使用する場合、フィールド履歴トラッキングをCRMで有効にする必要があります。 フィールド履歴トラッキングを有効にする手順については、[&#x200B; カスタムモデル設定：フィールド履歴トラッキングを有効にする](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)を参照してください。
 
 1. カスタムモデルのアトリビューション率を決定します。
 

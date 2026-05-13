@@ -4,8 +4,11 @@ title: 起因する収益ダッシュボード
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
 TQID: https://experienceleague.adobe.com/2g72TnGfMAnxT86K1VUm7Vn73xiU8Y2l-ROYB7AUVJE
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 387
@@ -83,5 +86,5 @@ ht-degree: 3%
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータの可視化ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータの可視化ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

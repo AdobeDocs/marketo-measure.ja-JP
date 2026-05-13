@@ -5,8 +5,10 @@ title: マーケティングチャネルによるクローズ済み失注商談
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
 TQID: https://experienceleague.adobe.com/PJ0vKn29NiCiDYepN8HRoTXgWi1isrlql00Obi2hJz0
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 277
@@ -22,11 +24,11 @@ ht-degree: 4%
 
    ![](assets/1-3.jpg)
 
-1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;]**レポートタイプの**[!UICONTROL  Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
+1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;**レポートタイプの** Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
 
    ![](assets/2-3.jpg)
 
-1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント ]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
+1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント &#x200B;]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
 
    ![](assets/3-3.jpg)
 
@@ -50,4 +52,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

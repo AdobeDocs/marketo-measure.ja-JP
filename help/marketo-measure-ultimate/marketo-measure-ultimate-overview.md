@@ -4,8 +4,14 @@ title: '[!DNL Marketo Measure] Ultimate の概要'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 726
@@ -60,7 +66,7 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 >
 >[!DNL Marketo Measure Ultimate] 本番稼働インスタンスは AEP 本番稼働用サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。 これを変更するには、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。 これを変更するには、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。 各データセットは、1 つのデータフローにのみ含めることができます。 違反すると、実行時にデータフローが停止します。
 
@@ -116,4 +122,4 @@ Ultimate には CRM の直接接続がないので、アトリビューション
 >
 >* [Marketo Measure Ultimate Destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
 >
->* [ ビデオ：Marketo Measure Ultimateの概要](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>* [&#x200B; ビデオ：Marketo Measure Ultimateの概要](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

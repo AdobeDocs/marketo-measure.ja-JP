@@ -5,8 +5,11 @@ title: ' [!DNL Salesforce] キャンペーンのキャンペーンリストビ�
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
 TQID: https://experienceleague.adobe.com/MYh66JaJKdgBI7XVxfffWlX9QDg4SqLWDhpsdv1kSG4
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 444
@@ -47,4 +50,4 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->[ リスト表示のインライン編集に関する一般的な問題のトラブルシューティング ](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}
+>[&#x200B; リスト表示のインライン編集に関する一般的な問題のトラブルシューティング &#x200B;](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

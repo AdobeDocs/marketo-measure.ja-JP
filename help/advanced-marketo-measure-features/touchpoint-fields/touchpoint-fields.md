@@ -5,8 +5,11 @@ title: Touchpoint フィールド
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
 TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1965
@@ -126,7 +129,7 @@ ht-degree: 0%
 
 ### マッピング先 {#maps-to}
 
-[!UICONTROL  マップから]演算子は、変換または別の値へのバケット化が必要な値のテーブルを作成します。 通常、これはキー値の形式を取ります。コードはわかりやすい名前を表し、そのフレンドリ名にマッピングする必要があります。
+[!UICONTROL &#x200B; マップから]演算子は、変換または別の値へのバケット化が必要な値のテーブルを作成します。 通常、これはキー値の形式を取ります。コードはわかりやすい名前を表し、そのフレンドリ名にマッピングする必要があります。
 
 **例#1**
 
@@ -160,7 +163,7 @@ ht-degree: 0%
 * 次に、最初の数字の可能なすべての値をわかりやすい名前にマッピングします
 * 計算フィールドを作成し、「Region_Name」というラベルを付けます
 * 抽出したフィールドの検索を開始して、ルールを定義します。 この場合、[!DNL Touchpoint.Region]
-* 各数値の値へのマッピングを作成するには、演算子「[!UICONTROL  マップから]」を使用します
+* 各数値の値へのマッピングを作成するには、演算子「[!UICONTROL &#x200B; マップから]」を使用します
 * 各マッピングを一覧表示するテーブルが表示されます。 最終的には、次のようになります。
 * マッピングと上記のURLに基づいて、このランディングページを持つタッチポイントの「Region_Value」は「EMEA」になります
 * 抽出と残りの4つの桁のマッピングを繰り返します

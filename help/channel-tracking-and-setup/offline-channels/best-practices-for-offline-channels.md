@@ -4,8 +4,10 @@ title: オフラインチャネルのベストプラクティス
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
 TQID: https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1060
@@ -17,7 +19,7 @@ ht-degree: 4%
 
 ## 概要 {#overview}
 
-正確な[!DNL Marketo Measure] レポートを作成するには、マーケティングチャネルを正しく設定する必要があります。 「[!UICONTROL  マーケティングチャネル ]」フィールドには、タッチポイントが属できるマーケティング戦術の上位レベルのグループ（イベント、ウェビナー、コンテンツシンジケーションなど）が表示されます。
+正確な[!DNL Marketo Measure] レポートを作成するには、マーケティングチャネルを正しく設定する必要があります。 「[!UICONTROL &#x200B; マーケティングチャネル &#x200B;]」フィールドには、タッチポイントが属できるマーケティング戦術の上位レベルのグループ（イベント、ウェビナー、コンテンツシンジケーションなど）が表示されます。
 
 マーケティングチャネルの設定には、オンラインとオフラインの 2 つの側面があります。 このドキュメントでは、オフラインチャネルの設定とメンテナンスに関する[!DNL Marketo Measure]のベストプラクティスの推奨事項と、CRM キャンペーンを介して[!DNL Marketo Measure]と同期する方法について説明します。
 
@@ -44,13 +46,13 @@ ht-degree: 4%
 * 1つのサブチャネルは、1つのCRM キャンペーン「タイプ」にのみマッピングできます
    * 複数のCRM キャンペーン「タイプ」を1つのチャネルにマッピングできますが、各チャネル内の各サブチャネルにマッピングできるのは1つのCRM キャンペーン「タイプ」のみです
 * オフライン CRM キャンペーンの「タイプ」のみをオフラインチャネルにマッピングする必要があります。オフラインキャンペーンのみが[!DNL Marketo Measure]と同期してタッチポイントを作成する必要があります。
-   * オンライン CRM キャンペーン「タイプ」は、[!UICONTROL  マーケティングチャネル ] = &quot;NULL&quot;にマッピングする必要があります。 この値は、オフラインチャネルがレビューされたことを示す「赤いフラグ」として機能し、「NULL」にマッピングされているCRM キャンペーン「タイプ」はオンライン「タイプ」であり、[!DNL Marketo Measure]と同期しないでください。 オンライン CRM キャンペーン「タイプ」に関連するタッチポイントは、既に[!DNL Marketo Measure] オンライン機能とチャネルを介して追跡されます。 これらのキャンペーンを同期すると、タッチポイントが「重複している」/ダブルカウントされるリスクが生じます
+   * オンライン CRM キャンペーン「タイプ」は、[!UICONTROL &#x200B; マーケティングチャネル &#x200B;] = &quot;NULL&quot;にマッピングする必要があります。 この値は、オフラインチャネルがレビューされたことを示す「赤いフラグ」として機能し、「NULL」にマッピングされているCRM キャンペーン「タイプ」はオンライン「タイプ」であり、[!DNL Marketo Measure]と同期しないでください。 オンライン CRM キャンペーン「タイプ」に関連するタッチポイントは、既に[!DNL Marketo Measure] オンライン機能とチャネルを介して追跡されます。 これらのキャンペーンを同期すると、タッチポイントが「重複している」/ダブルカウントされるリスクが生じます
 
 ## ベストプラクティス | オフラインキャンペーン同期 {#best-practice-offline-campaign-sync}
 
 * 各CRM キャンペーンで「タイプ」フィールドが正確であることを確認します
    * 「タイプ」を選択すると、キャンペーンから同期されたタッチポイントのマーケティングチャネルとサブチャネルが決定されます
-* CRM ベースのCampaign Sync メソッド（バイヤータッチポイントを有効にする）または[!DNL Marketo Measure] アプリベースの同期方法（Marketo Measure] アカウント設定の「[!UICONTROL  Campaign]」タブ内のカスタムキャンペーン同期）のいずれを使用する場合でも、オフラインのタッチポイントは、Campaign メンバーがCampaignとブランドとの実際のオフラインエンゲージメントを行った場合にのみ作成する必要があります。[!UICONTROL 
+* CRM ベースのCampaign Sync メソッド（バイヤータッチポイントを有効にする）または[!DNL Marketo Measure] アプリベースの同期方法（Marketo Measure アカウント設定の「[!UICONTROL &#x200B; Campaign]」タブ内のカスタムキャンペーン同期）のいずれを使用する場合でも、オフラインのタッチポイントは、Campaign メンバーがCampaignとブランドとの実際のオフラインエンゲージメントを行った場合にのみ作成する必要があります。
    * イベントやウェビナーなどのオフラインチャネルの場合：「登録」は、通常、web サイトのフォーム送信と[!DNL Marketo Measure] オンライン機能を介して追跡されます。 したがって、ステータスが「登録済み」のキャンペーンメンバーは、二重計上を避けるために、キャンペーンからオフラインのタッチポイントを受け取ってはなりません。 オフラインのタッチポイントは、イベントまたはウェビナーへの「出席」のみを表す必要があります。
    * コンテンツシンジケーションのような一部のオフラインチャネルでは、すべてのキャンペーンメンバーが、実際にキャンペーンに応答した同じ「応答済み」ステータスを持っているため、より簡単です。この場合、サードパーティサイトでコンテンツをダウンロードし、オフラインのタッチポイントを受け取る必要があります
 * [!DNL Marketo Measure] アプリでカスタムキャンペーン同期メソッドを使用する場合は、「タッチポイント日」フィールドが、タッチポイントのインタラクションが実際に発生したタイミングを最も示すキャンペーンまたはキャンペーンメンバーの日付フィールドに基づいていることを確認してください
@@ -73,11 +75,11 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->* [ オフラインチャネル設定](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
->* [ カスタムキャンペーン同期 – アプリ同期](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [ オフラインキャンペーンの同期 – CRM同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [ オフライン キャンペーンとキャンペーン メンバー – CRM同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
->* [ キャンペーンの同期日 – CRM同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
+>* [&#x200B; オフラインチャネル設定](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+>* [&#x200B; カスタムキャンペーン同期 – アプリ同期](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
+>* [&#x200B; オフラインキャンペーンの同期 – CRM同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [&#x200B; オフライン キャンペーンとキャンペーン メンバー – CRM同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [&#x200B; キャンペーンの同期日 – CRM同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 >* [複数のキャンペーンレコードタイプの設定](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [ キャンペーンリストビューの作成](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [&#x200B; キャンペーンリストビューの作成](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
 >* [履歴データの同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

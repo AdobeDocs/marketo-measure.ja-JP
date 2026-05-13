@@ -5,8 +5,11 @@ title: '[!DNL Marketo Measure] Insights の説明'
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
 TQID: https://experienceleague.adobe.com/Q-c9KrauVQND9Yla4YLM6Vl5M1MxExRR-cD0-fOGZJQ
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 455
@@ -42,6 +45,6 @@ ht-degree: 0%
 
 各セッションの右側には、SFDCの[!DNL Marketo Measure] フィールドをプッシュしている詳細なマーケティングデータの詳細が表示されます。 この例では、Ad Group、Ad Content、Campaign、Keyword、Mediumが表示されます。 下にスクロールして、提供される[!DNL Marketo Measure] データの詳細を表示することもできます。
 
-最後に、オーディエンスのセッション数が無数に増えた後は、[!UICONTROL  インサイト ]内でいくつかのフィルターを使用して、サイトでのエンゲージメントの特定の部分を検索できます。 例えば、[!UICONTROL  タッチポイント位置]でフィルタリングできます。
+最後に、オーディエンスのセッション数が無数に増えた後は、[!UICONTROL &#x200B; インサイト &#x200B;]内でいくつかのフィルターを使用して、サイトでのエンゲージメントの特定の部分を検索できます。 例えば、[!UICONTROL &#x200B; タッチポイント位置]でフィルタリングできます。
 
 ページビュー、AB テスト、Formsで検索することもできます。

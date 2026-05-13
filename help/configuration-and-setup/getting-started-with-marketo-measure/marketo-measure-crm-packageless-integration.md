@@ -5,8 +5,12 @@ title: '[!DNL Marketo Measure] CRM パッケージレス統合'
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
 feature: Integration
 TQID: https://experienceleague.adobe.com/j6O5OYfDAcSSTe9JWDODFN7kbXYjOxwPNL3uU5dSDHI
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 311
@@ -38,7 +42,7 @@ ht-degree: 4%
 
 [!DNL Microsoft Dynamics]人のお客様が[ここ](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md)をクリックします。
 
-これらの手順を完了した後、統合は運用的である必要があります。 問題が発生した場合は、[!DNL Marketo Measure]担当者または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+これらの手順を完了した後、統合は運用的である必要があります。 問題が発生した場合は、[!DNL Marketo Measure]担当者または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 >[!NOTE]
 >

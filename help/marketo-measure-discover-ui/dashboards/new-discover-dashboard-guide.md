@@ -4,8 +4,11 @@ title: 新しい Discover ダッシュボードガイド
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
 TQID: https://experienceleague.adobe.com/p9wH91818KiCuzb-Nk0QtGA9J6mmpzn2erlxrnQiTk8
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1055
@@ -499,7 +502,7 @@ Discover ダッシュボードのリニューアルをご紹介できること�
 
 ## 新しい追加と機能強化 {#new-additions-and-improvements}
 
-新機能については、[ ダッシュボードの基本を見つける](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}記事を参照してください。
+新機能については、[&#x200B; ダッシュボードの基本を見つける](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}記事を参照してください。
 
 ## フィードバック {#feedback}
 
@@ -508,5 +511,5 @@ Discover ダッシュボードのリニューアルをご紹介できること�
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータの可視化ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータの可視化ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

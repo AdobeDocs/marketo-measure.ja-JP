@@ -5,8 +5,10 @@ title: アカウントベースドアトリビューション
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
 TQID: https://experienceleague.adobe.com/LvU1AG-V5PYc89QBqSFoFk56QM-xHbvnrJM-MDnZHHA
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 298
@@ -30,4 +32,4 @@ Account-Based Marketing（ABM）の台頭により、[!DNL Marketo Measure]がAB
 
 [!DNL Marketo Measure]では、アカウントに関連するすべてのマーケティングインタラクションが表示されるため、マーケターは、アカウントの成約の可能性が高いアカウント、自社とのエンゲージメントの頻度、各エンゲージメントの売上などの詳細を把握できます。
 
-[!DNL Marketo Measure]とABMのアプローチにより、マーケティングパフォーマンスは収益に基づいています。 アカウントベースドマーケティングへの移行を検討している場合は、[CMOによるABM オーケストレーション入門ガイド ](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf)をご覧ください。ABM オーケストレーションの計画、実行、測定の各フェーズについて順を追って説明しています。
+[!DNL Marketo Measure]とABMのアプローチにより、マーケティングパフォーマンスは収益に基づいています。 アカウントベースドマーケティングへの移行を検討している場合は、[CMOによるABM オーケストレーション入門ガイド &#x200B;](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf)をご覧ください。ABM オーケストレーションの計画、実行、測定の各フェーズについて順を追って説明しています。

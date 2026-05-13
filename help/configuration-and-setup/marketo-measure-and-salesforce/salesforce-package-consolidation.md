@@ -4,8 +4,12 @@ title: '[!DNL Salesforce] パッケージの統合'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 TQID: https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 446
@@ -32,7 +36,7 @@ ht-degree: 9%
 
 ## サポートと移行 {#support-and-transition}
 
-[ サポートチーム ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}は、質問に答え、新しい統合パッケージへのスムーズな移行を支援するために利用できます。
+[&#x200B; サポートチーム &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}は、質問に答え、新しい統合パッケージへのスムーズな移行を支援するために利用できます。
 
 ## 必要なアクション {#retired-actions}
 
@@ -60,7 +64,7 @@ ht-degree: 9%
 
 **現在のパッケージのデータをバックフィルするにはどうすればよいですか？**
 
-BT/BAT データのバックフィルと再処理を行い、タッチポイント IDおよびフォーム ID フィールドに入力するために、サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}を含むチケット [を提出できます。
+BT/BAT データのバックフィルと再処理を行い、タッチポイント IDおよびフォーム ID フィールドに入力するために、サポート [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}を含むチケット を提出できます。
 
 **V1およびV2_EXT パッケージのフィールドは、統合パッケージで利用できますか？**
 
@@ -68,4 +72,4 @@ BT/BAT データのバックフィルと再処理を行い、タッチポイン�
 
 **V2_EXT フィールドを使用するレポートを統合パッケージで再作成できますか？**
 
-はい。 「[必要なアクション ](#retired-actions)」セクションの手順に従います。
+はい。 「[必要なアクション &#x200B;](#retired-actions)」セクションの手順に従います。

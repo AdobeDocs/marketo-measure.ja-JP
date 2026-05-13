@@ -5,8 +5,10 @@ title: コールトラッキングの統合
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
 TQID: https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 692
@@ -50,7 +52,7 @@ CallTrackingMetricsは、これを機能させるためにいくつかの開発�
 
 [!DNL Marketo Measure]がタスクをインポートまたはダウンロードできる場合、その詳細をweb セッションと共に処理します。 通常、リファラーや広告と組み合わせることができます。 下の例では、訪問者が有料のGoogle広告からビジネスを見つけ、電話をかけています。
 
-[!UICONTROL  タッチポイント ] タイプの「Call」は、上のスクリーンショットのタスクから取得されます。これは、タスクの作成時にCallTrackingMetricsでも設定されます。
+[!UICONTROL &#x200B; タッチポイント &#x200B;] タイプの「Call」は、上のスクリーンショットのタスクから取得されます。これは、タスクの作成時にCallTrackingMetricsでも設定されます。
 
 ![](assets/4.png)
 

@@ -4,9 +4,13 @@ title: ' [!DNL Adobe Analytics]との統合[!DNL Marketo Measure]'
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
 TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 968
@@ -38,7 +42,7 @@ B2B顧客属性の統合により、[!DNL Marketo Measure]およびAdobe Analyti
 
    Adobe IMS組織IDを入力します。 このIDは、Adobe Experience Cloud Admin Consoleの右下隅に表示されます。 このIDを見つける方法について詳しくは、Adobe アカウントチーム（アカウントマネージャー）にお問い合わせください。
 
-1. [!DNL Marketo Measure] アカウントでの接続の作成が完了したら、Experience Cloud コンソールに戻って[ スキーマを検証](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en)する必要があります。 FTP ファイルのアップロードについて心配する必要はありません。[!DNL Marketo Measure]は、その部分を自動化しました。 手順1で作成した顧客属性Sourceの「表示/編集」スキーマ画面に移動し、[!DNL Marketo Measure]が自分に代わってアップロードした各属性のデータタイプをAdobeに伝えます。 必要に応じて、アップロードされた属性に対して新しい表示用の名前を作成することもできます。
+1. [!DNL Marketo Measure] アカウントでの接続の作成が完了したら、Experience Cloud コンソールに戻って[&#x200B; スキーマを検証](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/validate-schema.html?lang=en)する必要があります。 FTP ファイルのアップロードについて心配する必要はありません。[!DNL Marketo Measure]は、その部分を自動化しました。 手順1で作成した顧客属性Sourceの「表示/編集」スキーマ画面に移動し、[!DNL Marketo Measure]が自分に代わってアップロードした各属性のデータタイプをAdobeに伝えます。 必要に応じて、アップロードされた属性に対して新しい表示用の名前を作成することもできます。
 
    CRM アカウントオブジェクトから属性を同期するように選択した場合は、新しい表示名を選択することを強くお勧めします。[!DNL Marketo Measure]はこれらの属性のAPI レベル名のみを入力するため、通常、レポートに適していません。
 

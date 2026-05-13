@@ -5,9 +5,13 @@ title: 統合された広告プラットフォーム
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
 TQID: https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1793
@@ -62,7 +66,7 @@ ht-degree: 1%
 
 1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}で[!DNL Marketo Measure] アカウントにログインします。
 
-1. [!UICONTROL  マイアカウント ] > [!UICONTROL 設定] > [!UICONTROL 統合] > [!UICONTROL 接続]に移動します。
+1. [!UICONTROL &#x200B; マイアカウント &#x200B;] > [!UICONTROL 設定] > [!UICONTROL 統合] > [!UICONTROL 接続]に移動します。
 
    ![](assets/4.png)
 
@@ -76,13 +80,13 @@ ht-degree: 1%
 
 ## [!DNL Marketo Measure] パラメーターを使用してAdWordsでトラッキングテンプレートを設定する方法 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-AdWordsの[!UICONTROL  アカウント ]、[!UICONTROL  キャンペーン ]または広告グループ レベルにトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、または広告レベルに追加する場合、広告はレビューと承認プロセスを経る必要があり、広告のパフォーマンス履歴を再開するリスクがあります。 [ トラッキングテンプレートの作成](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}について詳しく見る。
+AdWordsの[!UICONTROL &#x200B; アカウント &#x200B;]、[!UICONTROL &#x200B; キャンペーン &#x200B;]または広告グループ レベルにトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、または広告レベルに追加する場合、広告はレビューと承認プロセスを経る必要があり、広告のパフォーマンス履歴を再開するリスクがあります。 [&#x200B; トラッキングテンプレートの作成](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}について詳しく見る。
 
 1. [!DNL Google AdWords] アカウントにログインします。
-1. 左側のナビゲーションバーから[!UICONTROL  キャンペーン ] ビューに移動します
+1. 左側のナビゲーションバーから[!UICONTROL &#x200B; キャンペーン &#x200B;] ビューに移動します
 1. 左側のナビゲーションバーにある「[!UICONTROL 設定]」に移動します
-1. 上部の「[!UICONTROL  アカウント設定]」ビューに切り替えます
-1. 「[!UICONTROL  トラッキング ]」セクションを展開します
+1. 上部の「[!UICONTROL &#x200B; アカウント設定]」ビューに切り替えます
+1. 「[!UICONTROL &#x200B; トラッキング &#x200B;]」セクションを展開します
 1. トラッキングテンプレートに次のいずれかのテキスト文字列を貼り付けて、テンプレートの値を設定します。
 
    * すべてのURLに疑問符がある場合は、次のURL テキストを使用します。

@@ -4,8 +4,10 @@ title: CRM 書き出しのエラー処理
 feature: Salesforce
 exl-id: 7452bff0-4bf1-474b-a705-446c29882230
 TQID: https://experienceleague.adobe.com/wDim-XKvs--5I-bXYod5pypn3NTz3hfotreiQ9MtT8k
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 336
@@ -29,7 +31,7 @@ ht-degree: 8%
 
 この機能を無効にすると、警告ポップアップが表示され、データの不整合が発生する可能性があることを知らせます。 これらの不整合から生じる可能性のある問題に対処するのは、お客様の責任です。
 
-![ データの不整合警告](assets/data-inconsistency.png)
+![&#x200B; データの不整合警告](assets/data-inconsistency.png)
 
 いずれの場合も、機能がオンまたはオフに切り替えられているかどうかにかかわらず、発生したすべてのレコードレベルのエラーは`ExportErrors` テーブルに記録され、`CRMExport_ExportError` ジョブはこれらのレコードを毎日自動的に再書き出ししようとします。 これにより、開発者の介入なしで自動的に行われるため、サポートリクエストを送信して再書き出しを開始する必要がなくなります。
 

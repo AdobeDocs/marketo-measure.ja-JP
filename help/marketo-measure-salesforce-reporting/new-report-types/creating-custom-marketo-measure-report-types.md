@@ -5,9 +5,12 @@ title: カスタム [!DNL Marketo Measure] レポートタイプの作成
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
 TQID: https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 370
@@ -31,10 +34,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL [!UICONTROL プライマリオブジェクト ]]：リード
-   * Id > [!UICONTROL  レポートタイプラベル ]：購入者のタッチポイントを持つリード（カスタム）
-   * [!UICONTROL  カテゴリーに保存]：その他のレポート
-   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL [!UICONTROL プライマリオブジェクト &#x200B;]]：リード
+   * Id > [!UICONTROL &#x200B; レポートタイプラベル &#x200B;]：購入者のタッチポイントを持つリード（カスタム）
+   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
 
    ![](assets/2.png)
 
@@ -54,10 +57,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]: [!DNL Marketo Measure]人
-   * [!UICONTROL 識別] > [!UICONTROL  レポートタイプラベル ]: [!DNL Marketo Measure]購入者のタッチポイントを持つ人物（カスタム）
-   * [!UICONTROL  カテゴリーに保存]：その他のレポート
-   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]: [!DNL Marketo Measure]人
+   * [!UICONTROL 識別] > [!UICONTROL &#x200B; レポートタイプラベル &#x200B;]: [!DNL Marketo Measure]購入者のタッチポイントを持つ人物（カスタム）
+   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
 
    ![](assets/5.png)
 
@@ -77,10 +80,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]：商談
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]：商談
    * [!UICONTROL Identification] > [!UICONTROL Report Type Label]: Opportunities with Buyer Attribution Touchpoint （カスタム）
-   * [!UICONTROL  カテゴリーに保存]：その他のレポート
-   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
+   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
 
    ![](assets/8.png)
 
@@ -98,6 +101,6 @@ ht-degree: 6%
 
    ![](assets/10.png)
 
-1. レポートに追加するカスタムフィールドが、「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加する他のフィールドがある場合は、「[!UICONTROL  ルックアップを使用して関連するフィールドを追加]」オプションを使用します。
+1. レポートに追加するカスタムフィールドが、「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加する他のフィールドがある場合は、「[!UICONTROL &#x200B; ルックアップを使用して関連するフィールドを追加]」オプションを使用します。
 
    ![](assets/11.png)

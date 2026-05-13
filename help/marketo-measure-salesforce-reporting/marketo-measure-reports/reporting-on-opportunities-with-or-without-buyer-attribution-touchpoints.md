@@ -5,8 +5,10 @@ title: Buyer Attribution Touchpoints を含む／含まない商談のレポー�
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
 TQID: https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 188
@@ -34,7 +36,7 @@ ht-degree: 28%
 
    * レポートタイプラベルに「バイヤーアトリビューションの有無に関わらず、商談」という名前を付けます。
    * レポートタイプ名には、同じ名前を使用します。 説明入力内の「バイヤーアトリビューションタッチポイントの有無に関わらず商談」を選択します。
-   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ ]」に設定します。
+   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ &#x200B;]」に設定します。
 
    ![](assets/3-1.jpg)
 
@@ -44,4 +46,4 @@ ht-degree: 28%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
