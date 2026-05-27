@@ -23,8 +23,8 @@ ht-degree: 54%
 
 [!DNL Marketo Measure]から消費者データにアクセスして削除する個々のリクエストを送信するには、次の2つの方法があります。
 
-* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}を使用します。
-* **[!DNL Privacy Service]API**&#x200B;を使用します。 [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"}のドキュメントと[こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}の API リファレンスを参照してください。
+* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja){target="_blank"}を使用します。
+* **[!DNL Privacy Service]API**&#x200B;を使用します。 [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja){target="_blank"}のドキュメントと[こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}の API リファレンスを参照してください。
 
 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} では、データアクセスとデータ削除の 2 種類のリクエストがサポートされます。
 
