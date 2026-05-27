@@ -1,5 +1,5 @@
 ---
-description: Marketo Measure ユーザー向けJavaScript ガイダンスで収集されたデータ
+description: Marketo Measure ユーザー向けにJavaScript ガイダンスで収集されたデータ
 title: JavaScript で収集されるデータ
 feature: Tracking
 exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
@@ -40,9 +40,9 @@ Marketo Measure では、すべてのタイプのリクエストについて次�
 | --- | --- | --- | --- | --- |
 | ページビュー | `/ipv` | `_biz_r` | 文字列 | リファラーのページ URL。 |
 |  |  | `_biz_h` | 文字列 | ハッシュ化されたクライアントの画面解像度。 |
-|  |  | `_biz_c` | 文字列 | オプションのパラメーター。 このパラメーターが存在する場合は、追跡の前にユーザーの同意を待つように `bizible.js` を設定し、追跡されるユーザーの同意を `bizible.js` が受け取ったことを示しています。 |
+|  |  | `_biz_c` | 文字列 | オプションのパラメーター。 このパラメーターが存在する場合は、追跡する前にユーザーの同意を待つようにテナントが`bizible.js`を設定し、`bizible.js`が追跡するユーザーの同意を受信したことを示します。 |
 | フォーム送信 | `/frm` | `eMail` | 文字列 | プレーンテキストのメールアドレス。 |
-| ユーザー ID マッピング | `/u` | `mapType` | 列挙 | 検出され `bizible.js` ユーザー ID マッピングの種類（Marketo Munchkin ID とAdobe ECID） |
+| ユーザー ID マッピング | `/u` | `mapType` | 列挙 | 検出された`bizible.js`のユーザーID マッピングの種類（Marketo Munchkin IDおよびAdobe ECID） |
 |  |  | `mapValue` | 文字列 | 上記の統合の実際のサードパーティ cookie ID の値。 |
 
 >[!NOTE]

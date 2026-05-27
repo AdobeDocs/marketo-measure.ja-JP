@@ -1,5 +1,5 @@
 ---
-description: Marketo Measure ユーザー向けのAJAX フォーム処理ガイダンス
+description: Marketo Measure ユーザー向けAJAX フォーム処理ガイダンス
 title: AJAX フォームハンドリング
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
@@ -12,15 +12,15 @@ ht-degree: 1%
 
 # AJAX フォームハンドリング {#ajax-form-handling}
 
-[!DNL Marketo Measure] への顧客コンバージョンを手動でレポートするには、使用できるシンプルな API があります。 トラッキングコードを使用している場合、これらのJavaScript API は両方ともサイトで自動的に使用可能になります。 アクセスするために特別な操作を行う必要はありません。
+顧客のコンバージョンを[!DNL Marketo Measure]に手動で報告するには、使用できるシンプルなAPIがあります。 トラッキングコードがある場合、これらのJavaScript APIは両方とも、サイトで自動的に利用できます。 特別なアクセスは必要ありません。
 
 ## シナリオ 1 - AJAX送信を含むHTML フォーム {#scenario-html-form-with-an-ajax-submit}
 
-AJAX（または他のメカニズム）を含むフォームを使用して、クライアントから当社のサーバーにコンバージョン日を送信する場 [!DNL Marketo Measure]、当社がモニターする標準パスを通じてお客様のコンバージョンを認識できない場合があります。 このシナリオでは、（以下に示す）単純な API を使用できます。
+AJAXを含むフォームを使用して、クライアントから当社のサーバーにコンバージョン日を送信する場合、[!DNL Marketo Measure]は、当社が監視する標準パスを通じてお客様のコンバージョンを認識できない場合があります。 このシナリオでは、シンプルなAPIを使用できます（以下を参照）。
 
-独自のフォーム送信を処理する場合は、JavaScriptから明示的に [!DNL Marketo Measure] を呼び出すことができます。[!DNL Marketo Measure] は、フォームからすべての関連情報を収集し、サーバーに非同期で投稿します。
+独自のフォーム送信を処理する場合は、JavaScriptから[!DNL Marketo Measure]を明示的に呼び出すことができます。 [!DNL Marketo Measure]は、フォームからすべての関連情報を収集し、サーバーに非同期で投稿します。
 
-**以下は、JQuery を使用したコードサンプルです（フォームの ID が「formId」である場合）。**
+**以下は、JQueryを使用したコードサンプルです（フォームのIDが「formId」であると仮定）。**
 
 ```javascript
 ///////////////////////////////////////////////////////////////////////
@@ -31,7 +31,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
 Bizible.Push('Form',$('#*formId*'));
 ```
 
-**以下は、JQuery を使用しないコードサンプルです（フォームの ID が「formId」である場合）。**
+**以下は、JQueryを使用していないコードサンプルです（フォームのIDが「formId」であると仮定）。**
 
 ```javascript
 ///////////////////////////////////////////////////////////////////////
@@ -42,9 +42,9 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
 Bizible.Push('Form','MyFormID');
 ```
 
-## シナリオ 2 – 非HTML フォームで収集されたリード情報 {#scenario-lead-information-collected-in-a-non-html-form}
+## シナリオ 2 - HTML以外のフォームで収集されたリード情報 {#scenario-lead-information-collected-in-a-non-html-form}
 
-変換されたリードの情報を、JavaScriptまたは HTML フォームを含まないシンプルなテキストフィールドを使用して収集する場合、このソリューションは最適です。 このシナリオで使用する API を以下で共有します。
+コンバージョンしたリードの情報が、JavaScriptやhtml フォームのないシンプルなテキストフィールドを使用して収集される場合、このソリューションは有効です。 以下の共有は、このシナリオで使用するAPIです。
 
 ```javascript
 ///////////////////////////////////////////////////////////////////////
@@ -57,11 +57,11 @@ eMail: 'user@gmail.com' // required
 });
 ```
 
-このコードでは、「[!UICONTROL &#x200B; メール &#x200B;]」フィールドは必須です。[!DNL Marketo Measure] は、このデータをサーバーに非同期で投稿します。
+このコードでは、[!UICONTROL email] フィールドが必須です。 [!DNL Marketo Measure]は、このデータをサーバーに非同期で投稿します。
 
-## シナリオ 3 – ありがとうページからのユーザー情報のレポート {#scenario-report-user-information-from-the-thank-you-page}
+## シナリオ 3 – 感謝ページからユーザー情報を報告する {#scenario-report-user-information-from-the-thank-you-page}
 
-フォームを送信した後で、ありがとうページから [!DNL Marketo Measure] にリード情報を報告する方が便利な場合があります。 この情報をレポートする最も簡単な方法は、フォーム送信からの情報を保持するページに非表示の要素を追加 [!DNL Bizible.js] ることで、「ありがとうございました」ページが読み込まれたときに、この情報を読み取ります。
+場合によっては、フォームが送信された後で、お礼のページから[!DNL Marketo Measure]にリード情報を報告する方が便利です。 この情報を報告する最も簡単な方法は、フォーム送信の情報を保持するページに非表示の要素を追加することです。この情報は、「ありがとうございます」ページが読み込まれたときに[!DNL Bizible.js]によって読み取られます。
 
 **例：**
 
@@ -70,4 +70,4 @@ eMail: 'user@gmail.com' // required
 data-email="user@gmail.com">
 ```
 
-非表示の要素が div、script またはその他のタグタイプであるかどうかは関係ありません。[!DNL Marketo Measure] は、id=&quot;bizible.reportUser&quot;を探して情報を読み取ります。
+非表示の要素がdiv、スクリプト、またはその他のタグタイプのいずれであっても問題ありません。 [!DNL Marketo Measure]は、情報を読み取るためにid=&quot;bizible.reportUser&quot;を探します。
