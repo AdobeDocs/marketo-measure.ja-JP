@@ -4,12 +4,9 @@ title: プライバシーリクエスト
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
 TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2:
-  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 284
@@ -23,8 +20,8 @@ ht-degree: 54%
 
 [!DNL Marketo Measure]から消費者データにアクセスして削除する個々のリクエストを送信するには、次の2つの方法があります。
 
-* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=ja){target="_blank"}を使用します。
-* **[!DNL Privacy Service]API**&#x200B;を使用します。 [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=ja){target="_blank"}のドキュメントと[こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}の API リファレンスを参照してください。
+* [[!DNL Privacy Service] UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}を使用します。
+* **[!DNL Privacy Service]API**&#x200B;を使用します。 [こちら](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"}のドキュメントと[こちら](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}の API リファレンスを参照してください。
 
 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} では、データアクセスとデータ削除の 2 種類のリクエストがサポートされます。
 
@@ -65,7 +62,7 @@ ht-degree: 54%
 
 “regulation”：
 
-* **gdpr、**、**ccpa**、**pdpa**、**lgpd_bra**&#x200B;**nzpa_nzl** のいずれか（リクエストに適用されるプライバシー規則）
+* **gdpr、**、**ccpa**、**pdpa**、**lgpd_bra****nzpa_nzl** のいずれか（リクエストに適用されるプライバシー規則）
 
 ## 例 1：GDPR 削除リクエスト {#gdpr-delete-request}
 
