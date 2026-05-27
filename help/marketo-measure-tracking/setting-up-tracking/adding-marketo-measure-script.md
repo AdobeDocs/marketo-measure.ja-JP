@@ -5,11 +5,8 @@ title: ' [!DNL Marketo Measure]  スクリプトの追加'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
 TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1292
@@ -64,7 +61,7 @@ JavaScriptをページの`<head>`にハードコーディングすることで�
 
 サードパーティのページを使用している場合は、[!DNL Marketo Measure] コンサルタントとユースケースについて話し合います。 一般に、[!DNL Marketo Measure] JavaScriptのカスタムバージョンを追加して、必要に応じてこれらのページをトラッキングできるかどうかを確認する必要があります。 これが不可能な場合は、CRM Campaignのタッチポイントを介したトラッキングが[!DNL Marketo Measure] コンサルタントと共に検索されます。
 
-[!DNL Marketo Measure]がアトリビューションに対して必ずしも意味を持たないため、トラッキングすべきでないフォームはありますか（登録解除フォームや顧客ログインなど）? その場合は、この記事[&#128279;](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}の除外コード を各フォームに追加します
+[!DNL Marketo Measure]がアトリビューションに対して必ずしも意味を持たないため、トラッキングすべきでないフォームはありますか（登録解除フォームや顧客ログインなど）? その場合は、この記事](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}の除外コード [を各フォームに追加します
 
 セキュリティで保護されていないページはありますか？ 安全なページと安全でないページの間を移動すると、トラッキングセッションが壊れるので、それらを保護する必要があります。
 

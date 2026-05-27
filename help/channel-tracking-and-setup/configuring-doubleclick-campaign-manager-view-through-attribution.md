@@ -1,5 +1,5 @@
 ---
-description: Marketo Measure ユーザー向けの Doubleclick Campaign Manager ビュースルー属性ガイダンスの設定
+description: Marketo Measure ユーザー向けのアトリビューションガイダンスによるDoubleclick Campaign Manager ビューの設定
 title: Doubleclick Campaign Manager ビュースルーアトリビューションの設定
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
@@ -20,50 +20,50 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] と [!DNL DoubleClick Campaign Manager] の統合を使用している場合は、[API 接続が必要なので &#x200B;](/help/api-connections/integrated-ad-platforms.md) 広告を解決するキャンペーンとクリエイティブの詳細をダウンロードできます。
+>[!DNL Marketo Measure]と[!DNL DoubleClick Campaign Manager]の統合を使用している場合は、広告を解決するためにキャンペーンとクリエイティブの詳細をダウンロードできるように、[API接続](/help/api-connections/integrated-ad-platforms.md)が必要です。
 
-[!DNL Doubleclick Campaign Manager] を使用したトラッキングを通じて、ビューからより詳細なinsightを取得するには、トラッキングピクセルを設定する必要があります。
+[!DNL Doubleclick Campaign Manager]を使用したトラッキングを通じて、表示からより詳細なinsightの取得を開始するには、トラッキングピクセルを設定する必要があります。
 
-[!DNL Marketo Measure] ビュースルーアトリビューション機能について詳しくは、[Marketo Measure ビュースルーアトリビューションに関する FAQ](/help/channel-tracking-and-setup/marketo-measure-view-through-attribution-faq.md) を参照してください。
+[!DNL Marketo Measure] ビュースルーアトリビューション機能について詳しくは、[Marketo Measure ビュースルーアトリビューション FAQ](/help/channel-tracking-and-setup/marketo-measure-view-through-attribution-faq.md)を参照してください。
 
-[!DNL Marketo Measure] は、DCM 広告タグを介したサードパーティの呼び出しであるため、ピギーバックタグと見なされます。 ピギーバックタグは、画像タグでは機能しません。iframe タグまたは JavaScript タグのみです。 DCM サポートによると、これは最近変更されておらず、常にそうでした。 標準タグは 2017 年 10 月 2 日（PT）に非推奨（廃止予定）となりましたが、インプレッション数を追跡する [!DNL Marketo Measure] の機能には影響しません。
+[!DNL Marketo Measure]はDCM広告タグを介したサードパーティ呼び出しであるため、ピギーバック タグと見なされます。 Piggyback タグは画像タグでは機能せず、iframeまたはjavascript タグのみです。 DCM サポートによると、これは最近変わっておらず、常にそうでした。 標準タグは2017年10月2日に廃止されましたが、[!DNL Marketo Measure]のインプレッションの追跡機能には影響しません。
 
-DCM で親子階層を使用する場合は、インプレッショントラッキングのためにすべてのレベルにタグを適用する必要があります。
+DCMで親子階層を使用する場合は、インプレッションの追跡のために、すべてのレベルにタグを適用する必要があります。
 
 ## 画像タグの追加方法 {#how-to-add-the-image-tag}
 
-広告主設定の下の Doubleclick にタグを追加し、インプレッションイベントタグを作成します。
+広告主設定の下にあるDoubleclickにタグを追加し、インプレッションイベントタグを作成します。
 
-1. 次のコードを 1 x 1 画像ピクセルとして追加します。
+1. 次のコードを1x1の画像ピクセルとして追加します。
 
 `https://cdn.bizibly.com/i?v=%eadv!&a=%eaid!&c=%ecid!&s=%esid!&p=%epid!&m=%m&n=%n`
 
-1. 追加したら、次のように区切り文字がマッピングされていることを確認します。 タグを適用したら、これは自動的に行われます。
+1. 追加したら、区切り記号が次のようにマッピングされていることを確認します。 タグが適用されると、これは自動的に行われます。
 
-   v = %eadv![!DNL Expand] 広告主 Id\
-   a = %eaid! 広告 Id を展開\
-   c = %ecid! Creative Id を展開\
-   s = %esid! サイト Id を展開\
-   p = %epid! プレースメント Id を展開\
-   m = %m マッチ コード マクロ\
-   n = %n 乱数マクロ
+   v = %eadv![!DNL Expand] 広告主ID\
+   a = %eaid! 広告IDを展開\
+   c = %ecid! Creative IDを展開\
+   s = %esid! サイト IDを展開\
+   p = %epid! プレースメント IDを展開\
+   m = %m Match Code マクロ\
+   n = %n乱数マクロ
 
-   ![n = %n 乱数マクロ &#x200B;](assets/view-attribution-1.png)
+   ![n = %nの乱数マクロ ](assets/view-attribution-1.png)
 
 ## よくある質問 {#faq}
 
-**Q：画像タグは保護されていますか？**
+**Q：画像タグは安全ですか？**
 
-A：はい。 JavaScript タグではなく、画像タグです。
+A：はい。 JavaScriptのタグではなく、画像のタグです。
 
-**Q：接続されたユーザーに必要な権限を教えてください。**
+**Q：接続されたユーザーに必要な権限は何ですか？**
 
-A:dfatrafficking、dfareporting、userinfo.email
+A: dfatrafficking、dfareporting、userinfo.email
 
-**Q：費用データのインポートにはどの程度の時間がかかりますか？**
+**Q：支出データの読み込みにどのくらいの時間がかかりますか？**
 
-A：最大 6 時間
+A:6時間まで
 
-**Q：広告データのインポートにはどの程度の時間がかかりますか？**
+**Q：広告データの読み込みにどのくらいの時間がかかりますか？**
 
-A：最大 6 時間
+A:6時間まで

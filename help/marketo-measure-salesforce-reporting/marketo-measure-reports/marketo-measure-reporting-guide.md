@@ -4,12 +4,8 @@ title: '[!DNL Marketo Measure] レポートガイド'
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 TQID: https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 5685
@@ -23,7 +19,7 @@ ht-degree: 3%
 >
 >ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-[!DNL Marketo Measure] レポートを作成する前に、[!DNL Marketo Measure] アカウント設定がレビューおよび設定されていることを確認して、レポート内のデータが正確であること、およびビジネスの詳細が反映されていることを確認することが最も重要です。 さらに、レポートプロジェクトは、構造化されたプロセスに従うことで最も効果を発揮します。 [Perkuto](https://perkuto.com/){target="_blank"}の[!DNL Marketo Measure]人のパワーユーザー、支持者およびパートナーであるJustin Norrisは、[&#x200B; レポートにアプローチする方法 [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}を巧みにまとめました。
+[!DNL Marketo Measure] レポートを作成する前に、[!DNL Marketo Measure] アカウント設定がレビューおよび設定されていることを確認して、レポート内のデータが正確であること、およびビジネスの詳細が反映されていることを確認することが最も重要です。 さらに、レポートプロジェクトは、構造化されたプロセスに従うことで最も効果を発揮します。 [Perkuto](https://perkuto.com/){target="_blank"}の[!DNL Marketo Measure]人のパワーユーザー、支持者およびパートナーであるJustin Norrisは、[ レポートにアプローチする方法 [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/){target="_blank"}を巧みにまとめました。
 
 **目標を設定**:「最初に尋ねる質問は、『なぜ測定するのか』です。 [Forrester Research](https://go.forrester.com/)のLori Wizdo氏は、[Marketoのウェビナー](https://www.marketo.com/webinars/beyond-revenue-performance-real-kpis-of-b2b-marketing/){target="_blank"}で、この点を簡潔にまとめました。 「私たちは、意思決定やマーケティングの価値を証明または検証したり、より良い（プロセス改善）を実現するために測定します。 優れた測定から得られるインサイトは、マーケティング計画プロセスに役立つインサイトをもたらします。
 
@@ -42,7 +38,7 @@ ht-degree: 3%
 1. **購入者のタッチポイント** （BT） / 個人/合計エンゲージメント
 
    * _個の個人_ （リード、取引先責任者、[!DNL Marketo Measure]人）に関連する「funnelのトップ」指標およびレポートに一般的に使用されます
-   * BTは、各人物の完全なタッチポイント履歴が含まれているため、**人物**&#x200B;に関連するすべてのマーケティングインタラクションを把握するために使用されます。 これらの顧客接点は、匿名のファーストタッチ、リード作成タッチ、後続のフォーム送信または同期する顧客接点のためにCRMで作成されます
+   * BTは、各人物の完全なタッチポイント履歴が含まれているため、**人物**に関連するすべてのマーケティングインタラクションを把握するために使用されます。 これらの顧客接点は、匿名のファーストタッチ、リード作成タッチ、後続のフォーム送信または同期する顧客接点のためにCRMで作成されます
 オフラインのキャンペーンやアクティビティ。
 
 1. **バイヤーアトリビューションタッチポイント** （BAT）/商談/アカウントレベル/収益
@@ -74,7 +70,7 @@ Buyer Touchpoint（BT）は、顧客がマーケティング資料に対して�
 
 主に、企業は「リード/コンタクトはどこから来ているのか？」を把握する必要があります。 従来、これは1次元の値（例えば、リードSource）で回答されていました。 しかし、先#1と#2で説明したように、リードは、リードになる過程で複数の顧客接点を持つ可能性があります。 Adobe Buyer Touchpointを使用すれば、insightでリードの生成方法を表す最も重要な2つのインタラクション、すなわち「ファーストタッチ」と「リード作成」タッチを把握できます。 バイヤータッチポイントも&#x200B;_多次元_&#x200B;です。つまり、大量のマーケティングデータを保持し、主にその人物の出身地（マーケティングチャネル）、その人物がエンゲージした内容（コンテンツ）を示します。
 
-ピープルベースの指標に最適なinsightを提供する[&#x200B; アトリビューションモデル &#x200B;](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"}は次のとおりです。
+ピープルベースの指標に最適なinsightを提供する[ アトリビューションモデル ](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"}は次のとおりです。
 
 * **ファーストタッチ** - リードのファーストタッチ （FT）に対する100%のアトリビューションクレジット
 * **リード作成** - リードのリード作成タッチ （LC）に対する100%のアトリビューションクレジット
@@ -449,7 +445,7 @@ Salesforceには、人物に関連する指標をレポートする際に非常�
 
 >[!TIP]
 >
->「0&rbrace;人のリード」レポートタイプの場合は、最初に「**[!DNL Marketo Measure]101 | チャネル別リード/取引先責任者**」というタイトルの事前定義済みレポートをカスタマイズします。 [!DNL Marketo Measure]このレポートは、すぐに利用でき、[!DNL Marketo Measure]人ベースの素晴らしいサンドボックスです。 あらかじめ構築されており、より特定のレポートのニーズに合わせて迅速にカスタマイズすることができます。
+>「0}人のリード」レポートタイプの場合は、最初に「**[!DNL Marketo Measure]101 | チャネル別リード/取引先責任者**」というタイトルの事前定義済みレポートをカスタマイズします。 [!DNL Marketo Measure]このレポートは、すぐに利用でき、[!DNL Marketo Measure]人ベースの素晴らしいサンドボックスです。 あらかじめ構築されており、より特定のレポートのニーズに合わせて迅速にカスタマイズすることができます。
 
 >[!TIP]
 >
@@ -508,7 +504,7 @@ _このレポートは、[!DNL Marketo Measure]がデジタルで追跡できる
 * [オンラインカスタムチャネル設定](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}
 * [オフラインカスタムチャネル設定](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md){target="_blank"}
 
-基本的に、タッチポイントデータは[!DNL Marketo Measure]によって追跡されたものを反映し、UTM パラメーター値、参照ページ、キャンペーンタイプなどに基づいて設定が入力と一致することを確認するために監査できます。 タッチポイントデータが設定と一致しない場合は、何らかの調整が必要になる可能性があります。 「マーケティングチャネル」の設定以外でも、タッチポイントデータを確認して、[抑制](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)または[&#x200B; セグメント化](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}する必要があるタッチポイントを判断できます。 可能であれば、各月または四半期の終わりに、&#39;[!DNL Marketo Measure] Person and Buyer Touchpoints&#39; レポート内のタッチポイントデータを監査することをお勧めします。 これにより、アトリビューションが可能な限り正確なものになります。 すぐに使用できる「[!DNL Marketo Measure] 101 | チャネル別リード/取引先責任者」レポートを利用することをお勧めします。 次のフィールドは、構成の最も重要な部分を確認するために、まだ含まれていない場合に含めます。
+基本的に、タッチポイントデータは[!DNL Marketo Measure]によって追跡されたものを反映し、UTM パラメーター値、参照ページ、キャンペーンタイプなどに基づいて設定が入力と一致することを確認するために監査できます。 タッチポイントデータが設定と一致しない場合は、何らかの調整が必要になる可能性があります。 「マーケティングチャネル」の設定以外でも、タッチポイントデータを確認して、[抑制](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)または[ セグメント化](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}する必要があるタッチポイントを判断できます。 可能であれば、各月または四半期の終わりに、&#39;[!DNL Marketo Measure] Person and Buyer Touchpoints&#39; レポート内のタッチポイントデータを監査することをお勧めします。 これにより、アトリビューションが可能な限り正確なものになります。 すぐに使用できる「[!DNL Marketo Measure] 101 | チャネル別リード/取引先責任者」レポートを利用することをお勧めします。 次のフィールドは、構成の最も重要な部分を確認するために、まだ含まれていない場合に含めます。
 
 * **マーケティングチャネル** - パス = マーケティングチャネル。サブチャネル （[!DNL Marketo Measure]で設定された値）
 * **タッチポイント Source** = utm_source
@@ -529,7 +525,7 @@ BATの主な関係が商談と関連していることを考慮すると、次�
 * 各マーケティングチャネルにどの程度の新しいパイプライン売上を関連付けることができますか？
 * 前四半期のROIが最も高かったキャンペーンは？
 
-商談ベースの指標に最適なinsightを提供する[&#x200B; アトリビューションモデル &#x200B;](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"}は次のとおりです。
+商談ベースの指標に最適なinsightを提供する[ アトリビューションモデル ](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"}は次のとおりです。
 
 **W字型** - &#39;_パイプラインモデル_&#39;。 W字型モデルには、3つのマイルストーンタッチポイントが含まれています。 このモデルでは、FT、LC および OC タッチポイントにそれぞれアトリビューションクレジットの 30％が割り当てられます。 残りの10%は、3つのマイルストーンの顧客接点の間で発生した中間接点にも同様に起因します。
 
