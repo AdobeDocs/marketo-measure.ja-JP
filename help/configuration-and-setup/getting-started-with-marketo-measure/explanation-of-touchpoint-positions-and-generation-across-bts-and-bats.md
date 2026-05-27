@@ -4,10 +4,8 @@ title: BT と [!DNL BATs] にわたる Touchpoint の位置と生成の説明
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
 TQID: https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 792
@@ -19,7 +17,7 @@ ht-degree: 3%
 
 **バイヤージャーニーを通じたタッチポイントのポジションとフローの生成**
 
-Buyer Touchpointの位置とそのトリガー方法を理解することは、[!DNL Marketo Measure] データを使用してレポートを正常に作成するために重要です。 見込み客がバイヤーズジャーニーを進む中で何をしたか、そしてタッチポイントデータでどのような表示になるかを明確に把握する必要があります。 このトピックに関する詳細なコンテキストについては、[[!UICONTROL &#x200B; タッチポイント生成とマッピング &#x200B;]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)記事を確認することをお勧めします。
+Buyer Touchpointの位置とそのトリガー方法を理解することは、[!DNL Marketo Measure] データを使用してレポートを正常に作成するために重要です。 見込み客がバイヤーズジャーニーを進む中で何をしたか、そしてタッチポイントデータでどのような表示になるかを明確に把握する必要があります。 このトピックに関する詳細なコンテキストについては、[[!UICONTROL  タッチポイント生成とマッピング ]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)記事を確認することをお勧めします。
 
 [!DNL Marketo Measure]には、バイヤーズジャーニーの様々なステップによってトリガーされる、様々なタッチポイントのポジションがあります。 [!DNL Marketo Measure] データに関するレポートには、Buyer Touchpoints （BT）とBuyer Attribution Touchpoints （BAT）の2つのタッチポイントデータがあります。 これらのデータセットは、オブジェクトに関連する位置が少し異なります。 このトピックに関する詳細なコンテキストについては、[購入者のタッチポイント （BT）と購入者のアトリビューションのタッチポイント （BAT）の違い](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)の記事を確認することをお勧めします。
 

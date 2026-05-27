@@ -5,10 +5,8 @@ title: ' [!DNL Marketo Measure] AdWords のタグ付けについて'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
 TQID: https://experienceleague.adobe.com/k-rj5kIrgNp4ZebSopI3pwMVMn4lepWsLlpI8-nkoMk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2:
-  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 616
@@ -33,7 +31,7 @@ ht-degree: 7%
 **[!DNL Marketo Measure]がトラッキングテンプレートを見つけた場合：**
 
 * [!DNL Marketo Measure]がトラッキングテンプレートにパラメーターを追加します。
-* KenshooやMarinなどのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、[!DNL Marketo Measure]はアクションを実行しません。 代わりに、[&#x200B; アカウントのサードパーティツールに [!DNL Marketo Measure]  パラメーターを追加](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}する必要があります。
+* KenshooやMarinなどのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、[!DNL Marketo Measure]はアクションを実行しません。 代わりに、[ アカウントのサードパーティツールに [!DNL Marketo Measure]  パラメーターを追加](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}する必要があります。
 
 ただし、トラッキングテンプレートが見つからない場合、[!DNL Marketo Measure]は次の操作を行います。
 
@@ -46,7 +44,7 @@ ht-degree: 7%
 
 ## トラッキングテンプレート {#tracking-templates}
 
-[!DNL Google AdWords]が説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用されるURLです。 収集された追跡情報は、広告トラフィックを把握するために使用されます。 Googleの詳細については、[ここをクリック &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"}してください。
+[!DNL Google AdWords]が説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用されるURLです。 収集された追跡情報は、広告トラフィックを把握するために使用されます。 Googleの詳細については、[ここをクリック ](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"}してください。
 
 [!DNL Marketo Measure]では、広告履歴の中断や削除のリスクを回避して、すべての広告のパラメーターの追加と削除を可能にするため、アカウントレベル、キャンペーンレベル、または広告グループレベルの追跡テンプレートを使用することをお勧めします。
 
@@ -118,6 +116,6 @@ A: 4時間
 
 >[!NOTE]
 >
->変更が行われたら、完了です。 設定中にご質問がある場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお気軽にお問い合わせください。
+>変更が行われたら、完了です。 設定中にご質問がある場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお気軽にお問い合わせください。
 
-アカウントレベルのトラッキングテンプレートの作成方法については、[ここをクリック &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}してGoogleの手順を参照してください。
+アカウントレベルのトラッキングテンプレートの作成方法については、[ここをクリック ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}してGoogleの手順を参照してください。
