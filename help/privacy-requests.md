@@ -59,7 +59,7 @@ ht-degree: 53%
 
 “regulation”：
 
-* **gdpr、**、**ccpa**、**pdpa**、**lgpd_bra****nzpa_nzl** のいずれか（リクエストに適用されるプライバシー規則）
+* **gdpr、**、**ccpa**、**pdpa**、**lgpd_bra**&#x200B;**nzpa_nzl** のいずれか（リクエストに適用されるプライバシー規則）
 
 ## 例 1：GDPR 削除リクエスト {#gdpr-delete-request}
 

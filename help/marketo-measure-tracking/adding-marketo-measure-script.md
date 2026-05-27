@@ -58,7 +58,7 @@ JavaScriptをページの`<head>`にハードコーディングすることで�
 
 サードパーティのページを使用している場合は、[!DNL Marketo Measure] コンサルタントとユースケースについて話し合います。 一般に、[!DNL Marketo Measure] JavaScriptのカスタムバージョンを追加して、必要に応じてこれらのページをトラッキングできるかどうかを確認する必要があります。 これが不可能な場合は、CRM Campaignのタッチポイントを介したトラッキングが[!DNL Marketo Measure] コンサルタントと共に検索されます。
 
-[!DNL Marketo Measure]がアトリビューションに対して必ずしも意味を持たないため、トラッキングすべきでないフォームはありますか（登録解除フォームや顧客ログインなど）? その場合は、この記事](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}の除外コード [を各フォームに追加します
+[!DNL Marketo Measure]がアトリビューションに対して必ずしも意味を持たないため、トラッキングすべきでないフォームはありますか（登録解除フォームや顧客ログインなど）? その場合は、この記事[&#128279;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}の除外コード を各フォームに追加します
 
 セキュリティで保護されていないページはありますか？ 安全なページと安全でないページの間を移動すると、トラッキングセッションが壊れるので、それらを保護する必要があります。
 
