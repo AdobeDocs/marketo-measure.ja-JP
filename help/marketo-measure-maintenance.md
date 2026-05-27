@@ -6,7 +6,7 @@ feature: Tracking
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 
 **追跡するドメインのリストの更新（1 回／月）**
 
-Marketo Measure は、JavaScript がアクティブになっているすべてのページとサブドメインを追跡しますが、対象となるのは既知のドメインのみです。 最近新しいドメインをデバッグした場合、国際的に展開された場合、またはプライマリドメインを変更した場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} に連絡して、アカウントを適切に更新するようにしてください。
+Marketo Measure は、JavaScript がアクティブになっているすべてのページとサブドメインを追跡しますが、対象となるのは既知のドメインのみです。 最近、新しいドメインをデビューした場合、国際的に拡張した場合、またはプライマリドメインを変更した場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}に連絡して、アカウントが適切に更新されていることを確認してください。
 
 **カスタムチャネルマッピングの精度の確認（1 回／月）**
 
@@ -42,7 +42,7 @@ Marketo Measure は、JavaScript がアクティブになっているすべて�
 
 **タッチポイント抑制設定の評価（1 回／四半期）**
 
-アトリビューションストーリーで考慮しないタッチポイントが（[!DNL Login] や [!DNL Unsubscribe forms]、採用ページ、社内アプリなどから）多数表示されている場合、既存のタッチポイント抑制設定を評価することをお勧めします。 四半期に 1 回、不要なノイズを発生させているタッチポイントのグループを特定し、抑制ロジックを適切に更新します。[ハウツーに関する役立つ記事 &#x200B;](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) こちらをご覧ください。
+アトリビューションストーリーで考慮しないタッチポイントが（[!DNL Login] や [!DNL Unsubscribe forms]、採用ページ、社内アプリなどから）多数表示されている場合、既存のタッチポイント抑制設定を評価することをお勧めします。 四半期に 1 回、不要なノイズを生成しているタッチポイントのグループを特定し、抑制ロジックを適切に更新します。 ハウツーを含む[役立つ記事はこちらです](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md)。
 
 **カスタムステージマッピングの精度の確認（1 回／四半期）（該当する場合）**
 

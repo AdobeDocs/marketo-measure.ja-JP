@@ -1,5 +1,5 @@
 ---
-description: '''[!DNL Marketo Measure] Ultimateのデータ整合性要件 –  [!DNL Marketo Measure]'''
+description: '''[!DNL Marketo Measure] Ultimate データ整合性の要件 –  [!DNL Marketo Measure]'''
 title: '[!DNL Marketo Measure] Ultimate のデータ整合性要件'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
@@ -13,7 +13,7 @@ ht-degree: 76%
 
 # [!DNL Marketo Measure] Ultimate のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] は、受信AEP データセットを検証して、アトリビューションに適した十分なデータが一貫性を持っていることを確認します。 データ整合性要件を満たすことができないと、データセットが [!DNL Marketo Measure] システムによって拒否されます。 この記事では、データ整合性要件について詳しく説明し、データ検査のクエリ例を示し、null 値を含む必須フィールドのソリューションを推奨します。
+[!DNL Marketo Measure]は、取り込まれたAEP データセットを検証して、データがアトリビューションに十分で一貫性のあるものであることを確認します。 データ整合性要件を満たすことができないと、データセットが[!DNL Marketo Measure] システムによって拒否されます。 この記事では、データ統合要件の詳細、データ検査のクエリ例、null値を持つ必須フィールドのソリューションについて説明します。
 
 ## エンティティオブジェクト {#entity-object}
 
@@ -268,7 +268,7 @@ ht-degree: 76%
       <td>リード ID または取引先責任者 ID</td>
       <td>はい</td>
       <td>
-        <p>E.g. - 333、データソーステーブルに応じて、これはリード ID または連絡先 ID です。</p>
+        <p>E.g. - 333、データソーステーブルに応じて、これはリード IDまたは連絡先IDです。</p>
         <p>リードまたは取引先責任者への外部キー</p>
       </td>
     </tr>
@@ -374,7 +374,7 @@ ht-degree: 76%
       <td>文字列</td>
       <td>ID</td>
       <td>はい</td>
-      <td>例：333 は、データソーステーブルに応じて、リード ID または連絡先 ID のどちらかです</td>
+      <td>例 – 333は、データソーステーブルに応じて、リード IDまたは連絡先IDです</td>
     </tr>
     <tr>
       <td></td>
@@ -888,16 +888,16 @@ ht-degree: 76%
   </tbody>
 </table>
 
-## 通貨換算データの要件 {#currency-conversion-data-requirements}
+## 通貨コンバージョンデータ要件 {#currency-conversion-data-requirements}
 
-**デフォルト通貨**:Marketo Measureでは、すべての売上高とコストがレポート時にデフォルト通貨に変換されます。 ターゲット通貨自体に対して日付適用範囲が同じ（例：米ドルから米ドル） 1 つのレコードが必要で、コンバージョン率は 1 である必要があります。
+**既定の通貨**: Marketo Measureでは、すべての収益とコストがレポート時に既定の通貨に変換されます。 コンバージョン率が1の、ターゲット通貨自体に対して同じ日付カバレッジ（USDからUSDなど）を持つ1つのレコードが必要です。
 
-**コンバージョンレート**：各（ソース通貨、ターゲット通貨）ペアに、異なる日付範囲に対して複数のコンバージョンレートを設定できます。 料金は、Salesforceの DatedConversionRate オブジェクトに従って、0001-01-01 から 9999-12-31 までの全期間をカバーする必要があります。
+**コンバージョン率**：各（ソース通貨、ターゲット通貨）ペアは、異なる日付期間に複数のコンバージョン率を持つことができます。 Salesforce DatedConversionRate オブジェクトに従って、0001-01-01から9999-12-31までの全期間をレートでカバーする必要があります。
 
 **日付範囲**:
 
-* 設定されたレート（ソース通貨、ターゲット通貨）内に重複する日付範囲がありません（例：2023-01-01 ～ 2023-02-01 および 2023-01-01 ～ 2024-01-01）。
-* 日付範囲間にギャップはありません。 開始日はその日を含み、終了日はその日を含みません。
+* 重複する日付範囲が設定された（ソース通貨、ターゲット通貨）レート内にない（例：2023-01-01～2023-02-01、2023-01-01～2024-01-01）。
+* 日付範囲にギャップはありません。 開始日は含まれ、終了日は排他的です。
 
 ## ExperienceEvent {#experienceevent}
 
@@ -957,7 +957,7 @@ ht-degree: 76%
       <td>リード ID または取引先責任者 ID</td>
       <td>はい</td>
       <td>
-        <p>E.g. - 333、データソーステーブルに応じて、これはリード ID または連絡先 ID です。</p>
+        <p>E.g. - 333、データソーステーブルに応じて、これはリード IDまたは連絡先IDです。</p>
         <p>リードまたは取引先責任者への外部キー</p>
       </td>
     </tr>
@@ -1117,7 +1117,7 @@ ht-degree: 76%
   </tbody>
 </table>
 
-上記の表でサポートされていないイベントタイプに対して、「関心を引くモーメント」イベントタイプを使用します。 サブタイプ「興味深い瞬間」を示すカスタムフィールドを追加します。
+上記の表でサポートされていないイベントタイプに対して、「関心を引くモーメント」イベントタイプを使用します。 サブタイプ「注目のアクション」を示すカスタムフィールドを追加します。
 
 ## データ検査のクエリ例 {#query-examples-for-data-inspection}
 
@@ -1377,8 +1377,8 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 
 フィールドマッピングで計算フィールドを使用して、フィールドをデフォルトで NULL 以外の値に設定することをお勧めします。 次に 2 つの例を示します。
 
-* 一部の商談レコードの `opportunityName` が null の場合、フィールドマッピングで次の計算フィールドを作成して使用します
+* 一部の商談レコードの`opportunityName`がnullの場合、フィールドマッピングで次の計算フィールドを作成して使用します
    * `iif(name != null && trim(name) != "", name, "Unknown")`
 
-* 一部のエクスペリエンスイベントレコードの `leadOperation.campaignProgression.campaignID` が null の場合、フィールドマッピングで次の計算フィールドを作成して使用します
+* 一部のエクスペリエンスイベントレコードの`leadOperation.campaignProgression.campaignID`がnullの場合は、フィールドマッピングで次の計算フィールドを作成して使用します
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
