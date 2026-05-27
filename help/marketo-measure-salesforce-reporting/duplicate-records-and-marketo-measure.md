@@ -22,7 +22,7 @@ ht-degree: 12%
 
 _レポートの例：[!DNL Marketo Measure]購入者のタッチポイントを持つ人物。_
 
-![ レポートの例：購入者のタッチポイントを持つMarketo Measure ユーザー。](assets/additional-functionality-1.png)
+![&#x200B; レポートの例：購入者のタッチポイントを持つMarketo Measure ユーザー。](assets/additional-functionality-1.png)
 
 kelsey@adobe.comの[!DNL Marketo Measure]人IDを確認すると、そのメールアドレスに存在するリードと連絡先の両方があることがわかります。 このレポートでは、2つのファーストタッチ、2つのリード作成タッチ、2つのPostLC インタラクションが報告されています。 これらの重複したレコードは、タッチポイントの日付とタッチポイント情報を共有し、同じ人物であっても2人の異なる人物であるという結論に至る可能性があります。
 

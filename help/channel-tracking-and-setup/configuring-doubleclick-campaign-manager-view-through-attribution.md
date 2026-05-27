@@ -48,7 +48,7 @@ DCMで親子階層を使用する場合は、インプレッションの追跡�
    m = %m Match Code マクロ\
    n = %n乱数マクロ
 
-   ![n = %nの乱数マクロ ](assets/view-attribution-1.png)
+   ![n = %nの乱数マクロ &#x200B;](assets/view-attribution-1.png)
 
 ## よくある質問 {#faq}
 
