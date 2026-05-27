@@ -30,17 +30,17 @@ ht-degree: 8%
 
 ## タッチポイント日付の一括更新 {#bulk-update-touchpoint-date}
 
-[!DNL Salesforce]では、キャンペーンメンバーオブジェクトの「作成日」フィールドに、キャンペーンメンバーがキャンペーンに追加された日付が記録されます。 同期プロセスをスムーズに実行するには、Buyer Touchpointの日付フィールドにSalesforce Campaign メンバーオブジェクトの日付と同じ日付が設定されていることを確認します。 この手順は、「[!UICONTROL  タッチポイントの一括更新ボタン ]」、「_before_」を使用して実行されます。「購入者のタッチポイントを有効にする」フィールドで「[!UICONTROL  ピックリスト ]」オプションを選択します。
+[!DNL Salesforce]では、キャンペーンメンバーオブジェクトの「作成日」フィールドに、キャンペーンメンバーがキャンペーンに追加された日付が記録されます。 同期プロセスをスムーズに実行するには、Buyer Touchpointの日付フィールドにSalesforce Campaign メンバーオブジェクトの日付と同じ日付が設定されていることを確認します。 この手順は、「[!UICONTROL &#x200B; タッチポイントの一括更新ボタン &#x200B;]」、「_before_」を使用して実行されます。「購入者のタッチポイントを有効にする」フィールドで「[!UICONTROL &#x200B; ピックリスト &#x200B;]」オプションを選択します。
 
 なぜこれが重要なのでしょうか？ 貴社が1月のカンファレンスでブースをスポンサーしたとします。 会議では、100人の従業員が製品に関心を示し、連絡先情報を提供してメールで最新情報を受け取りました。 3週間後、会議の結果を追跡するためのキャンペーンを[!DNL Salesforce]でついに作成しました。
 
-アップロード日は、カンファレンス日より3週間後になります。 この違いを修正するには、[!UICONTROL  タッチポイントの一括更新] ボタンを使用して、適切な日付を設定できます。 ボタンは下の画像に描かれています。
+アップロード日は、カンファレンス日より3週間後になります。 この違いを修正するには、[!UICONTROL &#x200B; タッチポイントの一括更新] ボタンを使用して、適切な日付を設定できます。 ボタンは下の画像に描かれています。
 
-![ アップロード日は、会議日より3週間遅くなります。](assets/dynamics-lists-1.png)
+![&#x200B; アップロード日は、会議日より3週間遅くなります。](assets/dynamics-lists-1.png)
 
 この場合、アップロード日を3週間バックフィルします。 この手順は、「[!UICONTROL 購入者のタッチポイントを有効にする]」フィールドを設定する前に実行する必要があります。
 
-要約すると、「[!UICONTROL  タッチポイントの一括更新]」ボタンを使用してタッチポイントの日付をイベントの日付に変更すると、[!DNL Marketo Measure]はアップロードの日付ではなく、イベントの実際の日付のタッチポイントを生成します。
+要約すると、「[!UICONTROL &#x200B; タッチポイントの一括更新]」ボタンを使用してタッチポイントの日付をイベントの日付に変更すると、[!DNL Marketo Measure]はアップロードの日付ではなく、イベントの実際の日付のタッチポイントを生成します。
 
 また、既存のキャンペーンのすべてのキャンペーンメンバーの日付を更新することもできます。 これを行う場合、タッチポイントの日付がメンバーのインタラクションの日付であることを確認してください。 「Buyer Touchpointの一括更新日」をクリックし、必要に応じてキャンペーンメンバーのリストをフィルタリングします。キャンペーンメンバーのリストの上にある「[!UICONTROL 日付を選択]」オプションで、イベントが発生した日付と同じ日付を追加します。
 
@@ -52,11 +52,11 @@ ht-degree: 8%
 
 ## キャンペーンを作成し、購入者のタッチポイントを同期する方法 {#how-to-create-a-campaign-and-sync-buyer-touchpoints}
 
-[!DNL Salesforce]でキャンペーンを作成するには、「[!UICONTROL  キャンペーン ]」タブに移動し、下の画像に示すように「[!UICONTROL 新規]」を選択します。 [!DNL Salesforce]の設定によっては、プラス（+）アイコンをクリックしてCampaignsを上部バーに追加する必要がある場合があります。
+[!DNL Salesforce]でキャンペーンを作成するには、「[!UICONTROL &#x200B; キャンペーン &#x200B;]」タブに移動し、下の画像に示すように「[!UICONTROL 新規]」を選択します。 [!DNL Salesforce]の設定によっては、プラス（+）アイコンをクリックしてCampaignsを上部バーに追加する必要がある場合があります。
 
-![Salesforceでキャンペーンを作成するには、キャンペーン ](assets/dynamics-lists-2.png)に移動します
+![Salesforceでキャンペーンを作成するには、キャンペーン &#x200B;](assets/dynamics-lists-2.png)に移動します
 
-このキャンペーンを作成する際に、「[!UICONTROL  バイヤータッチポイントを有効にする]」フィールドをクリックし、選択リストから次のいずれかのオプションを選択します。
+このキャンペーンを作成する際に、「[!UICONTROL &#x200B; バイヤータッチポイントを有効にする]」フィールドをクリックし、選択リストから次のいずれかのオプションを選択します。
 
 ![このキャンペーンを作成する際に、「購入者のタッチポイントを有効にする」をクリックします。](assets/dynamics-lists-3.png)
 
@@ -73,6 +73,6 @@ ht-degree: 8%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->[[!DNL Marketo Measure]  チュートリアル：Campaign オブジェクトフィールド ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Campaign オブジェクトフィールド &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}

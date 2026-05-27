@@ -15,7 +15,7 @@ ht-degree: 80%
 
 UTM パラメーターは、マーケティングデータをスライスしてデータを多角的に分析する優れた方法です。 [!DNL Marketo Measure] は、すべての UTM パラメーターを使用して取り込み、Salesforce および [!DNL Marketo Measure] アプリのフィールドに値を入力します。 この情報を使用すると、リード、商談、クローズ／獲得した契約の発信元を詳細に把握できます。
 
-[Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}を使用してUTM パラメーターを設定し、マーケティング活動のリンクに追加できます。 すべてのUTM リンクをより簡単に追跡する方法が必要な場合は、この[Google スプレッドシート ](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}を使用してください。
+[Google URL Builder](https://support.google.com/analytics/answer/1033867?hl=ja){target="_blank"}を使用してUTM パラメーターを設定し、マーケティング活動のリンクに追加できます。 すべてのUTM リンクをより簡単に追跡する方法が必要な場合は、この[Google スプレッドシート &#x200B;](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}を使用してください。
 
 ## 各パラメーターの高レベル値 {#high-level-values-for-each-parameter}
 
@@ -61,4 +61,4 @@ UTM の階層は、次のようになると想定されます。
 
 この場合、用語／チャネルは重複せず、utm_term は使用されません。
 
-ご不明な点がある場合は、Adobeのアカウントチーム（担当のアカウントマネージャー）または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+ご不明な点がある場合は、Adobeのアカウントチーム（担当のアカウントマネージャー）または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。

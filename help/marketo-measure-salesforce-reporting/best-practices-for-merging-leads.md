@@ -14,7 +14,7 @@ ht-degree: 7%
 
 [!DNL Salesforce]でリードを結合する場合は、データが失われないように常に注意することが最善です。
 
-参考までに、[!DNL Salesforce] サポートから[ リードを統合する方法](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)の内訳を次に示します。
+参考までに、[!DNL Salesforce] サポートから[&#x200B; リードを統合する方法](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5)の内訳を次に示します。
 
 [!DNL Marketo Measure]が入るのは、結合されたレコードに入力するフィールドを選択する時です。 マスターレコードを選択する際に、新しいレコードに引き継ぐために[!DNL Marketo Measure] フィールドが選択されていることを確認します。
 
@@ -22,6 +22,6 @@ ht-degree: 7%
 
 そこから、リードを自由に結合し、[!DNL Marketo Measure]個のデータを新しいレコードに転送します。
 
-ご不明な点がございましたら、お気軽にAdobeのアカウントチーム（担当のアカウントマネージャー）または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお問い合わせください。
+ご不明な点がございましたら、お気軽にAdobeのアカウントチーム（担当のアカウントマネージャー）または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお問い合わせください。
 
 ![ご質問がある場合は、お気軽に](assets/additional-functionality-8.jpg)までお問い合わせください

@@ -19,7 +19,7 @@ Marketoのユーザー統合により、[!DNL Marketo Measure]はMarketoから�
 * 実稼動Marketo インスタンス
 * 実稼動[!DNL Salesforce]または[!DNL Microsoft Dynamics] インスタンス
 * 任意の有料[!DNL Marketo Measure] サブスクリプション
-* SOLRが有効になっています（これを有効にするには、[Marketo サポート ](https://nation.marketo.com/t5/Support/ct-p/Support)にお問い合わせください）
+* SOLRが有効になっています（これを有効にするには、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/Support/ct-p/Support)にお問い合わせください）
 
 ## 仕組み {#how-it-works}
 

@@ -45,7 +45,7 @@ UTM パラメーターに基づいて「バケット」に分類されるリー�
 
 以下の図に、次の URL の web ページに基づくマーケティングチャネル、サブチャネル、コンテンツの例を示します。
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
 この場合、ユーザーがアクセスしようとしているコンテンツは、B2B マーケティングアトリビューションの概要ガイドです。 [!DNL Marketo Measure] では、この組織で設定されたチャネルルールを使用して、このコンテンツにつながる URL を分析および使用し、このリードをマーケティングチャネルの「有料ソーシャル」とサブチャネルの「LinkedIn」に「バケット化」します。
 

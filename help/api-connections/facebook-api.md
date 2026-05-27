@@ -38,7 +38,7 @@ AdWordsと[!DNL Bing Ads]統合と同様に、[!DNL Facebook]統合では、次�
 
 ## アカウントの接続 {#connecting-the-account}
 
-![ アカウントの接続{connecting-the-account}](assets/utilizing-connections-2.gif)
+![&#x200B; アカウントの接続{connecting-the-account}](assets/utilizing-connections-2.gif)
 
 ## 自動タグ付けを有効にする {#enabling-autotagging}
 

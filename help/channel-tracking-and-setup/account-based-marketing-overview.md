@@ -12,7 +12,7 @@ ht-degree: 92%
 
 # アカウントベースのマーケティングの概要 {#account-based-marketing-overview}
 
-以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。 ABMの詳細については、[ABM ブログ ](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"}のAdobeの記事をご覧ください。
+以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。 ABMの詳細については、[ABM ブログ &#x200B;](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"}のAdobeの記事をご覧ください。
 
 [!DNL Salesforce] インスタンス内で ABM を設定する手順について詳しくは、[Salesforce での ABM ページレイアウトの設定](/help/channel-tracking-and-setup/account-based-marketing-overview.md){target="_blank"}を参照してください。
 

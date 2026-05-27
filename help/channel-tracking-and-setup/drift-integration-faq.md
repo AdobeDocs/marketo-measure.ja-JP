@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Drift 統合に関するよくある質問 {#drift-integration-faq}
 
-Driftとの[!DNL Marketo Measure]統合の一環として、よくある質問をいくつか紹介します。 ご不明な点がございましたら、Adobeのアカウントチーム（担当のアカウントマネージャー）または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+Driftとの[!DNL Marketo Measure]統合の一環として、よくある質問をいくつか紹介します。 ご不明な点がございましたら、Adobeのアカウントチーム（担当のアカウントマネージャー）または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 **統合を有効にする方法を教えてください。**
 

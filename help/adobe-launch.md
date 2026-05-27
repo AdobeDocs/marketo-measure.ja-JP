@@ -26,7 +26,7 @@ Adobe Launchにインストールして設定すると、[!DNL Marketo Measure]�
 >* [Adobe Launchの概要](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ja){target="_blank"}
 >* [Adobe Launch拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. この記事](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}の手順[に従ってプロパティを作成します。
+1. この記事[&#128279;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}の手順に従ってプロパティを作成します。
 
 1. 作成したプロパティをクリックします。
 
@@ -56,13 +56,13 @@ Adobe Launchにインストールして設定すると、[!DNL Marketo Measure]�
 
    ![1. 「ルール」をクリックし、「新しいルールを作成」を選択します。](assets/marketo-launch-9.png)
 
-1. 「[!UICONTROL  イベント ]」の下にある「**[!UICONTROL 追加]**」ボタンをクリックします。
+1. 「[!UICONTROL &#x200B; イベント &#x200B;]」の下にある「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![1. イベントの下の「追加」ボタンをクリックします。](assets/marketo-launch-2.png)
 
 1. 拡張機能ドロップダウンで、**[!UICONTROL Core]**&#x200B;を選択します。 次に、「イベントタイプ」ドロップダウンで、「**[!UICONTROL ライブラリ読み込み（ページトップ）]**」を選択します。 イベントに名前を付けないと、デフォルトの名前が適用されます。 完了したら、**[!UICONTROL 変更を保持]**&#x200B;をクリックします。
 
-   ![1. 拡張機能ドロップダウンで、「コア」を選択します。 イベント ](assets/marketo-launch-1.png)で
+   ![1. 拡張機能ドロップダウンで、「コア」を選択します。 イベント &#x200B;](assets/marketo-launch-1.png)で
 
 1. 「アクション」の「**[!UICONTROL 追加]**」ボタンをクリックします。
 
@@ -70,7 +70,7 @@ Adobe Launchにインストールして設定すると、[!DNL Marketo Measure]�
 
 1. 拡張機能ドロップダウンで、**[!UICONTROL Bizible Analytics]**&#x200B;を選択します。 次に、「アクションタイプ」ドロップダウンで、「**[!UICONTROL 初期化]**」を選択します。 アクションに名前を付けないと、デフォルトの名前が適用されます。 完了したら、**[!UICONTROL 変更を保持]**&#x200B;をクリックします。
 
-   ![1. 拡張機能ドロップダウンで、「Bizible Analytics」を選択します。 次に、アクション ](assets/marketo-launch-4.png)で
+   ![1. 拡張機能ドロップダウンで、「Bizible Analytics」を選択します。 次に、アクション &#x200B;](assets/marketo-launch-4.png)で
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

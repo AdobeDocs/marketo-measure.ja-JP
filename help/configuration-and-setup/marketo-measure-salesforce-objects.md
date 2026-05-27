@@ -48,7 +48,7 @@ Buyer Attribution Touchpoints（BAT）は、Buyer Touchpoint（BT）のデータ
 
 [カスタム金額フィールド](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md)を使用して商談オブジェクトの収益を表示する場合は、**ワークフロー**&#x200B;を作成する必要があります。 [!DNL Marketo Measure] は「カスタム金額」フィールドに表示される情報を読み取ることができないので、タッチポイントに収益属性データを入力できません。 このワークフローでは、[!DNL Marketo Measure] カスタムフィールドの 1 つである「**[!DNL Marketo Measure]商談金額**」フィールドを使用して、収益値を「カスタム金額」フィールドから「商談金額」フィールドにマッピングします。
 
-![ カスタム金額フィールドを使用する場合、ワークフローを作成する必要があります](assets/connect-salesforce-1.png)
+![&#x200B; カスタム金額フィールドを使用する場合、ワークフローを作成する必要があります](assets/connect-salesforce-1.png)
 
 BAT オブジェクトは、[!UICONTROL 商談]、[!UICONTROL 取引先責任者]および[!UICONTROL アカウント]オブジェクトに関連リストとして表示されます。 このリストには、商談に属する属性データを持つすべてのタッチポイントが表示されます。 Buyer Attribution Touchpoint ID をクリックすると、Buyer Attribution Touchpoint の詳細ページに移動します。 ここでは、より具体的なアトリビューションデータと、タッチポイント元に関する情報（Buyer Touchpoint オブジェクトから提供されるものと同様）を確認できます。
 
@@ -72,7 +72,7 @@ A/B テストを [!DNL Optimizely] または VWO（Visual Web Optimizer）を使
 
 ## [!DNL Marketo Measure] フィールド {#marketo-measure-fields}
 
-[!DNL Marketo Measure] JavaScriptによってキャプチャされたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。 特定のフィールドは、特定のオブジェクトにのみ存在します。 [[!DNL Marketo Measure] フィールド ]](/help/glossary.md)の[用語集と、関連する [!DNL Marketo Measure]  オブジェクト ](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)の[ ビジュアライゼーションを確認できます。
+[!DNL Marketo Measure] JavaScriptによってキャプチャされたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。 特定のフィールドは、特定のオブジェクトにのみ存在します。 [[!DNL Marketo Measure] フィールド ][&#128279;](/help/glossary.md)の[用語集と、関連する [!DNL Marketo Measure]  オブジェクト &#x200B;](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)の ビジュアライゼーションを確認できます。
 
 ## [!DNL Marketo Measure] レポートとダッシュボード {#marketo-measure-reports-and-dashboards}
 

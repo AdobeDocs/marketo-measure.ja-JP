@@ -52,5 +52,5 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->* [ アクティビティ属性](/help/channel-tracking-and-setup/salesforce-activities-attribution.md)
+>* [&#x200B; アクティビティ属性](/help/channel-tracking-and-setup/salesforce-activities-attribution.md)
 >* [営業活動のアトリビューションに関するFAQ](/help/channel-tracking-and-setup/activities-attribution-faq.md)
