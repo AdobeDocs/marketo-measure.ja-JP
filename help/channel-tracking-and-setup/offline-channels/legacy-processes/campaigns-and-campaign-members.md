@@ -5,7 +5,8 @@ title: キャンペーンとキャンペーンメンバー
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
 TQID: https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 1200
@@ -94,7 +95,7 @@ Buyer タッチポイント日を使用する必要があるかどうかを知�
 
 多数のキャンペーンメンバーレコードを更新する必要がある場合は、「[!UICONTROL タッチポイント日の一括更新]」ボタンを使用して一括編集できます。
 
-このインターフェイスでカバーできない固有のユースケースがある場合は、[ データローダー](https://dataloader.io/){target="_blank"}を使用して、レコードを書き出し、変更し、レコードを再度アップロードすることもできます。
+このインターフェイスでカバーできない固有のユースケースがある場合は、[&#x200B; データローダー](https://dataloader.io/){target="_blank"}を使用して、レコードを書き出し、変更し、レコードを再度アップロードすることもできます。
 
 まず、レコードを検索し、Buyer タッチポイント日を設定するレコードをフィルタリングします。
 
@@ -124,10 +125,10 @@ Buyer タッチポイント日を使用する必要があるかどうかを知�
 
 >[!CAUTION]
 >
->このトリガーは、過去に削除されたキャンペーンメンバーを追跡しないので、これからの作業でのみ機能することに注意してください。 多数の過去のキャンペーンメンバーのタッチポイントを削除する必要がある場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+>このトリガーは、過去に削除されたキャンペーンメンバーを追跡しないので、これからの作業でのみ機能することに注意してください。 多数の過去のキャンペーンメンバーのタッチポイントを削除する必要がある場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：Campaign オブジェクトフィールド ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Campaign オブジェクトフィールド &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

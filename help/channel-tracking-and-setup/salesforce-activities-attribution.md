@@ -39,7 +39,7 @@ ht-degree: 1%
 
 ルールは、アトリビューションの対象となるレコードを示すフィルターとして機能します。 例えば、類似のロジックを使用してCRMでレポートを作成し、そのレポートを生成するとします。 および/またはステートメントと、`matches any`、`contains`、`starts with`、`ends with`、`is equal to`などの様々な演算子を組み合わせて使用できる柔軟性があります。 ボックス化されたルール内で`and` ステートメントを定義するか、ボックス外のレイヤー`or` ステートメントを定義します。
 
-![ ルールはフィルターとして機能し、どのレコードが](assets/activities-attribution-12.png)であるかを示します
+![&#x200B; ルールはフィルターとして機能し、どのレコードが](assets/activities-attribution-12.png)であるかを示します
 
 >[!NOTE]
 >
@@ -53,13 +53,13 @@ ht-degree: 1%
 >
 >パッケージのインストール時に、[!DNL Marketo Measure]にはアクティビティ レコードにカスタム Buyer Touchpoint日付フィールドが含まれます。 ステータスが変更された日付など、動的な日付を使用する場合は、CRM ワークフローを使用して「Buyer Touchpoint日」を設定し、この手順で「Buyer Touchpoint日」を選択することができます。
 
-![ パッケージをインストールすると、Marketo Measureにはカスタム Buyer Touchpoint](assets/activities-attribution-13.png)が含まれます
+![&#x200B; パッケージをインストールすると、Marketo Measureにはカスタム Buyer Touchpoint](assets/activities-attribution-13.png)が含まれます
 
 タスクやイベントに異なるルールを設定することを忘れないでください。 営業部門が活動を記録するために使用するオブジェクトを把握する必要があります。
 
-![ タスクまたはイベントに異なるルールを設定することを忘れないでください。 You](assets/activities-attribution-5.png)
+![&#x200B; タスクまたはイベントに異なるルールを設定することを忘れないでください。 You](assets/activities-attribution-5.png)
 
-これらの新しい顧客接点を、適切な[ マーケティングチャネル ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}に配置することをお勧めします。 作成したばかりの新しいキャンペーンマッピングでチャネルを定義します。
+これらの新しい顧客接点を、適切な[&#x200B; マーケティングチャネル &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}に配置することをお勧めします。 作成したばかりの新しいキャンペーンマッピングでチャネルを定義します。
 
 >[!TIP]
 >
@@ -80,12 +80,12 @@ ht-degree: 1%
 | 任意に一致 | 複数の値 – 完全一致 |
 | 任意の（を含む）と一致 | 複数の値 – &#42;値&#42;、&#42;値、&#42;値&#42; |
 
-![|任意（含む） |複数の値 – &amp;42;value&amp;42;、&amp;42;value、&amp;42;value&amp;42; |](assets/activities-attribution-8.png)
+![|任意（含む） |複数の値 – &42;value&42;、&42;value、&42;value&42; |](assets/activities-attribution-8.png)
 
-さらに、新しいチャネルのコストを入力することもできます。 [ マーケティング費用のアップロード ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"}を使用すると、チャネルレベル、サブチャネルレベル、またはキャンペーンレベルで費用を入力できます。 新しい[!DNL Marketo Measure] キャンペーンでは、関連コストを月ごとに追加し、各キャンペーンのROIを確認できます。
+さらに、新しいチャネルのコストを入力することもできます。 [&#x200B; マーケティング費用のアップロード &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"}を使用すると、チャネルレベル、サブチャネルレベル、またはキャンペーンレベルで費用を入力できます。 新しい[!DNL Marketo Measure] キャンペーンでは、関連コストを月ごとに追加し、各キャンペーンのROIを確認できます。
 
 ![最後に、コストを入力するオプションがあります](assets/activities-attribution-9.png)
 
 >[!MORELIKETHIS]
 >
->[ アクティビティ属性に関するFAQ](/help/channel-tracking-and-setup/activities-attribution-faq.md)
+>[&#x200B; アクティビティ属性に関するFAQ](/help/channel-tracking-and-setup/activities-attribution-faq.md)

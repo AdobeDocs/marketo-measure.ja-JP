@@ -27,7 +27,7 @@ ht-degree: 7%
 **[!DNL Marketo Measure]がトラッキングテンプレートを見つけた場合：**
 
 * [!DNL Marketo Measure]がトラッキングテンプレートにパラメーターを追加します。
-* KenshooやMarinなどのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、[!DNL Marketo Measure]はアクションを実行しません。 代わりに、[ アカウントのサードパーティツールに [!DNL Marketo Measure]  パラメーターを追加](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}する必要があります。
+* KenshooやMarinなどのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、[!DNL Marketo Measure]はアクションを実行しません。 代わりに、[&#x200B; アカウントのサードパーティツールに [!DNL Marketo Measure]  パラメーターを追加](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}する必要があります。
 
 ただし、トラッキングテンプレートが見つからない場合、[!DNL Marketo Measure]は次の操作を行います。
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 ## トラッキングテンプレート {#tracking-templates}
 
-[!DNL Google AdWords]が説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用されるURLです。 収集された追跡情報は、広告トラフィックを把握するために使用されます。 Googleの詳細については、[ここをクリック ](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"}してください。
+[!DNL Google AdWords]が説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用されるURLです。 収集された追跡情報は、広告トラフィックを把握するために使用されます。 Googleの詳細については、[ここをクリック &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"}してください。
 
 [!DNL Marketo Measure]では、広告履歴の中断や削除のリスクを回避して、すべての広告のパラメーターの追加と削除を可能にするため、アカウントレベル、キャンペーンレベル、または広告グループレベルの追跡テンプレートを使用することをお勧めします。
 
@@ -84,7 +84,7 @@ ht-degree: 7%
 
 1. 展開ウィンドウで「**[!UICONTROL すべてのキャンペーン]**」をクリックし、次に「**[!UICONTROL 広告グループ]**」をクリックします。
 
-   ![1. ](assets/api-connections-01.png)ですべてのキャンペーンをクリックし、「広告グループ」をクリックします
+   ![1. &#x200B;](assets/api-connections-01.png)ですべてのキャンペーンをクリックし、「広告グループ」をクリックします
 
 1. 該当するすべての広告グループを選択するか、「すべて選択」を選択し、**[!UICONTROL 編集]**&#x200B;をクリックしてから、**[!UICONTROL トラッキングテンプレートの変更]**&#x200B;をクリックします。
 
@@ -112,6 +112,6 @@ A: 4時間
 
 >[!NOTE]
 >
->変更が行われたら、完了です。 設定中にご質問がある場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお気軽にお問い合わせください。
+>変更が行われたら、完了です。 設定中にご質問がある場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお気軽にお問い合わせください。
 
-アカウントレベルのトラッキングテンプレートの作成方法については、[ここをクリック ](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}してGoogleの手順を参照してください。
+アカウントレベルのトラッキングテンプレートの作成方法については、[ここをクリック &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}してGoogleの手順を参照してください。

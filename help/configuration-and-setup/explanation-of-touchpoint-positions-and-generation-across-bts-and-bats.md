@@ -15,7 +15,7 @@ ht-degree: 3%
 
 **バイヤージャーニーを通じたタッチポイントのポジションとフローの生成**
 
-Buyer Touchpointの位置とそのトリガー方法を理解することは、[!DNL Marketo Measure] データを使用してレポートを正常に作成するために重要です。 見込み客がバイヤーズジャーニーを進む中で何をしたか、そしてタッチポイントデータでどのような表示になるかを明確に把握する必要があります。 このトピックに関する詳細なコンテキストについては、[[!UICONTROL  タッチポイント生成とマッピング ]](/help/configuration-and-setup/touchpoint-generation-and-mapping.md)記事を確認することをお勧めします。
+Buyer Touchpointの位置とそのトリガー方法を理解することは、[!DNL Marketo Measure] データを使用してレポートを正常に作成するために重要です。 見込み客がバイヤーズジャーニーを進む中で何をしたか、そしてタッチポイントデータでどのような表示になるかを明確に把握する必要があります。 このトピックに関する詳細なコンテキストについては、[[!UICONTROL &#x200B; タッチポイント生成とマッピング &#x200B;]](/help/configuration-and-setup/touchpoint-generation-and-mapping.md)記事を確認することをお勧めします。
 
 [!DNL Marketo Measure]には、バイヤーズジャーニーの様々なステップによってトリガーされる、様々なタッチポイントのポジションがあります。 [!DNL Marketo Measure] データに関するレポートには、Buyer Touchpoints （BT）とBuyer Attribution Touchpoints （BAT）の2つのタッチポイントデータがあります。 これらのデータセットは、オブジェクトに関連する位置が少し異なります。 このトピックに関する詳細なコンテキストについては、[購入者のタッチポイント （BT）と購入者のアトリビューションのタッチポイント （BAT）の違い](/help/configuration-and-setup/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)の記事を確認することをお勧めします。
 
