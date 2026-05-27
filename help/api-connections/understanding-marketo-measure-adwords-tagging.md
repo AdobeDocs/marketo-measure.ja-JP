@@ -1,5 +1,5 @@
 ---
-description: 'Marketo Measure ユーザー向け AdWords タグ付けガイダンスについて  [!DNL Marketo Measure] '
+description: Marketo Measure ユーザー向けの [!DNL Marketo Measure] AdWords タグ付けガイダンスについて
 title: ' [!DNL Marketo Measure] AdWords のタグ付けについて'
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
@@ -10,47 +10,47 @@ ht-degree: 7%
 
 ---
 
-# [!DNL Marketo Measure] AdWords タグ付けについて {#understanding-marketo-measure-adwords-tagging}
+# [!DNL Marketo Measure]件のAdWords タグ付けについて {#understanding-marketo-measure-adwords-tagging}
 
-広告を非常にきめ細かく追跡するには、広告宛先 URL が一意である必要があります。 これを実現するために、自動タグ付け [!DNL Marketo Measure]、トラッキングパラメーターを [!DNL AdWords] 広告の広告宛先 URL に自動的に追加します。 以下の例を見てみましょう。
+広告を非常に細かく追跡するには、広告宛先URLが一意である必要があります。 これを実現するために、[!DNL Marketo Measure]自動タグ付けは、[!DNL AdWords]広告の広告宛先URLにトラッキングパラメーターを自動的に追加します。 以下の例を見てみましょう。
 
-次の URL は、詳細なデータを提供しません：
+次のURLでは、詳細なデータは提供されません：
 
 * `http://example.com/landing-page?myParam=foo`
 
-ただし、[!DNL Marketo Measure] のパラメーターがあるので、同じ URL で詳細なデータが提供されます。
+ただし、同じURLでは、[!DNL Marketo Measure] パラメーターが原因で詳細なデータが提供されます。
 
 * `http://example.com/landing-page?myParam=foo&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
-## 自動タギング [!DNL Marketo Measure] 仕組み {#how-marketo-measure-auto-tagging-works}
+## [!DNL Marketo Measure]の自動タグ付けの仕組み {#how-marketo-measure-auto-tagging-works}
 
-**追跡テンプレート [!DNL Marketo Measure] 見つかった場合：**
+**[!DNL Marketo Measure]がトラッキングテンプレートを見つけた場合：**
 
-* [!DNL Marketo Measure] のパラメーターを追跡テンプレートに追加します。
-* サードパーティのリダイレクトが Kenshoo や Marin などのトラッキングテンプレートで見つかった場合、[!DNL Marketo Measure] のアクションは実行されません。 代わりに、[&#x200B; アカウントのサードパーティツールにパラメーターを追加  [!DNL Marketo Measure]  する &#x200B;](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"} 必要があります。
+* [!DNL Marketo Measure]がトラッキングテンプレートにパラメーターを追加します。
+* KenshooやMarinなどのトラッキングテンプレートでサードパーティのリダイレクトが見つかった場合、[!DNL Marketo Measure]はアクションを実行しません。 代わりに、[&#x200B; アカウントのサードパーティツールに [!DNL Marketo Measure]  パラメーターを追加](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}する必要があります。
 
-ただし、トラッキングテンプレートが見つからない場合は、次のよ [!DNL Marketo Measure] になります。
+ただし、トラッキングテンプレートが見つからない場合、[!DNL Marketo Measure]は次の操作を行います。
 
-* すべての広告宛先 URL をスキャンして、[!DNL Marketo Measure] パラメーターを確認します。
-* 見つかった場合は、行ってもよい。
-* 見つからない場合、[!DNL Marketo Measure] のパラメーターを広告宛先 URL の末尾に追加します。 新規広告の場合、[!DNL Marketo Measure] は作成から 2 時間以内にパラメーターを広告宛先 URL に追加します。
-* 自動タグ付けを有効にする前にトラッキングテンプレートを用意することが重要です [!DNL Marketo Measure] そうすることで、テンプレートに添付し、広告履歴のリセットを防ぐことができます。
+* [!DNL Marketo Measure] パラメーターのすべての広告宛先URLをスキャンします。
+* 見つかった場合は、行くとよいでしょう。
+* 見つからない場合、[!DNL Marketo Measure]は広告宛先URLの末尾にそのパラメーターを追加します。 新しい広告の場合、[!DNL Marketo Measure]は作成後2時間以内に広告宛先URLにそのパラメーターを追加します。
+* 自動タグ付けを有効にする前に、トラッキングテンプレートを配置して、[!DNL Marketo Measure]が添付できるようにし、広告履歴のリセットを防ぐことが重要です。
 
 [!DNL Marketo Measure] では、アカウントレベル、キャンペーンレベルまたは広告グループレベルのトラッキングテンプレートを使用することをお勧めします。これにより、広告履歴の中断や削除のリスクなしに、すべての広告のパラメーターを追加および削除できます。
 
-## 追跡テンプレート {#tracking-templates}
+## トラッキングテンプレート {#tracking-templates}
 
-[!DNL Google AdWords] で説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用される URL です。 収集されたトラッキング情報は、広告トラフィックの把握に使用されます。[Googleについて詳しくは &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} ここをクリックしてください。
+[!DNL Google AdWords]が説明しているように、トラッキングテンプレートは、ランディングページに到達するために使用されるURLです。 収集された追跡情報は、広告トラフィックを把握するために使用されます。 Googleの詳細については、[ここをクリック &#x200B;](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"}してください。
 
-[!DNL Marketo Measure] では、広告履歴の中断や削除のリスクなしにすべての広告に関するパラメーターの追加と削除が可能なので、アカウントレベル、キャンペーンレベルまたは広告グループレベルのトラッキングテンプレートを使用することをお勧めします。
+[!DNL Marketo Measure]では、広告履歴の中断や削除のリスクを回避して、すべての広告のパラメーターの追加と削除を可能にするため、アカウントレベル、キャンペーンレベル、または広告グループレベルの追跡テンプレートを使用することをお勧めします。
 
-を使用することをお勧めするトラッキングテンプレート [!DNL Marketo Measure]2 つあります。 次の手順を使用して、適切なバージョンを判断します。
+[!DNL Marketo Measure]さんが推奨するトラッキングテンプレートは2つあります。 次の手順を使用して、適切なバージョンを決定します。
 
-* すべての広告 URL に「?」が含まれる場合 その中で、次の URL を使用します。
+* すべての広告URLに「?」がある場合 その中で、次のURLを使用します。
 
 `{lpurl}&_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
-* 広告 URL に「?」が含まれていない場合 その中で、次の URL を使用します。
+* 広告URLに「?」がない場合 その中で、次のURLを使用します。
 
 `{lpurl}?_bt={creative}&_bk={keyword}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
@@ -58,60 +58,60 @@ ht-degree: 7%
 
 1. [!DNL Google AdWords] アカウントにログインします。
 
-1. 展開ウィンドウで **[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL 設定]** をクリックします。
+1. 展開ウィンドウで「**[!UICONTROL すべてのキャンペーン]**」をクリックし、次に「**[!UICONTROL 設定]**」をクリックします。
 
-   ![1. 展開の「すべてのキャンペーン」をクリックしてから「設定」をクリックし &#x200B;](assets/utilizing-connections-13.png) す。
+   ![1. 展開する](assets/utilizing-connections-13.png)ですべてのキャンペーンをクリックし、「設定」をクリックします
 
-1. 上部の **[!UICONTROL アカウント設定]** をクリックし、次に **[!UICONTROL トラッキングテンプレート]** をクリックします。 [!DNL Marketo Measure] 追跡テンプレートを入力します。
+1. 上部の&#x200B;**[!UICONTROL アカウント設定]**&#x200B;をクリックし、**[!UICONTROL トラッキングテンプレート]**&#x200B;をクリックします。 [!DNL Marketo Measure] トラッキングテンプレートを入力します。
 
-   ![1. 上部の「アカウント設定」をクリックし、「トラッキング」をクリックし &#x200B;](assets/bizible-guide-1.png) す。
+   ![1. 上部の「アカウント設定」をクリックし、「](assets/bizible-guide-1.png)」をトラッキングします
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-## キャンペーンレベルでの追跡テンプレートの設定 {#setting-up-a-tracking-template-at-the-campaign-level}
+## キャンペーンレベルでのトラッキングテンプレートの設定 {#setting-up-a-tracking-template-at-the-campaign-level}
 
-1. 展開ウィンドウで **[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL キャンペーン]** をクリックします。
+1. 展開ウィンドウで「**[!UICONTROL すべてのキャンペーン]**」をクリックし、次に「**[!UICONTROL キャンペーン]**」をクリックします。
 
-   ![1. すべてのキャンペーンをクリックしてから、展開内のキャンペーンをクリックし &#x200B;](assets/utilizing-connections-12.png) す。
+   ![1. 展開](assets/utilizing-connections-12.png)で「すべてのキャンペーン」をクリックし、「キャンペーン」をクリックします
 
-1. 該当するキャンペーンをすべて選択するか、「**[!UICONTROL すべてを選択]**」をクリックし、「**[!UICONTROL 編集]**」をクリックして、「**[!UICONTROL トラッキングテンプレートを変更]**」をクリックします。
+1. 該当するすべてのキャンペーンを選択するか、**[!UICONTROL すべてを選択]**&#x200B;し、**[!UICONTROL 編集]**&#x200B;をクリックしてから、**[!UICONTROL トラッキングテンプレートの変更]**&#x200B;をクリックします。
 
-   ![1. 適用可能なすべてのキャンペーンを選択するか、すべてを選択し、「編集」をクリックします &#x200B;](../assets/marketo-engage-activities-05.png)。
+   ![1. 該当するすべてのキャンペーンを選択するか、「すべてを選択」をクリックして、](../assets/marketo-engage-activities-05.png)をクリックします
 
-1. [!DNL Marketo Measure] Tracking Template を入力し、「**[!UICONTROL Apply]**」をクリックします。
+1. 「[!DNL Marketo Measure] トラッキングテンプレート」を入力し、「**[!UICONTROL 適用]**」をクリックします。
 
 ## 広告グループレベルでのトラッキングテンプレートの設定： {#setting-up-a-tracking-template-at-the-ad-group-level}
 
-1. 展開ウィンドウで、**[!UICONTROL すべてのキャンペーン]** をクリックしてから **[!UICONTROL 広告グループ]** をクリックします。
+1. 展開ウィンドウで「**[!UICONTROL すべてのキャンペーン]**」をクリックし、次に「**[!UICONTROL 広告グループ]**」をクリックします。
 
-   ![1. 「すべてのキャンペーン」をクリックし、](assets/api-connections-01.png) の「広告グループ」をクリックします。
+   ![1. &#x200B;](assets/api-connections-01.png)ですべてのキャンペーンをクリックし、「広告グループ」をクリックします
 
-1. 該当するすべての広告グループを選択するか、「すべて選択」を選択し、「**[!UICONTROL 編集]**」をクリックします。次に、「**[!UICONTROL トラッキングテンプレートを変更]**」をクリックします。
+1. 該当するすべての広告グループを選択するか、「すべて選択」を選択し、**[!UICONTROL 編集]**&#x200B;をクリックしてから、**[!UICONTROL トラッキングテンプレートの変更]**&#x200B;をクリックします。
 
-1. [!DNL Marketo Measure] Tracking Template を入力し、「**[!UICONTROL Apply]**」をクリックします。
+1. 「[!DNL Marketo Measure] トラッキングテンプレート」を入力し、「**[!UICONTROL 適用]**」をクリックします。
 
-   ![1. 「Marketo Measure トラッキングテンプレート」を入力し、「適用」をクリックします。](../assets/marketo-engage-activities-01.png)
+   ![1. Marketo Measure トラッキング テンプレートを入力し、「適用」をクリックします。](../assets/marketo-engage-activities-01.png)
 
 ## よくある質問 {#faq}
 
-**Q：接続されたユーザーに必要な権限を教えてください。**
+**Q：接続されたユーザーに必要な権限は何ですか？**
 
 A: userinfo.email
 
-**Q：費用データのインポートにはどの程度の時間がかかりますか？**
+**Q：支出データの読み込みにどのくらいの時間がかかりますか？**
 
-A: 6 時間
+A: 6時間
 
-**Q：広告データのインポートにはどの程度の時間がかかりますか？**
+**Q：広告データの読み込みにどのくらいの時間がかかりますか？**
 
-A: 4 時間
+A: 4時間
 
-**Q：動的検索広告の場合、提供されたクリエイティブの見出し、説明などの組み合わせを追跡できますか？**
+**Q: Dynamic Search Adsの場合、配信されたクリエイティブ内の見出し、説明などの組み合わせを追跡できますか？**
 
-A：動的検索広告の個々のクリエイティブの詳細は取得できませんが、自動タギングが有効になっている場合は、クリエイティブ ID と属性収益を取得できます。
+回答：動的検索広告の個々のクリエイティブの詳細を取得することはできませんが、自動タグ付けが有効になっている場合でも、クリエイティブ IDと属性収益を取得できます。
 
 >[!NOTE]
 >
->変更が完了したら、完了です。 設定中にご質問がある場合は [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}Marketo サポートまでお問い合わせください。
+>変更が行われたら、完了です。 設定中にご質問がある場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお気軽にお問い合わせください。
 
-アカウントレベルのトラッキングテンプレートの作成に関するGoogleの手順については、[&#x200B; ここをクリック &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} してください。
+アカウントレベルのトラッキングテンプレートの作成方法については、[ここをクリック &#x200B;](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}してGoogleの手順を参照してください。

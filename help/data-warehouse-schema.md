@@ -1,5 +1,5 @@
 ---
-description: テーブルと列の詳細を説明するMarketo Measure Data Warehouse スキーマのリファレンス
+description: テーブルと列の詳細を示すMarketo Measure データウェアハウススキーマのリファレンス
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
@@ -3067,8 +3067,8 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>コンバージョンイベントの元の MM イベント ID
-    <br> ユーザータッチポイントまたはステージ遷移にマッピング</td>
+    <td>コンバージョンイベントの元のMM イベント ID
+    <br> ユーザーのタッチポイントまたはステージの移行にマッピング</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3092,8 +3092,8 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>コンバージョンイベントの元の MM 取引先責任者 ID
-    <br>ほとんどの場合 null になる可能性が高い</td>
+    <td>コンバージョンイベントの元のMM連絡先ID
+    <br>ほとんどの場合、nullになる可能性があります</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -3820,7 +3820,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       <td>ID</td>
       <td>varchar</td>
       <td>コストレコードの一意の ID。</td>
-      <td>aw.6601259029.285114995.21703163075.[AdWords 表示 ]_2018-09-06</td>
+      <td>aw.6601259029.285114995.21703163075.[AdWords Display]_2018-09-06</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
@@ -13405,7 +13405,7 @@ select trim(split(ch.name,'.')[0])  as channel
 group by 1
 ```
 
-**1 人のジャーニー全体はどのようなものですか？  （単一のメールアドレスのすべての Touchpoints を表示）**
+**一人のユーザーのジャーニー全体は何ですか？  （単一のメールアドレスのすべての Touchpoints を表示）**
 
 ```
 select ut.touchpoint_date
