@@ -1,6 +1,6 @@
 ---
-description: Marketo Measure ユーザー向けのMarketo MeasureとSalesforce サンドボックスの統合のテストのガイダンス
-title: Salesforce サンドボックスを使用したMarketo Measure統合のテスト
+description: Marketo Measure ユーザー向けのSalesforce サンドボックスガイダンスによるMarketo Measure統合のテスト
+title: Salesforce サンドボックスでのMarketo Measure統合のテスト
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
@@ -10,17 +10,17 @@ ht-degree: 9%
 
 ---
 
-# Salesforce サンドボックスを使用したMarketo Measure統合のテスト {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
+# Salesforce サンドボックスでのMarketo Measure統合のテスト {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >
 >ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
 
-[!DNL Marketo Measure] の主な機能の 1 つは、Web サイト上のアクションを通じてデジタルマーケティングの取り組みを追跡し、リードや連絡先を通じてそのデータを実稼動 [!DNL Salesforce org] ージにプッシュする機能です。 ただし、通常、サンドボックス統合内の web サイトから作成されたインバウンドリードはないので、データは純粋にオフラインの観点から焦点を当てます。
+[!DNL Marketo Measure]の主な機能の1つは、web サイト上のアクションを通じてデジタルマーケティング活動を追跡し、そのデータをリードと連絡先を通じて本番環境[!DNL Salesforce org]にプッシュする機能です。 ただし、通常、Sandbox統合内ではweb サイトから作成されたインバウンドリードはないため、データに注目するのは純粋にオフラインの観点からとなります。
 
-テストの両方のフェーズで参照する 2 つのソースを次に示します。[手順 1～4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) および [&#x200B; 手順 5～6](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)。 一部の領域で詳細を説明しているため、これらのドキュメントを確認することをお勧めします。
+テストの両方のフェーズで参照される2つのソースを次に示します。 [手順1 ～ 4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5)および[手順5 ～ 6](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)。 これらのドキュメントは、一部の分野でより詳細に説明されているため、確認することをお勧めします。
 
-1. キャンペーンにアップロードできるように、CSV でリードを作成する必要があります。 その方法は、実稼動Salesforceのレポートを使用して一部のリードを書き出すことです。 それ以外の場合は、Excel ファイルでリードを手動で作成し、それを CSV として保存して読み込むことができます。 必要なレコードは約 20 件だけです。 ファイルには次の列が必要です。
+1. キャンペーンにアップロードできるように、CSVにいくつかのリードを作成する必要があります。 これを行うには、実稼動Salesforceのレポートを通じて一部のリードを書き出します。 それ以外の場合は、Excel ファイルでリードを手動で作成し、インポート用にCSVとして保存できます。 レコードは約20枚しか必要ありません。 ファイルには次の列が必要です。
 
    1. メール
    1. 会社
@@ -29,7 +29,7 @@ ht-degree: 9%
 
 1. サンドボックス環境にログインします。
 1. テストキャンペーンを作成します。 イベントやニュースレターなどのキャンペーンタイプを使用します。
-1. キャンペーンを作成したら、**[!UICONTROL メンバーを管理]**/**[!UICONTROL メンバーを追加]**/**[!UICONTROL ファイルをインポート]** を選択して、リードをキャンペーンメンバーとしてアップロードします。
-1. その後、キャンペーンページレイアウトに戻ると、選択リストフィールドである「バイヤータッチポイントを有効にする」ようになります。 値 **[!UICONTROL すべてのキャンペーンメンバーを含める]** を選択します。
+1. キャンペーンを作成したら、**[!UICONTROL メンバーの管理]**/**[!UICONTROL メンバーの追加]**/**[!UICONTROL ファイルの読み込み]**&#x200B;を選択して、リードをキャンペーンメンバーとしてアップロードします。
+1. 完了したら、Campaign ページレイアウトに戻り、ピックリストフィールドである「バイヤタッチポイントを有効にする」ことができます。 値を選択してください：**[!UICONTROL すべてのキャンペーンメンバーを含める]**。
 
-その後、[!DNL Marketo Measure] と [!DNL Salesforce] の同期が開始され、リードレコードにタッチポイントが適用されます。 「レポート」タブの「バイヤータッチポイントレポート [!UICONTROL &#x200B; フォルダーにある「リードに関するBuyer Touchpoint」というレポートを使用して、翌日 &#x200B;] 確認することをお勧めします。 レポートで各リードのタッチポイントに値が入力される場合、これは成功の兆候です。
+これが完了すると、[!DNL Marketo Measure]と[!DNL Salesforce]の間で同期が開始され、タッチポイントがリードレコードに適用されます。 レポート タブ内の[!UICONTROL 購入者タッチポイントレポート &#x200B;] フォルダーに見つかった「リードに関するBuyer Touchpoint」というレポートを使用して、翌日に確認することをお勧めします。 レポートで各リードのタッチポイントが設定されている場合は、これは成功の兆候です。

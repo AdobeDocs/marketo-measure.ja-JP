@@ -1,5 +1,5 @@
 ---
-description: Adobe Admin Console プロファイルとログインを通じてMarketo Measureへのアクセスを設定するガイド
+description: Adobe Admin Console プロファイルを使用したMarketo Measure アクセスの設定とログインのガイド
 title: Adobe Admin Console の設定
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
@@ -28,11 +28,11 @@ Adobe Admin Console 内での Identity Management の設定に関するガイダ
 
 Adobe Admin Console にアクセスすると、「概要」セクションに [!DNL Marketo Measure] 製品インスタンスが表示されます。
 
-![Adobe Admin Consoleにアクセスすると、Marketo Measureが表示されます &#x200B;](assets/adobe-setup-1.png)
+![Adobe Admin Consoleにアクセスすると、Marketo Measure](assets/adobe-setup-1.png)が表示されます
 
 [!DNL Marketo Measure] 製品カードをクリックすると、すべての [!DNL Marketo Measure] インスタンスが表示されます。 デフォルトでは、各 [!DNL Marketo Measure] インスタンスには「[!DNL Marketo Measure]」という接頭辞が付いた独自のプロファイルがあります。 このインスタンス内のこのプロファイルや他のプロファイルに追加された管理者またはユーザは、[!DNL Marketo Measure] にログインできるようになります。
 
-![Marketo Measure製品カードをクリックすると、製品カード内の &#x200B;](assets/adobe-setup-2.png)
+![Marketo Measure Product Cardをクリックすると、すべての](assets/adobe-setup-2.png)が表示されます
 
 [!DNL Marketo Measure] 製品インスタンス内でプロファイルを作成する際に必要なアクションはありません。
 
@@ -51,10 +51,10 @@ Adobe Admin Console にアクセスすると、「概要」セクションに [!
 
 >[!NOTE]
 >
->[!DNL Marketo Measure] 管理者（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）になるには、[!DNL Marketo Measure] 製品カード内のすべての [!DNL Marketo Measure] 製品プロファイルで、ユーザー _および_ 管理者）として追加される必要があります。
+>[!DNL Marketo Measure]管理者（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}）になるには、[!DNL Marketo Measure]製品カード内の[!DNL Marketo Measure]製品プロファイルにユーザー&#x200B;_および_&#x200B;管理者としてユーザーを追加する必要があります。
 
 **[!DNL Marketo Measure]** へのログイン
 
-製品プロファイルに追加されたユーザーは、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} で「**Adobe IDでログイン**」オプションを選択することで、[!DNL Marketo Measure] インスタンスにアクセスできます。
+ユーザーが製品プロファイルに追加されると、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}で「**Adobe IDでログイン**」オプションを選択して、[!DNL Marketo Measure] インスタンスにアクセスできるようになります。
 
-![&#x200B; 製品プロファイルに追加されたユーザーは、次のことが可能です &#x200B;](assets/adobe-setup-3.png)
+![&#x200B; ユーザーが製品プロファイルに追加されると、次のことが可能になります](assets/adobe-setup-3.png)

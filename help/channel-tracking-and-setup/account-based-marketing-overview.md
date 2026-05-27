@@ -6,19 +6,19 @@ feature: Account-based Marketing
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
 # アカウントベースのマーケティングの概要 {#account-based-marketing-overview}
 
-以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。 ABM の詳細については、Adobeの [ABM ブログ &#x200B;](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"} を参照してください。
+以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。 ABMの詳細については、[ABM ブログ &#x200B;](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"}のAdobeの記事をご覧ください。
 
 [!DNL Salesforce] インスタンス内で ABM を設定する手順について詳しくは、[Salesforce での ABM ページレイアウトの設定](/help/channel-tracking-and-setup/account-based-marketing-overview.md){target="_blank"}を参照してください。
 
 ## ABM とは {#what-is-abm}
 
-アカウントベースドマーケティング（ABM）は、個人だけでなく、企業やアカウント全体をターゲットにして販売するマーケティング戦略です。[!DNL Marketo Measure] は、マーケティングチームとセールスチームが、リードとアカウントのマッピング機能と予測エンゲージメントスコアを使用して、成功した ABM 戦略を実行するのに役立ちます。
+アカウントベースのマーケティング（ABM）は、個人だけでなく、企業やアカウント全体をターゲットにして販売するマーケティング戦略です。 [!DNL Marketo Measure] では、リードとアカウントのマッピング機能と予測エンゲージメントスコアを使用すると、マーケティングチームとセールスチームが ABM 戦略を成功させる上で役立ちます。
 
 アカウントベースマーケティングモデルを CRM に導入するには、[!DNL Marketo Measure] は次の条件を満たす必要があります。
 
@@ -68,8 +68,8 @@ PES を計算するアルゴリズムには、多くのコンポーネントが�
 >
 >一部のアカウントの予測エンゲージメントスコアに「N/A」または「-」（ダッシュ記号）のグレードが表示される場合があります。
 
-_「該当なし」の評価は、モデルが真の評価を生成できるだけの十分なデータがそのアカウントにないことを意味します。データが多いほど、最終的に評価が付与されます。_
-_「–」（ダッシュ記号）のグレードは、時間の制約や、場合によってはプロセスの欠落などにより、このアカウントが ABM プロセスでまだ処理されていないことを意味します。 他の類似のアカウントや期間に基づいて、アカウントにグレードを付ける必要があると思われる場合は、[!DNL Marketo Measure] までご連絡ください。_
+_「N/A」のグレードは、モデルが真のグレードを生成するのに十分なデータがまだないことを意味します。さらに多くのデータがあれば、最終的にグレードが提供されます。_
+_グレードの「 – 」（ダッシュシンボル）とは、時間の制約やプロセスの欠落などにより、このアカウントがまだABM プロセスで処理されていないことを意味します。 他の類似のアカウントや期間に基づいて、アカウントにグレードを付ける必要があると思われる場合は、[!DNL Marketo Measure] までご連絡ください。_
 
 ## [!DNL Salesforce] での ABM ページレイアウトの設定 {#setting-up-abm-page-layout-in-salesforce}
 
@@ -78,16 +78,16 @@ PES の使用を開始するには、[!DNL Salesforce] の適切なページレ�
 1. **[!UICONTROL 設定]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL アカウント]**／**[!UICONTROL ページレイアウト]**&#x200B;に移動します。 次に、編集するページレイアウトを選択します。
 1. [!UICONTROL フィールド]に移動し、「予測エンゲージメントスコア」フィールドを「アカウント情報」セクションに移動します。
 
-   ![1. フィールドに移動し、「予測エンゲージメントスコア」フィールドを移動 &#x200B;](assets/account-marketing-3.png) ます
+   ![1. フィールドに移動し、「予測エンゲージメントスコア」フィールドを移動します](assets/account-marketing-3.png)
 
 1. 最後に、[!UICONTROL 関連リスト]に移動し、「リード」関連リストをページレイアウトに移動します。
 
-   ![1. 最後に、関連リストに移動し、関連する「リード」を移動し &#x200B;](assets/account-marketing-4.jpg) す。
+   ![1. 最後に、関連リストに移動し、「リード」関連](assets/account-marketing-4.jpg)を移動します
 
 1. 次に、**[!UICONTROL 設定]**／**[!UICONTROL カスタマイズ]**／**[!UICONTROL リード]**／**[!UICONTROL ページレイアウト]**&#x200B;に移動し、編集する適切なページレイアウトを選択します。
 1. 「**[!UICONTROL フィールド]**」をクリックし、ページ上の適切な場所に「[!UICONTROL アカウント]」フィールドを追加します。
 
-   ![1. 「フィールド」をクリックし、](assets/account-marketing-5.png) の場所に「アカウント」フィールドを追加します。
+   ![1. 「フィールド」をクリックし、](assets/account-marketing-5.png)の場所にアカウントフィールドを追加します
 
 準備完了です。
 
