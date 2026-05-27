@@ -1,5 +1,5 @@
 ---
-description: Marketo Measure ユーザー向け Lightbox Formsガイダン  [!DNL Marketo Measure]  へのスクリプトの追加
+description: Marketo Measure ユーザー向けLightbox Forms ガイダンスへの [!DNL Marketo Measure] Scriptの追加
 title: Lightbox フォームへの [!DNL Marketo Measure] スクリプトの追加
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
@@ -10,25 +10,25 @@ ht-degree: 1%
 
 ---
 
-# Lightbox Formsへ [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-lightbox-forms}
+# Lightbox Formsへの[!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-lightbox-forms}
 
-ライトボックス内のフォームに [!DNL Marketo Measure] JavaScriptを適切に追加する方法を説明します。
+ライトボックス内のフォームに[!DNL Marketo Measure] JavaScriptを適切に追加する方法について説明します。
 
-ライトボックスは、訪問者が特定のアクション（ページの特定の部分のクリックや、ページへの特定の時間の滞在など）を実行すると、コンテンツの前にフォームを開きます。 通常、[!DNL Marketo Measure] JavaScriptをランディングページの先頭に配置する必要がありますが、Lightbox 内のフォームの場合は、追加の手順が 1 つ必要です。
+ライトボックスは、訪問者が特定のアクション（ページの特定の部分をクリックしたり、ページで特定の時間を過ごしたりなど）を実行すると、コンテンツの前にフォームを開きます。 通常、[!DNL Marketo Measure] JavaScriptをランディングページの先頭に配置することを求めますが、ライトボックス内のフォームの場合は、必要な手順が1つ増えています。
 
-Lightbox 内のフォームは基本的に iFrame 内のフォームなので、スクリプトはその iFrame 内に配置されます。
+ライトボックス内のフォームは基本的にiFrame内のフォームなので、スクリプトはそのiFrame内に配置されます。
 
-まず、[!UICONTROL lightbox] フォームが格納されている iFrame を見つけます。
+まず、[!UICONTROL lightbox] フォームが存在するiFrameを見つけます。
 
-![&#x200B; まず、Lightbox フォームが格納されている iFrame を見つけます。](assets/adding-providers-8.png)
+![まず、Lightbox フォームが存在するiFrameを探します。](assets/adding-providers-8.png)
 
-次に、[!DNL Marketo Measure] JavaScriptを iFrame 内に配置します。
+次に、[!DNL Marketo Measure] JavaScriptをiFrame内に配置します。
 
-![&#x200B; 次に、iFrame 内にMarketo Measure JavaScriptを配置します。](assets/adding-providers-5.png)
+![次に、Marketo Measure JavaScriptをiFrame内に配置します。](assets/adding-providers-5.png)
 
-最後に、JavaScriptが追加されたら、次の手順に従って、フォーム送信が追跡されていることを検証します。
+最後に、JavaScriptが追加されると、次の手順に従ってフォーム送信を追跡しているかどうかを検証します。
 
-1. [!UICONTROL lightbox] フォームを含むランディングページの URL をコピーします。
-1. 匿名ブラウザーを開き、URL を貼り付けます。
-1. 一意のメールアドレスを使用してフォームを送信します。
-1. CRM で使用されている一意のメールアドレスを確認して、テストが追跡されたことを確認し、タッチポイントデータが入力されていることを確認します。
+1. [!UICONTROL lightbox] フォームを含むランディングページのURLをコピーします。
+1. シークレットブラウザーを開き、URLを貼り付けます。
+1. 一意の電子メールアドレスを使用してフォームを送信します。
+1. 使用した一意のメールアドレスのCRMを確認して、テストが追跡されたことを確認し、タッチポイントデータが入力されていることを確認します。

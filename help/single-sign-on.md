@@ -30,7 +30,7 @@ SSO（シングルサインオン）の SAML（Security Assertion Markup Languag
 
 はじめに、[!DNL Marketo Measure] アプリケーションの設定／セキュリティ／認証ページに移動します。 次に、ログインタイプをカスタム SSO に切り替えて、設定オプションを確認します。 認証をテストし、ページの下部にある「**[!UICONTROL 保存]**」ボタンをクリックするまで、変更は有効になりません。
 
-![&#x200B; 開始するには、の設定セキュリティ認証ページに移動します &#x200B;](assets/compliance-resources-1.png)
+![開始するには、](assets/compliance-resources-1.png)の設定セキュリティ認証ページに移動します
 
 ## 処理 {#process}
 
@@ -38,25 +38,25 @@ SSO（シングルサインオン）の SAML（Security Assertion Markup Languag
 
 ID プロバイダーで [!DNL Marketo Measure] アプリケーションを設定します。 手順については、以下にリストされている外部ドキュメントを参照してください。
 
-    a. シングルサインオン URL、受信者 URL、宛先 URL、SAML アサーションカスタマーサービス（ACS） URL の入力を求められたら、[https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest] （https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest） 
+    a. シングルサインオン URL、受信者URLまたは宛先URL、SAML アサーションカスタマーサービス （ACS） URLの入力を求められた場合は、[https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest] （https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest） 
     
-    b を使用します。 オーディエンス制限 URL またはアプリケーション定義の一意の ID の入力を求められたら、[https://BizibleLPM] （https://biziblelpm/）を使用し 
- す。
+    bを使用します。 オーディエンス制限URLまたはアプリケーション定義の一意の識別子の入力を求められたら、[https://BizibleLPM] （https://biziblelpm/） 
+を使用します
 [!DNL Marketo Measure] アプリケーションでカスタム SSO に切り替えます
 
-    a. アカウントの請求グループが有効になったら、[!UICONTROL &#x200B; 設定 &#x200B;]/[!UICONTROL &#x200B; セキュリティ &#x200B;]/[!UICONTROL &#x200B; 認証 &#x200B;]
+    a. 請求グループがアカウントに対して有効になると、[!UICONTROL 設定] >>[!UICONTROL &#x200B; セキュリティ &#x200B;] >> [!UICONTROL 認証]
     
-    b に移動できます。 デフォルトでは、ログインタイプは「CRM ユーザー」に設定されます。
+    bに移動できるようになります。 デフォルトでは、ログインタイプは「CRM ユーザー」に設定されます。
     
     c. ログインタイプを「カスタム SSO」に切り替えて、設定プロセスを開始します。
 
 ID プロバイダー設定の接続設定を入力します
 
-    a. ID プロバイダーは、必要な設定フィールドを取り出す IdP メタデータ .xml ドキュメントを提供する場合があります。 .xml ドキュメントのコンテンツを読み込むか、ID プロバイダーの設定プロセス中に取得した出力から以下の 3 つのフィールドに入力します。 **両方を完了する必要はありません。**
+    a. ID プロバイダーは、必須の設定フィールドを引き出すIdP メタデータ .xml ドキュメントを提供する場合があります。 .xml ドキュメントのコンテンツを読み込むか、ID プロバイダーの設定プロセス中に取得した出力から以下の 3 つのフィールドに入力します。 **&#x200B; 両方を完了する必要はありません。**
     
-    i. IdP URL: ユーザーを  [!DNL Marketo Measure]  アプリケーションで認証するためにポイントする必要があ  [!DNL Marketo Measure] URL です。 「リダイレクト URL」と呼ばれることもあります。
-    ii. IdP 発行者：ID プロバイダーの一意の ID。 「外部キー」 
-    iii とも呼ばれます。 IdP 証明書： [!DNL Marketo Measure]  がすべての ID プロバイダーの応答の署名を検証および検証できる公開鍵。
+    i。 IdP URL: ユーザーを [!DNL Marketo Measure]  アプリケーションに認証するために [!DNL Marketo Measure] が指定する必要があるURL。 「リダイレクト URL」と呼ばれることもあります。
+    ii。 IdP 発行者：ID プロバイダーの一意の ID。 「外部キー」と呼ばれることもあります。
+    iii. IdP 証明書： [!DNL Marketo Measure]  がすべての ID プロバイダーの応答の署名を検証および検証できる公開鍵。
 
 ユーザのトークンの有効期限を分単位で設定します。
 
@@ -64,53 +64,53 @@ ID プロバイダー設定の接続設定を入力します
 
 ユーザ属性設定を行って、それぞれの名、姓、メールアドレスにマッピングします。
 
-    a. SAML 属性を入力すると、 [!DNL Marketo Measure]  は渡された情報でユーザーを認識できます。
+    a. SAML属性を入力すると、 [!DNL Marketo Measure] は渡された情報によってユーザーを認識できます。
     
-    i. メール属性：ID プロバイダーがユーザーのメールアドレスに使用する属性名を指定します。
-    ii. 名属性：ID プロバイダーがユーザーの名に使用する属性名を指定します。
-    iii. 姓属性：ID プロバイダーがユーザーの姓に使用する属性名を指定します。
+    i. メール属性：ID プロバイダーがユーザーの電子メールアドレスに使用する属性名を指定します。
+    ii. 名の属性：ID プロバイダーがユーザーの名に使用する属性名を指定します。
+    iii. 姓の属性：ID プロバイダーがユーザーの姓に使用する属性名を指定します。
     
-    b. ヒント：今すぐ SAML 設定をテストする場合は、このセクションで使用できる Email、First Name、Last Name 属性が解析されます。
+    b. ヒント：SAML設定を今すぐテストすると、このセクションで使用できるEmail、First Name、Last Name属性が解析されます。
 
-![b. ヒント：ここで SAML 設定をテストすると、](assets/discover-control-1.png) の内容が解析されます。
+![b. ヒント：SAML設定を今すぐテストすると、](assets/discover-control-1.png)を解析します
 
 ユーザロール設定を行って、IdP から分類されたそれぞれのロールまたはグループにマッピングします。
 
-    a. お客様は、ID プロバイダで定義されたグループに基づいてユーザーの役割を割り当てるオプションが  [!DNL Marketo Measure]  ります。 SAML 属性を入力すると、 [!DNL Marketo Measure]  はユーザのロールとグループを  [!DNL Marketo Measure]  のユーザ権限にマッピングできます。 管理者がアカウント。
+    a. お客様には、ID プロバイダーで定義されたグループに基づいて [!DNL Marketo Measure]  ユーザーの役割を割り当てるオプションがあります。 SAML 属性を入力すると、 [!DNL Marketo Measure]  はユーザのロールとグループを  [!DNL Marketo Measure]  のユーザ権限にマッピングできます。 アカウントを更新するのに十分な権限を [!DNL Marketo Measure] 管理者が持つように、これらの役割を設定することを強くお勧めします。
     
-    b を更新するのに十分な権限を持つように、これらの役割を設定することを強くお勧めします  [!DNL Marketo Measure]  役割またはグループがマッピングされない場合、デフォルト設定では、ID プロバイダーのすべての従業員が標準のユーザーアクセスを持ちます。
+    b. 役割またはグループがマッピングされていない場合、デフォルト設定は、ID プロバイダーのすべての従業員が標準ユーザーアクセス権を持つことです。
     
-    i. [!DNL Marketo Measure]  標準ユーザー： [!DNL Marketo Measure] application.
-    ii. [!DNL Marketo Measure]  アカウント管理者ユーザーへの読み取り専用アクセスが必要なユーザーに（SSO プロバイダーの）役割またはグループの値を提供します。 [!DNL Marketo Measure]  アプリケーションへの管理アクセスが必要なユーザーに（SSO プロバイダーの）役割またはグループの値を提供します。 これは、役割がお客様のアカウントに関連する設定および設定を変更するアクセス権を持っていることを意味します。
-    iii. IdP には正確な名前の「グループ」の属性が必要です。この名前には、「Bizible Standard ユーザー」または「Bizible アカウント管理者ユーザー」属性に入力した値が含まれています。
+    i. [!DNL Marketo Measure] 標準ユーザー： [!DNL Marketo Measure]  アプリケーションへの読み取り専用アクセス権を持つ必要があるユーザーに対して（SSO プロバイダーから）役割またはグループの値を提供します。
+    ii. [!DNL Marketo Measure]  アカウント管理者ユーザー： [!DNL Marketo Measure]  アプリケーションへの管理アクセス権を持つユーザーに（SSO プロバイダーから）役割提供します。 つまり、役割は、アカウントに関連する設定や設定を変更するためのアクセス権を持っています。
+    iii. 「Bizible Standard User」または「Bizible Account Admin User」属性に入力した値を格納する「groups」の正確な名前を持つIdPの属性が必要です。
     
-    c. 複数の役割またはグループを 1 つの役割にマッピングする必要がある場合は、各値をコンマで区切って入力します。
+    c. 複数の役割またはグループを役割にマッピングする場合は、各値をコンマで区切って入力します。
 
-![c. 複数の役割またはグループを 1 つの役割にマッピングする必要がある場合 &#x200B;](assets/discover-control-2.png)
+![c。 複数の役割またはグループを1つの役割にマッピングする必要がある場合、](assets/discover-control-2.png)
 
 シングルサインオン設定をテストします
 
-    a. 「保存」をクリックする前に、「[!UICONTROL SAML 認証をテスト &#x200B;]」ボタンをクリックして、設定が正しく設定されていることを確認する必要があります。
+    a. 「保存」をクリックする前に、「[!UICONTROL SAML認証をテスト &#x200B;]」ボタンをクリックして、設定が正しく設定されていることを確認する必要があります。
     
-    b。 「失敗」エラーが表示された場合は、メッセージに従って再試行してください。
+    b. 「失敗」エラーが表示された場合は、メッセージに従って再試行してください。
 
-![b. 「失敗」エラーが表示された場合は、メッセージに従って &#x200B;](assets/discover-control-3.png) の操作を試みます。
+![b. 「失敗」エラーが表示された場合は、メッセージに従って試行してください](assets/discover-control-3.png)
 
 設定を保存し、新しいカスタムサインイン URL で[!UICONTROL シングルサインオン]を使用するよう同僚に指示します。
 
-    a. 重要：新しい認証設定を保存すると、CRM ユーザーによるログインを無効にし、カスタム SSO を有効にしたため、新しいページに移動したらセッションが終了する可能性があります。
+    a. 重要：新しい認証設定を保存すると、CRM ユーザーによるログインを無効にし、カスタム SSOを有効にしているため、新しいページに移動するとセッションが終了する可能性があります。
 
-![a. 重要：新しい認証設定を保存すると、](assets/discover-control-3.png) のことが可能になります。
+![a. 重要：新しい認証設定を保存すると、次のことが可能になります。](assets/discover-control-3.png)
 
 お試しください。
 
-    a. 新しいカスタムログイン URL を使用して、ID プロバイダーの資格情報で  [!DNL Marketo Measure]  アプリケーションにログインし直します。
+    a. 新しいカスタム サインイン URLを使用し、ID プロバイダーの資格情報を使用して [!DNL Marketo Measure]  アプリケーションに再度ログインしてみてください。
     
-    b 形式は「https://apps.adobe.com/business/[accountName]」 
+    b. 形式は、「https://apps.adobe.com/business/[accountName]&#39;
     
-    c のようになります。 これで完了です。 アカウントの  [!DNL Marketo Measure]  アプリケーションでシングルサインオンが正常に設定されました。
+    c」のようになります。 これで完了です。 アカウントの  [!DNL Marketo Measure]  アプリケーションでシングルサインオンが正常に設定されました。
 
-![c. これで完了です。 へのシングル サインオンが正常に設定されました &#x200B;](assets/discover-control-3.png)
+![c。 これで完了です。 シングル サインオンを](assets/discover-control-3.png)に正常に設定しました
 
 >[!NOTE]
 >
@@ -131,27 +131,27 @@ ID プロバイダー設定の接続設定を入力します
 
 [!DNL Salesforce] ロールには、各ロールの名前を使用します。 すべてのロールは、[!UICONTROL 設定]／[!UICONTROL ユーザを管理]／[!UICONTROL ロール]メニューにあります。
 
-![Salesforce ロールの場合、各ロールの名前を使用します。 すべてのロール &#x200B;](assets/discover-control-3.png)
+![Salesforce ロールの場合は、各ロールの名前を使用します。 すべての役割](assets/discover-control-3.png)
 
 **Dynamics ロール**
 
 [!DNL Dynamics] ロールには、各セキュリティロールの名前を使用します。 すべてのセキュリティロールは、[!UICONTROL 設定]／[!UICONTROL セキュリティ]／[!UICONTROL セキュリティロール]メニューにあります。
 
-![Dynamics ロールの場合は、各セキュリティーロールの名前を使用します。 すべて &#x200B;](assets/discover-control-3.png)
+![Dynamics ロールの場合は、各セキュリティ ロールの名前を使用します。 すべて](assets/discover-control-3.png)
 
-![Dynamics ロールの場合は、各セキュリティーロールの名前を使用します。 すべて &#x200B;](assets/discover-control-3.png)
+![Dynamics ロールの場合は、各セキュリティ ロールの名前を使用します。 すべて](assets/discover-control-3.png)
 
 **Google ユーザ**
 
 カスタム SSO を設定すると、[!UICONTROL ユーザ]ページが更新され、Google ログインで追加した外部ユーザのみが表示されます。 アクセス権を持つすべてのユーザは SSO 設定を通じて定義されるので、追加の外部ユーザがここにリストされます。
 
-![&#x200B; カスタム SSO を設定すると、ユーザーページが表示されます &#x200B;](assets/discover-control-3.png)
+![&#x200B; カスタム SSOを設定すると、ユーザーページは](assets/discover-control-3.png)になります
 
 有効な [!DNL Google] アカウントのみを追加でき、ユーザロールを定義する必要があります。
 
 ## 外部リンク {#external-links}
 
-* [オクタ](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
 * [Ping Identity](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
 * [OneLogin](https://onelogin.service-now.com/support?id=kb_article&sys_id=b2c91143db109700d5505eea4b9619d5)
 * [Active Directory](https://docs.microsoft.com/ja-jp/azure/active-directory/active-directory-saas-custom-apps)
