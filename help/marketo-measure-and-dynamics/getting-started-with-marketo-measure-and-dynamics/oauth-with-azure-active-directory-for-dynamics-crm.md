@@ -1,22 +1,29 @@
 ---
 unique-page-id: 37357059
-description: Dynamics CRM用 [!DNL Azure Active Directory] のOAuth - [!DNL Marketo Measure]
-title: Dynamics CRMの [!DNL Azure Active Directory] を使用したOAuth
+description: Dynamics CRM用[!DNL Azure Active Directory]のOAuth - [!DNL Marketo Measure]
+title: Dynamics CRM用[!DNL Azure Active Directory]のOAuth
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-TQID: https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM
+TQID: 'https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Taxonomy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: '808'
 ht-degree: 0%
-
 ---
-
 # Dynamics CRM用[!DNL Azure Active Directory]のOAuth {#oauth-with-azure-active-directory-for-dynamics-crm}
 
 ## 影響するユーザー {#who-s-affected}
@@ -29,7 +36,7 @@ ht-degree: 0%
 
 ## 新しいアプリケーションの設定 {#set-up-new-application}
 
-1. [Azure ポータル &#x200B;](https://portal.azure.com/#home)にログインします。
+1. [Azure ポータル ](https://portal.azure.com/#home)にログインします。
 
 1. ページの右上隅にあるアカウントをクリックし、「ディレクトリを切り替え」ナビゲーションをクリックして適切なテナントを選択し、Azure AD テナントを選択します。 アカウントにAzure AD テナントが1つしかない場合や、適切なAzure AD テナントを既に選択している場合は、この手順をスキップしてください。
 
@@ -47,7 +54,7 @@ ht-degree: 0%
 
    ![](assets/setup-5.png)
 
-1. プロンプトに従ってアプリケーションを作成します。 Web アプリケーションまたはパブリッククライアント（モバイルおよびデスクトップ）アプリケーションのいずれであっても、web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例については、[&#x200B; クイックスタート &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview)を参照してください。\
+1. プロンプトに従ってアプリケーションを作成します。 Web アプリケーションまたはパブリッククライアント（モバイルおよびデスクトップ）アプリケーションのいずれであっても、web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例については、[ クイックスタート ](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview)を参照してください。\
    a. 「名前」はアプリケーション名で、エンドユーザーに対するアプリケーションを説明します。\
    b. 「サポートされているアカウントタイプ」で、「任意の組織ディレクトリのアカウント」および「個人のMicrosoft アカウント」を選択します。\
    c. リダイレクト URIを指定します。 Web アプリケーションの場合、これはユーザーがログインできるアプリのベース URLです。 たとえば、`http://localhost:12345` のように設定します。 パブリッククライアント（モバイルおよびデスクトップ）の場合、Azure ADはそれを使用してトークン応答を返します。 アプリケーションに固有の値を入力します。 例：`http://MyFirstAADApp`。
@@ -82,7 +89,7 @@ ht-degree: 0%
 
    ![](assets/setup-13b.png)
 
-1. 「[!UICONTROL &#x200B; ユーザーとグループ &#x200B;]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
+1. 「[!UICONTROL  ユーザーとグループ ]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
 
    ![](assets/setup-14.png)
 

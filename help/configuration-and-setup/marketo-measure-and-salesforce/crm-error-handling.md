@@ -3,18 +3,24 @@ description: CRM書き出しのエラーの処理方法を説明します
 title: CRM 書き出しのエラー処理
 feature: Salesforce
 exl-id: 7452bff0-4bf1-474b-a705-446c29882230
-TQID: https://experienceleague.adobe.com/wDim-XKvs--5I-bXYod5pypn3NTz3hfotreiQ9MtT8k
+TQID: 'https://experienceleague.adobe.com/wDim-XKvs--5I-bXYod5pypn3NTz3hfotreiQ9MtT8k'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Troubleshooting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 336
+source-wordcount: '336'
 ht-degree: 8%
-
 ---
-
 # CRM 書き出しのエラー処理
 
 「書き出しエラーで一時停止」機能を使用すると、レコードレベルのエラーが発生したときにCRM書き出しジョブを一時停止するかどうかを制御できます。
@@ -31,7 +37,7 @@ ht-degree: 8%
 
 この機能を無効にすると、警告ポップアップが表示され、データの不整合が発生する可能性があることを知らせます。 これらの不整合から生じる可能性のある問題に対処するのは、お客様の責任です。
 
-![&#x200B; データの不整合警告](assets/data-inconsistency.png)
+![ データの不整合警告](assets/data-inconsistency.png)
 
 いずれの場合も、機能がオンまたはオフに切り替えられているかどうかにかかわらず、発生したすべてのレコードレベルのエラーは`ExportErrors` テーブルに記録され、`CRMExport_ExportError` ジョブはこれらのレコードを毎日自動的に再書き出ししようとします。 これにより、開発者の介入なしで自動的に行われるため、サポートリクエストを送信して再書き出しを開始する必要がなくなります。
 

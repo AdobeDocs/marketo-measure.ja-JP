@@ -3,14 +3,20 @@ description: Marketo Measureユーザー向けのマーケティングチャネ�
 title: マーケティングチャネルのコスト設定
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1333'
 ht-degree: 1%
-
 ---
-
 # マーケティングチャネルのコスト設定 {#marketing-channel-costs}
 
 [!DNL Marketo Measure]を使用する最も基本的な利点の1つは、マーケティング活動を収益への影響に直接結び付けることができ、必要に応じて細分化することができます。 タッチポイントレベルで投資収益率を確認することができます。 このメリットを活用するには、チャネルコストを[!DNL Marketo Measure] アプリにアップロードする必要があります。 ROI レポートは自動的に作成され、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}の&#x200B;**マーケティング ROI ダッシュボード**&#x200B;で利用できます。
@@ -71,19 +77,19 @@ ht-degree: 1%
 
 ## マーケティングコストのアップロード {#uploading-marketing-costs}
 
-マーケティングチャネルとルールを設定または更新したら、関連するコストをアップロードします。 これを行うには、以下の手順に従います。
+マーケティングチャネルとルールを設定または更新したら、関連するコストをアップロードします。 これを行うには、以下の手順をフォローします。
 
 **手順1: [!DNL Marketo Measure] アプリのマーケティング支出ページに移動します。**
 
 **[!UICONTROL マイアカウント]** メニューに移動し、**[!UICONTROL 設定]**&#x200B;をクリックし、左側のサイドバーの&#x200B;**[!UICONTROL レポート]** セクションの&#x200B;**[!UICONTROL マーケティング支出]** オプションに移動します。
 
-![&#x200B; マイアカウントメニューで「設定」をクリックし、](assets/spend-management-4.png)をクリックします
+![ マイアカウントメニューで「設定」をクリックし、](assets/spend-management-4.png)をクリックします
 
 **手順2：現在のコスト CSV**&#x200B;をダウンロード
 
-画面の右側に移動し、**[!UICONTROL 現在のコストのダウンロード &#x200B;].**&#x200B;をクリックします このオプションを使用すると、スプレッドシートをCSV形式でダウンロードできます。
+画面の右側に移動し、**[!UICONTROL 現在のコストのダウンロード ].**&#x200B;をクリックします このオプションを使用すると、スプレッドシートをCSV形式でダウンロードできます。
 
-![画面の右側に移動し、「現在のファイルをダウンロード &#x200B;](assets/spend-management-1.png)」をクリックします
+![画面の右側に移動し、「現在のファイルをダウンロード ](assets/spend-management-1.png)」をクリックします
 
 **手順3: CSV ファイルを開いて変更を加える**
 

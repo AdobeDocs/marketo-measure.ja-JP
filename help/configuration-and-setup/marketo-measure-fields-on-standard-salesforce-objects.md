@@ -1,15 +1,22 @@
 ---
-description: '[!DNL Marketo Measure] Fields on Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure]'
+description: 標準[!DNL Salesforce] オブジェクトの[!DNL Marketo Measure] フィールド - [!DNL Marketo Measure]
 title: 標準 [!DNL Salesforce] オブジェクトの [!DNL Marketo Measure] フィールド
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '673'
 ht-degree: 99%
-
 ---
-
 
 # 標準 [!DNL Salesforce] オブジェクトの [!DNL Marketo Measure] フィールド {#marketo-measure-fields-on-standard-salesforce-objects}
 
@@ -20,7 +27,7 @@ ht-degree: 99%
 
 ## アカウント {#account}
 
-予測エンゲージメントスコア：このフィールドは、ABM 機能と使用して、アカウントのエンゲージメント度に関連するスコアを提供し、ページビューの最新性、アカウントに関連する取引先責任者の数、商談が成立したかなど、多くの要因を考慮に入れます。
+予測エンゲージメントスコア：このフィールドは ABM 機能と併用し、アカウントのエンゲージメント度合いに関するスコアを提供します。ページビューのリーセンシー、アカウントに関連付けられている取引先責任者の数、クローズ済みの商談があるかどうかなど、多くの要因を考慮に入れます。
 
 ## キャンペーン {#campaign}
 
@@ -28,13 +35,13 @@ ht-degree: 99%
 
 UniqueID：このフィールドは、[!DNL Marketo Measure] と同期されている様々なキャンペーンを追跡するために、内部的に使用されます。
 
-Buyer Touchpoints を有効にする：このフィールドは、オフライン属性を含めるためのキャンペーンと履歴データを実際に同期するためのものです。
+Buyer Touchpoints を有効にする：このフィールドは、オフラインのアトリビューションに含めるキャンペーンおよび履歴データを実際に同期するためのものです。
 
 タッチポイントの開始日：このフィールドは、過去のキャンペーンにタッチポイントを適用する開始日を設定するために使用します。
 
 タッチポイントの終了日：このフィールドは、過去のキャンペーンにタッチポイントを適用する終了日を設定するために使用します。 一般的な例としては、[!DNL Marketo Measure] より前のデジタルキャンペーンを含めて、終了日をスクリプトが適用された日に設定します。
 
-タッチポイント日の一括更新（ボタン）：このボタンは、キャンペーンメンバーシップの日付または初期状態の最初の応答日を参照するため、キャンペーンが同期されたときのキャンペーンメンバーのタッチポイントの日付を管理するために使用されます。 これらの日付フィールドが実際のタッチポイント日付を正確に表していない場合、このボタンを使用してタッチポイントの日付を設定します。
+顧客接点日の一括更新（ボタン）：このボタンは、キャンペーンが同期されたときにキャンペーンメンバーの顧客接点日を管理するために使用します。標準機能として、キャンペーンメンバーシップの日付または最初の応答日のいずれかを参照します。 これらの日付フィールドが実際の顧客接点日を正確に表していない場合、このボタンを使用して顧客接点日を設定します。
 
 [!DNL Marketo Measure] 属性（検証ルール）の更新：このルールは、パッケージバージョン 6.0 以降は非推奨（廃止予定）になります。
 
@@ -68,6 +75,6 @@ ABM 機能のリードからアカウントへのマッピングに使用され�
 
 ## アクティビティ {#activity}
 
-BizibleID：タッチポイントをアクティビティ属性およびコールトラッキング指標の統合のアクティビティに関連付けるために使用します。
+BizibleID：顧客接点を、アクティビティのアトリビューションおよび CallTrackingMetrics との指標連携用のアクティビティに関連付けるために使用します。
 
-Buyer Touchpoint 日：ワークフローを介して入力し、アクティビティ属性の日付として使用できるフィールドです。インタラクションが発生した日時を把握するために、コールトラッキング指標統合に対して設定されます。
+Buyer Touchpoint 日付：ワークフローを介して入力し、アクティビティのアトリビューションに使用する日付として利用できるフィールドです。インタラクションが発生した日時を把握するために、CallTrackingMetrics との統合で設定されます。

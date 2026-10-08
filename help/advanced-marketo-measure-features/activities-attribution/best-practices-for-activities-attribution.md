@@ -1,18 +1,20 @@
 ---
-description: アクティビティのアトリビューションに関するベストプラクティス - [!DNL Marketo Measure]
+description: アクティビティ属性のベストプラクティス - [!DNL Marketo Measure]
 title: アクティビティアトリビューションのベストプラクティス
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-TQID: https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84
+TQID: 'https://experienceleague.adobe.com/hCGaaarnFmGXgMvu9N2l5JZIXJQ0oAsY214s1MFlS84'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: '515'
 ht-degree: 4%
-
 ---
-
 # アクティビティアトリビューションのベストプラクティス {#best-practices-for-activities-attribution}
 
 ## 概要 {#overview}
@@ -28,8 +30,8 @@ ht-degree: 4%
 初めてアクティビティルールを定義する場合でも、以前に設定したアクティビティルールを確認する場合でも、次のベストプラクティスを念頭に置いてください。
 
 * シンプルに取り組む
-   * [!DNL Marketo Measure] データに組み込むアクティビティのいくつかの主要なタイプを特定し、これらのタッチポイントの帰属に慣れるにつれて、さらにタイプを追加します
-   * 前述したように、この機能の主なユースケースは、営業開発チーム、特にアウトバウンド電話とアウトバウンドメールの有効性を追跡するタッチポイントを作成することです
+  * [!DNL Marketo Measure] データに組み込むアクティビティのいくつかの主要なタイプを特定し、これらのタッチポイントの帰属に慣れるにつれて、さらにタイプを追加します
+  * 前述したように、この機能の主なユースケースは、営業開発チーム、特にアウトバウンド電話とアウトバウンドメールの有効性を追跡するタッチポイントを作成することです
 
 >[!NOTE]
 >
@@ -37,11 +39,11 @@ ht-degree: 4%
 
 * ルールを定義するために数式フィールドを使用しない
 * 具体的かつ正確なルールの作成
-   * アクティビティのタッチポイントの作成のしきい値は、フォームへの入力またはキャンペーンメンバーシップと同じである（または類似している）必要があります。送信メールへの返信または電話会話の完了
+  * アクティビティのタッチポイントの作成のしきい値は、フォームへの入力またはキャンペーンメンバーシップと同じである（または類似している）必要があります。送信メールへの返信または電話会話の完了
 * 保存と処理の前に、常に[!DNL Salesforce]で新しいルールを検証する
-   * 「タスクとイベント」レポートタイプでアクティビティルールをレプリケートすると、ルールに含まれるタッチポイントの数を正確に把握できます
+  * 「タスクとイベント」レポートタイプでアクティビティルールをレプリケートすると、ルールに含まれるタッチポイントの数を正確に把握できます
 * 営業担当者との連携
-   * アクティビティのレコードやセールス支援ツールと最も緊密に連携するチームを編成することで、適切なフィールドを使用してルールを定義できるようになります
+  * アクティビティのレコードやセールス支援ツールと最も緊密に連携するチームを編成することで、適切なフィールドを使用してルールを定義できるようになります
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
@@ -55,5 +57,5 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アクティビティ属性](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [ アクティビティ属性](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [営業活動のアトリビューションに関するFAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

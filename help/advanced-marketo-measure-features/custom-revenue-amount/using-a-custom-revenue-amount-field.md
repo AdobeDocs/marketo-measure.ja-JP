@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874793
-description: カスタム売上金額フィールドを使用しています –  [!DNL Marketo Measure]
+description: カスタム収益金額フィールドの使用 – [!DNL Marketo Measure]
 title: カスタム収益額フィールドの使用
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+TQID: 'https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 4%
-
 ---
-
 # カスタム収益額フィールドの使用 {#using-a-custom-revenue-amount-field}
 
 デフォルトでは、Buyer Attribution Touchpointsは2つのフィールドのうちの1つから商談金額を引き出します。
@@ -48,7 +50,7 @@ ht-degree: 4%
 1. 「エントリ条件を設定」セクションの「[!UICONTROL 条件要件]」で、「**[!UICONTROL カスタム条件ロジックが満たされています]**」を選択します。
    * 検索フィールドから、カスタム金額フィールドを選択します。
    * 演算子を&#x200B;**Is Null**、値を&#x200B;**[!UICONTROL False]**&#x200B;に設定します。
-   * レコードが更新され、条件要件&#x200B;**を満たすたびに、評価条件を**&#x200B;に設定します。
+   * レコードが更新され、条件要件&#x200B;]**を満たすたびに、評価条件を**[!UICONTROL &#x200B;に設定します。
 
    ![](assets/using-a-custom-revenue-amount-field-4.png)
 
@@ -64,8 +66,8 @@ ht-degree: 4%
 
    * ラベルを入力 – API名が自動的に生成されます
    * 「更新するレコードを検索して値を設定する方法」で、**[!UICONTROL フローをトリガーした商談レコードを使用する]**&#x200B;を選択します。
-   * 「[!UICONTROL &#x200B; フィルター条件を設定]」セクションで、「**[!UICONTROL 常にレコードを更新]**」をレコードを更新するための条件要件として選択します。
-   * 「[!UICONTROL &#x200B; キャンペーンレコードのフィールド値を設定]」フィールドで、Marketo Measureの商談金額（**bizible2__Bizible_Opportunity_Amount__c**）と値を選択します。 次に、カスタム金額フィールドを選択します。
+   * 「[!UICONTROL  フィルター条件を設定]」セクションで、「**[!UICONTROL 常にレコードを更新]**」をレコードを更新するための条件要件として選択します。
+   * 「[!UICONTROL  キャンペーンレコードのフィールド値を設定]」フィールドで、Marketo Measureの商談金額（**bizible2__Bizible_Opportunity_Amount__c**）と値を選択します。 次に、カスタム金額フィールドを選択します。
    * 「**[!UICONTROL 完了]**」をクリックします。
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
@@ -92,7 +94,7 @@ ht-degree: 4%
 
    ![](assets/using-a-custom-revenue-amount-field-12.png)
 
-1. ワークフローを設定します。 ルール名を「Update [!DNL Marketo Measure] Opportunity Amount」に設定します。 評価条件を「作成され、編集されるたびに」に設定します。 ルール条件で、カスタム金額フィールドを選択し、演算子[!UICONTROL を「次と等しくない」 &#x200B;]として選択し、「値」フィールドを空白のままにします。
+1. ワークフローを設定します。 ルール名を「Update [!DNL Marketo Measure] Opportunity Amount」に設定します。 評価条件を「作成され、編集されるたびに」に設定します。 ルール条件で、カスタム金額フィールドを選択し、演算子[!UICONTROL を「次と等しくない」 ]として選択し、「値」フィールドを空白のままにします。
 
    ![](assets/using-a-custom-revenue-amount-field-13.png)
 
@@ -105,8 +107,8 @@ ht-degree: 4%
 
 1. ワークフローのロールアップページに戻ります。必ず「アクティベート」し、問題ありません。 アクティブ化するには、新しいワークフローの横にある&#x200B;**[!UICONTROL 編集]**&#x200B;をクリックし、**[!UICONTROL アクティブ化]**&#x200B;をクリックします。
 
-   これらの手順を完了したら、ワークフローをトリガーして[!UICONTROL &#x200B; カスタムオポチュニティ &#x200B;] フィールドから新しい値を取得するために、オポチュニティを更新する必要があります。
+   これらの手順を完了したら、ワークフローをトリガーして[!UICONTROL  カスタムオポチュニティ ] フィールドから新しい値を取得するために、オポチュニティを更新する必要があります。
 
    これは、SFDC内のデータローダーを通じてオポチュニティを実行することで実現できます。 データ ローダーの使用に関する詳細については、[この記事](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md){target="_blank"}を参照してください。
 
-途中でご不明な点がある場合は、Adobe アカウントチーム（アカウントマネージャー）または[[!DNL Marketo]  サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお気軽にお問い合わせください。
+途中でご不明な点がある場合は、Adobe アカウントチーム（アカウントマネージャー）または[[!DNL Marketo]  サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}までお気軽にお問い合わせください。

@@ -4,20 +4,25 @@ description: '[!DNL Marketo Measure] メンテナンス - [!DNL Marketo Measure]
 title: '[!DNL Marketo Measure] メンテナンス'
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-TQID: https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k
+TQID: 'https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 636
+source-wordcount: '636'
 ht-degree: 95%
-
 ---
-
 # [!DNL Marketo Measure] メンテナンス {#marketo-measure-maintenance}
 
 [!DNL Marketo Measure] は、必要な情報のほぼすべてを CRM から毎日取得しますが、[!DNL Marketo Measure] を稼動させ、可能な限り最も正確な情報を出力し続けるために、定期的にスケジュールする必要があるメンテナンスタスクがいくつかあります。
@@ -34,7 +39,7 @@ ht-degree: 95%
 
 **追跡するドメインのリストの更新（1 回／月）**
 
-Marketo Measure は、JavaScript がアクティブになっているすべてのページとサブドメインを追跡しますが、対象となるのは既知のドメインのみです。 最近、新しいドメインをデビューした場合、国際的に拡張した場合、またはプライマリドメインを変更した場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}に連絡して、アカウントが適切に更新されていることを確認してください。
+Marketo Measure は、JavaScript がアクティブになっているすべてのページとサブドメインを追跡しますが、対象となるのは既知のドメインのみです。 最近、新しいドメインをデビューした場合、国際的に拡張した場合、またはプライマリドメインを変更した場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}に連絡して、アカウントが適切に更新されていることを確認してください。
 
 **カスタムチャネルマッピングの精度の確認（1 回／月）**
 
@@ -57,6 +62,6 @@ Marketo Measure は、JavaScript がアクティブになっているすべて�
 
 **機械学習モデルとカスタムモデルの重み付けの比較（1 回／四半期）（該当する場合）**
 
-[!DNL Marketo Measure] カスタムモデルのライセンスを取得している場合は、[!UICONTROL 設定]／[!UICONTROL アトリビューション設定]で機械学習モデル（MLM）からデータを利用することもできます。 MLM は、アカウントからのタッチポイントデータを使用して各ステージの重要性を計算し、カスタムモデルでアトリビューションの重み付けを割り当てる方法を決定するのに役立ちます。 四半期に一度 MLM とカスタムモデルを比較し、カスタムモデルへの潜在的な変更の影響について SM と話し合うことをお勧めします。
+[!DNL Marketo Measure] カスタムモデルのライセンスを取得している場合は、[!UICONTROL 設定]／[!UICONTROL アトリビューション設定]で機械学習モデル（MLM）からデータを利用することもできます。 MLM は、アカウントの顧客接点データを使用して各ステージの重要性を算出し、カスタムモデルでアトリビューションの重み付けをどのように割り当てるかを判断する際に役立ちます。 四半期に一度 MLM とカスタムモデルを比較し、カスタムモデルへの潜在的な変更の影響について SM と話し合うことをお勧めします。
 
 [!DNL Marketo Measure] 機械学習モデルについて詳しくは、[この記事](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)を参照してください。

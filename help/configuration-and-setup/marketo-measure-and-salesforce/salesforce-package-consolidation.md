@@ -1,22 +1,30 @@
 ---
-description: '[!DNL Salesforce] パッケージ統合 –  [!DNL Marketo Measure]'
+description: '[!DNL Salesforce] パッケージ統合 – [!DNL Marketo Measure]'
 title: '[!DNL Salesforce] パッケージの統合'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0
+TQID: 'https://experienceleague.adobe.com/tnukDAuF9C1oI2Req6SWqg3C9gLFJASkIWDDt-0HUm0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 446
+source-wordcount: '446'
 ht-degree: 9%
-
 ---
-
 # [!DNL Salesforce] パッケージの統合 {#salesforce-package-consolidation}
 
 ユーザーエクスペリエンスを向上させ、使用を簡素化するために、既存のパッケージは単一の包括的なパッケージにコンパイルされています。
@@ -36,23 +44,23 @@ ht-degree: 9%
 
 ## サポートと移行 {#support-and-transition}
 
-[&#x200B; サポートチーム &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}は、質問に答え、新しい統合パッケージへのスムーズな移行を支援するために利用できます。
+[ サポートチーム ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}は、質問に答え、新しい統合パッケージへのスムーズな移行を支援するために利用できます。
 
 ## 必要なアクション {#retired-actions}
 
 * V2 パッケージが既にインストールされている場合は、新しい統合バージョンに更新する必要があります。
 * 任意のレポートパッケージのレポートまたはダッシュボードがある場合は、すべてのフィールドが統合パッケージに存在するため、変更を必要とせずに簡単に再作成できます。
 * V2_EXT パッケージのフィールドを使用してレポートを作成する場合は、次の手順に従って統合パッケージでレポートを再作成できます。
-   * V2_EXT フィールドのすべてのデータはタッチポイントフィールドで使用できるので、レポートを変更して、タッチポイントの位置にフィルターを追加することで、対応するV2 タッチポイントフィールドからデータを取得できます。
-   * 「アウトリーチ」テキストを含む広告コンテンツ FTを含むすべてのリードを取得するレポートの例。
-      * V2_EXT クエリ：
-         * bizible2_ext__Ad_Content_FT__c contains Outreach
+  * V2_EXT フィールドのすべてのデータはタッチポイントフィールドで使用できるので、レポートを変更して、タッチポイントの位置にフィルターを追加することで、対応するV2 タッチポイントフィールドからデータを取得できます。
+  * 「アウトリーチ」テキストを含む広告コンテンツ FTを含むすべてのリードを取得するレポートの例。
+    * V2_EXT クエリ：
+      * bizible2_ext__Ad_Content_FT__c contains Outreach
 
 ![](assets/package-consolidation-1.png)
 
 * 統合パッケージ内の対応するクエリ：
-   * bizible2__Touchpoint_Position__cにはFT ANDが含まれます
-   * bizible2__Ad_Content__c contains Outreach
+  * bizible2__Touchpoint_Position__cにはFT ANDが含まれます
+  * bizible2__Ad_Content__c contains Outreach
 
 ![](assets/salesforce-package-consolidation-2.png)
 
@@ -64,7 +72,7 @@ ht-degree: 9%
 
 **現在のパッケージのデータをバックフィルするにはどうすればよいですか？**
 
-BT/BAT データのバックフィルと再処理を行い、タッチポイント IDおよびフォーム ID フィールドに入力するために、サポート [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}を含むチケット を提出できます。
+BT/BAT データのバックフィルと再処理を行い、タッチポイント IDおよびフォーム ID フィールドに入力するために、サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}を含むチケット [を提出できます。
 
 **V1およびV2_EXT パッケージのフィールドは、統合パッケージで利用できますか？**
 
@@ -72,4 +80,4 @@ BT/BAT データのバックフィルと再処理を行い、タッチポイン�
 
 **V2_EXT フィールドを使用するレポートを統合パッケージで再作成できますか？**
 
-はい。 「[必要なアクション &#x200B;](#retired-actions)」セクションの手順に従います。
+はい。 「[必要なアクション ](#retired-actions)」セクションの手順に従います。

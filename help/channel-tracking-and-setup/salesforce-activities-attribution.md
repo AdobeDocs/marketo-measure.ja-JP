@@ -3,13 +3,22 @@ description: Marketo Measure ユーザー向けSalesforce アクティビティ�
 title: Salesforce アクティビティのアトリビューション
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
-
 ---
-
 # Salesforce アクティビティのアトリビューション {#salesforce-activities-attribution}
 
 [!DNL Marketo Measure] Salesforce アクティビティの統合により、特定のタスクとイベントのレコードがアトリビューションモデルに取り込まれます。 営業メールや、期限内のクレジットが届いていない営業電話などを追跡し始めます。 アクティビティ ルールを設定するには、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}に移動します。 そこから、**[!UICONTROL 設定]** タブに移動し、**[!UICONTROL アクティビティ]** タブをクリックします。
@@ -23,11 +32,11 @@ ht-degree: 1%
 階層の詳細：
 
 * チャネル
-   * サブチャネル
-      * キャンペーン
-      * キャンペーン
-   * サブチャネル
-      * キャンペーン
+  * サブチャネル
+    * キャンペーン
+    * キャンペーン
+  * サブチャネル
+    * キャンペーン
 
 >[!TIP]
 >
@@ -39,7 +48,7 @@ ht-degree: 1%
 
 ルールは、アトリビューションの対象となるレコードを示すフィルターとして機能します。 例えば、類似のロジックを使用してCRMでレポートを作成し、そのレポートを生成するとします。 および/またはステートメントと、`matches any`、`contains`、`starts with`、`ends with`、`is equal to`などの様々な演算子を組み合わせて使用できる柔軟性があります。 ボックス化されたルール内で`and` ステートメントを定義するか、ボックス外のレイヤー`or` ステートメントを定義します。
 
-![&#x200B; ルールはフィルターとして機能し、どのレコードが](assets/activities-attribution-12.png)であるかを示します
+![ ルールはフィルターとして機能し、どのレコードが](assets/activities-attribution-12.png)であるかを示します
 
 >[!NOTE]
 >
@@ -53,13 +62,13 @@ ht-degree: 1%
 >
 >パッケージのインストール時に、[!DNL Marketo Measure]にはアクティビティ レコードにカスタム Buyer Touchpoint日付フィールドが含まれます。 ステータスが変更された日付など、動的な日付を使用する場合は、CRM ワークフローを使用して「Buyer Touchpoint日」を設定し、この手順で「Buyer Touchpoint日」を選択することができます。
 
-![&#x200B; パッケージをインストールすると、Marketo Measureにはカスタム Buyer Touchpoint](assets/activities-attribution-13.png)が含まれます
+![ パッケージをインストールすると、Marketo Measureにはカスタム Buyer Touchpoint](assets/activities-attribution-13.png)が含まれます
 
 タスクやイベントに異なるルールを設定することを忘れないでください。 営業部門が活動を記録するために使用するオブジェクトを把握する必要があります。
 
-![&#x200B; タスクまたはイベントに異なるルールを設定することを忘れないでください。 You](assets/activities-attribution-5.png)
+![ タスクまたはイベントに異なるルールを設定することを忘れないでください。 You](assets/activities-attribution-5.png)
 
-これらの新しい顧客接点を、適切な[&#x200B; マーケティングチャネル &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}に配置することをお勧めします。 作成したばかりの新しいキャンペーンマッピングでチャネルを定義します。
+これらの新しい顧客接点を、適切な[ マーケティングチャネル ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}に配置することをお勧めします。 作成したばかりの新しいキャンペーンマッピングでチャネルを定義します。
 
 >[!TIP]
 >
@@ -80,12 +89,12 @@ ht-degree: 1%
 | 任意に一致 | 複数の値 – 完全一致 |
 | 任意の（を含む）と一致 | 複数の値 – &#42;値&#42;、&#42;値、&#42;値&#42; |
 
-![|任意（含む） |複数の値 – &42;value&42;、&42;value、&42;value&42; |](assets/activities-attribution-8.png)
+![|任意（含む） |複数の値 – &amp;42;value&amp;42;、&amp;42;value、&amp;42;value&amp;42; |](assets/activities-attribution-8.png)
 
-さらに、新しいチャネルのコストを入力することもできます。 [&#x200B; マーケティング費用のアップロード &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"}を使用すると、チャネルレベル、サブチャネルレベル、またはキャンペーンレベルで費用を入力できます。 新しい[!DNL Marketo Measure] キャンペーンでは、関連コストを月ごとに追加し、各キャンペーンのROIを確認できます。
+さらに、新しいチャネルのコストを入力することもできます。 [ マーケティング費用のアップロード ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"}を使用すると、チャネルレベル、サブチャネルレベル、またはキャンペーンレベルで費用を入力できます。 新しい[!DNL Marketo Measure] キャンペーンでは、関連コストを月ごとに追加し、各キャンペーンのROIを確認できます。
 
 ![最後に、コストを入力するオプションがあります](assets/activities-attribution-9.png)
 
 >[!MORELIKETHIS]
 >
->[&#x200B; アクティビティ属性に関するFAQ](/help/channel-tracking-and-setup/activities-attribution-faq.md)
+>[ アクティビティ属性に関するFAQ](/help/channel-tracking-and-setup/activities-attribution-faq.md)

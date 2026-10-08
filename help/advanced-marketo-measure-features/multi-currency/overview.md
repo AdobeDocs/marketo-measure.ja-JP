@@ -1,22 +1,24 @@
 ---
 unique-page-id: 27656735
-description: 概要 –  [!DNL Marketo Measure]
+description: 概要 – [!DNL Marketo Measure]
 title: 概要
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-TQID: https://experienceleague.adobe.com/x-CcPqcp3SXgSToNxdrLNnkYf5DA7Be9nPPwHTxA8pM
+TQID: 'https://experienceleague.adobe.com/x-CcPqcp3SXgSToNxdrLNnkYf5DA7Be9nPPwHTxA8pM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: '334'
 ht-degree: 1%
-
 ---
-
 # 概要 {#overview}
 
-現在、[!DNL Marketo Measure] アプリケーションは1つの通貨（USDと想定）のみをサポートしていますが、世界中の顧客が自社の会社およびユーザーの通貨についてレポートする必要があることは認識しており、認識しています。 この機能を使用すると、[!DNL Marketo Measure]で報告された支出または売上収益を表示する際に、CRMで使用するのと同じ通貨を切り替えることができます。
+現在、[!DNL Marketo Measure] アプリケーションは1つの通貨（USDと想定）のみをサポートしていますが、当社は、世界中のお客様が独自の会社およびユーザー通貨についてレポートする必要があることを認識しています。 この機能を使用すると、[!DNL Marketo Measure]で報告された支出または売上収益を表示する際に、CRMで使用するのと同じ通貨を切り替えることができます。
 
 ## 利用可能性 {#availability}
 

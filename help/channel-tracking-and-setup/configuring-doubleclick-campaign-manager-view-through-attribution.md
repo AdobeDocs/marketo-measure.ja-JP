@@ -3,13 +3,17 @@ description: Marketo Measure ユーザー向けのアトリビューションガ
 title: Doubleclick Campaign Manager ビュースルーアトリビューションの設定
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 28%
-
 ---
-
 # Doubleclick Campaign Manager ビュースルーアトリビューションの設定 {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## アトリビューションによるビューの測定 {#measuring-view-through-attribution}
@@ -48,7 +52,7 @@ DCMで親子階層を使用する場合は、インプレッションの追跡�
    m = %m Match Code マクロ\
    n = %n乱数マクロ
 
-   ![n = %nの乱数マクロ &#x200B;](assets/view-attribution-1.png)
+   ![n = %nの乱数マクロ ](assets/view-attribution-1.png)
 
 ## よくある質問 {#faq}
 

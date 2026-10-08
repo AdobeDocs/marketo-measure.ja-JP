@@ -1,25 +1,29 @@
 ---
-description: Marketo Measure ユーザー向け  [!DNL Marketo Measure]  スクリプ  [!DNL Google Tag Manager]  の追加 – ガイダンス
-title: ' [!DNL Google Tag Manager] 経由での  [!DNL Marketo Measure]  スクリプトの追加'
+description: Marketo Measure ユーザー向けの[!DNL Google Tag Manager] ガイダンスを介した[!DNL Marketo Measure] スクリプトの追加
+title: '[!DNL Google Tag Manager] 経由での [!DNL Marketo Measure] スクリプトの追加'
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 84%
-
+source-wordcount: '204'
+ht-degree: 83%
 ---
-
 # [!DNL Google Tag Manager] 経由での [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-via-google-tag-manager}
 
-[!DNL Marketo Measure] JavaScriptをインストールする場合は、サイトに直接 [&#x200B; スクリプトをハードコード &#x200B;](/help/marketo-measure-tracking/adding-marketo-measure-script.md){target="_blank"} することをお勧めします。 不可能な場合は、[!DNL Google Tag Manager]（GTM）を使用して [!DNL Marketo Measure] JS を読み込むこともできます。 GTM 経由で読み込んだ [!DNL Marketo Measure] JS は待ち時間の影響を受けやすいことに注意してください。 遅延によりスクリプトの読み込み時間に遅延が生じ、その結果、すべてのフォーム送信の約 3～5％が失われる可能性があります。
+[!DNL Marketo Measure] JavaScriptをインストールする場合は、[ スクリプト ](/help/marketo-measure-tracking/adding-marketo-measure-script.md){target="_blank"}をサイトに直接ハードコーディングすることをお勧めします。 不可能な場合は、[!DNL Google Tag Manager]（GTM）を使用して [!DNL Marketo Measure] JS を読み込むこともできます。 GTM 経由で読み込んだ [!DNL Marketo Measure] JS は待ち時間の影響を受けやすいことに注意してください。 待ち時間によりスクリプトの読み込みが遅くなり、その結果、すべてのフォーム送信の約 3～5％が失われる可能性があります。
 
 GTM 経由でスクリプトを追加する場合は、GTM の待ち時間による影響を軽減するために、[!DNL Marketo Measure] スクリプトを実行順序で最高の優先度に設定し、[!DNL Marketo Measure] タグの前に同期スクリプトがないことを確認してください。
 
 >[!NOTE]
 >
->詳しくは、[Googleのサポート記事 &#x200B;](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"} を参照してください。
+>詳しくは、Google](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"}による[ サポート記事をご覧ください。
 
 ## [!DNL Google Tag Manager] 経由での [!DNL Marketo Measure] JS の追加方法 {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

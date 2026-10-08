@@ -1,21 +1,25 @@
 ---
-description: 属性付き商談ダッシュボード -  [!DNL Marketo Measure]  – 製品
+description: 属性付き商談ダッシュボード - [!DNL Marketo Measure] – 製品
 title: 起因する商談ダッシュボード
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-TQID: https://experienceleague.adobe.com/OFUrPoJnkQyZe2PaUzj-byx92ovpbpGuLiW-e7MH6Os
+TQID: 'https://experienceleague.adobe.com/OFUrPoJnkQyZe2PaUzj-byx92ovpbpGuLiW-e7MH6Os'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '424'
 ht-degree: 2%
-
 ---
-
 # 起因する商談ダッシュボード {#attributed-opportunity-dashboard}
 
 「帰属付き商談」ダッシュボードでは、マーケティング活動が、新規および成熟したパイプライン機会の両方にどのように貢献しているかを包括的に把握できます。 戦略に起因するあらゆるオープンおよびクローズしたオポチュニティの詳細を確認し、オポチュニティステージで柔軟にフィルタリングして、成約案件を超えたマーケティングの影響力全体を把握できます。
@@ -77,7 +81,7 @@ ht-degree: 2%
 
 * 日付（商談作成日に基づく）
 * アトリビューションモデル
-   * オープンな商談の場合、「フルパス」アトリビューションモデルと「カスタム」アトリビューションモデルは特定の時点でのビューを提供し、最終的なアトリビューション結果を表すものではありません。
+  * オープンな商談の場合、「フルパス」アトリビューションモデルと「カスタム」アトリビューションモデルは特定の時点でのビューを提供し、最終的なアトリビューション結果を表すものではありません。
 * 商談ステージ（現在のステージに基づく）
 * チャネル、サブチャネル
 * キャンペーン

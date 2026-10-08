@@ -3,20 +3,28 @@ description: '''[!DNL Marketo Measure] Ultimate実装ガイド - [!DNL Marketo M
 title: '[!DNL Marketo Measure] Ultimate 実装ガイド'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 62%
-
 ---
-
 # [!DNL Marketo Measure] Ultimate 実装ガイド {#marketo-measure-ultimate-implementation-guide}
 
 この記事は、Marketo Measure Ultimate の実装ガイドとして機能します。この記事では、統合と利用を確実に成功させるための明確な手順とインサイトについて説明します。
 
 ## Ultimate と標準の階層を比較した場合の主な違い {#main-differences-when-using-ultimate-over-standard-tiers}
 
-AEPを介した B2B データのインポート：マーケターは、AEPを介して B2B データ（アカウント、オポチュニティ、連絡先、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。 ほとんどすべてのデータソースだけでなく、同じタイプの複数のデータソースからも取り込み、すべてのデータをアトリビューションのために取り込みます。
+AEPを使用したB2B データの読み込み：マーケターは、AEPを使用してB2B データ（アカウント、商談、連絡先、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。 ほとんどすべてのデータソースだけでなく、同じタイプの複数のデータソースからも取り込み、すべてのデータをアトリビューションのために取り込みます。
 
 * Salesforce や Dynamics だけでなく、ほとんどすべての CRM で使用できます。
 * 複数の CRM インスタンスや MAP インスタンスを 1 つの Marketo Measure インスタンスに接続します。
@@ -25,11 +33,11 @@ AEPを介した B2B データのインポート：マーケターは、AEPを介
 CRM および Marketo Engage の直接接続は、Ultimate では使用できなくなりました。
 
 * Ultimate では、データは CRM にプッシュされません。 お客様は、Data Warehouse のデータを使用できます。
-* マーケターは、直接接続を通じて Ad Platform データを引き続き取り、Marketo Measure JavaScript を使用して web アクティビティを追跡します。
+* マーケターは、Marketo Measure JavaScriptを通じて、直接接続を介してAd Platform データを取り込み、web アクティビティをトラッキングし続けています。
 
-Ultimate ユーザーはAEPにプロビジョニングされます。 既にAEPがある場合は、新しいインスタンスを再プロビジョニングしません。
+Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既にお持ちの場合は、新しいインスタンスを再プロビジョニングしません。
 
-* プロビジョニングされたAEP バージョンには、すべてのソースコネクタ、スキーマデータモデリング、データセット、アドホッククエリサービスおよびMarketo Measure専用の宛先が含まれます。
+* プロビジョニングされたAEP バージョンには、すべてのソースコネクタ、スキーマデータモデリング、データセット、アドホッククエリサービス、およびMarketo Measureの宛先のみが含まれます。
 
 詳しくは、[Marketo Measure Ultimate](/help/migration-from-tier-to-marketo-measure-ultimate.md){target="_blank"}を参照してください。
 
@@ -37,34 +45,34 @@ Ultimate ユーザーはAEPにプロビジョニングされます。 既にAEP�
 
 >[!NOTE]
 >
->スキーマ、クラス、フィールドグループの概要については、[&#x200B; スキーマの構築ブロック &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"} を参照してください。
+>スキーマ、クラス、フィールドグループの概要については、[ スキーマのブロックの構築](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"}を参照してください。
 
 **XDM スキーマ = クラス + スキーマフィールドグループ&#42;**
 
-* 必須フィールドは変更できません。 必要に応じて、カスタムフィールドを作成して追加できます。
+* 必須フィールドは変更できません。 お客様は、必要に応じてカスタムフィールドを作成して追加できます。
 * 階層に基づくフィールド名の例：accountOrganization.annualRevenue.amount
 
 &#42; _スキーマは、クラスとゼロ以上のスキーマフィールドグループで構成されます。 つまり、フィールドグループを使用せずにデータセットのスキーマを作成できます。_
 
-![&42; スキーマは、クラスと 0 個以上のスキーマフィールドで構成される &#x200B;](assets/marketo-guide-1.png)
+![&amp;42; スキーマはクラスと0個以上のスキーマフィールドで構成されています](assets/marketo-guide-1.png)
 
-[&#x200B; データセットの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview#){target="_blank"}:AEPに正常に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
+[ データセットの概要](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: AEPに正常に取り込まれたすべてのデータは、データセットとしてデータレイク内に保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
 
 ## スキーマの作成 {#creating-a-schema}
 
-自動生成ユーティリティを使用して、10 個の標準 B2B スキーマを作成することをお勧めします。
+自動生成ユーティリティを使用して、10個の標準B2B スキーマを作成することをお勧めします。
 
-* ユーティリティのダウンロードおよび設定手順 [&#x200B; こちらを参照 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ja#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}。
+* ユーティリティ [をダウンロードして設定する手順については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ja#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}。
 
-_&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
+_**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
 
 * ソースから、データを追加／テンプレートを使用を選択します。
 
-![&#x200B; ソースから、「データ使用テンプレートを追加」を選択します &#x200B;](assets/marketo-guide-2.png)
+![ ソースから、「データ使用テンプレートを追加」を選択します](assets/marketo-guide-2.png)
 
-* アカウントとすべての B2B テンプレートを選択して、10 個の標準 B2B スキーマを作成します。
+* アカウントとすべてのB2B テンプレートを選択して、10の標準B2B スキーマを作成します。
 
-![&#x200B; アカウントとすべての B2B テンプレートを選択して、10 個の標準 B2B を作成します &#x200B;](assets/marketo-guide-3.png)
+![ アカウントとすべてのB2B テンプレートを選択して、10個の標準B2B](assets/marketo-guide-3.png)を作成します
 
 ## データフロー {#dataflows}
 
@@ -84,27 +92,27 @@ _&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソース�
 
    >[!NOTE]
    >
-   >* あるスキーマタイプを別の同一のスキーマタイプにマッピングする場合は、自動的に行われます。
+   >* 1つのスキーマタイプを別の同一のスキーマタイプにマッピングすると、自動的に行われます。
    >* また、システム内の別のフローからマッピングを読み込むこともできます。
    >* 1 つのソースフィールドを複数の宛先フィールドにマッピングすることはできますが、その逆はできません。
-   >* 計算フィールド（[&#x200B; データ準備のマッピング関数 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
+   >* 計算フィールド （[ データ準備マッピング関数](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
 
    >[!CAUTION]
    >
-   >* データフローを編集できますが、マッピングが変更されても、データはバックフィルされません。
-   >* 必須フィールドが NULL の場合、フロー全体が拒否されます。
+   >* データフローを編集することはできますが、マッピングを変更してもデータがバックフィルされません。
+   >* 必須フィールドがNULLの場合、フロー全体が拒否されます。
 
    >[!NOTE]
    >
    >[Marketo Measure Ultimate のデータ整合性要件](/help/data-integrity-requirement.md){target="_blank"}
 
-1. データの読み込みケイデンスを設定します。
+1. データの読み込み頻度を設定します。
 1. レビューして完了します。
-1. データフローステータスについては、Measure UI 設定の「アカウントステータス」ページを確認してください。
+1. データフローステータスのMeasure UI設定の「アカウントステータス」ページを確認します。
 
 **モニタリング：**
 
-ソース／データフローページで、データフローのステータスを確認します
+ソース／データフローページで、データフローのステータスを確認します。
 
 * データセットのアクティビティの詳細を表示するには、データセットをクリックするだけです。
 * データフローエラーを表示するには、データフローを選択し、データフローの実行を選択して、「エラー診断のプレビュー」をクリックします。
@@ -113,9 +121,9 @@ _&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソース�
 
 オプション 1：UI から直接クエリを実行するには、データ管理の「クエリ」タブにアクセスします。
 
-![&#x200B; オプション 1:UI から直接クエリを実行するには、クエリにアクセスする &#x200B;](assets/marketo-guide-4.png)
+![ オプション 1: UIから直接クエリを実行するには、クエリ ](assets/marketo-guide-4.png)にアクセスします
 
-オプション 2:[PSQL をダウンロードして使用 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=ja){target="_blank"} （より高速で信頼性が高い）。
+オプション 2: [PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html?lang=ja){target="_blank"}をダウンロードして使用する（より高速で信頼性が高い）。
 
 ## Marketo Measure のデータセットのアクティブ化 {#activate-dataset-for-marketo-measure}
 
@@ -132,23 +140,23 @@ _&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソース�
 
 >[!NOTE]
 >
->* データフローごとに 1 つのデータセットのみを含めることをお勧めします。
->* 特定のソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ取り込むことができます。 各データセットは、1 つのデータフローにのみ含めることができます。 違反すると、実行時にデータフローが停止します。
+>* データフローごとに1つのデータセットのみを含めることをお勧めします。
+>* 特定のソースからの特定のエンティティ（アカウントなど）のデータは、1つのデータセットにのみ格納できます。 各データセットは、1 つのデータフローにのみ含めることができます。 違反すると、実行時にデータフローが停止します。
 >* AEP で宛先全体を削除して、Measure のデータを削除します。 無効にすると、新しいデータの書き出しが停止し、古いデータが保持されます。
 >* Measure 設定はほとんど同じように見えますが、ステージマッピングなどの一部は異なります。
 >* 新しいデータフローでフロー実行が生成されるまでに数時間かかり、その後は 1 時間ごとに定期的に実行されます。
 
-測定では、デフォルトの通貨を「通貨」セクションで設定する必要があります。
+Measureでは、デフォルトの通貨は「通貨」セクションで設定する必要があります。
 
 * 複数の通貨を使用する場合、通貨換算レートスキーマを AEP に入力して、アドビが読み取り、換算に使用できるようにする必要があります。
 
 **ステージマッピング：**
 
-ユーザデータからステージは自動的に読み込まれないので、すべてのステージを手動でマッピングする必要があります。
+ユーザーデータからステージは自動的に読み込まれないので、すべてのステージを手動でマッピングする必要があります。
 
 * ユーザーは、様々なソースからステージをマッピングできます。
 
-![&#x200B; ユーザーは、様々なソースからステージをマッピングできます。](assets/marketo-guide-5.png)
+![ ユーザーは異なるソースからステージをマッピングできます。](assets/marketo-guide-5.png)
 
 ステージをマッピングしていない場合、データを処理する場所がないので、システムは機能しません。
 
@@ -165,13 +173,13 @@ Marketo Measure Ultimate のお客様で、デフォルトのダッシュボー�
 
 データセットを選択し、アクティビティタイプを選択します。
 
-* カスタムアクティビティはまだサポートしていません。
-* お客様が使用可能なオプションに該当しないアクティビティを行っている場合は、「注目のアクション」として分類し、カスタムフィールドを使用して区別することをお勧めします。
+* カスタムアクティビティはまだサポートされていません。
+* お客様に使用可能なオプションに該当しないアクティビティがある場合は、「注目のアクション」として分類し、カスタムフィールドを使用して区別することを推奨します。
 
 **オフラインチャネル：**
 
-* データセット固有のチャネルマッピングルールは行わないので、これはグローバルになります。
-* 最終的には、CRM キャンペーンタイプとチャネルの両方を一致させる必要がありますが、現時点では、回避策としてチャネル名を両方のフィールドにマッピングできます。
+* データセットに特化したチャネルマッピングルールはないので、これはグローバルになります。
+* 最終的にはCRM キャンペーンタイプとチャネルの両方を一致させる必要がありますが、今のところ、回避策として、チャネル名を両方のフィールドにマッピングできます。
 * **チャネルルール：バックフィルしたデータには、ステージ遷移データは含まれません。**
 
 タッチポイントとセグメントの設定は変わりません。

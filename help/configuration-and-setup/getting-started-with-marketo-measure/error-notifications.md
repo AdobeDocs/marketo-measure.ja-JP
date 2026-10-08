@@ -1,26 +1,32 @@
 ---
-description: エラー通知 –  [!DNL Marketo Measure]
+description: エラー通知 – [!DNL Marketo Measure]
 title: エラー通知
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-TQID: https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4
+TQID: 'https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 subfeature_v2:
   - id: ec526b86-7a6d-4fae-87bd-f61c37b9b506
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1915
+source-wordcount: '1917'
 ht-degree: 27%
-
 ---
-
 # エラー通知 {#error-notifications}
 
 以下は、アプリ内通知またはメールで受け取る可能性のあるエラーのリストです。 これらのいずれかを受け取った場合は、それぞれのトラブルシューティング手順に従います。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
@@ -39,15 +45,15 @@ ht-degree: 27%
     </tr>
     <tr>
       <td>API_DISABLED</td>
-      <td>CRM の読み込み中に発生したエラー：API_DISABLED：このユーザの API 呼び出しが無効になっています</td>
-      <td>Marketo Measure ユーザの API 権限が無効になっています。</td>
-      <td>Salesforce ドキュメントの <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">API アクセスを有効にする方法</a>を参照してください。</td>
+      <td>CRM の読み込み中に発生したエラー：API_DISABLED：このユーザーの API 呼び出しが無効になっています</td>
+      <td>Marketo Measure ユーザーの API 権限が無効になっています。</td>
+      <td>Salesforce ドキュメントの <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">API アクセスを有効にする方法</a>を参照してください。</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
       <td>CRM の書き出し中に発生したエラー：PI_LIMIT_EXCEEDED</td>
       <td>CRM の API 制限（24 時間）を超えました。</td>
-      <td>API クレジット割り当ての調整については、CRM に関する次のドキュメントを参照してください。</p>
+      <td>API クレジット配分の調整については、CRM に関する次のドキュメントを参照してください。</p>
           <ul>
             <li><a href="https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/data-entities/service-protection-monitoring">Dynamics</a>
             </li>
@@ -59,7 +65,7 @@ ht-degree: 27%
             <li><b>設定</b>／<b>CRM</b>／<b>一般</b>に移動します。</li>
             <li>1日あたりのCRM API制限の更新<br/>
               <ul>
-                <li><b>メモ：デフォルトは 100,000 です。</b></li>
+                <li><b>注意：デフォルトは 10 万です。</b></li>
               </ul>
             </li>
           </ul>
@@ -90,7 +96,7 @@ ht-degree: 27%
       オブジェクトに対する権限がありません。</td>
       <td>挿入/更新が失敗する原因となるトリガーコードを確認します。 トリガーについて詳しくは、次のSalesforce ドキュメントを参照してください。
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&type=5">Apex トリガー</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Apex トリガー</a>
           </li>
           <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated"> フロートリガー</a>
           </li>
@@ -103,7 +109,7 @@ ht-degree: 27%
       <td>DUPLICATES_DETECTED</td>
       <td>Crmの書き出し中にエラーが発生しました：DUPLICATES_DETECTED : エンティティの種類「連絡先」: CRM エラーコード：DUPLICATES_DETECTED、CRM エラーメッセージ：重複レコードを作成しています。 代わりに、既存のレコードを使用することをお勧めします。, RecordId: 0123456</td>
       <td>Salesforce組織に読み込まれているレコードは既に存在します。</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">重複を許可するには、「ルールの重複」設定</a>を無効にします。
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">重複を許可するには、「ルールの重複」設定</a>を無効にします。
           <p>
           Marketo Measure専用ユーザーを<a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a>から除外します。</td>
     </tr>
@@ -111,7 +117,7 @@ ht-degree: 27%
       <td>DUPLICATE_VALUE</td>
       <td>Crmの書き出し中にエラーが発生しました：DUPLICATE_VALUE : エンティティタイプ 'リード' : CRM エラーコード : DUPLICATE_VALUE、CRM エラーメッセージ：重複した値が見つかりました：Email_Unique__c レコードの値をID 123、RecordId : 456で複製します</td>
       <td>Salesforce組織に読み込まれるフィールドでは、値の重複は許可されません。</td>
-      <td>Salesforceの<a href="https://help.salesforce.com/s/articleView?id=000390009&type=1"> 「一意のチェックボックス」 </a>のチェックを外します。
+      <td>Salesforceの<a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> 「一意のチェックボックス」 </a>のチェックを外します。
           <p>
           Marketo Measure専用ユーザーを<a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a>から除外します。</td>
     </tr>
@@ -131,7 +137,7 @@ ht-degree: 27%
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Crm エクスポート中にエラーが発生しました：FIELD_FILTER_VALIDATION_EXCEPTION : エンティティ タイプ 'Lead' : CRM エラーコード : FIELD_FILTER_VALIDATION_EXCEPTION, フィールド : User__C, CRM エラーメッセージ：値が存在しないか、フィルター条件に一致しません。 「Account Executive, Inside Sales」という役割を持つユーザーを選択してください。RecordId: 0123456</td>
       <td>変更されたレコードは、オブジェクトで定義されたルックアップフィルターを満たさなくなりました。</td>
-      <td>Marketo Measureが変更しようとしているオブジェクトのフィルターを確認します。 オブジェクト上のフィルターを確認する方法については、<a href="https://help.salesforce.com/s/articleView?id=000384756&type=1">このSalesforceの記事</a>を参照してください。</td>
+      <td>Marketo Measureが変更しようとしているオブジェクトのフィルターを確認します。 オブジェクト上のフィルターを確認する方法については、<a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">このSalesforceの記事</a>を参照してください。</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -140,7 +146,7 @@ ht-degree: 27%
       <td>この最も一般的なケースは、Salesforce組織で設定されている州/国の命名基準に従っていません。州/国フィールドは、特定のピックリスト値のみを受け入れるように標準化されているためです。 この問題に対処するには、次の操作を行います。
         <ul>
           <li>レコードを更新して、そのフィールドに対して組織が受け入れた値に従います。 使用可能な値のリストを取得するには、SFDC管理者にお問い合わせください。</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&type=5">都道府県/国の選択リストを無効にします</a>。
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">都道府県/国の選択リストを無効にします</a>。
           </li>
         </ul>
       </td>
@@ -149,7 +155,7 @@ ht-degree: 27%
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Crmの書き出し中にエラーが発生しました：INACTIVE_OWNER_OR_USER : エンティティの種類「連絡先」: CRM エラーコード：INACTIVE_OWNER_OR_USER, CRM エラーメッセージ：連絡先の所有者として非アクティブユーザー[1234]で実行された操作、RecordId: 0123456</td>
       <td>Marketo Measureに「非アクティブな所有者を含むレコードを更新」権限がありません。</td>
-      <td>非アクティブな所有者</a>」権限を持つ「<a href="https://help.salesforce.com/s/articleView?id=000386699&type=1"> レコードの更新」をMarketo Measureに付与します。</td>
+      <td>非アクティブな所有者</a>」権限を持つ「<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1"> レコードの更新」をMarketo Measureに付与します。</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
@@ -174,7 +180,7 @@ ht-degree: 27%
     </tr>
     <tr>
       <td>INVALID_CURRENCY_ISO_CODE</td>
-      <td>広告の読み込み中に発生したエラー：INVALID_CURRENCY_ISO_CODE：通貨 XXX は、Marketo Measure ではサポートされていません。
+      <td>広告の読み込み中にエラーが発生しました：INVALID_CURRENCY_ISO_CODE：通貨 XXX は、Marketo Measure ではサポートされていません。
       <p>
       広告の読み込み中に発生したエラー：INVALID_CURRENCY_ISO_CODE : 1234 のアカウントの通貨 XXX は、Marketo Measure ではサポートされていません。</td>
       <td>サポートしていない通貨が検出されました。</td>
@@ -189,7 +195,7 @@ ht-degree: 27%
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>CRM の書き出し中に発生したエラー：MISSING_CONVERTED_LEAD_PERMISSION</td>
-      <td>Marketo Measure には変換済みリードの表示／編集権限がありません</td>
+      <td>Marketo Measure にコンバート済みリードの表示／編集権限がありません。</td>
       <td>CRMでこの権限を有効にする方法については、次のExperience League ドキュメントを参照してください<br/>
           <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md"> コンバージョン済みリードを編集する権限を有効にする</a></td>
     </tr>
@@ -209,13 +215,13 @@ ht-degree: 27%
     </tr>
     <tr>
       <td>MISSING_ISREPLICATABLE_PERMISSION</td>
-      <td>CRM 読み込み中にエラーが発生しました：MISSING_REPLICATABLE_PERMISSION：Campaign に IsReplicatable 権限がありません</td>
+      <td>CRM 読み込み中にエラーが発生しました：MISSING_ISREPLICATEABLE_PERMISSION：Campaign に IsReplicateable 権限がありません。</td>
       <td>この権限は、Salesforce オブジェクトで Marketo Measure と Salesforce の同期を維持するために必要です。</td>
       <td>オブジェクトに対する複製可能な権限の設定については、Salesforce のサポートにお問い合わせください。</td>
     </tr>
     <tr>
       <td>MISSING_OBJECT_READ_PERMISSION</td>
-      <td>CRM 読み込み中にエラーが発生しました：MISSING_OBJECT_READ_PERMISSION：エンティティタイプキャンペーン：CRM エラーコード：MISSING_PERMISSION</td>
+      <td>CRM 読み込み中にエラーが発生しました：MISSING_OBJECT_READ_PERMISSION：エンティティタイプ 'Campaign'：CRM エラーコード：MISSING_PERMISSION</td>
       <td>Marketo Measure には、必要なオブジェクトに対する読み取り権限がありません。</td>
       <td rowspan="2">Marketo Measure に必要な権限に関するガイダンスについては、次のヘルプ記事を参照してください。
           <ul>
@@ -266,7 +272,7 @@ ht-degree: 27%
       <td>更新するレコードは、Salesforce組織で設定された検証ルールを満たしていません。</td>
       <td>Marketo Measure専用ユーザーを<a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> カスタム検証ルール </a>から除外します。
       <p>
-      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5">検証ルール </a>を更新します。</td>
+      <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5">検証ルール </a>を更新します。</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>

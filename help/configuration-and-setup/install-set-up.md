@@ -1,19 +1,28 @@
 ---
-description: Salesforce パッケージのインストールと設定 –  [!DNL Marketo Measure]
+description: Salesforce パッケージのインストールとセットアップ - [!DNL Marketo Measure]
 title: '[!DNL Salesforce] パッケージのインストールとセットアップ'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 84%
-
+ht-degree: 92%
 ---
-
 # Salesforce パッケージのインストール{#marketo-measure-salesforce-package-installation}
 
-[!DNL Marketo Measure]&#x200B;[!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
+[!DNL Marketo Measure][!DNL Salesforce] 基本パッケージをインストールする前に、まず [!DNL Salesforce] サンドボックスにインストールかどうかを特定してから、Salesforce 実稼動インスタンスに移動する必要があります。
 
 >[!NOTE]
 >
@@ -29,7 +38,7 @@ ht-degree: 84%
 
 以下の手順に従って、[!DNL Marketo Measure Salesforce] 基本パッケージをインストールします。
 
-1. 匿名ブラウザーを使用して、[Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"} に移動し、ログインします。
+1. シークレットブラウザーを使用して、[Salesforce AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}に移動し、ログインします。
 
 1. サンドボックスまたは本番稼働で [!DNL Marketo Measure] パッケージにインストールします。
 
@@ -37,11 +46,11 @@ ht-degree: 84%
 
 1. 「**[!UICONTROL すべてのユーザーにインストール]**」を選択します。
 
-   ![1. 「Install for All Users.](assets/bizible-full-1.png)」を選択します。
+   ![1. すべてのユーザーに対してインストールを選択します。](assets/bizible-full-1.png)
 
 1. インストールが完了すると、表示できます。
 
-   ![1. インストールが完了したら、それを表示できます。](assets/bizible-taxonomy-1.png)
+   ![1. インストールが完了したら、表示できます。](assets/bizible-taxonomy-1.png)
 
 インストールが完了したら、必要に応じて、[[!DNL Salesforce] ページレイアウト](/help/configuration-and-setup/page-layout-instructions.md){target="_blank"}を [!DNL Marketo Measure] フィールドで更新できます。
 
@@ -53,18 +62,18 @@ ht-degree: 84%
 
 [!DNL Marketo Measure] は、接続された [!DNL Salesforce] ユーザーを通じて [!DNL Marketo Measure] アプリ内でデータを送受信します。
 
-タッチポイントデータを [!DNL Salesforce] インスタンスにプッシュするには、接続されたユーザが、[!DNL Marketo Measure] カスタムオブジェクト（例：Buyer Touchpoint および Buyer Attribution Touchpoint）および標準 [!DNL Salesforce] オブジェクト（例：リードおよび取引先責任者）へのアクセス権を持っている必要があります。
+タッチポイントデータを [!DNL Salesforce] インスタンスにプッシュするには、接続されたユーザーが、[!DNL Marketo Measure] カスタムオブジェクト（例：Buyer Touchpoint および Buyer Attribution Touchpoint）および標準 [!DNL Salesforce] オブジェクト（例：リードおよび取引先責任者）へのアクセス権を持っている必要があります。
 
 Salesforce にデータをプッシュする際に検証エラーが発生しないようにするために、[!DNL Marketo Measure] プロファイルを作成します。
 
 手順 1：特定の [!DNL Marketo Measure] プロファイルを作成
 
-1. 以下の権限を割り当てます。
+1. 以下の権限を割り当てる。
 
 * 「[!DNL Marketo Measure] 管理者権限セット」
-   * 管理された権限セットは、SFDC 管理者に、[!DNL Marketo Measure] オブジェクトからレコードを作成、読み取り、書き込み、削除する権限を付与します。
+  * 管理された権限セットは、SFDC 管理者に、[!DNL Marketo Measure] オブジェクトからレコードを作成、読み取り、書き込み、削除する権限を付与します。
 * 「コンバート済みリードの表示および編集権限セット」
-   * これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。 この権限セットが有効でない場合、大幅なデータトラッキングギャップが生じる可能性があります。
+  * これにより、[!DNL Marketo Measure] は、リードが連絡先にコンバートされた後、リードを装飾できます。 この権限セットが有効でない場合、大幅なデータトラッキングギャップが生じる可能性があります。
 
 >[!NOTE]
 >
@@ -76,7 +85,7 @@ Salesforce にデータをプッシュする際に検証エラーが発生しな
 
 1. 「マーケティングユーザー」をユーザーレベル権限として有効にします。
 
-* 「[!UICONTROL マーケティングユーザー]」チェックボックスを使用すると、ユーザーは、キャンペーンを作成したり、キャンペーンインポートウィザードを使用したりできます。 このオプションを選択しない場合、ユーザーは、キャンペーンとキャンペーンの詳細な設定の表示、単一のリードまたは連絡先のキャンペーン履歴の編集、キャンペーンレポートの実行のみをおこなうことができます。[!DNL Marketo Measure] キャンペーンオブジェクトに対する読み取りおよび書き込み機能が必要です。
+* 「[!UICONTROL マーケティングユーザー]」チェックボックスを使用すると、ユーザーは、キャンペーンを作成したり、キャンペーンインポートウィザードを使用したりできます。 このオプションが選択されていない場合、そのユーザーができるのは、キャンペーンおよび高度なキャンペーン設定の表示、単一のリードまたは取引先責任者のキャンペーン履歴の編集およびキャンペーンレポートの実行のみです。 [!DNL Marketo Measure] には、キャンペーンオブジェクトに対する読み取りおよび書き込み権限が必要です。
 
 手順 3：すべてのトリガー、ワークフローおよび処理からこのプロファイルを除外
 
@@ -88,7 +97,7 @@ Salesforce にデータをプッシュする際に検証エラーが発生しな
 
 1. **[!UICONTROL 統合]**&#x200B;グループで&#x200B;**[!UICONTROL 接続]**&#x200B;を選択します。
 
-1. 現在接続されている [!DNL Salesforce] 接続の右側にあるキーアイコンをクリックして、**本番稼働で再認証**&#x200B;を選択します。 新規ユーザ資格情報でもう一度ログインします（メッセージが表示された場合）。
+1. 現在接続されている [!DNL Salesforce] 接続の右側にあるキーアイコンをクリックして、**本番稼働で再認証**&#x200B;を選択します。 新規ユーザー資格情報でもう一度ログインします（メッセージが表示された場合）。
 
 >[!MORELIKETHIS]
 >

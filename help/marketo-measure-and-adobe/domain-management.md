@@ -1,23 +1,27 @@
 ---
-description: ドメイン管理 –  [!DNL Marketo Measure]
+description: ドメイン管理 – [!DNL Marketo Measure]
 title: ドメインの管理
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY
+TQID: 'https://experienceleague.adobe.com/kDKzgnweet5U9iOfl1fg8ewsgq6uU3T48SxLFpuC7tY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 562
+source-wordcount: '562'
 ht-degree: 1%
-
 ---
-
 # ドメインの管理 {#domain-management}
 
-Experience Cloud インターフェイスで[!DNL Marketo Measure]を実行しているIMS対応テナントの場合、[!DNL Marketo Measure]には、ユーザーが独自のドメインのリストを管理できるインターフェイスが用意されています。 [!DNL Marketo Measure]人のユーザーは、まず[Adobe Admin Console](https://adminconsole.adobe.com/)でトラッキングするドメインを確認する必要があります。 Admin Consoleでドメインが検証されると、[!DNL Marketo Measure]がこれらのドメインをweb サイトのトラフィックのトラッキングに使用しているかどうかを管理できます。
+Experience Cloud インターフェイスで[!DNL Marketo Measure]を実行しているIMS対応テナントの場合、[!DNL Marketo Measure]は、ユーザーが独自のドメインのリストを管理できるインターフェイスを提供します。 [!DNL Marketo Measure]人のユーザーは、まず[Adobe Admin Console](https://adminconsole.adobe.com/)でトラッキングするドメインを確認する必要があります。 Admin Consoleでドメインが検証されると、[!DNL Marketo Measure]がこれらのドメインをweb サイトのトラフィックのトラッキングに使用しているかどうかを管理できます。
 
 ## Admin Consoleでのドメインの追加 {#adding-domains-in-admin-console}
 
@@ -25,7 +29,7 @@ ADOBE ADMIN CONSOLEへのアクセス権を持つIMS ユーザーは、自分が
 
 ![](assets/domain-management-1.png)
 
-ドメインを追加する方法については、[Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/jp/enterprise/using/add-domains-directories.html)を参照してください。 ドメインを追加したら、そのドメインは[&#x200B; ディレクトリ &#x200B;](https://helpx.adobe.com/jp/enterprise/using/add-domains-directories.html#link-domains-to-directoies)にリンクされている必要があります。
+ドメインを追加する方法については、[Admin Console ドキュメント ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html)を参照してください。 ドメインを追加したら、そのドメインは[ ディレクトリ ](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies)にリンクされている必要があります。
 
 ## [!DNL Marketo Measure]のドメインの管理 {#managing-domains-in-marketo-measure}
 

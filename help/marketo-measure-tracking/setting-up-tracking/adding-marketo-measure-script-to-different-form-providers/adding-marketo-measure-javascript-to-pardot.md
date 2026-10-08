@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874757
-description: ' [!DNL Marketo Measure] JavaScriptを [!DNL Pardot] - [!DNL Marketo Measure]に追加中'
-title: ' [!DNL Marketo Measure] JavaScriptを [!DNL Pardot]に追加中'
+description: '[!DNL Marketo Measure] JavaScriptを[!DNL Pardot]に追加しています – [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] JavaScriptを[!DNL Pardot]に追加しています'
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/AQ9eRG6l6KV5K3-suOcgN4j5Jow1WPszggcX3-pLino
+TQID: 'https://experienceleague.adobe.com/AQ9eRG6l6KV5K3-suOcgN4j5Jow1WPszggcX3-pLino'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 225
+source-wordcount: '227'
 ht-degree: 2%
-
 ---
-
 # [!DNL Marketo Measure] JavaScriptを[!DNL Pardot]に追加しています {#adding-marketo-measure-javascript-to-pardot}
 
 [!DNL Pardot]個のフォームでは、フォーム送信を認識するために[!DNL Marketo Measure]がサイト上でスクリプトを実行する以外に、フォームテンプレート内での処理が追加される必要があります。 このプロセスは簡単です。[!DNL Marketo Measure] トラッキングスクリプトを[!DNL Pardot] フォームテンプレートに配置するだけで済みます。

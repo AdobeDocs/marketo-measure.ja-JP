@@ -1,21 +1,28 @@
 ---
 unique-page-id: 18874618
-description: バイヤーアトリビューションのタッチポイントの有無に関する商談のレポート -  [!DNL Marketo Measure]
+description: バイヤーアトリビューション タッチポイントの有無に関する商談のレポート - [!DNL Marketo Measure]
 title: Buyer Attribution Touchpoints を含む／含まない商談のレポート
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-TQID: https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY
+TQID: 'https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 188
+source-wordcount: '188'
 ht-degree: 28%
-
 ---
-
 # Buyer Attribution Touchpoints を含む／含まない商談のレポート {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 
 >[!NOTE]
@@ -36,7 +43,7 @@ ht-degree: 28%
 
    * レポートタイプラベルに「バイヤーアトリビューションの有無に関わらず、商談」という名前を付けます。
    * レポートタイプ名には、同じ名前を使用します。 説明入力内の「バイヤーアトリビューションタッチポイントの有無に関わらず商談」を選択します。
-   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ &#x200B;]」に設定します。
+   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ ]」に設定します。
 
    ![](assets/3-1.jpg)
 
@@ -46,4 +53,4 @@ ht-degree: 28%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

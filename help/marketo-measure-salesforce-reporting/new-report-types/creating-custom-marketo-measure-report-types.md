@@ -1,28 +1,31 @@
 ---
 unique-page-id: 18874539
-description: カスタム  [!DNL Marketo Measure]  レポートタイプの作成 –  [!DNL Marketo Measure]
-title: カスタム [!DNL Marketo Measure] レポートタイプの作成
+description: カスタム [!DNL Marketo Measure] レポートタイプの作成 – [!DNL Marketo Measure]
+title: カスタム [!DNL Marketo Measure] レポートタイプを作成しています
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-TQID: https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio
+TQID: 'https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 370
-ht-degree: 6%
-
+source-wordcount: '372'
+ht-degree: 5%
 ---
-
 # カスタム [!DNL Marketo Measure] レポートタイプを作成しています {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->ドキュメントに「[!DNL Marketo Measure]」を指定する手順が表示される場合がありますが、CRMには「[!DNL Bizible]」が表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメントに「[!DNL Marketo Measure]」を指定する手順が表示される場合がありますが、CRMには「[!DNL Bizible]」が表示されます。 アドビは現在そのアップデートに取り組んでおり、リブランディングはまもなくお客様の CRM に反映される予定です。
 
 カスタム [!DNL Marketo Measure] [!DNL Salesforce] レポートタイプの作成方法について説明します。 レポートタイプには、購入者の顧客接点を持つリード（カスタム）、購入者の顧客接点を持つ[!DNL Marketo Measure]人（カスタム）、Buyer Attribution Touchpointを使用した商談（カスタム）の3つがあります。
 
@@ -34,10 +37,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL [!UICONTROL プライマリオブジェクト &#x200B;]]：リード
-   * Id > [!UICONTROL &#x200B; レポートタイプラベル &#x200B;]：購入者のタッチポイントを持つリード（カスタム）
-   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
-   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
+   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL [!UICONTROL プライマリオブジェクト ]]：リード
+   * Id > [!UICONTROL  レポートタイプラベル ]：購入者のタッチポイントを持つリード（カスタム）
+   * [!UICONTROL  カテゴリーに保存]：その他のレポート
+   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
 
    ![](assets/2.png)
 
@@ -57,10 +60,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]: [!DNL Marketo Measure]人
-   * [!UICONTROL 識別] > [!UICONTROL &#x200B; レポートタイプラベル &#x200B;]: [!DNL Marketo Measure]購入者のタッチポイントを持つ人物（カスタム）
-   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
-   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
+   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]: [!DNL Marketo Measure]人
+   * [!UICONTROL 識別] > [!UICONTROL  レポートタイプラベル ]: [!DNL Marketo Measure]購入者のタッチポイントを持つ人物（カスタム）
+   * [!UICONTROL  カテゴリーに保存]：その他のレポート
+   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
 
    ![](assets/5.png)
 
@@ -80,10 +83,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]：商談
+   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]：商談
    * [!UICONTROL Identification] > [!UICONTROL Report Type Label]: Opportunities with Buyer Attribution Touchpoint （カスタム）
-   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
-   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
+   * [!UICONTROL  カテゴリーに保存]：その他のレポート
+   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
 
    ![](assets/8.png)
 
@@ -101,6 +104,6 @@ ht-degree: 6%
 
    ![](assets/10.png)
 
-1. レポートに追加するカスタムフィールドが、「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加する他のフィールドがある場合は、「[!UICONTROL &#x200B; ルックアップを使用して関連するフィールドを追加]」オプションを使用します。
+1. レポートに追加するカスタムフィールドが、「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加する他のフィールドがある場合は、「[!UICONTROL  ルックアップを使用して関連するフィールドを追加]」オプションを使用します。
 
    ![](assets/11.png)

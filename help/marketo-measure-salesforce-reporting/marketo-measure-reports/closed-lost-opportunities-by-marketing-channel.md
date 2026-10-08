@@ -1,21 +1,26 @@
 ---
 unique-page-id: 18874632
-description: マーケティングチャネル別にクローズされた失われた商談 –  [!DNL Marketo Measure]
+description: マーケティングチャネル別のクローズ済み失敗商談 – [!DNL Marketo Measure]
 title: マーケティングチャネルによるクローズ済み失注商談
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-TQID: https://experienceleague.adobe.com/PJ0vKn29NiCiDYepN8HRoTXgWi1isrlql00Obi2hJz0
+TQID: 'https://experienceleague.adobe.com/PJ0vKn29NiCiDYepN8HRoTXgWi1isrlql00Obi2hJz0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 277
+source-wordcount: '277'
 ht-degree: 4%
-
 ---
-
 # マーケティングチャネルによるクローズ済み失注商談 {#closed-lost-opportunities-by-marketing-channel}
 
 本レポートでは、商談のステージに応じて異なる場合もありますが、成約に至っていない商談に貢献したマーケティングチャネルを明らかにします。
@@ -24,11 +29,11 @@ ht-degree: 4%
 
    ![](assets/1-3.jpg)
 
-1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;**レポートタイプの** Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
+1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;]**レポートタイプの**[!UICONTROL  Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
 
    ![](assets/2-3.jpg)
 
-1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント &#x200B;]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
+1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント ]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
 
    ![](assets/3-3.jpg)
 
@@ -52,4 +57,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

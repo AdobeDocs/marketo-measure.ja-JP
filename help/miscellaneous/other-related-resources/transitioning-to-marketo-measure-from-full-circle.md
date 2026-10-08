@@ -1,29 +1,35 @@
 ---
 unique-page-id: 18874535
-description: フルサークルから [!DNL Marketo Measure] に移行中 –  [!DNL Marketo Measure]
-title: Full Circle から [!DNL Marketo Measure] への移行
+description: フルサークルから[!DNL Marketo Measure]に移行 – [!DNL Marketo Measure]
+title: フルサークルから[!DNL Marketo Measure]に移行中
 exl-id: fd471771-33e2-413a-b155-02ba6e32e10c
 feature: Attribution, Fundamentals
-TQID: https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E
+TQID: 'https://experienceleague.adobe.com/OhedmCiywt5OWRw1EMsLdnLs-Sxv4DWNpZdwXqHok9E'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 634
+source-wordcount: '636'
 ht-degree: 0%
-
 ---
-
 # フルサークルから[!DNL Marketo Measure]に移行中 {#transitioning-to-marketo-measure-from-full-circle}
 
 フルサークルから[!DNL Marketo Measure]に移動しますか？ 実際、多くのマーケターがアジャイルマーケティングに関心を示しています。 ここでは、留意すべき最大の点と、移行した他の顧客から学んだ教訓を紹介します。
 
 ## キャンペーンベーストラッキングとマルチSourceトラッキングの違い {#campaign-based-tracking-vs-multi-source-tracking}
 
-[!UICONTROL &#x200B; フルサークル &#x200B;]でのやり取りはすべて、CRM キャンペーンメンバーシップを通じて追跡されます。 [!DNL Marketo Measure]では、購買ジャーニーは、JavaScript、CRM キャンペーンメンバーシップ、CRM アクティビティレコードの組み合わせによってコンパイルされます。 「アトリビューションレポートを機能させるには、CRM キャンペーンでのあらゆるインタラクションを追跡する必要がある」から「アトリビューションレポートを機能させるには、このインタラクションのサブセットのみをCRM キャンペーンで追跡する必要がある」へと精神的に切り替えるのは困難です。
+[!UICONTROL  フルサークル ]でのやり取りはすべて、CRM キャンペーンメンバーシップを通じて追跡されます。 [!DNL Marketo Measure]では、購買ジャーニーは、JavaScript、CRM キャンペーンメンバーシップ、CRM アクティビティレコードの組み合わせによってコンパイルされます。 「アトリビューションレポートを機能させるには、CRM キャンペーンでのあらゆるインタラクションを追跡する必要がある」から「アトリビューションレポートを機能させるには、このインタラクションのサブセットのみをCRM キャンペーンで追跡する必要がある」へと精神的に切り替えるのは困難です。
 
 一般的に、[!DNL Marketo Measure]が主な種類のインタラクションのタッチポイントレコードを作成する方法は次のとおりです。
 

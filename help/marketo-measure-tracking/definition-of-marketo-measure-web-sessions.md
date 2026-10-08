@@ -1,22 +1,26 @@
 ---
-description: Marketo Measure ユーザー向け Web セッション  [!DNL Marketo Measure]  ガイダンスの定義
-title: ' [!DNL Marketo Measure]  web セッションの定義'
+description: Marketo Measure ユーザー向けの[!DNL Marketo Measure] Web Sessions ガイダンスの定義
+title: '[!DNL Marketo Measure] web セッションの定義'
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 90%
-
 ---
-
 # [!DNL Marketo Measure] web セッションの定義 {#definition-of-marketo-measure-web-sessions}
 
 [!DNL Marketo Measure] が web セッションを定義する方法を説明します。
 
 **Web セッション**&#x200B;とは、一定期間における個人の web サイトとのインタラクションを指します。 セッションは、ユーザーが web サイトを訪問すると開始されます。
 
-例えば、Haley が adobe.com を訪問するとします。 サイトを訪問すると、セッションが開始します。 Haley がタブ／web ブラウザーを閉じるか、サイトから移動してサイトを離れると、セッションが終了します。
+例えば、Haley が adobe.com を訪問するとします。 サイトを訪問すると、セッションが開始されます。 Haley がタブ／web ブラウザーを閉じるか、サイトから移動してサイトを離れると、セッションが終了します。
 
 1 人のユーザーが同時に複数のセッションを開くことはできません。 Haley が [!DNL adobe.com] を 10 個の異なるタブで開いても、web サイトへの訪問に関連して作成されるセッションは 1 つだけです。
 
@@ -31,15 +35,15 @@ ht-degree: 90%
 
 **セッションの持続時間**
 
-[!DNL Marketo Measure] セッションは、web サイトで 30 分間無操作状態が続くと終了します。 例：
+[!DNL Marketo Measure]回のセッションは、web サイトで30分間の非アクティブ状態が終了した後に終了します。 例：
 
-Haley が adobe.com を訪問すると、セッションが開始します。 数分間 web サイトを探索した後、コンピューターから離れますが、web サイトは開いたままにします。 30 分間操作が実行されなかった場合、セッションは終了します。
+Haley が adobe.com を訪問すると、セッションが開始します。 数分間 web サイトを探索した後、コンピューターから離れますが、web サイトは開いたままにします。 30分間非アクティブにした後、セッションは終了します。
 
-現在、[!DNL Marketo Measure] は、ページナビゲーションとフォーム送信のみをアクティビティと見なします。 Web ページをスクロールしたり、ページ上の要素にポインタを合わせたりすることは、アクティビティと見なされません。 そのため、Haley がブログ投稿を読むために adobe.com を訪問し、読むのに 1 時間かかる場合、ページ上のコンテンツをスクロールしていても、web セッションは 30 分後に終了します。
+現在、[!DNL Marketo Measure]はページナビゲーションとフォーム送信のみをアクティビティと見なします。 Web ページをスクロールしたり、ページ上の要素にポインタを合わせたりすることは、アクティビティと見なされません。 そのため、Haley がブログ投稿を読むために adobe.com を訪問し、読むのに 1 時間かかる場合、ページ上のコンテンツをスクロールしていても、web セッションは 30 分後に終了します。
 
 ## チャネルベースの有効期限 {#channel-based-expiration}
 
-[!DNL Marketo Measure] は、ユーザが別のデジタルマーケティングチャネルまたは外部 web サイトからユーザの web サイトを訪問するたびに、新しいセッションを開始します。 これには以下が含まれます。
+[!DNL Marketo Measure] は、ユーザーが別のデジタルマーケティングチャネルまたは外部 web サイトからユーザーの web サイトを訪問するたびに、新しいセッションを開始します。 これには以下が含まれます。
 
 * リファラル web サイト
 * ソーシャルチャネル（[!DNL Facebook]、[!DNL LinkedIn] など）
@@ -47,22 +51,22 @@ Haley が adobe.com を訪問すると、セッションが開始します。 �
 
 **リファレル web サイトとソーシャルチャネル**
 
-訪問者がリファレル web サイトまたはソーシャルチャネルからユーザの web サイトを訪問すると、新しいセッションが開始されます。
+訪問者がリファラル web サイトまたはソーシャルチャネルからユーザの web サイトを訪問すると、新しいセッションが開始されます。
 
 Haley が LinkedIn を利用しており、[!DNL Marketo Measure] の投稿をクリックして、アドビ web サイトにリダイレクトされるとします。 その後で [!DNL Facebook] をスクロールしていると、ハルカは別の [!DNL Marketo Measure] の投稿を見つけます。 この投稿をクリックすると、アドビのサイトにリダイレクトされ、[!DNL LinkedIn] に関連する最初の web セッションが終了し、[!DNL Facebook] に関連する新しいセッションが開始されます。
 
 **有料またはオーガニック検索チャネル**
 
-ユーザが有料またはオーガニック検索チャネルを通じてサイトを訪問すると、新しいセッションが開始されます。 Haley がオーガニック検索を通じて アドビ web サイトを訪問してから、すぐに Google の有料広告を通じてユーザの web サイトを訪問すると、2 つの別個のセッションが作成されます。
+ユーザーが有料またはオーガニック検索チャネルを通じてサイトを訪問すると、新しいセッションが開始されます。 Haley がオーガニック検索を通じて Adobe の web サイトを訪問してから、すぐに Google の有料広告を通じてユーザの web サイトを訪問すると、2 つの別個のセッションが作成されます。
 
 **Web ダイレクトトラフィック**
 
 訪問者が web サイトの URL をアドレスバーに入力して web サイトを訪問した場合、必ずしも新しいセッションが開始されるわけではありません。
 
-Haley の最初の web セッションがリファレルサイト、ソーシャルチャネルまたは有料／オーガニック検索チャネルからの訪問の結果として開始され、その後、web ダイレクト経由でサイトを訪問しても、新しいセッションは開始されません。
+Haley の最初の web セッションがリファラルサイト、ソーシャルチャネルまたは有料／オーガニック検索チャネルからの訪問の結果として開始され、その後、web ダイレクト経由でサイトを訪問しても、新しいセッションは開始されません。
 
 _ただし_、Haley の最初の web セッションが Web ダイレクトから開始され、_外部／リファレルサイト_&#x200B;経由で web サイトを訪問すると、最初のセッションは終了し、外部／リファレルサイトに関連する新しいセッションが開きます。
 
 ## Google Analytics セッション {#google-analytics-sessions}
 
-[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。 Google Analyticsによるセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=enを参照してください &#x200B;](https://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"}
+[!DNL Marketo Measure] と Google Analytics がセッションを定義する方法には、いくつかの類似点があります。 Google Analyticsでのセッションの定義方法について詳しくは、[https://support.google.com/analytics/answer/2731565?hl=en](https://support.google.com/analytics/answer/2731565?hl=ja){target="_blank"}を参照してください。

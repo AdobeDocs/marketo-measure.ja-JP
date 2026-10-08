@@ -1,30 +1,36 @@
 ---
-description: Marketo Measure ユーザー向けの Connected Accounts ガイダンスの再認証
+description: Marketo Measure ユーザー向けのコネクテッドアカウントの再認証ガイダンス
 title: 接続されたアカウントの再認証
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 4%
-
 ---
-
 # 接続されたアカウントの再認証 {#reauthorizing-connected-accounts}
 
-アカウントが [!DNL Marketo Measure] アカウントから切断されると、プラットフォームのステータスが「認証が必要」に変わり、赤いキーアイコンが表示されます。
+アカウントが[!DNL Marketo Measure] アカウントから切断されると、プラットフォームのステータスが「承認必須」に変わり、赤いキーアイコンが表示されます。
 
-広告プラットフォームが切断され [!DNL Marketo Measure] と、コストデータをダウンロードできなくなります。また、自動タグ付けを有効にしている場合は、新しく作成した広告に [!DNL Marketo Measure] UTM パラメーターを追加します。[!DNL Marketo Measure] は、アカウントの切断中、広告プラットフォームから作成されたタッチポイントに UTM パラメーターをさかのぼって追加することはできません。
+広告プラットフォームが切断されると、[!DNL Marketo Measure]はコストデータをダウンロードできなくなります。また、自動タグ付けが有効になっている場合は、新しく作成された広告に[!DNL Marketo Measure] UTM パラメーターを追加します。 アカウントが切断されている間、広告プラットフォームから作成されたタッチポイントにUTM パラメーターを過去にさかのぼって追加することはできません。[!DNL Marketo Measure]
 
-CRM プラットフォームが切断され [!DNL Marketo Measure] と、[!DNL Marketo Measure] データの更新や新しいタッチポイントの組織へのプッシュができなくなります。 CRM 接続が再確立されると、アカウントの切断中に失 [!DNL Marketo Measure] たデータはすべてプッシュされます。
+CRM プラットフォームが切断された場合、[!DNL Marketo Measure]は[!DNL Marketo Measure] データを更新したり、新しいタッチポイントを組織にプッシュしたりすることはできません。 CRM接続が再確立されると、[!DNL Marketo Measure]は、アカウントが切断されたときに見逃したデータをすべてプッシュします。
 
-![CRM プラットフォームが切断されると、Marketo Measureは機能しなくなります &#x200B;](assets/utilizing-connections-7.png)
+![CRM プラットフォームが切断された場合、Marketo Measureは](assets/utilizing-connections-7.png)されません
 
 ## 切断されたアカウントの再認証 {#re-authorizing-disconnected-accounts}
 
-1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} に移動し、ログインします。
-1. 左上隅の **[!UICONTROL マイアカウント [!UICONTROL &#x200B; タブで &#x200B;] 設定]** を選択します。
-1. 左側の「統合」セクションを見つけ、「**[!UICONTROL 接続]**」をクリックします。
-1. 再接続する必要があるアカウントの横にある赤い鍵の記号を選択します。
-1. ポップアップウィンドウが表示され、アカウントのログインの詳細を指定するように求められます。
+1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}に移動してログインします。
+1. 左上隅の「[!UICONTROL  マイアカウント ]」タブで「**[!UICONTROL 設定]**」を選択します。
+1. 左側の「統合」セクションを見つけて、**[!UICONTROL 接続]**&#x200B;をクリックします。
+1. 再接続する必要があるアカウントの横にある赤いキー記号を選択します。
+1. ポップアップウィンドウが表示され、アカウントのログイン詳細を入力するよう求められます。

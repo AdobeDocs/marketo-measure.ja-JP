@@ -4,19 +4,23 @@ description: '[!DNL Marketo Measure] リソース リスト - [!DNL Marketo Meas
 title: '[!DNL Marketo Measure] リソースリスト'
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-TQID: https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU
+TQID: 'https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Troubleshooting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 17%
-
 ---
-
 # [!DNL Marketo Measure] リソースリスト {#marketo-measure-resource-list}
 
 [!DNL Marketo Measure]を使い始めるのに役立つ関連記事やビデオへの様々なリンクを紹介します。
@@ -33,30 +37,30 @@ ht-degree: 17%
 * [マーケティングチャネル設定、ベストプラクティス](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 * [オンラインチャネル設定](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [オフラインチャネル設定](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-* [UTM パラメーターとは](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+* [UTM パラメーターとは何ですか？](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [UTMのベストプラクティス](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
 * [SFDC CampaignsとBuyer Touchpointsの同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [マーケティング費用のアップロード](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [広告アカウントの再接続](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
-* [&#x200B; [!DNL Marketo Measure] JavaScriptを追加しています](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
-   * [Formsを除外](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
+* [ [!DNL Marketo Measure] JavaScriptを追加しています](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
+  * [Formsを除外](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **レポーティング**
 
-* [&#x200B; カスタムレポートタイプを [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)で作成しています（カスタムリード/取引先責任者/商談フィールドでレポートする必要がある場合）
-* [&#x200B; [!DNL Marketo Measure] 件のフィールドの用語集](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
+* [ カスタムレポートタイプを [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md)で作成しています（カスタムリード/取引先責任者/商談フィールドでレポートする必要がある場合）
+* [ [!DNL Marketo Measure] 件のフィールドの用語集](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **トラブルシューティング**
 
 * [SFDCへの [!DNL Marketo Measure]  サポート アクセスの許可](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
-* お問い合わせ：[[!DNL Marketo]  サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
+* お問い合わせ：[[!DNL Marketo]  サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## 動画 {#videos}
 
 ここでは、スピードアップに役立つ動画をいくつか紹介します。
 
-* [[!DNL Marketo Measure] 概要トレーニング &#x200B;](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) （22分）
-* [[!DNL Marketo Measure] SFDCでのレポート &#x200B;](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ja) （30 ～ 45分）
+* [[!DNL Marketo Measure] 概要トレーニング ](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) （22分）
+* [[!DNL Marketo Measure] SFDCでのレポート ](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ja) （30 ～ 45分）
 
 **[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ja) （～30分）**
 
@@ -70,7 +74,7 @@ ht-degree: 17%
 * タッチポイント
 * アトリビューションモデル
 
-**[[!DNL Marketo Measure] SFDCでのレポート &#x200B;](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ja) （30 ～ 45分）**
+**[[!DNL Marketo Measure] SFDCでのレポート ](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ja) （30 ～ 45分）**
 
 このコースシリーズは、Salesforceにインストールされた[!DNL Marketo Measure]件のストックレポートの概要として設計されています。 これらのレポートは、[!DNL Marketo Measure] データを使用するほとんどのレポートの基盤として機能します。
 
@@ -95,4 +99,4 @@ ht-degree: 17%
 * キャンペーンとキャンペーンメンバーフィールド
 * オフラインチャネル管理
 
-ここにすべての[初心者向けE ラーニング ビデオ &#x200B;](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ja)があります。
+ここにすべての[初心者向けE ラーニング ビデオ ](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=ja)があります。

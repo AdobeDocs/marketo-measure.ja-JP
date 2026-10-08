@@ -1,25 +1,28 @@
 ---
-description: BTとBAT間のタッチポイントの位置と生成の説明 –  [!DNL Marketo Measure]
-title: BT と [!DNL BATs] にわたる Touchpoint の位置と生成の説明
+description: BTとBAT間のタッチポイントの位置と生成の説明 – [!DNL Marketo Measure]
+title: BTおよび[!DNL BATs]間のタッチポイントの位置と生成の説明
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU
+TQID: 'https://experienceleague.adobe.com/MrUpDP1i5V-j2RzGmndOxMf8V4qw86pVlkVR29JGCgU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 792
-ht-degree: 3%
-
+source-wordcount: '792'
+ht-degree: 2%
 ---
-
 # BTおよび[!DNL BATs]間のタッチポイントの位置と生成の説明 {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **バイヤージャーニーを通じたタッチポイントのポジションとフローの生成**
 
-Buyer Touchpointの位置とそのトリガー方法を理解することは、[!DNL Marketo Measure] データを使用してレポートを正常に作成するために重要です。 見込み客がバイヤーズジャーニーを進む中で何をしたか、そしてタッチポイントデータでどのような表示になるかを明確に把握する必要があります。 このトピックに関する詳細なコンテキストについては、[[!UICONTROL &#x200B; タッチポイント生成とマッピング &#x200B;]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)記事を確認することをお勧めします。
+Buyer Touchpointの位置とそのトリガー方法を理解することは、[!DNL Marketo Measure] データを使用してレポートを正常に作成するために重要です。 見込み客がバイヤーズジャーニーを進む中で何をしたか、そしてタッチポイントデータでどのような表示になるかを明確に把握する必要があります。 このトピックに関する詳細なコンテキストについては、[[!UICONTROL  タッチポイント生成とマッピング ]](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)記事を確認することをお勧めします。
 
 [!DNL Marketo Measure]には、バイヤーズジャーニーの様々なステップによってトリガーされる、様々なタッチポイントのポジションがあります。 [!DNL Marketo Measure] データに関するレポートには、Buyer Touchpoints （BT）とBuyer Attribution Touchpoints （BAT）の2つのタッチポイントデータがあります。 これらのデータセットは、オブジェクトに関連する位置が少し異なります。 このトピックに関する詳細なコンテキストについては、[購入者のタッチポイント （BT）と購入者のアトリビューションのタッチポイント （BAT）の違い](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)の記事を確認することをお勧めします。
 
@@ -116,10 +119,10 @@ Buyer Touchpointの位置とそのトリガー方法を理解することは、[
 **商談** Buyer Attribution Touchpoint データは次のように読まれます…
 
 * ファーストタッチ（FT） – ペイドソーシャル.Facebook - 8/26/2019
-   * （アカウント/商談に対する&#x200B;_ファーストタッチ_&#x200B;があるため、**人物B**&#x200B;から）
+  * （アカウント/商談に対する&#x200B;_ファーストタッチ_&#x200B;があるため、**人物B**&#x200B;から）
 * リードジェネレーション（LC） – オーガニック検索。Google - 2019年11月20日
-   * （**人物A**&#x200B;から、アカウント/商談に対して真の&#x200B;_リード作成_&#x200B;を持っているため）
+  * （**人物A**&#x200B;から、アカウント/商談に対して真の&#x200B;_リード作成_&#x200B;を持っているため）
 * 商談作成（OC） – ウェビナー – 2020年3月4日
-   * （2020年3月7日に作成された商談に対する最も最近のインタラクションが&#x200B;**人物A**&#x200B;からのLC後のタッチポイントは&#x200B;_OC タッチポイント_&#x200B;になります）
+  * （2020年3月7日に作成された商談に対する最も最近のインタラクションが&#x200B;**人物A**&#x200B;からのLC後のタッチポイントは&#x200B;_OC タッチポイント_&#x200B;になります）
 * クローズ済み – メール - 2020年5月1日
-   * （2020年5月6日に商談がクローズされたのは最新のインタラクションであるため、**人物B**&#x200B;からのLC後のタッチポイントは&#x200B;_クローズ済み顧客接点_&#x200B;になります）
+  * （2020年5月6日に商談がクローズされたのは最新のインタラクションであるため、**人物B**&#x200B;からのLC後のタッチポイントは&#x200B;_クローズ済み顧客接点_&#x200B;になります）

@@ -1,32 +1,38 @@
 ---
 unique-page-id: 18874672
-description: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用 - Marketo Measure - 製品ドキュメント'
-title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
+description: '[!DNL Marketo Measure]と[!DNL Salesforce]のインタラクション - Marketo Measure – 製品ドキュメント'
+title: '[!DNL Marketo Measure] と [!DNL Salesforce] の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/71lT9aeqiSrxM12rpi7rDPoVaq-vX5GDOEdiOl8Dnds
+TQID: 'https://experienceleague.adobe.com/71lT9aeqiSrxM12rpi7rDPoVaq-vX5GDOEdiOl8Dnds'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Taxonomy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 100%
-
+source-wordcount: '1291'
+ht-degree: 99%
 ---
-
 # [!DNL Marketo Measure] と [!DNL Salesforce] の相互作用 {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在その更新に取り組んでおり、ブランド変更はまもなく CRM に反映される予定です。
 
 [!DNL Marketo Measure] と Salesforce の関係を大まかに見てみましょう。
 
 ## Salesforce と [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
-[!DNL Marketo Measure] アカウントが作成され、[!DNL Salesforce] が接続されると、[!DNL Marketo Measure] 管理パッケージがインストールされ、[!DNL Marketo Measure] Salesforce ユーザが編集権限を持っている限り、[!DNL Marketo Measure] はマーケティングデータを CRM インスタンスにプッシュし始めます。
+[!DNL Marketo Measure] アカウントが作成され、[!DNL Salesforce] が接続されると、[!DNL Marketo Measure] 管理パッケージがインストールされ、[!DNL Marketo Measure] Salesforce ユーザーが編集権限を持っている限り、[!DNL Marketo Measure] はマーケティングデータを CRM インスタンスにプッシュし始めます。
 
 [!DNL Marketo Measure] Salesforce パッケージをインストールしていない場合、[!DNL Marketo Measure] は Salesforce インスタンスにデータを書き込みません。
 
@@ -38,19 +44,19 @@ ht-degree: 100%
 
 この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。 CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
-## Salesforce 接続ユーザ権限 {#salesforce-connected-user-permissions}
+## Salesforce 接続ユーザー権限 {#salesforce-connected-user-permissions}
 
-**専用ユーザ用の Marketo Measure 管理者権限セット**：SFDC 管理者が Marketo Measure オブジェクトに対して CRUD 操作を実行できるようにします。
+**専用ユーザー用の Marketo Measure 管理者権限セット**：SFDC 管理者が Marketo Measure オブジェクトに対して CRUD 操作を実行できるようにします。
 
 **変換済みリードの表示と編集権限セット**：リードが取引先責任者に変換された後に、Marketo Measure でリードに装飾を追加できるようになります。
 
-**Salesforce マーケティングユーザチェックボックス**：キャンペーンの作成やキャンペーンインポートウィザードの使用をユーザに対して許可できます。
+**Salesforce マーケティングユーザーチェックボックス**：キャンペーンの作成やキャンペーンインポートウィザードの使用をユーザーに対して許可できます。
 
 * CRM でのキャンペーンの「作成」と「更新」には追加の権限が必要です。
 
-* Web アクティビティからタッチポイントを作成する際には、そのタッチポイントをキャンペーンにリンクする必要があります。 Web アクティビティには対応する CRM キャンペーンがないので、このリンクを確立するにはキャンペーンを作成する必要があります。 これは、リードと商談の両方のタッチポイントに適用されます。 使用する呼び出しは「アップサート」なので、更新権限が必要です。レコードが存在する場合は更新し、存在しない場合は作成します。 これは、アドビが作成したキャンペーンにのみ適用されます。
+* Web アクティビティから顧客接点を作成する際には、その顧客接点をキャンペーンにリンクする必要があります。 Web アクティビティには対応する CRM キャンペーンがないので、このリンクを確立するにはキャンペーンを作成する必要があります。 これは、リードと商談の両方の顧客接点に適用されます。 使用する呼び出しは「アップサート」なので、更新権限が必要です。レコードが存在する場合は更新し、存在しない場合は作成します。 これは、作成したキャンペーンにのみ適用されます。
 
-**Marketo Measure 標準ユーザ**：ユーザが Marketo Measure オブジェクトからレコードを読み取れるようにします。
+**Marketo Measure 標準ユーザー**：ユーザーが Marketo Measure オブジェクトからレコードを読み取れるようにします。
 
 ## Salesforce 標準オブジェクトとアクセス {#salesforce-standard-objects-and-access}
 
@@ -588,7 +594,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Salesforce アカウント内での削除イベントを Marketo Measure が確実にキャプチャするには、以下のオブジェクトに対する複製可能な権限が必要です。 複製可能な権限は、次のオブジェクトに標準で付属しています。
+>Salesforce アカウント内での削除イベントを Marketo Measure が正確に取り込めるようにするには、以下のオブジェクトに対する複製可能な権限が必要です。 複製可能な権限は、次のオブジェクトに標準で付属しています。
 >
 >* アカウント
 >* キャンペーン

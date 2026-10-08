@@ -3,16 +3,18 @@ description: Adobe Admin Console の設定 - Marketo Measure - 製品ドキュ�
 title: Adobe Admin Console の設定
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-TQID: https://experienceleague.adobe.com/0-n7qfW9O8qQHD1vMyJGdBF8XNo-Hpa2oFMrWUmUNWc
+TQID: 'https://experienceleague.adobe.com/0-n7qfW9O8qQHD1vMyJGdBF8XNo-Hpa2oFMrWUmUNWc'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: '396'
 ht-degree: 85%
-
 ---
-
 # Adobe Admin Console の設定 {#adobe-admin-console-setup}
 
 [!DNL Marketo Measure] を使用する最初の手順は、プロビジョニングされた Adobe Admin Console を作成してログインすることです。 ログイン手順が記載されたメールが届いていない場合は、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
@@ -25,7 +27,7 @@ ht-degree: 85%
 
 Adobe Admin Console 内での Identity Management の設定に関するガイダンスと確認については、[!DNL Marketo Measure] アカウント担当者にお問い合わせください。
 
-[!DNL Marketo Measure] インスタンスでのユーザ認証と承認を容易にするには、Adobe Admin Console 内で次の手順を実行する必要があります。
+[!DNL Marketo Measure] インスタンスでのユーザー認証と承認を容易にするには、Adobe Admin Console 内で次の手順を実行する必要があります。
 
 **[!DNL Marketo Measure] 製品カードの設定**
 
@@ -39,18 +41,18 @@ Adobe Admin Console にアクセスすると、「概要」セクションに [!
 
 [!DNL Marketo Measure] 製品インスタンス内でプロファイルを作成する際に必要なアクションはありません。
 
-[!DNL Marketo Measure] にアクセスできるユーザの追加を開始するには、以下の[&#x200B;  [!DNL Marketo Measure]  管理者と  [!DNL Marketo Measure]  ユーザの追加](#adding-marketo-measure-admins-and-marketo-measure-users)の節を参照してください。
+[!DNL Marketo Measure] にアクセスできるユーザの追加を開始するには、以下の[  [!DNL Marketo Measure]  管理者と  [!DNL Marketo Measure]  ユーザの追加](#adding-marketo-measure-admins-and-marketo-measure-users)の節を参照してください。
 
 ## [!DNL Marketo Measure] 管理者と [!DNL Marketo Measure] ユーザの追加 {#adding-marketo-measure-admins-and-marketo-measure-users}
 
 次の手順では、ユーザを追加して [!DNL Marketo Measure] アプリケーションへのアクセスを付与します。 これは、[!DNL Marketo Measure] 製品カードの管理者およびユーザディレクトリで実行できます。
 
-| ユーザタイプ | 説明 |
+| ユーザータイプ | 説明 |
 |---|---|
 | 管理者 | これらは、[!DNL Marketo Measure] 固有の設定オプションを更新および管理する完全な機能を持つ、[!DNL Marketo Measure] アプリケーションの管理者およびパワーユーザです。 |
 | ユーザ | これらは、[!DNL Marketo Measure] アプリケーション内で読み取り専用権限を持つ [!DNL Marketo Measure] アプリケーションの標準ユーザです。 |
 
-ユーザを各グループに追加すると、そのユーザの[リストされた ID タイプ](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html?lang=jp)が表示されます。
+ユーザーを各グループに追加すると、そのユーザーの[リストされた ID タイプ](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html?lang=jp)が表示されます。
 
 >[!NOTE]
 >

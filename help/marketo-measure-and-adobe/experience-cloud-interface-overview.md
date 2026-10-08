@@ -1,31 +1,35 @@
 ---
-description: Adobe Experience Cloud インターフェイスの概要 –  [!DNL Marketo Measure]
-title: Adobe Experience Cloud インターフェイスの概要
+description: Adobe Experience Cloud インターフェイスの概要 – [!DNL Marketo Measure]
+title: Adobe Experience Cloud インターフェイスの概要​
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg
+TQID: 'https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 25%
-
 ---
-
 # Adobe Experience Cloud インターフェイスの概要 {#experience-cloud-interface-overview}
 
 Adobe Experience Cloud Interfaceは、Adobe Experience Cloudのアプリケーションとサービスのルックアンドフィールを調整します。 ただの新しいデザインではありません。 単一のインスタンスでユーザーエクスペリエンスを提供する単一ページアプリケーションです。
 
 ## ユーザーフロー {#user-flow}
 
-既にAdobe Experience Cloud製品にログインしている場合は、メニューアイコンをクリックし、**[!DNL Marketo Measure]**&#x200B;を選択します。
+既にAdobe Experience Cloud製品にログインしている場合は、メニューアイコンをクリックして、**[!DNL Marketo Measure]**&#x200B;を選択します。
 
 ![](assets/unified-shell-overview-4.png)
 
 >[!NOTE]
 >
->サブスクリプションを購入しているAdobe Experience Cloud製品によって、ドロップダウンメニューが異なる場合があります。
+>ドロップダウンメニューは、購読しているAdobe Experience Cloud製品によって異なる場合があります。
 
 _まだ_&#x200B;様がAdobe Experience Cloud製品にログインしていない場合は、次の[!DNL Marketo Measure]に直接ログインしてください：[https://experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja)。
 
@@ -35,7 +39,7 @@ _まだ_&#x200B;様がAdobe Experience Cloud製品にログインしていない
 
 **ドメイン管理**
 
-[!DNL Marketo Measure]様の支援なしで[お客様の [!DNL Marketo Measure]  ドメイン &#x200B;](/help/marketo-measure-and-adobe/domain-management.md)を管理します。
+[!DNL Marketo Measure]様の支援なしで[お客様の [!DNL Marketo Measure]  ドメイン ](/help/marketo-measure-and-adobe/domain-management.md)を管理します。
 
 ![](assets/unified-shell-overview-5.png)
 
@@ -77,4 +81,4 @@ Adobe Experience Cloudにログインできるが、次のようなページが�
 
 ![](assets/unified-shell-overview-11.png)
 
-上記のエラーが表示された場合は、[&#x200B; サポートにお問い合わせください](https://nation.marketo.com/t5/support/ct-p/Support)。
+上記のエラーが表示された場合は、[ サポートにお問い合わせください](https://nation.marketo.com/t5/support/ct-p/Support)。

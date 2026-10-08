@@ -1,15 +1,19 @@
 ---
-description: '[!DNL Marketo Engage] プログラム統合 –  [!DNL Marketo Measure]'
+description: '[!DNL Marketo Engage] プログラム統合 – [!DNL Marketo Measure]'
 title: '[!DNL Marketo Engage] プログラム統合'
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 2%
-
 ---
-
 # [!DNL Marketo Engage] プログラム統合 {#marketo-engage-programs-integration}
 
 [!DNL Marketo Measure]と[!DNL Marketo Engage] プログラムの統合により、お客様はMarketo プログラム メンバーシップからアトリビューション トラッキング用のタッチポイントを作成できるようになります。 この機能を使用すると、マーケターは、他の方法では[!DNL Marketo Measure] javascriptで表示されず、アトリビューションジャーニー内で測定する必要がある電子メールまたはエンゲージメントプログラムからプログラムメンバーシップのトラッキングを開始できます。
@@ -52,7 +56,7 @@ ht-degree: 2%
    >
    >ルールでアクティビティ日、またはプログラムメンバーが特定のステータスに達した日付を取得する場合は、[!DNL Marketo Engage] アクティビティ統合を利用し、「進行状況のステータスを変更」アクティビティタイプのルールを設定します。
 
-   ![&#x200B; ルールでアクティビティ日または日付を取得する場合](assets/bizible-discover-2.png)
+   ![ ルールでアクティビティ日または日付を取得する場合](assets/bizible-discover-2.png)
 
 完了したルールは次のようになります。
 
@@ -66,17 +70,17 @@ ht-degree: 2%
 
 1. Marketoからプログラム IDに入力できるモーダルが表示されます。
 
-   ![1. プログラム &#x200B;](assets/marketo-engage-programs-04.png)に入力できるモーダルが表示されます
+   ![1. プログラム ](assets/marketo-engage-programs-04.png)に入力できるモーダルが表示されます
 
-   Idを入力して「[!UICONTROL &#x200B; テスト &#x200B;]」ボタンをクリックすると、アドビのルールエンジンが各ルールを確認し、プログラムがどのルールに適合しているかどうかを判断します。 下の例では、[!DNL Marketo Measure] Ebookというプログラム 1002には5人のプログラム メンバーが含まれており、表示されているルールが適用されていることがわかります。
+   Idを入力して「[!UICONTROL  テスト ]」ボタンをクリックすると、アドビのルールエンジンが各ルールを確認し、プログラムがどのルールに適合しているかどうかを判断します。 下の例では、[!DNL Marketo Measure] Ebookというプログラム 1002には5人のプログラム メンバーが含まれており、表示されているルールが適用されていることがわかります。
 
    ルールは、サンプルサイズ 5,000人で実行されます。 プログラムに5000人以上のメンバーが含まれている場合、すべてのメンバーの互換性を確認しない可能性があります。 このツールは、ルールが正しく構築されているかどうかを確認する方法として機能します。
 
-   ![&#x200B; ルールは、5,000人のメンバーのサンプル サイズで実行されます。 &#x200B;](assets/marketo-engage-programs-05.png)の場合
+   ![ ルールは、5,000人のメンバーのサンプル サイズで実行されます。 ](assets/marketo-engage-programs-05.png)の場合
 
    「メンバー数」をクリックすると、プログラム内で対象となるMarketo People Idのリストを表示できます。
 
-   ![&#x200B; メンバー数をクリックすると、Marketo](assets/marketo-engage-activities-08.png)の一覧を表示できます
+   ![ メンバー数をクリックすると、Marketo](assets/marketo-engage-activities-08.png)の一覧を表示できます
 
 ## チャネルマッピング {#channel-mapping}
 

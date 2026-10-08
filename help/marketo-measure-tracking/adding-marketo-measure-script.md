@@ -1,16 +1,20 @@
 ---
-description: Marketo Measure ユーザー向け [!DNL Marketo Measure]  スクリプトガイダンスの追加
-title: ' [!DNL Marketo Measure]  スクリプトの追加'
+description: Marketo Measure ユーザー向けの[!DNL Marketo Measure] スクリプトガイダンスの追加
+title: '[!DNL Marketo Measure] スクリプトの追加'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1309'
 ht-degree: 52%
-
 ---
-
 # [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure] で追跡する [!DNL Marketo Measure] JavaScript は、できるだけ早くすべての web プロパティに追加する必要があります。 JavaScriptがデプロイされると、[!DNL Marketo Measure]はデジタルデータの収集を開始します。 この記事では、[!DNL Marketo Measure] JavaScriptをデプロイする方法とその他の考慮事項について説明します。
@@ -58,7 +62,7 @@ JavaScriptをページの`<head>`にハードコーディングすることで�
 
 サードパーティのページを使用している場合は、[!DNL Marketo Measure] コンサルタントとユースケースについて話し合います。 一般に、[!DNL Marketo Measure] JavaScriptのカスタムバージョンを追加して、必要に応じてこれらのページをトラッキングできるかどうかを確認する必要があります。 これが不可能な場合は、CRM Campaignのタッチポイントを介したトラッキングが[!DNL Marketo Measure] コンサルタントと共に検索されます。
 
-[!DNL Marketo Measure]がアトリビューションに対して必ずしも意味を持たないため、トラッキングすべきでないフォームはありますか（登録解除フォームや顧客ログインなど）? その場合は、この記事[&#128279;](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}の除外コード を各フォームに追加します
+[!DNL Marketo Measure]がアトリビューションに対して必ずしも意味を持たないため、トラッキングすべきでないフォームはありますか（登録解除フォームや顧客ログインなど）? その場合は、この記事](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"}の除外コード [を各フォームに追加します
 
 セキュリティで保護されていないページはありますか？ 安全なページと安全でないページの間を移動すると、トラッキングセッションが壊れるので、それらを保護する必要があります。
 
@@ -82,16 +86,16 @@ JavaScriptの設定中に[!DNL Web Application Firewall (WAF)]の警告がトリ
 
 >[!NOTE]
 >
->アカウントまたは体験版を作成するためのタッチポイントを作成することをお勧めします。
+>アカウントまたは体験版を作成するための顧客接点を作成することをお勧めします。
 
 **アセットのダウンロード**
 
 * 問題：アセットがゲート化されている場合、[!DNL Marketo Measure]はダウンロードをフォーム入力として追跡します。 アセットがゲートされていない場合、カスタマイズせずにレポートできる内容には制限があります。
-* 解決策：[!DNL Marketo Measure] JavaScript で追跡する場合は、アセットの出入りを制御します。 それはできないけれど、そのためのタッチポイントは気に入っているという場合は、代わりに CRM キャンペーンを同期することを検討します。
+* 解決策：[!DNL Marketo Measure] JavaScript で追跡する場合は、アセットの出入りを制御します。 それが不可能な場合でも、そのための顧客接点を用意したい場合は、代わりに CRM キャンペーンを同期することを検討してください。
 
 **iFrame**
 
-* 問題：iFrame は、基本的にページ内のページとして機能します。
+* 問題：iFrame は、基本的にページ内ページとして機能します。
 * 解決策：[!DNL Marketo Measure] JSをフォームに正しく添付するには、iFrame ヘッダー内に直接デプロイする必要があります。
 
 **Lightbox**
@@ -133,7 +137,7 @@ JavaScriptの設定中に[!DNL Web Application Firewall (WAF)]の警告がトリ
 
 1. フォームを送信するページのURLと、使用したメールを記録します。
 
-1. そのフォーム送信に対して CRM（リードまたは連絡先）で作成されたレコードを見つけて、タッチポイントが適切に作成されたことを確認します。
+1. そのフォーム送信に対して CRM（リードまたは取引先責任者）で作成されたレコードを見つけて、顧客接点が適切に作成されたことを確認します。
 
    a. リードとバイヤーのタッチポイントを含む[!DNL Marketo Measure]件のストックレポートを使用できます。または、[!DNL Marketo Measure]件の詳細でページレイアウトを更新することを選択した場合は、リード/連絡先ページレイアウトを参照してください。
 

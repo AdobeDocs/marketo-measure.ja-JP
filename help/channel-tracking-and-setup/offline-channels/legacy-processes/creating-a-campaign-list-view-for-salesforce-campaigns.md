@@ -1,22 +1,26 @@
 ---
 unique-page-id: 18874718
-description: ' [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]のキャンペーンリストビューを作成しています'
-title: ' [!DNL Salesforce] キャンペーンのキャンペーンリストビューの作成'
+description: '[!DNL Salesforce Campaigns] - [!DNL Marketo Measure]のキャンペーンリストビューを作成しています'
+title: '[!DNL Salesforce] キャンペーンのキャンペーンリストビューを作成しています'
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-TQID: https://experienceleague.adobe.com/MYh66JaJKdgBI7XVxfffWlX9QDg4SqLWDhpsdv1kSG4
+TQID: 'https://experienceleague.adobe.com/MYh66JaJKdgBI7XVxfffWlX9QDg4SqLWDhpsdv1kSG4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Troubleshooting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 6%
-
+source-wordcount: '445'
+ht-degree: 4%
 ---
-
 # [!DNL Salesforce] キャンペーンのキャンペーンリストビューを作成しています {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 顧客接点と同期させるキャンペーンのリストビューを作成する方法を説明します。
@@ -33,7 +37,7 @@ ht-degree: 6%
 
    * **Type** [EQUALS] 「オフラインチャネルにマッピングしたすべてのキャンペーンタイプ」。 実装プランまたは[!DNL Marketo Measure]の「オフラインチャネル」タブ（[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"} -> マイアカウント ->設定 – > オフラインチャネル）を参照してください。 虫眼鏡アイコンを使用して、必要なタイプ（オフラインマーケティングチャネルにマッピングされているタイプ）を選択できます。
 
-      * 各フィルターに対して「最大3種類」を選択します。 フィルターフィールドには、文字数の制限があります。 フィルターごとに3つのタイプから開始し、必要に応じて「タイプ」フィルターの行を追加します。
+     * 各フィルターに対して「最大3種類」を選択します。 フィルターフィールドには、文字数の制限があります。 フィルターごとに3つのタイプから開始し、必要に応じて「タイプ」フィルターの行を追加します。
 
    * **作成日** [以上]が[!DNL Marketo Measure]の開始日です。 開始日は、[!DNL Marketo Measure] アプリ内のROI ダッシュボードで確認できます。 ダッシュの日付範囲で「作成日以降」を選択すると、開始日が表示されます。
    * **&#42;レコードタイプ&#42;** - リスト表示を編集するには、レコードタイプのフィルターを追加する必要があります。 編集する必要がある各キャンペーンレコードは、同じレコードタイプである必要があります。
@@ -50,4 +54,4 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->[&#x200B; リスト表示のインライン編集に関する一般的な問題のトラブルシューティング &#x200B;](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}
+>[ リスト表示のインライン編集に関する一般的な問題のトラブルシューティング ](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

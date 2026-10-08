@@ -1,21 +1,25 @@
 ---
-description: ' [!DNL Marketo Measure]  JavaScript の実装のベストプラクティス -  [!DNL Marketo Measure]'
-title: ' [!DNL Marketo Measure] JavaScript の実装のベストプラクティス'
+description: '[!DNL Marketo Measure] JavaScriptの実装に関するベストプラクティス - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]JavaScript の実装のベストプラクティス'
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-TQID: https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8
+TQID: 'https://experienceleague.adobe.com/Hr98nEk-MyqnwmS4piEFxfFKUEyEaZwcNH-OuTxFzE8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 371
-ht-degree: 100%
-
+source-wordcount: '372'
+ht-degree: 98%
 ---
-
 # [!DNL Marketo Measure]JavaScript の実装のベストプラクティス {#best-practices-for-implementing-marketo-measure-javascript}
 
 ## 概要 {#overview}
@@ -36,16 +40,16 @@ ht-degree: 100%
 [!DNL Marketo Measure] JavaScript を実装および管理する場合は、次のベストプラクティスに留意してください。
 
 * すべてのドメインが [!DNL Marketo Measure] アカウントにリストされていることを確認します
-   * ドメインに関して懸念がある場合は、サポートにお問い合わせください
-* すべてのページに JavaScript をデプロイします。
-   * 特定のページにのみ JavaScript を配置すると、セッションデータが中断され、正しくない [!DNL Marketo Measure] データが発生します
+  * ドメインに関して懸念がある場合は、サポートにお問い合わせください
+* JavaScript は必ずすべてのページにデプロイしてください。
+  * 特定のページにのみ JavaScript を配置すると、セッションデータが中断され、正しくない [!DNL Marketo Measure] データが発生します
 * タッチポイントを作成しないサイト上のフォームには、[!DNL Marketo Measure] Exclude スクリプトを追加する必要があります
-   * この除外スクリプトにより、[!DNL Marketo Measure] セッションデータが中断されず、ソースデータが適切な場所に維持することが保証されます。
-      * 抑制する一般的なフォームの例を次に示します。
-         * 顧客ログイン
-         * パスワードフォームを忘れた場合のフォーム
-         * 購読解除フォーム
-         * キャリアアプリケーションフォーム
+  * この除外スクリプトにより、[!DNL Marketo Measure] セッションデータが中断されず、ソースデータが適切な場所に維持することが保証されます。
+    * 抑制する一般的なフォームの例を次に示します。
+      * 顧客ログイン
+      * パスワードフォームを忘れた場合のフォーム
+      * 購読解除フォーム
+      * キャリアアプリケーションフォーム
 * 以下にリストされている [!DNL Marketo Measure] スクリプトの追加リソースの「追加の考慮事項」および「特別な注意を払うべきフォーム」の節を確認して、特別な処理が必要なシナリオがないか確認します
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
@@ -58,4 +62,4 @@ JavaScript 設定のレビューをトリガーする可能性があるその他
 * サイト構造の変更と更新
 * サイトの移行
 * ドメインの変更
-* 他の会社とその web プロパティの買収
+* 他社およびその web プロパティの買収

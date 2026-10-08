@@ -1,26 +1,33 @@
 ---
 description: 書き出し権限やバッチ設定など、Marketo MeasureがSalesforceとデータを交換する方法の概要
-title: ' [!DNL Marketo Measure]  と  [!DNL Salesforce]  の相互作用'
+title: '[!DNL Marketo Measure] と [!DNL Salesforce] の相互作用'
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 96%
-
 ---
-
 # [!DNL Marketo Measure] と [!DNL Salesforce] の相互作用 {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在その更新に取り組んでおり、ブランド変更はまもなく CRM に反映される予定です。
 
 [!DNL Marketo Measure] と Salesforce の関係を大まかに見てみましょう。
 
 ## Salesforce と [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
-[!DNL Marketo Measure] アカウントが作成され、[!DNL Salesforce] が接続されると、[!DNL Marketo Measure] 管理パッケージがインストールされ、[!DNL Marketo Measure] Salesforce ユーザが編集権限を持っている限り、[!DNL Marketo Measure] はマーケティングデータを CRM インスタンスにプッシュし始めます。
+[!DNL Marketo Measure] アカウントが作成され、[!DNL Salesforce] が接続されると、[!DNL Marketo Measure] 管理パッケージがインストールされ、[!DNL Marketo Measure] Salesforce ユーザーが編集権限を持っている限り、[!DNL Marketo Measure] はマーケティングデータを CRM インスタンスにプッシュし始めます。
 
 [!DNL Marketo Measure] Salesforce パッケージをインストールしていない場合、[!DNL Marketo Measure] は Salesforce インスタンスにデータを書き込みません。
 
@@ -28,13 +35,13 @@ ht-degree: 96%
 
 デフォルトでは、ジョブが CRM にデータを送信するたびに、[!DNL Marketo Measure] は API クレジットごとに 200 件のレコードを書き出します。 これにより、ほとんどの顧客に、[!DNL Marketo Measure] が消費する API クレジットと CRM の CPU リソース要件との間の最適なバランスが提供されます。 ただし、ワークフローやトリガーなど複雑な CRM 設定を持つ顧客の場合は、バッチサイズを小さくすると CRM のパフォーマンスの向上に役立つ場合があります。 この目的のために、[!DNL Marketo Measure] では顧客が CRM 書き出しのバッチサイズを設定できます。 これは、[!DNL Marketo Measure] web アプリケーションの[!UICONTROL 設定]／[!UICONTROL CRM]／[!UICONTROL 一般]ページで設定でき、顧客は 200（デフォルト）、100、50、25 のバッチサイズから選択できます。
 
-![&#x200B; デフォルトでは、Marketo MeasureはAPI クレジットごとに200 レコードを書き出します](assets/bizible-taxonomy-1.png)
+![ デフォルトでは、Marketo MeasureはAPI クレジットごとに200 レコードを書き出します](assets/bizible-taxonomy-1.png)
 
 この設定を変更する場合、バッチサイズが小さいほど CRM からの API クレジットをより多く消費することに注意してください。 CRM で CPU タイムアウトまたは高い CPU 負荷が発生している場合のみ、バッチサイズを小さくすることをお勧めします。
 
-## Salesforce 接続ユーザ権限 {#salesforce-connected-user-permissions}
+## Salesforce 接続ユーザー権限 {#salesforce-connected-user-permissions}
 
-**専用ユーザ用の Marketo Measure 管理者権限セット**：SFDC 管理者が Marketo Measure オブジェクトに対して CRUD 操作を実行できるようにします。
+**専用ユーザー用の Marketo Measure 管理者権限セット**：SFDC 管理者が Marketo Measure オブジェクトに対して CRUD 操作を実行できるようにします。
 
 **変換済みリードの表示と編集権限セット**：リードが取引先責任者に変換された後に、Marketo Measure でリードに装飾を追加できるようになります。
 
@@ -634,7 +641,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Salesforce アカウント内での削除イベントを Marketo Measure が確実にキャプチャするには、以下のオブジェクトに対する複製可能な権限が必要です。 複製可能な権限は、次のオブジェクトに標準で付属しています。
+>Salesforce アカウント内での削除イベントを Marketo Measure が正確に取り込めるようにするには、以下のオブジェクトに対する複製可能な権限が必要です。 複製可能な権限は、次のオブジェクトに標準で付属しています。
 >
 >* アカウント
 >* キャンペーン

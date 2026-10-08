@@ -3,16 +3,20 @@ description: アカウントベースのマーケティング（ABM）と、マ�
 title: アカウントベースのマーケティングの概要
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '876'
 ht-degree: 92%
-
 ---
-
 # アカウントベースのマーケティングの概要 {#account-based-marketing-overview}
 
-以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。 ABMの詳細については、[ABM ブログ &#x200B;](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"}のAdobeの記事をご覧ください。
+以下の節では、ABM の概要、[!DNL Marketo Measure] ABM 機能のコンポーネント、[!DNL Salesforce] ページレイアウトに追加する方法について説明します。 ABMの詳細については、[ABM ブログ ](https://business.adobe.com/jp/blog/basics/account-based-marketing){target="_blank"}のAdobeの記事をご覧ください。
 
 [!DNL Salesforce] インスタンス内で ABM を設定する手順について詳しくは、[Salesforce での ABM ページレイアウトの設定](/help/channel-tracking-and-setup/account-based-marketing-overview.md){target="_blank"}を参照してください。
 

@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874578
-description: キャンペーンとキャンペーンメンバー - [!DNL Marketo Measure]
+description: キャンペーンとキャンペーンメンバー – [!DNL Marketo Measure]
 title: キャンペーンとキャンペーンメンバー
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-TQID: https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU
+TQID: 'https://experienceleague.adobe.com/bGHbuHCn0cI99duchXSFkqieTipt7FIcsHfvqqv21OU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1200
+source-wordcount: '1200'
 ht-degree: 95%
-
 ---
-
 # キャンペーンとキャンペーンメンバー {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] キャンペーンは、マーケティングプログラムまたはアクティビティに関連付けられたリードと取引先責任者のリストを追跡するためのものです。 これは、一般的にウェビナー、登録、ブース訪問などです。 マーケターは、キャンペーンにタッチポイントジャーニーでクレジットを付与するかどうかを選択できます。
@@ -32,8 +34,8 @@ ht-degree: 95%
 
 ![](assets/2.png)
 
-* すべてのキャンペーンメンバーを含める - キャンペーンに追加されたすべてのリードまたは取引先責任者は、そのキャンペーンに関連付けられたタッチポイントを受け取ります。
-* 「応答済み」キャンペーンメンバーのみを含める - キャンペーンメンバーステータスが「応答済み」のリードまたは取引先責任者のみが、そのキャンペーンに関連付けられたタッチポイントを受け取ります。
+* すべてのキャンペーンメンバーを含める - キャンペーンに追加されたすべてのリードまたは取引先責任者は、そのキャンペーンに関連付けられた顧客接点を受け取ります。
+* 「応答済み」キャンペーンメンバーのみを含める - キャンペーンメンバーステータスが「応答済み」のリードまたは取引先責任者のみが、そのキャンペーンに関連付けられた顧客接点を受け取ります。
 * すべてのキャンペーンメンバーを除外 - リードまたは取引先責任者は、そのキャンペーンに関連付けられたタッチポイントを受け取りません。
 
 [!DNL Marketo Measure] がタッチポイントを作成するには、キャンペーンメンバーがレコードに関連付けられたメールアドレスを持っている必要があります。 メールアドレスがない場合、[!DNL Marketo Measure] ではキャンペーンメンバーにタッチポイントを割り当てません。
@@ -46,7 +48,7 @@ ht-degree: 95%
 
 ## タッチポイントの開始日の使用例 {#use-case-for-touchpoint-start-date}
 
-開始日は、リードと取引先責任者のトラッキングに既存のキャンペーンが使用されている場合に使用できますが、ユーザは新しいシステムまたはプロセスが導入されてからのみ測定を開始したいので、[!DNL Marketo Measure] がこれらのキャンペーンメンバーのトラッキングを開始した時点で開始日を設定することにしました。
+開始日は、リードと取引先責任者のトラッキングに既存のキャンペーンが使用されている場合に使用できますが、ユーザーは新しいシステムまたはプロセスが導入されてからのみ測定を開始したいので、[!DNL Marketo Measure] がこれらのキャンペーンメンバーのトラッキングを開始した時点で開始日を設定することにしました。
 
 ## タッチポイント終了日の使用例 {#use-case-for-touchpoint-end-date}
 
@@ -56,17 +58,17 @@ ht-degree: 95%
 
 ## キャンペーンメンバー {#campaign-members}
 
-キャンペーンメンバーは、[!UICONTROL キャンペーン]の下にネストされており、リードまたは取引先責任者に関連しています。 リードまたは取引先責任者はキャンペーンに 1 回しか追加できませんが、そうすると、キャンペーンの使用例によっては問題が発生する可能性があります。 キャンペーンを同期すると、キャンペーンのメンバーシップがマーケティングアクティビティとして使用され、タッチポイントジャーニーに組み込まれ、フォーム入力のように処理されます。
+キャンペーンメンバーは、[!UICONTROL キャンペーン]の下にネストされており、リードまたは取引先責任者に関連しています。 リードまたは取引先責任者はキャンペーンに 1 回しか追加できないため、キャンペーンのユースケースによっては問題が発生する可能性があります。 キャンペーンを同期すると、キャンペーンのメンバーシップがマーケティングアクティビティとして使用され、タッチポイントジャーニーに組み込まれ、フォーム入力のように処理されます。
 
 ## タッチポイントステータス {#buyer-touchpoint-status}
 
-タッチポイント有効にすると、[!DNL Marketo Measure] は、インストール済みパッケージに含まれる 4 つの異なるフィールド（タッチポイントステータス（リード）、タッチポイントステータス（取引先責任者）、タッチポイントステータス（商談）およびタッチポイントステータス日）のすべてで、ステータス値をキャンペーンメンバーにプッシュします。 これは、タッチポイントが関連するオブジェクトに応じて、Buyer タッチポイントまたは Buyer Attribution タッチポイントとして作成されているかどうかを顧客が監査するのに役立ちます。 タッチポイントステータス日は、キャンペーンメンバーでステータスが更新された最後の日付です。
+タッチポイント有効にすると、[!DNL Marketo Measure] は、インストール済みパッケージに含まれる 4 つの異なるフィールド（タッチポイントステータス（リード）、タッチポイントステータス（取引先責任者）、タッチポイントステータス（商談）およびタッチポイントステータス日）のすべてで、ステータス値をキャンペーンメンバーにプッシュします。 これは、関連するオブジェクトに応じて、顧客接点が Buyer Touchpoint または Buyer Attribution Touchpoint として作成されているかどうかを顧客が監査するのに役立ちます。 タッチポイントステータス日は、キャンペーンメンバーでステータスが更新された最後の日付です。
 
 ![](assets/4.png)
 
 ## Buyer タッチポイント日 {#buyer-touchpoint-date}
 
-パッケージのインストール時に、[!DNL Marketo Measure] のキャンペーンメンバーに「Buyer タッチポイント日」というラベルの付いたフィールドも含まれます。 これにより、ユーザは、[!DNL Marketo Measure] がタッチポイントレコードのタッチポイント日に使用する日付を上書きできるようになります。
+パッケージのインストール時に、[!DNL Marketo Measure] のキャンペーンメンバーに「Buyer タッチポイント日」というラベルの付いたフィールドも含まれます。 これにより、ユーザーは、[!DNL Marketo Measure] がタッチポイントレコードのタッチポイント日に使用する日付を上書きできるようになります。
 
 これは、イベントが実際に発生してから数日、数週間、数ヶ月後にリストがアップロードされた場合に必要となる場合があります。 すべてのレコードを一度に更新する方法があります。以下に説明します。
 
@@ -83,11 +85,11 @@ Buyer タッチポイント日を使用する必要があるかどうかを知�
 
 * Buyer タッチポイント日
 * 最初の応答日
-   * 最初の応答日は、ステータスが「応答済み」に変更されるとすぐに自動設定され、変更できない標準の [!DNL Salesforce] フィールドです。
+  * 最初の応答日は、ステータスが「応答済み」に変更されるとすぐに自動設定され、変更できない標準の [!DNL Salesforce] フィールドです。
 
 * キャンペーンメンバー作成日
 
-## タッチポイント日付の一括更新 {#bulk-update-touchpoint-date}
+## 顧客接点日の一括更新 {#bulk-update-touchpoint-date}
 
 一括更新タッチポイント日付は、インストールされている [!DNL Marketo Measure] [!DNL Salesforce] パッケージに含まれており、ボタンをページレイアウトに追加する必要があります。
 
@@ -95,9 +97,9 @@ Buyer タッチポイント日を使用する必要があるかどうかを知�
 
 多数のキャンペーンメンバーレコードを更新する必要がある場合は、「[!UICONTROL タッチポイント日の一括更新]」ボタンを使用して一括編集できます。
 
-このインターフェイスでカバーできない固有のユースケースがある場合は、[&#x200B; データローダー](https://dataloader.io/){target="_blank"}を使用して、レコードを書き出し、変更し、レコードを再度アップロードすることもできます。
+このインターフェイスでカバーできない固有のユースケースがある場合は、[ データローダー](https://dataloader.io/){target="_blank"}を使用して、レコードを書き出し、変更し、レコードを再度アップロードすることもできます。
 
-まず、レコードを検索し、Buyer タッチポイント日を設定するレコードをフィルタリングします。
+まず、レコードを検索し、Buyer Touchpoint 日を設定するレコードをフィルターで絞り込みます。
 
 >[!CAUTION]
 >
@@ -107,7 +109,7 @@ Buyer タッチポイント日を使用する必要があるかどうかを知�
 
 検索を使用する必要がなく、すべてのキャンペーンメンバーレコードに日付を適用するだけの場合は、「[!UICONTROL すべてのレコードを含める]」チェックボックス（下のスクリーンショットを参照）を使用します。これにより、すべてのページのすべてのレコードがチェックされます。
 
-カレンダーピッカーから日時を選択します。 現在の日時を選択する場合は、カレンダーピッカーの横に表示される日時をクリックします。
+カレンダーピッカーから日付と時刻を選択します。 現在の日付と時刻を選択する場合は、カレンダーピッカーの横に表示される日付と時刻をクリックします。
 
 日時を設定したら、「**[!UICONTROL 選択したレコードを更新]**」ボタンをクリックして、変更を適用します。
 
@@ -125,10 +127,10 @@ Buyer タッチポイント日を使用する必要があるかどうかを知�
 
 >[!CAUTION]
 >
->このトリガーは、過去に削除されたキャンペーンメンバーを追跡しないので、これからの作業でのみ機能することに注意してください。 多数の過去のキャンペーンメンバーのタッチポイントを削除する必要がある場合は、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+>このトリガーは、過去に削除されたキャンペーンメンバーを追跡しないので、これからの作業でのみ機能することに注意してください。 多数の過去のキャンペーンメンバーのタッチポイントを削除する必要がある場合は、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：Campaign オブジェクトフィールド &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Campaign オブジェクトフィールド ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

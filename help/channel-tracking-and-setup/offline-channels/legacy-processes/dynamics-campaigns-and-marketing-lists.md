@@ -4,16 +4,21 @@ description: Dynamics キャンペーンとマーケティングリスト - [!DN
 title: Dynamics キャンペーンとマーケティングリスト
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-TQID: https://experienceleague.adobe.com/zIWhbgftyAxhDcIuaf-E4gUzeYO-L2tHJ-RVTifWZFM
+TQID: 'https://experienceleague.adobe.com/zIWhbgftyAxhDcIuaf-E4gUzeYO-L2tHJ-RVTifWZFM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 820
+source-wordcount: '820'
 ht-degree: 4%
-
 ---
-
 # Dynamics キャンペーンとマーケティングリスト {#dynamics-campaigns-and-marketing-lists}
 
 >[!NOTE]
@@ -32,7 +37,7 @@ Dynamics キャンペーンは、オフラインマーケティング活動を�
 
 ## タッチポイントの有効化 {#enable-touchpoints}
 
-これらのレコードをタッチポイントジャーニーに含めるには、キャンペーン応答の種類を同期させるオプションがいくつかあります。 Campaign レコードには、「[!UICONTROL &#x200B; バイヤータッチポイントを有効にする]」というラベルの付いたインストール済みソリューションのカスタムフィールドが必要です。 このフィールドが表示されない場合は、フォームエディターでフィールドを追加する必要があります。
+これらのレコードをタッチポイントジャーニーに含めるには、キャンペーン応答の種類を同期させるオプションがいくつかあります。 Campaign レコードには、「[!UICONTROL  バイヤータッチポイントを有効にする]」というラベルの付いたインストール済みソリューションのカスタムフィールドが必要です。 このフィールドが表示されない場合は、フォームエディターでフィールドを追加する必要があります。
 
 ![](assets/2.png)
 
@@ -70,7 +75,7 @@ Dynamics キャンペーンは、オフラインマーケティング活動を�
 
 ## タッチポイントの有効化 {#enable-touchpoints-1}
 
-タッチポイントのマーケティングリストを有効にするには、「[!UICONTROL &#x200B; マーケティングリストを同期]」というラベルの付いたキャンペーンレコードに個別の設定があります。これは、簡単なyes/no切り替えです。 このフィールドが表示されない場合は、フォームエディターでフィールドを追加する必要があります。 キャンペーンレコードでは、キャンペーンに関連するマーケティングリストを確認できるので、有効にしているリストの数を把握できます。
+タッチポイントのマーケティングリストを有効にするには、「[!UICONTROL  マーケティングリストを同期]」というラベルの付いたキャンペーンレコードに個別の設定があります。これは、簡単なyes/no切り替えです。 このフィールドが表示されない場合は、フォームエディターでフィールドを追加する必要があります。 キャンペーンレコードでは、キャンペーンに関連するマーケティングリストを確認できるので、有効にしているリストの数を把握できます。
 
 ![](assets/7.png)
 

@@ -1,32 +1,36 @@
 ---
-description: データローダーを使用したMarketo Measure ユーザーのMarketo Measure カスタム金額フィールドガイダンスの更新
-title: データローダーを使用したMarketo Measureのカスタム金額フィールドの更新
+description: Data Loaderを使用したMarketo Measure ユーザー向けMarketo Measure カスタム金額フィールドガイダンスの更新
+title: データローダーを使用したMarketo Measure カスタム金額フィールドの更新
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
-
 ---
+# データ ローダーを使用して[!DNL Marketo Measure] カスタム金額フィールドを更新する {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
-# データローダーを使用したカスタム金額フィールド [!DNL Marketo Measure] 更新 {#using-data-loader-to-update-marketo-measure-custom-amount-field}
+[!DNL Marketo Measure]では、カスタム収益フィールドを使用する場合に商談の値を更新する便利なオプションとして、データローダーを使用することをお勧めします（[!DNL Marketo Measure]では「金額」フィールドを使用します）。 スクリプトでは、[!DNL Marketo Measure] スクリプトの実行中にすべてのSalesforce検証ルールを無効にする必要があるため、[!DNL Marketo Measure]更新スクリプトを使用するよりもData Loaderを使用することをお勧めします。
 
-[!DNL Marketo Measure] では、[!DNL Marketo Measure] でカスタム収益フィールド（標準の「金額」フィールドを使用）を使用する際に商談値を更新する便利なオプションとして、データローダーを使用することをお勧めします。 データローダーは、[!DNL Marketo Measure] 更新スクリプトを使用するよりも推奨されます。これは、スクリプトの実行中にユーザーがすべてのSalesforce検証ルールを無効にする必要があるから [!DNL Marketo Measure] す。
+## データ ローダーを使用して[!DNL Marketo Measure] カスタム金額フィールドを更新する{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
 
-## データローダーを使用したカスタム金額フィールド [!DNL Marketo Measure] 更新{#using-data-loader-to-update-marketo-measure-custom-amount-field-1}
-
-1. 次を使用して Excel シートを作成します。
+1. 次を使用してExcel シートを作成します。
 
    * 商談 ID
-   * 「カスタム商談額」フィールド（優先収益フィールド）
-   * [!DNL Marketo Measure] Opportunity Amount」フィールド
+   * カスタム商談金額フィールド（任意の収益フィールド）
+   * [!DNL Marketo Measure]商談金額フィールド
 
-1. 優先収益フィールドの値をコピーして、「[!UICONTROL [!DNL Marketo Measure] Opportunity Amount]」フィールドに貼り付けます。 次に、.csv ファイルを使用してこれらの商談を更新します。
+1. 任意の収益フィールドから値をコピーして、[!UICONTROL [!DNL Marketo Measure]商談金額] フィールドに貼り付けます。 次に、.csv ファイルを使用してこれらの商談を更新します。
 
-**_または、Salesforceでカスタムリストビューを使用してすべてのオポチュニティを一括編集することもできます…_**
+**_または、Salesforceにアクセスし、カスタムリストビューを使用して、すべての商談を一括編集することもできます。..._**
 
-1. すべてのオポチュニティ用のカスタムリスト表示を作成します。
-1. 優先収益フィールドにフィルターを追加しても空白にはなりません _および_[!UICONTROL Marketo] 「商談額の測定」フィールドが空白になります。
-1. **[!UICONTROL 一括編集]** をクリックしますが、実際には何も変更しません。
-1. 「**[!UICONTROL 保存]**」をクリックします。 これにより、ワークフローのトリガーが設定され、「[!DNL Marketo Measure] Opportunity Amount」フィールドに「Software Revenue」フィールドが表示されます。
+1. すべての商談に対してカスタムリストビューを作成します。
+1. 「優先収益」フィールドにフィルターを追加すると、_および_ [!UICONTROL Marketo]の「商談金額を測定」フィールドが空白になります。
+1. 「**[!UICONTROL 一括編集]**」をクリックしますが、実際には何も変更しないでください。
+1. 「**[!UICONTROL 保存]**」をクリックします。 これにより、ワークフローがトリガーされ、[!DNL Marketo Measure]件の商談金額フィールドに「ソフトウェア収益」フィールドが入力されます。

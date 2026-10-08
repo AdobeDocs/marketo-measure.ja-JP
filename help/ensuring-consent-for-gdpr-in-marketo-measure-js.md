@@ -1,24 +1,28 @@
 ---
-description: Cookie の設定またはデータの送信の前に GDPR に対するユーザーの同意を待機するよう bizible.js を設定する方法を示します
+description: Cookieを設定したりデータを送信したりする前に、ユーザーのGDPR同意を待つようにbizible.jsを設定する方法を示します
 title: Marketo Measure JS での GDPR への同意の確認
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 92%
-
 ---
-
 # Marketo Measure JS での GDPR への同意の確認 {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 EU 一般データ保護規則（GDPR）は、2018年5月25日に施行された欧州連合の法律です。
 
 ## 概要 {#overview}
 
-GDPR の目的は、EU（欧州連合）と EEA（欧州経済圏）内のデータ主体の個人データの使用と保護の方法に関する権利を強化することです。 「個人データ」とは、識別された、または識別可能な自然人に関する情報を指します。 GDPR は、EU 内または EEA 外で、EU 内のデータ主体に対するマーケティング商品やサービスを行っている、または EU 内のデータ主体の行動を追跡している組織に適用されます。 ヨーロッパで個人データの処理を伴うデータ主体と取引を行う場合、この法律が適用されます。 規制違反者に対する大規模な罰金を科し、コンプライアンス違反に対する罰則は重要です。1 回の違反に対する最大罰金は、2,000 万ユーロまたは世界的年間売上高の 4%のいずれか大きい方です。
+GDPR の目的は、EU（欧州連合）と EEA（欧州経済圏）内のデータ主体の個人データの使用と保護の方法に関する権利を強化することです。 「個人データ」とは、識別された、または識別可能な自然人に関する情報を指します。 GDPR は、EU 内または EEA 外で、EU 内のデータ主体に対するマーケティング商品やサービスを行っている、または EU 内のデータ主体の行動を追跡している組織に適用されます。 ヨーロッパのデータ主体の個人データの処理を伴う取引を行う場合、この法律が適用されます。 規制違反者に対する大規模な罰金を科し、コンプライアンス違反に対する罰則は重要です。1 回の違反に対する最大罰金は、2,000 万ユーロまたは世界的年間売上高の 4%のいずれか大きい方です。
 
-デフォルトでは、同意を待つように設定されていない限り、[!DNL bizible.js] はユーザの分析データを収集します。 [!DNL bizible.js] がユーザの同意を待つように設定されている場合、同意に達するまで Cookie は作成されず、分析データも送信されません。
+デフォルトでは、同意を待つように設定されていない限り、[!DNL bizible.js] はユーザの分析データを収集します。 [!DNL bizible.js] がユーザーの同意を待つように設定されている場合、同意に達するまで Cookie は作成されず、分析データも送信されません。
 
 ## 同意を待つ方法 {#how-to-wait-for-consent}
 
@@ -47,7 +51,7 @@ GDPR の目的は、EU（欧州連合）と EEA（欧州経済圏）内のデー
 
 同意に達するまで追跡しないように [!DNL bizible.js] に指示します。これは、次の JS API を使用して実行できます。
 
-*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] || &lbrace;_queue: [], Push: function （o, p） { this._queue.push （{ type: o, data: p }）; };*
+*window[&#39;Bizible&#39;] = window[&#39;Bizible&#39;] ||{ _queue: [], Push:function （o, p） { this._queue.push （{ type: o, data: p }）; }; };*
 
 *Bizible. Push(&#39;Consent&#39;, true);*
 
@@ -66,4 +70,4 @@ GDPR の目的は、EU（欧州連合）と EEA（欧州経済圏）内のデー
 
 `Bizible.Push('Consent', false);`
 
-このコードを実行すると、[!DNL bizible.js] が以前に作成したすべての Cookie が削除され、ユーザが再同意した場合にのみ分析データの収集が再開されます。
+このコードを実行すると、[!DNL bizible.js] が以前に作成したすべての Cookie が削除され、ユーザーが再同意した場合にのみ分析データの収集が再開されます。

@@ -3,13 +3,17 @@ description: Marketo Measure ユーザー向けのアクティビティのアト
 title: アクティビティアトリビューションに関するよくある質問
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '755'
 ht-degree: 3%
-
 ---
-
 # アクティビティアトリビューションに関するよくある質問 {#activities-attribution-faq}
 
 [!DNL Marketo Measure] アクティビティでは、すべてのアクティビティ レコードが読み込まれ、そのタッチポイントが生成されます。これにより、これらのアクティビティでアトリビューション クレジットを受け取ることができます。 最も一般的なユースケースは、セールス部門のアクティビティを追跡することです。通常、見込み客に送信される電話やメールの記録を作成します。 追跡できるその他のユニークな点は、アセットのダウンロードや動画の視聴などのコンテンツのインタラクションです。
@@ -24,7 +28,7 @@ ht-degree: 3%
 
 **同じ繰り返しタスクを持つリードまたは取引先責任者がいる場合、これらすべてに購入者のタッチポイントが表示されますか？**
 
-はい。 同期したアクティビティとタッチポイントの間に1:1の関係が作成されました。
+はい。 同期したアクティビティとタッチポイントの間には、1対1の関係が作成されます。
 
 **作成されたタッチポイントの結果を確認するには、どうすればよいですか？**
 

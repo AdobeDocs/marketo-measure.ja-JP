@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874519
-description: Lightbox Formsへの [!DNL Marketo Measure]  スクリプトの追加 –  [!DNL Marketo Measure]
-title: Lightbox フォームへの [!DNL Marketo Measure] スクリプトの追加
+description: Lightbox Formsへの[!DNL Marketo Measure] スクリプトの追加 – [!DNL Marketo Measure]
+title: Lightbox Formsへの[!DNL Marketo Measure] スクリプトの追加
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/FGsXJ6c98YinAH4rgzfySe0wNCkHb5AWH1KcZ6whnjA
+TQID: 'https://experienceleague.adobe.com/FGsXJ6c98YinAH4rgzfySe0wNCkHb5AWH1KcZ6whnjA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 189
-ht-degree: 2%
-
+source-wordcount: '191'
+ht-degree: 0%
 ---
-
 # Lightbox Formsへの[!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script-to-lightbox-forms}
 
 ライトボックス内のフォームに[!DNL Marketo Measure] JavaScriptを適切に追加する方法について説明します。

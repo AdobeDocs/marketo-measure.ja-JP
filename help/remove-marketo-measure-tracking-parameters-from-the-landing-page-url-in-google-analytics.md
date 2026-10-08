@@ -1,23 +1,27 @@
 ---
-description: Marketo Measure ユーザー向  [!DNL Marketo Measure] Google Analytics ガイダンスのランディングページ URL からのトラッキングパラメーターの削除
-title: Google Analytics のランディングページ URL からの [!DNL Marketo Measure] トラッキングパラメーターの削除
+description: Marketo Measure ユーザー向けGoogle Analytics ガイダンスのランディングページ URLから[!DNL Marketo Measure] トラッキングパラメーターを削除する
+title: Google Analyticsのランディングページ URLから[!DNL Marketo Measure] トラッキングパラメーターを削除
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 8%
-
+source-wordcount: '124'
+ht-degree: 0%
 ---
+# Google Analyticsのランディングページ URLから[!DNL Marketo Measure] トラッキングパラメーターを削除 {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 
-# Google Analytics[!DNL Marketo Measure] ランディングページ URL からのトラッキングパラメーターの削除 {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
-
-[!DNL Google Analytics] でランディングページを表示する際に、URL からトラッキングパラメーターを削除しなければならないことがあります。 それ以外の場合は、個別の行に分割されます。
+[!DNL Google Analytics]でランディングページを表示する際に、URLからトラッキングパラメーターを削除する場合があります。 それ以外は、個々の行に分割されます。
 
 幸いなことに、これは簡単な修正です。
 
-1. [!DNL Google Analytics] で、[!UICONTROL &#x200B; 管理者 &#x200B;]/[!UICONTROL &#x200B; 設定を表示 &#x200B;]/[!UICONTROL URL クエリパラメーターを除外 &#x200B;] に移動します。
+1. [!DNL Google Analytics]で、[!UICONTROL 管理者] >[!UICONTROL 設定の表示] >[!UICONTROL URL クエリパラメーターの除外]に移動します。
 1. ボックスに「_bt,_bk,_bm,_bn,_bg」と入力します（引用符を除く）。
-1. 下にスクロールして、「**[!UICONTROL 保存]**」をクリックします。
+1. 下にスクロールして、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   [!DNL Google Analytics] はデータを再処理しないことに注意してください。 したがって、この変更は今後にのみ反映され、過去のデータは bt、bk、bm のパラメーターで引き続き表示されます。
+   [!DNL Google Analytics]はデータを再処理しません。 したがって、この変更は今後のみ反映され、過去のデータはbt、bk、およびbm パラメーターで引き続き表示されます。

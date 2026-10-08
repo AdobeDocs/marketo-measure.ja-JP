@@ -1,29 +1,33 @@
 ---
-description: '[!DNL Marketo Measure] Insights 設定 –  [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] インサイト設定 – [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Insights 設定'
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 4%
-
 ---
-
 # [!DNL Marketo Measure] Insights 設定 {#marketo-measure-insights-configuration}
 
-[!DNL Marketo Measure] Insights キャンバスアプリはリードページレイアウトに追加する必要がありますが、リー [!DNL Salesforce] 設定の「接続されたアプリ」セクションで追加の設定が必要です。 キャンバスアプリに適切な権限を持たせるには、次の手順に従います。
+[!DNL Marketo Measure] Insights Canvas アプリはリードページレイアウトに追加する必要がありますが、[!DNL Salesforce]設定の「Connected Apps」セクションで追加の設定が必要です。 Canvas アプリに適切な権限があることを確認するには、次の手順に従います。
 
-1. 設定 [!DNL Salesforce] 移動し、「**[!UICONTROL アプリを管理]** タブの下の [!UICONTROL &#x200B; 接続されたアプリ &#x200B;] をクリックします。
+1. [!DNL Salesforce] セットアップに移動し、「[!UICONTROL  アプリを管理]」タブの「**[!UICONTROL 接続アプリ]**」をクリックします。
 
-1. 入力する [!DNL Marketo Measure Insights] をリストから選択します。
+1. 入力するリストから[!DNL Marketo Measure Insights]を選択します。
 
-1. 「[!UICONTROL OAuth] ポリシー」セクションで、「許可されたユーザー」設定を「管理者の承認済みユーザーは事前承認済みです」に変更します。 ポップアップが表示されたら、「**[!UICONTROL OK]**」、「**[!UICONTROL 保存]** の順にクリックします。
+1. 「[!UICONTROL OAuth] ポリシー」セクションで、「許可されたユーザー」設定を「管理者承認済みユーザーが事前許可されています」に変更します。 ポップアップが表示され、**[!UICONTROL OK]**&#x200B;をクリックしてから&#x200B;**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   ![1. 「OAuth ポリシー」セクションで、許可されたユーザー設定を変更し &#x200B;](assets/marketo-app-1.png) す。
+   ![1. 「OAuth ポリシー」セクションで、「許可されたユーザー」設定を変更します](assets/marketo-app-1.png)
 
-1. ページを保存したら、「**[!UICONTROL プロファイルを管理]** ボタンをクリックできます。
+1. ページが保存されたら、「**[!UICONTROL プロファイルを管理]**」ボタンをクリックできます。
 
-   ![1. ページを保存したら、](assets/marketo-app-2.png) のアイコンをクリックできます。
+   ![1. ページを保存したら、](assets/marketo-app-2.png)をクリックできます
 
-1. [!DNL Marketo Measure] Insights へのアクセス権を持つすべてのプロファイルを選択し、「**[!UICONTROL 保存]** をクリックします。
+1. [!DNL Marketo Measure] インサイトへのアクセス権を持つすべてのプロファイルを選択し、**[!UICONTROL 保存]**&#x200B;をクリックします。

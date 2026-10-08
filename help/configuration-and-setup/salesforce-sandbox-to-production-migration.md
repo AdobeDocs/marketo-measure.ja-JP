@@ -1,16 +1,23 @@
 ---
-description: Marketo Measure ユーザー向けのSalesforce Sandbox から実稼動環境への移行ガイダンス
-title: Salesforce サンドボックスから本番稼働への移行
+description: Marketo Measure ユーザー向けの実稼動環境へのSalesforce サンドボックス移行ガイダンス
+title: Salesforce サンドボックスから本番への移行
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 92%
-
 ---
-
-# Salesforce サンドボックスから本番稼働への移行 {#salesforce-sandbox-to-production-migration}
+# Salesforce サンドボックスから本番への移行 {#salesforce-sandbox-to-production-migration}
 
 [!DNL Salesforce] サンドボックス環境で [!DNL Marketo Measure] をテストすることを選択した場合は、準備が整ったら次の手順に従って本番環境に移行します。 次の手順は、[!DNL Marketo Measure] パッケージを Sandbox 組織にダウンロードし、必要なテストを実行し、[!DNL Marketo Measure] を本番環境にプッシュする準備が整っていることを前提としています。
 
@@ -18,7 +25,7 @@ ht-degree: 92%
 
 * 「[!UICONTROL すべてのユーザ]」設定で [!DNL Marketo Measure] パッケージを本番環境にインストールします
 
-   * [基本パッケージ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+  * [ベースパッケージ](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * [!DNL Marketo Measure] と [!DNL Salesforce] の関係について詳しくは、[この記事](/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md)を参照してください
 * [!DNL Salesforce] の設定が少し必要です。 具体的なアクション項目については、[以下の手順 4](#salesforce-configuration) を参照してください
@@ -30,10 +37,10 @@ ht-degree: 92%
 * SFDC 接続の横にあるごみ箱アイコンをクリックして削除します
 * 削除を確認するプロンプトが表示されます。 プロンプトを注意深く読んで、削除の結果を理解します
 
-  ![&#x200B; 削除を確認するプロンプトが表示されます。 必ず目を通しておきなさい &#x200B;](assets/salesforce-migration-1.png)
+  ![削除を確認するメッセージが表示されます。 ](assets/salesforce-migration-1.png)を読み上げてください
 
-   * 確認モデルのプロンプトに従ってビジネスの名前を入力し、「結果を理解しました。この接続を削除します」をクリックします
-* これにより、削除プロセスがトリガーされ、完了するまでに時間がかかります
+  * 確認ダイアログのプロンプトに従ってビジネスの名前を入力し、「結果を理解しました。この接続を削除」をクリックします
+* これにより、削除プロセスがトリガーされ、終了するまでに時間がかかります
 
 ## 手順 3：[!DNL Marketo Measure] アプリでの本番稼働 CRM インスタンスの接続 {#connect-the-production-crm-instance-in-marketo-measure-app}
 
@@ -42,7 +49,7 @@ ht-degree: 92%
 * サンドボックス接続の削除が正常に完了すると、接続はページに表示されなくなります。そうでない場合、接続は「削除中」のステータスで引き続き表示されます
 * 「[!UICONTROL 新しい CRM 接続を設定]」をクリックします
 * 「[!UICONTROL CRM 接続を選択]」モーダルダイアログで、[!DNL Salesforce] プラットフォームの横にある「[!UICONTROL 接続]」アクションをクリックし、「[!UICONTROL 本番稼働]」オプションを選択します
-* 認証情報の入力を求めるプロンプトが表示されます。本番環境のログイン詳細を入力します。
+* 資格情報の入力を求めるプロンプトが表示されます。本番環境のログイン資格情報を入力してください。
 
 ## 手順 4：Salesforce の設定 {#salesforce-configuration}
 

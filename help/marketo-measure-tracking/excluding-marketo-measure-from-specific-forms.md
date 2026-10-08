@@ -1,22 +1,26 @@
 ---
-description: Marketo Measure ユーザー向  [!DNL Marketo Measure]  の特定のForms ガイダンスからの除外
-title: 特定のフォームからの [!DNL Marketo Measure] の除外
+description: Marketo Measure ユーザー向けのForms ガイダンスから[!DNL Marketo Measure]を除外する
+title: 特定のFormsから[!DNL Marketo Measure]を除外しています
 exl-id: ce39a3b2-2ac6-4385-b6d1-3c36b51c03fa
 feature: Tracking
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
-
+source-wordcount: '100'
+ht-degree: 0%
 ---
+# 特定のFormsから[!DNL Marketo Measure]を除外しています {#excluding-marketo-measure-from-specific-forms}
 
-# 特定のFormsからの [!DNL Marketo Measure] の除外 {#excluding-marketo-measure-from-specific-forms}
+既定では、サイトのすべてのフォームに[!DNL Marketo Measure]が添付されます。 ただし、すべてのフォーム送信が必ずしも追跡されるか、アトリビューションモデルに含まれる必要はありません。 これは、すべてのフォーム入力が「良好」と見なされるわけではないからです。 たとえば、登録解除ページやフォームがあります。 さらに、ログインフォームはアトリビューションモデルを希薄化するため、通常は追跡されません。
 
-デフォルトでは、[!DNL Marketo Measure] はサイト上のすべてのフォームに添付します。 ただし、必ずしもすべてのフォーム送信を追跡したり、属性モデルに含めたりする必要があるわけではありません。 これは、すべてのフォーム入力が「良好」と見なされるわけではないからです。 例えば、登録解除ページ/フォームなどです。 さらに、ログインフォームはアトリビューションモデルを希薄化させるので、通常、追跡されません。
+## [!DNL Marketo Measure]-exclude コードの追加方法：  {#how-to-add-marketo-measure-exclude-code}
 
-## [!DNL Marketo Measure] 除外コードの追加方法：  {#how-to-add-marketo-measure-exclude-code}
-
-[!DNL Marketo Measure] が特定のフォームを追跡できないようにするには、フォーム上で「[!DNL Bizible-Exclude]」を「クラス」として追加します。 コードは次のようになります。
+[!DNL Marketo Measure]が特定のフォームをトラッキングできないようにするには、フォームに「[!DNL Bizible-Exclude]」を「クラス」として追加するだけです。 コードは次のとおりです。
 
 `<form id="myForm" action="/Home/TestPage" method="POST" class="Bizible-Exclude">`

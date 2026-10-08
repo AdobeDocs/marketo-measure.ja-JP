@@ -1,15 +1,22 @@
 ---
-description: Marketo Measure ユーザー向けページレイアウトの手順のガイダンス
+description: Marketo Measure ユーザー向けのページレイアウト手順ガイダンス
 title: ページレイアウトの手順
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 92%
-
 ---
-
 # ページレイアウトの手順 {#page-layout-instructions}
 
 >[!NOTE]
@@ -28,21 +35,21 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL ページレイアウト]**」をクリックします。
 
-   ![1. [ ページ レイアウト ] をクリックします。](assets/marketo-salesforce-7.jpg)
+   ![1. ページレイアウトをクリックします。](assets/marketo-salesforce-7.jpg)
 
 1. 更新するページレイアウトの横にある「**[!UICONTROL 編集]**」をクリックします。
 
-   ![1. 目的のページ レイアウトの横にある [ 編集 ] をクリックします &#x200B;](assets/marketo-salesforce-1.jpg)
+   ![1. 必要なページレイアウトの横にある「編集」をクリックします](assets/marketo-salesforce-1.jpg)
 
 1. 「[!UICONTROL フィールド]」オプション内で、「**[!UICONTROL Buyer Touchpoints を有効化]**」フィールドを選択して、ページ上の任意の場所にドラッグします。 次に、「**[!UICONTROL タッチポイント開始日]**」フィールドと「**[!UICONTROL タッチポイント終了日]**」フィールドを追加します。
 
-   ![1. フィールドオプション内で、「購入者タッチポイントを有効にする」を選択し &#x200B;](assets/bizible-full-1.png) す。
+   ![1. 「フィールド」オプションで、「バイヤータッチポイントを有効にする](assets/bizible-full-1.png)」を選択します
 
 1. 次に、ページ上部で、クイック検索メニューの「[!UICONTROL ボタン]」オプションをクリックします。
 
 1. 「**[!UICONTROL Touchpoint 日の一括更新]**」ボタンをカスタムボタンセクションにドラッグします。
 
-   ![1. 「タッチポイント日を一括更新」ボタンをカスタムにドラッグ &#x200B;](assets/bizible-taxonomy-1.png) ます。
+   ![1. 「タッチポイントの一括更新」ボタンをカスタム ](assets/bizible-taxonomy-1.png)にドラッグします
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -64,7 +71,7 @@ ht-degree: 92%
 
 1. **[!UICONTROL Marketo Measure リード関連リスト]** VisualForce ページをページレイアウトセクションにドラッグします。
 
-   ![1. Marketo Measure Lead 関連リスト VisualForce ページを &#x200B;](assets/connect-salesforce-1.png) の場所にドラッグします。
+   ![1. Marketo Measure リード関連リスト VisualForce ページを](assets/connect-salesforce-1.png)にドラッグします
 
 1. [!DNL VisualForce] ページ内のレンチをクリックして、高さを 100 に変更し、スクロールバーを有効にします。
 
@@ -97,9 +104,9 @@ ht-degree: 92%
    * Touchpoint の位置
    * Touchpoint の日付
 
-1. 並べ替え基準：Touchpoint 日（昇順）。
+1. 並べ替え基準：顧客接点日付（昇順）。
 
-   ![1. 並べ替え：タッチポイント日、昇順。](assets/marketo-salesforce-15.jpg)
+   ![1. 並べ替え基準：タッチポイント日、昇順。](assets/marketo-salesforce-15.jpg)
 
 1. 「ボタン」オプションを展開し、「**[!UICONTROL 新規]**」の選択を解除します。
 
@@ -171,7 +178,7 @@ ht-degree: 92%
    * 収益 W 字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
    * Touchpoint の日付
 
-1. 並べ替え基準：タッチポイントの日付／昇順。
+1. 顧客接点日付で並べ替え > 昇順。
 
 1. 「[!UICONTROL ボタン]」セクション内の「**[!UICONTROL 新規]**」の選択を解除します。
 

@@ -1,15 +1,21 @@
 ---
-description: Marketo Measure ユーザー向け API 接続のベストプラクティスに関するガイダンス
+description: Marketo Measure ユーザー向けAPI Connections ガイダンスのベストプラクティス
 title: API 接続のベストプラクティス
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 96%
-
 ---
-
 # API 接続のベストプラクティス {#best-practices-for-api-connections}
 
 ## 概要 {#overview}
@@ -49,7 +55,7 @@ ht-degree: 96%
 ベストプラクティスのレコメンデーションに従うことで、[!DNL Marketo Measure] AdWords API では次の操作を実行できます。
 
 * すべての AdWords 広告に [!DNL Marketo Measure] パラメーターの `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}` を自動タグ付けする
-* 有効なすべての AdWords 広告の広告費用情報をダウンロードする
+* すべてのアクティブな AdWords 広告の広告コスト情報をダウンロードします。
 
 **Bing**：アカウントレベルでトラッキングテンプレートを実装し、自動タグ付けを有効にする
 
@@ -65,7 +71,7 @@ ht-degree: 96%
 
 ベストプラクティスのレコメンデーションに従うことで、[!DNL Marketo Measure] LinkedIn API では次の操作を実行できます。
 
-* 必要な [!DNL Marketo Measure] パラメーター_bl={creativeId} を使用して、広告タイプのスポンサー付きコンテンツであるすべての LinkedIn 広告に自動タグ付けします。 このパラメーターではクリエイティブ ID を取り込み、[!DNL Marketo Measure] でキャンペーンとクリエイティブ情報を解決できます。
+* 広告タイプのスポンサーコンテンツであるすべてのLinkedIn広告に、必要な[!DNL Marketo Measure] パラメーター_bl={creativeId}を自動タグ付けします。 このパラメーターではクリエイティブ ID を取り込み、[!DNL Marketo Measure] でキャンペーンとクリエイティブ情報を解決できます。
 * すべてのアクティブな、サポートされている [!DNL LinkedIn] 広告の広告コスト情報をダウンロードする
 
 >[!NOTE]
@@ -81,7 +87,7 @@ API に接続されたアカウントを切断すると、[!DNL Marketo Measure]
 切断と再認証の理由には、次のものが含まれます。
 
 * 接続されている個人取引先のパスワードの変更
-* そのユーザが会社に存在していない
+* その人物が会社に在籍していない
 * API の更新
 
 お客様のチームで上記のシナリオが発生した場合は、[!DNL Marketo Measure] アプリで API 接続を確認して、再認証する必要がないことを確認してください。

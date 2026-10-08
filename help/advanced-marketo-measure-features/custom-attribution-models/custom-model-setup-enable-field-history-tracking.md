@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874777
-description: カスタムモデル設定 - フィールド履歴トラッキングの有効化 -  [!DNL Marketo Measure]
+description: カスタムモデル設定 – フィールド履歴トラッキングを有効にする – [!DNL Marketo Measure]
 title: カスタムモデル設定 - フィールド履歴トラッキングの有効化
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/VUMTg9lOnCtRb3TUt7SIkUeOsghibBX0LDtqQVeXdcg
+TQID: 'https://experienceleague.adobe.com/VUMTg9lOnCtRb3TUt7SIkUeOsghibBX0LDtqQVeXdcg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 313
-ht-degree: 100%
-
+source-wordcount: '313'
+ht-degree: 97%
 ---
-
 # カスタムモデル設定：フィールド履歴トラッキングの有効化 {#custom-model-setup-enable-field-history-tracking}
 
 ## フィールド履歴トラッキングを有効にする理由とタイミング {#why-and-when-to-enable-field-history-tracking}
@@ -36,8 +39,8 @@ ht-degree: 100%
 
    ![](assets/1.png)
 
-1. 変更をトラックするフィールドを選択します。
+1. 変更をトラックするフィールドを選択します。&#x200B;
 
    ![](assets/2.png)
 
-[!DNL Marketo Measure] は、レコードを最近変更したことが確認された場合にのみ、レコードを再読み込みできます。 数式フィールドはバックグラウンドで計算を行うので、技術的にはレコードを変更しても変更されません。 [!DNL Marketo Measure] でレコードの変更が認識されなかったためにルールがスキップされる問題が確認されているので、**ルール定義では数式フィールドを使用しない**&#x200B;ことをお勧めします。 解決策として、テキストフィールドを作成し、レコードを編集するか条件に適合するたびに、ワークフローを使用して、そのフィールドに適切な値または計算を入力します。 これには、ワークフローが古いレコードに遡って機能できるように、すべてのレコードを編集する必要があります。
+[!DNL Marketo Measure] は、レコードを最近変更したことが確認された場合にのみ、レコードを再読み込みできます。 数式フィールドはバックグラウンドで計算を行うため、値が変化しても技術的にはレコードを更新したことにはなりません。 [!DNL Marketo Measure] でレコードの変更が認識されなかったためにルールがスキップされる問題が確認されているので、**ルール定義では数式フィールドを使用しない**&#x200B;ことをお勧めします。 解決策として、テキストフィールドを作成し、レコードを編集するか条件に適合するたびに、ワークフローを使用して、そのフィールドに適切な値または計算を入力します。 これには、ワークフローが古いレコードに遡って機能できるように、すべてのレコードを編集する必要があります。

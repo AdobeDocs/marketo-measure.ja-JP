@@ -4,20 +4,26 @@ description: '[!DNL Microsoft Dynamics] CRM インストール ガイド - Marke
 title: '[!DNL Microsoft Dynamics] CRM インストールガイド'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-TQID: https://experienceleague.adobe.com/KMhrHYDuF9z18bdpdrjfj2O3NbIcMsvQyJBqTpLf1Xo
+TQID: 'https://experienceleague.adobe.com/KMhrHYDuF9z18bdpdrjfj2O3NbIcMsvQyJBqTpLf1Xo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '975'
 ht-degree: 99%
-
 ---
-
 # [!DNL Microsoft Dynamics] CRM インストールガイド {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
@@ -52,13 +58,13 @@ Dynamics CRM 内に zip ファイルを[ダウンロードしてインストー�
 
 ![](assets/3.png)
 
-## [!DNL Marketo Measure] ユーザの作成 {#creating-a-marketo-measure-user}
+## [!DNL Marketo Measure] ユーザーの作成 {#creating-a-marketo-measure-user}
 
-CRM 内の他のユーザとの問題を回避するために、Dynamics 内で専用の Marketo Measure ユーザを「アプリケーションユーザ」として作成し、データを書き出しおよび読み込むことをお勧めします。 ユーザ名、パスワード、およびエンドポイント URLは [!DNL Marketo Measure] アカウントの作成時に使用されるので、書き留めておきます。
+CRM 内の他のユーザーとの問題を回避するために、Dynamics 内で専用の Marketo Measure ユーザーを「アプリケーションユーザー」として作成し、データを書き出しおよび読み込むことをお勧めします。 ユーザ名、パスワード、およびエンドポイント URLは [!DNL Marketo Measure] アカウントの作成時に使用されるので、書き留めておきます。
 
 ## セキュリティロール {#security-roles}
 
-組織が Dynamics セキュリティロールを使用している場合は、接続されているユーザまたは専用の [!DNL Marketo Measure] ユーザが、必要なエンティティに対する十分な読み取り/書き込み権限を持っていることを確認します。
+組織が Dynamics セキュリティロールを使用している場合は、接続されているユーザーまたは専用の [!DNL Marketo Measure] ユーザーが、必要なエンティティに対する十分な読み取り/書き込み権限を持っていることを確認します。
 
 セキュリティロールは、**[!UICONTROL 設定]**／**[!UICONTROL セキュリティ]**／**[!UICONTROL セキュリティロール]**&#x200B;にあります。
 
@@ -103,15 +109,15 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
 
 **収益**
 
-[!DNL Marketo Measure] は、デフォルトで標準の「実収益」フィールドを指します。 これを使用していない場合は、カスタムワークフローが必要となるので、ソリューションエンジニアまたはサクセスマネージャーに収益を報告する方法を説明します。
+[!DNL Marketo Measure] は、デフォルトで標準の「実収益」フィールドを指します。 これを使用していない場合は、カスタムワークフローが必要となるため、ソリューションエンジニアまたはサクセスマネージャーに収益をどのようにレポートしているかを説明してください。
 
 **クローズ日**
 
-[!DNL Marketo Measure] は、標準の「実際クローズ日」フィールドを指します。 これを使用していない場合や、「推定クローズ日」フィールドも使用している場合は、ソリューションエンジニアまたはサクセスマネージャーにプロセスを説明します。 両方のフィールドを考慮するには、カスタムワークフローが必要になる場合があります。
+[!DNL Marketo Measure] は、標準の「実際クローズ日」フィールドを指します。 これを使用していない場合や「推定クローズ日」フィールドも使用している場合は、ソリューションエンジニアまたはサクセスマネージャーにプロセスを説明してください。 両方のフィールドを考慮するには、カスタムワークフローが必要になる場合があります。
 
 ## 接続とデータプロバイダーの設定 {#configuring-your-connections-and-data-providers}
 
-[!DNL Marketo Measure] アプリケーションにログインし、Adobe Admin Console でユーザとして設定したら、次の手順で様々なデータ接続を設定します。
+[!DNL Marketo Measure] アプリケーションにログインし、Adobe Admin Console でユーザーとして設定したら、次の手順で様々なデータ接続を設定します。
 
 **データプロバイダーとしての CRM**
 

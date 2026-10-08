@@ -1,15 +1,19 @@
 ---
-description: '[!DNL Marketo Engage] アクティビティ統合 –  [!DNL Marketo Measure]'
+description: '[!DNL Marketo Engage] アクティビティ統合 – [!DNL Marketo Measure]'
 title: '[!DNL Marketo Engage] アクティビティの統合'
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 1%
-
 ---
-
 # [!DNL Marketo Engage] アクティビティの統合 {#marketo-engage-activities-integration}
 
 全体的な[!DNL Marketo Measure]および[!DNL Marketo Engage]統合の一環として、Marketo アクティビティを取り込むこの取り組みは大きな役割を果たします。 Marketo アクティビティを使用すると、`Click Email`、`Change Score`、`Change Status in Progression`などのイベントを追跡できます。これらのアクティビティタイプを作成して定義し、タッチポイントの対象となるサブセットを選択できます。 顧客接点がこれらのアクティビティで作成されると、エンゲージメントジャーニーで追跡され、検索連動型広告やパートナーマーケティングなどの他のマーケティングチャネルと並行して測定されます。
@@ -33,11 +37,11 @@ ht-degree: 1%
 
    最初に必要なのは、ルールを作成する予定のアクティビティタイプのリストを選択することです。 必要なアクティビティタイプにハードナンバーはありませんが、顧客接点を過剰に使用したり、重要なマイルストーンの重要性を希薄化したりしないことをお勧めします。 ただし、関連するエンゲージメントを追跡するために、5種類を超えるアクティビティタイプは必要ない場合があります。
 
-1. 「[!UICONTROL &#x200B; アクティビティの種類を選択]」の下にあるドロップダウンメニューをクリックして、様々な種類の選択を開始します。
+1. 「[!UICONTROL  アクティビティの種類を選択]」の下にあるドロップダウンメニューをクリックして、様々な種類の選択を開始します。
 
    ![1. アクティビティの種類を選択の下にあるドロップダウンメニューをクリックして開始します](assets/marketo-engage-activities-03.png)
 
-1. 必要なすべてのアクティビティが選択されると、[!UICONTROL 選択したアクティビティ リスト &#x200B;]および[!UICONTROL &#x200B; ルールの定義]の下に入力されたアクティビティが表示されます。
+1. 必要なすべてのアクティビティが選択されると、[!UICONTROL 選択したアクティビティ リスト ]および[!UICONTROL  ルールの定義]の下に入力されたアクティビティが表示されます。
 
    ![1. 必要なすべてのアクティビティが選択されると、](assets/marketo-engage-activities-04.png)が表示されます
 
@@ -53,11 +57,11 @@ ht-degree: 1%
 
    ルールを拡張し、「and」または「or」ステートメントを追加して結果を絞り込むことで、フィルターまたは条件を追加できます。
 
-   ![&#x200B; ルールを展開し、フィルターまたは条件を追加できます](assets/marketo-engage-activities-06.png)
+   ![ ルールを展開し、フィルターまたは条件を追加できます](assets/marketo-engage-activities-06.png)
 
-   ![&#x200B; ルールを展開し、フィルターまたは条件を追加できます](assets/marketo-engage-activities-07.png)
+   ![ ルールを展開し、フィルターまたは条件を追加できます](assets/marketo-engage-activities-07.png)
 
-1. 最後に、タッチポイント日として何を使用するかを選択します。 使用可能なすべての日付または日時フィールドは、Marketoからここに表示されます。 カスタム日付フィールドがない限り、「[!UICONTROL &#x200B; アクティビティ日]」が表示されます。
+1. 最後に、タッチポイント日として何を使用するかを選択します。 使用可能なすべての日付または日時フィールドは、Marketoからここに表示されます。 カスタム日付フィールドがない限り、「[!UICONTROL  アクティビティ日]」が表示されます。
 
    ![1. 最後に、タッチポイント日として何を使用するかを選択します。 すべての使用可能](assets/marketo-engage-activities-08.png)
 

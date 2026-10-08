@@ -1,24 +1,31 @@
 ---
-description: 最新のリリースノート -  [!DNL Marketo Measure]
+description: 現在のリリースノート - [!DNL Marketo Measure]
 title: 最新のリリースノート
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-TQID: https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y
+TQID: 'https://experienceleague.adobe.com/WCmnCEZ-aUK4OODKYLymgD8-Ohb6k-AIcJMVrBHMm2Y'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: ffecc0ee-70f2-5687-bca0-deee982ffbfa
+    internal-label: Release Notes
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1464
+source-wordcount: '1464'
 ht-degree: 91%
-
 ---
-
 # リリースノート：2024年 {#release-notes-2024}
 
 2024年リリースのすべての新機能と更新された機能については、以下を参照してください。
@@ -37,19 +44,19 @@ ht-degree: 91%
 
 ### キーワード ROI ダッシュボード
 
-新しいキーワード ROI ダッシュボードでは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供し、キーワードレベルのコスト、起因する収益、生成されたリードと商談の包括的なビューを提供します。 このダッシュボードは、Google Adwords、LinkedIn、Bing Ads などにおける各キーワードの ROI を評価するのに役立ちます。
+新しいキーワード ROI ダッシュボードでは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供し、キーワードレベルのコスト、起因する収益、生成されたリードと商談を包括的に把握できます。 このダッシュボードは、Google Adwords、LinkedIn、Bing Ads などにおける各キーワードの ROI を評価するのに役立ちます。
 
-ドキュメント：[&#x200B; キーワード ROI ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+ドキュメント：[ キーワード ROI ダッシュボード ](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### セグメントルールの機能強化
 
 「タッチポイント」フィールドと「取引先責任者」フィールドに加えて、「キャンペーン」フィールドと「キャンペーンメンバー」フィールドを使用してセグメントを作成できるようになりました。 この機能強化により、Discover でデータをより効果的に分析および解析できるようになります。
 
-![拡張セグメントルール &#x200B;](assets/mm-q4-release-1.png)
+![拡張セグメントルール ](assets/mm-q4-release-1.png)
 
 ### 更新：CRM 書き出しのエラー処理設定
 
-ジョブ停止アプローチに関するフィードバックに耳を傾け、ユーザインターフェイスに新機能を導入しています。 本日より、エラー発生時に書き出しジョブを一時停止するかどうかを選択できます。 **自分のアカウント** > **設定** > **CRM** > **一般**&#x200B;の新しいトグルを使用します。 データの整合性と可視性を高めるために、このスイッチはデフォルトでオンになっています。 ただし、この機能を使用しない場合は、UI でオフにすると、書き出しジョブが再開されます。 この更新は、データ管理プロセスの信頼性を強化しながら、より高度な制御を可能にするように設計されています。
+ジョブを停止する方式に関するフィードバックに耳を傾け、ユーザーインターフェイスに新機能を導入しています。 本日より、エラー発生時に書き出しジョブを一時停止するかどうかを選択できます。 **自分のアカウント** > **設定** > **CRM** > **一般**&#x200B;の新しいトグルを使用します。 データの整合性と可視性を高めるために、このスイッチはデフォルトでオンになっています。 ただし、この機能を使用しない場合は、UI でオフにすると、書き出しジョブが再開されます。 この更新は、データ管理プロセスの信頼性を強化しながら、より高度な制御を可能にするように設計されています。
 
 #### 主な日付と段階的なロールアウト
 
@@ -76,7 +83,7 @@ ht-degree: 91%
 
 ### リマインダー：Salesforce フィールドの非推奨（廃止予定） - 6月14日
 
-昨年お知らせしたように、統合を簡素化し、Salesforce標準オブジェクトに書き出す必要を排除するために、[&#x200B; リード/連絡先オブジェクトへの書き出しジョブを段階的に](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}終了します。 [ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。 また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024年6月14日（PT）にこの廃止が実施されます。
+昨年お知らせしたように、統合を簡素化し、Salesforce標準オブジェクトに書き出す必要を排除するために、[ リード/連絡先オブジェクトへの書き出しジョブを段階的に](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}終了します。 [ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。 また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024年6月14日（PT）にこの廃止が実施されます。
 
 この変更により、次の 2 つの主なメリットが得られます。
 
@@ -85,18 +92,18 @@ ht-degree: 91%
 
 ### 起因する商談ダッシュボード
 
-新しい[起因する商談ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}を導入できることを嬉しく思います。このダッシュボードは、マーケティング活動が初期と成熟期のパイプラインの機会の両方にどのように貢献するかの全体像を把握できるように設計されています。 このダッシュボードでは、戦略に起因するすべてのオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージごとに柔軟にフィルタリングできます。 ここでは、起因する商談額の観点で最も高くランクされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、起因する商談額の合計と、起因するオープンな商談およびクローズされた商談の数が表示されます。
+新しい[起因する商談ダッシュボード](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}を導入できることを嬉しく思います。このダッシュボードは、マーケティング活動が初期と成熟期のパイプラインの機会の両方にどのように貢献するかの全体像を把握できるように設計されています。 このダッシュボードでは、戦略に起因するすべてのオープンな商談とクローズされた商談の詳細を掘り下げて、商談ステージごとに柔軟にフィルタリングできます。 ここでは、起因する商談額の観点で最も高くランキングされたチャネル、サブチャネルまたはキャンペーンに関するインサイトが提供され、起因する商談額の合計と、起因するオープンな商談およびクローズされた商談の数が表示されます。
 
 ### Marketo Measure Ultimate用Marketo Engage Cookie Sync
 
 Marketo Measure Ultimate で Marketo Engage cookie 同期を使用できるようになりました。 この機能を使用するには：
 
-1. AEP スキーマページで、B2B ユーザスキーマを編集し、フィールドグループ「Marketo Engage ユーザの詳細」を追加します。
-1. データを MMU に取り込む際には、フィールドグループの cookie ID フィールドを Marketo Engage の cookie フィールドにマッピングします。
+1. AEP スキーマページで、B2B 人物スキーマを編集し、フィールドグループ「Marketo Engage 人物の詳細」を追加します。
+1. データを MMU に取り込む際には、フィールドグループの「Cookie ID」フィールドを、Marketo Engage の「Cookies」フィールドにマッピングします。
 
 ### Tier 2 ユーザーに対するBoomerang ステージの有効化
 
-以前は階層 3 のお客様のみが利用可能であったブーメランステージ機能は、2024年6月13日（PT）以降、階層 2 のすべてのお客様も利用できるようになります。 この機能について詳しくは、以下のドキュメントを参照してください。
+以前は階層 3 のお客様のみが利用可能であったブーメランステージ機能は、2024年6月13日（PT）から、階層 2 のすべてのお客様も利用できるようになります。 この機能について詳しくは、以下のドキュメントを参照してください。
 
 * [ブーメランステージとタッチポイント](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [ブーメランステージの設定](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
@@ -110,7 +117,7 @@ Marketo Measure Ultimate で Marketo Engage cookie 同期を使用できるよ�
 
 ### サードパーティ Cookieのフェーズアウトに対応するMarketo Measure機能の廃止
 
-プライバシーに関する懸念の高まりに対応して、サードパーティ cookie は段階的に廃止されており、Google Chrome の 2024年第 3 四半期の期限は、その終了を示しています。 Marketo Measure では、サードパーティ cookie に依存する特定の機能、特に Google／DoubleClick インプレッション cookie に依存するクロスドメイントラッキングとビュースルーアトリビューションを廃止する予定です。 この変更は、Marketo Measure の他の機能やファーストパーティ cookie の使用には影響しません。 Google のタイムラインに従って、これらの機能は 6月1日（PT）までに廃止する予定ですが、この日付より前に収集したデータには引き続きアクセスできます。
+プライバシーに関する懸念の高まりに対応して、サードパーティ cookie は段階的に廃止されており、Google Chrome の 2024年第 3 四半期の期限は、その終了を示しています。 Marketo Measure では、サードパーティ cookie に依存する特定の機能、特に Google／DoubleClick インプレッション cookie に依存するクロスドメイントラッキングとビュースルーアトリビューションを廃止する予定です。 この変更は、Marketo Measure の他の機能やファーストパーティ cookie の使用には影響しません。 Google のタイムラインに従って、これらの機能は 6月1日（PT）までに廃止する予定ですが、この日付より前に収集したデータにはお客様が引き続きアクセスできます。
 
 * [Marketo Measureにおけるサードパーティ Cookieの廃止への適応](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
 * [Marketo Measure の Cookie](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
@@ -119,7 +126,7 @@ Marketo Measure Ultimate で Marketo Engage cookie 同期を使用できるよ�
 
 アドビでは、書き出しジョブの強化されたエラー処理の段階的なロールアウトを導入しています。まず、権限エラーに対するアプリ内パルス通知の即時提供から始め、エラーの時点で書き出しジョブが一時停止する新しいアプローチに移行します。 この変更は、データの整合性と可視性を向上させ、ユーザに対してよりスムーズで信頼性の高いデータ管理プロセスを確保することを目的としています。 スムーズな移行と運用の中断を最小限に抑えるために、アドビでは、次の 2 つのフェーズでこれらの変更を実装しています。
 
-* パルス通知の即座提供：書き出しジョブ中の権限エラーについては、アプリ内パルス通知を受信します。 これにより、書き出しが中断されることはありませんが、現在のジョブに影響を与えることなくエラーについて学ぶのに役立ちます。
+* パルス通知の即時提供：書き出しジョブ中の権限エラーについては、アプリ内パルス通知を受信します。 これにより、書き出しが中断されることはありませんが、現在のジョブに影響を与えることなくエラーについて学ぶのに役立ちます。
 * 4月25日（PT）のジョブ一時停止の実装：**延期** - Marketo Measure ユーザからのフィードバックを考慮した結果、当初 4月25日（PT）に予定されていたエラー時点での書き出しジョブの一時停止の実装を延期することを決定しました。 アドビでは、ジョブの停止が最も効果的なアプローチではない可能性があることを認識しています。 データの整合性を維持し、中断を最小限に抑える、より優れたソリューションを見つけることに全力で取り組んでいます。 ユーザのニーズにより密接に一致するソリューションを確実に提供できるまで、現在のシステムへの変更は保留します。
 
 _これが重要な理由_

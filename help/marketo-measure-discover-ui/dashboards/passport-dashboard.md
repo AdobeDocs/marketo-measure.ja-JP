@@ -1,20 +1,23 @@
 ---
-description: パスポートダッシュボード - [!DNL Marketo Measure]  – 製品
+description: パスポートダッシュボード - [!DNL Marketo Measure] – 製品
 title: パスポートダッシュボード
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-TQID: https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk
+TQID: 'https://experienceleague.adobe.com/SlIfN-Y5sttJQUeLgA-JA-H-lbRJMS8BrgBYdnhmgZk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 2%
-
 ---
-
 # パスポートダッシュボード {#passport-dashboard}
 
 パスポートダッシュボードでは、リード、コンタクト、商談が、指定した期間内にさまざまなステージを通過する際の動的なビューをマーケターに提供します。 特定の日付をフィルタリングすることで、ユーザーはその日のレコードのスナップショットを取得することもできます。
@@ -23,7 +26,7 @@ ht-degree: 2%
 
 * 選択した日に、ターミナル以外の各ステージにどれだけのリード、コンタクト、商談が存在しましたか？
 * 特定の期間を通して、それぞれの一時的なステージを通過したリードまたはコンタクトの数を確認します。
-   * _例_: リード Aが2023年1月1日のステージ 1にいて、2023年3月31日までにステージ 5に進んだ場合、2023年第1四半期のパスポート分析では、ステージ 1から5のリード Aがカウントされます。
+  * _例_: リード Aが2023年1月1日のステージ 1にいて、2023年3月31日までにステージ 5に進んだ場合、2023年第1四半期のパスポート分析では、ステージ 1から5のリード Aがカウントされます。
 * 特定の時間枠の間に各一時的なステージを通過したユニークな機会はいくつありますか？
 
 ## ダッシュボードコンポーネント {#dashboard-components}
@@ -31,7 +34,7 @@ ht-degree: 2%
 ### ステージ名によるステージ内の商談 {#opportunities-in-stage-by-stage-name}
 
 * 各段階は、特定の期間内に通過した顧客接点がある商談の数を示します。
-   * オポチュニティがそのスパン内の複数のステージを進む場合、通過するあらゆるステージでカウントされます。
+  * オポチュニティがそのスパン内の複数のステージを進む場合、通過するあらゆるステージでカウントされます。
 * 「クローズド・ウォン」や「クローズド・ロスト」などの終端ステージは除外されます。
 * 開始日と終了日の両方が含まれます。
 
@@ -40,8 +43,8 @@ ht-degree: 2%
 ### ステージ名でステージ内のリードまたはコンタクト {#leads-or-contacts-in-stage-by-stage-name}
 
 * 各ステージには、特定の時間枠で通過したリードまたは顧客接点のあるコンタクトの数が表示されます。
-   * 「リード」と「連絡先」のどちらを表示するかは、設定/アトリビューション設定/デフォルトダッシュボードオブジェクトで設定された環境設定によって決まります。
-   * リードまたはコンタクトがそのスパン内の複数のステージを進む場合、通過するあらゆるステージで数えられます。
+  * 「リード」と「連絡先」のどちらを表示するかは、設定/アトリビューション設定/デフォルトダッシュボードオブジェクトで設定された環境設定によって決まります。
+  * リードまたはコンタクトがそのスパン内の複数のステージを進む場合、通過するあらゆるステージで数えられます。
 * 「クローズド・ウォン」や「クローズド・ロスト」などの終端ステージは除外されます。
 * 開始日と終了日の両方が含まれます。
 
@@ -59,4 +62,4 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [&#x200B; ダッシュボードデータの可視化ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [ ダッシュボードデータの可視化ポリシー](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

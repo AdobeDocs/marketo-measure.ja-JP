@@ -1,23 +1,28 @@
 ---
 unique-page-id: 35586140
-description: Data Warehouse スキーマ - Marketo Measure - 製品ドキュメント
+description: データウェアハウススキーマ - Marketo Measure - 製品ドキュメント
 title: Data Warehouse スキーマ
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+TQID: 'https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 21775
+source-wordcount: '21775'
 ht-degree: 99%
-
 ---
-
 # Data Warehouse スキーマ {#data-warehouse-schema}
 
 Data Warehouse を使用すると、好きなだけトラッキングしたり、好きな場所でアトリビューションデータをレポートしたり、他のデータセットに接続したりできます。
@@ -33,7 +38,7 @@ Data Warehouse を使用すると、好きなだけトラッキングしたり�
 
 ## エンティティ関係図 {#entity-relationship-diagrams}
 
-_Data Warehouse データモデル_ ERD は、データウェアハウス内のデータが、どのように流れ、リンクされることを意図されているかを示します。 テーブルの一部は、マッピングテーブル、既に存在している他のテーブルのビューまたは使用を推奨しない廃止されたテーブルを表しているので、この図には、データウェアハウスに含まれるすべてのテーブルが含まれるわけではありません。 後述のデータウェアハウスに存在するテーブルおよび列の詳細な説明を参照してください。 これらのテーブルの多くには、非正規化されたフィールドが含まれていますが、この図は、代わりにディメンションテーブルからデータを活用する、推奨されるデータモデルです。
+_Data Warehouse データモデル_ ERD は、データウェアハウス内のデータが、どのように流れ、リンクされることを意図されているかを示します。 この図には、データウェアハウスで利用可能なすべてのテーブルが含まれているわけではありません。一部のテーブルは、マッピングテーブル、既に存在している他のテーブルのビュー、または使用を推奨しない廃止済みテーブルを表しているためです。 後述のデータウェアハウスに存在するテーブルおよび列の詳細な説明を参照してください。 これらのテーブルの多くには、非正規化されたフィールドが含まれていますが、この図は、代わりにディメンションテーブルからデータを活用する、推奨されるデータモデルです。
 
 追加の&#x200B;_広告ディメンションデータモデル_ ERD は、広告特有のディメンションのテーブルがメインデータモデルのテーブルにどのようにリンクされるのが最適かを示します。 広告ディメンションは、他のテーブルでも非正規化されていますが、これは、これらのディメンションの結合に推奨されるモデルを表します。
 
@@ -75,13 +80,13 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>アカウントの作成日（ソースシステムから）。</td>
+      <td>アカウントの作成日付（ソースシステムから）。</td>
       <td>2016-08-28 00:32:55.000</td>
     </tr>
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>アカウントの最終変更日（ソースシステムから）。</td>
+      <td>アカウントの最終変更日付（ソースシステムから）。</td>
       <td>2018-08-01 17:38:30.000</td>
     </tr>
     <tr>
@@ -99,13 +104,13 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <tr>
       <td>ENGAGEMENT_RATING</td>
       <td>varchar</td>
-      <td>[!DNL Marketo Measure] 機械学習モデルから生成される成績（A、B、C、D、N/A）。 これは、ABM が無効の場合、null になります。</td>
+      <td>[!DNL Marketo Measure] 機械学習モデルから生成される成績（A、B、C、D、N/A）。 これは、ABM が無効になっている場合は null になります。</td>
       <td>B</td>
     </tr>
     <tr>
       <td>ENGAGEMENT_SCORE</td>
       <td>number(38,19)</td>
-      <td>予測エンゲージメントスコア（Engagement_Rating）を生成するために [!DNL Marketo Measure] 機械学習によって計算される数値スコア。 これは、ABM が無効の場合、null になります。</td>
+      <td>予測エンゲージメントスコア（Engagement_Rating）を生成するために [!DNL Marketo Measure] 機械学習によって計算される数値スコア。 これは、ABM が無効になっている場合は null になります。</td>
       <td>0.1417350147058800000</td>
     </tr>
     <tr>
@@ -164,7 +169,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
-既知のリード／連絡先メールアドレスとアカウントの間のマッピングテーブル。 ABM が無効の場合、このテーブルは空になります。
+既知のリード／連絡先メールアドレスとアカウントの間のマッピングテーブル。 ABM が無効になっている場合、このテーブルは空になります。
 
 <table>
   <tbody>
@@ -195,13 +200,13 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <tr>
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>アカウントの最終変更日（ソースシステムから）。</td>
+      <td>アカウントの最終変更日付（ソースシステムから）。</td>
       <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>アカウントの作成日（ソースシステムから）。</td>
+      <td>アカウントの作成日付（ソースシステムから）。</td>
       <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
@@ -273,7 +278,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>varchar</td>
       <td>アクティビティ名（ソースシステムから）。</td>
       <td>
-        <p>進行状況のステータスの変更</p>
+        <p>進行状況ステータスを変更</p>
       </td>
     </tr>
     <tr>
@@ -405,7 +410,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>AD_GROUP_NAME</td>
       <td>varchar</td>
       <td>広告の広告グループの名前。</td>
-      <td>Ad Set for Ad B</td>
+      <td>広告 B 用の広告セット</td>
     </tr>
     <tr>
       <td>AD_CAMPAIGN_UNIQUE_ID</td>
@@ -466,7 +471,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <tr>
       <td>ENTITY_TYPE</td>
       <td>varchar</td>
-      <td>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「Ad」。</td>
+      <td>このテーブルのメインオブジェクトまたはエンティティ。 この場合は「広告」。</td>
       <td>広告</td>
     </tr>
     <tr>
@@ -502,7 +507,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <tr>
       <td>URL_ALTENATIVES</td>
       <td>varchar</td>
-      <td>ソースシステムからインポート。
+      <td>ソースシステムから読み込まれました。
       <p>（内部処理用の診断フィールド。）
       </td>
       <td></td>
@@ -647,13 +652,13 @@ _フルサイズバージョンを表示するには、画像をクリックし�
     <tr>
       <td>GROUPING_KEY</td>
       <td>varchar</td>
-      <td>内部処理に使用される、診断フィールド。</td>
+      <td>診断フィールド。内部処理に使用されます。</td>
       <td></td>
     </tr>
     <tr>
       <td>ENTITY_TYPE</td>
       <td>varchar</td>
-      <td>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「Advertiser」。</td>
+      <td>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「広告主」です。</td>
       <td>広告主</td>
     </tr>
     <tr>
@@ -877,7 +882,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>GROUPING_KEY</p>
       </td>
       <td>varchar</td>
-      <td>内部処理に使用される、診断フィールド。</td>
+      <td>診断フィールド。内部処理に使用されます。</td>
       <td></td>
     </tr>
     <tr>
@@ -886,7 +891,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「Account」。</p>
+        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「アカウント」。</p>
       </td>
       <td>
         <p>アカウント</p>
@@ -939,7 +944,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>MEDIUM</p>
       </td>
       <td>varchar</td>
-      <td>utm_medium の URL から解析されます。</td>
+      <td>utm_medium の URL から解析されます。​</td>
       <td>
         <p>lisu07261601</p>
       </td>
@@ -1191,7 +1196,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>キャンペーンの名前（代わりに NAME フィールドを使用してください）。</p>
+        <p>キャンペーンの名前。代わりに「名前」フィールドを使用してください。</p>
       </td>
       <td></td>
     </tr>
@@ -1266,7 +1271,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>
         <p>[!DNL Marketo Measure] のタグ付けのためにキャンペーンを更新する必要があるかどうか。</p>
-        <p>（内部処理で使用される、診断フィールド。）</p>
+        <p>（内部処理で使用される診断項目。）</p>
       </td>
       <td>
         <p>false</p>
@@ -1277,7 +1282,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>GROUPING_KEY</p>
       </td>
       <td>varchar</td>
-      <td>内部処理に使用される、診断フィールド。</td>
+      <td>診断フィールド。内部処理に使用されます。</td>
       <td></td>
     </tr>
     <tr>
@@ -1286,7 +1291,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「Campaign」。</p>
+        <p>このテーブルの主なオブジェクトまたはエンティティ。 この場合は、「キャンペーン」。</p>
       </td>
       <td>
         <p>キャンペーン</p>
@@ -1298,7 +1303,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>キャンペーンの広告プロバイダーの名前。</p>
+        <p>キャンペーンの広告プロバイダー名。</p>
       </td>
       <td>
         <p>AdWords</p>
@@ -1391,7 +1396,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
 
 ### BIZ_AD_FORMS {#biz-ad-forms}
 
-接続されている任意の広告アカウントからインポートされた広告フォームです。
+接続されている任意の広告アカウントから読み込まれた Ad フォーム。
 
 <table>
   <tr>
@@ -1497,7 +1502,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「AdForm」。</p>
+        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「広告フォーム」。</p>
       </td>
       <td>
         <p>AdForm</p>
@@ -1524,7 +1529,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>広告フォームの説明。</p>
       </td>
       <td>
-        <p>Learn how intelligent automation can increase process efficiency in mortgage refinance loan applications.</p>
+        <p>インテリジェントオートメーションにより、住宅ローン借り換え申請プロセスの効率をどのように高められるかをご確認ください。</p>
       </td>
     </tr>
     <tr>
@@ -1534,7 +1539,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>varchar</td>
       <td>広告フォームのヘッドライン。</td>
       <td>
-        <p>It's Time to Automate the Refinancing Application Process</p>
+        <p>今こそ借り換え申請プロセスを自動化するとき</p>
       </td>
     </tr>
     <tr>
@@ -1554,7 +1559,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       <td>varchar</td>
       <td>広告フォームの質問のリスト。</td>
       <td>
-        <p>First name:Last name:Email address:Country/Region:Job title:Company name</p>
+        <p>名：姓：メールアドレス：国／地域：役職：会社名</p>
       </td>
     </tr>
     <tr>
@@ -1783,7 +1788,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>広告グループの名前。</p>
       </td>
       <td>
-        <p>Revenue Attribution - Account Based</p>
+        <p>収益アトリビューション - アカウントベース</p>
       </td>
     </tr>
     <tr>
@@ -1806,7 +1811,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>GROUPING_KEY</p>
       </td>
       <td>varchar</td>
-      <td>内部処理に使用される、診断フィールド。</td>
+      <td>診断フィールド。内部処理に使用されます。</td>
       <td></td>
     </tr>
     <tr>
@@ -1815,7 +1820,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「AdGroup」。</p>
+        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「広告グループ」。</p>
       </td>
       <td>
         <p>AdGroup</p>
@@ -1987,7 +1992,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
 
 ### BIZ_ATTRIBUTION_TOUCHPOINTS {#biz-attribution-touchpoints}
 
-<p>Buyer Attribution Touchpoints（商談に関連付けられたすべてのタッチポイント）です。</p>
+<p>Buyer Attribution Touchpoints。商談に関連付けられたすべての顧客接点。</p>
 <table>
   <tbody>
     <tr>
@@ -2000,7 +2005,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>Buyer Attribution Touchpoint（BAT）の一意の ID。</p>
+        <p>Buyer Attribution Touchpoint、BAT の一意の ID。</p>
       </td>
       <td>
         <p>BAT2_0060Z00000lFHtOQAW_</p>
@@ -2051,7 +2056,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>BAT に起因するアカウントの ID。</p>
+        <p>BAT が割り当てられているアカウントの ID。</p>
       </td>
       <td>
         <p>0013100001otbIAAAY</p>
@@ -2063,7 +2068,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>BAT を生成した User Touchpoint の ID。</p>
+        <p>BAT を生成したユーザー顧客接点の ID。</p>
       </td>
       <td>
         <p>person@adobe.com_00v1B00003ZbWzHQAV</p>
@@ -2093,10 +2098,10 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>アクティビティのタイプ（Web Visit、Web Form、Web Chat、Phone Call、[CRM] Campaign または [CRM] Activity）。 CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
+        <p>アクティビティのタイプ（web 訪問、web フォーム、web チャット、電話、[CRM] キャンペーンまたは [CRM] アクティビティ）。 CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
       </td>
       <td>
-        <p>Web フォーム</p>
+        <p>ウェブフォーム</p>
       </td>
     </tr>
     <tr>
@@ -2105,7 +2110,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。 CRM では、「マーケティングチャネルパス」と呼ばれます。</p>
+        <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。 CRM では、「マーケティングチャネル - パス」と呼ばれます。</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -2299,7 +2304,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションの最初のランディングページ。 CRM では、「ランディングページ」と呼ばれます。</p>
+        <p>顧客接点となったセッションの最初のランディングページ。 CRM では、「ランディングページ」と呼ばれます。</p>
       </td>
       <td>
         <p>http://www.adobe.com/blog/uncover- truth-behind-cost-per-lead</p>
@@ -2311,7 +2316,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションの最初のランディングページ。 未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。 CRM では、「ランディングページ未加工」と呼ばれます。</p>
+        <p>顧客接点となったセッションの最初のランディングページ。 未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。 CRM では、「ランディングページ - 未加工」と呼ばれます。</p>
       </td>
       <td>
         <p>http://www.adobe.com/blog/uncover-truth -behind-cost-per-lead?utm_content=27322869&amp;utm_ medium=social&amp;utm_source=linkedin</p>
@@ -2323,7 +2328,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「参照元ページ」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「リファラーページ」と呼ばれます。</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -2335,7 +2340,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「参照元ページ未加工」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工のリファラーページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「リファラーページ - 未加工」と呼ばれます。</p>
       </td>
       <td>
         <p>https://www.linkedin.com/</p>
@@ -2347,7 +2352,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションに記録された最初のフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 CRM では、「フォーム URL」と呼ばれます。</p>
+        <p>顧客接点となったセッションで最初に送信されたフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 CRM では、「フォーム URL」と呼ばれます。</p>
       </td>
       <td>
         <p>http://info.adobe.com/intro-guide-b2b-marketing-attribution</p>
@@ -2359,7 +2364,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションに記録された最初のフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「フォーム URL - 未加工」と呼ばれます。</p>
+        <p>顧客接点となったセッションで最初に送信されたフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「フォーム URL - 未加工」と呼ばれます。</p>
       </td>
       <td>
         <p>http://info.adobe.com/intro-guide-b2b-marketing-attribution</p>
@@ -2383,7 +2388,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された市区町村。</p>
+        <p>JavaScript および IP アドレスから検出された、セッション中にユーザーがいた市区町村。</p>
       </td>
       <td>
         <p>サンフランシスコ</p>
@@ -2395,7 +2400,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された地域。</p>
+        <p>JavaScript および IP アドレスから、セッション中にユーザーが所在していたと検出された地域。</p>
       </td>
       <td>
         <p>カリフォルニア</p>
@@ -2407,7 +2412,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された国。</p>
+        <p>JavaScript および IP アドレスから、セッション中にユーザーが所在していたと検出された国。</p>
       </td>
       <td>
         <p>アメリカ</p>
@@ -2419,7 +2424,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったメディアを定義するのに使用されます。 これは、utm_medium の URL から解析することもできます。 または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
+        <p>顧客接点をもたらした媒体を定義するために使用されます。 これは、URL から utm_medium を解析して取得することもできます。 または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
       </td>
       <td>
         <p>social</p>
@@ -2431,7 +2436,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったソースを定義するのに使用されます。 これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。 CRM では、「タッチポイントソース」と呼ばれます。</p>
+        <p>顧客接点をもたらしたソースを定義するために使用されます。 これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。 CRM では、「顧客接点ソース」と呼ばれます。</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -2602,7 +2607,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>広告を解決した広告アカウントからの広告グループの名前。 これは、Google AdWords にのみ適用されます。</p>
       </td>
       <td>
-        <p>Marketing Attribution - General</p>
+        <p>マーケティングアトリビューション - 一般</p>
       </td>
     </tr>
     <tr>
@@ -2611,7 +2616,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告が解決された広告アカウント内の広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
       <td>
         <p>dc.6114.8882972.25272734.492579576</p>
@@ -2623,10 +2628,10 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告の配信元となった広告アカウントにある広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
       <td>
-        <p>Budget Webinar - sidebar</p>
+        <p>予算ウェビナー - サイドバー</p>
       </td>
     </tr>
     <tr>
@@ -2647,7 +2652,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからのクリエイティブの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告を解決した広告アカウントからのクリエイティブの名前。 Google Ads および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>B2B Marketing Attribution</p>
@@ -2659,10 +2664,10 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告のクリエイティブの最初の行。広告が紐付けられた広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
-        <p>Download The CMOs Guide</p>
+        <p>CMO 向けガイドをダウンロード</p>
       </td>
     </tr>
     <tr>
@@ -2671,10 +2676,10 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれた、検索広告のクリエイティブの 2 行目。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
-        <p>Learn how attribution measures ROI by connecting marketing activities to revenue</p>
+        <p>アトリビューションが、マーケティングアクティビティを収益に結び付けて ROI をどのように測定するかを学びます。</p>
       </td>
     </tr>
     <tr>
@@ -2683,7 +2688,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告からのクリックスルーで到達するランディングページ。広告の配信元となった広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution</p>
@@ -2695,7 +2700,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれ、検索広告に表示されるフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>http://info.adobe.com/CMOs-Guide</p>
@@ -2707,7 +2712,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告の配信元となった広告アカウントから取り込まれた、有料検索広告で購入したキーワードの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>aw.6601259029.317738075.23105327435.4838421670</p>
@@ -2719,7 +2724,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます</p>
+        <p>広告が解決された広告アカウントから取り込まれた、有料検索で購入したキーワード名。 これは、Google AdWords および Bing Ads（検索）に適用されます</p>
       </td>
       <td>
         <p>"marketing attribution"</p>
@@ -2915,7 +2920,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
         <p>boolean</p>
       </td>
       <td>
-        <p>このタッチポイントが無効かどうか。</p>
+        <p>この顧客接点が削除されているかどうか。</p>
       </td>
       <td>
         <p>false</p>
@@ -3042,7 +3047,7 @@ _フルサイズバージョンを表示するには、画像をクリックし�
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-Attribution AI の統合から生成されたデータ。 以下のフィールドは、Marketo Measure Ultimate のお客様に対してのみ入力されます。
+アトリビューション AI の統合から生成されたデータ。 以下のフィールドは、Marketo Measure Ultimate のお客様に対してのみ入力されます。
 
 <table>
 <thead>
@@ -3113,7 +3118,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
   <tr>
     <td>SCORE_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>タッチポイントが最後にスコアリングされた日付</td>
+    <td>顧客接点が最後にスコアリングされた日付</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
@@ -3125,25 +3130,25 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
   <tr>
     <td>INCREMENTAL_PERCENT</td>
     <td>number(38,35)</td>
-    <td>タッチポイントに直接引き起こされるわずかな影響の量</td>
+    <td>顧客接点によって直接もたらされる限界的な影響の量</td>
     <td>0.25</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>タッチポイントまたはステージトランジションの日付</td>
+    <td>顧客接点またはステージトランジションの日付</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
     <td>varchar</td>
-    <td>タッチポイントを生成したイベントの ID</td>
+    <td>顧客接点を生成したイベントの ID</td>
     <td>00U3100000VLUnEEAX</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_OPPORTUNITY_ID</td>
     <td>varchar</td>
-    <td>タッチポイントに関連付けられた商談の ID</td>
+    <td>顧客接点に関連付けられた商談の ID</td>
     <td>0060Z00000lFHtOQAW</td>
   </tr>
   <tr>
@@ -3155,19 +3160,19 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
   <tr>
     <td>TOUCHPOINT_LEAD_ID</td>
     <td>varchar</td>
-    <td>タッチポイントに関連付けられたリードの ID</td>
+    <td>顧客接点に関連付けられたリードの ID</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_CONTACT_ID</td>
     <td>varchar</td>
-    <td>タッチポイントに関連付けられた取引先責任の ID</td>
+    <td>顧客接点に関連付けられた取引先責任者の ID</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>COUNT_TO_CONVERSION</td>
     <td>number(38,0)</td>
-    <td>コンバージョンイベントにつながるチェーン内のタッチポイントのランクまたは序数値</td>
+    <td>コンバージョンイベントにつながる連鎖内における顧客接点のランキングまたは序数値。</td>
     <td>10000</td>
   </tr>
   <tr>
@@ -3199,7 +3204,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
 
 ### BIZ_CAMPAIGN_MEMBERS {#biz-campaign-members}
 
-ソースシステムからインポートされたキャンペーンメンバー。 キャンペーン同期が無効の場合、このテーブルは空になります。
+ソースシステムからインポートされたキャンペーンメンバー。 キャンペーン同期を無効にしている場合、このテーブルは空になります。
 
 <table>
   <tbody>
@@ -3219,7 +3224,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>キャンペーンメンバーの最終変更日（ソースシステムから）。</p>
+        <p>キャンペーンメンバーの最終変更日付（ソースシステムから）。</p>
       </td>
       <td>
         <p>2018-08-31 20:49:54.000</p>
@@ -3229,7 +3234,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>キャンペーンメンバーの作成日（ソースシステムから）。</p>
+        <p>キャンペーンメンバーの作成日付（ソースシステムから）。</p>
       </td>
       <td>
         <p>2018-08-31 20:49:54.000</p>
@@ -3295,7 +3300,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>キャンペーンメンバーのステータス（通常、Sent、Responded または他のカスタム値に設定される）。 このステータスは、タッチポイントを作成するキャンペーンメンバーを特定するために、Campaign_Sync_Type に関連付けられています。</p>
+        <p>キャンペーンメンバーのステータス（通常、Sent、Responded または他のカスタム値に設定される）。 このステータスは、顧客接点を作成するキャンペーンメンバーを特定するために、Campaign_Sync_Type に関連付けられています。</p>
       </td>
       <td>
         <p>送信済み</p>
@@ -3381,7 +3386,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>Buyer Touchpoint がリード用に生成されたかどうかを示す監査フィールド。 タッチポイントが作成されなかった場合は、その理由が示されます。</p>
+        <p>Buyer Touchpoint がリード用に生成されたかどうかを示す監査フィールド。 顧客接点が作成されなかった場合は、その理由が示されます。</p>
       </td>
       <td>
         <p>No Touchpoint: Date outside model</p>
@@ -3405,7 +3410,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>Buyer Attribution Touchpoint が商談用に生成されたかどうかを示す監査フィールド。 タッチポイントが作成されなかった場合は、その理由が示されます。</p>
+        <p>Buyer Attribution Touchpoint が商談用に生成されたかどうかを示す監査フィールド。 顧客接点が作成されなかった場合は、その理由が示されます。</p>
       </td>
       <td>
         <p>Touchpoint Created</p>
@@ -3674,7 +3679,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
     <tr>
       <td>OTHER_SYSTEM_ID</td>
       <td>varchar</td>
-      <td>CRM 統合の連絡先を使用して Marketo 統合の顧客をマッピングします。 CRM と Marketo 統合の両方が存在している場合、値は、対応する ID です。</td>
+      <td>Marketo 統合の人物を、CRM 統合の取引先担当者に対応付けます。 CRM と Marketo 統合の両方が存在している場合、値は、対応する ID です。</td>
       <td>1234 / 00Q0Z00001OohgTUAR</td>
     </tr>
     <tr>
@@ -3721,7 +3726,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
-ソースシステムからインポートされた通貨の交換比率（為替レート）です。
+ソースシステムから読み込まれた為替レート。
 
 <table>
   <tbody>
@@ -3758,13 +3763,13 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
-      <td>為替レートの次の開始日 （為替レートの終了日は END_DATE - 1 日）。</td>
+      <td>コンバージョン率の次回開始日。 （コンバージョン率の終了日は、終了日（end_date）から 1 日を差し引いた日です）。</td>
       <td>2018-09-01 00:00:00.000</td>
     </tr>
     <tr>
       <td>CONVERSION_RATE</td>
       <td>number(38,0)</td>
-      <td>通貨から会社の通貨に交換するのに使用される比率。</td>
+      <td>通貨を会社の通貨に変換するために使用されるレート。</td>
       <td>0.76728300</td>
     </tr>
     <tr>
@@ -3814,7 +3819,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
 
 ### BIZ_COSTS {#biz-costs}
 
-接続された広告アカウントからインポートされたコストデータまたは自己申告されたマーケティング費用です。
+接続された広告アカウントから読み込まれたコストデータ、または自己申告されたマーケティング費用。
 
 <table>
   <tbody>
@@ -3875,7 +3880,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
     <tr>
       <td>AD_PROVIDER</td>
       <td>varchar</td>
-      <td>コストが引き出されたプロバイダー。</td>
+      <td>コストを取り込んだプロバイダー。</td>
       <td>Google</td>
     </tr>
     <tr>
@@ -3899,13 +3904,13 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
     <tr>
       <td>ADVERTISER_UNIQUE_ID</td>
       <td>varchar</td>
-      <td>広告接続から取得された広告主の ID（Doubleclick 接続専用）。</td>
+      <td>広告接続から取り込まれた広告主の ID（特に Doubleclick 接続用）。</td>
       <td>300181641</td>
     </tr>
     <tr>
       <td>ADVERTISER_NAME</td>
       <td>varchar</td>
-      <td>広告接続から取得された広告主の名前（Doubleclick 接続専用）。</td>
+      <td>広告接続から取り込まれた広告主の名前（Doubleclick 接続専用）。</td>
       <td>[!DNL Marketo Measure] Marketing Analytics</td>
     </tr>
     <tr>
@@ -3920,7 +3925,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得された広告アカウントの ID。</p>
+        <p>広告接続から取り込まれた広告アカウントの ID。</p>
       </td>
       <td>
         <p>aw.6601259029</p>
@@ -3932,7 +3937,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得された広告アカウントの名前。</p>
+        <p>広告接続から取り込まれた広告アカウントの名前。</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -3946,7 +3951,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>boolean</p>
       </td>
       <td>
-        <p>アカウントで集計できるコストが行に含まれているかどうかを示します （例：アカウントコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>アカウントで集計できるコストが行に含まれているかどうかを示します。 （例：アカウントコストを取得するには、この列が true に等しい行を合計します）</p>
       </td>
       <td>
         <p>false</p>
@@ -3958,7 +3963,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたキャンペーンの ID。</p>
+        <p>広告接続から取り込まれたキャンペーンの ID。</p>
       </td>
       <td>
         <p>aw.6601259029.285114995</p>
@@ -3970,7 +3975,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたキャンペーンの名前。</p>
+        <p>広告接続から取り込まれたキャンペーンの名前。</p>
       </td>
       <td>
         <p>Partner Retargeting</p>
@@ -3984,7 +3989,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>boolean</p>
       </td>
       <td>
-        <p>キャンペーンで集計できるコストが行に含まれているかどうかを示します （例：キャンペーンコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>キャンペーンで集計できるコストが行に含まれているかどうかを示します。 （例：キャンペーンコストを取得するには、この列が true に等しい行を合計します）</p>
       </td>
       <td>
         <p>true</p>
@@ -3996,7 +4001,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得された広告グループの ID。</p>
+        <p>広告接続から取り込まれた広告グループの ID。</p>
       </td>
       <td>
         <p>aw.6601259029.285114995.21703163075</p>
@@ -4008,10 +4013,10 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得された広告グループの名前。</p>
+        <p>広告接続から取り込まれた広告グループの名前。</p>
       </td>
       <td>
-        <p>Attribution Management Software | Phrase</p>
+        <p>アトリビューション管理ソフトウェア | フレーズ</p>
       </td>
     </tr>
     <tr>
@@ -4034,7 +4039,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得された広告の ID。</p>
+        <p>広告接続から取り込まれた広告の ID。</p>
       </td>
       <td>
         <p>dc.6114.9131003.24149929.467969200</p>
@@ -4046,7 +4051,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得された広告の名前。</p>
+        <p>広告接続から取り込まれた広告の名前。</p>
       </td>
       <td>
         <p>Ad name: Ad3-320x50.gif; 320 x 50</p>
@@ -4072,7 +4077,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたクリエイティブの ID。</p>
+        <p>広告接続から取り込まれたクリエイティブの ID。</p>
       </td>
       <td>
         <p>aw.6601259029.285114995.51749608028.266050115160</p>
@@ -4084,7 +4089,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたクリエイティブの名前。</p>
+        <p>広告接続から取り込まれたクリエイティブの名前。</p>
       </td>
       <td>
         <p>Gartner Magic Quadrant 2019</p>
@@ -4110,7 +4115,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたキーワードの ID。</p>
+        <p>広告接続から取り込まれたキーワードの ID。</p>
       </td>
       <td>
         <p>aw.6601259029.669328935.39419128772.99608705795</p>
@@ -4122,7 +4127,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたキーワードの名前。</p>
+        <p>広告接続から取り込まれたキーワードの名前。</p>
       </td>
       <td>
         <p>sfdc marketing attribution</p>
@@ -4148,7 +4153,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたプレースメントの ID。</p>
+        <p>広告接続から取り込まれたプレースメントの ID。</p>
       </td>
       <td>
         <p>120839827</p>
@@ -4160,7 +4165,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたプレースメントの名前。</p>
+        <p>広告接続から取り込まれたプレースメントの名前。</p>
       </td>
       <td>
         <p>roadblock</p>
@@ -4174,7 +4179,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>boolean</p>
       </td>
       <td>
-        <p>プレースメントで集計できるコストが行に含まれているかどうかを示します （例：プレースメントコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>プレースメントで集計できるコストが行に含まれているかどうかを示します。 （例：プレースメントコストを取得するには、この列が true に等しい行を合計します）。</p>
       </td>
       <td>
         <p>false</p>
@@ -4186,7 +4191,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたサイトの ID。</p>
+        <p>広告接続から取り込まれたサイトの ID。</p>
       </td>
       <td>
         <p>1695651</p>
@@ -4198,7 +4203,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告接続から取得されたサイトの名前。</p>
+        <p>広告接続から取り込まれたサイトの名前。</p>
       </td>
       <td>
         <p>Quora.com</p>
@@ -4212,7 +4217,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>boolean</p>
       </td>
       <td>
-        <p>サイトで集計できるコストが行に含まれているかどうかを示します （例：サイトコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>サイトで集計できるコストが行に含まれているかどうかを示します。 （例：サイトコストを取得するには、この列が true に等しい行を合計します）。</p>
       </td>
       <td>
         <p>false</p>
@@ -4364,7 +4369,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>DISPLAY_ID</p>
       </td>
       <td>varchar</td>
-      <td>クリエイティブ ID（ソースシステムから）。</td>
+      <td>ソースシステムのクリエイティブ ID。</td>
       <td>
         <p>10426699711</p>
       </td>
@@ -4375,7 +4380,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>クリエイティブのインポート元の広告アカウントの ID。</p>
+        <p>クリエイティブを読み込んだ広告アカウントの ID。</p>
       </td>
       <td>fb.106851586409075</td>
     </tr>
@@ -4385,7 +4390,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>クリエイティブのインポート元の広告アカウントの名前。</p>
+        <p>クリエイティブの読み込み元の広告アカウントの名前。</p>
       </td>
       <td>
         <p>[!DNL Marketo Measure]</p>
@@ -4433,7 +4438,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       <td>
         <p>クリエイティブの広告グループの名前。</p>
       </td>
-      <td>Ad Set for Ad B</td>
+      <td>広告 B 用の広告セット</td>
     </tr>
     <tr>
       <td>
@@ -4453,7 +4458,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>クリエイティブのキャンペーンの名前。</p>
+        <p>クリエイティブのキャンペーン名。</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4467,7 +4472,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>boolean</p>
       </td>
       <td>
-        <p>ソースシステムでクリエイティブが依然としてアクティブかどうか。</p>
+        <p>ソースシステムでクリエイティブがまだアクティブかどうか。</p>
       </td>
       <td>
         <p>true</p>
@@ -4562,7 +4567,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>クリエイティブの広告プロバイダーの名前。</p>
+        <p>このクリエイティブの広告プロバイダーの名称。</p>
       </td>
       <td>
         <p>BingAds</p>
@@ -4587,7 +4592,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>クリエイティブに表示された短縮 URL およびフレンドリ URL。</p>
+        <p>クリエイティブに表示される短縮されたフレンドリ URL。</p>
       </td>
       <td>
         <p>PipelineMarketing.com</p>
@@ -4620,7 +4625,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>URL_SHORTENED</p>
       </td>
       <td>varchar</td>
-      <td>クリエイティブに表示された短縮 URL およびフレンドリ URL。 （LinkedIn 広告にのみに使用）。</td>
+      <td>クリエイティブに表示される短縮されたフレンドリ URL。 （LinkedIn 広告にのみ使用）。</td>
       <td></td>
     </tr>
     <tr>
@@ -4629,7 +4634,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>クリエイティブのタイプ（Text または Display）</p>
+        <p>クリエイティブのタイプ（テキストまたは表示）。</p>
       </td>
       <td>
         <p>テキスト</p>
@@ -4682,7 +4687,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>クリエイティブの 2 番目の行からのコピー</p>
       </td>
       <td>
-        <p>Have You Used Analytics? Leave a Review Today!</p>
+        <p>Analytics を使用したことはありますか？ Leave a Review Today!</p>
       </td>
     </tr>
     <tr>
@@ -4727,7 +4732,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>共有 ID （LinkedIn 広告にのみに使用）。</p>
+        <p>共有 ID （LinkedIn 広告にのみ使用）。</p>
       </td>
       <td>
         <p>urn:li:share:6376987561897848832</p>
@@ -4824,7 +4829,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>イベントに関連付けられたリードのメール。</p>
+        <p>イベントに関連付けられたリードのメールアドレス。</p>
       </td>
       <td>
         <p>person@adobe.com</p>
@@ -4846,7 +4851,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>イベントに関連付けられた連絡先のメール。</p>
+        <p>イベントに関連付けられた取引先責任者のメールアドレス。</p>
       </td>
       <td>
         <p>person@adobe.com</p>
@@ -4941,7 +4946,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
 
 ### BIZ_CRM_TASKS {#biz-crm-tasks}
 
-ソースシステムからインポートされたタスクです。 このテーブルは、アクティビティ同期またはコールトラッキングが有効の場合に入力されます。
+ソースシステムからインポートされたタスクです。 このテーブルは、Activities Sync または Call Tracking が有効になっている場合にデータが格納されます。
 
 <table>
   <tbody>
@@ -5021,7 +5026,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>タスクに関連付けられた連絡先のメール。</p>
+        <p>タスクに関連付けられた取引先責任者のメールアドレス。</p>
       </td>
       <td>
         <p>person@adobe.com</p>
@@ -5048,7 +5053,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
         <p>アクティビティタイプ名（ソースシステムから）。</p>
       </td>
       <td>
-        <p>電話</p>
+        <p>通話</p>
       </td>
     </tr>
     <tr>
@@ -5173,7 +5178,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
     <tr>
       <td>EXPONENT</td>
       <td>number(38,0)</td>
-      <td>定義された最小通貨単位と通貨単位全体の間の小数点以下の桁数。</td>
+      <td>定義された最小通貨単位と通貨の整数単位の間の小数点以下の桁数。</td>
       <td>2</td>
     </tr>
     <tr>
@@ -5265,7 +5270,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>AB テストプラットフォームから取得された実験の ID。</p>
+        <p>AB テストプラットフォームから取り込まれた実験の ID。</p>
       </td>
       <td>123</td>
     </tr>
@@ -5275,7 +5280,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>AB テストプラットフォームから取得された実験の名前。</p>
+        <p>AB テストプラットフォームから取り込まれた実験の名前。</p>
       </td>
       <td>Experiment A</td>
     </tr>
@@ -5285,7 +5290,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>AB テストプラットフォームから取得された実験のバリエーション ID。</p>
+        <p>AB テストプラットフォームから取り込まれた実験のバリエーション ID。</p>
       </td>
       <td>456</td>
     </tr>
@@ -5295,7 +5300,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>AB テストプラットフォームから取得された実験のバリエーション名。</p>
+        <p>AB テストプラットフォームから取り込まれた実験のバリエーション名。</p>
       </td>
       <td>Blue Test</td>
     </tr>
@@ -5305,7 +5310,7 @@ Attribution AI の統合から生成されたデータ。 以下のフィール�
       </td>
       <td>varchar</td>
       <td>
-        <p>AB テストプラットフォームから取得された実験を提供したユーザーの ID。</p>
+        <p>AB テストプラットフォームから取り込まれた実験が配信されたユーザーの ID。</p>
       </td>
       <td>584d64et</td>
     </tr>
@@ -5455,7 +5460,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
 
 ### BIZ_CUSTOM_LANDING_PAGES {#biz-custom-landing-pages}
 
-接続されている任意の広告アカウントからダウンロードされたランディングページです。
+接続されている任意の広告アカウントからダウンロードされたランディングページ。
 
 <table>
   <tbody>
@@ -5581,7 +5586,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>行の最終変更日</p>
+        <p>行の最終変更日付</p>
       </td>
       <td></td>
     </tr>
@@ -5795,7 +5800,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
 
 ### BIZ_FACTS {#biz-facts}
 
-インプレッション、ページビュー、訪問数、フォーム送信、User Touchpoints、Touchpoint（BT）、Attribution Touchpoints（BAT）およびコストデータを結合します。 [!DNL Marketo Measure] レポートをサポートするために内部で使用されます。
+インプレッション、ページビュー、訪問数、フォーム送信、ユーザー顧客接点、Touchpoint（BT）、Attribution Touchpoints（BAT）およびコストデータを結合します。 [!DNL Marketo Measure] レポートをサポートするために内部で使用されます。
 
 >[!IMPORTANT]
 >
@@ -5824,7 +5829,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
     <tr>
       <td>TP_KEY</td>
       <td>number(38,0)</td>
-      <td>Touchpoints または User Touchpoints テーブルに結合するために使用されます。</td>
+      <td>顧客接点またはユーザー顧客接点テーブルに結合するために使用されます。</td>
       <td>5028390208679093800</td>
     </tr>
     <tr>
@@ -6120,7 +6125,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
     <tr>
       <td>TYPE</td>
       <td>number(38,0)</td>
-      <td>行のファクトタイプを示します。 1 = Buyer Attribution Touchpoint 2 = コスト 3 = Buyer Touchpoint 4 = User Touchpoint 5 = ページビュー 6 = セッション 7 = フォーム送信 8 = インプレッション</td>
+      <td>行のファクトタイプを示します。 1 = Buyer Attribution Touchpoint 2 = コスト 3 = Buyer Touchpoint 4 = ユーザー顧客接点 5 = ページビュー 6 = セッション 7 = フォーム送信 8 = インプレッション</td>
       <td>3</td>
     </tr>
     <tr>
@@ -6193,7 +6198,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>ファーストタッチなのでこのタッチポイントに割り当てられた、計算されたパーセンテージ。</p>
+        <p>ファーストタッチであるため、この顧客接点に割り当てられた計算済みのパーセンテージ。</p>
       </td>
       <td>0.0000000000000000000</td>
     </tr>
@@ -6205,7 +6210,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>リード作成タッチなのでこのタッチポイントに割り当てられた、計算されたパーセンテージ。</p>
+        <p>リード作成タッチであるため、この顧客接点に割り当てられた計算済みのパーセンテージ。</p>
       </td>
       <td>100.0000000000000000000</td>
     </tr>
@@ -6413,7 +6418,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>広告主で集計できるコストが行に含まれているかどうかを示します （例：広告主コストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>広告主で集計できるコストが行に含まれているかどうかを示します （例：広告主コストを取得するには、この列が true に等しい行を合計します）</p>
       </td>
       <td>true</td>
     </tr>
@@ -6425,7 +6430,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>アカウントで集計できるコストが行に含まれているかどうかを示します （例：アカウントコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>アカウントで集計できるコストが行に含まれているかどうかを示します。 （例：アカウントコストを取得するには、この列が true に等しい行を合計します）</p>
       </td>
       <td>
         <p>false</p>
@@ -6453,7 +6458,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>キャンペーンで集計できるコストが行に含まれているかどうかを示します （例：キャンペーンコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>キャンペーンで集計できるコストが行に含まれているかどうかを示します。 （例：キャンペーンコストを取得するには、この列が true に等しい行を合計します）</p>
       </td>
       <td>
         <p>true</p>
@@ -6507,7 +6512,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>プレースメントで集計できるコストが行に含まれているかどうかを示します （例：プレースメントコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>プレースメントで集計できるコストが行に含まれているかどうかを示します。 （例：プレースメントコストを取得するには、この列が true に等しい行を合計します）。</p>
       </td>
       <td>
         <p>false</p>
@@ -6521,7 +6526,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>サイトで集計できるコストが行に含まれているかどうかを示します （例：サイトコストを取得するには、この列が true に等しい行を合計します）。</p>
+        <p>サイトで集計できるコストが行に含まれているかどうかを示します。 （例：サイトコストを取得するには、この列が true に等しい行を合計します）。</p>
       </td>
       <td>
         <p>false</p>
@@ -6535,7 +6540,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>レコードが削除されたかどうか（監査記録として使用されます）。</p>
+        <p>レコードが削除されたかどうかを示し、監査記録として使用されます。</p>
       </td>
       <td>
         <p>false</p>
@@ -6671,7 +6676,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>フォームが送信された URL（任意のクエリパラメーターを含む）。</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6680,7 +6685,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>フォームが送信された時点での記録済み IP アドレス。</p>
+        <p>フォームが送信された時点での記録された IP アドレス。</p>
       </td>
       <td>
         <p>174.127.184.158</p>
@@ -6771,7 +6776,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>varchar</td>
       <td>送信されたフォームのタイプを示します。</td>
       <td>
-        <p>チャット</p>
+        <p>Chat</p>
       </td>
     </tr>
     <tr>
@@ -6839,7 +6844,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
 
 ### BIZ_IMPRESSIONS {#biz-impressions}
 
-発生および記録されたインプレッションです。 このテーブルは、Doubleclick 接続およびビュースルーの有効化が True に設定されている必要があります。
+発生および記録されたインプレッション。 このテーブルは、DoubleClick 接続およびビュースルーの有効化が True に設定されている必要があります。
 
 <table>
   <tbody>
@@ -6865,7 +6870,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>インプレッションの時点での記録済み cookie ID。</p>
+        <p>インプレッションの時点で記録された cookie ID。</p>
       </td>
       <td>08c1063cb0a64349ad0d2d862f5cc700</td>
     </tr>
@@ -6885,7 +6890,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>インプレッションがログに記録された時点で記録されたセッション ID。</p>
+        <p>インプレッションがログに記録された時点のセッション ID。</p>
       </td>
       <td>2018-08-06:01-35-24-1231230.9bc63c34482f</td>
     </tr>
@@ -6925,7 +6930,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>
         <p>インプレッションが提供された URL（任意のクエリパラメーターを含む）。</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -7007,7 +7012,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「参照元ページ」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「リファラーページ」と呼ばれます。</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -7017,7 +7022,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「参照元ページ未加工」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工のリファラーページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「リファラーページ - 未加工」と呼ばれます。</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -7062,7 +7067,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>ISP_NAME</p>
       </td>
       <td>varchar</td>
-      <td>フィールドは古いので、null であることが予想されます。</td>
+      <td>このフィールドは廃止されているため、null であることが想定されています。</td>
       <td>NULL</td>
     </tr>
     <tr>
@@ -7116,7 +7121,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>広告を解決した広告アカウントからの広告主の名前。 これは、Doubleclick Campaign Manager にのみ適用されます。</p>
       </td>
       <td>
-        <p>Market Measure Marketing Analytics</p>
+        <p>Market Measure マーケティング分析</p>
       </td>
     </tr>
     <tr>
@@ -7217,7 +7222,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告が解決された広告アカウント内の広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
       <td>
         <p>68035923</p>
@@ -7229,7 +7234,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告の配信元となった広告アカウントにある広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
       <td>
         <p>centurylink_banner_98121</p>
@@ -7575,7 +7580,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>キーワードの広告グループの名前。</p>
       </td>
       <td>
-        <p>Revenue Attribution - B2B</p>
+        <p>収益アトリビューション - B2B</p>
       </td>
     </tr>
     <tr>
@@ -7693,7 +7698,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「Keyword」。</p>
+        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「キーワード」。</p>
       </td>
       <td>
         <p>キーワード</p>
@@ -8118,7 +8123,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>リード用に入力された web サイト（ソースシステムから）。Lead2Account マッピングに使用されます。</p>
+        <p>ソースシステムでリードに対して入力された web サイト。Lead2Account マッピングに使用されます。</p>
       </td>
       <td>
         <p>adobe.com</p>
@@ -8156,7 +8161,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>リードが連絡先にコンバートされたかどうか。</p>
+        <p>リードが取引先責任者に変換されたかどうか。</p>
       </td>
       <td>
         <p>true</p>
@@ -8168,7 +8173,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>リードがコンバートされた後の関連する商談の ID。</p>
+        <p>リードが変換された後の関連する商談の ID。</p>
       </td>
       <td>
         <p>0013100001b44aGAAQ</p>
@@ -8180,7 +8185,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>リードが連絡先にコンバートされた日付。</p>
+        <p>リードが取引先責任者に変換された日付。</p>
       </td>
       <td>
         <p>2018-08-27 07:00:00.000</p>
@@ -8192,7 +8197,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>リードがコンバートされた後の関連する連絡先の ID。</p>
+        <p>リードが変換された後の関連する取引先責任者の ID。</p>
       </td>
       <td>
         <p>0030Z00003Oyp25QAB</p>
@@ -8331,7 +8336,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
     <tr>
       <td>OTHER_SYSTEM_ID</td>
       <td>varchar</td>
-      <td>CRM 統合のリードを使用して Marketo 統合の顧客をマッピングします。 CRM と Marketo 統合の両方が存在している場合、値は、対応する ID です。</td>
+      <td>Marketo 統合の人物と CRM 統合のリードをマッピングします。 CRM と Marketo 統合の両方が存在している場合、値は、対応する ID です。</td>
       <td>1234</td>
     </tr>
     <tr>
@@ -8429,7 +8434,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>レコードがステージに遷移された日付。</p>
+        <p>レコードがステージにトランジションした日付。</p>
       </td>
       <td>
         <p>2018-08-27 16:05:34.000</p>
@@ -8467,7 +8472,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>[!DNL Marketo Measure] ステージマッピング設定で順序付けられた、ステージの数値ランク。</p>
+        <p>[!DNL Marketo Measure] ステージマッピング設定で順序付けられた、ステージの数値ランキング。</p>
       </td>
       <td>
         <p>5</p>
@@ -8521,7 +8526,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>行がマイルストーンステージ遷移に関連付けられているかどうかを示します。 例えば、3 つのステージ／エントリ（FT、LC、MQL）と 4 つのタッチポイントがある場合、ステージを含まない第 1 タッチポイントは、「非遷移」と見なされるので、値は true に等しくなります。</p>
+        <p>行がマイルストーンステージ遷移に関連付けられているかどうかを示します。 例えば、3 つのステージ／エントリ（FT、LC、MQL）と 4 つの顧客接点がある場合、ステージを含まない 1 つの顧客接点は「非トランジション」と見なされるので、値は true になります。</p>
       </td>
       <td>
         <p>false</p>
@@ -8533,7 +8538,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>ステージランクに応じた、前のステージの遷移日。</p>
+        <p>ステージランキングに応じた、前のステージの遷移日。</p>
       </td>
       <td>
         <p>2017-11-28 21:26:44.000</p>
@@ -8545,7 +8550,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>ステージランクに応じた、次のステージの遷移日。</p>
+        <p>ステージランキングに応じた、次のステージの遷移日。</p>
       </td>
       <td>
         <p>2017-12-11 22:39:17.000</p>
@@ -8622,7 +8627,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>商談の最終変更日（ソースシステムから）。</p>
+        <p>ソースシステムにおける商談の最終変更日付。</p>
       </td>
       <td>2017-11-28 21:26:44.000</td>
     </tr>
@@ -8630,7 +8635,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       <td>CREATED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>商談の作成日（ソースシステムから）。</p>
+        <p>ソースシステムにおける商談の作成日付。</p>
       </td>
       <td>2017-11-28 21:26:44.000</td>
     </tr>
@@ -8692,7 +8697,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>期待される、または実際の商談のクローズ日（ソースシステムから）。</p>
+        <p>ソースシステムから取得される、商談の予定または実際のクローズ日付。</p>
       </td>
       <td>
         <p>2019-08-28 07:00:00.000</p>
@@ -8730,7 +8735,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>この商談にコンバート済みの関連するリードの ID。</p>
+        <p>この商談に変換された関連リードの ID。</p>
         <p>すべてのお客様について、Snowflake ではこのフィールドは設定されず、null を返すことに注意してください。</p>
       </td>
       <td>
@@ -8743,7 +8748,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>varchar</td>
       <td>
-        <p>この商談にコンバート済みの関連するリードのメール。</p>
+        <p>この商談に変換された関連リードのメール。</p>
         <p>すべてのお客様について、Snowflake ではこのフィールドは設定されず、null を返すことに注意してください。</p>
       </td>
       <td>
@@ -9010,7 +9015,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>[!DNL Marketo Measure] ステージマッピング設定で順序付けられた、ステージの数値ランク。</p>
+        <p>[!DNL Marketo Measure] ステージマッピング設定で順序付けられた、ステージの数値ランキング。</p>
       </td>
       <td>
         <p>4</p>
@@ -9062,7 +9067,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
         <p>boolean</p>
       </td>
       <td>
-        <p>行がマイルストーンステージ遷移に関連付けられているかどうかを示します。 例えば、3 つのステージ／エントリ（FT、LC、MQL）と 4 つのタッチポイントがある場合、ステージを含まない第 1 タッチポイントは、「非遷移」と見なされるので、値は true に等しくなります。</p>
+        <p>行がマイルストーンステージ遷移に関連付けられているかどうかを示します。 例えば、3 つのステージ／エントリ（FT、LC、MQL）と 4 つの顧客接点がある場合、ステージを含まない 1 つの顧客接点は「非トランジション」と見なされるので、値は true になります。</p>
       </td>
       <td>
         <p>false</p>
@@ -9074,7 +9079,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>ステージランクに応じた、前のステージの遷移日。</p>
+        <p>ステージランキングに応じた、前のステージの遷移日。</p>
       </td>
       <td>
         <p>2015-07-16 17:41:49.000</p>
@@ -9086,7 +9091,7 @@ JavaScript のカスタムイベントを使用して記録された web イベ�
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>ステージランクに応じた、次のステージの遷移日。</p>
+        <p>ステージランキングに応じた、次のステージの遷移日。</p>
       </td>
       <td>
         <p>2018-08-27 19:40:52.000</p>
@@ -9247,7 +9252,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>フォームが送信された時点での記録済み IP アドレス。</p>
+        <p>フォームが送信された時点での記録された IP アドレス。</p>
       </td>
       <td>
         <p>174.127.184.158</p>
@@ -9340,7 +9345,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>ページビューが発生した URL（任意のクエリパラメーターを含む）。</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9607,7 +9612,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「Placement」。</p>
+        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「プレースメント」。</p>
       </td>
       <td>配置</td>
     </tr>
@@ -9636,19 +9641,19 @@ Web 訪問から収集されたページビューです。 複数のページビ
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake でのレコードの作成日</td>
+      <td>Snowflake でのレコードの作成日付</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake でのレコードの変更日</td>
+      <td>Snowflake でのレコードの変更日付</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake のレコードが削除されている場合は、その削除日</td>
+      <td>レコードが削除されている場合の Snowflake 上での削除日付。</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -9840,7 +9845,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>セッションの記録済み cookie ID。</p>
+        <p>セッションの記録された cookie ID。</p>
       </td>
       <td>277d79d01678498fea067c9b631bf6df</td>
     </tr>
@@ -9919,7 +9924,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>セッションの最初のページビューの URL（任意のクエリパラメーターを含む）。</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -9952,7 +9957,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>参照元ページの名前。</p>
+        <p>リファラーページの名前。</p>
       </td>
       <td>
         <p>Google</p>
@@ -10018,7 +10023,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>boolean</p>
       </td>
       <td>
-        <p>セッションにメールアドレスが含まれていたかどうか。</p>
+        <p>セッションにメールアドレスが関連付けられていたかどうか。</p>
       </td>
       <td>
         <p>false</p>
@@ -10092,7 +10097,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告主の ID（特に、Doubleclick 接続から）。</p>
+        <p>広告が紐づいている広告主の ID（Doubleclick 接続から取得）。</p>
       </td>
       <td>
         <p>300181641</p>
@@ -10104,7 +10109,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告主の名前（特に、Doubleclick 接続から）。</p>
+        <p>広告が紐づいている広告主の名前（Doubleclick 接続から取得）。</p>
       </td>
       <td>
         <p>Marketing Analytics</p>
@@ -10179,7 +10184,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>広告を解決したキャンペーンの名前。</p>
       </td>
       <td>
-        <p>Planning Your Budget Webinar</p>
+        <p>予算計画に関するウェビナー</p>
       </td>
     </tr>
     <tr>
@@ -10222,7 +10227,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>解決された広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>解決元となった広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
       <td>Winter Promo - Green</td>
     </tr>
@@ -10232,7 +10237,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決したクリエイティブの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告の解決元となったクリエイティブの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>aw.6601259029.321586235.23182235435.83558988035</p>
@@ -10244,10 +10249,10 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決したクリエイティブの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告の解決元となったクリエイティブの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
-        <p>Integrate GA &amp; Salesforce</p>
+        <p>GA と Salesforce を統合</p>
       </td>
     </tr>
     <tr>
@@ -10256,10 +10261,10 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告のクリエイティブの最初の行。広告が紐付けられた広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
-        <p>Integrate Salesforce &amp; Analytics To</p>
+        <p>Salesforce と Analytics を統合</p>
       </td>
     </tr>
     <tr>
@@ -10268,7 +10273,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれた、検索広告のクリエイティブの 2 行目。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>Optimize for Revenue. Learn How.</p>
@@ -10280,7 +10285,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告からのクリックスルーで到達するランディングページ。広告の配信元となった広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>http://www.adobe.com/salesforce-google-analytics</p>
@@ -10292,7 +10297,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれ、検索広告に表示されるフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>adobe.com/Salesforce-for-GA</p>
@@ -10316,7 +10321,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決したキーワードの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が表示された元となるキーワードの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>google analytics salesforce</p>
@@ -10343,7 +10348,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>utm_campaign の URL から解析されます。</p>
       </td>
       <td>
-        <p>SU - ABC Accounts - Paid Media Skills</p>
+        <p>SU - ABC アカウント - 有料メディアスキル</p>
       </td>
     </tr>
     <tr>
@@ -10429,7 +10434,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>ISP_NAME</p>
       </td>
       <td>varchar</td>
-      <td>フィールドは古いので、null であることが予想されます。</td>
+      <td>このフィールドは廃止されているため、null であることが想定されています。</td>
       <td>
         <p>NULL</p>
       </td>
@@ -10440,7 +10445,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>セッション時点での記録済み IP アドレス。</p>
+        <p>セッション時に記録された IP アドレス。</p>
       </td>
       <td>
         <p>174.127.184.158</p>
@@ -10563,7 +10568,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
 
 ### BIZ_SITES {#biz-sites}
 
-接続されている任意の広告アカウントからインポートされたサイトです。
+接続されている任意の広告アカウントから読み込まれたサイト。
 
 <table>
   <tbody>
@@ -10745,7 +10750,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>GROUPING_KEY</p>
       </td>
       <td>varchar</td>
-      <td>内部処理に使用される、診断フィールド。</td>
+      <td>診断フィールド。内部処理に使用されます。</td>
       <td></td>
     </tr>
     <tr>
@@ -10959,7 +10964,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       <td>MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
       <td>
-        <p>行の最終変更日</p>
+        <p>行の最終変更日付</p>
       </td>
       <td>
         <p>2018-08-02 06:36:50.000</p>
@@ -10995,7 +11000,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>boolean</p>
       </td>
       <td>
-        <p>Marekto Measure のタグ付けのためにサイトリンクを更新する必要があるかどうか</p>
+        <p>Marketo Measure のタグ付けのためにサイトリンクを更新する必要があるかどうか</p>
       </td>
       <td>
         <p>FALSE</p>
@@ -11017,7 +11022,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
       </td>
       <td>varchar</td>
       <td>
-        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「SiteLink」</p>
+        <p>このテーブルのメインオブジェクトまたはエンティティ。 この場合は、「SiteLink」​</p>
       </td>
       <td>
         <p>SiteLink</p>
@@ -11074,19 +11079,19 @@ Web 訪問から収集されたページビューです。 複数のページビ
     <tr>
       <td>_CREATED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake でのレコードの作成日</td>
+      <td>Snowflake でのレコードの作成日付</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_MODIFIED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake でのレコードの変更日</td>
+      <td>Snowflake でのレコードの変更日付</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
       <td>_DELETED_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Snowflake のレコードが削除されている場合は、その削除日</td>
+      <td>レコードが削除されている場合の Snowflake 上での削除日付。</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
   </tbody>
@@ -11234,7 +11239,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
         <p>number(38,0)</p>
       </td>
       <td>
-        <p>ステージの数値ランク（遷移された順序でステージを並べ替えるために使用されます）。</p>
+        <p>ステージの数値ランキング。ステージを進行順に並べ替えるために使用されます。</p>
       </td>
       <td>
         <p>53</p>
@@ -11277,7 +11282,7 @@ Web 訪問から収集されたページビューです。 複数のページビ
 
 ### BIZ_TOUCHPOINTS {#biz-touchpoints}
 
-Buyer Touchpoints（リードまたは連絡先に関連付けられたすべてのタッチポイント）です。 Lead Touchpoints または Contact Touchpoints が無効になっている場合、このテーブルは空になります。
+Buyer Touchpoints（リードまたは取引先責任者に関連付けられたすべての顧客接点）。 Lead Touchpoints または Contact Touchpoints が無効になっている場合、このテーブルは空になります。
 
 <table>
   <tbody>
@@ -11355,7 +11360,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>リードまたは連絡先に関連する親の顧客レコード。</p>
+        <p>リードまたは取引先責任者に関連する親の人物レコード。</p>
       </td>
       <td>
         <p>Person_00Q0Z000013e2PYUAY</p>
@@ -11367,7 +11372,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>BT を生成した User Touchpoint の ID。</p>
+        <p>BT を生成したユーザー顧客接点の ID。</p>
       </td>
       <td>
         <p>person@adobe.com_2018-08-29:18-14-53-8102030.10df92cbb414</p>
@@ -11385,7 +11390,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>タッチポイントの日付。</p>
+        <p>顧客接点の日付。</p>
       </td>
       <td>
         <p>2018-08-27 20:04:40.000</p>
@@ -11397,10 +11402,10 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>アクティビティのタイプ（Web Visit、Web Form、Web Chat、Phone Call、[CRM] Campaign または [CRM] Activity）。 CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
+        <p>アクティビティのタイプ（web 訪問、web フォーム、web チャット、電話、[CRM] キャンペーンまたは [CRM] アクティビティ）。 CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
       </td>
       <td>
-        <p>Web フォーム</p>
+        <p>ウェブフォーム</p>
       </td>
     </tr>
     <tr>
@@ -11409,7 +11414,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。 CRM では、「マーケティングチャネルパス」と呼ばれます。</p>
+        <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。 CRM では、「マーケティングチャネル - パス」と呼ばれます。</p>
       </td>
       <td>Social.LinkedIn</td>
     </tr>
@@ -11605,7 +11610,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションの最初のランディングページ。 CRM では、「ランディングページ」と呼ばれます。</p>
+        <p>顧客接点となったセッションの最初のランディングページ。 CRM では、「ランディングページ」と呼ばれます。</p>
       </td>
       <td>
         <p>https://info.adobe.com/definitive-guide-to-pipeline-marketing</p>
@@ -11617,10 +11622,10 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションの最初のランディングページ。 未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。 CRM では、「ランディングページ未加工」と呼ばれます。</p>
+        <p>顧客接点となったセッションの最初のランディングページ。 未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。 CRM では、「ランディングページ未加工」と呼ばれます。</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -11629,7 +11634,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「参照元ページ」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「リファラーページ」と呼ばれます。</p>
       </td>
       <td>https://www.linkedin.com/</td>
     </tr>
@@ -11639,7 +11644,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「参照元ページ未加工」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工のリファラーページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「参照元ページ未加工」と呼ばれます。</p>
       </td>
       <td>
         <p>https://www.linkedin.com/feed</p>
@@ -11651,7 +11656,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションに記録された最初のフォーム。 後続のフォーム送信は、Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 CRM では、「フォーム URL」と呼ばれます。</p>
+        <p>顧客接点となったセッションで最初に送信されたフォーム。 後続のフォーム送信は、Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 CRM では、「フォーム URL」と呼ばれます。</p>
       </td>
       <td>
         <p>https://info.adobe.com/demo</p>
@@ -11660,7 +11665,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     <tr>
       <td>FORM_PAGE_RAW</td>
       <td>varchar</td>
-      <td>タッチポイントとなったセッションに記録された最初のフォーム。 後続のフォーム送信は、Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「フォーム URL - 未加工」と呼ばれます。</td>
+      <td>顧客接点となったセッションで最初に送信されたフォーム。 後続のフォーム送信は、Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「フォーム URL - 未加工」と呼ばれます。</td>
       <td>https://info.adobe.com/demo?hsCtaTracking=98adcc2f-afe2-40c4-9d79-40dcc41663ee%7C3cfaa909-39cb-4f5d-93eb-be05de6b0180</td>
     </tr>
     <tr>
@@ -11693,7 +11698,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された地域。</p>
+        <p>JavaScript および IP アドレスから、セッション中にユーザーが所在していたと検出された地域。</p>
       </td>
       <td>
         <p>ニューヨーク</p>
@@ -11705,7 +11710,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された国。</p>
+        <p>JavaScript および IP アドレスから、セッション中にユーザーが所在していたと検出された国。</p>
       </td>
       <td>
         <p>アメリカ</p>
@@ -11717,7 +11722,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったメディアを定義するのに使用されます。 これは、utm_medium の URL から解析することもできます。 または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
+        <p>顧客接点をもたらした媒体を定義するために使用されます。 これは、URL から utm_medium を解析して取得することもできます。 または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
       </td>
       <td>
         <p>ソーシャル</p>
@@ -11729,7 +11734,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったソースを定義するのに使用されます。 これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。 CRM では、「タッチポイントソース」と呼ばれます。</p>
+        <p>顧客接点をもたらしたソースを定義するために使用されます。 これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。 CRM では、「タッチポイントソース」と呼ばれます。</p>
       </td>
       <td>
         <p>LinkedIn</p>
@@ -11897,7 +11902,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>
         <p>広告を解決した広告アカウントからの広告グループの名前。 これは、Google AdWords にのみ適用されます。</p>
       </td>
-      <td>Marketing Attribution - General</td>
+      <td>マーケティングアトリビューション - 一般</td>
     </tr>
     <tr>
       <td>
@@ -11905,7 +11910,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告が解決された広告アカウント内の広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -11915,9 +11920,9 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告の配信元となった広告アカウントにある広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
-      <td>Budget Webinar - sidebar</td>
+      <td>予算ウェビナー - サイドバー</td>
     </tr>
     <tr>
       <td>
@@ -11949,7 +11954,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告のクリエイティブの最初の行。広告が紐付けられた広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>Lead gen is done</p>
@@ -11961,7 +11966,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれた、検索広告のクリエイティブの 2 行目。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>Download the definitive guide to pipeline marketing: https://lnkd.in/e9xYj5M</p>
@@ -11973,7 +11978,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告からのクリックスルーで到達するランディングページ。広告の配信元となった広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>https://image-store.slidesharecdn.com/d29165c0-1e0b-4ffc-a494-d2c77e7cd4a6-large.jpeg</p>
@@ -11985,7 +11990,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれ、検索広告に表示されるフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>marektomeasure.com/guide</p>
@@ -11997,7 +12002,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告の配信元となった広告アカウントから取り込まれた、有料検索広告で購入したキーワードの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>__GAId__lisu03151846</p>
@@ -12009,7 +12014,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます</p>
+        <p>広告が解決された広告アカウントから取り込まれた、有料検索で購入したキーワード名。 これは、Google AdWords および Bing Ads（検索）に適用されます</p>
       </td>
       <td>
         <p>lisu03151846</p>
@@ -12181,7 +12186,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
         <p>number(22,19)</p>
       </td>
       <td>
-        <p>フルパスモデルの一部なのでこのタッチポイントに割り当てられた、計算されたパーセンテージ（Is_First_Touch、Is_Lead_Creation_Touch、Is_Opp_Creation_Touch、Is_Closed_Touch を参照）。 これは BT なので、0 になることが期待されます。</p>
+        <p>フルパスモデルの一部であるため、この顧客接点に割り当てられた計算済みのパーセンテージ（Is_First_Touch、Is_Lead_Creation_Touch、Is_Opp_Creation_Touch、Is_Closed_Touch を参照）。 これは BT なので、0 になることが期待されます。</p>
       </td>
       <td>
         <p>0</p>
@@ -12190,7 +12195,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     <tr>
       <td>CUSTOM_MODEL_PERCENTAGE</td>
       <td>number(22,19)</td>
-      <td>カスタムモデルの一部なのでこのタッチポイントに割り当てられた、計算されたパーセンテージ（Is_First_Touch、Is_Lead_Creation_Touch、Is_Opp_Creation_Touch、Is_Closed_Touch を参照）。 これは BT なので、0 になることが期待されます。</p>
+      <td>カスタムモデルの一部であるため、この顧客接点に割り当てられた計算済みのパーセンテージ（Is_First_Touch、Is_Lead_Creation_Touch、Is_Opp_Creation_Touch、Is_Closed_Touch を参照）。 これは BT なので、0 になることが期待されます。</p>
       </td>
       <td>0</td>
     </tr>
@@ -12202,7 +12207,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
         <p>boolean</p>
       </td>
       <td>
-        <p>このタッチポイントが無効かどうか。</p>
+        <p>この顧客接点が削除されているかどうか。</p>
       </td>
       <td>
         <p>false</p>
@@ -12337,7 +12342,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
 
 ### BIZ_URLS {#biz-urls}
 
-ランディングページ、参照元ページおよびページビューからの URL の集計です。
+ランディングページ、リファラーページおよびページビューからの URL の集計です。
 
 <table>
   <tbody>
@@ -12412,7 +12417,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
 
 ### BIZ_USER_TOUCHPOINTS {#biz-user-touchpoints}
 
-メールに関連付けられた任意のイベントから作成されたすべての Touchpoints。
+メールに関連付けられたあらゆるイベントから作成されたすべての顧客接点。
 
 <table>
   <tbody>
@@ -12426,7 +12431,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
        <td>ID</td>
       <td>varchar</td>
       <td>
-        <p>User Touchpoint の一意の ID。</p>
+        <p>ユーザー顧客接点の一意の ID。</p>
       </td>
       <td>
         <p>person@adobe.com_2018-01-05:16-47-02-8803320.ddf67c101f58</p>
@@ -12448,7 +12453,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>User Touchpoint に関連付けられたメールアドレス。</p>
+        <p>ユーザー顧客接点に関連付けられたメールアドレス。</p>
       </td>
       <td>
         <p>person@adobe.com</p>
@@ -12460,7 +12465,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>User Touchpoint を作成したセッションの ID。</p>
+        <p>ユーザー顧客接点を作成したセッションの ID。</p>
       </td>
       <td>
         <p>2018-01-05:16-47-02-8803320.ddf67c101f58</p>
@@ -12472,7 +12477,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>User Touchpoint を作成したキャンペーンメンバーの ID。</p>
+        <p>ユーザー顧客接点を作成したキャンペーンメンバーの ID。</p>
       </td>
       <td>
         <p>00v0Z00001VTgv1QAD</p>
@@ -12481,7 +12486,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
     <tr>
       <td>CRM_ACTIVITY_ID</td>
       <td>varchar</td>
-      <td>User Touchpoint を作成したアクティビティの ID。</td>
+      <td>ユーザー顧客接点を作成したアクティビティの ID。</td>
       <td>1678625515</td>
     </tr>
     <tr>
@@ -12490,7 +12495,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>User Touchpoint を作成したイベントの ID。</p>
+        <p>ユーザー顧客接点を作成したイベントの ID。</p>
       </td>
       <td>
         <p>00U0Z00000pCZmyUAG</p>
@@ -12502,7 +12507,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>User Touchpoint を作成したタスクの TID。</p>
+        <p>ユーザー顧客接点を作成したタスクの TID。</p>
       </td>
       <td>
         <p>00T0Z00004Qbd1jUAB</p>
@@ -12514,7 +12519,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>User Touchpoint を作成したインプレッションの ID。</p>
+        <p>ユーザー顧客接点を作成したインプレッションの ID。</p>
       </td>
       <td>00T0Z00004Qbd1jUAB</td>
     </tr>
@@ -12536,7 +12541,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>timestamp_ntz</td>
       <td>
-        <p>User Touchpoint が発生した日付。</p>
+        <p>ユーザー顧客接点が発生した日付。</p>
       </td>
       <td>
         <p>2018-01-05 16:47:02.000</p>
@@ -12548,10 +12553,10 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>アクティビティのタイプ（Web Visit、Web Form、Web Chat、Phone Call、[CRM] Campaign または [CRM] Activity）。 CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
+        <p>アクティビティのタイプ（web 訪問、web フォーム、web チャット、電話、[CRM] キャンペーンまたは [CRM] アクティビティ）。 CRM では、「タッチポイントのタイプ」と呼ばれます。</p>
       </td>
       <td>
-        <p>Web フォーム</p>
+        <p>ウェブフォーム</p>
       </td>
     </tr>
     <tr>
@@ -12560,7 +12565,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。 CRM では、「マーケティングチャネルパス」と呼ばれます。</p>
+        <p>[!DNL Marketo Measure] アプリ内のカスタムチャネル定義で定義された、タッチポイントが分類されるチャネル。 CRM では、「マーケティングチャネル - パス」と呼ばれます。</p>
       </td>
       <td>
         <p>Social.LinkedIn</p>
@@ -12620,7 +12625,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションの最初のランディングページ。 CRM では、「ランディングページ」と呼ばれます。</p>
+        <p>顧客接点となったセッションの最初のランディングページ。 CRM では、「ランディングページ」と呼ばれます。</p>
       </td>
       <td>
         <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing</p>
@@ -12632,10 +12637,10 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションの最初のランディングページ。 未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。 CRM では、「ランディングページ未加工」と呼ばれます。</p>
+        <p>顧客接点となったセッションの最初のランディングページ。 未加工のランディングページには、URL にすべてのクエリパラメーターが含まれます。 CRM では、「ランディングページ未加工」と呼ばれます。</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12644,7 +12649,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「参照元ページ」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 CRM では、「リファラーページ」と呼ばれます。</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -12656,7 +12661,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工の参照元ページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「参照元ページ未加工」と呼ばれます。</p>
+        <p>通常、ユーザーが web サイトに到達する直前の外部ランディングページ。 未加工のリファラーページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「リファラーページ - 未加工」と呼ばれます。</p>
       </td>
       <td>
         <p>https://www.google.com/</p>
@@ -12668,7 +12673,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションに記録された最初のフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 CRM では、「フォーム URL」と呼ばれます。</p>
+        <p>顧客接点となったセッションで最初に送信されたフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 CRM では、「フォーム URL」と呼ばれます。</p>
       </td>
       <td>
         <p>http://info.adobe.com/adwords-for-lead-generation</p>
@@ -12680,10 +12685,10 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったセッションに記録された最初のフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「フォーム URL - 未加工」と呼ばれます。</p>
+        <p>顧客接点となったセッションで最初に送信されたフォーム。 後続のフォーム送信は、Attribution_Touchpoints テーブルには表示されず、Form_Submits テーブルに表示されます。 未加工のフォームページには、URL にクエリパラメーターが含まれていることがあります。 CRM では、「フォーム URL - 未加工」と呼ばれます。</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -12716,7 +12721,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された地域。</p>
+        <p>JavaScript および IP アドレスから、セッション中にユーザーが所在していたと検出された地域。</p>
       </td>
       <td>
         <p>カリフォルニア</p>
@@ -12728,7 +12733,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>JavaScript および IP アドレスから、セッション中にユーザーが使用していたことが検出された国。</p>
+        <p>JavaScript および IP アドレスから、セッション中にユーザーが所在していたと検出された国。</p>
       </td>
       <td>
         <p>アメリカ</p>
@@ -12740,7 +12745,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったメディアを定義するのに使用されます。 これは、utm_medium の URL から解析することもできます。 または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
+        <p>顧客接点をもたらした媒体を定義するために使用されます。 これは、URL から utm_medium を解析して取得することもできます。 または、[!DNL Marketo Measure] が広告を解決できる場合は、「cpc」や「display」などの値になることがあります。</p>
       </td>
       <td>
         <p>支払った</p>
@@ -12752,7 +12757,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>タッチポイントとなったソースを定義するのに使用されます。 これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。 CRM では、「タッチポイントソース」と呼ばれます。</p>
+        <p>顧客接点をもたらしたソースを定義するために使用されます。 これは、utm_source の URL から解析されたり、CRM から同期された場合は一般的に「CRM キャンペーン」として設定されたり、[!DNL Marketo Measure] が広告を解決できる場合は「Google AdWords」や「Facebook」などの値になったりすることがあります。 CRM では、「顧客接点ソース」と呼ばれます。</p>
       </td>
       <td>
         <p>linkedin</p>
@@ -12932,7 +12937,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告が解決された広告アカウント内の広告の ID。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
       <td>dc.6114.8882972.25272734.492579576</td>
     </tr>
@@ -12942,9 +12947,9 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントからの広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
+        <p>広告の配信元となった広告アカウントにある広告の名前。 これは、Doubleclick Campaign Manager および Facebook（表示）に適用されます。</p>
       </td>
-      <td>Budget Webinar - sidebar</td>
+      <td>予算ウェビナー - サイドバー</td>
     </tr>
     <tr>
       <td>
@@ -12976,10 +12981,10 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの最初の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告のクリエイティブの最初の行。広告が紐付けられた広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
-        <p>Revenue Planning &amp; Attribution</p>
+        <p>収益計画とアトリビューション</p>
       </td>
     </tr>
     <tr>
@@ -12988,7 +12993,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告のクリエイティブの 2 番目の行。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれた、検索広告のクリエイティブの 2 行目。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>Learn why 250+ companies choose [!DNL Marketo Measure] for marketing attribution. Get a demo!</p>
@@ -13000,7 +13005,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告からのクリックスルーで到達するランディングページ。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>検索広告からのクリックスルーで到達するランディングページ。広告の配信元となった広告アカウントから取り込まれます。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>http://info.adobe.com/demo</p>
@@ -13012,7 +13017,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、検索広告に表示されたフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告が解決された広告アカウントから取り込まれ、検索広告に表示されるフレンドリ URL 名。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>adobe.com/demo</p>
@@ -13024,7 +13029,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
+        <p>広告の配信元となった広告アカウントから取り込まれた、有料検索広告で購入したキーワードの ID。 これは、Google AdWords および Bing Ads（検索）に適用されます。</p>
       </td>
       <td>
         <p>aw.6601259029.208548635.16750166675.46267805426</p>
@@ -13036,7 +13041,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       </td>
       <td>varchar</td>
       <td>
-        <p>広告を解決した広告アカウントから取得された、有料検索購入から購入されたキーワードの名前。 これは、Google AdWords および Bing Ads（検索）に適用されます</p>
+        <p>広告が解決された広告アカウントから取り込まれた、有料検索で購入したキーワード名。 これは、Google AdWords および Bing Ads（検索）に適用されます</p>
       </td>
       <td>
         <p>[marketo]</p>
@@ -13076,7 +13081,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
         <p>boolean</p>
       </td>
       <td>
-        <p>このタッチポイントが商談ジャーニーのファーストインプレッションタッチとして扱われるかどうか。</p>
+        <p>この顧客接点が、商談ジャーニーにおける最初の接触（ファーストインプレッション）として扱われるかどうか。</p>
       </td>
       <td>
         <p>false</p>
@@ -13090,7 +13095,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
         <p>boolean</p>
       </td>
       <td>
-        <p>タッチポイントが削除されたかどうか。</p>
+        <p>顧客接点が削除されたかどうか。</p>
       </td>
       <td>
         <p>false</p>
@@ -13272,7 +13277,7 @@ Buyer Touchpoints（リードまたは連絡先に関連付けられたすべて
       <td>varchar</td>
       <td>ページビューの URL（任意のクエリパラメーターを含む）。</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13458,7 +13463,7 @@ order by 1
 
 >[!NOTE]
 >
->このクエリは、w 字モデルの起因する収益を返します。 起因する収益計算のフィールドを更新して、モデルを変更します。
+>このクエリは、W 字型モデルに基づいてアトリビュートされた収益を返します。 アトリビュートされた収益の計算で使用するフィールドを更新して、モデルを変更します。
 
 ```
 select bat.id

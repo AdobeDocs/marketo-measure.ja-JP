@@ -1,44 +1,48 @@
 ---
-description: Marketo Measure ユーザー向けの  [!DNL Marketo Measure] JavaScriptの追加  [!DNL Pardot]  ガイダンス
-title: ' [!DNL Pardot] に  [!DNL Marketo Measure] JavaScriptを追加しています'
+description: Marketo Measure ユーザー向けの[!DNL Pardot] ガイダンスに[!DNL Marketo Measure] JavaScriptを追加しています
+title: '[!DNL Marketo Measure] JavaScriptを[!DNL Pardot]に追加しています'
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '247'
 ht-degree: 2%
-
 ---
+# [!DNL Marketo Measure] JavaScriptを[!DNL Pardot]に追加しています {#adding-marketo-measure-javascript-to-pardot}
 
-# [!DNL Pardot] への [!DNL Marketo Measure] JavaScriptの追加 {#adding-marketo-measure-javascript-to-pardot}
+[!DNL Pardot]個のフォームでは、フォーム送信を認識するために[!DNL Marketo Measure]がサイト上でスクリプトを実行する以外に、フォームテンプレート内での処理が追加される必要があります。 このプロセスは簡単です。[!DNL Marketo Measure] トラッキングスクリプトを[!DNL Pardot] フォームテンプレートに配置するだけで済みます。
 
-[!DNL Pardot] forms では、フォームの送信を認識するためにサイトにスクリプトを配置するだけでなく、フォームテンプレート内で追加の処理を行う必要 [!DNL Marketo Measure] あります。 このプロセスは簡単です。[!DNL Marketo Measure] トラッキングスクリプトを [!DNL Pardot] フォームテンプレートに配置するだけで済みます。
-
-## 詳しい手順 {#step-by-step-instructions}
+## ステップバイステップ方式のチュートリアル {#step-by-step-instructions}
 
 [!DNL Pardot] アカウントにログインしたら、次の手順に従います。
 
-1. **[!UICONTROL マーケティング]** に移動します。
+1. **[!UICONTROL Marketing]**&#x200B;に移動します。
 
 1. 「**[!UICONTROL ランディングページ]**」をクリックします。
 
-1. **[!UICONTROL レイアウトテンプレート]** を選択します。
+1. **[!UICONTROL レイアウトテンプレート]**&#x200B;を選択します。
 
-   ![1. レイアウトテンプレート。](assets/adding-providers-4.png) を選択します。
+   ![1. レイアウト テンプレートを選択します。](assets/adding-providers-4.png)
 
-1. 適切なレイアウトテンプレートを決定し、右側の **[!UICONTROL 編集]** をクリックします。
+1. 適切なレイアウトテンプレートを決定し、右側の&#x200B;**[!UICONTROL 編集]**&#x200B;をクリックします。
 
-   ![1. 適切なレイアウトテンプレートを決定し、「編集」をクリックして &#x200B;](assets/adding-pages-1.png) の操作を行います。
+   ![1. 適切なレイアウトテンプレートを決定し、](assets/adding-pages-1.png)に対して「編集」をクリックします
 
-1. HTML ページの閉じるヘッダータグの直前に [!DNL Marketo Measure] JavaScript コードをコピー&amp;ペーストします。
+1. HTML ページのクローズヘッダータグの直前に[!DNL Marketo Measure] JavaScript コードをコピーして貼り付けます。
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-1. 該当するすべてのランディングページレイアウトテンプレートで、次の手順に従います。
+1. 該当するすべてのランディングページレイアウトテンプレートについて、次の手順に従います。
 
-1. [!DNL Marketo Measure] JavaScriptが一般的なサイトページにも表示されていることを確認します。
+1. [!DNL Marketo Measure] JavaScriptが一般サイトページにも表示されていることを確認します。
 
-   [!DNL Pardot] レイアウトテンプレート内のコードは次のようになります。
+   [!DNL Pardot] レイアウト テンプレート内では、コードは次のようになります。
 
 ```text
 <script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>
@@ -48,14 +52,14 @@ ht-degree: 2%
 
 ## そのほかの備考 {#additional-notes}
 
-[!DNL Pardot] の IFrame に次のHTML タグがある場合：
+[!DNL Pardot] IFrameに次のHTML タグがある場合：
 
 `<base href="http://go.pardot.com">`
 
-_また_ IFrame 自体は実際にはセキュアでない（HTTP）ページではなく、セキュアな（HTTPS）ページです。[!DNL Pardot] IFrame でスクリプトを読み込むと、ブラウザーは HTTPS ページにスクリプトの HTTP バージョンを読み込もうとしますが、失敗し、トラッキングが中断されます。 解決策は、[!DNL Pardot] IFrame 上のスクリプトを更新して、セキュリティで保護されたバージョンのスクリプトを読み込むことです。
+_および_ IFrame自体は、実際には安全でないページ （HTTP）ではなく安全なページ （HTTPS）です。[!DNL Pardot] IFrameでスクリプトを読み込むと、ブラウザーはHTTPS ページにスクリプトのHTTP バージョンを読み込もうとしますが、これは失敗し、トラッキングが失敗します。 解決策は、[!DNL Pardot] IFrameのスクリプトを更新して、スクリプトの安全なバージョンを読み込むことです。
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 
-この領域には、[!DNL Google Analytics] コードなど、既に他のトラッキングコードスニペットが存在する場合があります。 次の例に示すように、セミコロン `;` と 1 つのスペースで区切ってください。
+この領域には、[!DNL Google Analytics] コードなど、他のトラッキングコードスニペットが既に存在する可能性があります。 次の例のように、セミコロン `;`と1つのスペースで区切ってください。
 
 `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="othercode_example" src="otherfile_example.js" ></script>`

@@ -1,20 +1,26 @@
 ---
-description: ' [!DNL Marketo Measure] CRM パッケージ - [!DNL Marketo Measure]のベストプラクティス'
-title: ' [!DNL Marketo Measure] CRM パッケージのベストプラクティス'
+description: '[!DNL Marketo Measure] CRM パッケージのベストプラクティス - [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] CRM パッケージのベストプラクティス'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/E8LQ0-uUC-xqhG9D7CSuprsjkABJ54azWFSEdiuFABk
+TQID: 'https://experienceleague.adobe.com/E8LQ0-uUC-xqhG9D7CSuprsjkABJ54azWFSEdiuFABk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 415
-ht-degree: 8%
-
+source-wordcount: '423'
+ht-degree: 7%
 ---
-
 # [!DNL Marketo Measure] CRM パッケージのベストプラクティス {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
@@ -37,9 +43,9 @@ ht-degree: 8%
 [!DNL Marketo Measure] [!DNL Salesforce] パッケージを実装および管理する際は、次のベストプラクティスを念頭に置いてください。
 
 * 必要なすべてのチームメンバーが[!DNL Marketo Measure] レポートフォルダーにアクセスできることを確認します。 1 ～ 3 [!DNL Marketo Measure]個のフォルダーが必要です（これらは以下で説明します）。 アクセスを開くには、パッケージをインストールしたユーザーが、適切なユーザーまたは役割とレポートフォルダーを共有する必要があります。
-   * **Buyer Touchpoint レポート** – すべてのユーザーが利用できます
-   * **[!DNL Marketo Measure]アカウントベースドマーケティングレポート** - レポートは、階層2以上の顧客にのみ入力されます
-   * **Buyer Touchpoint ダッシュボード** – このパッケージはオプションですが、誰でも利用できます。
+  * **Buyer Touchpoint レポート** – すべてのユーザーが利用できます
+  * **[!DNL Marketo Measure]アカウントベースドマーケティングレポート** - レポートは、階層2以上の顧客にのみ入力されます
+  * **Buyer Touchpoint ダッシュボード** – このパッケージはオプションですが、誰でも利用できます。
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
@@ -60,6 +66,6 @@ CRM パッケージのセットアップは初期実装中に行われますが�
 >[!MORELIKETHIS]
 >
 >* [Buyer Touchpoint パッケージの更新](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] 権限セット &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [&#x200B; レポートとダッシュボード フォルダーの共有](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+>* [[!DNL Marketo Measure] 権限セット ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+>* [ レポートとダッシュボード フォルダーの共有](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 >* [Marketo MeasureをSalesforceに接続](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

@@ -1,21 +1,25 @@
 ---
-description: リードベロシティ ダッシュボード -  [!DNL Marketo Measure]  – 製品
+description: リードベロシティ ダッシュボード - [!DNL Marketo Measure] – 製品
 title: リード速度ダッシュボード
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-TQID: https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s
+TQID: 'https://experienceleague.adobe.com/uuQ2MDoDrYfOEPFs5hNpW6upYZQ3Vs2-4sciJOWV74s'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '364'
 ht-degree: 3%
-
 ---
-
 # リード速度ダッシュボード {#lead-velocity-dashboard}
 
 Velocity ダッシュボードでは、見込み客がSales funnel内を移動するペースを動的に把握できるため、マーケターと営業担当者は、様々なチャネルにわたるコンバージョン時間に関する重要なインサイトを得ることができます。 このツールは、リードコンバージョンの期間と、セールスステージを通じた進行の効率性に関する重要な質問に答え、成長とコンバージョンを加速させるためのエンゲージメント戦略を最適化するのに非常に役立ちます。
@@ -72,7 +76,7 @@ Velocity ダッシュボードでは、見込み客がSales funnel内を移動�
 このダッシュボードには、次の設定とフィルターが用意されています。
 
 * 日付
-   * 基準：日付の遷移
+  * 基準：日付の遷移
 * ステージ
 * チャネル
 * サブチャネル

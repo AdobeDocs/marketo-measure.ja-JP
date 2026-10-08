@@ -1,15 +1,19 @@
 ---
-description: '[!DNL Marketo Measure] 101 レポートの概要 –  [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] 101 レポートの概要 – [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] 101 レポートの概要'
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '949'
 ht-degree: 5%
-
 ---
-
 # [!DNL Marketo Measure] 101 レポートの概要 {#marketo-measure-101-reports-overview}
 
 >[!NOTE]
@@ -26,7 +30,7 @@ ht-degree: 5%
 * バイヤーのタッチポイントを持つ[!DNL Marketo Measure]人
 * Buyer Attribution Touchpoints with Opportunities
 
-![商談を含むバイヤーアトリビューションのタッチポイント &#x200B;](assets/bizible-guide-2.png)
+![商談を含むバイヤーアトリビューションのタッチポイント ](assets/bizible-guide-2.png)
 
 これらのレポートには、作成する[!DNL Marketo Measure]関連レポートに必要な基本的なフィールドとインフラストラクチャが表示されます。 新旧を問わず、あらゆる顧客がマーケティングアトリビューションに関する疑問を探る際には、これらのレポートから始めることを推奨します。 以下に、6つの「_[!DNL Marketo Measure]101..._」レポートの各説明を示します。
 
@@ -55,4 +59,4 @@ _購入者のタッチポイント レポート フォルダーまたはその�
 
 「Buyer Touchpoint レポート」フォルダーは、[!DNL Marketo Measure] レポートの作成に役立つように設計されています。実用的なレポートの場合は、レポートのニーズに合わせてカスタマイズするように、これらのレポートをカスタマイズする必要があります。 レポート内のレコード（および関連するタッチポイント）がレポート目標に沿っていることを確認するために、必要なフィルターを追加する必要があります。
 
-「_[!DNL Marketo Measure]101..._」レポートに詳しい場合は、カスタムレポートタイプからレポートを再作成して、より多くのカスタムレポートのニーズに対応させることもできます。 [[!DNL Marketo Measure]  カスタムレポートタイプ &#x200B;](/help/marketo-measure-salesforce-reporting/creating-report-types.md)を作成すると、他のCRM レポートで一般的に使用するカスタムフィールドを取り込むことができます。 これにより、[!DNL Marketo Measure] レポートを次のレベルに引き上げることができます。
+「_[!DNL Marketo Measure]101..._」レポートに詳しい場合は、カスタムレポートタイプからレポートを再作成して、より多くのカスタムレポートのニーズに対応させることもできます。 [[!DNL Marketo Measure]  カスタムレポートタイプ ](/help/marketo-measure-salesforce-reporting/creating-report-types.md)を作成すると、他のCRM レポートで一般的に使用するカスタムフィールドを取り込むことができます。 これにより、[!DNL Marketo Measure] レポートを次のレベルに引き上げることができます。

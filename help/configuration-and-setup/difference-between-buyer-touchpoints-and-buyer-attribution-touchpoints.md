@@ -1,22 +1,26 @@
 ---
-description: Marketo Measure ユーザー向けのバイヤータッチポイントとバイヤ属性タッチポイントの違い
+description: Marketo Measureユーザー向けのBuyer TouchpointsとBuyer Attribution Touchpointsのガイダンスの違い
 title: Buyer Touchpoints と Buyer Attribution Touchpoints の違い
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 92%
-
 ---
-
-# Buyer Touchpoints と Buyer Attribution Touchpoints の違い {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
+# Buyer Touchpoint と Buyer Attribution Touchpoint の違い&#x200B; {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
 Buyer Touchpoint（BT）と Buyer Attribution Touchpoint（BAT）の定義、両者の違い、よくある質問について説明します。
 
-Buyer Touchpoints と Buyer Attribution Touchpoints を区別する主なものは、[!DNL Salesforce] オブジェクトとの関係です。 BT は、リード、連絡先および事例オブジェクトに関連しますが、商談オブジェクトには関連しません。 つまり、Buyer Touchpoints に関連付けられた収益はありません。
+Buyer Touchpoints と Buyer Attribution Touchpoints を区別する主なものは、[!DNL Salesforce] オブジェクトとの関係です。 BT は、リード、連絡先および事例オブジェクトに関連しますが、商談オブジェクトには関連しません。 つまり、Buyer Touchpoint に関連付けられた収益はありません。
 
-Buyer Attribution Touchpoint オブジェクトは、取引先責任者、アカウント、商談の各オブジェクトに関連していますが、リードオブジェクトには関連していません。Buyer Attribution Touchpoints はリードに関連付けられていません。 BAT オブジェクトは、特定のマーケティングインタラクションに関連付けられた収益を確認する場所です。
+Buyer Attribution Touchpoint オブジェクトは、取引先責任者、アカウント、商談の各オブジェクトに関連していますが、リードオブジェクトには関連していません。Buyer Attribution Touchpoint はリードに関連付けられていません。 BAT オブジェクトは、特定のマーケティングインタラクションに関連付けられた収益を確認する場所です。
 
 BT と BAT の違い：
 
@@ -28,20 +32,20 @@ BT と BAT の違い：
  <tbody>
   <tr>
    <td>Buyer Touchpoint（BT）</td>
-   <td>Buyer Attribution Touchpoint（BAT）</td>
+   <td>Buyer Attribution Touchpoint（BAT）​</td>
   </tr>
   <tr>
    <td>
     <ul>
      <li>リード、連絡先、事例オブジェクトに関連する</li>
      <li>商談オブジェクトに関連しない</li>
-     <li>収益は Buyer Touchpoint には関連付けられない</li>
+     <li>収益は Buyer Touchpoint には関連付けられない​</li>
     </ul></td>
    <td>
     <ul>
      <li>連絡先、アカウント、商談オブジェクトに関連する</li>
      <li>リードオブジェクトに関連しない</li>
-     <li>Buyer Attribution Touchpoint は、商談に関連付けられているので、すべての BAT には、それらに関連付けられた収益がある</li>
+     <li>Buyer Attribution Touchpoint（BAT）は商談に関連付けられているので、すべての BAT には収益が関連付けられています。</li>
     </ul></td>
   </tr>
  </tbody>
@@ -55,7 +59,7 @@ BT は、関連した商談を含む連絡先にこの BT が関連付けられ�
 
 **Buyer Touchpoint は、Touchpoint の位置として商談作成（OC）を取ることはできますか？**
 
-Buyer Touchpoint は、Touchpoint の位置として、ファーストタッチ（FT）、リード作成（LC）またはフォーム申請（中間のタッチポイント）のいずれかのみを取ることができます。 BT は、商談に関連しないので、BT が Touchpoint の位置として商談作成やクローズを取ることはできません。
+Buyer Touchpoint は、Touchpoint の位置として、ファーストタッチ（FT）、リード作成（LC）またはフォーム申請（中間のタッチポイント）のいずれかのみを取ることができます。 BT は商談に関連しないので、BT が顧客接点のポジションとして商談作成やクローズを取ることはできません。
 
 **Buyer Touchpoint データはどのように使用されますか？**
 
@@ -65,10 +69,10 @@ Buyer Touchpoint は、Touchpoint の位置として、ファーストタッチ�
 
 以下に、[!DNL Salesforce] での BT のスクリーンショットを示します。
 
-![&#x200B; 以下は、SalesforceのBTのスクリーンショットです。](assets/adobe-setup-1.png)
+![これはSalesforceのBTのスクリーンショットです：](assets/adobe-setup-1.png)
 
 **Buyer Attribution Touchpoint は、Salesforce ではどのように見えますか？**
 
 以下に、[!DNL Salesforce] での BAT のスクリーンショットを示します。
 
-![&#x200B; 以下は、SalesforceのBATのスクリーンショットです。](assets/adobe-setup-2.png)
+![これはSalesforceのBATのスクリーンショットです：](assets/adobe-setup-2.png)

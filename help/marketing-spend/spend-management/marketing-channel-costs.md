@@ -1,23 +1,28 @@
 ---
 unique-page-id: 18874602
-description: マーケティングチャネルのコスト -  [!DNL Marketo Measure]
+description: マーケティングチャネルのコスト - [!DNL Marketo Measure]
 title: マーケティングチャネルのコスト設定
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-TQID: https://experienceleague.adobe.com/Mjpr4y4vxdeefsbULVxjk3Gf6jdy7Q2ST70gg73dfqk
+TQID: 'https://experienceleague.adobe.com/Mjpr4y4vxdeefsbULVxjk3Gf6jdy7Q2ST70gg73dfqk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1295
+source-wordcount: '1295'
 ht-degree: 1%
-
 ---
-
 # マーケティングチャネルのコスト設定 {#marketing-channel-costs}
 
 [!DNL Marketo Measure]を使用する最も基本的な利点の1つは、マーケティング活動を収益への影響に直接結び付けることができ、必要に応じて細分化することができます。 タッチポイントレベルで投資収益率を確認することができます。 このメリットを活用するには、チャネルコストを[!DNL Marketo Measure] アプリにアップロードする必要があります。 ROI レポートは自動的に作成され、[experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}の&#x200B;**マーケティング ROI ダッシュボード**&#x200B;で利用できます。
@@ -78,7 +83,7 @@ ht-degree: 1%
 
 ## マーケティングコストのアップロード {#uploading-marketing-costs}
 
-マーケティングチャネルとルールを設定または更新したら、関連するコストをアップロードします。 これを行うには、以下の手順に従います。
+マーケティングチャネルとルールを設定または更新したら、関連するコストをアップロードします。 これを行うには、以下の手順をフォローします。
 
 **手順1: [!DNL Marketo Measure] アプリのマーケティング支出ページに移動します。**
 
@@ -88,7 +93,7 @@ ht-degree: 1%
 
 **手順2：現在のコスト CSV**&#x200B;をダウンロード
 
-画面の右側に移動し、**[!UICONTROL 現在のコストのダウンロード &#x200B;].**&#x200B;をクリックします このオプションを使用すると、スプレッドシートをCSV形式でダウンロードできます。
+画面の右側に移動し、**[!UICONTROL 現在のコストのダウンロード ].**&#x200B;をクリックします このオプションを使用すると、スプレッドシートをCSV形式でダウンロードできます。
 
 ![](assets/2.png)
 

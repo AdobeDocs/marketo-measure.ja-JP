@@ -1,31 +1,38 @@
 ---
-description: Marketo Measure ユーザー向けの不要なレポートタイプの非表示に関するガイダンス
+description: Marketo Measure ユーザーに対する不要なレポートタイプのガイダンスの非表示
 title: 不要なレポートタイプの非表示
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 5%
-
 ---
-
 # 不要なレポートタイプの非表示 {#hiding-unnecessary-report-types}
 
-インストールを完了してレポートの使用を開始した後は、[!DNL Marketo Measure] パッケージに含まれているすべてのレポートが組織で使用されるわけではありません。 したがって、混乱を排除し、見た目を美しくするために、使用していないレポートタイプを非表示にすると便利です。 任意のレポートを非表示にすることができますが、以下の画像で識別されるレポートは通常、非表示になっています。
+インストールを完了してレポートの使用を開始すると、[!DNL Marketo Measure] パッケージに含まれるすべてのレポートが組織で使用されるわけではありません。 したがって、使用していないレポートタイプを非表示にすることで、混乱を排除し、よりクリーンな外観を実現できます。 任意のレポートを非表示にできますが、下の画像で特定されたレポートは通常、非表示になります。
 
 1. 「**[!UICONTROL レポート]**」タブに移動します。
 
-1. 画面上部の **[!UICONTROL 新規レポートを作成]** ボタンをクリックします。
+1. 画面上部の「**[!UICONTROL 新しいレポートを作成]**」ボタンをクリックします。
 
 1. 「タッチポイント」という単語を入力して、レポートに入力します。
 
-1. 左上の **[!UICONTROL 非表示にするレポートタイプを選択]** チェックボックスを選択します。
+1. 左上の「**[!UICONTROL レポートタイプを選択して非表示にする]**」チェックボックスを選択します。
 
-1. 以下にオレンジ色の「X」が付いたマークが付いているレポートをクリックすると、レポートリストが以下の画像と同じになります。
+1. 下図のオレンジ色のXで示されているレポートをクリックして、レポートリストを下図の画像と同じように表示します。
 
-   ![1. 以下にオレンジ色の「X」が付いているレポートをクリックしてください &#x200B;](assets/bizible-full-1.png)
+   ![1. オレンジ色のXが付いた下のレポートをクリックして、](assets/bizible-full-1.png)を作成します
 
 >[!MORELIKETHIS]
 >
->[Salesforce – 未使用のレポートタイプを非表示にする &#x200B;](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)
+>[Salesforce – 未使用のレポートタイプを非表示](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

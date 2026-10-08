@@ -1,133 +1,140 @@
 ---
-description: Marketo Measure ユーザー向けの Dynamics CRM 用 OAuth [!DNL Azure Active Directory]  のガイダンス
-title: Dynamics CRM 用  [!DNL Azure Active Directory] OAuth
+description: Marketo Measure ユーザー向けのDynamics CRM ガイダンス用[!DNL Azure Active Directory]のOAuth
+title: Dynamics CRM用[!DNL Azure Active Directory]のOAuth
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '970'
 ht-degree: 1%
-
 ---
+# Dynamics CRM用[!DNL Azure Active Directory]のOAuth {#oauth-with-azure-active-directory-for-dynamics-crm}
 
-# Dynamics CRM 用 [!DNL Azure Active Directory] での OAuth {#oauth-with-azure-active-directory-for-dynamics-crm}
+## 影響するユーザー {#who-s-affected}
 
-## 影響の対象 {#who-s-affected}
-
-この設定は、[!DNL Azure Active Directory] （AAD） アカウントで Dynamics CRM を使用している新規の [!DNL Marketo Measure] 顧客、または従来のユーザー名とパスワードから OAuth を使用する [!DNL Azure Active Directory] に移行する顧客を対象としています。
+この設定は、[!DNL Azure Active Directory] （AAD） アカウントでDynamics CRMを使用している新規[!DNL Marketo Measure]のお客様、またはOAuthを使用して従来のユーザー名とパスワードから[!DNL Azure Active Directory]に移行するお客様を対象としています。
 
 >[!NOTE]
 >
->これらの両方のシナリオで、AAD はここで、[!DNL Marketo Measure] as a データプロバイダーへの Dynamics インスタンスの接続を容易にするように設定されています。
+>これらの両方のシナリオで、AADは[!DNL Marketo Measure]のDynamics インスタンスをデータプロバイダーとして簡単に接続できるように、ここに設定されています。
 
 ## 新しいアプリケーションの設定 {#set-up-new-application}
 
-1. [Azure ポータル &#x200B;](https://portal.azure.com/#home) にサインインします。
+1. [Azure ポータル ](https://portal.azure.com/#home)にログインします。
 
-1. ページ右上隅のアカウントをクリックしてAzure AD テナントを選択し、「ディレクトリの切り替え」ナビゲーションをクリックして、適切なテナントを選択します。 アカウントにAzure AD テナントが 1 つしかない場合や、適切なAzure AD テナントを既に選択している場合は、この手順をスキップしてください。
+1. ページの右上隅にあるアカウントをクリックし、「ディレクトリを切り替え」ナビゲーションをクリックして適切なテナントを選択し、Azure AD テナントを選択します。 アカウントにAzure AD テナントが1つしかない場合や、適切なAzure AD テナントを既に選択している場合は、この手順をスキップしてください。
 
-   ![1. &#x200B;](assets/bizible-taxonomy-1.png) のアカウントをクリックして、Azure AD テナントを選択します。
+   ![1. ](assets/bizible-taxonomy-1.png)でアカウントをクリックして、Azure AD テナントを選択します
 
 1. 検索バーで「[!DNL Azure Active Directory]」を検索し、名前をクリックして開きます。
 
-   ![1. 検索バーで「Azure Active Directory」を検索し、](assets/microsoft-guide-1.png) の操作を行います。
+   ![1. 検索バーで「Azure Active Directory」を検索し、](assets/microsoft-guide-1.png)
 
-1. 左側のメニューで **[!UICONTROL アプリ登録]** をクリックします。
+1. 左側のメニューで「**[!UICONTROL アプリ登録]**」をクリックします。
 
    ![1. 左側のメニューで「アプリ登録」をクリックします。](assets/microsoft-guide-2.png)
 
-1. 上部の **[!UICONTROL 新規登録]** をクリックします。
+1. 上部の「**[!UICONTROL 新規登録]**」をクリックします。
 
    ![1. 上部の「新規登録」をクリックします。](assets/microsoft-guide-3.png)
 
-1. プロンプトに従って、アプリケーションを作成します。 Web アプリケーションかパブリッククライアント（モバイルおよびデスクトップ）アプリケーションかに関係なく、Web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例が必要な場合は、[&#x200B; クイックスタート &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview) を確認してください。
+1. プロンプトに従ってアプリケーションを作成します。 Web アプリケーションまたはパブリッククライアント（モバイルおよびデスクトップ）アプリケーションのいずれであっても、web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例については、[ クイックスタート ](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview)を参照してください。
 a. 「名前」はアプリケーション名で、エンドユーザーに対するアプリケーションを説明します。
-b. 「サポートされているアカウントの種類」で、任意の組織ディレクトリの「アカウント」と個人用のMicrosoft アカウントを選択します。
-c. リダイレクト URI を指定します。 Web アプリケーションの場合、これは、ユーザーがログインできるアプリのベース URL です。 たとえば、`http://localhost:12345` のように設定します。 パブリッククライアント（モバイルおよびデスクトップ）の場合、Azure AD はこれを使用してトークン応答を返します。 アプリケーションに固有の値を入力します。 例：`http://MyFirstAADApp`。
+b. 「サポートされているアカウントタイプ」で、「任意の組織ディレクトリのアカウント」および「個人のMicrosoft アカウント」を選択します。
+c. リダイレクト URIを指定します。 Web アプリケーションの場合、これはユーザーがログインできるアプリのベース URLです。 たとえば、`http://localhost:12345` のように設定します。 パブリッククライアント（モバイルおよびデスクトップ）の場合、Azure ADはそれを使用してトークン応答を返します。 アプリケーションに固有の値を入力します。 例：`http://MyFirstAADApp`。
 
-1. 登録が完了すると、Azure AD はアプリケーションに一意のクライアント ID （アプリケーション ID）を割り当てます。 この値は次のセクションで必要になるので、アプリケーションページからコピーします。
+1. 登録が完了すると、Azure ADは一意のクライアント ID （アプリケーション ID）をアプリケーションに割り当てます。 次のセクションでこの値が必要なので、アプリケーションページからコピーします。
 
-1. Azure ポータルでアプリを検索するには、「**[!UICONTROL アプリ登録]**」をクリックし、「**[!UICONTROL すべてのアプリ]**」をクリックします。 新しく作成したアプリケーションを開きます。
+1. Azure ポータルでアプリケーションを検索するには、**[!UICONTROL アプリケーション登録]**&#x200B;をクリックし、**[!UICONTROL すべてのアプリケーション]**&#x200B;をクリックします。 新しく作成したアプリケーションを開く
 
-1. 左側のメニューで **[!UICONTROL 認証]** をクリックします。
+1. 左側のメニューで「**[!UICONTROL 認証]**」をクリックします。
 
    ![1. 左側のメニューで「認証」をクリックします。](assets/microsoft-guide-4.png)
 
-1. リダイレクト URL のリストに [!DNL Marketo Measure] リダイレクト URL `https://apps.bizible.com/OAuth2` および `https://apps.bizible.com/OAuth2?identityOnly=true` を追加します。
+1. [!DNL Marketo Measure]個のリダイレクト URL: `https://apps.bizible.com/OAuth2`と`https://apps.bizible.com/OAuth2?identityOnly=true`をリダイレクト URLのリストに追加します。
 
-   ![1. Marketo Measureのリダイレクト URL （https://apps.bizible.com/OAuth2およびhttps://apps.bizible.com/OAuth2?identityOnly=true）を &#x200B;](assets/microsoft-guide-5.png) に追加します。
+   ![1. Marketo Measure リダイレクト URL （https://apps.bizible.com/OAuth2およびhttps://apps.bizible.com/OAuth2?identityOnly=true）を](assets/microsoft-guide-5.png)に追加します。
 
-1. 「API 権限」タブに移動し、アプリケーションに正しい権限が割り当てられていることを確認します。
+1. 「API権限」タブに移動し、正しい権限がアプリケーションに割り当てられていることを確認します。
 
-   ![1. 「API 権限」タブに移動し、](assets/microsoft-guide-6.png) のことを確認します。
+   ![1. 「API権限」タブに移動し、](assets/microsoft-guide-6.png)
 
-1. ここから、検索ボックスに「[!UICONTROL enterprise]」と入力し、「エンタープライズアプリケーション **[!UICONTROL をクリック]** ます。
+1. ここから、検索ボックスに「[!UICONTROL enterprise]」と入力し、**[!UICONTROL Enterprise Applications]**&#x200B;をクリックします。
 
-   ![1. ここから、検索ボックスに「enterprise」と入力して、](assets/microsoft-guide-7.png) をクリックします。
+   ![1. ここから、検索ボックスに「enterprise」と入力し、](assets/microsoft-guide-7.png)をクリックします
 
-1. 再度、アプリケーションのリストから新しいアプリケーションを見つけて開きます。
+1. アプリケーションのリストから、新しいアプリケーションを検索して開きます。
 
-1. 「権限」タブで、「**[!UICONTROL （インスタンス名）の管理者の同意を付与]**」をクリックします。
+1. 「権限」タブで、「**[!UICONTROL 管理者の同意を付与（インスタンス名）]**」をクリックします。
 
-   ![1. 「権限」タブで、「（インスタンス &#x200B;](assets/microsoft-guide-8.png) の管理者の同意を付与」をクリックします
+   ![1. 「権限」タブで、「管理者の同意を付与」をクリックします（インスタンス ](assets/microsoft-guide-8.png)
 
 1. 「**[!UICONTROL 確定]**」をクリックします。
 
-   ![1. Accept.](assets/microsoft-guide-9.png) をクリックします
+   ![1. 「同意する」をクリックします。](assets/microsoft-guide-9.png)
 
-1. 「[!UICONTROL &#x200B; ユーザーとグループ &#x200B;]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
+1. 「[!UICONTROL  ユーザーとグループ ]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
 
-   ![1. 「ユーザーとグループ」タブから、](assets/microsoft-guide-10.png) のことを確認します。
+   ![1. 「ユーザーとグループ」タブで、](assets/microsoft-guide-10.png)が正しいかどうかを確認します。
 
 ## アプリケーションユーザーの作成 {#creating-an-application-user}
 
-アプリケーションの登録が完了したら、アプリケーションユーザーを作成できます。
+アプリケーション登録が完了したら、アプリケーションユーザーを作成できます。
 
-1. 共通データサービス環境（`https://[org].crm.dynamics.com`）に移動します。
+1. Common Data Service環境（`https://[org].crm.dynamics.com`）に移動します。
 
-1. **[!UICONTROL 設定]**/**[!UICONTROL セキュリティ]**/**[!UICONTROL ユーザー]** に移動します。
+1. **[!UICONTROL 設定]** > **[!UICONTROL セキュリティ]** > **[!UICONTROL ユーザー]**&#x200B;に移動します。
 
-1. 表示フィルターで「**[!UICONTROL アプリケーションユーザー]**」を選択します。
+1. ビューフィルターで「**[!UICONTROL アプリケーションユーザー]**」を選択します。
 
-1. 「**[!UICONTROL +新規]**」を選択します。
+1. **[!UICONTROL +新規]**&#x200B;を選択します。
 
-1. アプリケーションユーザーフォームで、必要な情報を入力します。
+1. アプリケーションユーザーフォームに、必要な情報を入力します。
 
    >[!NOTE]
    >
-   >* ユーザー名情報は、[!DNL Azure Active Directory] に存在するユーザーと一致しないでください。
+   >* ユーザー名の情報は、[!DNL Azure Active Directory]に存在するユーザーと一致することはできません。
    >
-   >* 「アプリケーション ID」フィールドに、Azure AD で以前に登録したアプリのアプリケーション ID を入力します。
+   >* 「アプリケーション ID」フィールドに、以前にAzure ADに登録したアプリケーションのアプリケーション IDを入力します。
 
-1. 設定が正しい場合は、「**[!UICONTROL 保存]**」を選択すると、「**[!UICONTROL アプリケーション ID URI]** および **[!UICONTROL Azure AD オブジェクト ID]** フィールドに正しい値が自動入力されます。
+1. 設定が正しい場合は、**[!UICONTROL Save]**&#x200B;を選択した後、**[!UICONTROL アプリケーション ID URI]**&#x200B;および&#x200B;**[!UICONTROL Azure AD オブジェクト ID]** フィールドに正しい値が自動入力されます。
 
-1. ユーザーフォームを終了する前に、「**[!UICONTROL 役割の管理]**」を選択し、このアプリケーションユーザーにセキュリティーロールを割り当てて、アプリケーションユーザーが目的の組織データにアクセスできるようにします。
+1. ユーザーフォームを終了する前に、**[!UICONTROL 役割の管理]**&#x200B;を選択し、アプリケーション ユーザーが目的の組織データにアクセスできるように、このアプリケーション ユーザーにセキュリティ役割を割り当てます。
 
-## OAuth 経由での Dynamics インスタンスの接続 {#connecting-your-dynamics-instance-via-oAuth}
+## OAuthを介したDynamics インスタンスの接続 {#connecting-your-dynamics-instance-via-oAuth}
 
-1. Dynamics 接続を初めて設定する場合は、[&#x200B; この記事 &#x200B;](/help/microsoft-dynamics-crm-installation-guide.md) の「データプロバイダーとしての CRM」の節の手順 1～5 に従ってください。
+1. Dynamics接続を初めて設定する場合は、[この記事](/help/microsoft-dynamics-crm-installation-guide.md)の「CRM as a Data Provider」セクションの手順1 ～ 5に従ってください。
 
-1. OAuth 資格情報の入力画面が表示されたら、前述の節で設定したクライアント ID、クライアント秘密鍵、アプリケーション ID URI を入力します。
+1. OAuth資格情報の入力を求められたら、上記のセクションで設定したクライアント ID、クライアント秘密鍵、およびアプリケーション ID URIを入力します。
 
-a. クライアント ID は、上記の節の手順#7 の ID です。 書き留めていない場合は、アプリ登録の設定にアプリケーション ID が表示されます。
+a. クライアント IDは、上記のセクションのステップ #7のIDです。 書き留めなかった場合は、アプリ登録の「設定」にアプリ IDが表示されます。
 
-b. クライアント秘密鍵は、アプリケーション用にAzure ポータルの「証明書と秘密鍵」の下に作成されたアプリケーション秘密鍵です。
+b. Client Secretは、証明書とシークレットの下のアプリケーション用にAzure ポータルで作成されたアプリケーションのシークレットです。
 
-![b. クライアント秘密鍵は、Azure ポータルで作成されたアプリケーション秘密鍵で &#x200B;](assets/microsoft-guide-11.png)。
+![b. クライアント秘密鍵は、Azure ポータル ](assets/microsoft-guide-11.png)で作成されたアプリケーション秘密鍵です
 
-c. アプリケーション ID URI は、ターゲット web API （保護されたリソース）の URL です。 アプリ ID の URL を確認するには、Azure ポータルで [[!DNL Azure Active Directory]] をクリックし、[ アプリケーション登録 ] をクリックします。次に、アプリケーションの [ 設定 ] ページを開き、[ プロパティ ] をクリックします。 また、`https://graph.microsoft.com` のような外部リソースである場合もあります。 これは、通常、Dynamics インスタンスの URL です。
+c. アプリケーション ID URIは、ターゲット Web API （セキュアリソース）のURLです。 アプリ IDのURLを見つけるには、Azure ポータルで「[!DNL Azure Active Directory]」をクリックし、「Application registrations」をクリックして、アプリケーションの「Settings」ページを開き、「Properties」をクリックします。 `https://graph.microsoft.com`のような外部リソースを使用することもできます。 これは通常、Dynamics インスタンスのURLです。
 
-1. **[!UICONTROL 送信]** をクリックすると、[!DNL Azure Active Directory] でサインインするように求められます。 認証が成功すると、Dynamics アカウントは [!DNL Marketo Measure] 内のデータプロバイダーとして接続されます。
+1. **[!UICONTROL 送信]**&#x200B;をクリックすると、[!DNL Azure Active Directory]でログインするよう求められます。 認証が成功すると、Dynamics アカウントは[!DNL Marketo Measure]内のデータ プロバイダーとして接続されます。
 
 ## Dynamics アカウントの再認証 {#re-authenticating-your-dynamics-account}
 
-1. [!DNL Marketo Measure] アプリケーションで、**[!UICONTROL マイ設定]**/**[!UICONTROL 設定]**/**[!UICONTROL 接続]** に移動します。
+1. [!DNL Marketo Measure] アプリケーションを使用している場合は、**[!UICONTROL My Settings]** > **[!UICONTROL Settings]** > **[!UICONTROL Connections]**&#x200B;に移動します。
 
-1. Dynamics 接続の横にある「CRM」セクションのキーアイコンをクリックします。
+1. Dynamics接続の横にあるCRM セクションのキーアイコンをクリックします。
 
-1. キーをクリックすると、ポップアップが表示され、サインアップフローと同様に、クライアント ID、クライアントの秘密鍵、アプリケーション ID URI を入力するよう求められます。
+1. キーをクリックすると、ポップアップが表示され、サインアップフローと同様に、クライアント ID、クライアント秘密鍵、およびアプリケーション ID URIを入力するように求められます。
 
-   ![1. キーをクリックすると、ポップアップが表示され、](assets/microsoft-guide-12.png) の操作を実行できます。
+   ![1. キーをクリックすると、ポップアップが表示され、あなたは](assets/microsoft-guide-12.png)になります
 
-1. **[!UICONTROL 送信]** をクリックすると、[!DNL Azure Active Directory] でサインインするように求められます。 認証に成功すると、[!DNL Marketo Measure] 内で Dynamics アカウントが再認証されます。
+1. **[!UICONTROL 送信]**&#x200B;をクリックすると、[!DNL Azure Active Directory]でログインするよう求められます。 認証が成功すると、Dynamics アカウントは[!DNL Marketo Measure]内で再認証されます。
