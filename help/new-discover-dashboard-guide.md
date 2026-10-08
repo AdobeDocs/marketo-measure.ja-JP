@@ -501,7 +501,7 @@ Discover ダッシュボードのリニューアルをご紹介できること�
 
 ## 新しい追加と機能強化 {#new-additions-and-improvements}
 
-新機能については、[ ダッシュボードの基本を見つける](/help/discover-dashboard-basics.md){target="_blank"}記事を参照してください。
+新機能については、[&#x200B; ダッシュボードの基本を見つける](/help/discover-dashboard-basics.md){target="_blank"}記事を参照してください。
 
 ## フィードバック {#feedback}
 
@@ -510,5 +510,5 @@ Discover ダッシュボードのリニューアルをご紹介できること�
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータの可視化ポリシー](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータの可視化ポリシー](/help/dashboard-data-visibility-policy.md){target="_blank"}
 

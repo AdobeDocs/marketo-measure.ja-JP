@@ -51,10 +51,10 @@ ht-degree: 98%
 
 >[!MORELIKETHIS]
 >
->* [ [!DNL Marketo Measure]  チャネル／サブチャネルへのオンラインタッチポイントのマッピング](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+>* [&#x200B; [!DNL Marketo Measure]  チャネル／サブチャネルへのオンラインタッチポイントのマッピング](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 >* [SFDC 内からの CRM キャンペーンの同期](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
->* [ [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 内からの CRM キャンペーンの同期
->* [ [!DNL Marketo Measure]  チャネル／サブチャネルへの CRM キャンペーンのマッピング](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
+>* [&#x200B; [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) 内からの CRM キャンペーンの同期
+>* [&#x200B; [!DNL Marketo Measure]  チャネル／サブチャネルへの CRM キャンペーンのマッピング](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [セールスアクティビティからのタッチポイントの作成](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [アクティビティにに関する FAQ と、チャネル／サブチャネルへのアクティビティのタッチポイントのマッピング](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
 

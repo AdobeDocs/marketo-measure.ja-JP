@@ -20,11 +20,11 @@ ht-degree: 0%
 
 Sitecore ページを含むサイトの場合：
 
-1. Sitecoreにログインし、web サイトに移動します。 [!UICONTROL  ホーム ]項目および[!UICONTROL  メタデータ ] フォルダーと同じレベルにある[!UICONTROL 構成] フォルダーを探します。
+1. Sitecoreにログインし、web サイトに移動します。 [!UICONTROL &#x200B; ホーム &#x200B;]項目および[!UICONTROL &#x200B; メタデータ &#x200B;] フォルダーと同じレベルにある[!UICONTROL 構成] フォルダーを探します。
 1. [!UICONTROL Configuration] フォルダーの横にある&#x200B;**[!UICONTROL +]**&#x200B;をクリックします。
-1. [!UICONTROL  ツール ] フォルダーの横にある&#x200B;**[!UICONTROL +]**&#x200B;をクリックします。
+1. [!UICONTROL &#x200B; ツール &#x200B;] フォルダーの横にある&#x200B;**[!UICONTROL +]**&#x200B;をクリックします。
 1. [!UICONTROL Javascript]項目を選択します。
-1. 「[!UICONTROL  コンテンツ ]」タブで、「**[!UICONTROL ロックして編集]**」リンクをクリックして、編集用のアイテムのロックを解除します。
+1. 「[!UICONTROL &#x200B; コンテンツ &#x200B;]」タブで、「**[!UICONTROL ロックして編集]**」リンクをクリックして、編集用のアイテムのロックを解除します。
 1. 「[!UICONTROL &#39;JavaScript&#39;]」セクションを検索します。 まだ展開されていない場合は、**[!UICONTROL +]**&#x200B;をクリックします。
 1. 次のスクリプトを入力してください：`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js"async=""></script>`
 1. 左上隅の「**[!UICONTROL 保存]**」をクリックします。

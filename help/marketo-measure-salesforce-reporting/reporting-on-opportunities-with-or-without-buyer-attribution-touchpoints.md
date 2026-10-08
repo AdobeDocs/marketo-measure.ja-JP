@@ -38,9 +38,9 @@ ht-degree: 24%
 
    * レポートタイプラベルに「バイヤーアトリビューションの有無に関わらず、商談」という名前を付けます。
    * レポートタイプ名には、同じ名前を使用します。 説明入力内の「バイヤーアトリビューションタッチポイントの有無に関わらず商談」を選択します。
-   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ ]」に設定します。
+   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ &#x200B;]」に設定します。
 
-   ![ レポートを「その他」に保存し、レポートを](assets/bizible-guide-3.png)に設定します
+   ![&#x200B; レポートを「その他」に保存し、レポートを](assets/bizible-guide-3.png)に設定します
 
 1. そこから、商談オブジェクトをBuyer Attribution Touchpoints オブジェクトにリンクします。 「&#39;A&#39; レコードに関連する&#39;B&#39; レコードがある場合とない場合がある」ボタンを選択していることを確認します。 終了したら「**[!UICONTROL 保存]**」をクリックします。
 
@@ -48,4 +48,4 @@ ht-degree: 24%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

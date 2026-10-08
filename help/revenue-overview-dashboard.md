@@ -55,7 +55,7 @@ ht-degree: 2%
 
 * 昨年のマーケティング活動に起因する収益カバー率を教えてください。
 
-![ マーケティング活動に起因する売上カバー率を教えてください](assets/revenue-dashboard-2.png)
+![&#x200B; マーケティング活動に起因する売上カバー率を教えてください](assets/revenue-dashboard-2.png)
 
 ## フィルターパネル {#filter-pane}
 
@@ -66,4 +66,4 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータの可視化ポリシー](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータの可視化ポリシー](/help/dashboard-data-visibility-policy.md){target="_blank"}

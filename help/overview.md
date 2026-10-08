@@ -49,7 +49,7 @@ ht-degree: 88%
 
 マーケターは、AEP を通じて B2B データ（アカウント、商談、取引先責任者、リード、キャンペーン、キャンペーンメンバー、アクティビティなど）を取り込む必要があります。 CRM および Marketo Engage の直接接続は、Ultimate には使用できなくなりました。 マーケターは、引き続き、直接接続を通じて広告プラットフォームデータを取り込み、[!DNL Marketo Measure] JavaScript を通じて web アクティビティをトラッキングします。
 
-![ マーケターは、B2B データ （アカウント、商談、](assets/marketo-overview-2.png)など）を持ち込むことが期待されています
+![&#x200B; マーケターは、B2B データ （アカウント、商談、](assets/marketo-overview-2.png)など）を持ち込むことが期待されています
 
 **デフォルトの通貨設定**
 
@@ -65,11 +65,11 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 >
 >[!DNL Marketo Measure Ultimate] 本番稼働インスタンスは AEP 本番稼働用サンドボックスにマッピングする必要があり、[!DNL Marketo Measure Ultimate] 開発者インスタンスは AEP 開発者サンドボックスにマッピングする必要があります。
 
-サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。 これを変更するには、[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+サンドボックスへのマッピングの選択を保存すると、アプリケーションで変更できません。 これを変更するには、[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 特定のデータソースからの特定のエンティティ（アカウントなど）のデータは、1 つのデータセットにのみ入力できます。 各データセットは、1 つのデータフローにのみ含めることができます。 違反すると、実行時にデータフローが停止します。
 
-![特定のデータからの特定のエンティティ（例：アカウント）のデータ ](assets/marketo-overview-6.png)
+![特定のデータからの特定のエンティティ（例：アカウント）のデータ &#x200B;](assets/marketo-overview-6.png)
 
 **ステージマッピング**
 
@@ -104,9 +104,9 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 
 キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセットに固有です。
 
-![ キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセット固有です。](assets/marketo-overview-5.png)
+![&#x200B; キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセット固有です。](assets/marketo-overview-5.png)
 
-![ キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセット固有です。](assets/marketo-overview-8.png)
+![&#x200B; キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセット固有です。](assets/marketo-overview-8.png)
 
 Ultimate には CRM の直接接続がないので、アトリビューションのタッチポイントは CRM に書き込まれません。
 
@@ -121,4 +121,4 @@ Ultimate には CRM の直接接続がないので、アトリビューション
 >
 >* [Marketo Measure Ultimate Destination](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=ja){target="_blank"}
 >
->* [ ビデオ：Marketo Measure Ultimateの概要](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
+>* [&#x200B; ビデオ：Marketo Measure Ultimateの概要](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}

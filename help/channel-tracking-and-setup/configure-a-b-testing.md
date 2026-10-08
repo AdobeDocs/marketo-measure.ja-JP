@@ -23,6 +23,6 @@ ht-degree: 20%
 
 1. パッケージ [[!DNL Marketo Measure] v3.9以降](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}を使用していることを確認してください。
 1. 「[!DNL Marketo Measure] ABTests」関連リストをページレイアウトに追加し、**設定** （レンチ）ボタンをクリックします。
-1. 選択したフィールドのリストから標準の「Id」フィールドを削除します。 [!UICONTROL 実験]、[!UICONTROL  バリエーション ]、[!UICONTROL DateReported] フィールドを追加し、「並べ替え基準」を「報告日」に変更します。 「**[!UICONTROL 降順]**」ボタンをクリックします。
-1. 「[!UICONTROL  ボタン ]」で、**[!UICONTROL 新規]**&#x200B;のチェックを外します。
-1. この機能を有効にするには、アカウント担当者または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+1. 選択したフィールドのリストから標準の「Id」フィールドを削除します。 [!UICONTROL 実験]、[!UICONTROL &#x200B; バリエーション &#x200B;]、[!UICONTROL DateReported] フィールドを追加し、「並べ替え基準」を「報告日」に変更します。 「**[!UICONTROL 降順]**」ボタンをクリックします。
+1. 「[!UICONTROL &#x200B; ボタン &#x200B;]」で、**[!UICONTROL 新規]**&#x200B;のチェックを外します。
+1. この機能を有効にするには、アカウント担当者または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。

@@ -33,7 +33,7 @@ Adobe Launchにインストールして設定すると、[!DNL Marketo Measure]�
 >* [Adobe Launchの概要](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=ja){target="_blank"}
 >* [Adobe Launch拡張機能の概要](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. この記事](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}の手順[に従ってプロパティを作成します。
+1. この記事[&#128279;](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}の手順に従ってプロパティを作成します。
 
 1. 作成したプロパティをクリックします。
 
@@ -63,7 +63,7 @@ Adobe Launchにインストールして設定すると、[!DNL Marketo Measure]�
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-7.png)
 
-1. 「[!UICONTROL  イベント ]」の下にある「**[!UICONTROL 追加]**」ボタンをクリックします。
+1. 「[!UICONTROL &#x200B; イベント &#x200B;]」の下にある「**[!UICONTROL 追加]**」ボタンをクリックします。
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 

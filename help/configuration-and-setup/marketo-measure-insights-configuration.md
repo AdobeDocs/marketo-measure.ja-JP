@@ -18,7 +18,7 @@ ht-degree: 4%
 
 [!DNL Marketo Measure] Insights Canvas アプリはリードページレイアウトに追加する必要がありますが、[!DNL Salesforce]設定の「Connected Apps」セクションで追加の設定が必要です。 Canvas アプリに適切な権限があることを確認するには、次の手順に従います。
 
-1. [!DNL Salesforce] セットアップに移動し、「[!UICONTROL  アプリを管理]」タブの「**[!UICONTROL 接続アプリ]**」をクリックします。
+1. [!DNL Salesforce] セットアップに移動し、「[!UICONTROL &#x200B; アプリを管理]」タブの「**[!UICONTROL 接続アプリ]**」をクリックします。
 
 1. 入力するリストから[!DNL Marketo Measure Insights]を選択します。
 

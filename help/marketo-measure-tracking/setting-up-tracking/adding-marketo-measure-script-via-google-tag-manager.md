@@ -24,7 +24,7 @@ GTM 経由でスクリプトを追加する場合は、GTM の待ち時間によ
 
 >[!NOTE]
 >
->詳しくは、Google](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"}による[ サポート記事をご覧ください。
+>詳しくは、Google[&#128279;](https://support.google.com/tagmanager/answer/2772421?hl=ja){target="_blank"}による サポート記事をご覧ください。
 
 ## [!DNL Google Tag Manager] 経由での [!DNL Marketo Measure] JS の追加方法 {#how-to-add-marketo-measure-js-via-google-tag-manager}
 

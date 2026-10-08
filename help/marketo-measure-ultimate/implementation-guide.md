@@ -55,7 +55,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 >[!NOTE]
 >
->スキーマ、クラス、フィールドグループの概要については、[ スキーマのブロックの構築](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"}を参照してください。
+>スキーマ、クラス、フィールドグループの概要については、[&#x200B; スキーマのブロックの構築](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#building-blocks-of-a-schema){target="_blank"}を参照してください。
 
 **XDM スキーマ = クラス + スキーマフィールドグループ&#42;**
 
@@ -66,7 +66,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[ データセットの概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}: AEPに正常に取り込まれたすべてのデータは、データセットとしてデータレイク内に保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
+[&#x200B; データセットの概要](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}: AEPに正常に取り込まれたすべてのデータは、データセットとしてデータレイク内に保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
 
 ## スキーマの作成 {#creating-a-schema}
 
@@ -74,7 +74,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 * ユーティリティ [をダウンロードして設定する手順については、こちらを参照してください](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=ja#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}。
 
-_**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
+_&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
 
 * ソースから、データを追加／テンプレートを使用を選択します。&#x200B;
 
@@ -105,7 +105,7 @@ _**CDP 資格**_&#x200B;のあるユーザの場合：ソースページに移�
    >* 1つのスキーマタイプを別の同一のスキーマタイプにマッピングすると、自動的に行われます。
    >* また、システム内の別のフローからマッピングを読み込むこともできます。
    >* 1 つのソースフィールドを複数の宛先フィールドにマッピングすることはできますが、その逆はできません。
-   >* 計算フィールド （[ データ準備マッピング関数](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
+   >* 計算フィールド （[&#x200B; データ準備マッピング関数](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=ja){target="_blank"}）を作成できます。
 
    >[!CAUTION]
    >

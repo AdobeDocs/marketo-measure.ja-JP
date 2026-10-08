@@ -39,10 +39,10 @@ ht-degree: 6%
 1. [!DNL Marketo Measure] アカウントにログインし、新しいユーザーで[!DNL Salesforce]接続を再認証します。
 
    * [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}に移動し、新しいユーザー実稼動Salesforce資格情報でログインします
-   * 「[!UICONTROL  マイアカウント ]」ドロップダウンで「[!UICONTROL 設定]」を選択します
+   * 「[!UICONTROL &#x200B; マイアカウント &#x200B;]」ドロップダウンで「[!UICONTROL 設定]」を選択します
    * 「[!UICONTROL 統合]」グループ内の「[!UICONTROL 接続]」を選択します
    * 現在の接続されている[!DNL Salesforce]接続の右側にあるキーアイコンをクリックし、「実稼動環境で再認証」を選択します。 次に、プロンプトが表示されたら、新しいユーザー資格情報で再度ログインします
 
    完了!
 
-   専用の[!DNL Marketo Measure] プロファイルの作成について質問がある場合は、Adobe アカウントチーム（アカウントマネージャー）または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+   専用の[!DNL Marketo Measure] プロファイルの作成について質問がある場合は、Adobe アカウントチーム（アカウントマネージャー）または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。

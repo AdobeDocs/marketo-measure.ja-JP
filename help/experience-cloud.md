@@ -38,7 +38,7 @@ _まだ_&#x200B;様がAdobe Experience Cloud製品にログインしていない
 
 **ドメイン管理**
 
-[!DNL Marketo Measure]様の支援なしで[お客様の [!DNL Marketo Measure]  ドメイン ](/help/domain-management.md)を管理します。
+[!DNL Marketo Measure]様の支援なしで[お客様の [!DNL Marketo Measure]  ドメイン &#x200B;](/help/domain-management.md)を管理します。
 
 ![Marketo Measureの支援なしでMarketo Measure ドメイン（/help/domain-management.md）を管理します。](assets/unified-overview-9.png)
 
@@ -46,7 +46,7 @@ _まだ_&#x200B;様がAdobe Experience Cloud製品にログインしていない
 
 サポート記事の検索、チケットの送信、フィードバックの提供など、すべて[!DNL Marketo Measure] アプリケーション内から行います。
 
-![ サポート記事の検索、チケットの送信、フィードバックの提供など、すべて](assets/unified-overview-5.png)内から行います
+![&#x200B; サポート記事の検索、チケットの送信、フィードバックの提供など、すべて](assets/unified-overview-5.png)内から行います
 
 **アプリケーションの切り替え**
 
@@ -80,4 +80,4 @@ Adobe Experience Cloudにログインできるが、次のようなページが�
 
 ![Adobe Experience Cloudにログインできるが、](assets/unified-overview-7.png)を参照する場合
 
-上記のエラーが表示された場合は、[ サポートにお問い合わせください](https://nation.marketo.com/t5/support/ct-p/Support)。
+上記のエラーが表示された場合は、[&#x200B; サポートにお問い合わせください](https://nation.marketo.com/t5/support/ct-p/Support)。

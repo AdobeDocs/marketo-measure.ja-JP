@@ -40,7 +40,7 @@ ht-degree: 84%
 
    ![](assets/3.png)
 
-1. この機能を有効にするには、[!DNL Marketo Measure]担当者または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+1. この機能を有効にするには、[!DNL Marketo Measure]担当者または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 ## レポート {#reporting}
 

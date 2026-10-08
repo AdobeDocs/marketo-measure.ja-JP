@@ -33,7 +33,7 @@ CRM プラットフォームが切断された場合、[!DNL Marketo Measure]は
 ## 切断されたアカウントの再認証 {#re-authorizing-disconnected-accounts}
 
 1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}に移動してログインします。
-1. 左上隅の「[!UICONTROL  マイアカウント ]」タブで「**[!UICONTROL 設定]**」を選択します。
+1. 左上隅の「[!UICONTROL &#x200B; マイアカウント &#x200B;]」タブで「**[!UICONTROL 設定]**」を選択します。
 1. 左側の「統合」セクションを見つけて、**[!UICONTROL 接続]**&#x200B;をクリックします。
 1. 再接続する必要があるアカウントの横にある赤いキー記号を選択します。
 1. ポップアップウィンドウが表示され、アカウントのログイン詳細を入力するよう求められます。

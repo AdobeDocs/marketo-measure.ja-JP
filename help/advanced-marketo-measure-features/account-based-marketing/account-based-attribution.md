@@ -35,4 +35,4 @@ Account-Based Marketing（ABM）の台頭により、[!DNL Marketo Measure]がAB
 
 [!DNL Marketo Measure]では、アカウントに関連するすべてのマーケティングインタラクションが表示されるため、マーケターは、アカウントの成約の可能性が高いアカウント、自社とのエンゲージメントの頻度、各エンゲージメントの売上などの詳細を把握できます。
 
-[!DNL Marketo Measure]とABMのアプローチにより、マーケティングパフォーマンスは収益に基づいています。 アカウントベースドマーケティングへの移行を検討している場合は、[CMOによるABM オーケストレーション入門ガイド ](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf)をご覧ください。ABM オーケストレーションの計画、実行、測定の各フェーズについて順を追って説明しています。
+[!DNL Marketo Measure]とABMのアプローチにより、マーケティングパフォーマンスは収益に基づいています。 アカウントベースドマーケティングへの移行を検討している場合は、[CMOによるABM オーケストレーション入門ガイド &#x200B;](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf)をご覧ください。ABM オーケストレーションの計画、実行、測定の各フェーズについて順を追って説明しています。

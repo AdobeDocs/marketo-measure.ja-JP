@@ -48,7 +48,7 @@ ht-degree: 7%
 カスタム収益金額を使用している場合は、次のように収益設定を確認します。
 
 * [!DNL Marketo Measure] アカウントで、CRMの「[!UICONTROL 商談]」セクションに移動します
-* [!UICONTROL  カスタム商談金額] フィールドを特定します。ここでは、[!UICONTROL  カスタム売上金額API] フィールドを表示します
+* [!UICONTROL &#x200B; カスタム商談金額] フィールドを特定します。ここでは、[!UICONTROL &#x200B; カスタム売上金額API] フィールドを表示します
 * これが正しいフィールドであることを確認します
 * また、[!DNL Salesforce]管理者に、[!DNL Salesforce]のカスタム収益金額ワークフローが実行中であることを確認してもらいます
 
@@ -60,7 +60,7 @@ ht-degree: 7%
 
 >[!MORELIKETHIS]
 >
->* [ カスタム売上金額フィールドの使用](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [ データローダーを使用したカスタム金額フィールドの更新](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [&#x200B; カスタム売上金額フィールドの使用](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [&#x200B; データローダーを使用したカスタム金額フィールドの更新](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [複数通貨の概要](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [複数通貨設定](/help/advanced-marketo-measure-features/multi-currency/settings.md)

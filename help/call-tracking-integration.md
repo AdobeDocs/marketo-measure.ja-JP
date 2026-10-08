@@ -24,7 +24,7 @@ ht-degree: 1%
 
 一般的な意味での「コールトラッキング」は、例えば[!DNL CallTrackingMetrics]、[!DNL DiaglogTech]、[!DNL Invoca]、または[!DNL CallRail]などの企業の製品です。 ユーザーの属するマーケティングチャネルや施策にもとづいて、独自の電話番号が表示されます。 これにより、マーケターはチャネルやキャンペーンのパフォーマンスを確認できます。
 
-![ 「コールトラッキング」は、一般的な意味では、](assets/other-resources-6.png)などの企業の製品です
+![&#x200B; 「コールトラッキング」は、一般的な意味では、](assets/other-resources-6.png)などの企業の製品です
 
 ## 前後 {#before-and-after}
 
@@ -52,15 +52,15 @@ CallTrackingMetricsは、これを機能させるためにいくつかの開発�
 
 [!DNL Marketo Measure]がタスクをインポートまたはダウンロードできる場合、その詳細をweb セッションと共に処理します。 通常、リファラーや広告と組み合わせることができます。 下の例では、訪問者が有料のGoogle広告からビジネスを見つけ、電話をかけています。
 
-[!UICONTROL  タッチポイント ] タイプの「Call」は、上のスクリーンショットのタスクから取得されます。これは、タスクの作成時にCallTrackingMetricsでも設定されます。
+[!UICONTROL &#x200B; タッチポイント &#x200B;] タイプの「Call」は、上のスクリーンショットのタスクから取得されます。これは、タスクの作成時にCallTrackingMetricsでも設定されます。
 
-![ タッチポイントタイプ「Call」がタスクから](assets/marketo-engage-activities-01.png)から取得されます
+![&#x200B; タッチポイントタイプ「Call」がタスクから](assets/marketo-engage-activities-01.png)から取得されます
 
 ## レポート {#reporting}
 
 [!DNL Marketo Measure]が通常プッシュするタッチポイントタイプの値は、Web訪問、Web フォーム、またはWeb チャットですが、CallTrackingMetrics タッチポイントの場合、タッチポイントタイプは電話です。 これにより、マーケターは、どのチャネルが最も多くの電話をかけているかを把握し、売上につなげることができます。
 
-Marketo Measureが通常プッシュする![ タッチポイントタイプ値は、Web訪問](assets/other-resources-1.png)です
+Marketo Measureが通常プッシュする![&#x200B; タッチポイントタイプ値は、Web訪問](assets/other-resources-1.png)です
 
 ## よくある質問 {#faq}
 

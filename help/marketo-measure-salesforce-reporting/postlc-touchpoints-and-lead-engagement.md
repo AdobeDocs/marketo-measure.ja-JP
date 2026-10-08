@@ -46,7 +46,7 @@ PostLCのタッチポイントは動的です。 リードまたは連絡先がP
 
 1. リードにプッシュするPostLC タッチポイントの数を入力し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   ![1. ](assets/additional-functionality-3.png)にプッシュするpostLC タッチポイントの数を入力します
+   ![1. &#x200B;](assets/additional-functionality-3.png)にプッシュするpostLC タッチポイントの数を入力します
 
 **取引先責任者**
 
@@ -56,4 +56,4 @@ PostLCのタッチポイントは動的です。 リードまたは連絡先がP
 
 1. 連絡先にプッシュするPostLC タッチポイントの数を入力し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   ![1. ](assets/additional-functionality-4.png)にプッシュするpostLC タッチポイントの数を入力します
+   ![1. &#x200B;](assets/additional-functionality-4.png)にプッシュするpostLC タッチポイントの数を入力します

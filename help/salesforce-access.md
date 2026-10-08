@@ -36,12 +36,12 @@ ht-degree: 2%
 
    * `<your name>` > **[!UICONTROL 自分の設定]** > **[!UICONTROL 個人]** > **[!UICONTROL アカウントにログインアクセス権を付与]**&#x200B;をクリックします。
 
-1. [!UICONTROL Marketo Measure サポート ]のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、少なくとも1週間は[!DNL Marketo Measure]のサポートアクセス権を付与することをお勧めします。
+1. [!UICONTROL Marketo Measure サポート &#x200B;]のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、少なくとも1週間は[!DNL Marketo Measure]のサポートアクセス権を付与することをお勧めします。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## [!DNL Salesforce] Lightningでのログインアクセスの許可 {#granting-login-access-in-salesforce-lightning}
 
 1. 画面の右上にあるアバターをクリックし、**[!UICONTROL 設定]**&#x200B;を選択します。
 1. 「**[!UICONTROL アカウントにログインアクセス権を付与]**」をクリックします。
-1. 「[!UICONTROL Marketo Measure サポート ]」のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、少なくとも1週間は[!DNL Marketo Measure]のサポートアクセス権を付与することをお勧めします。
+1. 「[!UICONTROL Marketo Measure サポート &#x200B;]」のアクセス有効期限を設定します。 技術的なトラブルシューティングについては、少なくとも1週間は[!DNL Marketo Measure]のサポートアクセス権を付与することをお勧めします。
 1. 「**[!UICONTROL 保存]**」をクリックします。

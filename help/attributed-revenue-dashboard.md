@@ -85,5 +85,5 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >* [Discover ダッシュボードの基本](/help/discover-dashboard-basics.md){target="_blank"}
->* [ ダッシュボードデータの可視化ポリシー](/help/dashboard-data-visibility-policy.md){target="_blank"}
+>* [&#x200B; ダッシュボードデータの可視化ポリシー](/help/dashboard-data-visibility-policy.md){target="_blank"}
 

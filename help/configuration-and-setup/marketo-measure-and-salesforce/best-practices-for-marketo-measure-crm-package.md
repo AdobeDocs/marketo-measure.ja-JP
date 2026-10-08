@@ -66,6 +66,6 @@ CRM パッケージのセットアップは初期実装中に行われますが�
 >[!MORELIKETHIS]
 >
 >* [Buyer Touchpoint パッケージの更新](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
->* [[!DNL Marketo Measure] 権限セット ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [ レポートとダッシュボード フォルダーの共有](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+>* [[!DNL Marketo Measure] 権限セット &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+>* [&#x200B; レポートとダッシュボード フォルダーの共有](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 >* [Marketo MeasureをSalesforceに接続](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

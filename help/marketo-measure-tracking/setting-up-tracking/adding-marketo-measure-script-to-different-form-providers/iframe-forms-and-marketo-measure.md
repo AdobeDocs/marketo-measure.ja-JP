@@ -28,4 +28,4 @@ JavaScript を IFrame の head 内に配置することをお勧めします。�
 
 ![](assets/1-1.png)
 
-JavaScriptをIFrame フォームに追加する方法について質問がある場合は、Adobe アカウントチーム（アカウントマネージャー）または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+JavaScriptをIFrame フォームに追加する方法について質問がある場合は、Adobe アカウントチーム（アカウントマネージャー）または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。

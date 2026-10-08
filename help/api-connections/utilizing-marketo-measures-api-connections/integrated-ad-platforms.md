@@ -70,7 +70,7 @@ ht-degree: 1%
 
 1. [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure?lang=ja){target="_blank"}で[!DNL Marketo Measure] アカウントにログインします。
 
-1. [!UICONTROL  マイアカウント ] > [!UICONTROL 設定] > [!UICONTROL 統合] > [!UICONTROL 接続]に移動します。
+1. [!UICONTROL &#x200B; マイアカウント &#x200B;] > [!UICONTROL 設定] > [!UICONTROL 統合] > [!UICONTROL 接続]に移動します。
 
    ![](assets/4.png)
 
@@ -84,13 +84,13 @@ ht-degree: 1%
 
 ## [!DNL Marketo Measure] パラメーターを使用してAdWordsでトラッキングテンプレートを設定する方法 {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-AdWordsの[!UICONTROL  アカウント ]、[!UICONTROL  キャンペーン ]または広告グループ レベルにトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、または広告レベルに追加する場合、広告はレビューと承認プロセスを経る必要があり、広告のパフォーマンス履歴を再開するリスクがあります。 [ トラッキングテンプレートの作成](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}について詳しく見る。
+AdWordsの[!UICONTROL &#x200B; アカウント &#x200B;]、[!UICONTROL &#x200B; キャンペーン &#x200B;]または広告グループ レベルにトラッキングテンプレートを追加する必要があることに注意してください。 トラッキングテンプレートをキーワード、サイトリンク、または広告レベルに追加する場合、広告はレビューと承認プロセスを経る必要があり、広告のパフォーマンス履歴を再開するリスクがあります。 [&#x200B; トラッキングテンプレートの作成](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}について詳しく見る。
 
 1. [!DNL Google AdWords] アカウントにログインします。
-1. 左側のナビゲーションバーから[!UICONTROL  キャンペーン ] ビューに移動します
+1. 左側のナビゲーションバーから[!UICONTROL &#x200B; キャンペーン &#x200B;] ビューに移動します
 1. 左側のナビゲーションバーにある「[!UICONTROL 設定]」に移動します
-1. 上部の「[!UICONTROL  アカウント設定]」ビューに切り替えます
-1. 「[!UICONTROL  トラッキング ]」セクションを展開します
+1. 上部の「[!UICONTROL &#x200B; アカウント設定]」ビューに切り替えます
+1. 「[!UICONTROL &#x200B; トラッキング &#x200B;]」セクションを展開します
 1. トラッキングテンプレートに次のいずれかのテキスト文字列を貼り付けて、テンプレートの値を設定します。
 
    * すべてのURLに疑問符がある場合は、次のURL テキストを使用します。

@@ -21,9 +21,9 @@ ht-degree: 5%
 
 以下は、[!DNL Marketo Measure]個のカスタムオブジェクトが[!DNL Salesforce]個の標準オブジェクトにどのように関連付けられているかを表すフローチャートです。
 
-![以下は、Marketo Measure カスタム ](assets/bizible-full-1.png)のフロー図です
+![以下は、Marketo Measure カスタム &#x200B;](assets/bizible-full-1.png)のフロー図です
 
-フルサイズの画像については、[ここをクリック ](assets/bizible-full-1.png)してください。
+フルサイズの画像については、[ここをクリック &#x200B;](assets/bizible-full-1.png)してください。
 
 各オブジェクト [に存在する[!DNL Marketo Measure] フィールドの定義は、ここ](/help/glossary.md)にあります。
 

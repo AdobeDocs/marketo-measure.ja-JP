@@ -24,11 +24,11 @@ ht-degree: 5%
 
    ![1. Salesforceの「レポート」タブをクリックし、「新規](assets/bizible-guide-1.png)」を選択します
 
-1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;]**レポートタイプの**[!UICONTROL  Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
+1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;**レポートタイプの** Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
 
    ![1. 「Bizible Attribution」のクイック検索タイプで、](assets/bizible-guide-2.png)を選択します
 
-1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント ]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
+1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント &#x200B;]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
 
    ![1. レポートの先頭から、「すべてのBizible](assets/marketo-reports-8.jpg)」を表示します
 
@@ -36,7 +36,7 @@ ht-degree: 5%
 
 1. 次に、レポートにフィールドを追加します。 左側のクイック検索で、「マーケティングチャネル」と入力し、レポートの概要グループに追加します。
 
-   ![1. 次に、レポートにフィールドを追加します。 ](assets/bizible-guide-4.png)内
+   ![1. 次に、レポートにフィールドを追加します。 &#x200B;](assets/bizible-guide-4.png)内
 
 1. 次に、フィルターを追加して、閉じたロストオプスのみを確認します。 左側のクイック検索で、「ステージ」フィールドを検索し、フィルター領域にドラッグします。
 
@@ -52,4 +52,4 @@ ht-degree: 5%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

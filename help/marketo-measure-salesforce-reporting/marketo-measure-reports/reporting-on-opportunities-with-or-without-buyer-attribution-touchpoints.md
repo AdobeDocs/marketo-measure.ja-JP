@@ -43,7 +43,7 @@ ht-degree: 28%
 
    * レポートタイプラベルに「バイヤーアトリビューションの有無に関わらず、商談」という名前を付けます。
    * レポートタイプ名には、同じ名前を使用します。 説明入力内の「バイヤーアトリビューションタッチポイントの有無に関わらず商談」を選択します。
-   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL  デプロイ ]」に設定します。
+   * 「[!UICONTROL その他]」内にレポートを保存し、レポートを「[!UICONTROL &#x200B; デプロイ &#x200B;]」に設定します。
 
    ![](assets/3-1.jpg)
 
@@ -53,4 +53,4 @@ ht-degree: 28%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

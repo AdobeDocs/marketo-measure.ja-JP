@@ -53,7 +53,7 @@ ht-degree: 85%
 
 **お知らせ：Salesforce フィールドの非推奨（廃止予定） - 6月14日**
 
-昨年お知らせしたように、統合を簡素化し、Salesforce標準オブジェクトに書き出す必要を排除するために、[ リード/連絡先オブジェクトへの書き出しジョブを段階的に](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}終了します。 [ここに記載されている](/help/2023.md){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。 また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024年6月14日（PT）にこの廃止が実施されます。
+昨年お知らせしたように、統合を簡素化し、Salesforce標準オブジェクトに書き出す必要を排除するために、[&#x200B; リード/連絡先オブジェクトへの書き出しジョブを段階的に](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}終了します。 [ここに記載されている](/help/2023.md){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。 また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024年6月14日（PT）にこの廃止が実施されます。
 
 この変更により、次の 2 つの主なメリットが得られます。
 

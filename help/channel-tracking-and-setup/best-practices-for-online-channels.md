@@ -59,7 +59,7 @@ ht-degree: 96%
 チームが最近上記のいずれかを経験した場合、[!DNL Marketo Measure] ではオンラインチャネルのルールを確認し、適切な変更を行うことをお勧めします。
 
 >[!MORELIKETHIS]
-> [ オンラインチャネル設定](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
+> [&#x200B; オンラインチャネル設定](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
 > [UTM パラメーター](/help/channel-tracking-and-setup/utm-parameters.md)
 > [マーケティングチャネルとサブチャネル](/help/channel-tracking-and-setup/marketing-channels-and-subchannels.md)
-> [UTMのベストプラクティス ](/help/channel-tracking-and-setup/best-practices-for-setting-up-utm-parameters.md)
+> [UTMのベストプラクティス &#x200B;](/help/channel-tracking-and-setup/best-practices-for-setting-up-utm-parameters.md)

@@ -39,7 +39,7 @@ _まだ_&#x200B;様がAdobe Experience Cloud製品にログインしていない
 
 **ドメイン管理**
 
-[!DNL Marketo Measure]様の支援なしで[お客様の [!DNL Marketo Measure]  ドメイン ](/help/marketo-measure-and-adobe/domain-management.md)を管理します。
+[!DNL Marketo Measure]様の支援なしで[お客様の [!DNL Marketo Measure]  ドメイン &#x200B;](/help/marketo-measure-and-adobe/domain-management.md)を管理します。
 
 ![](assets/unified-shell-overview-5.png)
 
@@ -81,4 +81,4 @@ Adobe Experience Cloudにログインできるが、次のようなページが�
 
 ![](assets/unified-shell-overview-11.png)
 
-上記のエラーが表示された場合は、[ サポートにお問い合わせください](https://nation.marketo.com/t5/support/ct-p/Support)。
+上記のエラーが表示された場合は、[&#x200B; サポートにお問い合わせください](https://nation.marketo.com/t5/support/ct-p/Support)。

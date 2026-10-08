@@ -41,7 +41,7 @@ Salesforceで権限セットにアクセスして割り当てるには：
  <tbody>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] 管理者</strong></span></td>
-   <td><span>SFDC管理者に、[!DNL Marketo Measure] オブジェクトからレコードを作成、読み取り、書き込み、削除する機能を提供します。 [!DNL Marketo Measure]がデータをSFDCにプッシュするライセンスでは、この権限セットを有効にする必要があります。 また、このライセンスには、データをレコードに適用する[!DNL Marketo Measure]前にリードが変換されるシナリオで、コンバージョン済みリードを編集する機能があることをお勧めします。 これにより、Salesforceと[!DNL Marketo Measure]間のレポートの正確性が確保されます。 詳細は<a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">こちら</a>をご覧ください。</span></td>
+   <td><span>SFDC管理者に、[!DNL Marketo Measure] オブジェクトからレコードを作成、読み取り、書き込み、削除する機能を提供します。 [!DNL Marketo Measure]がデータをSFDCにプッシュするライセンスでは、この権限セットを有効にする必要があります。 また、このライセンスには、データをレコードに適用する[!DNL Marketo Measure]前にリードが変換されるシナリオで、コンバージョン済みリードを編集する機能があることをお勧めします。 これにより、Salesforceと[!DNL Marketo Measure]間のレポートの正確性が確保されます。 詳細は<a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">こちら</a>をご覧ください。</span></td>
   </tr>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] マーケティングユーザ</strong></span></td>

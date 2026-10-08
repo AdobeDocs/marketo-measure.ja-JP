@@ -30,11 +30,11 @@ ht-degree: 1%
 
 ## 新しいアプリケーションの設定 {#set-up-new-application}
 
-1. [Azure ポータル ](https://portal.azure.com/#home)にログインします。
+1. [Azure ポータル &#x200B;](https://portal.azure.com/#home)にログインします。
 
 1. ページの右上隅にあるアカウントをクリックし、「ディレクトリを切り替え」ナビゲーションをクリックして適切なテナントを選択し、Azure AD テナントを選択します。 アカウントにAzure AD テナントが1つしかない場合や、適切なAzure AD テナントを既に選択している場合は、この手順をスキップしてください。
 
-   ![1. ](assets/bizible-taxonomy-1.png)でアカウントをクリックして、Azure AD テナントを選択します
+   ![1. &#x200B;](assets/bizible-taxonomy-1.png)でアカウントをクリックして、Azure AD テナントを選択します
 
 1. 検索バーで「[!DNL Azure Active Directory]」を検索し、名前をクリックして開きます。
 
@@ -48,7 +48,7 @@ ht-degree: 1%
 
    ![1. 上部の「新規登録」をクリックします。](assets/microsoft-guide-3.png)
 
-1. プロンプトに従ってアプリケーションを作成します。 Web アプリケーションまたはパブリッククライアント（モバイルおよびデスクトップ）アプリケーションのいずれであっても、web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例については、[ クイックスタート ](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview)を参照してください。
+1. プロンプトに従ってアプリケーションを作成します。 Web アプリケーションまたはパブリッククライアント（モバイルおよびデスクトップ）アプリケーションのいずれであっても、web アプリケーションまたはパブリッククライアントアプリケーションの具体的な例については、[&#x200B; クイックスタート &#x200B;](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview)を参照してください。
 a. 「名前」はアプリケーション名で、エンドユーザーに対するアプリケーションを説明します。
 b. 「サポートされているアカウントタイプ」で、「任意の組織ディレクトリのアカウント」および「個人のMicrosoft アカウント」を選択します。
 c. リダイレクト URIを指定します。 Web アプリケーションの場合、これはユーザーがログインできるアプリのベース URLです。 たとえば、`http://localhost:12345` のように設定します。 パブリッククライアント（モバイルおよびデスクトップ）の場合、Azure ADはそれを使用してトークン応答を返します。 アプリケーションに固有の値を入力します。 例：`http://MyFirstAADApp`。
@@ -77,13 +77,13 @@ c. リダイレクト URIを指定します。 Web アプリケーションの�
 
 1. 「権限」タブで、「**[!UICONTROL 管理者の同意を付与（インスタンス名）]**」をクリックします。
 
-   ![1. 「権限」タブで、「管理者の同意を付与」をクリックします（インスタンス ](assets/microsoft-guide-8.png)
+   ![1. 「権限」タブで、「管理者の同意を付与」をクリックします（インスタンス &#x200B;](assets/microsoft-guide-8.png)
 
 1. 「**[!UICONTROL 確定]**」をクリックします。
 
    ![1. 「同意する」をクリックします。](assets/microsoft-guide-9.png)
 
-1. 「[!UICONTROL  ユーザーとグループ ]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
+1. 「[!UICONTROL &#x200B; ユーザーとグループ &#x200B;]」タブで、有効な「ユーザーとグループ」がアプリケーションに割り当てられていることを確認します。
 
    ![1. 「ユーザーとグループ」タブで、](assets/microsoft-guide-10.png)が正しいかどうかを確認します。
 
@@ -121,7 +121,7 @@ a. クライアント IDは、上記のセクションのステップ #7のIDで
 
 b. Client Secretは、証明書とシークレットの下のアプリケーション用にAzure ポータルで作成されたアプリケーションのシークレットです。
 
-![b. クライアント秘密鍵は、Azure ポータル ](assets/microsoft-guide-11.png)で作成されたアプリケーション秘密鍵です
+![b. クライアント秘密鍵は、Azure ポータル &#x200B;](assets/microsoft-guide-11.png)で作成されたアプリケーション秘密鍵です
 
 c. アプリケーション ID URIは、ターゲット Web API （セキュアリソース）のURLです。 アプリ IDのURLを見つけるには、Azure ポータルで「[!DNL Azure Active Directory]」をクリックし、「Application registrations」をクリックして、アプリケーションの「Settings」ページを開き、「Properties」をクリックします。 `https://graph.microsoft.com`のような外部リソースを使用することもできます。 これは通常、Dynamics インスタンスのURLです。
 

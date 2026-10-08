@@ -39,7 +39,7 @@ ht-degree: 4%
 
 [!DNL Microsoft Dynamics]人のお客様が[ここ](/help/microsoft-dynamics-crm-installation-guide.md)をクリックします。
 
-これらの手順を完了した後、統合は運用的である必要があります。 問題が発生した場合は、[!DNL Marketo Measure]担当者または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+これらの手順を完了した後、統合は運用的である必要があります。 問題が発生した場合は、[!DNL Marketo Measure]担当者または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 >[!NOTE]
 >[!DNL Marketo Measure] CRM パッケージレス統合から開始する場合は、後でSalesforce パッケージまたはMicrosoft Dynamics Managed Solutionをインストールできます。

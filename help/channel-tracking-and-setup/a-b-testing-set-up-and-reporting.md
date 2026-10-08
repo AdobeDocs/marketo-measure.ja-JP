@@ -29,13 +29,13 @@ ht-degree: 75%
 
 1. 「[!UICONTROL レンチ]」ボタンをクリックします。 選択したフィールドのリストからストックの「ID」フィールドを削除します。 「**[!UICONTROL 実験]**」、「**[!UICONTROL バリエーション]**」、「**[!UICONTROL DateReported]**」フィールドを追加します。 「[!UICONTROL 並べ替え基準]」を「**[!UICONTROL 報告日]**」に変更し、ドロップダウンで「**[!UICONTROL 降順]**」を選択します。
 
-   ![1. レンチボタンをクリックします。 ](assets/advanced-features-3.png)から在庫「ID」フィールドを削除します
+   ![1. レンチボタンをクリックします。 &#x200B;](assets/advanced-features-3.png)から在庫「ID」フィールドを削除します
 
 1. [!UICONTROL ボタン]で、「**[!UICONTROL 新規]**」のチェックを外します。
 
    ![1. ボタンの下で、「新規」のチェックを外します。](assets/advanced-features-7.png)
 
-1. この機能を有効にするには、[!DNL Marketo Measure]担当者または[Marketo サポート ](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
+1. この機能を有効にするには、[!DNL Marketo Measure]担当者または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 ## レポート {#reporting}
 
@@ -65,8 +65,8 @@ Optimizely/VWO は、マーケティングチャネルではなく、コンテ�
 
 リードに関する **[!DNL Marketo Measure]A/B テスト**
 
-![ リードとのMarketo Measure A/B テスト ](assets/advanced-features-9.png)
+![&#x200B; リードとのMarketo Measure A/B テスト &#x200B;](assets/advanced-features-9.png)
 
 商談に関する **[!DNL Marketo Measure]A/B テスト**
 
-![商談を含むMarketo Measure A/B テスト ](assets/advanced-features-10.png)
+![商談を含むMarketo Measure A/B テスト &#x200B;](assets/advanced-features-10.png)

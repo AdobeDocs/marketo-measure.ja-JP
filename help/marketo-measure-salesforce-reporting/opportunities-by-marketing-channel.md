@@ -32,7 +32,7 @@ ht-degree: 4%
 
 1. 次に、レポートにフィールドを追加します。 左側のクイック検索で、「マーケティングチャネル」と入力し、レポートの概要グループに追加します。
 
-   ![1. 次に、レポートにフィールドを追加します。 ](assets/marketo-reports-10.jpg)内
+   ![1. 次に、レポートにフィールドを追加します。 &#x200B;](assets/marketo-reports-10.jpg)内
 
 1. レポートを実行して分析します。
 
@@ -40,4 +40,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure]  チュートリアル：Stock SFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

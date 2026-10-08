@@ -31,10 +31,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL [!UICONTROL プライマリオブジェクト ]]：リード
-   * Id > [!UICONTROL  レポートタイプラベル ]：購入者のタッチポイントを持つリード（カスタム）
-   * [!UICONTROL  カテゴリーに保存]：その他のレポート
-   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL [!UICONTROL プライマリオブジェクト &#x200B;]]：リード
+   * Id > [!UICONTROL &#x200B; レポートタイプラベル &#x200B;]：購入者のタッチポイントを持つリード（カスタム）
+   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
 
    ![展開の状態：デプロイ済み](assets/new-types-10.jpg)
 
@@ -54,10 +54,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]: [!DNL Marketo Measure]人
-   * [!UICONTROL 識別] > [!UICONTROL  レポートタイプラベル ]: [!DNL Marketo Measure]購入者のタッチポイントを持つ人物（カスタム）
-   * [!UICONTROL  カテゴリーに保存]：その他のレポート
-   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]: [!DNL Marketo Measure]人
+   * [!UICONTROL 識別] > [!UICONTROL &#x200B; レポートタイプラベル &#x200B;]: [!DNL Marketo Measure]購入者のタッチポイントを持つ人物（カスタム）
+   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
 
    ![展開の状態：デプロイ済み](assets/new-types-13.jpg)
 
@@ -77,10 +77,10 @@ ht-degree: 6%
 
 1. カスタムレポートタイプを定義します。
 
-   * [!UICONTROL  レポートタイプのフォーカス ] > [!UICONTROL プライマリオブジェクト ]：商談
+   * [!UICONTROL &#x200B; レポートタイプのフォーカス &#x200B;] > [!UICONTROL プライマリオブジェクト &#x200B;]：商談
    * [!UICONTROL Identification] > [!UICONTROL Report Type Label]: Opportunities with Buyer Attribution Touchpoint （カスタム）
-   * [!UICONTROL  カテゴリーに保存]：その他のレポート
-   * [!UICONTROL  デプロイメント ] > [!UICONTROL  デプロイメント状態]：デプロイ済み
+   * [!UICONTROL &#x200B; カテゴリーに保存]：その他のレポート
+   * [!UICONTROL &#x200B; デプロイメント &#x200B;] > [!UICONTROL &#x200B; デプロイメント状態]：デプロイ済み
 
    ![展開の状態：デプロイ済み](assets/new-types-14.jpg)
 
@@ -98,6 +98,6 @@ ht-degree: 6%
 
    ![1. レポートを作成すると、](assets/new-types-2.png)にリダイレクトされます
 
-1. レポートに追加するカスタムフィールドが、「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加する他のフィールドがある場合は、「[!UICONTROL  ルックアップを使用して関連するフィールドを追加]」オプションを使用します。
+1. レポートに追加するカスタムフィールドが、「フィールドレイアウトのプロパティ」セクションに表示されていることを確認します。 追加する他のフィールドがある場合は、「[!UICONTROL &#x200B; ルックアップを使用して関連するフィールドを追加]」オプションを使用します。
 
-   ![1. ](assets/new-types-3.png)に追加するカスタムフィールドを確認してください
+   ![1. &#x200B;](assets/new-types-3.png)に追加するカスタムフィールドを確認してください

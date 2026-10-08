@@ -57,5 +57,5 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->* [ アクティビティ属性](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
+>* [&#x200B; アクティビティ属性](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [営業活動のアトリビューションに関するFAQ](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

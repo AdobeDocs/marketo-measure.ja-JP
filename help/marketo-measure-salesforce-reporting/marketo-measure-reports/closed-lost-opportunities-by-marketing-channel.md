@@ -29,11 +29,11 @@ ht-degree: 4%
 
    ![](assets/1-3.jpg)
 
-1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;]**レポートタイプの**[!UICONTROL  Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
+1. 「Bizible Attribution」のクイック検索タイプで、商談&#x200B;**レポートタイプの** Bizible Attribution Touchpointを選択し、**[!UICONTROL 作成]**&#x200B;を選択します。
 
    ![](assets/2-3.jpg)
 
-1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント ]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
+1. レポートの先頭から、「[!UICONTROL すべてのBizible アトリビューションタッチポイント &#x200B;]」を表示し、レポートを作成する期間に応じて日付フィールドを調整します。 この例では、すべての時間を考慮します。 さらに、レポート形式を「表形式」から「要約」に変更します。
 
    ![](assets/3-3.jpg)
 
@@ -57,4 +57,4 @@ ht-degree: 4%
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート ](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure]  チュートリアル：その他のSFDC レポート &#x200B;](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

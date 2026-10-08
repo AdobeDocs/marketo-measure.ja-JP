@@ -49,7 +49,7 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL Touchpoint 日の一括更新]**」ボタンをカスタムボタンセクションにドラッグします。
 
-   ![1. 「タッチポイントの一括更新」ボタンをカスタム ](assets/bizible-taxonomy-1.png)にドラッグします
+   ![1. 「タッチポイントの一括更新」ボタンをカスタム &#x200B;](assets/bizible-taxonomy-1.png)にドラッグします
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

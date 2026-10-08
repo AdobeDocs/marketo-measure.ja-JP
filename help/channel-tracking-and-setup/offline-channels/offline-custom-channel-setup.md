@@ -69,7 +69,7 @@ SFDC キャンペーンの種類は、「[!DNL Salesforce] キャンペーンの
 
 [!DNL Salesforce]に移動して、含める既存のレコードタイプの数と性質、および上記の情報に基づいて追加のキャンペーンを作成する必要があるかどうかを判断します。 必要な情報をすべて入力したら、アップロードする準備ができました。
 
-[ オフラインの同期 [!DNL Salesforce]  キャンペーンと [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)の同期について詳しくは、こちらを参照してください。
+[&#x200B; オフラインの同期 [!DNL Salesforce]  キャンペーンと [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)の同期について詳しくは、こちらを参照してください。
 
 ## オンラインマーケティングの取り組みに対するSFDC キャンペーンの処理 {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
@@ -87,13 +87,13 @@ SFDC キャンペーンの種類は、「[!DNL Salesforce] キャンペーンの
 
 >[!TIP]
 >
->[!DNL Salesforce]のキャンペーンタイプを&#x200B;_が[!DNL Marketo Measure]のチャネルマッピングに取り込まれた場合、_&#x200B;を判断しますか？ **[!UICONTROL 設定]** > **[!UICONTROL キャンペーン]** > **[!UICONTROL フィールド]** > **[!UICONTROL タイプ]**&#x200B;に移動します。 次に、ピックリスト内の値と非アクティブな値を確認できます。 非アクティブなチャネルは、「[!UICONTROL  オフラインチャネル ]」セクションで選択可能なタイプとして表示されません。 注意：このプロセスは、数分から48時間までかかることがあります。
+>[!DNL Salesforce]のキャンペーンタイプを&#x200B;_が[!DNL Marketo Measure]のチャネルマッピングに取り込まれた場合、_&#x200B;を判断しますか？ **[!UICONTROL 設定]** > **[!UICONTROL キャンペーン]** > **[!UICONTROL フィールド]** > **[!UICONTROL タイプ]**&#x200B;に移動します。 次に、ピックリスト内の値と非アクティブな値を確認できます。 非アクティブなチャネルは、「[!UICONTROL &#x200B; オフラインチャネル &#x200B;]」セクションで選択可能なタイプとして表示されません。 注意：このプロセスは、数分から48時間までかかることがあります。
 
 完了したら、**[!UICONTROL 保存]**&#x200B;をクリックすると、[!DNL Marketo Measure]が変更をアップロードし、データを再処理します。
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング ](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>* [[!DNL Marketo Measure]  チュートリアル：オフラインチャネルのマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
 >* [[!DNL Marketo Measure]  チュートリアル：オフラインキャンペーンの同期](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >

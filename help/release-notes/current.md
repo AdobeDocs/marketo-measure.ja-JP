@@ -46,13 +46,13 @@ ht-degree: 91%
 
 新しいキーワード ROI ダッシュボードでは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供し、キーワードレベルのコスト、起因する収益、生成されたリードと商談を包括的に把握できます。 このダッシュボードは、Google Adwords、LinkedIn、Bing Ads などにおける各キーワードの ROI を評価するのに役立ちます。
 
-ドキュメント：[ キーワード ROI ダッシュボード ](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
+ドキュメント：[&#x200B; キーワード ROI ダッシュボード &#x200B;](https://experienceleague.adobe.com/ja/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### セグメントルールの機能強化
 
 「タッチポイント」フィールドと「取引先責任者」フィールドに加えて、「キャンペーン」フィールドと「キャンペーンメンバー」フィールドを使用してセグメントを作成できるようになりました。 この機能強化により、Discover でデータをより効果的に分析および解析できるようになります。
 
-![拡張セグメントルール ](assets/mm-q4-release-1.png)
+![拡張セグメントルール &#x200B;](assets/mm-q4-release-1.png)
 
 ### 更新：CRM 書き出しのエラー処理設定
 
@@ -83,7 +83,7 @@ ht-degree: 91%
 
 ### リマインダー：Salesforce フィールドの非推奨（廃止予定） - 6月14日
 
-昨年お知らせしたように、統合を簡素化し、Salesforce標準オブジェクトに書き出す必要を排除するために、[ リード/連絡先オブジェクトへの書き出しジョブを段階的に](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}終了します。 [ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。 また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024年6月14日（PT）にこの廃止が実施されます。
+昨年お知らせしたように、統合を簡素化し、Salesforce標準オブジェクトに書き出す必要を排除するために、[&#x200B; リード/連絡先オブジェクトへの書き出しジョブを段階的に](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"}終了します。 [ここに記載されている](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}手順に従って、タッチポイントオブジェクトから同じデータを取得できます。 また、このデータをリード/取引先責任者オブジェクトに追加するワークフローの作成に関するドキュメントも共有します。 2024年6月14日（PT）にこの廃止が実施されます。
 
 この変更により、次の 2 つの主なメリットが得られます。
 

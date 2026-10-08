@@ -86,7 +86,7 @@ A/B テストを [!DNL Optimizely] または VWO（Visual Web Optimizer）を使
 
 ## [!DNL Marketo Measure] フィールド {#marketo-measure-fields}
 
-[!DNL Marketo Measure] JavaScriptによってキャプチャされたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。 特定のフィールドは、特定のオブジェクトにのみ存在します。 [[!DNL Marketo Measure] フィールド ]](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)の[用語集と、関連する [!DNL Marketo Measure]  オブジェクト ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)の[ ビジュアライゼーションを確認できます。
+[!DNL Marketo Measure] JavaScriptによってキャプチャされたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。 特定のフィールドは、特定のオブジェクトにのみ存在します。 [[!DNL Marketo Measure] フィールド ]&#x200B;[&#128279;](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)の[用語集と、関連する [!DNL Marketo Measure]  オブジェクト &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)の ビジュアライゼーションを確認できます。
 
 ## [!DNL Marketo Measure] レポートとダッシュボード {#marketo-measure-reports-and-dashboards}
 
