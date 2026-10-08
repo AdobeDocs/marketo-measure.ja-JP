@@ -4,18 +4,21 @@ description: マーケティングチャネルとサブチャネル - [!DNL Mark
 title: マーケティングチャネルとサブチャネル
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+TQID: 'https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 93%
-
+source-wordcount: '453'
+ht-degree: 92%
 ---
-
 # マーケティングチャネルとサブチャネル {#marketing-channels-and-subchannels}
 
 ## 目的 {#purpose}
@@ -26,7 +29,7 @@ ht-degree: 93%
 
 マーケティングチャネルは、[!DNL Marketo Measure] ROI ダッシュと CRM の両方で、レポートを簡単にするためにマーケティング活動を分類（または「バケット」）するのに役立ちます。 [!DNL Marketo Measure] には、標準の 12 個のチャネル（組織の慣例に合わせてカスタマイズ／名前変更が可能）と、より詳細なフィルタリングを行うためにカスタムチャネルをさらに作成する機能が付属しています。
 
-サイト上のいずれかのコンテンツページ（そのコンテンツが web ページ、ホワイトペーパーのダウンロード、ページ URL など）に訪問者を迎えるたびに、そのリードは、次の URL に含まれる複数の UTM パラメーターに基づいてチャネル／サブチャネルに「バケット化」されます。
+サイト上のいずれかのコンテンツページ（そのコンテンツが web ページ、ホワイトペーパーのダウンロードページ、ページ URL など）に訪問者があるたびに、そのリードは、URL に含まれる複数の UTM パラメーターに基づいてチャネル／サブチャネルに「バケット化」されます。
 
 * 中
 * ソース
@@ -34,7 +37,7 @@ ht-degree: 93%
 * ランディングページ
 * 参照元サイト
 
-UTM パラメーターに基づいて「バケット」に分類されるリードをカスタマイズするには、チャネルルールを使用します。 チャネルルールの設定と維持について詳しくは、[こちらをクリック](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)してください。
+UTM パラメーターに基づいてリードがどの「バケット」に入るかをカスタマイズするには、チャネルルールを使用します。 チャネルルールの設定と維持について詳しくは、[こちらをクリック](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)してください。
 
 クリックしたら、[オンラインチャネル](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)および[オフラインチャネル](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)の設定方法を参照し、その違いを確認してください。
 

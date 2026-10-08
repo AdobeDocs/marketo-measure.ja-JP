@@ -3,13 +3,17 @@ description: Marketo Measure ユーザー向けの電子メールトラッキン
 title: メールトラッキングパラメーター
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 7%
-
 ---
-
 # メールトラッキングパラメーター {#email-tracking-parameter}
 
 [!DNL Marketo Measure]電子メールトラッキングパラメーターを使用すると、マーケターは電子メールのクリックをフォーム送信として処理し、これらのアクションに対してタッチポイントを生成できます。 メールトラッキングパラメーターを使用しない場合、ユーザーがフォーム送信やweb チャットを通じて実際にサイトとエンゲージするまで、メールからのクリックスルーは「web訪問」としてのみ扱われます。

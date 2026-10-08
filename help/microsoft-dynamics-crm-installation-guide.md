@@ -1,16 +1,25 @@
 ---
-description: Microsoft Dynamics CRM にMarketo Measure パッケージをインストールして設定するためのステップバイステップガイド
+description: Microsoft Dynamics CRMにMarketo Measure パッケージをインストールして設定するためのステップバイステップガイド
 title: '[!DNL Microsoft Dynamics] CRM インストールガイド'
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '984'
-ht-degree: 96%
-
+ht-degree: 98%
 ---
-
 # [!DNL Microsoft Dynamics] CRM インストールガイド {#microsoft-dynamics-crm-installation-guide}
 
 >[!NOTE]
@@ -39,13 +48,13 @@ Dynamics CRM 内に zip ファイルを[ダウンロードしてインストー�
 >
 >次の 2 つのスクリーンショットは、ソリューションのアップグレード中に撮影されたものなので、実際のスクリーンショットとは少し異なる場合があります。
 
-## [!DNL Marketo Measure] ユーザの作成 {#creating-a-marketo-measure-user}
+## [!DNL Marketo Measure] ユーザーの作成 {#creating-a-marketo-measure-user}
 
-CRM 内の他のユーザとの問題を回避するために、Dynamics 内で専用の Marketo Measure ユーザを「アプリケーションユーザ」として作成し、データを書き出しおよび読み込むことをお勧めします。 ユーザ名、パスワード、およびエンドポイント URLは [!DNL Marketo Measure] アカウントの作成時に使用されるので、書き留めておきます。
+CRM 内の他のユーザーとの問題を回避するために、Dynamics 内で専用の Marketo Measure ユーザーを「アプリケーションユーザー」として作成し、データを書き出しおよび読み込むことをお勧めします。 ユーザ名、パスワード、およびエンドポイント URLは [!DNL Marketo Measure] アカウントの作成時に使用されるので、書き留めておきます。
 
 ## セキュリティロール {#security-roles}
 
-組織が Dynamics セキュリティロールを使用している場合は、接続されているユーザまたは専用の [!DNL Marketo Measure] ユーザが、必要なエンティティに対する十分な読み取り/書き込み権限を持っていることを確認します。
+組織が Dynamics セキュリティロールを使用している場合は、接続されているユーザーまたは専用の [!DNL Marketo Measure] ユーザーが、必要なエンティティに対する十分な読み取り/書き込み権限を持っていることを確認します。
 
 セキュリティロールは、**[!UICONTROL 設定]**／**[!UICONTROL セキュリティ]**／**[!UICONTROL セキュリティロール]**&#x200B;にあります。
 
@@ -71,8 +80,8 @@ Dynamics の標準エンティティについては、[!DNL Marketo Measure] Dyn
 
 1. サブグリッドでレンダリングするオブジェクト（Buyer Attribution Touchpoints または Buyer Touchpoints）を選択します。これは、オブジェクトの関係に応じて異なります。 必要に応じて、「編集」ボタンをクリックして、表示される列を変更します。 デフォルトのレイアウトは、管理ソリューションによって設定されます。
 
-   Buyer Attribution Touchpoint サブグリッド – アカウント、オポチュニティおよび連絡先
-Buyer Touchpoint サブグリッド – リードおよび連絡先
+   Buyer Attribution Touchpoint サブグリッド - アカウント、商談、および取引先責任者
+   Buyer Touchpoint サブグリッド - リードと取引先責任者
 
 1. フォームの更新が完了したら、変更を公開して保存します。
 
@@ -84,11 +93,11 @@ Buyer Touchpoint サブグリッド – リードおよび連絡先
 
 ### クローズ日
 
-[!DNL Marketo Measure] は、標準の「実際クローズ日」フィールドを指します。 これを使用していない場合や、「推定クローズ日」フィールドも使用している場合は、ソリューションエンジニアまたはサクセスマネージャーにプロセスを説明します。 両方のフィールドを考慮するには、カスタムワークフローが必要になる場合があります。
+[!DNL Marketo Measure] は、標準の「実際クローズ日」フィールドを指します。 これを使用していない場合や「推定クローズ日」フィールドも使用している場合は、ソリューションエンジニアまたはサクセスマネージャーにプロセスを説明してください。 両方のフィールドを考慮するには、カスタムワークフローが必要になる場合があります。
 
 ## 接続とデータプロバイダーの設定 {#configuring-your-connections-and-data-providers}
 
-[!DNL Marketo Measure] アプリケーションにログインし、Adobe Admin Console でユーザとして設定したら、次の手順で様々なデータ接続を設定します。
+[!DNL Marketo Measure] アプリケーションにログインし、Adobe Admin Console でユーザーとして設定したら、次の手順で様々なデータ接続を設定します。
 
 **データプロバイダーとしての CRM**
 

@@ -1,19 +1,24 @@
 ---
 unique-page-id: 18874785
-description: 不要なレポートタイプの非表示 –  [!DNL Marketo Measure]
+description: 不要なレポートタイプの非表示 – [!DNL Marketo Measure]
 title: 不要なレポートタイプの非表示
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/lnkpFBpwVTs2rEdHCcopwGE64UT0SBlIeWORKxW9BII
+TQID: 'https://experienceleague.adobe.com/lnkpFBpwVTs2rEdHCcopwGE64UT0SBlIeWORKxW9BII'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 152
+source-wordcount: '152'
 ht-degree: 5%
-
 ---
-
 # 不要なレポートタイプの非表示 {#hiding-unnecessary-report-types}
 
 インストールを完了してレポートの使用を開始すると、[!DNL Marketo Measure] パッケージに含まれるすべてのレポートが組織で使用されるわけではありません。 したがって、使用していないレポートタイプを非表示にすることで、混乱を排除し、よりクリーンな外観を実現できます。 任意のレポートを非表示にできますが、下の画像で特定されたレポートは通常、非表示になります。

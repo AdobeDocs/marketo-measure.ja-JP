@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874562
 description: PostLC タッチポイントとリードエンゲージメント - Marketo Measure – 製品ドキュメント
-title: PostLC Touchpoints とリードエンゲージメント
+title: PostLC 顧客接点とリードのエンゲージメント
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA
+TQID: 'https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 4%
-
 ---
-
 # PostLC Touchpoints とリードエンゲージメント {#postlc-touchpoints-and-lead-engagement}
 
 [!DNL Marketo Measure]件のリード後の作成（PostLC）の顧客接点は、マルチタッチアトリビューションモデル（W-Shape以上）を使用しているお客様が利用できます。 リードまたはコンタクトがweb サイトに戻ってフォームに入力し続けると、これらのフォーム送信はPostLC タッチポイントとして登録されます。 これらのタッチポイントを利用すれば、どのようなコンテンツがリードをサイトに導き、最初のコンバージョンから長い間エンゲージメントし続けるのかを確認できます。 PostLCのタッチポイントは、商談のすべての中間接点とアトリビューションクレジットを共有します。10%のアトリビューションクレジットは、中間接点に割り当てられ、すべての顧客接点に均等に配分されます。

@@ -1,22 +1,26 @@
 ---
 unique-page-id: 18874795
-description: ' [!DNL Marketo Measure]  スクリプト - [!DNL Marketo Measure]を追加'
-title: ' [!DNL Marketo Measure]  スクリプトの追加'
+description: '[!DNL Marketo Measure] スクリプトを追加しています – [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure] スクリプトの追加'
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+TQID: 'https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: '1293'
 ht-degree: 53%
-
 ---
-
 # [!DNL Marketo Measure] スクリプトの追加 {#adding-marketo-measure-script}
 
 [!DNL Marketo Measure] で追跡する [!DNL Marketo Measure] JavaScript は、できるだけ早くすべての web プロパティに追加する必要があります。 JavaScriptがデプロイされると、[!DNL Marketo Measure]はデジタルデータの収集を開始します。 この記事では、[!DNL Marketo Measure] JavaScriptをデプロイする方法とその他の考慮事項について説明します。
@@ -88,16 +92,16 @@ JavaScriptの設定中に[!DNL Web Application Firewall (WAF)]の警告がトリ
 
 >[!NOTE]
 >
->アカウントまたは体験版を作成するためのタッチポイントを作成することをお勧めします。
+>アカウントまたは体験版を作成するための顧客接点を作成することをお勧めします。
 
 **アセットのダウンロード**
 
 * 問題：アセットがゲート化されている場合、[!DNL Marketo Measure]はダウンロードをフォーム入力として追跡します。 アセットがゲートされていない場合、カスタマイズせずにレポートできる内容には制限があります。
-* 解決策：[!DNL Marketo Measure] JavaScript で追跡する場合は、アセットの出入りを制御します。 それはできないけれど、そのためのタッチポイントは気に入っているという場合は、代わりに CRM キャンペーンを同期することを検討します。
+* 解決策：[!DNL Marketo Measure] JavaScript で追跡する場合は、アセットの出入りを制御します。 それが不可能な場合でも、そのための顧客接点を用意したい場合は、代わりに CRM キャンペーンを同期することを検討してください。
 
 **iFrame**
 
-* 問題：iFrame は、基本的にページ内のページとして機能します。
+* 問題：iFrame は、基本的にページ内ページとして機能します。
 * 解決策：[!DNL Marketo Measure] JSをフォームに正しく添付するには、iFrame ヘッダー内に直接デプロイする必要があります。
 
 **Lightbox**
@@ -139,7 +143,7 @@ JavaScriptの設定中に[!DNL Web Application Firewall (WAF)]の警告がトリ
 
 1. フォームを送信するページのURLと、使用したメールを記録します。
 
-1. そのフォーム送信に対して CRM（リードまたは連絡先）で作成されたレコードを見つけて、タッチポイントが適切に作成されたことを確認します。
+1. そのフォーム送信に対して CRM（リードまたは取引先責任者）で作成されたレコードを見つけて、顧客接点が適切に作成されたことを確認します。
 
    a. リードとバイヤーのタッチポイントを含む[!DNL Marketo Measure]件のストックレポートを使用できます。または、[!DNL Marketo Measure]件の詳細でページレイアウトを更新することを選択した場合は、リード/連絡先ページレイアウトを参照してください。
 

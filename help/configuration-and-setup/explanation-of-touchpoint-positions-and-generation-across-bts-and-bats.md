@@ -1,15 +1,19 @@
 ---
-description: BTおよび [!DNL BATs] Marketo Measure ユーザー向けのタッチポイントの位置と生成の説明
-title: BT と [!DNL BATs] にわたる Touchpoint の位置と生成の説明
+description: Marketo Measure ユーザー向けのBTおよび[!DNL BATs]のガイダンスによる、タッチポイントの位置と生成の説明
+title: BTおよび[!DNL BATs]間のタッチポイントの位置と生成の説明
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
-
+source-wordcount: '796'
+ht-degree: 2%
 ---
-
 
 # BTおよび[!DNL BATs]間のタッチポイントの位置と生成の説明 {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
@@ -112,10 +116,10 @@ Buyer Touchpointの位置とそのトリガー方法を理解することは、[
 **商談** Buyer Attribution Touchpoint データは次のように読まれます…
 
 * ファーストタッチ（FT） – ペイドソーシャル.Facebook - 8/26/2019
-   * （アカウント/商談に対する&#x200B;_ファーストタッチ_&#x200B;があるため、**人物B**&#x200B;から）
+  * （アカウント/商談に対する&#x200B;_ファーストタッチ_&#x200B;があるため、**人物B**&#x200B;から）
 * リードジェネレーション（LC） – オーガニック検索。Google - 2019年11月20日
-   * （**人物A**&#x200B;から、アカウント/商談に対して真の&#x200B;_リード作成_&#x200B;を持っているため）
+  * （**人物A**&#x200B;から、アカウント/商談に対して真の&#x200B;_リード作成_&#x200B;を持っているため）
 * 商談作成（OC） – ウェビナー – 2020年3月4日
-   * （2020年3月7日に作成された商談に対する最も最近のインタラクションが&#x200B;**人物A**&#x200B;からのLC後のタッチポイントは&#x200B;_OC タッチポイント_&#x200B;になります）
+  * （2020年3月7日に作成された商談に対する最も最近のインタラクションが&#x200B;**人物A**&#x200B;からのLC後のタッチポイントは&#x200B;_OC タッチポイント_&#x200B;になります）
 * クローズ済み – メール - 2020年5月1日
-   * （2020年5月6日に商談がクローズされたのは最新のインタラクションであるため、**人物B**&#x200B;からのLC後のタッチポイントは&#x200B;_クローズ済み顧客接点_&#x200B;になります）
+  * （2020年5月6日に商談がクローズされたのは最新のインタラクションであるため、**人物B**&#x200B;からのLC後のタッチポイントは&#x200B;_クローズ済み顧客接点_&#x200B;になります）

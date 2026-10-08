@@ -3,21 +3,31 @@ description: '[!DNL Marketo Measure] Ultimate実装ガイド - [!DNL Marketo Mea
 title: '[!DNL Marketo Measure] Ultimate 実装ガイド'
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-TQID: https://experienceleague.adobe.com/Dj1Dbz4wPQt99NlAEtcn7v3AQoQPdIV5HDExXmlbcZ0
+TQID: 'https://experienceleague.adobe.com/Dj1Dbz4wPQt99NlAEtcn7v3AQoQPdIV5HDExXmlbcZ0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+    internal-label: Data modeling
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Data management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1074
+source-wordcount: '1074'
 ht-degree: 65%
-
 ---
-
 # [!DNL Marketo Measure] Ultimate 実装ガイド {#marketo-measure-ultimate-implementation-guide}
 
 この記事は、Marketo Measure Ultimate の実装ガイドとして機能します。この記事では、統合と利用を確実に成功させるための明確な手順とインサイトについて説明します。
@@ -49,7 +59,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 **XDM スキーマ = クラス + スキーマフィールドグループ&#42;**
 
-* 必須フィールドは変更できません。 必要に応じて、カスタムフィールドを作成して追加できます。
+* 必須フィールドは変更できません。 お客様は、必要に応じてカスタムフィールドを作成して追加できます。
 * 階層に基づくフィールド名の例：accountOrganization.annualRevenue.amount
 
 &#42; _スキーマは、クラスとゼロ以上のスキーマフィールドグループで構成されます。 つまり、フィールドグループを使用せずにデータセットのスキーマを作成できます。_
@@ -66,7 +76,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 _&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソースページに移動してスキーマを作成します。
 
-* ソースから、データを追加／テンプレートを使用を選択します。
+* ソースから、データを追加／テンプレートを使用を選択します。&#x200B;
 
 ![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
@@ -106,13 +116,13 @@ _&#x200B;**CDP 資格**&#x200B;_&#x200B;のあるユーザの場合：ソース�
    >
    >[Marketo Measure Ultimate のデータ整合性要件](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
-1. データの読み込みケイデンスを設定します。
+1. データの読み込み頻度を設定します。
 1. レビューして完了します。
 1. データフローステータスのMeasure UI設定の「アカウントステータス」ページを確認します。
 
 **モニタリング：**
 
-ソース／データフローページで、データフローのステータスを確認します
+ソース／データフローページで、データフローのステータスを確認します。
 
 * データセットのアクティビティの詳細を表示するには、データセットをクリックするだけです。
 * データフローエラーを表示するには、データフローを選択し、データフローの実行を選択して、「エラー診断のプレビュー」をクリックします。
@@ -152,9 +162,9 @@ Measureでは、デフォルトの通貨は「通貨」セクションで設定�
 
 **ステージマッピング：**
 
-ユーザデータからステージは自動的に読み込まれないので、すべてのステージを手動でマッピングする必要があります。
+ユーザーデータからステージは自動的に読み込まれないので、すべてのステージを手動でマッピングする必要があります。
 
-* ユーザーは、様々なソースからステージをマッピングできます。
+* ユーザは、様々なソースからステージをマッピングできます。
 
 ![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
@@ -173,8 +183,8 @@ Marketo Measure Ultimate のお客様で、デフォルトのダッシュボー�
 
 データセットを選択し、アクティビティタイプを選択します。
 
-* カスタムアクティビティはまだサポートしていません。
-* お客様が使用可能なオプションに該当しないアクティビティを行っている場合は、「注目のアクション」として分類し、カスタムフィールドを使用して区別することをお勧めします。
+* カスタムアクティビティはまだサポートされていません。
+* お客様に使用可能なオプションに該当しないアクティビティがある場合は、「注目のアクション」として分類し、カスタムフィールドを使用して区別することを推奨します。
 
 **オフラインチャネル：**
 

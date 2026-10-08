@@ -1,29 +1,33 @@
 ---
-description: アカウントベースのアトリビューションと、Adobe Marketo MeasureがAccount-Based Marketing（ABM）戦略を補完する仕組みについて説明します。
-title: アカウントベースの属性
+description: アカウントベースドアトリビューションと、Adobe Marketo MeasureがAccount-Based Marketing（ABM）戦略をどのように補完するかをご紹介します。
+title: アカウントベースドアトリビューション
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 11%
-
 ---
+# アカウントベースドアトリビューション {#account-based-attribution}
 
-# アカウントベースの属性 {#account-based-attribution}
-
-Account-Based Marketing（ABM）の台頭に伴い、ABM 戦略をどのように補完でき [!DNL Marketo Measure] かを理解することが重要です。[!DNL Marketo Measure] は、アカウントの下の各リードおよび連絡先の各タッチポイントを表示します。
+Account-Based Marketing（ABM）の台頭により、[!DNL Marketo Measure]がABM戦略をどのように補完できるかを理解することが重要です。 [!DNL Marketo Measure]は、アカウントの下の各リードと取引先責任者の各タッチポイントを表示します。
 
 ## [!UICONTROL 概要] {#the-what}
 
-1 つのアカウントに複数の商談がある場合、異なる商談は最初の 2 つのタッチポイント （ファーストタッチ （FT）とリード作成（LC））を共有します。 新しい商談が作成されると、その個々の売上高が、商談をさらにfunnelの下に移動するのに貢献したタッチポイントに割り当てられます。 商談に結び付けられたタッチポイントは、バイヤー属性タッチポイント（BAT）と見なされることに注意してください。
+1つのアカウントに複数の商談がある場合、異なる商談は、最初の2つの顧客接点であるファーストタッチ（FT）とリード作成（LC）を共有します。 新しい商談が作成されると、個々の収益金額は、商談をfunnelの下部に移動させることに貢献したタッチポイント全体に割り当てられます。 商談に関連付けられたタッチポイントは、BAT （Buyer Attribution Touchpoint）と見なされます。
 
-例えば、以下のアカウントには 2 つの商談があります。 最初の商談には、タッチポイントが 1 つだけあります。 このタッチポイントには、FT、LC および商談作成（OC）タッチポイントが含まれます。 2 番目のオポチュニティは、最初のオポチュニティと同じ FT &amp; LC を持ちますが、OC タッチポイントは異なります。 また、2 番目の商談には、最初の商談のクローズ日以降に発生したため、最初の商談に関連付けられていない追加のタッチポイントがあります。
+例えば、以下のアカウントには 2 つの商談があります。 最初の商談には、タッチポイントが 1 つだけあります。 このタッチポイントには、FT、LC および商談作成（OC）タッチポイントが含まれます。 2番目の商談は、1番目の商談と同じFT &amp; LCですが、OC タッチポイントは異なります。 さらに、2番目の商談には、最初の商談の成約日の後に発生するため、最初の商談に関連付けられていない追加の顧客接点があります。
 
-![&#x200B; 例えば、以下のアカウントには 2 つのオポチュニティがあります。 最初のオポチュニティ &#x200B;](assets/account-marketing-4.jpg)
+![例えば、以下のアカウントには2つの商談があります。 最初の商談の場合、](assets/account-marketing-4.jpg)
 
 ## これはどのように役立つでしょうか？ {#how-does-this-help}
 
-アカウントに結び付けられ [!DNL Marketo Measure] すべてのマーケティングインタラクションが表示されるので、マーケターは、どのアカウントがクローズされる可能性があるか、会社とエンゲージメントした頻度、それらのエンゲージメントが何か、各エンゲージメントに価値がある売上高などについて、より深く理解できます。
+[!DNL Marketo Measure]では、アカウントに関連するすべてのマーケティングインタラクションが表示されるため、マーケターは、アカウントの成約の可能性が高いアカウント、自社とのエンゲージメントの頻度、各エンゲージメントの売上などの詳細を把握できます。
 
-[!DNL Marketo Measure] と ABM アプローチを使用すると、マーケティングのパフォーマンスは収益に基づきます。 アカウントベースのマーケティングアプローチへの移行を検討している場合は、[CMO の ABM オーケストレーションのガイド &#x200B;](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf) を参照してください。このガイドでは、ABM オーケストレーションの計画、実行、測定の各フェーズについて説明しています。
+[!DNL Marketo Measure]とABMのアプローチにより、マーケティングパフォーマンスは収益に基づいています。 アカウントベースドマーケティングへの移行を検討している場合は、[CMOによるABM オーケストレーション入門ガイド &#x200B;](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf)をご覧ください。ABM オーケストレーションの計画、実行、測定の各フェーズについて順を追って説明しています。

@@ -4,18 +4,21 @@ description: CRM キャンペーンのコスト - [!DNL Marketo Measure]
 title: CRM キャンペーンコスト
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-TQID: https://experienceleague.adobe.com/RxCP7bZJ9DND0BSpQ2PY5mOsSe-Kr45d24UKXWDmX6M
+TQID: 'https://experienceleague.adobe.com/RxCP7bZJ9DND0BSpQ2PY5mOsSe-Kr45d24UKXWDmX6M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1193
-ht-degree: 1%
-
+source-wordcount: '1204'
+ht-degree: 2%
 ---
-
 # CRM キャンペーンコスト {#crm-campaign-costs}
 
 [!DNL Marketo Measure]人の顧客のほとんどが、オフラインのマーケティング活動を追跡するためにCRM キャンペーンを使用しています。 これらの施策を実施するマーケターは、CRM内のコストも監視できます。 この機能を使用すると、[!DNL Marketo Measure]がそのコストを読み取り、[!DNL Marketo Measure]以内に報告されたマーケティング費用に適用できるようにすることで、マーケターが簡単になります。 現在まで、顧客は1か月ごとに施策のコストを手動で入力する必要がありましたが、[!DNL Marketo Measure]さんに必要な情報を提供することで、このプロセスを自動化することができ、マーケターは支出とROIの分析により多くの時間を費やすことができます。

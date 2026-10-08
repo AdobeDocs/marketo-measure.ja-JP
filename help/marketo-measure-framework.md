@@ -3,14 +3,18 @@ description: Marketo Measure フレームワーク
 title: Marketo Measure フレームワーク
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 94%
-
 ---
-
 
 # Marketo Measure フレームワーク {#marketo-measure-framework}
 
@@ -36,7 +40,7 @@ Marketo Measure JS は、web 訪問（匿名の web 訪問を含む）、一般�
 
 Marketo Measure は、CRM と統合され、Marketo Measure JS によって取得されたすべてのデータを保管および整理します。 現在、Marketo Measure は、2 つの CRM と API 統合されています。
 
-![Marketo Measureは CRM と統合して、すべてのデータを格納および整理します &#x200B;](assets/overview-resources-14.png)
+![Marketo MeasureはCRMと統合して、すべてのデータを格納および整理します](assets/overview-resources-14.png)
 
 Marketo Measure データをお使いの CRM で表示することで、各タッチポイントに関連する詳細な情報を確認したり、チャネルのパフォーマンスを把握するためのレポートを生成したりできます。
 
@@ -44,13 +48,13 @@ Marketo Measure データをお使いの CRM で表示することで、各タ�
 
 ほとんどのマーケターは、マーケティング活動を実行するために、いくつかの異なるアプリケーションに依存しています。 Salesforce や MS Dynamics に加えて、Marketo Measure は、13 種類のサードパーティアプリケーション（以下を参照）と統合されています。
 
-![&#x200B; ほとんどのマーケターは、マーケティングを実行するために、いくつかの異なるアプリケーションに依存しています &#x200B;](assets/overview-resources-15.png)
+![ほとんどのマーケターは、マーケティングを実行するために、いくつかの異なるアプリケーションに依存しています](assets/overview-resources-15.png)
 
 上記のアプリケーションを使用して任意のマーケティング活動を実行している場合、それらのアカウントを Marketo Measure アカウントにリンクできます。 これにより、データを簡単にトラッキングして、Marketo Measure アカウントに転送できます。
 
 ## Marketo Measure アプリケーション {#marketo-measure-application}
 
-Marketo Measure アプリケーションは、アトリビューションデータの表示およびレポート、アカウントの設定およびアカウント情報の更新に使用されます。 以下に、Marketo Measure アプリのメインメニュー項目を示します。
+Marketo Measure アプリケーションは、アトリビューションデータの表示およびレポート、アカウント設定の構成、およびアカウント情報の更新に使用されます。 以下に、Marketo Measure アプリのメインメニュー項目を示します。
 
 **アカウント構成**
 
@@ -62,4 +66,4 @@ Marketo Measure アプリケーションは、アトリビューションデー�
 
 **Marketing ROI ダッシュボード**
 
-Marketing ROI ダッシュボードメニュー項目では、チャネルパフォーマンス、アクティビティおよびコストに関してデータを視覚化します。
+Marketing ROI ダッシュボードメニュー項目では、チャネルパフォーマンス、アクティビティおよびコストに関してデータを視覚化できる場所です。

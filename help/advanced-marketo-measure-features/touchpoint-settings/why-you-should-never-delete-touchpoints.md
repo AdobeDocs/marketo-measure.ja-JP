@@ -1,20 +1,22 @@
 ---
 unique-page-id: 18874560
-description: 顧客接点を削除しない理由 –  [!DNL Marketo Measure]
-title: タッチポイントを削除してはいけない理由
+description: タッチポイントを削除しない理由 – [!DNL Marketo Measure]
+title: 顧客接点を削除してはいけない理由
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/HeJr54wYsCH2Ic4dZ-Ds24c5-kC-Joq0uIZhXL5zE-o
+TQID: 'https://experienceleague.adobe.com/HeJr54wYsCH2Ic4dZ-Ds24c5-kC-Joq0uIZhXL5zE-o'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: '228'
 ht-degree: 8%
-
 ---
-
-# タッチポイントを削除してはいけない理由 {#why-you-should-never-delete-touchpoints}
+# 顧客接点を削除してはいけない理由 {#why-you-should-never-delete-touchpoints}
 
 不適切な方法でアトリビューションクレジットが割り当てられている商談にタッチポイントが存在する場合は、アカウントマネージャーに連絡して次の手順を決定してください。 このような場合は、バイヤーズ顧客接点の抑制機能を使用して、SFDCとROI ダッシュボードから顧客接点を取り除くことをお勧めします。 アカウントマネージャーは、これらのルールの作成を支援します。 これらの顧客接点は、手作業で削除しないでください。
 

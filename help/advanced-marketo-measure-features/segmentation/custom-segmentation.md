@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874604
-description: カスタムセグメント化 –  [!DNL Marketo Measure]
+description: カスタムセグメンテーション - [!DNL Marketo Measure]
 title: カスタムセグメント化
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
+TQID: 'https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 1%
-
 ---
-
 # カスタムセグメント化 {#custom-segmentation}
 
 セグメントでは、特定のデータセットをさらにドリルダウンするために、[!DNL Marketo Measure] ROI ダッシュボードのデータをフィルタリングできます。 例えば、セグメントは地理的領域またはグレーディングシステムによって定義できます。
@@ -72,9 +75,9 @@ ht-degree: 1%
 * ごみ箱アイコンをクリックして、カテゴリ全体またはカテゴリ内の個々のルールを削除します。 または、鉛筆アイコンをクリックして、カテゴリまたはルールを編集します
 * 「[!UICONTROL 保存]」ボタンと「保存と処理」ボタンがあることに注意してください。 「保存」ボタンを使用して、作業内容と時間の経過に伴う変更を保存します。 次のことを確認したら、「保存と処理」ボタンのみを使用します。
 
-   * マッピングは正確です
-   * 追跡したいセグメントがすべて追加されました
-   * 「保存して処理」ボタンは、[!DNL Marketo Measure]をトリガーして、すべてのタッチポイントを同期し、追加した新しい情報を適用します。 このプロセスには7日かかり、この期間にルールを変更することはできません
+  * マッピングは正確です
+  * 追跡したいセグメントがすべて追加されました
+  * 「保存して処理」ボタンは、[!DNL Marketo Measure]をトリガーして、すべてのタッチポイントを同期し、追加した新しい情報を適用します。 このプロセスには7日かかり、この期間にルールを変更することはできません
 
 **_追加メモ:_**
 

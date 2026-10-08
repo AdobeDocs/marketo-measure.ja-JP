@@ -1,15 +1,19 @@
 ---
-description: Marketo Measure ユーザー向けの [!DNL Uberflip] Forms ガイダンスに [!DNL Marketo Measure]  スクリプトを追加する
-title: 'Formsに [!DNL Marketo Measure]  スクリプトを追加しています [!DNL Uberflip] '
+description: Marketo Measure ユーザー向けの[!DNL Uberflip]のForms ガイダンスに[!DNL Marketo Measure] スクリプトを追加する
+title: '[!DNL Marketo Measure] スクリプトを[!DNL Uberflip] Formsに追加しています'
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '221'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] スクリプトを[!DNL Uberflip] Formsに追加しています {#adding-marketo-measure-script-to-uberflip-forms}
 
 現在[!DNL Uberflip]を使用してコンテンツを管理している場合は、次の必要な手順を実行して、[!DNL Marketo Measure]がフォーム送信を追跡していることを確認することが重要です。 [!DNL Uberflip]のサクセスマネージャーも、これを支援できる必要があります。

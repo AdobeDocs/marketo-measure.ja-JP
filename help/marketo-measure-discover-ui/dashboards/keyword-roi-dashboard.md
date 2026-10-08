@@ -1,21 +1,25 @@
 ---
-description: キーワード ROI ダッシュボード - [!DNL Marketo Measure]  – 製品
+description: キーワード ROI ダッシュボード - [!DNL Marketo Measure] – 製品
 title: キーワード ROI ダッシュボード
 feature: Reporting
 exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
-TQID: https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw
+TQID: 'https://experienceleague.adobe.com/nOK0KPYYD1kMdf7aBZTQWI-BD8zFIEB0akwEDD-Jeqw'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: '404'
 ht-degree: 3%
-
 ---
-
 # キーワード ROI ダッシュボード {#keyword-roi-dashboard}
 
 キーワード ROI ダッシュボードでは、有料検索キャンペーンのパフォーマンスに関する詳細なインサイトを提供します。 キーワードレベルのコスト、売上への貢献度、生成された新しいリードや機会などを包括的に分析し、キーワードのROIを明確に把握することができます。
@@ -74,11 +78,11 @@ ht-degree: 3%
 このダッシュボードには、次の設定とフィルターが用意されています。
 
 * 日付
-   * 元とするセット：
-      * 作成日：ニュースリード、新しい商談
-      * コスト発生日：コスト
-      * 成約日：売上への貢献度（単純ROI）、案件
-      * タッチポイント日：実現済みの帰属済み収益からのタッチポイント（実現ROI）
+  * 元とするセット：
+    * 作成日：ニュースリード、新しい商談
+    * コスト発生日：コスト
+    * 成約日：売上への貢献度（単純ROI）、案件
+    * タッチポイント日：実現済みの帰属済み収益からのタッチポイント（実現ROI）
 * アトリビューションモデル
 * キーワード
 * キャンペーン

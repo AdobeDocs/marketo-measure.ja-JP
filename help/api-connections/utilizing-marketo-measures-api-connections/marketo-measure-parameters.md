@@ -1,23 +1,28 @@
 ---
 unique-page-id: 18874608
-description: '[!DNL Marketo Measure] パラメーター –  [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] パラメーター – [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] パラメーター'
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
 feature: APIs, Integration, UTM Parameters
-TQID: https://experienceleague.adobe.com/IurdaUgr2R1vxfOP4bcXp8TSUj4ymkA-R9kZ9put4Ug
+TQID: 'https://experienceleague.adobe.com/IurdaUgr2R1vxfOP4bcXp8TSUj4ymkA-R9kZ9put4Ug'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
 subfeature_v2:
   - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Facebook API
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '243'
 ht-degree: 91%
-
 ---
-
 # [!DNL Marketo Measure] パラメーター {#marketo-measure-parameters}
 
 ## [!DNL Marketo Measure] パラメーターの説明 {#marketo-measure-parameters-explained}
@@ -35,28 +40,28 @@ UTM の使用からさらにインサイトを取得するために、[!DNL Mark
 ## AdWords パラメーター {#adwords-parameters}
 
 * `_bk={keyword}`
-   * ユーザが検索エンジンで使用したキーワードを表します。
-   * UTM 用語パラメーターに似ています。
+  * ユーザが検索エンジンで使用したキーワードを表します。
+  * UTM 用語パラメーターに似ています。
 
 * `_bt={creative}`
-   * クリエイティブ ID または名前を表します。
-   * UTM コンテンツパラメーターに似ています。
+  * クリエイティブ ID または名前を表します。
+  * UTM コンテンツパラメーターに似ています。
 
 * `_bm={matchtype}`
-   * キーワードの一致レベルを表します。
-   * キーワード一致タイプは、広告をトリガーする検索を制御するのに役立ちます。 例えば、部分一致を使用して広範なオーディエンスに広告を表示することや、完全一致を使用して特定の顧客グループに絞り込むことができます。
-   * 部分一致、あいまい一致、完全一致の 3 つの一致タイプがあります。
+  * キーワードの一致レベルを表します。
+  * キーワード一致タイプは、広告をトリガーする検索を制御するのに役立ちます。 例えば、部分一致を使用して広範なオーディエンスに広告を表示することや、完全一致を使用して特定の顧客グループに絞り込むことができます。
+  * 部分一致、あいまい一致、完全一致の 3 つの一致タイプがあります。
 
 >[!TIP]
 >
 >一致タイプについて詳しくは、[関連するAdWordsの記事](https://support.google.com/adwords/answer/2497836?hl=ja){target="_blank"}を参照してください。
 
 * `_bn={network}`
-   * 広告ネットワークの種類（[表示または検索](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"}）を表します。
-   * UTM ソースパラメーターに似ています。
+  * 広告ネットワークの種類（[表示または検索](https://support.google.com/adwords/answer/1752334?hl=ja){target="_blank"}）を表します。
+  * UTM ソースパラメーターに似ています。
 
 * `_bg={adgroupID}`
-   * 広告が属する広告グループの ID を表します
+  * 広告が属する広告グループの ID を表します
 
 >[!NOTE]
 >
@@ -72,4 +77,4 @@ UTM の使用からさらにインサイトを取得するために、[!DNL Mark
 ## Facebook パラメーター {#facebook-parameters}
 
 * `_bf ={creative}`
-   * クリエイティブ ID または名前を表します
+  * クリエイティブ ID または名前を表します

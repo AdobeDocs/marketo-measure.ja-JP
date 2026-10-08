@@ -1,22 +1,25 @@
 ---
 unique-page-id: 18874690
-description: 接続されたアカウントの再認証 –  [!DNL Marketo Measure]
+description: 接続されたアカウントの再認証 – [!DNL Marketo Measure]
 title: 接続されたアカウントの再認証
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/mp53G9-w1l43mBQM1ijW8tTh7rNQ75cPAimZA-kdLvs
+TQID: 'https://experienceleague.adobe.com/mp53G9-w1l43mBQM1ijW8tTh7rNQ75cPAimZA-kdLvs'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 192
+source-wordcount: '192'
 ht-degree: 5%
-
 ---
-
 # 接続されたアカウントの再認証 {#reauthorizing-connected-accounts}
 
 アカウントが[!DNL Marketo Measure] アカウントから切断されると、プラットフォームのステータスが「承認必須」に変わり、赤いキーアイコンが表示されます。

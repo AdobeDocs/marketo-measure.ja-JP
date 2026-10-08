@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874755
-description: ' [!DNL Marketo Measure] を [!DNL Marketo]  ランディングページに追加 –  [!DNL Marketo Measure]'
-title: Marketo ランディングページ [!DNL Marketo Measure] の追加
+description: '[!DNL Marketo Measure]を[!DNL Marketo]のランディングページに追加しています – [!DNL Marketo Measure]'
+title: Marketo ランディングページへの[!DNL Marketo Measure]の追加
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-TQID: https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U
+TQID: 'https://experienceleague.adobe.com/oMudhh5HLf2i618ZV7RjLNMCsYYgxKoO-hp1g6ia85U'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 229
-ht-degree: 9%
-
+source-wordcount: '232'
+ht-degree: 7%
 ---
-
 # Marketo ランディングページへの[!DNL Marketo Measure]の追加 {#adding-marketo-measure-to-marketo-landing-pages}
 
 追加の処理が必要なため、[!DNL Marketo Engage] ランディングページにトラッキングを追加する方法について説明します。[!DNL Marketo Measure] JavaScriptは、ランディングページと[!DNL Marketo Engage] フォーム自体の両方に配置されている必要があります。 これを行うには、次の手順に従って、[!DNL Marketo Measure] JavaScriptを[!DNL Marketo Engage]に読み込む必要があります。

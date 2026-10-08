@@ -1,57 +1,65 @@
 ---
-description: ' [!DNL Marketo Measure]  階層型サブスクリプションから  [!DNL Marketo Measure] Ultimateに移行する際の移行プロセスについて説明します。'
-title: 層から  [!DNL Marketo Measure] Ultimateへの移行
+description: '[!DNL Marketo Measure]階層型サブスクリプションから[!DNL Marketo Measure] Ultimateに移行する際の移行プロセスについて説明します。'
+title: 階層から[!DNL Marketo Measure] Ultimateへの移行
 feature: Integration, Tracking, Attribution
 exl-id: 828c9bba-3835-484a-bd80-84b5a6b67e22
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '286'
 ht-degree: 1%
-
 ---
+# Tier 1-2から[!DNL Marketo Measure] Ultimateへの移行 {#migration-from-tier-to-marketo-measure-ultimate}
 
-# 階層 1～2 から [!DNL Marketo Measure] Ultimateへの移行 {#migration-from-tier-to-marketo-measure-ultimate}
-
-この記事では、Tier 1 または 2 のサブスクリプションからUltimateへ移行するユーザーの移行プロセス [!DNL Marketo Measure] 概要を説明します。
+この記事では、Tier 1 サブスクリプションまたは2 サブスクリプションから[!DNL Marketo Measure] Ultimateに移行するユーザーの移行プロセスについて説明します。
 
 >[!IMPORTANT]
 >
->移行が完了するまで、既存の階層インスタンスを必ず保持してください。
+>移行が完了するまで、既存の階層インスタンスを保持することを忘れないでください。
 
 ## データ収集 {#data-collection}
 
-### ウェブトラフィックデータ {#web-traffic-data}
+### Web トラフィックデータ {#web-traffic-data}
 
 * JavaScriptのデプロイメントに変更は必要ありません。
 
 * 新しいUltimate インスタンスでドメインを有効にします。
 
-* 必要に応じて、履歴 web データを移行および再処理するためのチケットを送信します。
+* 必要に応じて、チケットを送信して過去のweb データを移行および再処理します。
 
-* 広告の統合は変更されませんが、Ultimateで必ず再接続してください。 その前に、階層テナントの広告アカウントを切断していることを確認してください。
+* 広告の統合機能は変更されませんが、Ultimateで再度接続することを忘れないでください。 その前に、Tier テナントの広告アカウントの接続を解除していることを確認してください。
 
 >[!NOTE]
 >
->広告コストの履歴データはインポートされません。 広告アカウントが再接続された後に進む広告コストデータのみをインポートします。
+>過去の広告コストのデータはインポートされません。 広告アカウントが再接続された後にのみ、広告コストデータを読み込みます。
 
 ### エンタープライズデータ接続 {#enterprise-data-connection}
 
-CRM 接続やMarketo Engage接続など、AEPのすべてのソースデータ接続を再実装する。
+CRM接続やMarketo Engage接続を含む、あらゆるソースデータ接続をAEPに再実装します。
 
 ## データ変換 {#data-transformation}
 
-* リードとアカウントのマッチングおよび予測エンゲージメントスコアを含むAccount-Based Marketing機能は、Ultimateでは使用できません。
+* リードとアカウントのマッチングや予測エンゲージメントスコアなどのAccount-Based Marketing機能は、Ultimateでは利用できません。
 
-   * ただし、AEPからリードとアカウントのマッチング結果を読み込んで、プラットフォーム内で使用することはできます。
+  * ただし、AEPを通じてリードとアカウントの照合結果を読み込み、プラットフォーム内で使用することはできます。
 
-* Ultimateでは、直接 CRM 連携がないので、CRM の履歴ステージ遷移は直接読み取られるのではなく、推論されます。
+* Ultimateでは、CRMとの直接の連携がないので、CRMの過去のステージの移行は、直接読み取るのではなく推測されます。
 
-   * 商談レコードとタイムスタンプを読み取って現在のステージを確認し、過去のステージを推測します。
+  * 商談レコードとタイムスタンプを読み取り、現在のステージを確認し、過去のステージを推測します。
 
 ## レポート {#reporting}
 
-* Ultimateはデータを CRM にプッシュしません。
+* UltimateがCRMにデータをプッシュしない。
 
-   * データを CRM にプッシュする場合は、カスタム ETL パイプラインを使用してMarketo Measure Snowflakeから CRM にデータを抽出します。 CRM でカスタムデータモデルを設定する必要があります。
+  * CRMにデータをプッシュする場合は、Marketo Measure SnowflakeからCRMにデータを抽出するために、カスタム ETL パイプラインが必要です。 CRMでカスタムデータモデルを設定する必要があります。
 
-* すべての Discover ダッシュボードは、アトリビューション AI ダッシュボードが追加された、階層型ソリューションと同じです。
+* すべての「もっと知る」ダッシュボードは、アトリビューション AI ダッシュボードが追加され、階層化されたソリューションと同じままです。

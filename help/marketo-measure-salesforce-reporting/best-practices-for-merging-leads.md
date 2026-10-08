@@ -3,13 +3,17 @@ description: Marketo Measure ユーザー向けリード結合のベストプラ
 title: リードのマージのベストプラクティス
 exl-id: d9293ed7-a794-4e52-a269-20a7fb36ce50
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 7%
-
 ---
-
 # リードのマージのベストプラクティス {#best-practices-for-merging-leads}
 
 [!DNL Salesforce]でリードを結合する場合は、データが失われないように常に注意することが最善です。

@@ -1,15 +1,23 @@
 ---
-description: '''[!DNL Marketo Measure] Ultimate データ整合性の要件 –  [!DNL Marketo Measure]'''
+description: '''[!DNL Marketo Measure] Ultimate データ整合性の要件 – [!DNL Marketo Measure]'''
 title: '[!DNL Marketo Measure] Ultimate のデータ整合性要件'
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1702'
 ht-degree: 76%
-
 ---
-
 
 # [!DNL Marketo Measure] Ultimate のデータ整合性要件 {#marketo-measure-ultimate-data-integrity-requirement}
 
@@ -460,8 +468,8 @@ ht-degree: 76%
       <td>いいえ</td>
       <td>
         <p>E.g. - 123@999-abc-888.Marketo。</p>
-        <p>sourceAccountKey フィールドのセットは、真の取引先責任者レコード（アカウントにリンクされた担当者レコードとして定義）に対してのみ「必須」です。 見つからない場合は、データセットは却下されませんが、属性の結果は表示されません。</p>
-        <p>personComponents は配列ですが、Marketo Measure は最初の要素 personComponents[0] のみを受け取ります</p>
+        <p>sourceAccountKey フィールドのセットは、true Contact レコード（アカウントにリンクされた人物レコードとして定義）に対してのみ「必須」です。 見つからない場合でもデータセットが却下されることはありませんが、アトリビューション結果が正確でなくなります。</p>
+        <p>personComponents は配列ですが、Marketo Measure では最初の要素personComponents[0] のみを使用します。</p>
       </td>
     </tr>
     <tr>
@@ -647,7 +655,7 @@ ht-degree: 76%
       <td></td>
     </tr>
     <tr>
-      <td colspan="7"><strong>商談取引先責任者のロール（商談取引先責任者のロールを属性の購買グループとして使用するプランの場合にのみ必要）</strong></td>
+      <td colspan="7"><strong>商談取引先責任者のロール（アトリビューションの購買グループとして商談取引先責任者のロールを使用する予定がある場合にのみ必要）</strong></td>
     </tr>
     <tr>
       <td rowspan="16">XDM ビジネス商談担当者の関係</td>
@@ -890,7 +898,7 @@ ht-degree: 76%
 
 ## 通貨コンバージョンデータ要件 {#currency-conversion-data-requirements}
 
-**既定の通貨**: Marketo Measureでは、すべての収益とコストがレポート時に既定の通貨に変換されます。 コンバージョン率が1の、ターゲット通貨自体に対して同じ日付カバレッジ（USDからUSDなど）を持つ1つのレコードが必要です。
+**既定の通貨**: Marketo Measureでは、すべての収益とコストがレポート時に既定の通貨に変換されます。 コンバージョン率が1の目標通貨自体（USDからUSDなど）に対して、同じ日付カバレッジを持つ1つのレコードが必要です。
 
 **コンバージョン率**：各（ソース通貨、ターゲット通貨）ペアは、異なる日付期間に複数のコンバージョン率を持つことができます。 Salesforce DatedConversionRate オブジェクトに従って、0001-01-01から9999-12-31までの全期間をレートでカバーする必要があります。
 
@@ -1020,7 +1028,7 @@ ht-degree: 76%
     </tr>
     <tr>
       <td></td>
-      <td>キャンペーン進行状況のステータスを変更済み</td>
+      <td>キャンペーン進行状況内のステータスが変更された</td>
       <td>leadOperation.campaignProgression.campaignKey.sourceKey</td>
       <td>文字列</td>
       <td></td>
@@ -1077,7 +1085,7 @@ ht-degree: 76%
     <tr>
       <td>リードのコンバージョン</td>
       <td>leadOperation.convertLead</td>
-      <td>マーケティングリードが営業ユーザに割り当てられた営業資格を持つ取引先責任者に変換される場合に使用</td>
+      <td>マーケティングリードが営業担当者に割り当てられた営業資格を持つ取引先責任者に変換される場合に使用</td>
     </tr>
     <tr>
       <td>注目のアクション</td>
@@ -1087,22 +1095,22 @@ ht-degree: 76%
     <tr>
       <td>フォームの入力</td>
       <td>web.formFilledOut</td>
-      <td>担当者が web ページ上のフォームに入力する際に、詳細をキャプチャするために使用</td>
+      <td>人物が web ページ上のフォームに入力する際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>メールの配信停止</td>
       <td>directMarketing.emailUnsubscribed</td>
-      <td>担当者がメールから購読解除する際に、詳細をキャプチャするために使用</td>
+      <td>人物がメールから購読解除する際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>メールを開く</td>
       <td>directMarketing.emailOpened</td>
-      <td>担当者がマーケティングメールを開く際に、詳細をキャプチャするために使用</td>
+      <td>人物がマーケティングメールを開く際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>メールをクリック</td>
       <td>directMarketing.emailClicked</td>
-      <td>担当者がマーケティングメール内のリンクをクリックする際に、詳細をキャプチャするために使用</td>
+      <td>人物がマーケティングメール内のリンクをクリックする際に、詳細をキャプチャするために使用</td>
     </tr>
     <tr>
       <td>進行状況のステータスの変更</td>
@@ -1112,12 +1120,12 @@ ht-degree: 76%
     <tr>
       <td>エンゲージメントプログラムへの追加（育成への追加）</td>
       <td>leadOperation.addToCampaign</td>
-      <td>特定のキャンペーンに担当者を追加するために使用</td>
+      <td>特定のキャンペーンに人物を追加するために使用</td>
     </tr>
   </tbody>
 </table>
 
-上記の表でサポートされていないイベントタイプに対して、「関心を引くモーメント」イベントタイプを使用します。 サブタイプ「注目のアクション」を示すカスタムフィールドを追加します。
+上記の表でサポートされていないイベントタイプに対して、「注目のアクション」イベントタイプを使用します。 サブタイプ「注目のアクション」を示すカスタムフィールドを追加します。
 
 ## データ検査のクエリ例 {#query-examples-for-data-inspection}
 
@@ -1127,9 +1135,9 @@ ht-degree: 76%
 
 personType フィールドには、「リード」または「取引先責任者」の値のみが存在し、null 値は存在しないと想定します。
 
-すべての「取引先責任者」担当者レコードに対して、アカウント外部キーが存在すると想定します。
+すべての「取引先責任者」人物レコードに対して、アカウント外部キーが存在すると想定します。
 
-「リード」担当者レコードの場合、アカウント外部キーは存在せず、必須ではありません。 「リード」担当者レコードを「取引先責任者」担当者レコード（推奨）として取り込む場合、その担当者レコードのアカウント外部キーは不要です。
+「リード」人物レコードの場合、アカウント外部キーは存在せず、必須ではありません。 「リード」人物レコードを「取引先責任者」人物レコード（推奨）として取り込む場合、そのような人物レコードのアカウント外部キーは不要です。
 
 ### XDM ビジネスアカウント {#xdm-business-account}
 
@@ -1378,7 +1386,7 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 フィールドマッピングで計算フィールドを使用して、フィールドをデフォルトで NULL 以外の値に設定することをお勧めします。 次に 2 つの例を示します。
 
 * 一部の商談レコードの`opportunityName`がnullの場合、フィールドマッピングで次の計算フィールドを作成して使用します
-   * `iif(name != null && trim(name) != "", name, "Unknown")`
+  * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * 一部のエクスペリエンスイベントレコードの`leadOperation.campaignProgression.campaignID`がnullの場合は、フィールドマッピングで次の計算フィールドを作成して使用します
-   * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
+  * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

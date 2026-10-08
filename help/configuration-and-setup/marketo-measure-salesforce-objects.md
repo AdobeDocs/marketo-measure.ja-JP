@@ -3,13 +3,20 @@ description: '[!DNL Marketo Measure] Salesforce オブジェクト - [!DNL Marke
 title: '[!DNL Marketo Measure] Salesforce オブジェクト'
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 83%
-
 ---
-
 # [!DNL Marketo Measure] Salesforce オブジェクト {#marketo-measure-salesforce-objects}
 
 >[!NOTE]
@@ -42,7 +49,7 @@ BT 関連リストには、リードまたは取引先責任者に属するす�
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-[!UICONTROL Buyer Attribution Touchpoint] オブジェクトは、商談に関連する取引先責任者のマーケティングインタラクションのストーリーを示します。 マーケティングタッチポイントに関連する&#x200B;*アトリビューション*&#x200B;データが表示されます。 このオブジェクトを使用すると、各マーケティングタッチポイントに起因する収益クレジットの数を確認できます。 使用しているアトリビューションモデルのタイプによって、タッチポイントに起因する収益の割合が決まります。
+[!UICONTROL Buyer Attribution Touchpoint] オブジェクトは、商談に関連する取引先責任者のマーケティングインタラクションのストーリーを示します。 マーケティングタッチポイントに関連する&#x200B;*アトリビューション*&#x200B;データが表示されます。 このオブジェクトを使用すると、各マーケティング顧客接点に起因する収益クレジットの金額を確認できます。 使用しているアトリビューションモデルのタイプによって、タッチポイントに起因する収益の割合が決まります。
 
 Buyer Attribution Touchpoints（BAT）は、Buyer Touchpoint（BT）のデータを持つ取引先責任者に関連する商談が作成された場合にのみ作成されます。 BAT は商談がなければ作成されません。 商談が作成されると、BAT オブジェクトは商談の「[!DNL Salesforce] *金額*」フィールドを使用して、タッチポイントに起因する収益を把握します。
 
@@ -50,7 +57,7 @@ Buyer Attribution Touchpoints（BAT）は、Buyer Touchpoint（BT）のデータ
 
 ![&#x200B; カスタム金額フィールドを使用する場合、ワークフローを作成する必要があります](assets/connect-salesforce-1.png)
 
-BAT オブジェクトは、[!UICONTROL 商談]、[!UICONTROL 取引先責任者]および[!UICONTROL アカウント]オブジェクトに関連リストとして表示されます。 このリストには、商談に属する属性データを持つすべてのタッチポイントが表示されます。 Buyer Attribution Touchpoint ID をクリックすると、Buyer Attribution Touchpoint の詳細ページに移動します。 ここでは、より具体的なアトリビューションデータと、タッチポイント元に関する情報（Buyer Touchpoint オブジェクトから提供されるものと同様）を確認できます。
+BAT オブジェクトは、[!UICONTROL 商談]、[!UICONTROL 取引先責任者]および[!UICONTROL アカウント]オブジェクトに関連リストとして表示されます。 このリストには、商談に属するアトリビューションデータを持つすべての顧客接点が表示されます。 Buyer Attribution Touchpoint ID をクリックすると、Buyer Attribution Touchpoint の詳細ページに移動します。 ここでは、より具体的なアトリビューションデータと、タッチポイント元に関する情報（Buyer Touchpoint オブジェクトから提供されるものと同様）を確認できます。
 
 ## [!DNL Marketo Measure] 担当者 {#marketo-measure-person}
 
@@ -72,7 +79,7 @@ A/B テストを [!DNL Optimizely] または VWO（Visual Web Optimizer）を使
 
 ## [!DNL Marketo Measure] フィールド {#marketo-measure-fields}
 
-[!DNL Marketo Measure] JavaScriptによってキャプチャされたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。 特定のフィールドは、特定のオブジェクトにのみ存在します。 [[!DNL Marketo Measure] フィールド ][&#128279;](/help/glossary.md)の[用語集と、関連する [!DNL Marketo Measure]  オブジェクト &#x200B;](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)の ビジュアライゼーションを確認できます。
+[!DNL Marketo Measure] JavaScriptによってキャプチャされたデータは、[!DNL Marketo Measure] オブジェクト内のカスタム [!DNL Marketo Measure] フィールドにプッシュされます。 特定のフィールドは、特定のオブジェクトにのみ存在します。 [[!DNL Marketo Measure] フィールド ]&#x200B;[&#128279;](/help/glossary.md)の[用語集と、関連する [!DNL Marketo Measure]  オブジェクト &#x200B;](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md)の ビジュアライゼーションを確認できます。
 
 ## [!DNL Marketo Measure] レポートとダッシュボード {#marketo-measure-reports-and-dashboards}
 

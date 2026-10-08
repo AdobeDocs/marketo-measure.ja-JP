@@ -1,24 +1,35 @@
 ---
-description: '[!DNL Marketo Measure] Ultimateの概要 –  [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Ultimateの概要 – [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Ultimate の概要'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
+TQID: 'https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: '726'
 ht-degree: 97%
-
 ---
-
 # [!DNL Marketo Measure] Ultimate の概要 {#marketo-measure-ultimate-overview}
 
 [!DNL Marketo Measure]（以前の Bizible）は、マーケターに、収益の促進と、会社の投資回収率の最大化に最も効果的なマーケティング活動に関するインサイトを提供します。 [!DNL Marketo Measure] は、チャネルパフォーマンスを自動的にトラッキングしてレポートする、マーケティングアトリビューションソリューションです。顧客エンゲージメントを最も推進しているチャネルを可視化し、それに応じてマーケティング費用を最適化できます。
@@ -26,9 +37,9 @@ ht-degree: 97%
 [!DNL Marketo Measure Ultimate] には、次の追加機能が含まれています。
 
 * ほとんどすべてのデータソースだけでなく、同じタイプの複数のデータソースからも取り込み、すべてのデータをアトリビューションのために取り込みます。
-   * Salesforce や Dynamics だけでなく、ほとんどすべての CRM で使用できます。
-   * 複数の CRM インスタンスや MAP インスタンスを 1 つの [!DNL Marketo Measure] インスタンスに接続します。
-   * サードパーティのウェビナー登録および参加データを取り込みます。
+  * Salesforce や Dynamics だけでなく、ほとんどすべての CRM で使用できます。
+  * 複数の CRM インスタンスや MAP インスタンスを 1 つの [!DNL Marketo Measure] インスタンスに接続します。
+  * サードパーティのウェビナー登録および参加データを取り込みます。
 
 * フィールドマッピングと変換機能を通じて、優れた柔軟性でデータを変換し、適切なデータ形状を確保します。
 
@@ -54,7 +65,7 @@ ht-degree: 97%
 
 **デフォルトの通貨設定**
 
-[!DNL Marketo Measure Ultimate] では、ユーザが変更するまでデフォルトの通貨を USD に設定します。 新しいデフォルト通貨を設定すると、再処理せずにデータが更新されます。 選択した通貨がターゲット ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
+[!DNL Marketo Measure Ultimate] では、ユーザーが変更するまでデフォルトの通貨を USD に設定します。 新しいデフォルト通貨を設定すると、再処理せずにデータが更新されます。 選択した通貨がターゲット ISO コードとして存在する限り、コンバージョン率を送信する必要はありません。
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -90,7 +101,7 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 カスタムステージは、「オープン」セクションに対してのみ定義できます。
 ステージマッピングに CRM ステージが自動的に含まれなくなりました。
 
-次の 4 つのビルトインのステージは、ルールを使用してマッピングする必要があります（他の 2 つのマッピングルールである、不成立となったリードとコンバージョン済みリードはオプションです）。
+次の 4 つのビルトインのステージは、ルールを使用してマッピングする必要があります（他の 2 つのステージである「不成立となったリード」と「コンバージョン済みリード」のマッピングルールはオプションです）。
 
 * オープンなリード
 * 不成立となった商談
@@ -99,11 +110,11 @@ AEP で [!DNL Marketo Measure] 宛先データフローを作成する前に、[
 
 ルール条件は、データセットに固有です。 ステージマッピングルールは、不成立となったリードとコンバージョン済みリードを除くすべてのデータセットとすべてのステージに対して作成する必要があります。
 
-ファネル、ブーメラン、カスタムモデルでは、選択はありません。 ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。 サポートするステージの数については、カスタムステージでは 15 個、ビルトインのステージでは 6 個の制限があります。
+ファネル／ブーメラン／カスタムモデルの選択はありません。 ファネル、ブーメラン、カスタムモデルでは、すべてのステージが選択されます。 サポートするステージの数については、カスタムステージでは 15 個、ビルトインのステージでは 6 個の制限があります。
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 
-キャンペーンメンバーのタッチポイントルールとアクティビティのタッチポイントルールは、データセットに固有です。
+キャンペーンメンバーの顧客接点ルールとアクティビティの顧客接点ルールは、データセットに固有です。
 
 ![](assets/marketo-measure-ultimate-overview-7.png)
 

@@ -1,37 +1,41 @@
 ---
-description: A/B テスト Marketo Measure ユーザー向けの設定およびレポートガイダンス
+description: A/B テスト Marketo Measureユーザー向けの設定とレポート作成ガイダンス
 title: A/B テストの設定とレポート
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 348f752d-f464-5239-ab5e-c1faaeafb983
+    internal-label: A/B Testing
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 75%
-
 ---
-
 # A/B テストの設定とレポート {#a-b-testing-set-up-and-reporting}
 
-[!DNL Marketo Measure] A/B テストの統合を使用すると、[Optimizely](https://www.optimizely.com/){target="_blank"} および VWO サイト実験の売上高の影響を追跡できます。 この記事では、[!DNL Marketo Measure] A/B テストセクションをリード、[!UICONTROL 取引先責任]、ケース、[!UICONTROL 商談]のページレイアウトに追加する方法について説明します。 また、[!DNL Marketo Measure] A/B レポートタイプの実行に関する一般的なレポート作成方法と、推奨事項についても説明します。
+[!DNL Marketo Measure] A/B テスト統合を使用すると、[Optimizer](https://www.optimizely.com/){target="_blank"}およびVWO サイト実験の収益への影響を追跡できます。 この記事では、[!DNL Marketo Measure] A/B テストセクションをリード、[!UICONTROL 取引先責任]、ケース、[!UICONTROL 商談]のページレイアウトに追加する方法について説明します。 また、[!DNL Marketo Measure] A/B レポートタイプの実行に関する一般的なレポート作成方法と、推奨事項についても説明します。
 
 ## 設定 {#set-up}
 
-リード、連絡先、ケース、オポチュニティに関する [!DNL Marketo Measure] A/B テストのセクションを追加します。[!DNL Marketo Measure] A/B テストの統合により、（Optimizely[&#128279;](https://www.optimizely.com/){target="_blank"} および [VWO](https://vwo.com/){target="_blank"} サイト実験の売上高の影響を追跡  きます。
+リード、取引先責任者、ケース、商談に「[!DNL Marketo Measure] A/B テスト」セクションを追加します。[!DNL Marketo Measure] A/B テスト統合を使用すると、[Optimizer](https://www.optimizely.com/){target="_blank"}および[VWO](https://vwo.com/){target="_blank"}のサイト実験の収益への影響を追跡できます。
 
 1. パッケージ [!DNL Marketo Measure] v3.9 以降を使用していることを確認してください。 これを行うには、[!UICONTROL Salesforce]／[!UICONTROL 設定]／[!UICONTROL インストール済みパッケージ]に移動します。
 1. リードページレイアウトを編集し、**[!DNL Marketo Measure]A/B テスト** 関連リストをページに追加します。
 
-   ![1. リードページのレイアウトを編集し、Marketo Measureを追加する &#x200B;](assets/advanced-features-2.png)
+   ![1. リードページレイアウトを編集し、Marketo Measure](assets/advanced-features-2.png)を追加します
 
 1. 「[!UICONTROL レンチ]」ボタンをクリックします。 選択したフィールドのリストからストックの「ID」フィールドを削除します。 「**[!UICONTROL 実験]**」、「**[!UICONTROL バリエーション]**」、「**[!UICONTROL DateReported]**」フィールドを追加します。 「[!UICONTROL 並べ替え基準]」を「**[!UICONTROL 報告日]**」に変更し、ドロップダウンで「**[!UICONTROL 降順]**」を選択します。
 
-   ![1. 「レンチ」ボタンをクリックします。 在庫「ID」フィールドを &#x200B;](assets/advanced-features-3.png) から削除します。
+   ![1. レンチボタンをクリックします。 &#x200B;](assets/advanced-features-3.png)から在庫「ID」フィールドを削除します
 
 1. [!UICONTROL ボタン]で、「**[!UICONTROL 新規]**」のチェックを外します。
 
-   ![1. 「ボタン」で、「新規」のチェックを外します。](assets/advanced-features-7.png)
+   ![1. ボタンの下で、「新規」のチェックを外します。](assets/advanced-features-7.png)
 
-1. 機能を有効にするには、[!DNL Marketo Measure] 担当者または [Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} にお問い合わせください。
+1. この機能を有効にするには、[!DNL Marketo Measure]担当者または[Marketo サポート &#x200B;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}にお問い合わせください。
 
 ## レポート {#reporting}
 
@@ -42,7 +46,7 @@ ht-degree: 75%
 * リードに関する [!DNL Marketo Measure] A/B テスト
 * 商談に関する [!DNL Marketo Measure] A/B テスト
 
-![Opportunity を使用したMarketo Measure A/BTest](assets/advanced-features-8.png)
+![商談を含むMarketo Measure A/BTests](assets/advanced-features-8.png)
 
 A/B レポートタイプは、A/B テストの対象となったリード、取引先責任者、または商談に関するレポートに使用します。 これらのレポートには、A/B テストの対象となった商談に結び付けられた売上高も示されます。
 
@@ -61,8 +65,8 @@ Optimizely/VWO は、マーケティングチャネルではなく、コンテ�
 
 リードに関する **[!DNL Marketo Measure]A/B テスト**
 
-![&#x200B; リードによるMarketo Measure A/B テスト &#x200B;](assets/advanced-features-9.png)
+![&#x200B; リードとのMarketo Measure A/B テスト &#x200B;](assets/advanced-features-9.png)
 
 商談に関する **[!DNL Marketo Measure]A/B テスト**
 
-![&#x200B; オポチュニティを使用したMarketo Measure A/B テスト &#x200B;](assets/advanced-features-10.png)
+![商談を含むMarketo Measure A/B テスト &#x200B;](assets/advanced-features-10.png)

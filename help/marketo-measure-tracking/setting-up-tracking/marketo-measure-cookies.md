@@ -4,19 +4,23 @@ description: '[!DNL Marketo Measure] Cookie - [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] クッキー'
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-TQID: https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY
+TQID: 'https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 97%
-
 ---
-
 # Marketo Measure の Cookie {#marketo-measure-cookies}
 
 [!DNL Marketo Measure] の JavaScript をランディングページに適用する際に、サイトに読み込まれる様々な [!DNL Marketo Measure] の Cookie について説明します。 この情報は、実装時に web 開発チームに役立つ場合があります。
@@ -32,8 +36,8 @@ ht-degree: 97%
     <th>cookie タイプ</th>
     <th>目的</th>
     <th>有効期限</th>
-    <th>セキュリティで保護されたフラグが設定されていますか？<br></th>
-    <th>HTTP のみのフラグが設定されていますか？</th>
+    <th>Secure フラグが設定されていますか？<br></th>
+    <th>HTTPOnly フラグが設定されていますか？</th>
     <th>cookie セッター</th>
   </tr>
 </thead>
@@ -41,7 +45,7 @@ ht-degree: 97%
   <tr>
     <td>_biz_uid</td>
     <td>ファーストパーティ</td>
-    <td>現在のドメインでユーザを一意に識別します。</td>
+    <td>現在のドメインでユーザーを一意に識別します。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -59,7 +63,7 @@ ht-degree: 97%
   <tr>
     <td>_biz_flagsA</td>
     <td>ファーストパーティ</td>
-    <td>フォーム送信、クロスドメイン移行、ビュースルーピクセル、トラッキングのオプトアウトステータスなど、様々なユーザ情報を保存する cookie です。</td>
+    <td>フォーム送信、クロスドメイン移行、ビュースルーピクセル、トラッキングのオプトアウトステータスなど、様々なユーザー情報を保存する cookie です。</td>
     <td>1 年</td>
     <td>いいえ</td>
     <td>いいえ</td>
@@ -95,7 +99,7 @@ ht-degree: 97%
   <tr>
     <td>_biz_su</td>
     <td>ファーストパーティ</td>
-    <td>複数のドメイン間でユーザを識別するユニバーサルユーザ ID です。ITP 制限をバイパスする統合を備えたテナントにのみ適用されます。</td>
+    <td>複数のドメイン間でユーザーを識別するユニバーサルユーザー ID です。ITP 制限をバイパスする統合を使用しているテナントにのみ適用されます。</td>
     <td>1 年</td>
     <td>はい</td>
     <td>いいえ</td>
@@ -122,6 +126,6 @@ ht-degree: 97%
 </tbody>
 </table>
 
-JavaScript の設定中に Web Application Firewall（WAF）の警告がトリガーされた場合、ユーザは、次の例に示すように、その WAF ルールを無効にするか、Cookie を許可リストに登録することができます。
+JavaScript の設定中に web アプリケーションファイアウォール（WAF）の警告がトリガーされた場合、ユーザは、次の例に示すように、その WAF ルールを無効にするか、Cookie を許可リストに登録することができます。
 
 ![](assets/marketo-measure-cookies-1.png)

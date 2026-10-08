@@ -2,20 +2,21 @@
 description: Marketo Measure ユーザー向けのシングルサインオンガイダンス
 title: シングルサインオン
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 54%
-
 ---
-
 # シングルサインオン {#single-sign-on}
 
-SSO（シングルサインオン）の SAML（Security Assertion Markup Language）により、ユーザは [!DNL Marketo Measure] アプリにログインする際に会社の ID プロバイダーを通じて認証できます。 SSO を使用すると、ユーザは一度認証するだけで、個別のアプリを認証する必要がなくなります。 すべてのユーザが組織内に [!DNL Salesforce] または [!DNL Google] アカウントを持っているとは限りません。そのため、SAML はエンタープライズのお客様にとって必須です。 規模を拡大するために、[!DNL Marketo Measure] は会社 ID プロバイダーをサポートできる SAML ソリューションを開発しました。
+SSO（シングルサインオン）の SAML（Security Assertion Markup Language）により、ユーザは [!DNL Marketo Measure] アプリにログインする際に会社の ID プロバイダーを通じて認証できます。 SSO を使用すると、ユーザーは一度認証するだけで、個別のアプリを認証する必要がなくなります。 すべてのユーザが組織内に [!DNL Salesforce] または [!DNL Google] アカウントを持っているとは限りません。そのため、SAML はエンタープライズのお客様にとって必須です。 規模を拡大するために、[!DNL Marketo Measure] は会社 ID プロバイダーをサポートできる SAML ソリューションを開発しました。
 
 >[!CAUTION]
 >
->この記事では、シングルサインオン（SSO）と高度な CRM ユーザ管理について説明します。 アカウントを **2020年9月10日（PT）以降**&#x200B;にプロビジョニングした場合は、SSO と ID 管理が [&#x200B; [!DNL Marketo Measure]  統合のために Adobe Admin Console](/help/implementation-guide.md) 内で設定されるので、この記事は無視してください。
+>この記事では、シングルサインオン（SSO）と高度な CRM ユーザー管理について説明します。 アカウントを **2020年9月10日（PT）以降**&#x200B;にプロビジョニングした場合は、SSO と ID 管理が [&#x200B; [!DNL Marketo Measure]  統合のために Adobe Admin Console](/help/implementation-guide.md) 内で設定されるので、この記事は無視してください。
 
 >[!NOTE]
 >
@@ -23,8 +24,8 @@ SSO（シングルサインオン）の SAML（Security Assertion Markup Languag
 
 ## 要件 {#requirements}
 
-* [!DNL Marketo Measure] アプリの AccountAdmin 権限を持つユーザ
-* お客様の ID プロバイダーへの管理アクセス権を持つユーザ
+* [!DNL Marketo Measure] アプリの AccountAdmin 権限を持つユーザー
+* お客様の ID プロバイダーへの管理者アクセス権を持つユーザー
 
 ## はじめに {#getting-started}
 
@@ -60,9 +61,9 @@ ID プロバイダー設定の接続設定を入力します
 
 ユーザのトークンの有効期限を分単位で設定します。
 
-    a.  [!DNL Marketo Measure]  には、1～1440 分の整数を指定できます。 ユーザのセッション時間が経過すると、新しいページに移動したユーザはログオフされます。
+    a.  [!DNL Marketo Measure]  には、1～1440 分の整数を指定できます。 ユーザーのセッション時間が経過すると、新しいページに移動したユーザーはログオフされます。
 
-ユーザ属性設定を行って、それぞれの名、姓、メールアドレスにマッピングします。
+ユーザ属性設定を行い、それぞれの名、姓、メールアドレスにマッピングします。
 
     a. SAML属性を入力すると、 [!DNL Marketo Measure] は渡された情報によってユーザーを認識できます。
     
@@ -114,16 +115,16 @@ ID プロバイダー設定の接続設定を入力します
 
 >[!NOTE]
 >
->SSO を設定した後は、[!DNL Marketo Measure] アプリケーション内にユーザを追加する必要はなくなります。 ユーザプロビジョニングは、ID プロバイダー内で直接処理する必要があります。
+>SSO を設定した後は、[!DNL Marketo Measure] アプリケーション内にユーザを追加する必要はなくなります。 ユーザープロビジョニングは、ID プロバイダー内で直接処理する必要があります。
 
 ## CRM ユーザ（詳細設定） {#crm-users-advanced-setup}
 
-デフォルトでは、すべてのアカウントは CRM 資格情報を使用して [!DNL Marketo Measure] アプリケーションにアクセスできます。 場合によっては、アカウント所有者はアクセスを特定のロールに制限し、アクティブな CRM ライセンスを持つすべてのユーザにはアクセスを公開しない必要があります。 詳細設定を使用すると、CRM のロールとグループを [!DNL Marketo Measure] ユーザー権限にマッピングできます。
+デフォルトでは、すべてのアカウントは CRM 資格情報を使用して [!DNL Marketo Measure] アプリケーションにアクセスできます。 場合によっては、アカウント所有者がアクセスを特定のロールに制限し、アクティブな CRM ライセンスを持つすべてのユーザに開放しないようにする必要があります。 詳細設定を使用すると、CRM のロールとグループを [!DNL Marketo Measure] ユーザー権限にマッピングできます。
 
-ロールまたはグループをマッピングしていない場合、デフォルト設定では、CRM 内のすべてのアクティブなライセンスに標準ユーザアクセス権が付与されます。
+ロールまたはグループをマッピングしていない場合、デフォルト設定では、CRM 内のすべてのアクティブなライセンスに標準ユーザーアクセスが付与されます。
 
-* [!DNL Marketo Measure] 標準ユーザ：[!DNL Marketo Measure] アプリケーションへの読み取り専用アクセス権が必要なユーザにロールまたはグループの値を指定します。
-* [!DNL Marketo Measure] アカウント管理ユーザ：[!DNL Marketo Measure] アプリケーションへの管理アクセス権が必要なユーザにロールまたはグループの値を指定します。 つまり、ロールには、アカウントに関連する設定を変更するアクセス権があります。
+* [!DNL Marketo Measure] 標準ユーザー：[!DNL Marketo Measure] アプリケーションへの読み取り専用アクセス権が必要なユーザーにロールまたはグループの値を指定します。
+* [!DNL Marketo Measure] アカウント管理ユーザー：[!DNL Marketo Measure] アプリケーションへの管理アクセス権が必要なユーザーにロールまたはグループの値を指定します。 つまり、そのロールには、アカウントに関連する構成や設定を変更するアクセス権があります。
 
 複数のロールまたはグループを 1 つのロールにマッピングする必要がある場合は、各値をコンマで区切って入力します。
 

@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874771
-description: データ ローダーを使用して [!DNL Marketo Measure]  カスタム金額フィールド - [!DNL Marketo Measure]を更新する
+description: データ ローダーを使用して[!DNL Marketo Measure] カスタム金額フィールドを更新しています – [!DNL Marketo Measure]
 title: データローダーを使用したMarketo Measure カスタム金額フィールドの更新
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/5guAGWeWMxJPm-vj8DYyHz2onjh3ERfzKtLcXNr0MM0
+TQID: 'https://experienceleague.adobe.com/5guAGWeWMxJPm-vj8DYyHz2onjh3ERfzKtLcXNr0MM0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 197
+source-wordcount: '198'
 ht-degree: 2%
-
 ---
-
 # データ ローダーを使用して[!DNL Marketo Measure] カスタム金額フィールドを更新する {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure]では、カスタム収益フィールドを使用する場合に商談の値を更新する便利なオプションとして、データローダーを使用することをお勧めします（[!DNL Marketo Measure]では「金額」フィールドを使用します）。 スクリプトでは、[!DNL Marketo Measure] スクリプトの実行中にすべてのSalesforce検証ルールを無効にする必要があるため、[!DNL Marketo Measure]更新スクリプトを使用するよりもData Loaderを使用することをお勧めします。

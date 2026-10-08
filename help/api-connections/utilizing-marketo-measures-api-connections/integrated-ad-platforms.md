@@ -4,21 +4,25 @@ description: 統合広告プラットフォーム - [!DNL Marketo Measure]
 title: 統合された広告プラットフォーム
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0
+TQID: 'https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1793
+source-wordcount: '1793'
 ht-degree: 1%
-
 ---
-
 # 統合された広告プラットフォーム {#integrated-ad-platforms}
 
 [!DNL Marketo Measure]には、Google AdWords、Microsoft BingAds、[!DNL Facebook]広告、DoubleClick Campaign ManagerとのAPI接続があります。 これらのAPI接続を通じて、[!DNL Marketo Measure]は簡単にデータを取得し、外部バイヤーアプリと共にCRMにプッシュできます。 コストやデータを手動でアップロードする必要はありません。 アカウントは、[!DNL Marketo Measure] アプリに接続して承認する必要があります。 [!DNL Marketo Measure]は、マーケティングコストをプラットフォームから自動的にダウンロードし、[!DNL Marketo Measure] アプリに読み込みます。 AdWords、BingAds、または[!DNL Facebook]広告の自動タグ付けを有効にするように選択した場合、[!DNL Marketo Measure]は自動的に広告のURLにそのパラメーターを追加します。
@@ -53,8 +57,8 @@ ht-degree: 1%
 * *オプション B*: サードパーティ リダイレクトが見つかりました。 トラッキング テンプレートにサードパーティのリダイレクトが見つかった場合、[!DNL Marketo Measure]は何もアクションを実行できません。 サードパーティシステムに[!DNL Marketo Measure] タグを手動で追加する必要があります。 サードパーティーリダイレクトの例としては、KenshooやMarinのような入札管理ツールがあります。 [入札管理ツールが [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}にどのような影響を与えるかについて詳しく説明します。
 
 * *オプション C*: トラッキングテンプレートが見つかりません。 [!DNL Marketo Measure]はすべての広告宛先URLを[!DNL Marketo Measure] パラメーター用にスキャンします。 スキャンに基づいて、次の場合：
-   * パラメーターが見つかりました：設定が完了しました。
-   * パラメーターが見つかりません：[!DNL Marketo Measure]は、そのパラメーターを広告宛先URLの末尾に追加します。 [!DNL Marketo Measure]は、作成してから2時間以内に新しい広告を追加します。 パラメーターはテンプレートに追加されないことに注意してください。
+  * パラメーターが見つかりました：設定が完了しました。
+  * パラメーターが見つかりません：[!DNL Marketo Measure]は、そのパラメーターを広告宛先URLの末尾に追加します。 [!DNL Marketo Measure]は、作成してから2時間以内に新しい広告を追加します。 パラメーターはテンプレートに追加されないことに注意してください。
 
 [[!DNL AdWords] 自動タグ付け機能](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}の詳細をご覧ください。
 

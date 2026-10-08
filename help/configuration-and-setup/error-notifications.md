@@ -3,13 +3,17 @@ description: Marketo Measure ユーザー向けのエラー通知ガイダンス
 title: エラー通知
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1944'
 ht-degree: 26%
-
 ---
-
 # エラー通知 {#error-notifications}
 
 以下は、アプリ内通知またはメールで受け取る可能性のあるエラーのリストです。 これらのいずれかを受け取った場合は、それぞれのトラブルシューティング手順に従います。 このトラブルシューティング手順で問題が解決しない場合は、[Marketo サポート](https://nation.marketo.com/t5/support/ct-p/Support)にお問い合わせください。
@@ -28,15 +32,15 @@ ht-degree: 26%
     </tr>
     <tr>
       <td>API_DISABLED</td>
-      <td>CRM の読み込み中に発生したエラー：API_DISABLED：このユーザの API 呼び出しが無効になっています</td>
-      <td>Marketo Measure ユーザの API 権限が無効になっています。</td>
+      <td>CRM の読み込み中に発生したエラー：API_DISABLED：このユーザーの API 呼び出しが無効になっています</td>
+      <td>Marketo Measure ユーザーの API 権限が無効になっています。</td>
       <td>Salesforce ドキュメントの <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">API アクセスを有効にする方法</a>を参照してください。</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
       <td>CRM の書き出し中に発生したエラー：PI_LIMIT_EXCEEDED</td>
       <td>CRM の API 制限（24 時間）を超えました。</td>
-      <td>API クレジット割り当ての調整については、CRM に関する次のドキュメントを参照してください。</p>
+      <td>API クレジット配分の調整については、CRM に関する次のドキュメントを参照してください。</p>
           <ul>
             <li><a href="https://learn.microsoft.com/ja-jp/dynamics365/fin-ops-core/dev-itpro/data-entities/service-protection-monitoring">Dynamics</a>
             </li>
@@ -163,7 +167,7 @@ ht-degree: 26%
     </tr>
     <tr>
       <td>INVALID_CURRENCY_ISO_CODE</td>
-      <td>広告の読み込み中に発生したエラー：INVALID_CURRENCY_ISO_CODE：通貨 XXX は、Marketo Measure ではサポートされていません。
+      <td>広告の読み込み中にエラーが発生しました：INVALID_CURRENCY_ISO_CODE：通貨 XXX は、Marketo Measure ではサポートされていません。
       <p>
       広告の読み込み中に発生したエラー：INVALID_CURRENCY_ISO_CODE : 1234 のアカウントの通貨 XXX は、Marketo Measure ではサポートされていません。</td>
       <td>サポートしていない通貨が検出されました。</td>
@@ -178,7 +182,7 @@ ht-degree: 26%
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>CRM の書き出し中に発生したエラー：MISSING_CONVERTED_LEAD_PERMISSION</td>
-      <td>Marketo Measure には変換済みリードの表示／編集権限がありません</td>
+      <td>Marketo Measure にコンバート済みリードの表示／編集権限がありません。</td>
       <td>CRMでこの権限を有効にする方法については、次のExperience League ドキュメントを参照してください<br/>
           <a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md"> コンバージョン済みリードを編集する権限を有効にする</a></td>
     </tr>
@@ -198,13 +202,13 @@ ht-degree: 26%
     </tr>
     <tr>
       <td>MISSING_ISREPLICATABLE_PERMISSION</td>
-      <td>CRM 読み込み中にエラーが発生しました：MISSING_REPLICATABLE_PERMISSION：Campaign に IsReplicatable 権限がありません</td>
+      <td>CRM 読み込み中にエラーが発生しました：MISSING_ISREPLICATEABLE_PERMISSION：Campaign に IsReplicateable 権限がありません。</td>
       <td>この権限は、Salesforce オブジェクトで Marketo Measure と Salesforce の同期を維持するために必要です。</td>
       <td>オブジェクトに対する複製可能な権限の設定については、Salesforce のサポートにお問い合わせください。</td>
     </tr>
     <tr>
       <td>MISSING_OBJECT_READ_PERMISSION</td>
-      <td>CRM 読み込み中にエラーが発生しました：MISSING_OBJECT_READ_PERMISSION：エンティティタイプキャンペーン：CRM エラーコード：MISSING_PERMISSION</td>
+      <td>CRM 読み込み中にエラーが発生しました：MISSING_OBJECT_READ_PERMISSION：エンティティタイプ 'Campaign'：CRM エラーコード：MISSING_PERMISSION</td>
       <td>Marketo Measure には、必要なオブジェクトに対する読み取り権限がありません。</td>
       <td rowspan="2">Marketo Measure に必要な権限に関するガイダンスについては、次のヘルプ記事を参照してください。
           <ul>

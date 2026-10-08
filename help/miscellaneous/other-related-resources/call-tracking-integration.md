@@ -1,21 +1,26 @@
 ---
 unique-page-id: 18874592
-description: コールトラッキング統合 –  [!DNL Marketo Measure]
+description: コールトラッキング統合 – [!DNL Marketo Measure]
 title: コールトラッキングの統合
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-TQID: https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE
+TQID: 'https://experienceleague.adobe.com/6-mDiLKLFk2x3Y2FzWxNjlm6BmLKNRDAObs3CYPvEgE'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 692
+source-wordcount: '694'
 ht-degree: 1%
-
 ---
-
 # コールトラッキングの統合 {#call-tracking-integration}
 
 [!DNL CallTrackingMetrics]との統合は、Web セッションと電話を統合することを目的としています。 電話は[!DNL Marketo Measure]へのフォーム送信として扱われます。 実際のフォーム送信がないため、web訪問としか見なされなかったweb セッションにクレジットを与えます。
@@ -76,7 +81,7 @@ CallTrackingMetricsは、これを機能させるためにいくつかの開発�
 
 まず、タスクを確認して、[!DNL BizibleId]が入力されていることを確認します。 価値がない場合は、その接点を作成することはできません。 これはCallTrackingMetricsでエスカレーションする必要があります。
 
-値がある場合は、すべてのweb セッションが30分のみとみなされることに注意してください。 Google広告が12:17pm （web サイト上のセッションの開始）にクリックされたが、電話が1:05pmまで発生しなかった場合、web セッションと電話は統合されません。 代わりに、[!DNL Marketo Measure]は、電話を追跡するために別の[!DNL Salesforce Task] タッチポイントを作成しますが、web セッションデータはありません。
+値がある場合は、すべてのweb セッションが30分のみとみなされることに注意してください。 Google広告が午後12時17分（web サイトのセッション開始）にクリックされたが、電話が午後1時5分まで発生しなかった場合、web セッションと電話は統合されません。 代わりに、[!DNL Marketo Measure]は、電話を追跡するために別の[!DNL Salesforce Task] タッチポイントを作成しますが、web セッションデータはありません。
 
 ![](assets/6.png)
 

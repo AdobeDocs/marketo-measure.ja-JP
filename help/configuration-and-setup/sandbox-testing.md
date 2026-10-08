@@ -3,18 +3,25 @@ description: Marketo Measure ユーザー向けのSalesforce サンドボック�
 title: Salesforce サンドボックスでのMarketo Measure統合のテスト
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 9%
-
 ---
-
 # Salesforce サンドボックスでのMarketo Measure統合のテスト {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 アドビは現在更新に取り組んでおり、ブランディングの変更はまもなく CRM に反映される予定です。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 現在アップデートを進めており、リブランディングはまもなくお客様の CRM に反映される予定です。
 
 [!DNL Marketo Measure]の主な機能の1つは、web サイト上のアクションを通じてデジタルマーケティング活動を追跡し、そのデータをリードと連絡先を通じて本番環境[!DNL Salesforce org]にプッシュする機能です。 ただし、通常、Sandbox統合内ではweb サイトから作成されたインバウンドリードはないため、データに注目するのは純粋にオフラインの観点からとなります。
 

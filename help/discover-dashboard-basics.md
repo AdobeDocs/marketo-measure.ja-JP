@@ -3,14 +3,18 @@ description: 「もっと知る」ダッシュボードインターフェイス�
 title: Discover ダッシュボードの基本
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-hidefromtoc: true
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 1%
-
+source-wordcount: '576'
+ht-degree: 5%
 ---
-
 # Discover ダッシュボードの基本 {#discover-dashboard-basics}
 
 この記事では、再設計されたインターフェイスの基本機能について説明し、データに容易にアクセスして解釈できるようにします。 フィルターペインのダイナミクスを詳しく説明し、ドリル機能、クロスフィルタリング、ツールヒントなど、強化されたレポート機能の複雑さを明らかにします。
@@ -21,10 +25,10 @@ ht-degree: 1%
 
 | 名前 | 説明 |
 | --- | --- |
-| フィルター切り替えボタン | フィルターペインを開くか閉じるかを切り替えます。![\| --- \| --- \|](assets/discover-basics-9.png) |
-| 検索バー | フィルターパネルの上部にある検索を使用して、特定のフィルターを検索します。 各フィルターには、独自の検索バーもあります。![\| --- \| --- \|](assets/discover-basics-10.png) |
-| フィルターボタンをクリア | フィルターをクリアするには、各フィルターの右上隅にある消しゴムアイコンをクリックします。![\| --- \| --- \|](assets/discover-basics-11.png) |
-| 「適用」ボタン | クリックして、ダッシュボードでフィルターの変更を確認し、実装します。![\| --- \| --- \|](assets/discover-3a-1.png) |
+| フィルター切り替えボタン | フィルターペインを開くか閉じるかを切り替えます。 ![\| --- \| --- \|](assets/discover-basics-9.png) |
+| 検索バー | フィルターパネルの上部にある検索を使用して、特定のフィルターを検索します。 各フィルターには、独自の検索バーもあります。 ![\| --- \| --- \|](assets/discover-basics-10.png) |
+| フィルターボタンをクリア | フィルターをクリアするには、各フィルターの右上隅にある消しゴムアイコンをクリックします。 ![\| --- \| --- \|](assets/discover-basics-11.png) |
+| 「適用」ボタン | クリックして、ダッシュボードでフィルターの変更を確認し、実装します。 ![\| --- \| --- \|](assets/discover-3a-1.png) |
 
 ## ビジュアル上のフィルター {#filters-on-visual}
 
@@ -65,7 +69,7 @@ ht-degree: 1%
 ### データの書き出し {#export-data}
 
 ビジュアルから基になるデータを書き出すには、右上隅にカーソルを合わせます。 「その他のオプション」ボタンをクリックし、「データの書き出し」を選択し、好みの形式を選択してから「書き出し」をクリックします。
-![ビジュアルから基になるデータを書き出すには、ビジュアルの右上にカーソルを合わせます](assets/discover-basics-6.gif)
+![&#x200B; ビジュアルから基になるデータを書き出すには、ビジュアルの右上にカーソルを合わせます](assets/discover-basics-6.gif)
 
 ### フォーカスモード {#focus-mode}
 

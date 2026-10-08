@@ -1,22 +1,26 @@
 ---
 unique-page-id: 18874676
-description: '[!DNL Marketo Measure]個のインサイトの説明 –  [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure]個のインサイトの説明 – [!DNL Marketo Measure]'
 title: '[!DNL Marketo Measure] Insights の説明'
 exl-id: d479a15f-4c92-4302-8ce8-6487645012e1
 feature: Reporting
-TQID: https://experienceleague.adobe.com/Q-c9KrauVQND9Yla4YLM6Vl5M1MxExRR-cD0-fOGZJQ
+TQID: 'https://experienceleague.adobe.com/Q-c9KrauVQND9Yla4YLM6Vl5M1MxExRR-cD0-fOGZJQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 455
+source-wordcount: '455'
 ht-degree: 0%
-
 ---
-
 # [!DNL Marketo Measure] Insights の説明 {#marketo-measure-insights-explained}
 
 様々なアイコンが何を表しているか、機能の使用方法など、[!DNL Salesforce]の[!DNL Marketo Measure] インサイトビューについて説明します。 この機能は、リード、取引先責任者、アカウントの最初の20件のセッションを確認するのに最も便利です。

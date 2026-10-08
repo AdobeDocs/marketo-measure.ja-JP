@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874743
-description: バウンス解除スクリプト マネージャーに [!DNL Marketo Measure] を接続しています –  [!DNL Marketo Measure]
-title: Unbounce Script Manager への [!DNL Marketo Measure] の接続
+description: '[!DNL Marketo Measure]をバウンス解除スクリプト マネージャーに接続しています – [!DNL Marketo Measure]'
+title: '[!DNL Marketo Measure]をバウンス解除スクリプト マネージャーに接続しています'
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-TQID: https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M
+TQID: 'https://experienceleague.adobe.com/Bo0BFhBLbNfX89BScumswE7WvVzztOak1P38xcXdk1M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 120
-ht-degree: 10%
-
+source-wordcount: '122'
+ht-degree: 7%
 ---
-
 # [!DNL Marketo Measure]をバウンス解除スクリプト マネージャーに接続しています {#connecting-marketo-measure-to-unbounce-script-manager}
 
 [!DNL Marketo Measure]はバウンス解除と直接統合され、ランディングページのコンバージョンのデジタルマーケティングソースを[!DNL Salesforce]で直接追跡できます。 接続するには、バウンス解除スクリプトマネージャーに[!DNL Marketo Measure] スクリプトを追加するだけです。 手順は次のとおりです。

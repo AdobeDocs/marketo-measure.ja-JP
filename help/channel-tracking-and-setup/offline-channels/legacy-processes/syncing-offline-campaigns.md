@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874600
-description: オフラインキャンペーンを同期しています –  [!DNL Marketo Measure]
+description: オフラインキャンペーンを同期しています – [!DNL Marketo Measure]
 title: オフラインキャンペーンの同期
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-TQID: https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo
+TQID: 'https://experienceleague.adobe.com/ltakDiD8y340M4KAMrInxoUjM1jGCIMmLs1stypPXzo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: '752'
 ht-degree: 9%
-
 ---
-
 # オフラインキャンペーンの同期 {#syncing-offline-campaigns}
 
 オフラインキャンペーンを正確に追跡し、デジタルマーケティング施策との比較を把握するのは容易なことではありません。 [!DNL Marketo Measure]を使用すると、イベントの数週間後まで[!DNL Salesforce] キャンペーンが作成されない場合でも、[!DNL Salesforce]でタッチポイントを追跡し、オフラインキャンペーンに属性を付けることができます。
@@ -65,13 +67,13 @@ ht-degree: 9%
 ![](assets/4-3.png)
 
 * **すべてのキャンペーンメンバーを含める**
-   * このオプションを使用すると、[!DNL Marketo Measure]は各キャンペーンメンバーにタッチポイントを関連付けることができます。
+  * このオプションを使用すると、[!DNL Marketo Measure]は各キャンペーンメンバーにタッチポイントを関連付けることができます。
 
 * **「応答済み」キャンペーンメンバーを含めます。**
-   * このオプションは、「応答済み」ステータスを持つキャンペーンメンバーにタッチポイントを適用します。
+  * このオプションは、「応答済み」ステータスを持つキャンペーンメンバーにタッチポイントを適用します。
 
 * **すべてのキャンペーンメンバーを除外します。**
-   * このオプションは、タッチポイントがキャンペーン内のメンバーに属するものではなく、キャンペーンが[!DNL Marketo Measure]から意図的に除外されたフラグとして機能します。 キャンペーンを購入者のタッチポイントと誤って同期した場合、ステータスを「すべてのキャンペーンメンバーを除外」に変更すると、タッチポイントが削除されます。
+  * このオプションは、タッチポイントがキャンペーン内のメンバーに属するものではなく、キャンペーンが[!DNL Marketo Measure]から意図的に除外されたフラグとして機能します。 キャンペーンを購入者のタッチポイントと誤って同期した場合、ステータスを「すべてのキャンペーンメンバーを除外」に変更すると、タッチポイントが削除されます。
 
 これらの選択のいずれかを選択すると、[!DNL Marketo Measure]は、該当する場合、各キャンペーンメンバーにタッチポイントを割り当てます。 キャンペーン _に追加されたリードまたは取引先責任者には、[!DNL Marketo Measure]がタッチポイントを作成するために、レコードにメールアドレスが関連付けられている必要があります_。 メールアドレスがない場合、[!DNL Marketo Measure] ではキャンペーンメンバーにタッチポイントを割り当てません。
 

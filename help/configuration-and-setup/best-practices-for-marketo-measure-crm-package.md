@@ -1,58 +1,65 @@
 ---
-description: Marketo Measure ユーザー向けの  [!DNL Marketo Measure] CRM パッケージガイダンスのベストプラクティス
-title: ' [!DNL Marketo Measure] CRM パッケージのベストプラクティス'
+description: Marketo Measure ユーザー向け[!DNL Marketo Measure] CRM パッケージ ガイダンスのベストプラクティス
+title: '[!DNL Marketo Measure] CRM パッケージのベストプラクティス'
 exl-id: 97ce0ff3-8aa5-4789-9ee0-25d68c001def
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 8%
-
 ---
 
-
-# CRM パッケージ [!DNL Marketo Measure] ベストプラクティス {#best-practices-for-marketo-measure-crm-package}
+# [!DNL Marketo Measure] CRM パッケージのベストプラクティス {#best-practices-for-marketo-measure-crm-package}
 
 >[!NOTE]
->ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 この情報は更新され、ブランド変更はすぐに CRM に反映されます。
+>ドキュメント内に「[!DNL Marketo Measure]」を指定する手順が記載されている場合がありますが、CRM には引き続き「Bizible」と表示されます。 リブランディングはすぐにCRMに反映されます。
 
 ## 概要 {#overview}
 
-[!DNL Marketo Measure] は [!DNL Salesforce] と [!DNL Microsoft Dynamics] の両方と統合されているため、このドキュメントでは、[!DNL Salesforce] 用に設計された CRM パッケージの [!DNL Marketo Measure] のベストプラクティスに焦点を当てています。
+[!DNL Marketo Measure]は[!DNL Salesforce]と[!DNL Microsoft Dynamics]の両方と統合されています。このドキュメントでは、[!DNL Salesforce]向けに設計されたCRM パッケージの[!DNL Marketo Measure]のベストプラクティスに焦点を当てています。
 
-実装時に、[!DNL Salesforce] インスタンスに次の 2 つのパッケージがインストールされていました。
+実装中に、次の2つのパッケージが[!DNL Salesforce] インスタンスにインストールされました。
 
-ベースパッケージ：カスタムオブジェクトとフィールドを含むベースパッケージです。 すべてのユーザーに対して、を実稼動環境にインストールすることをお勧めします。
-ダッシュボード拡張機能パッケージ：これはアドビのダッシュボード拡張機能パッケージで、3 つの事前定義済みダッシュボードが含まれています。 すべてのユーザーに対して、実稼動環境にをインストールすることをお勧めします。 これはオプションですが、のインストールをお勧めします。
+基本パッケージ：カスタムオブジェクトとフィールドを含む基本パッケージです。 すべてのユーザーは実稼動環境にインストールすることをお勧めします。
+ダッシュボード拡張機能パッケージ：これは、3つの事前定義済みのダッシュボードを含むダッシュボード拡張機能パッケージです。 すべてのユーザーには、実稼動環境にインストールすることをお勧めします。 これはオプションですが、インストールすることをお勧めします。
 
-これらのパッケージを使用すると、[!DNL Marketo Measure] ユーザーは [!DNL Salesforce] インスタンス全体のタッチポイントデータに簡単にアクセスできます。 これらのパッケージが正しく設定されていることを確認することは、ページレイアウト、権限セット、レポートおよびダッシュボードが [!DNL Marketo Measure] ユーザーに期待どおりに表示されていることを確認するうえで重要です。
+これらのパッケージにより、[!DNL Marketo Measure] ユーザーは[!DNL Salesforce] インスタンス全体でタッチポイントデータに簡単にアクセスできます。 これらのパッケージが正しく設定されていることを確認することは、ページレイアウト、権限セット、レポート、ダッシュボードが[!DNL Marketo Measure] ユーザーに期待どおりに表示されていることを確認するための重要な鍵となります。
 
 ## ベストプラクティス {#best-practice}
 
-[!DNL Marketo Measure] [!DNL Salesforce] パッケージを実装および管理する際は、次のベストプラクティスに留意してください。
+[!DNL Marketo Measure] [!DNL Salesforce] パッケージを実装および管理する際は、次のベストプラクティスを念頭に置いてください。
 
-* 必要なチームメンバー全員が、[!DNL Marketo Measure] のレポートフォルダーにアクセスできることを確認します。 1～3 個の [!DNL Marketo Measure] フォルダーが必要です（これらは以下で説明します）。 アクセスを開くには、パッケージをインストールしたユーザーが、適切なユーザーや役割とレポートフォルダーを共有する必要があります。
-   * **Buyer Touchpoint レポート** – すべてのユーザーが利用できます
-   * **[!DNL Marketo Measure]アカウントベースのマーケティングレポート** - レポートは、階層 2 以上の顧客にのみ入力されます
-   * **Buyer Touchpoint ダッシュボード** – すべてのユーザーが利用できますが、このパッケージはオプションです。
+* 必要なすべてのチームメンバーが[!DNL Marketo Measure] レポートフォルダーにアクセスできることを確認します。 1 ～ 3 [!DNL Marketo Measure]個のフォルダーが必要です（これらは以下で説明します）。 アクセスを開くには、パッケージをインストールしたユーザーが、適切なユーザーまたは役割とレポートフォルダーを共有する必要があります。
+  * **Buyer Touchpoint レポート** – すべてのユーザーが利用できます
+  * **[!DNL Marketo Measure]アカウントベースドマーケティングレポート** - レポートは、階層2以上の顧客にのみ入力されます
+  * **Buyer Touchpoint ダッシュボード** – このパッケージはオプションですが、誰でも利用できます。
 
 ## メンテナンスのベストプラクティス {#best-practice-for-maintenance}
 
-CRM パッケージの設定は最初の実装時にカバーされますが、CRM パッケージの設定は年に 1 回レビューすることをお勧めします。 このレビューでは、すべてのページレイアウトが正しく設定され、適切なチームメンバー全員がレポートとダッシュボードにアクセスでき [!DNL Marketo Measure] ことを確認します。
+CRM パッケージのセットアップは初期実装中に行われますが、CRM パッケージのセットアップは年に1回確認することをお勧めします。 このレビューにより、すべてのページレイアウトが正しく設定され、すべての適切なチームメンバーが[!DNL Marketo Measure]件のレポートとダッシュボードにアクセスできることが確認されます。
 
-レビューをトリガーとするその他の理由…
+その他の理由により、レビューがトリガーされる可能性があります。
 
 * 新しいチームメンバーの追加
 * [!DNL Salesforce] ページレイアウトの更新
-* [!DNL Salesforce] Classic から Lightning への移行
-* [!DNL Marketo Measure] 契約のアップグレード
-* 最新バージョンのバイヤータッチポイントパッケージが [!DNL Salesforce] にインストールされていることを確認します
+* [!DNL Salesforce] ClassicからLighteningへの移行
+* [!DNL Marketo Measure] コントラクトへのアップグレード
+* [!DNL Salesforce]に最新バージョンのBuyer Touchpoints パッケージがインストールされていることを確認してください
 
 >[!NOTE]
->Salesforceへのデータの書き出しを無効にしても、既存のMarketo Measureは削除されません。 削除するには、[&#x200B; このSalesforce ヘルプ記事 &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"} の手順に従います。
+>Marketo MeasureからSalesforceへのデータの書き出しを無効にすると、既存のデータは削除されません。 削除するには、[このSalesforce ヘルプ記事](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}の手順に従います。
 
 >[!MORELIKETHIS]
-> [Buyer Touchpoint パッケージの更新 &#x200B;](/help/configuration-and-setup/install-set-up.md)
-> [[!DNL Marketo Measure] 権限セット &#x200B;](/help/configuration-and-setup/marketo-measure-permission-sets.md)
-> [報告書とダッシュボードの共有フォルダー &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
-> [Marketo MeasureをSalesforceに接続する &#x200B;](/help/configuration-and-setup/connect-marketo-measure-to-salesforce.md)
+> [Buyer Touchpoint パッケージの更新](/help/configuration-and-setup/install-set-up.md)
+> [[!DNL Marketo Measure] 権限セット](/help/configuration-and-setup/marketo-measure-permission-sets.md)
+> [レポートとダッシュボードフォルダーの共有](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [Marketo MeasureをSalesforceに接続](/help/configuration-and-setup/connect-marketo-measure-to-salesforce.md)

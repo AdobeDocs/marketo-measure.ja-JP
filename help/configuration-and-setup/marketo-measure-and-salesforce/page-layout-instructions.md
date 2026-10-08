@@ -1,21 +1,27 @@
 ---
 unique-page-id: 18874799
-description: ページレイアウトの手順 - [!DNL Marketo Measure]
+description: ページレイアウト手順 – [!DNL Marketo Measure]
 title: ページレイアウトの手順
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8
+TQID: 'https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 840
-ht-degree: 100%
-
+source-wordcount: '840'
+ht-degree: 99%
 ---
-
 # ページレイアウトの手順 {#page-layout-instructions}
 
 >[!NOTE]
@@ -115,7 +121,7 @@ ht-degree: 100%
    * Touchpoint の位置
    * Touchpoint の日付
 
-1. 並べ替え基準：Touchpoint 日（昇順）。
+1. 並べ替え基準：顧客接点日付（昇順）。
 
    ![](assets/6.jpg)
 
@@ -189,7 +195,7 @@ ht-degree: 100%
    * 収益 W 字型（_または最も堅牢なアトリビューションモデル（フルパスやカスタムなど）_）
    * Touchpoint の日付
 
-1. 並べ替え基準：タッチポイントの日付／昇順。
+1. 顧客接点日付で並べ替え > 昇順。
 
 1. 「[!UICONTROL ボタン]」セクション内の「**[!UICONTROL 新規]**」の選択を解除します。
 

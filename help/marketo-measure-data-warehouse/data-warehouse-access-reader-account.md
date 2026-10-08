@@ -3,19 +3,23 @@ description: Data Warehouse Access - Reader Account – 製品ドキュメント
 title: データウェアハウスへのアクセス - Reader アカウント
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-TQID: https://experienceleague.adobe.com/3ZD-17UlkoJpMExA-ZdV-coGFa0DSeZMW0gjFZodlMM
+TQID: 'https://experienceleague.adobe.com/3ZD-17UlkoJpMExA-ZdV-coGFa0DSeZMW0gjFZodlMM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 490
+source-wordcount: '490'
 ht-degree: 2%
-
 ---
-
 # データウェアハウスへのアクセス - Reader アカウント {#data-warehouse-access-reader-account}
 
 ## Snowflake Access Link {#snowflake-access-link}
@@ -72,14 +76,14 @@ Snowflakeとサードパーティ製品を連携させるには、いくつか�
 >各ツールには異なる接続要件があります。接続しようとしている特定のツールのドキュメントを参照することをお勧めします。
 
 * **URI** （常に必須）
-   * これは、Snowflake アカウントのドメイン名です。 これは、Snowflake ログインリンクの一部に含まれています。
+  * これは、Snowflake アカウントのドメイン名です。 これは、Snowflake ログインリンクの一部に含まれています。
 * **ユーザー名** （常に必須）
-   * ユーザー名は、[!DNL Marketo Measure]のData Warehouse情報ページに表示されます。
+  * ユーザー名は、[!DNL Marketo Measure]のData Warehouse情報ページに表示されます。
 * **パスワード** （常に必須）
-   * これは、Snowflake アカウントに初めてログインしたときに設定したパスワードです。 パスワードをリセットするには、上記の手順を参照してください。
+  * これは、Snowflake アカウントに初めてログインしたときに設定したパスワードです。 パスワードをリセットするには、上記の手順を参照してください。
 * **データベース名** （必ずしも必須ではありません）
-   * データベースは、Snowflakeのデータを格納する場所です。 これはストレージリソースです。 データベース名は、[!DNL Marketo Measure]のData Warehouse情報ページに一覧表示されます。
+  * データベースは、Snowflakeのデータを格納する場所です。 これはストレージリソースです。 データベース名は、[!DNL Marketo Measure]のData Warehouse情報ページに一覧表示されます。
 * **ウェアハウス名** （必ずしも必須ではありません）
-   * Snowflakeでは、クエリを実行するのがデータウェアハウスです。 計算リソースです。 ウェアハウス名は、[!DNL Marketo Measure]のData Warehouse情報ページに表示されます。
+  * Snowflakeでは、クエリを実行するのがデータウェアハウスです。 計算リソースです。 ウェアハウス名は、[!DNL Marketo Measure]のData Warehouse情報ページに表示されます。
 
   ![](assets/data-warehouse-access-reader-account-9.png)
