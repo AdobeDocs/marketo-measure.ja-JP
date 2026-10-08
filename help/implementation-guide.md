@@ -56,7 +56,7 @@ Ultimate ユーザーはAEPでプロビジョニングされます。 AEPを既�
 
 ![&42; スキーマはクラスと0個以上のスキーマフィールドで構成されています](assets/marketo-guide-1.png)
 
-[&#x200B; データセットの概要](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: AEPに正常に取り込まれたすべてのデータは、データセットとしてデータレイク内に保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
+[&#x200B; データセットの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview#){target="_blank"}: AEPに正常に取り込まれたすべてのデータは、データセットとしてデータレイク内に保持されます。 データセットは、スキーマ（列）とフィールド（行）を含むテーブルなど、データの集まりのストレージと管理の構成体です。
 
 ## スキーマの作成 {#creating-a-schema}
 
