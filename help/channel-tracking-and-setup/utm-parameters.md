@@ -25,11 +25,11 @@ UTM パラメーターは、URL に手動で追加することも、特定のプ
 
 UTM パラメーターの仕組みを理解するために、まずは UTM を含まない一般的な URL を見てみましょう。
 
-`http://www.adobe.com`
+`http://www.adobe.com/jp`
 
 次に、UTM を含む URL を確認します。
 
-`http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
+`http://www.adobe.com/jp?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
 2 つ目のリンクには、さらに多くのテキストが含まれています。 UTM パラメーターは、常にトップレベルドメイン（この例では .com）の後ろに配置され、疑問符で始まります。 これ以降、パラメーターの順序は関係ありませんが、一貫した命名規則に従うことをお勧めします。 各 UTM を区切るために、各パラメーターの間にアンパサンドを配置する必要があります。 次に、各パラメーターが何を表しているのかについて、さらに詳しく説明します。
 
