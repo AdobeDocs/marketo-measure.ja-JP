@@ -42,7 +42,7 @@ ht-degree: 78%
   </tr>
   <tbody>
     <tr>
-      <td colspan="7"><strong>アカウント</strong>（Salesforce 用のアカウント、Marketo 用の会社／指定アカウント）</td>
+      <td colspan="7"><strong>アカウント</strong>（Salesforce 用のアカウント、Marketo 用の会社／重点アカウント）</td>
     </tr>
     <tr>
       <td rowspan="6">XDM ビジネスアカウント</td>
